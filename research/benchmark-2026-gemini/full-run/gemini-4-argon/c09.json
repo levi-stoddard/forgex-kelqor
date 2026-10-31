@@ -1,0 +1,548 @@
+{
+  "company": {
+    "id": "c09",
+    "name": "MicroTech Systems",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.microtechboise.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:35:34.936Z",
+  "finishedAt": "2026-10-27T18:36:44.404Z",
+  "report": {
+    "identity": {
+      "name": "MicroTech Systems",
+      "location": "Boise / Garden City, Idaho (125 E 50th Street, Boise/Garden City, ID 83714)",
+      "claims": [
+        {
+          "statement": "MicroTech Systems lists its address in the footer as 125 E 50th Street, Boise, ID 83714 and operating hours as 9AM - 5PM Monday-Friday.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/",
+          "quote": "Microtech Systems 125 E 50th Street , Boise, ID 83714 | 9AM - 5PM Monday-Friday"
+        },
+        {
+          "statement": "The Contact Us page lists the street address at 125 E 50th St in Garden City, ID 83714.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/contact-us",
+          "quote": "125 E 50th St, Garden City, ID 83714"
+        },
+        {
+          "statement": "MicroTech Systems states that it started as a family business in 1970.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/en/about-microtech",
+          "quote": "We started as a family business in 1970"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Managed IT Services Provider (MSP) and Cybersecurity Services",
+      "activities": [
+        "Managed IT services and ongoing IT support",
+        "24x7 remote network monitoring",
+        "Cybersecurity services, antivirus, and encrypted cloud backups",
+        "Cloud IT solutions and Microsoft 365 migration",
+        "Windows server management",
+        "AI-powered internal security solutions and custom AI security integration"
+      ],
+      "claims": [
+        {
+          "statement": "MicroTech Systems operates as a Managed IT Service Provider in Boise offering ongoing Managed IT Services.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/",
+          "quote": "As your dedicated IT support company in Boise, we provide ongoing Managed IT Services to ensure your business runs consistently and efficiently."
+        },
+        {
+          "statement": "The company provides IT support, proactive network monitoring, cybersecurity, cloud solutions, and Microsoft 365 migration.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/",
+          "quote": "MicroTech provides ongoing IT support, proactive network monitoring, cybersecurity, cloud solutions, and Microsoft 365 migration to ensure your business runs efficiently."
+        },
+        {
+          "statement": "MicroTech Systems sells AI-powered internal IT security solutions and custom AI solutions integration to other businesses.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/ai-internal-security-solutions",
+          "quote": "Safeguard your organization from insider threats, unauthorized access, and hidden vulnerabilities with AI-powered internal IT security solutions from MicroTech Systems."
+        },
+        {
+          "statement": "MicroTech Systems is a B2B technology and IT services provider rather than a home-service contractor in HVAC, plumbing, or electrical.",
+          "label": "inference",
+          "sourceUrl": "https://www.microtechboise.com/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.microtechboise.com/",
+      "claims": [
+        {
+          "statement": "The company claims over 50 years of experience serving small and midsize businesses in the Boise area.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/",
+          "quote": "With over 50 years of experience serving Boise small and midsize businesses, we deliver solutions that minimize downtime and maximize productivity."
+        },
+        {
+          "statement": "MicroTech Systems markets a 5-Star Promise that discounts the client's bill if predefined service criteria are not met.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/en/about-microtech",
+          "quote": "And, if we don’t meet it, we discount the bill."
+        },
+        {
+          "statement": "The homepage contains multiple blocks of unreplaced placeholder text ('Lorem ipsum dolor sit amet').",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/",
+          "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id egestas nunc, habitasse ipsum."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The About Us page mentions that industry certifications are near-standard practice, and the AI security page refers to 'certified engineers', without listing specific license or registration numbers.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/ai-internal-security-solutions",
+          "quote": "Our certified engineers install, configure, and optimize AI security modules with minimal disruption."
+        }
+      ],
+      "limitations": "No state contractor license numbers, corporate registration numbers, or specific vendor certification IDs are stated on the pages read."
+    },
+    "existingSoftware": [
+      {
+        "product": "TechCare™",
+        "purpose": "Proprietary IT support service framework for network monitoring, malware protection, automated backups, and Windows server management",
+        "evidence": {
+          "statement": "MicroTech describes TechCare™ as its proprietary IT support service in Boise.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/",
+          "quote": "TechCare™ is the proprietary IT support service offered by MicroTech in Boise."
+        }
+      },
+      {
+        "product": "AI-driven monitoring, automated incident response, and security integration tools",
+        "purpose": "Internal threat detection, alert prioritization, and automated security response",
+        "evidence": {
+          "statement": "MicroTech states that its AI systems integrate with security infrastructure to automate alerts, responses, and containment steps.",
+          "label": "fact",
+          "sourceUrl": "https://www.microtechboise.com/ai-internal-security-solutions",
+          "quote": "Our AI systems integrate with your security infrastructure to automate alerts, responses, and containment steps, reducing human workload and downtime."
+        }
+      },
+      {
+        "product": "HubSpot CMS / Marketing & Forms Platform",
+        "purpose": "Website hosting, content management, forms, and call-to-action tracking",
+        "evidence": {
+          "statement": "The website loads scripts and references hosts such as app-na2.hubspot.com, cp-na2.hubspot.com, and _hcms/forms/v2.js, which indicate usage of HubSpot.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Google Tag Manager",
+        "purpose": "Website tag and analytics management",
+        "evidence": {
+          "statement": "Pages on the website embed frames from googletagmanager.com, indicating use of Google Tag Manager.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The homepage contains a section with unedited placeholder text ('What this service helps to do. Lorem ipsum dolor sit amet').",
+        "label": "fact",
+        "sourceUrl": "https://www.microtechboise.com/",
+        "quote": "What this service helps to do. Lorem ipsum dolor sit amet"
+      },
+      {
+        "statement": "The Submit a Ticket page displays contact details and headings to create a ticket, though no HTML form target was detected directly in the static DOM.",
+        "label": "inference",
+        "sourceUrl": "https://www.microtechboise.com/submit_ticket",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Website quality control gap evidenced by unreplaced 'Lorem ipsum' placeholder copy on the live homepage.",
+        "label": "fact",
+        "basis": "Directly observable on https://www.microtechboise.com/ under the heading 'What this service helps to do.'"
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Website CMS editing and internal MSP automation/ticketing tools",
+        "addresses": "Updating website placeholder copy and managing IT support ticket triage and AI monitoring",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because MicroTech Systems is a Managed IT Services Provider outside ForgeX's home-service contractor segment and already builds and sells its own IT and AI automation services."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended."
+    },
+    "humanReview": [],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Pitching basic automation services to an established Managed IT Services Provider that already markets custom AI security integrations and automated IT monitoring is misaligned with ForgeX's positioning."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / President",
+        "Director of Operations / Service Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.microtechboise.com/contact-us"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.microtechboise.com/",
+          "usedFor": "Business identity, location, core IT/MSP service offerings, TechCare™ description, and homepage content check"
+        },
+        {
+          "url": "https://www.microtechboise.com/en/about-microtech",
+          "usedFor": "Company history (founded 1970 as a family business) and 5-Star Promise details"
+        },
+        {
+          "url": "https://www.microtechboise.com/contact-us",
+          "usedFor": "Verified business contact email and Garden City/Boise street address"
+        },
+        {
+          "url": "https://www.microtechboise.com/submit_ticket",
+          "usedFor": "Support ticket submission page inspection"
+        },
+        {
+          "url": "https://www.microtechboise.com/ai-internal-security-solutions",
+          "usedFor": "Evidence that MicroTech Systems already sells AI-driven monitoring, automated incident response, and custom AI integrations"
+        },
+        {
+          "url": "https://www.microtechboise.com/blog/boise-managed-it-services-provider-leveraging-ai-for-faster-it-support",
+          "usedFor": "Additional context on MicroTech's use of AI for alert prioritization, monitoring, and routine IT task automation"
+        }
+      ],
+      "limitations": [
+        "Employee headcount is not stated on the pages read.",
+        "No owners, executives, or managers are formally identified by title on the company's About Us or Contact Us pages (names appear only inside customer testimonials, which are excluded under ForgeX rules).",
+        "No service pricing is published on the website.",
+        "Forms appear to be dynamically injected via script rather than static HTML form tags."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "MicroTech Systems is a B2B Managed IT Services Provider (MSP) and cybersecurity firm in Boise/Garden City, Idaho, rather than a home-service contractor in HVAC, plumbing, or electrical. Furthermore, MicroTech Systems already provides managed IT services, 24/7 automated monitoring, and custom AI security and automation solutions to its own business clients."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.microtechboise.com/",
+        "quote": "Microtech Systems 125 E 50th Street , Boise, ID 83714 | 9AM - 5PM Monday-Friday",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.microtechboise.com/contact-us",
+        "quote": "125 E 50th St, Garden City, ID 83714",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.microtechboise.com/en/about-microtech",
+        "quote": "We started as a family business in 1970",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.microtechboise.com/",
+        "quote": "As your dedicated IT support company in Boise, we provide ongoing Managed IT Services to ensure your business runs consistently and efficiently.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.microtechboise.com/",
+        "quote": "MicroTech provides ongoing IT support, proactive network monitoring, cybersecurity, cloud solutions, and Microsoft 365 migration to ensure your business runs efficiently.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.microtechboise.com/ai-internal-security-solutions",
+        "quote": "Safeguard your organization from insider threats, unauthorized access, and hidden vulnerabilities with AI-powered internal IT security solutions from MicroTech Systems.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.microtechboise.com/",
+        "quote": "With over 50 years of experience serving Boise small and midsize businesses, we deliver solutions that minimize downtime and maximize productivity.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.microtechboise.com/en/about-microtech",
+        "quote": "And, if we don’t meet it, we discount the bill.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.microtechboise.com/",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id egestas nunc, habitasse ipsum.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.microtechboise.com/ai-internal-security-solutions",
+        "quote": "Our certified engineers install, configure, and optimize AI security modules with minimal disruption.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.microtechboise.com/",
+        "quote": "TechCare™ is the proprietary IT support service offered by MicroTech in Boise.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.microtechboise.com/ai-internal-security-solutions",
+        "quote": "Our AI systems integrate with your security infrastructure to automate alerts, responses, and containment steps, reducing human workload and downtime.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.microtechboise.com/",
+        "quote": "What this service helps to do. Lorem ipsum dolor sit amet",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.microtechboise.com/contact-us",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 13,
+      "quotesFound": 13,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 2,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.microtechboise.com/",
+      "finalUrl": "https://www.microtechboise.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:35:38.044Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 216104,
+      "truncated": false,
+      "sha256": "a53931ce107c44cdb7bc33573423004d0da7c1ad67636a783091eec6c63b3b40",
+      "textSha256": "51a56c33cb53d30e4a0bfbe3c0e3bf0b018eb74353051422999306358ae86c77",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.microtechboise.com/en/about-microtech",
+      "finalUrl": "https://www.microtechboise.com/en/about-microtech",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:35:44.131Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 98901,
+      "truncated": false,
+      "sha256": "def1701a9ec0795a36e6c387e5862f0ecfbd8f1f0f406689006caf93a55dc1c4",
+      "textSha256": "1cddfdbcbb149ebb8b92dd49d358ad2770f09fd3fff0fba2a76179b7ffd1c604",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.microtechboise.com/contact-us",
+      "finalUrl": "https://www.microtechboise.com/contact-us",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:35:47.084Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 66896,
+      "truncated": false,
+      "sha256": "1efea1c05676bd670c9c648743b69ad0517d950f17cd0bf4353d4bccd0ec4d99",
+      "textSha256": "47608b5aa8ba226d51d5d8a80bb4beb96a6507ecc26eec1c98503d5a9b6a7865",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.microtechboise.com/submit_ticket",
+      "finalUrl": "https://www.microtechboise.com/submit_ticket",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:35:50.090Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 63719,
+      "truncated": false,
+      "sha256": "20488218c07177dd4d2f5fc8da5fdcdc4e86d7f9643ecf7dee1161e3025efb51",
+      "textSha256": "650de620f9e49088215c7a4094161e12de3abacab6009b98054a708929416a3f",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.microtechboise.com/ai-internal-security-solutions",
+      "finalUrl": "https://www.microtechboise.com/ai-internal-security-solutions",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:35:53.146Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 103713,
+      "truncated": false,
+      "sha256": "a9f54256dbf003abe998f20fc92780bb153d3691c6932a5d32c98782d0792085",
+      "textSha256": "e26bf5eb3028adb744205aacbd875a5bfa68809eb845f992102563611227ced5",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.microtechboise.com/blog/boise-managed-it-services-provider-leveraging-ai-for-faster-it-support",
+      "finalUrl": "https://www.microtechboise.com/blog/boise-managed-it-services-provider-leveraging-ai-for-faster-it-support",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:35:59.787Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 58051,
+      "truncated": false,
+      "sha256": "dd4884eec3a7e885148467da52c213b0a5775fe69d2fa6cec9c9b863793a5a1f",
+      "textSha256": "496ace5465e9d28d6eeae9a75ed80e1c9dd13f80cb4a1886963267f67a51e143",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.microtechboise.com/en/about-microtech",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.microtechboise.com/contact-us",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.microtechboise.com/submit_ticket",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.microtechboise.com/ai-internal-security-solutions",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.microtechboise.com/blog/boise-managed-it-services-provider-leveraging-ai-for-faster-it-support",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 49186,
+    "cachedInput": 18322,
+    "output": 3182,
+    "thinking": 1117,
+    "toolUse": 0,
+    "total": 53485
+  },
+  "costUsd": 0.10655019999999998,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2331067",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.microtechboise.com/en/about-microtech"
+      }
+    },
+    {
+      "id": "call_2331068",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.microtechboise.com/contact-us"
+      }
+    },
+    {
+      "id": "call_2331069",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.microtechboise.com/submit_ticket"
+      }
+    },
+    {
+      "id": "call_2331070",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.microtechboise.com/ai-internal-security-solutions"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1627814",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.microtechboise.com/blog/boise-managed-it-services-provider-leveraging-ai-for-faster-it-support"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"MicroTech Systems\",\n    \"location\": \"Boise / Garden City, Idaho (125 E 50th Street, Boise/Garden City, ID 83714)\",\n    \"claims\": [\n      {\n        \"statement\": \"MicroTech Systems lists its address in the footer as 125 E 50th Street, Boise, ID 83714 and operating hours as 9AM - 5PM Monday-Friday.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/\",\n        \"quote\": \"Microtech Systems 125 E 50th Street , Boise, ID 83714 | 9AM - 5PM Monday-Friday\"\n      },\n      {\n        \"statement\": \"The Contact Us page lists the street address at 125 E 50th St in Garden City, ID 83714.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/contact-us\",\n        \"quote\": \"125 E 50th St, Garden City, ID 83714\"\n      },\n      {\n        \"statement\": \"MicroTech Systems states that it started as a family business in 1970.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/en/about-microtech\",\n        \"quote\": \"We started as a family business in 1970\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Managed IT Services Provider (MSP) and Cybersecurity Services\",\n    \"activities\": [\n      \"Managed IT services and ongoing IT support\",\n      \"24x7 remote network monitoring\",\n      \"Cybersecurity services, antivirus, and encrypted cloud backups\",\n      \"Cloud IT solutions and Microsoft 365 migration\",\n      \"Windows server management\",\n      \"AI-powered internal security solutions and custom AI security integration\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"MicroTech Systems operates as a Managed IT Service Provider in Boise offering ongoing Managed IT Services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/\",\n        \"quote\": \"As your dedicated IT support company in Boise, we provide ongoing Managed IT Services to ensure your business runs consistently and efficiently.\"\n      },\n      {\n        \"statement\": \"The company provides IT support, proactive network monitoring, cybersecurity, cloud solutions, and Microsoft 365 migration.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/\",\n        \"quote\": \"MicroTech provides ongoing IT support, proactive network monitoring, cybersecurity, cloud solutions, and Microsoft 365 migration to ensure your business runs efficiently.\"\n      },\n      {\n        \"statement\": \"MicroTech Systems sells AI-powered internal IT security solutions and custom AI solutions integration to other businesses.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/ai-internal-security-solutions\",\n        \"quote\": \"Safeguard your organization from insider threats, unauthorized access, and hidden vulnerabilities with AI-powered internal IT security solutions from MicroTech Systems.\"\n      },\n      {\n        \"statement\": \"MicroTech Systems is a B2B technology and IT services provider rather than a home-service contractor in HVAC, plumbing, or electrical.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.microtechboise.com/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.microtechboise.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company claims over 50 years of experience serving small and midsize businesses in the Boise area.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/\",\n        \"quote\": \"With over 50 years of experience serving Boise small and midsize businesses, we deliver solutions that minimize downtime and maximize productivity.\"\n      },\n      {\n        \"statement\": \"MicroTech Systems markets a 5-Star Promise that discounts the client's bill if predefined service criteria are not met.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/en/about-microtech\",\n        \"quote\": \"And, if we don’t meet it, we discount the bill.\"\n      },\n      {\n        \"statement\": \"The homepage contains multiple blocks of unreplaced placeholder text ('Lorem ipsum dolor sit amet').\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/\",\n        \"quote\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id egestas nunc, habitasse ipsum.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The About Us page mentions that industry certifications are near-standard practice, and the AI security page refers to 'certified engineers', without listing specific license or registration numbers.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/ai-internal-security-solutions\",\n        \"quote\": \"Our certified engineers install, configure, and optimize AI security modules with minimal disruption.\"\n      }\n    ],\n    \"limitations\": \"No state contractor license numbers, corporate registration numbers, or specific vendor certification IDs are stated on the pages read.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"TechCare™\",\n      \"purpose\": \"Proprietary IT support service framework for network monitoring, malware protection, automated backups, and Windows server management\",\n      \"evidence\": {\n        \"statement\": \"MicroTech describes TechCare™ as its proprietary IT support service in Boise.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/\",\n        \"quote\": \"TechCare™ is the proprietary IT support service offered by MicroTech in Boise.\"\n      }\n    },\n    {\n      \"product\": \"AI-driven monitoring, automated incident response, and security integration tools\",\n      \"purpose\": \"Internal threat detection, alert prioritization, and automated security response\",\n      \"evidence\": {\n        \"statement\": \"MicroTech states that its AI systems integrate with security infrastructure to automate alerts, responses, and containment steps.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.microtechboise.com/ai-internal-security-solutions\",\n        \"quote\": \"Our AI systems integrate with your security infrastructure to automate alerts, responses, and containment steps, reducing human workload and downtime.\"\n      }\n    },\n    {\n      \"product\": \"HubSpot CMS / Marketing & Forms Platform\",\n      \"purpose\": \"Website hosting, content management, forms, and call-to-action tracking\",\n      \"evidence\": {\n        \"statement\": \"The website loads scripts and references hosts such as app-na2.hubspot.com, cp-na2.hubspot.com, and _hcms/forms/v2.js, which indicate usage of HubSpot.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google Tag Manager\",\n      \"purpose\": \"Website tag and analytics management\",\n      \"evidence\": {\n        \"statement\": \"Pages on the website embed frames from googletagmanager.com, indicating use of Google Tag Manager.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The homepage contains a section with unedited placeholder text ('What this service helps to do. Lorem ipsum dolor sit amet').\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.microtechboise.com/\",\n      \"quote\": \"What this service helps to do. Lorem ipsum dolor sit amet\"\n    },\n    {\n      \"statement\": \"The Submit a Ticket page displays contact details and headings to create a ticket, though no HTML form target was detected directly in the static DOM.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://www.microtechboise.com/submit_ticket\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Website quality control gap evidenced by unreplaced 'Lorem ipsum' placeholder copy on the live homepage.\",\n      \"label\": \"fact\",\n      \"basis\": \"Directly observable on https://www.microtechboise.com/ under the heading 'What this service helps to do.'\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Website CMS editing and internal MSP automation/ticketing tools\",\n      \"addresses\": \"Updating website placeholder copy and managing IT support ticket triage and AI monitoring\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because MicroTech Systems is a Managed IT Services Provider outside ForgeX's home-service contractor segment and already builds and sells its own IT and AI automation services.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Pitching basic automation services to an established Managed IT Services Provider that already markets custom AI security integrations and automated IT monitoring is misaligned with ForgeX's positioning.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / President\",\n      \"Director of Operations / Service Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.microtechboise.com/contact-us\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.microtechboise.com/\",\n        \"usedFor\": \"Business identity, location, core IT/MSP service offerings, TechCare™ description, and homepage content check\"\n      },\n      {\n        \"url\": \"https://www.microtechboise.com/en/about-microtech\",\n        \"usedFor\": \"Company history (founded 1970 as a family business) and 5-Star Promise details\"\n      },\n      {\n        \"url\": \"https://www.microtechboise.com/contact-us\",\n        \"usedFor\": \"Verified business contact email and Garden City/Boise street address\"\n      },\n      {\n        \"url\": \"https://www.microtechboise.com/submit_ticket\",\n        \"usedFor\": \"Support ticket submission page inspection\"\n      },\n      {\n        \"url\": \"https://www.microtechboise.com/ai-internal-security-solutions\",\n        \"usedFor\": \"Evidence that MicroTech Systems already sells AI-driven monitoring, automated incident response, and custom AI integrations\"\n      },\n      {\n        \"url\": \"https://www.microtechboise.com/blog/boise-managed-it-services-provider-leveraging-ai-for-faster-it-support\",\n        \"usedFor\": \"Additional context on MicroTech's use of AI for alert prioritization, monitoring, and routine IT task automation\"\n      }\n    ],\n    \"limitations\": [\n      \"Employee headcount is not stated on the pages read.\",\n      \"No owners, executives, or managers are formally identified by title on the company's About Us or Contact Us pages (names appear only inside customer testimonials, which are excluded under ForgeX rules).\",\n      \"No service pricing is published on the website.\",\n      \"Forms appear to be dynamically injected via script rather than static HTML form tags.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"MicroTech Systems is a B2B Managed IT Services Provider (MSP) and cybersecurity firm in Boise/Garden City, Idaho, rather than a home-service contractor in HVAC, plumbing, or electrical. Furthermore, MicroTech Systems already provides managed IT services, 24/7 automated monitoring, and custom AI security and automation solutions to its own business clients.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

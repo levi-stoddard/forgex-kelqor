@@ -1,0 +1,840 @@
+{
+  "company": {
+    "id": "c17",
+    "name": "Running Water Plumbing",
+    "town": "Meridian",
+    "state": "Idaho",
+    "website": "https://runningwaterplumbingidaho.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:49:55.658Z",
+  "finishedAt": "2026-10-27T18:52:56.635Z",
+  "report": {
+    "identity": {
+      "name": "Running Water Plumbing LLC",
+      "location": "3665 S Peoria Way, Meridian, ID 83642",
+      "claims": [
+        {
+          "statement": "Running Water Plumbing LLC is a plumbing company based in Meridian, Idaho, serving the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley."
+        },
+        {
+          "statement": "The company's published street address is 3665 S Peoria Way, Meridian, ID 83642.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "3665 S Peoria Way, Meridian, ID 83642"
+        },
+        {
+          "statement": "The business was founded by local Idaho plumber [redacted].",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley."
+        },
+        {
+          "statement": "Founder [redacted]'s wife, [redacted], manages scheduling, bookkeeping, and daily back-office operations.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential Plumbing Contractor (Home Services)",
+      "activities": [
+        "24/7 emergency plumbing repairs",
+        "Water heater repair, installation, flush, and tankless systems",
+        "Drain cleaning, sewer camera inspections, and main water/sewer line repair and replacement",
+        "Water softeners, water filtration, and water treatment systems",
+        "New construction and remodel plumbing",
+        "Gas line installation and repairs, bury hydrants, garbage disposals, and radiant heating",
+        "Annual plumbing maintenance plans (Buffalo Bucks)"
+      ],
+      "claims": [
+        {
+          "statement": "Running Water Plumbing provides water heater, drain, sewer, water line, water treatment, and 24/7 emergency repair services at flat-rate pricing.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "We handle water heaters , drains, sewer and water lines , water treatment and everyday repairs, with 24/7 emergency service , flat-rate pricing"
+        },
+        {
+          "statement": "The company also performs residential new construction and remodel plumbing.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+          "quote": "New construction and remodel plumbing"
+        },
+        {
+          "statement": "Additional services include radiant heating and annual maintenance plans.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+          "quote": "Radiant heating and maintenance plans"
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://runningwaterplumbingidaho.com/",
+      "claims": [
+        {
+          "statement": "The company serves Meridian, Boise, Nampa, Kuna, Eagle, Star, Caldwell, and surrounding Treasure Valley communities.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+          "quote": "We serve Meridian, Boise, Nampa, Kuna, Eagle, Star, Caldwell, and surrounding areas."
+        },
+        {
+          "statement": "The company intentionally keeps its crew small rather than operating as a large-scale contractor.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+          "quote": "We keep our crew small to train each plumber the right way, drive clean trucks, and treat every home like it’s our own."
+        },
+        {
+          "statement": "The company offers the Buffalo Bucks annual maintenance plan for $199/year or $19.95/month.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+          "quote": "For just $199/year or $19.95/month, you get the plumbing support you need without surprise costs or stress."
+        },
+        {
+          "statement": "The company promotes a $50 discount for new customers on qualifying repairs or installations.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/special-offers/",
+          "quote": "New customer? Take $50 off any qualifying repair or installation."
+        },
+        {
+          "statement": "Because the company describes its crew as small and lists only a few roles on its team page, it may have fewer than ForgeX's typical 10 to 75 staff range.",
+          "label": "inference",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+          "quote": null
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Running Water Plumbing states that it is a licensed, bonded, and insured plumbing company in Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley."
+        },
+        {
+          "statement": "Founder [redacted] earned his journeyman certification and subsequently obtained his contractor's license.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "After high school, he went straight into plumbing school, earned his journeyman certification, and eventually obtained his contractor’s license to serve his community"
+        },
+        {
+          "statement": "The company states that all of its technicians are licensed and insured.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/meet-the-team/",
+          "quote": "Yes. All technicians at Running Water Plumbing LLC are licensed, insured, and properly trained."
+        }
+      ],
+      "limitations": "Specific Idaho plumbing contractor license numbers and state business registration numbers are not published on the pages read."
+    },
+    "existingSoftware": [
+      {
+        "product": "Hearth (app.gethearth.com)",
+        "purpose": "Customer project financing and monthly payment pre-approval",
+        "evidence": {
+          "statement": "The financing page states that the company partnered with Hearth to offer customer financing and references host app.gethearth.com.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/financing/",
+          "quote": "That’s why we’ve partnered with Hearth to make financing simple and stress-free."
+        }
+      },
+      {
+        "product": "clienthub.getjobber.com (Jobber Client Hub)",
+        "purpose": "Online booking portal and field-service client hub",
+        "evidence": {
+          "statement": "Every read page references the host clienthub.getjobber.com alongside 'BOOK ONLINE' calls to action; knowing from outside memory that getjobber.com is the Jobber field-service management platform makes Jobber usage a hypothesis.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Yahoo Mail ([redacted])",
+        "purpose": "Primary public business email inbox",
+        "evidence": {
+          "statement": "The company publishes [redacted] as its primary contact email address.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "[redacted]"
+        }
+      },
+      {
+        "product": "WordPress with Elementor Pro, WPForms, Maspik Anti-Spam, and Link Whisper",
+        "purpose": "Website content management, page builder, lead capture forms, spam filtering, and internal linking",
+        "evidence": {
+          "statement": "Script paths on the website reference wp-content/themes/hello-elementor, elementor-pro, google-site-kit events provider for wpforms, contact-forms-anti-spam (maspik), and link-whisper; identifying these products by name from script paths is a hypothesis.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Google Tag Manager and Google Analytics / Site Kit (googletagmanager.com)",
+        "purpose": "Website analytics, tag management, and conversion event tracking",
+        "evidence": {
+          "statement": "Pages load scripts and frames from www.googletagmanager.com (GT-WR4KJDGL, G-34V76CQ4S6, GTM-K8SWH8WX) and google-site-kit plugin scripts; identifying Google Tag Manager and Google Analytics from these script URLs is a hypothesis.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "One person (co-owner [redacted]) is described as handling scheduling, bookkeeping, and day-to-day administrative details behind the scenes.",
+        "label": "fact",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!"
+      },
+      {
+        "statement": "The Contact FAQ states that messages typically receive a reply within the hour, especially during regular business hours, rather than an instant 24/7 automated response.",
+        "label": "fact",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+        "quote": "Most messages get a reply within the hour, especially during regular business hours."
+      },
+      {
+        "statement": "The company uses a free consumer email domain ([redacted]) as its published business email address.",
+        "label": "fact",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]"
+      },
+      {
+        "statement": "The company sells an annual maintenance plan (Buffalo Bucks) and states that it reminds customers when it is time to schedule their inspection.",
+        "label": "fact",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+        "quote": "Anytime that works for you. We’ll remind you if it’s been a while"
+      },
+      {
+        "statement": "Because web form and message replies take up to an hour during business hours and potentially longer after hours, emergency or price-sensitive plumbing leads submitted via web forms may contact competing 24/7 plumbers before receiving a callback.",
+        "label": "inference",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Delayed lead response on web form and message inquiries (up to an hour during business hours, or longer after hours) could cause emergency plumbing prospects to book with another plumber before getting a reply.",
+        "label": "hypothesis",
+        "basis": "The Contact FAQ states 'Most messages get a reply within the hour, especially during regular business hours,' while the business markets 24/7 emergency plumbing. However, whether leads are actually being lost due to response times cannot be confirmed from public pages."
+      },
+      {
+        "problem": "Manual entry of website form leads and supplier invoices/receipts may create an administrative bottleneck for the co-owner managing scheduling and bookkeeping.",
+        "label": "hypothesis",
+        "basis": "The homepage states that [redacted] handles scheduling, bookkeeping, and day-to-day details, and the site uses native WordPress forms alongside a Yahoo email address and references to clienthub.getjobber.com. Whether form submissions and supplier invoices require manual re-entry is unconfirmed."
+      },
+      {
+        "problem": "Lack of consolidated weekly KPI visibility across field-service jobs, bookkeeping, and marketing channels.",
+        "label": "hypothesis",
+        "basis": "The site runs Google tags and promotional offers ($50 off new customer, $150 off online water heater swap), with bookkeeping handled in-house, but it is unknown whether the owners already have satisfactory reporting."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Jobber built-in lead capture, online booking, automated client follow-ups, and reporting (referenced via clienthub.getjobber.com)",
+        "addresses": "Online booking, customer reminders for annual maintenance inspections, quote follow-ups, and basic operational reporting.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Accounting software native bank/receipt capture (e.g., QuickBooks Online receipt forwarding, if used)",
+        "addresses": "Basic supplier invoice and receipt intake for bookkeeping.",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "One-week audit of calls, WordPress web form leads, messages, and open quotes to quantify how many inquiries slip through or wait too long for a response, with the $500 fee credited toward any fix ordered within 30 days.",
+        "problem": "Potential loss of urgent or after-hours plumbing inquiries when messages wait up to an hour (or until business hours) for a human reply.",
+        "whyNotExistingSoftware": "While the site links to clienthub.getjobber.com for online booking, every page also embeds multiple native WordPress forms and promotes email/text inquiries; existing tools do not automatically audit cross-channel response gaps across phone, WordPress forms, Yahoo email, and field-service bookings."
+      },
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "Routes every lead from WordPress contact forms, email, and ad sources into the field-service system within two minutes, sends an instant SMS/email acknowledgment, and tracks callback completion.",
+        "problem": "Manual transfer of WordPress form leads into the scheduling system and up-to-one-hour response delays on messages.",
+        "whyNotExistingSoftware": "Native WordPress forms on the site post to the website rather than directly into clienthub.getjobber.com; bridging WordPress form submissions, instant SMS replies, and field-service lead creation requires integration beyond out-of-the-box form plugins."
+      }
+    ],
+    "feasibility": {
+      "rating": "high",
+      "explanation": "Connecting WordPress/Elementor/WPForms submissions via webhook to an instant SMS/email responder and pushing lead records into a field-service platform (such as Jobber) is a standard, well-supported integration."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "Deterministic workflow automation handles form-to-CRM syncing and instant acknowledgment templates reliably, while an AI component can classify inquiry urgency (e.g., 24/7 burst pipe emergency vs. routine quote or Buffalo Bucks plan signup) and draft tailored replies for human dispatch confirmation."
+    },
+    "humanReview": [
+      "Final dispatch commitment and arrival window confirmation for 24/7 emergency plumbing calls must be approved by the on-call plumber or dispatcher.",
+      "Any binding price quotes or financing approvals require onsite inspection and human review, consistent with the company's Terms and Conditions.",
+      "Any automated bookkeeping or supplier invoice entries should go through a human review queue ([redacted]) before posting to the general ledger."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "In 24/7 emergency plumbing, an automated reply that implies a technician is already en route when no on-call plumber has acknowledged the dispatch could cause severe customer dissatisfaction or property damage."
+      },
+      {
+        "type": "compliance",
+        "description": "Automated SMS responses to web form leads require clear opt-in consent language on the website forms to comply with TCPA and carrier messaging regulations."
+      },
+      {
+        "type": "security",
+        "description": "Using a consumer Yahoo email account ([redacted]) for customer data and business operations increases credential and deliverability risk if automated integrations rely on consumer inbox credentials."
+      }
+    ],
+    "commercial": {
+      "supportable": true,
+      "value": "Illustrative value: $2,388 to $4,776 per year in recurring maintenance-plan revenue alone if faster lead capture and follow-up converts 1 to 2 additional Buffalo Bucks annual memberships per month (12 to 24 per year) at the site's published price of $199/year (or $2,872.80 to $5,745.60 per year if billed at the published $19.95/month rate), before counting any standard repair or water heater replacement revenue (for which base prices are not published on the site, only discounts of $50 off a first service and $150 off an online-booked basic water heater swap).",
+      "implementationCost": "Revenue Leak Check: $500 fixed price (credited in full toward any fix ordered within 30 days). Lead-to-job pipeline: $1,800 setup plus $149/month ($3,588 first-year total).",
+      "assumptions": [
+        "Uses only the site's published prices: $199/year or $19.95/month for the Buffalo Bucks Maintenance Program (plus $99/year for additional rental or family homes).",
+        "Assumes 1 to 2 additional maintenance plan enrollments per month (12 to 24 per year) are captured through sub-2-minute lead response and automated follow-up.",
+        "Base service prices for plumbing repairs and water heater swaps are not published on the website (only $50 and $150 promotional discounts are shown), so one-time repair and installation ticket values are excluded from the calculation."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Founder / Owner (Master/Contractor Plumber)",
+        "Co-Owner / Scheduling & Bookkeeping Manager"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Founder",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley."
+        },
+        {
+          "name": "[redacted]",
+          "role": "Scheduling, Bookkeeping, and Operations (Founder's Wife / Co-leader)",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How many plumbers and office staff are currently on the Running Water Plumbing team, and are you running paid lead campaigns (such as Google Ads or Local Services Ads) alongside organic traffic?",
+        "When a homeowner fills out one of the WordPress quote forms on your site (especially evenings or weekends), does that inquiry flow automatically into your scheduling system, or does [redacted] have to enter it manually?",
+        "Your Contact FAQ mentions that messages usually get a reply within the hour during business hours—have you noticed any urgent or after-hours leads booking elsewhere before someone can reply?",
+        "How much time each week goes into manual bookkeeping, entering supplier invoices from Ferguson or Silvercreek, and tracking Buffalo Bucks maintenance plan renewals?"
+      ],
+      "outreachSubject": "Question about Running Water Plumbing's website form leads & scheduling",
+      "outreachBody": "Hi [redacted],\n\nI was reading through Running Water Plumbing's site and saw how the two of you run the business in Meridian—with [redacted] leading the plumbing crew and [redacted] handling scheduling, bookkeeping, and day-to-day operations.\n\nI noticed your website uses separate WordPress quote forms on each page alongside your online booking link, and your Contact FAQ notes that messages usually get a reply within the hour during business hours. If manual form entry or after-hours response time is ever a bottleneck for [redacted], ForgeX offers a fixed-price Revenue Leak Check ($500, credited in full toward any fix ordered within 30 days) and a Lead-to-Job Pipeline ($1,800 setup + $149/month) that pushes every web form lead directly into your field-service software within two minutes and sends an immediate reply.\n\nIf your current setup with your booking portal already handles everything smoothly, no worries at all—I just wanted to introduce ourselves in case taking repetitive admin off [redacted]'s plate is useful as you grow.\n\nWould you be open to a brief 10-minute chat next week to see if this is relevant to your workflow?\n\nBest regards,\n\n[Founder Name]\n[Title], ForgeX\n[ForgeX Physical Postal Address]\n\nIf you prefer not to receive future emails from us, simply reply with \"unsubscribe\" and we will remove you immediately."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://runningwaterplumbingidaho.com/",
+          "usedFor": "Verified business name, Meridian address, founders [redacted] [redacted], core plumbing services, Buffalo Bucks maintenance plan pricing ($19.95/month or $199/year), email channel, and technical host references."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+          "usedFor": "Company background, small crew statement, service list (new construction, remodel, radiant heating), and supplier partnerships."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/meet-the-team/",
+          "usedFor": "Team composition roles (master plumber, customer care rep, technician) and licensing confirmation."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/contact/",
+          "usedFor": "Service area cities, contact methods, and FAQ statement that most messages get a reply within the hour during business hours."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/special-offers/",
+          "usedFor": "Published promotional discount amounts ($50 off first service, $150 off basic water heater swap booked online, 5% off for Google review or maintenance plan)."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+          "usedFor": "Buffalo Bucks maintenance plan pricing ($199/year or $19.95/month), inclusions, and inspection reminder statement."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/plumbing-faq/",
+          "usedFor": "Additional service details, emergency procedures, and upfront pricing policy."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/financing/",
+          "usedFor": "Verification of Hearth partnership for customer project financing."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+          "usedFor": "Legal entity name (Running Water Plumbing LLC) and policy that online/form quotes are estimates subject to onsite inspection."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/privacy-policy/",
+          "usedFor": "Data collection practices (forms, estimates, reminders) and contact details."
+        }
+      ],
+      "limitations": [
+        "Exact employee headcount is not stated on the website; the About page notes 'We keep our crew small,' so it cannot be confirmed whether the company meets ForgeX's 10 to 75 staff target.",
+        "Whether the company pays for leads (e.g., Google Ads or Local Services Ads) cannot be confirmed from the site alone, although Google Tag Manager and conversion tracking scripts are present.",
+        "Specific Idaho contractor license numbers are not displayed on the website.",
+        "Base prices for standard plumbing repairs and water heater installations are not published on the website (only maintenance plan rates and coupon dollar-off discounts).",
+        "Whether the WordPress contact forms are already connected behind the scenes to their field-service system (referenced via clienthub.getjobber.com) cannot be verified from public frontend pages."
+      ]
+    },
+    "qualification": {
+      "category": "pursue later",
+      "rationale": "Running Water Plumbing LLC is an owner-led residential plumbing contractor in Meridian, Idaho, with clear decision-maker visibility (founder [redacted] and co-leader [redacted], who handles scheduling, bookkeeping, and daily operations) and a valid business contact channel. However, it is categorized as 'pursue later' rather than 'pursue now' for three evidence-based reasons: (1) all potential operational problems—such as lead leakage from 'within the hour' message reply times or manual entry between WordPress forms and their field-service portal—are hypotheses rather than confirmed customer problems; (2) the website already links to an online booking/client portal host (clienthub.getjobber.com), which may already handle core scheduling and reminders; and (3) the About page states 'We keep our crew small,' leaving unconfirmed whether the company has reached ForgeX's 10 to 75 staff segment or actively pays for leads."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "3665 S Peoria Way, Meridian, ID 83642",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "We handle water heaters , drains, sewer and water lines , water treatment and everyday repairs, with 24/7 emergency service , flat-rate pricing",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+        "quote": "New construction and remodel plumbing",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+        "quote": "Radiant heating and maintenance plans",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+        "quote": "We serve Meridian, Boise, Nampa, Kuna, Eagle, Star, Caldwell, and surrounding areas.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+        "quote": "We keep our crew small to train each plumber the right way, drive clean trucks, and treat every home like it’s our own.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+        "quote": "For just $199/year or $19.95/month, you get the plumbing support you need without surprise costs or stress.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/special-offers/",
+        "quote": "New customer? Take $50 off any qualifying repair or installation.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "After high school, he went straight into plumbing school, earned his journeyman certification, and eventually obtained his contractor’s license to serve his community",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/meet-the-team/",
+        "quote": "Yes. All technicians at Running Water Plumbing LLC are licensed, insured, and properly trained.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/financing/",
+        "quote": "That’s why we’ve partnered with Hearth to make financing simple and stress-free.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+        "quote": "Most messages get a reply within the hour, especially during regular business hours.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+        "quote": "Anytime that works for you. We’ll remind you if it’s been a while",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 22,
+      "quotesFound": 22,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 3,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://runningwaterplumbingidaho.com/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:49:58.947Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1441927,
+      "truncated": false,
+      "sha256": "8987da31675bb6d7bd178a2b90bd4c2c18aefa1cf15c57664a915d3a8397a7c5",
+      "textSha256": "a79521e48eddd4cddc7ccba12c5a19d0a8f163c1a19ce9654de2e510652c688c",
+      "fromCache": false
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:05.331Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 977951,
+      "truncated": false,
+      "sha256": "8172571e10412c637487ec1b562fd08a5809a3c3f79305ea9bc3209e4d5fe4cf",
+      "textSha256": "893a55b75c5e9792c4c7a54455f6fdb040e1fd39f6853ef29e76b9ae58cad02d",
+      "fromCache": false
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/meet-the-team/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/meet-the-team/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:08.133Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 873869,
+      "truncated": false,
+      "sha256": "b36a67823b2c456e41e9f7323eb029912abe82ff3496104557d636e704f524e0",
+      "textSha256": "d6629d522d556378cca8a431e9aae12e987b205e72a303a75dfa02fa777b51ac",
+      "fromCache": false
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/contact/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:11.110Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 839113,
+      "truncated": false,
+      "sha256": "66674daf9fd7ae5c2aa3ed3c2e38e14e05b622c7cce5dbc7ccdc97fe807ed87c",
+      "textSha256": "d760abf7f42646fb11b215dc41b50105a4ad46109f6a31eda41fbc2f65407c10",
+      "fromCache": false
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/special-offers/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/special-offers/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:14.113Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 775074,
+      "truncated": false,
+      "sha256": "c58fdbcc37113a09088bd56b0196c84c7fa3aa82f687aa8181d43e0ee87ae658",
+      "textSha256": "e7afce0795f6645230de79971b59824725134396f4d40a8191c96eae8dc6bde4",
+      "fromCache": false
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:17.105Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 821417,
+      "truncated": false,
+      "sha256": "a6d90933b8171c13fa62e5735102139fabde293dbe435bb262dde999dd9398e7",
+      "textSha256": "cdd3206113bab235f00b4137c123008cc4d9cb4d19ffe4632bc5f25140f9fa6c",
+      "fromCache": false
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/plumbing-faq/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/plumbing-faq/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:20.131Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 470704,
+      "truncated": false,
+      "sha256": "d0cadb322afba8076d8dd22d4544252ad996e5eafa07c316a89930824c9a56bb",
+      "textSha256": "11fb0dcb2ad333d011a7615e11f8d3dd242dfb0e2f33052dfe2ee40415e4ca5e",
+      "fromCache": false
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/financing/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/financing/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:27.318Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 756188,
+      "truncated": false,
+      "sha256": "7d75a4a9cb337659a6b4fa2a22f5d2ae21526022b61fa5b3d5358b07cd5263ab",
+      "textSha256": "906cbe2710ce0c264b5344e03e89f5b87a711e4df796264158061a3edcea516f",
+      "fromCache": false
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:30.081Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 485941,
+      "truncated": false,
+      "sha256": "8956d17161f6ac7ed8d44a809393919e3c0d50bfeeacd77fbe2de12234aab3fe",
+      "textSha256": "966a1ede2191ba8068b5f71036746c42fb7076d446dbfb3f6ff4c7268db3d76d",
+      "fromCache": false
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/privacy-policy/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:33.085Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 494506,
+      "truncated": false,
+      "sha256": "f1646daa07af42875ea7ea77bd8f2fdc6b5eaab9c5128ff87f4cd28e1b299e92",
+      "textSha256": "ab69663d1a3a4964f1da3ec1ef11feb6d0d694f5c2935cec3c5667ca9326b1e0",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/meet-the-team/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/special-offers/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/plumbing-faq/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/financing/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/privacy-policy/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 98634,
+    "cachedInput": 10577,
+    "output": 6517,
+    "thinking": 5145,
+    "toolUse": 0,
+    "total": 110296
+  },
+  "costUsd": 0.2937917,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2690507",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/"
+      }
+    },
+    {
+      "id": "call_2690508",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/meet-the-team/"
+      }
+    },
+    {
+      "id": "call_2690509",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/contact/"
+      }
+    },
+    {
+      "id": "call_2690510",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/special-offers/"
+      }
+    },
+    {
+      "id": "call_2690511",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/maintenance-plan/"
+      }
+    },
+    {
+      "id": "call_2690512",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/plumbing-faq/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1651373",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/financing/"
+      }
+    },
+    {
+      "id": "call_1651374",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/terms-and-conditions/"
+      }
+    },
+    {
+      "id": "call_1651375",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/privacy-policy/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Running Water Plumbing LLC\",\n    \"location\": \"3665 S Peoria Way, Meridian, ID 83642\",\n    \"claims\": [\n      {\n        \"statement\": \"Running Water Plumbing LLC is a plumbing company based in Meridian, Idaho, serving the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The company's published street address is 3665 S Peoria Way, Meridian, ID 83642.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"3665 S Peoria Way, Meridian, ID 83642\"\n      },\n      {\n        \"statement\": \"The business was founded by local Idaho plumber [redacted].\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"Founder [redacted]'s wife, [redacted], manages scheduling, bookkeeping, and daily back-office operations.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential Plumbing Contractor (Home Services)\",\n    \"activities\": [\n      \"24/7 emergency plumbing repairs\",\n      \"Water heater repair, installation, flush, and tankless systems\",\n      \"Drain cleaning, sewer camera inspections, and main water/sewer line repair and replacement\",\n      \"Water softeners, water filtration, and water treatment systems\",\n      \"New construction and remodel plumbing\",\n      \"Gas line installation and repairs, bury hydrants, garbage disposals, and radiant heating\",\n      \"Annual plumbing maintenance plans (Buffalo Bucks)\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Running Water Plumbing provides water heater, drain, sewer, water line, water treatment, and 24/7 emergency repair services at flat-rate pricing.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"We handle water heaters , drains, sewer and water lines , water treatment and everyday repairs, with 24/7 emergency service , flat-rate pricing\"\n      },\n      {\n        \"statement\": \"The company also performs residential new construction and remodel plumbing.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/\",\n        \"quote\": \"New construction and remodel plumbing\"\n      },\n      {\n        \"statement\": \"Additional services include radiant heating and annual maintenance plans.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/\",\n        \"quote\": \"Radiant heating and maintenance plans\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://runningwaterplumbingidaho.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company serves Meridian, Boise, Nampa, Kuna, Eagle, Star, Caldwell, and surrounding Treasure Valley communities.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/contact/\",\n        \"quote\": \"We serve Meridian, Boise, Nampa, Kuna, Eagle, Star, Caldwell, and surrounding areas.\"\n      },\n      {\n        \"statement\": \"The company intentionally keeps its crew small rather than operating as a large-scale contractor.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/\",\n        \"quote\": \"We keep our crew small to train each plumber the right way, drive clean trucks, and treat every home like it’s our own.\"\n      },\n      {\n        \"statement\": \"The company offers the Buffalo Bucks annual maintenance plan for $199/year or $19.95/month.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/maintenance-plan/\",\n        \"quote\": \"For just $199/year or $19.95/month, you get the plumbing support you need without surprise costs or stress.\"\n      },\n      {\n        \"statement\": \"The company promotes a $50 discount for new customers on qualifying repairs or installations.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/special-offers/\",\n        \"quote\": \"New customer? Take $50 off any qualifying repair or installation.\"\n      },\n      {\n        \"statement\": \"Because the company describes its crew as small and lists only a few roles on its team page, it may have fewer than ForgeX's typical 10 to 75 staff range.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Running Water Plumbing states that it is a licensed, bonded, and insured plumbing company in Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"Founder [redacted] earned his journeyman certification and subsequently obtained his contractor's license.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"After high school, he went straight into plumbing school, earned his journeyman certification, and eventually obtained his contractor’s license to serve his community\"\n      },\n      {\n        \"statement\": \"The company states that all of its technicians are licensed and insured.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/meet-the-team/\",\n        \"quote\": \"Yes. All technicians at Running Water Plumbing LLC are licensed, insured, and properly trained.\"\n      }\n    ],\n    \"limitations\": \"Specific Idaho plumbing contractor license numbers and state business registration numbers are not published on the pages read.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Hearth (app.gethearth.com)\",\n      \"purpose\": \"Customer project financing and monthly payment pre-approval\",\n      \"evidence\": {\n        \"statement\": \"The financing page states that the company partnered with Hearth to offer customer financing and references host app.gethearth.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/financing/\",\n        \"quote\": \"That’s why we’ve partnered with Hearth to make financing simple and stress-free.\"\n      }\n    },\n    {\n      \"product\": \"clienthub.getjobber.com (Jobber Client Hub)\",\n      \"purpose\": \"Online booking portal and field-service client hub\",\n      \"evidence\": {\n        \"statement\": \"Every read page references the host clienthub.getjobber.com alongside 'BOOK ONLINE' calls to action; knowing from outside memory that getjobber.com is the Jobber field-service management platform makes Jobber usage a hypothesis.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Yahoo Mail ([redacted])\",\n      \"purpose\": \"Primary public business email inbox\",\n      \"evidence\": {\n        \"statement\": \"The company publishes [redacted] as its primary contact email address.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"[redacted]\"\n      }\n    },\n    {\n      \"product\": \"WordPress with Elementor Pro, WPForms, Maspik Anti-Spam, and Link Whisper\",\n      \"purpose\": \"Website content management, page builder, lead capture forms, spam filtering, and internal linking\",\n      \"evidence\": {\n        \"statement\": \"Script paths on the website reference wp-content/themes/hello-elementor, elementor-pro, google-site-kit events provider for wpforms, contact-forms-anti-spam (maspik), and link-whisper; identifying these products by name from script paths is a hypothesis.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google Tag Manager and Google Analytics / Site Kit (googletagmanager.com)\",\n      \"purpose\": \"Website analytics, tag management, and conversion event tracking\",\n      \"evidence\": {\n        \"statement\": \"Pages load scripts and frames from www.googletagmanager.com (GT-WR4KJDGL, G-34V76CQ4S6, GTM-K8SWH8WX) and google-site-kit plugin scripts; identifying Google Tag Manager and Google Analytics from these script URLs is a hypothesis.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"One person (co-owner [redacted]) is described as handling scheduling, bookkeeping, and day-to-day administrative details behind the scenes.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n      \"quote\": \"[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!\"\n    },\n    {\n      \"statement\": \"The Contact FAQ states that messages typically receive a reply within the hour, especially during regular business hours, rather than an instant 24/7 automated response.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://runningwaterplumbingidaho.com/contact/\",\n      \"quote\": \"Most messages get a reply within the hour, especially during regular business hours.\"\n    },\n    {\n      \"statement\": \"The company uses a free consumer email domain ([redacted]) as its published business email address.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n      \"quote\": \"[redacted]\"\n    },\n    {\n      \"statement\": \"The company sells an annual maintenance plan (Buffalo Bucks) and states that it reminds customers when it is time to schedule their inspection.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://runningwaterplumbingidaho.com/maintenance-plan/\",\n      \"quote\": \"Anytime that works for you. We’ll remind you if it’s been a while\"\n    },\n    {\n      \"statement\": \"Because web form and message replies take up to an hour during business hours and potentially longer after hours, emergency or price-sensitive plumbing leads submitted via web forms may contact competing 24/7 plumbers before receiving a callback.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://runningwaterplumbingidaho.com/contact/\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Delayed lead response on web form and message inquiries (up to an hour during business hours, or longer after hours) could cause emergency plumbing prospects to book with another plumber before getting a reply.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The Contact FAQ states 'Most messages get a reply within the hour, especially during regular business hours,' while the business markets 24/7 emergency plumbing. However, whether leads are actually being lost due to response times cannot be confirmed from public pages.\"\n    },\n    {\n      \"problem\": \"Manual entry of website form leads and supplier invoices/receipts may create an administrative bottleneck for the co-owner managing scheduling and bookkeeping.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The homepage states that [redacted] handles scheduling, bookkeeping, and day-to-day details, and the site uses native WordPress forms alongside a Yahoo email address and references to clienthub.getjobber.com. Whether form submissions and supplier invoices require manual re-entry is unconfirmed.\"\n    },\n    {\n      \"problem\": \"Lack of consolidated weekly KPI visibility across field-service jobs, bookkeeping, and marketing channels.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The site runs Google tags and promotional offers ($50 off new customer, $150 off online water heater swap), with bookkeeping handled in-house, but it is unknown whether the owners already have satisfactory reporting.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Jobber built-in lead capture, online booking, automated client follow-ups, and reporting (referenced via clienthub.getjobber.com)\",\n      \"addresses\": \"Online booking, customer reminders for annual maintenance inspections, quote follow-ups, and basic operational reporting.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Accounting software native bank/receipt capture (e.g., QuickBooks Online receipt forwarding, if used)\",\n      \"addresses\": \"Basic supplier invoice and receipt intake for bookkeeping.\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"One-week audit of calls, WordPress web form leads, messages, and open quotes to quantify how many inquiries slip through or wait too long for a response, with the $500 fee credited toward any fix ordered within 30 days.\",\n      \"problem\": \"Potential loss of urgent or after-hours plumbing inquiries when messages wait up to an hour (or until business hours) for a human reply.\",\n      \"whyNotExistingSoftware\": \"While the site links to clienthub.getjobber.com for online booking, every page also embeds multiple native WordPress forms and promotes email/text inquiries; existing tools do not automatically audit cross-channel response gaps across phone, WordPress forms, Yahoo email, and field-service bookings.\"\n    },\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"Routes every lead from WordPress contact forms, email, and ad sources into the field-service system within two minutes, sends an instant SMS/email acknowledgment, and tracks callback completion.\",\n      \"problem\": \"Manual transfer of WordPress form leads into the scheduling system and up-to-one-hour response delays on messages.\",\n      \"whyNotExistingSoftware\": \"Native WordPress forms on the site post to the website rather than directly into clienthub.getjobber.com; bridging WordPress form submissions, instant SMS replies, and field-service lead creation requires integration beyond out-of-the-box form plugins.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"high\",\n    \"explanation\": \"Connecting WordPress/Elementor/WPForms submissions via webhook to an instant SMS/email responder and pushing lead records into a field-service platform (such as Jobber) is a standard, well-supported integration.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"Deterministic workflow automation handles form-to-CRM syncing and instant acknowledgment templates reliably, while an AI component can classify inquiry urgency (e.g., 24/7 burst pipe emergency vs. routine quote or Buffalo Bucks plan signup) and draft tailored replies for human dispatch confirmation.\"\n  },\n  \"humanReview\": [\n    \"Final dispatch commitment and arrival window confirmation for 24/7 emergency plumbing calls must be approved by the on-call plumber or dispatcher.\",\n    \"Any binding price quotes or financing approvals require onsite inspection and human review, consistent with the company's Terms and Conditions.\",\n    \"Any automated bookkeeping or supplier invoice entries should go through a human review queue ([redacted]) before posting to the general ledger.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"In 24/7 emergency plumbing, an automated reply that implies a technician is already en route when no on-call plumber has acknowledged the dispatch could cause severe customer dissatisfaction or property damage.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated SMS responses to web form leads require clear opt-in consent language on the website forms to comply with TCPA and carrier messaging regulations.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Using a consumer Yahoo email account ([redacted]) for customer data and business operations increases credential and deliverability risk if automated integrations rely on consumer inbox credentials.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": true,\n    \"value\": \"Illustrative value: $2,388 to $4,776 per year in recurring maintenance-plan revenue alone if faster lead capture and follow-up converts 1 to 2 additional Buffalo Bucks annual memberships per month (12 to 24 per year) at the site's published price of $199/year (or $2,872.80 to $5,745.60 per year if billed at the published $19.95/month rate), before counting any standard repair or water heater replacement revenue (for which base prices are not published on the site, only discounts of $50 off a first service and $150 off an online-booked basic water heater swap).\",\n    \"implementationCost\": \"Revenue Leak Check: $500 fixed price (credited in full toward any fix ordered within 30 days). Lead-to-job pipeline: $1,800 setup plus $149/month ($3,588 first-year total).\",\n    \"assumptions\": [\n      \"Uses only the site's published prices: $199/year or $19.95/month for the Buffalo Bucks Maintenance Program (plus $99/year for additional rental or family homes).\",\n      \"Assumes 1 to 2 additional maintenance plan enrollments per month (12 to 24 per year) are captured through sub-2-minute lead response and automated follow-up.\",\n      \"Base service prices for plumbing repairs and water heater swaps are not published on the website (only $50 and $150 promotional discounts are shown), so one-time repair and installation ticket values are excluded from the calculation.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Founder / Owner (Master/Contractor Plumber)\",\n      \"Co-Owner / Scheduling & Bookkeeping Manager\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Founder\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley.\"\n      },\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Scheduling, Bookkeeping, and Operations (Founder's Wife / Co-leader)\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How many plumbers and office staff are currently on the Running Water Plumbing team, and are you running paid lead campaigns (such as Google Ads or Local Services Ads) alongside organic traffic?\",\n      \"When a homeowner fills out one of the WordPress quote forms on your site (especially evenings or weekends), does that inquiry flow automatically into your scheduling system, or does [redacted] have to enter it manually?\",\n      \"Your Contact FAQ mentions that messages usually get a reply within the hour during business hours—have you noticed any urgent or after-hours leads booking elsewhere before someone can reply?\",\n      \"How much time each week goes into manual bookkeeping, entering supplier invoices from Ferguson or Silvercreek, and tracking Buffalo Bucks maintenance plan renewals?\"\n    ],\n    \"outreachSubject\": \"Question about Running Water Plumbing's website form leads & scheduling\",\n    \"outreachBody\": \"Hi [redacted],\\n\\nI was reading through Running Water Plumbing's site and saw how the two of you run the business in Meridian—with [redacted] leading the plumbing crew and [redacted] handling scheduling, bookkeeping, and day-to-day operations.\\n\\nI noticed your website uses separate WordPress quote forms on each page alongside your online booking link, and your Contact FAQ notes that messages usually get a reply within the hour during business hours. If manual form entry or after-hours response time is ever a bottleneck for [redacted], ForgeX offers a fixed-price Revenue Leak Check ($500, credited in full toward any fix ordered within 30 days) and a Lead-to-Job Pipeline ($1,800 setup + $149/month) that pushes every web form lead directly into your field-service software within two minutes and sends an immediate reply.\\n\\nIf your current setup with your booking portal already handles everything smoothly, no worries at all—I just wanted to introduce ourselves in case taking repetitive admin off [redacted]'s plate is useful as you grow.\\n\\nWould you be open to a brief 10-minute chat next week to see if this is relevant to your workflow?\\n\\nBest regards,\\n\\n[Founder Name]\\n[Title], ForgeX\\n[ForgeX Physical Postal Address]\\n\\nIf you prefer not to receive future emails from us, simply reply with \\\"unsubscribe\\\" and we will remove you immediately.\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/\",\n        \"usedFor\": \"Verified business name, Meridian address, founders [redacted] [redacted], core plumbing services, Buffalo Bucks maintenance plan pricing ($19.95/month or $199/year), email channel, and technical host references.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/\",\n        \"usedFor\": \"Company background, small crew statement, service list (new construction, remodel, radiant heating), and supplier partnerships.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/meet-the-team/\",\n        \"usedFor\": \"Team composition roles (master plumber, customer care rep, technician) and licensing confirmation.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/contact/\",\n        \"usedFor\": \"Service area cities, contact methods, and FAQ statement that most messages get a reply within the hour during business hours.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/special-offers/\",\n        \"usedFor\": \"Published promotional discount amounts ($50 off first service, $150 off basic water heater swap booked online, 5% off for Google review or maintenance plan).\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/maintenance-plan/\",\n        \"usedFor\": \"Buffalo Bucks maintenance plan pricing ($199/year or $19.95/month), inclusions, and inspection reminder statement.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/plumbing-faq/\",\n        \"usedFor\": \"Additional service details, emergency procedures, and upfront pricing policy.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/financing/\",\n        \"usedFor\": \"Verification of Hearth partnership for customer project financing.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/terms-and-conditions/\",\n        \"usedFor\": \"Legal entity name (Running Water Plumbing LLC) and policy that online/form quotes are estimates subject to onsite inspection.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/privacy-policy/\",\n        \"usedFor\": \"Data collection practices (forms, estimates, reminders) and contact details.\"\n      }\n    ],\n    \"limitations\": [\n      \"Exact employee headcount is not stated on the website; the About page notes 'We keep our crew small,' so it cannot be confirmed whether the company meets ForgeX's 10 to 75 staff target.\",\n      \"Whether the company pays for leads (e.g., Google Ads or Local Services Ads) cannot be confirmed from the site alone, although Google Tag Manager and conversion tracking scripts are present.\",\n      \"Specific Idaho contractor license numbers are not displayed on the website.\",\n      \"Base prices for standard plumbing repairs and water heater installations are not published on the website (only maintenance plan rates and coupon dollar-off discounts).\",\n      \"Whether the WordPress contact forms are already connected behind the scenes to their field-service system (referenced via clienthub.getjobber.com) cannot be verified from public frontend pages.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue later\",\n    \"rationale\": \"Running Water Plumbing LLC is an owner-led residential plumbing contractor in Meridian, Idaho, with clear decision-maker visibility (founder [redacted] and co-leader [redacted], who handles scheduling, bookkeeping, and daily operations) and a valid business contact channel. However, it is categorized as 'pursue later' rather than 'pursue now' for three evidence-based reasons: (1) all potential operational problems—such as lead leakage from 'within the hour' message reply times or manual entry between WordPress forms and their field-service portal—are hypotheses rather than confirmed customer problems; (2) the website already links to an online booking/client portal host (clienthub.getjobber.com), which may already handle core scheduling and reminders; and (3) the About page states 'We keep our crew small,' leaving unconfirmed whether the company has reached ForgeX's 10 to 75 staff segment or actively pays for leads.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

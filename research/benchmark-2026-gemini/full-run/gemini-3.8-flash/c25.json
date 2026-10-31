@@ -1,0 +1,798 @@
+{
+  "company": {
+    "id": "c25",
+    "name": "Kings Roofing & Contracting LLC",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.kingsroofingandcontracting.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:38:09.068Z",
+  "finishedAt": "2026-10-27T19:39:49.202Z",
+  "report": {
+    "identity": {
+      "name": "Kings Roofing & Contracting LLC",
+      "location": "Boise, Idaho",
+      "claims": [
+        {
+          "statement": "Kings Roofing & Contracting LLC is a veteran-owned roofing contractor based in Boise, Idaho, registered with the Idaho Contractors Board.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "Kings Roofing & Contracting LLC is a veteran-owned Boise roofing contractor, registered with the Idaho Contractors Board (RCE-66571) and insured"
+        },
+        {
+          "statement": "The physical office location of Kings Roofing & Contracting LLC is 9201 W State St #127, Boise, ID 83714.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "9201 W State St #127, Boise, ID 83714"
+        },
+        {
+          "statement": "Kings Roofing & Contracting LLC operates as a family-owned business serving the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/about/",
+          "quote": "As a family-owned business rooted in the Treasure Valley, we treat every project like it's going on in our own home."
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Roofing and exterior contracting",
+      "activities": [
+        "Roof inspections",
+        "Residential roofing",
+        "Roof repair and leak detection",
+        "Roof replacement and tear-off",
+        "New roof installation",
+        "Commercial roofing (asphalt shingle, metal, and flat roof systems)",
+        "Storm and hail damage repair",
+        "24/7 emergency roof repair",
+        "Gutter installation",
+        "Siding installation",
+        "Residential RV garages"
+      ],
+      "claims": [
+        {
+          "statement": "The company provides residential and commercial roof repair, roof replacement, and new roof installation across the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/about/",
+          "quote": "We deliver expert Roof Repair, Roof Replacement, and New Roof Installation for Residential Roofing and Commercial Roofing"
+        },
+        {
+          "statement": "The company also installs siding, gutters, and residential RV garages, and offers 24/7 emergency roof repairs.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "We handle roof repair in Boise , leak and storm damage repair, full roof replacements, siding and gutters, and 24/7 emergency roof repair"
+        },
+        {
+          "statement": "The company operates within exterior roofing and building envelope contracting, and does not provide HVAC, plumbing, or electrical trade services.",
+          "label": "inference",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/services/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.kingsroofingandcontracting.com/",
+      "claims": [
+        {
+          "statement": "The website was designed by CinchLocal.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "Website Design by CinchLocal"
+        },
+        {
+          "statement": "The company advertises a 60-minute response time for 24/7 emergency roof repairs.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "we respond within 60 minutes and tarp or seal active leaks to stop the water."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The business is registered with the Idaho Contractors Board under registration number RCE-66571.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "registered with the Idaho Contractors Board (RCE-66571) and insured"
+        },
+        {
+          "statement": "The business states it is licensed through the Idaho Division of Occupational and Professional Licenses and carries liability and workers' compensation coverage.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/about/",
+          "quote": "We are fully licensed through the Idaho Division of Occupational and Professional Licenses and carry full liability and workers' compensation coverage."
+        },
+        {
+          "statement": "The company is GAF-certified for roofing installations.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/about/",
+          "quote": "Our installers are GAF-certified, which means we meet the training and quality standards required by GAF"
+        }
+      ],
+      "limitations": "Underlying state licensing filings, entity ownership records, and insurance certificates cannot be directly examined from the public website alone."
+    },
+    "existingSoftware": [
+      {
+        "product": "WordPress (LiteSpeed Cache)",
+        "purpose": "Website content management and caching",
+        "evidence": {
+          "statement": "The site loads WordPress core scripts and LiteSpeed Cache assets.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "https://www.kingsroofingandcontracting.com/wp-content/plugins/litespeed-cache/assets/js/css_async.min.js"
+        }
+      },
+      {
+        "product": "Google Tag Manager / Google Analytics",
+        "purpose": "Website visitor tracking and analytics",
+        "evidence": {
+          "statement": "The site runs Google Tag Manager script container G-01LGMHT1NT.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "https://www.googletagmanager.com/gtag/js?id=G-01LGMHT1NT"
+        }
+      },
+      {
+        "product": "Ahrefs Analytics",
+        "purpose": "Website performance and SEO analytics tracking",
+        "evidence": {
+          "statement": "The site loads an analytics script from analytics.ahrefs.com.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "https://analytics.ahrefs.com/analytics.js"
+        }
+      },
+      {
+        "product": "Elfsight",
+        "purpose": "Third-party widget integration",
+        "evidence": {
+          "statement": "The website loads the Elfsight platform script from elfsightcdn.com.",
+          "label": "fact",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+          "quote": "https://elfsightcdn.com/platform.js"
+        }
+      },
+      {
+        "product": "CRM or Field-Service Management Software",
+        "purpose": "Lead tracking and job dispatch",
+        "evidence": {
+          "statement": "The company may use off-page CRM or roofing estimating tools, but none are directly exposed on the public site.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Lead capture and customer contact rely on standard web forms and a public Gmail address.",
+        "label": "fact",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "[redacted]"
+      },
+      {
+        "statement": "Customer intake emphasizes that direct phone calls are answered by a live person without automated routing or call centers.",
+        "label": "fact",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/contact/",
+        "quote": "When you call Kings Roofing & Contracting LLC , a real person answers the phone. No automated phone tree, no offshore call center"
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Company operates outside ForgeX's primary target trades (HVAC, plumbing, and electrical).",
+        "label": "fact",
+        "basis": "The company's published service offerings across all pages focus exclusively on roofing, gutters, siding, and RV garages, rather than HVAC, plumbing, or electrical trades."
+      },
+      {
+        "problem": "Use of an unbranded free email address ([redacted]) for core business communications.",
+        "label": "fact",
+        "basis": "All contact headers and footers across the website list a Gmail address instead of an authenticated custom-domain inbox."
+      },
+      {
+        "problem": "Manual call-handling and intake for 24/7 emergency dispatch may create operational strain during severe storm events.",
+        "label": "hypothesis",
+        "basis": "Advertising round-the-clock emergency dispatch with a 60-minute response target without automated triage or call-routing software could create bottlenecks during high-volume weather incidents."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Google Workspace / Custom Domain Email",
+        "addresses": "Transitions customer communications from a free Gmail address to branded @kingsroofingandcontracting.com inboxes with enhanced security and administrative controls.",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "Roofing Industry FSM / CRM (e.g., AccuLynx, JobNimbus, or Roofr)",
+        "addresses": "Manages lead-to-job workflows, aerial measurements, insurance claim documentation, and project schedules.",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "Dedicated After-Hours Call Routing Service",
+        "addresses": "Ensures 24/7 emergency calls are routed directly to on-call technicians without requiring office staff to answer every call manually.",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solutions are recommended because Kings Roofing & Contracting LLC operates outside ForgeX's defined target trades."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "Custom ForgeX AI automations are not applicable for an out-of-segment contractor."
+    },
+    "humanReview": [
+      "Emergency roof repair requests and dispatch scheduling require human review and technician coordination.",
+      "Roof condition evaluations, line-item estimates, and insurance claim representations require licensed human inspectors."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Manual intake of round-the-clock emergency repair calls can result in missed leads or missed 60-minute response targets during surge weather events."
+      },
+      {
+        "type": "compliance",
+        "description": "Permit acquisition (Boise application 428) and insurance claim documentation must remain strictly compliant with municipal building codes and Idaho insurance regulations."
+      },
+      {
+        "type": "security",
+        "description": "Relying on a generic Gmail address for company communications creates administrative security and account governance vulnerabilities."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "Managing Member",
+        "General Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://www.kingsroofingandcontracting.com/contact/",
+          "sourceUrl": "https://www.kingsroofingandcontracting.com/contact/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "What system or software does your team currently use to manage incoming inspection requests from the website?",
+        "How do you coordinate after-hours dispatch for 24/7 emergency roof leak calls during major storm events?",
+        "Do you currently track lead conversion and advertising acquisition costs through a centralized CRM?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.kingsroofingandcontracting.com/",
+          "usedFor": "Business identity, Boise address, registration number (RCE-66571), services overview, contact channels, and technical script tags."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/about/",
+          "usedFor": "Company background, family-owned status, DOPL licensing, and GAF certification."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/contact/",
+          "usedFor": "Contact procedures, business hours, web form details, and live-answering policy."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/free-roof-quote/",
+          "usedFor": "Quoting workflow, inspection breakdown, and service scope."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/financing/",
+          "usedFor": "Payment plans, financing programs, and payment estimator functionality."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/faq/",
+          "usedFor": "Frequently asked questions regarding lifespan, warranty options, inspection scope, and service areas."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/testimonials/",
+          "usedFor": "Customer review themes and community feedback."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/services/",
+          "usedFor": "Detailed listing of commercial and residential exterior contracting services."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/privacy-policy/",
+          "usedFor": "Data privacy and technical tracking disclosures."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/html-sitemap/",
+          "usedFor": "Complete site architecture verification and page mapping."
+        },
+        {
+          "url": "https://www.kingsroofingandcontracting.com/dont-get-nailed-by-hidden-fees-composition-shingle-roofing-costs-explained/",
+          "usedFor": "Review of blog content, general industry cost breakdowns, and author metadata."
+        }
+      ],
+      "limitations": [
+        "Total employee headcount cannot be established from the company website.",
+        "No internal CRM, dispatching, or accounting tools are referenced on public pages.",
+        "Executive personnel cannot be verified from standard company pages without relying on blog bylines or review summaries.",
+        "Direct marketing expenditure and lead purchasing channels are not disclosed on the website."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Kings Roofing & Contracting LLC falls outside ForgeX's defined market segment. ForgeX specifically serves owner-led home-service contractors in the HVAC, plumbing, and electrical trades with approximately 10 to 75 staff who pay for leads. Kings Roofing & Contracting LLC operates exclusively as a roofing and exterior building envelope contractor (roofing, gutters, siding, and RV garages), and its employee count cannot be verified. Because the company is in an unserved trade vertical, it qualifies as 'not a fit'."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "Kings Roofing & Contracting LLC is a veteran-owned Boise roofing contractor, registered with the Idaho Contractors Board (RCE-66571) and insured",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "9201 W State St #127, Boise, ID 83714",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/about/",
+        "quote": "As a family-owned business rooted in the Treasure Valley, we treat every project like it's going on in our own home.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/about/",
+        "quote": "We deliver expert Roof Repair, Roof Replacement, and New Roof Installation for Residential Roofing and Commercial Roofing",
+        "verdict": "found on another page",
+        "foundOn": "https://www.kingsroofingandcontracting.com/free-roof-quote/"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "We handle roof repair in Boise , leak and storm damage repair, full roof replacements, siding and gutters, and 24/7 emergency roof repair",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "Website Design by CinchLocal",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "we respond within 60 minutes and tarp or seal active leaks to stop the water.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "registered with the Idaho Contractors Board (RCE-66571) and insured",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/about/",
+        "quote": "We are fully licensed through the Idaho Division of Occupational and Professional Licenses and carry full liability and workers' compensation coverage.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/about/",
+        "quote": "Our installers are GAF-certified, which means we meet the training and quality standards required by GAF",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "https://www.kingsroofingandcontracting.com/wp-content/plugins/litespeed-cache/assets/js/css_async.min.js",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "https://www.googletagmanager.com/gtag/js?id=G-01LGMHT1NT",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "https://analytics.ahrefs.com/analytics.js",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "https://elfsightcdn.com/platform.js",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "quote": "[redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/contact/",
+        "quote": "When you call Kings Roofing & Contracting LLC , a real person answers the phone. No automated phone tree, no offshore call center",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "verdict": "found"
+      },
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://www.kingsroofingandcontracting.com/contact/",
+        "sourceUrl": "https://www.kingsroofingandcontracting.com/contact/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 16,
+      "quotesFound": 15,
+      "quotesFoundInDetails": 4,
+      "quotesOnAnotherPage": 1,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 1,
+      "channelsFound": 3,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.kingsroofingandcontracting.com/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:06:03.288Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 327465,
+      "truncated": false,
+      "sha256": "c4cab09e22ba201604de3628bb792ac695696f59c5e0f1c79a996ea045cc9819",
+      "textSha256": "02f0a15baf20a323a8c9d2aed53b514342c5e075211ae9071e71ebdac9f1a35e",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/about/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/about/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:06:10.192Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 211862,
+      "truncated": false,
+      "sha256": "982e6d3887c1ad09a14094174573a8fbb0f5c580883c3bd93fda421f02121ba3",
+      "textSha256": "b31c7a39b91fd9e2c67c3d3f1e42647fe0b400db1e2bb8b6b84772e02f4a8bd9",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/contact/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:06:16.050Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 199447,
+      "truncated": false,
+      "sha256": "dfd39bc12bac029d10e67f90b9132df88a956a0dcdb10222be134538c7bebea7",
+      "textSha256": "d540af21d8b7b2e8db45ddda386438fa63aafc384db46394c1e0019eefc3efb6",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/free-roof-quote/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/free-roof-quote/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:06:19.054Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 203661,
+      "truncated": false,
+      "sha256": "da52ee6dd7e17a9c0b8b507586a1b5e9d3e39ef39457cb7bcbc56619b181dd06",
+      "textSha256": "015cd1a183019352f086ddccf1a8e06b42e8dcc0e52642af3c7c719afe6ceffb",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/financing/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/financing/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:06:22.070Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 215615,
+      "truncated": false,
+      "sha256": "d2b680a677e2e6bae4a3ed8b157fcb3d2e68a66b500ed32786bcaf80b9edf001",
+      "textSha256": "738948ba3d8bac0a660c898e2d820af1021c2affb77c4b6ad517a8f7b2e34615",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/privacy-policy/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:06:31.248Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 163235,
+      "truncated": false,
+      "sha256": "f76dfdb4e0febec62197851703e762a11136ce2d594b749e4533cadfb84ba717",
+      "textSha256": "eb5f08af4785c7a1fb2de703791d13c2f9524ed6f347281a567ee402b47d5db8",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/faq/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/faq/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:06:28.383Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 230292,
+      "truncated": false,
+      "sha256": "3627a584c4edc0d86713618918d485ef901550bbd496235eae1865540474c502",
+      "textSha256": "030c1203c17c2a1f0396028e2fb21172477ba0c0aa7e472df917dc9ac219ff20",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/testimonials/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/testimonials/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:38:20.553Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 194880,
+      "truncated": false,
+      "sha256": "94c4e3338a9b7314361cb71d0c842478f426c5bb8636e301730f3278f0b59a4b",
+      "textSha256": "921b0707f269c72eeca41bedf3144e10abd7cace0e626c392fc1cbfe0a0f7cfc",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/services/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:06:13.054Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 231140,
+      "truncated": false,
+      "sha256": "6a6a428d08d5b04d25aa97705b55c23334ff5283c032882bd682feb87f2bb1f0",
+      "textSha256": "a0827a1868c2103ca77223a20e68c10674a7d49115117661a48f8969e63ff583",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/dont-get-nailed-by-hidden-fees-composition-shingle-roofing-costs-explained/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/dont-get-nailed-by-hidden-fees-composition-shingle-roofing-costs-explained/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:38:25.774Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 212483,
+      "truncated": false,
+      "sha256": "93cd5dfe34dc82573289e57b7cec9154fd13a6d0109ddc124d40ec7c18a662a1",
+      "textSha256": "a56ae730acf0e077a51cd56b5c44f9406151900b52a9fa392e2e83e190c32e57",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/html-sitemap/",
+      "finalUrl": "https://www.kingsroofingandcontracting.com/html-sitemap/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:06:34.250Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 171878,
+      "truncated": false,
+      "sha256": "6c5a0dd0eba8ae9f0b75aef657f407b657b321cba5c66d804419e074f4eb3183",
+      "textSha256": "e4cd906254593c2c034ffffd779ecaa5e14900b6fde35dc3df2de8f3b8340280",
+      "fromCache": true
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.kingsroofingandcontracting.com/about/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/free-roof-quote/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/financing/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/privacy-policy/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/faq/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/testimonials/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/services/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/dont-get-nailed-by-hidden-fees-composition-shingle-roofing-costs-explained/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.kingsroofingandcontracting.com/html-sitemap/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 5,
+  "usage": {
+    "input": 43515,
+    "cachedInput": 25638,
+    "output": 4190,
+    "thinking": 8350,
+    "toolUse": 0,
+    "total": 56055
+  },
+  "costUsd": 0.0623556,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3291295",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/about/"
+      }
+    },
+    {
+      "id": "call_3291296",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/contact/"
+      }
+    },
+    {
+      "id": "call_3291297",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/free-roof-quote/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_4211703",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/financing/"
+      }
+    },
+    {
+      "id": "call_4211704",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/privacy-policy/"
+      }
+    },
+    {
+      "id": "call_4211705",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/faq/"
+      }
+    },
+    {
+      "id": "call_4211706",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/testimonials/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3726825",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/services/"
+      }
+    },
+    {
+      "id": "call_3726826",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/dont-get-nailed-by-hidden-fees-composition-shingle-roofing-costs-explained/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3634955",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.kingsroofingandcontracting.com/html-sitemap/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Kings Roofing & Contracting LLC\",\n    \"location\": \"Boise, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"Kings Roofing & Contracting LLC is a veteran-owned roofing contractor based in Boise, Idaho, registered with the Idaho Contractors Board.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"Kings Roofing & Contracting LLC is a veteran-owned Boise roofing contractor, registered with the Idaho Contractors Board (RCE-66571) and insured\"\n      },\n      {\n        \"statement\": \"The physical office location of Kings Roofing & Contracting LLC is 9201 W State St #127, Boise, ID 83714.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"9201 W State St #127, Boise, ID 83714\"\n      },\n      {\n        \"statement\": \"Kings Roofing & Contracting LLC operates as a family-owned business serving the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/about/\",\n        \"quote\": \"As a family-owned business rooted in the Treasure Valley, we treat every project like it's going on in our own home.\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Roofing and exterior contracting\",\n    \"activities\": [\n      \"Roof inspections\",\n      \"Residential roofing\",\n      \"Roof repair and leak detection\",\n      \"Roof replacement and tear-off\",\n      \"New roof installation\",\n      \"Commercial roofing (asphalt shingle, metal, and flat roof systems)\",\n      \"Storm and hail damage repair\",\n      \"24/7 emergency roof repair\",\n      \"Gutter installation\",\n      \"Siding installation\",\n      \"Residential RV garages\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company provides residential and commercial roof repair, roof replacement, and new roof installation across the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/about/\",\n        \"quote\": \"We deliver expert Roof Repair, Roof Replacement, and New Roof Installation for Residential Roofing and Commercial Roofing\"\n      },\n      {\n        \"statement\": \"The company also installs siding, gutters, and residential RV garages, and offers 24/7 emergency roof repairs.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"We handle roof repair in Boise , leak and storm damage repair, full roof replacements, siding and gutters, and 24/7 emergency roof repair\"\n      },\n      {\n        \"statement\": \"The company operates within exterior roofing and building envelope contracting, and does not provide HVAC, plumbing, or electrical trade services.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/services/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.kingsroofingandcontracting.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The website was designed by CinchLocal.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"Website Design by CinchLocal\"\n      },\n      {\n        \"statement\": \"The company advertises a 60-minute response time for 24/7 emergency roof repairs.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"we respond within 60 minutes and tarp or seal active leaks to stop the water.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The business is registered with the Idaho Contractors Board under registration number RCE-66571.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"registered with the Idaho Contractors Board (RCE-66571) and insured\"\n      },\n      {\n        \"statement\": \"The business states it is licensed through the Idaho Division of Occupational and Professional Licenses and carries liability and workers' compensation coverage.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/about/\",\n        \"quote\": \"We are fully licensed through the Idaho Division of Occupational and Professional Licenses and carry full liability and workers' compensation coverage.\"\n      },\n      {\n        \"statement\": \"The company is GAF-certified for roofing installations.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/about/\",\n        \"quote\": \"Our installers are GAF-certified, which means we meet the training and quality standards required by GAF\"\n      }\n    ],\n    \"limitations\": \"Underlying state licensing filings, entity ownership records, and insurance certificates cannot be directly examined from the public website alone.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"WordPress (LiteSpeed Cache)\",\n      \"purpose\": \"Website content management and caching\",\n      \"evidence\": {\n        \"statement\": \"The site loads WordPress core scripts and LiteSpeed Cache assets.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"https://www.kingsroofingandcontracting.com/wp-content/plugins/litespeed-cache/assets/js/css_async.min.js\"\n      }\n    },\n    {\n      \"product\": \"Google Tag Manager / Google Analytics\",\n      \"purpose\": \"Website visitor tracking and analytics\",\n      \"evidence\": {\n        \"statement\": \"The site runs Google Tag Manager script container G-01LGMHT1NT.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"https://www.googletagmanager.com/gtag/js?id=G-01LGMHT1NT\"\n      }\n    },\n    {\n      \"product\": \"Ahrefs Analytics\",\n      \"purpose\": \"Website performance and SEO analytics tracking\",\n      \"evidence\": {\n        \"statement\": \"The site loads an analytics script from analytics.ahrefs.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"https://analytics.ahrefs.com/analytics.js\"\n      }\n    },\n    {\n      \"product\": \"Elfsight\",\n      \"purpose\": \"Third-party widget integration\",\n      \"evidence\": {\n        \"statement\": \"The website loads the Elfsight platform script from elfsightcdn.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n        \"quote\": \"https://elfsightcdn.com/platform.js\"\n      }\n    },\n    {\n      \"product\": \"CRM or Field-Service Management Software\",\n      \"purpose\": \"Lead tracking and job dispatch\",\n      \"evidence\": {\n        \"statement\": \"The company may use off-page CRM or roofing estimating tools, but none are directly exposed on the public site.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Lead capture and customer contact rely on standard web forms and a public Gmail address.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\",\n      \"quote\": \"[redacted]\"\n    },\n    {\n      \"statement\": \"Customer intake emphasizes that direct phone calls are answered by a live person without automated routing or call centers.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/contact/\",\n      \"quote\": \"When you call Kings Roofing & Contracting LLC , a real person answers the phone. No automated phone tree, no offshore call center\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Company operates outside ForgeX's primary target trades (HVAC, plumbing, and electrical).\",\n      \"label\": \"fact\",\n      \"basis\": \"The company's published service offerings across all pages focus exclusively on roofing, gutters, siding, and RV garages, rather than HVAC, plumbing, or electrical trades.\"\n    },\n    {\n      \"problem\": \"Use of an unbranded free email address ([redacted]) for core business communications.\",\n      \"label\": \"fact\",\n      \"basis\": \"All contact headers and footers across the website list a Gmail address instead of an authenticated custom-domain inbox.\"\n    },\n    {\n      \"problem\": \"Manual call-handling and intake for 24/7 emergency dispatch may create operational strain during severe storm events.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Advertising round-the-clock emergency dispatch with a 60-minute response target without automated triage or call-routing software could create bottlenecks during high-volume weather incidents.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Google Workspace / Custom Domain Email\",\n      \"addresses\": \"Transitions customer communications from a free Gmail address to branded @kingsroofingandcontracting.com inboxes with enhanced security and administrative controls.\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"Roofing Industry FSM / CRM (e.g., AccuLynx, JobNimbus, or Roofr)\",\n      \"addresses\": \"Manages lead-to-job workflows, aerial measurements, insurance claim documentation, and project schedules.\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"Dedicated After-Hours Call Routing Service\",\n      \"addresses\": \"Ensures 24/7 emergency calls are routed directly to on-call technicians without requiring office staff to answer every call manually.\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solutions are recommended because Kings Roofing & Contracting LLC operates outside ForgeX's defined target trades.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"Custom ForgeX AI automations are not applicable for an out-of-segment contractor.\"\n  },\n  \"humanReview\": [\n    \"Emergency roof repair requests and dispatch scheduling require human review and technician coordination.\",\n    \"Roof condition evaluations, line-item estimates, and insurance claim representations require licensed human inspectors.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Manual intake of round-the-clock emergency repair calls can result in missed leads or missed 60-minute response targets during surge weather events.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Permit acquisition (Boise application 428) and insurance claim documentation must remain strictly compliant with municipal building codes and Idaho insurance regulations.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Relying on a generic Gmail address for company communications creates administrative security and account governance vulnerabilities.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"Managing Member\",\n      \"General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\"\n      },\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://www.kingsroofingandcontracting.com/contact/\",\n        \"sourceUrl\": \"https://www.kingsroofingandcontracting.com/contact/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What system or software does your team currently use to manage incoming inspection requests from the website?\",\n      \"How do you coordinate after-hours dispatch for 24/7 emergency roof leak calls during major storm events?\",\n      \"Do you currently track lead conversion and advertising acquisition costs through a centralized CRM?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/\",\n        \"usedFor\": \"Business identity, Boise address, registration number (RCE-66571), services overview, contact channels, and technical script tags.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/about/\",\n        \"usedFor\": \"Company background, family-owned status, DOPL licensing, and GAF certification.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/contact/\",\n        \"usedFor\": \"Contact procedures, business hours, web form details, and live-answering policy.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/free-roof-quote/\",\n        \"usedFor\": \"Quoting workflow, inspection breakdown, and service scope.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/financing/\",\n        \"usedFor\": \"Payment plans, financing programs, and payment estimator functionality.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/faq/\",\n        \"usedFor\": \"Frequently asked questions regarding lifespan, warranty options, inspection scope, and service areas.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/testimonials/\",\n        \"usedFor\": \"Customer review themes and community feedback.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/services/\",\n        \"usedFor\": \"Detailed listing of commercial and residential exterior contracting services.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/privacy-policy/\",\n        \"usedFor\": \"Data privacy and technical tracking disclosures.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/html-sitemap/\",\n        \"usedFor\": \"Complete site architecture verification and page mapping.\"\n      },\n      {\n        \"url\": \"https://www.kingsroofingandcontracting.com/dont-get-nailed-by-hidden-fees-composition-shingle-roofing-costs-explained/\",\n        \"usedFor\": \"Review of blog content, general industry cost breakdowns, and author metadata.\"\n      }\n    ],\n    \"limitations\": [\n      \"Total employee headcount cannot be established from the company website.\",\n      \"No internal CRM, dispatching, or accounting tools are referenced on public pages.\",\n      \"Executive personnel cannot be verified from standard company pages without relying on blog bylines or review summaries.\",\n      \"Direct marketing expenditure and lead purchasing channels are not disclosed on the website.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Kings Roofing & Contracting LLC falls outside ForgeX's defined market segment. ForgeX specifically serves owner-led home-service contractors in the HVAC, plumbing, and electrical trades with approximately 10 to 75 staff who pay for leads. Kings Roofing & Contracting LLC operates exclusively as a roofing and exterior building envelope contractor (roofing, gutters, siding, and RV garages), and its employee count cannot be verified. Because the company is in an unserved trade vertical, it qualifies as 'not a fit'.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

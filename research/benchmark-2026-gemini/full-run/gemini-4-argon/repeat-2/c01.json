@@ -1,0 +1,664 @@
+{
+  "company": {
+    "id": "c01",
+    "name": "Boise Metal Works",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.boisemetalworks.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:42:09.353Z",
+  "finishedAt": "2026-10-27T19:43:53.739Z",
+  "report": {
+    "identity": {
+      "name": "Boise Metal Works",
+      "location": "2000 Yamhill Rd., Boise, ID 83716",
+      "claims": [
+        {
+          "statement": "Boise Metal Works is located at 2000 Yamhill Rd., Boise, ID 83716.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/",
+          "quote": "2000 Yamhill Rd. Boise, ID 83716"
+        },
+        {
+          "statement": "Boise Metal Works was founded in 1994, spawned from Boise Spring Works which was founded in 1917.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+          "quote": "Boise Metal Works was spawned from Boise Spring Works , which had been founded by [redacted] in 1917."
+        },
+        {
+          "statement": "[redacted] and [redacted] founded Boise Metal Works in 1994.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+          "quote": "start a new journey, founding Boise Metal Works in 1994."
+        },
+        {
+          "statement": "The company serves Boise, the Treasure Valley communities of Meridian, Eagle, Nampa, Caldwell, and Eastern Oregon.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/contact/",
+          "quote": "We have been serving Boise, Idaho including the Treasure Valley Communities of Meridian, Eagle, Nampa – Caldwell and Eastern Oregon since 1994."
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Custom Metal Fabrication and Manufacturing",
+      "activities": [
+        "Custom metal fabrication for commercial, industrial, and residential applications",
+        "Custom metal signs and architectural awnings",
+        "Custom truck accessories, upfitting, and fabricated steel tanks",
+        "Metal gates, fences, stairs, and railings",
+        "Structural steel fabrication",
+        "Product development and repeat manufacturing",
+        "CNC machining and CNC water jet cutting",
+        "In-house painting and partnered powder coating"
+      ],
+      "claims": [
+        {
+          "statement": "Boise Metal Works provides custom metal fabrication and manufacturing solutions across commercial, industrial, and residential applications.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/",
+          "quote": "Boise Metal Works provides custom metal fabrication and manufacturing solutions for commercial, industrial, and residential applications."
+        },
+        {
+          "statement": "The company handles both one-of-a-kind custom projects and repeat production runs.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/",
+          "quote": "From one-of-a-kind projects to repeat production runs, our team combines skilled craftsmanship, modern equipment, and dependable service"
+        },
+        {
+          "statement": "The shop works with steel, aluminum, stainless steel, alloy, galvanized, and copper materials.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+          "quote": "A: Steel, Aluminum, Stainless Steel, Alloy, Galvanized, and Copper."
+        },
+        {
+          "statement": "Boise Metal Works performs both shop and field welding using Hardwire, Dual Shield, Tig, and Stick processes.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+          "quote": "Hardwire, Dual Shield, Tig and Stick, we have both Shop and Field capabilities"
+        },
+        {
+          "statement": "Boise Metal Works is a metal fabricator and manufacturer rather than an HVAC, plumbing, or electrical home-service contractor.",
+          "label": "inference",
+          "sourceUrl": "https://www.boisemetalworks.com/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.boisemetalworks.com/",
+      "claims": [
+        {
+          "statement": "The company's published general shop rate is $95 per hour, separate from machining and water jet rates.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+          "quote": "Our shop rate is $95 an hour and is subject to change. This is separate from our machining and water jet rates."
+        },
+        {
+          "statement": "Boise Metal Works assigns a dedicated point of contact from design to delivery for each project.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/",
+          "quote": "Your dedicated, Boise Metal Works point of contact is committed for the life of your project, from design to delivery."
+        },
+        {
+          "statement": "The facility operates a Vf4 CNC machine and a 9' x 13' CNC water jet machine with 12\" Z-axis travel.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+          "quote": "We have a table size of 9′ x 13′. We have a full 12″ Z axis travel for thicker composite materials."
+        },
+        {
+          "statement": "The website offers online quote and project inquiry forms that accept file uploads up to 16 MB.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/contact/",
+          "quote": "Upload your Idea Here (16M Max)"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The FAQ page references commercial and residential building code specifications for stair rise and handrail dimensions.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+          "quote": "Maximum rise is 7″ per commercial code 7 1/4″ per residential code."
+        }
+      ],
+      "limitations": "No contractor license numbers, structural welding certifications, or Idaho business registration numbers are displayed on the pages read."
+    },
+    "existingSoftware": [
+      {
+        "product": "Geometric part-nesting software (unspecified vendor)",
+        "purpose": "Geometrically nesting parts for CNC water jet cutting to maximize material utilization",
+        "evidence": {
+          "statement": "Boise Metal Works states on its equipment capabilities page that its software geometrically nests parts to utilize material to its fullest extent.",
+          "label": "fact",
+          "sourceUrl": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+          "quote": "our software allows us to geometrically nest parts to utilize material to its fullest extent."
+        }
+      },
+      {
+        "product": "WordPress with The7 theme, WPBakery Page Builder (js_composer), and Slider Revolution",
+        "purpose": "Website content management and front-end presentation",
+        "evidence": {
+          "statement": "The site loads scripts from paths containing /wp-includes/, /wp-content/themes/dt-the7/, /wp-content/plugins/js_composer/, and /wp-content/plugins/revslider/; identifying these specific software product names from script URLs relies on external product knowledge.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Contact Form 7",
+        "purpose": "Web form handling for quote and contact inquiries",
+        "evidence": {
+          "statement": "The site loads scripts from /wp-content/plugins/contact-form-7/ and posts forms to #wpcf7 targets; identifying the plugin as Contact Form 7 relies on external product knowledge.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Google Tag Manager / Google Analytics (gtag.js)",
+        "purpose": "Website traffic and analytics tracking",
+        "evidence": {
+          "statement": "The site loads https://www.googletagmanager.com/gtag/js?id=G-ZTTS4XE50N; identifying the service from the script host relies on external product knowledge.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Google reCAPTCHA",
+        "purpose": "Spam protection on website contact forms",
+        "evidence": {
+          "statement": "The site loads https://www.google.com/recaptcha/api.js on its pages; identifying the product from the script URL relies on external product knowledge.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Prospective customers are invited to submit project details and attach design images (up to 16 MB) via a web form on the homepage and contact page.",
+        "label": "fact",
+        "sourceUrl": "https://www.boisemetalworks.com/contact/",
+        "quote": "If you need help with your next custom metal project, then give us some details and attach any images you may have"
+      },
+      {
+        "statement": "Each project is managed by a single dedicated point of contact from design through delivery.",
+        "label": "fact",
+        "sourceUrl": "https://www.boisemetalworks.com/",
+        "quote": "Your dedicated, Boise Metal Works point of contact is committed for the life of your project, from design to delivery."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Custom fabrication quote requests arriving via web forms with uploaded sketches or images may require manual triage, routing, and follow-up by estimators or project managers.",
+        "label": "hypothesis",
+        "basis": "The website uses a basic web form with file upload ('Upload your Idea Here (16M Max)') and displays no customer portal or automated quoting/scheduling tool, though internal ERP or shop management workflows cannot be observed from the public site."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Fabrication shop management / ERP software (such as JobBOSS, ECI M1, FabSuite, or Fulcrum)",
+        "addresses": "Estimating, RFQ intake, CAD/CAM nesting integration, work order routing, and shop floor tracking for custom metal fabricators",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because Boise Metal Works is a custom metal fabrication and manufacturing shop outside ForgeX's target segment of owner-led HVAC, plumbing, and electrical home-service contractors."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because the company is outside ForgeX's target segment."
+    },
+    "humanReview": [
+      "No implementation is recommended; in any custom metal fabrication workflow, engineering drawings, material specifications, structural code compliance, and custom quotes require human estimator and fabricator sign-off."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Custom metal fabrication involves bespoke engineering specifications, structural tolerances, and commercial/residential building codes that cannot be quoted or routed using templates designed for residential HVAC, plumbing, or electrical service calls."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "Although the FAQ page states a general shop rate of $95 per hour ('Our shop rate is $95 an hour and is subject to change.'), Boise Metal Works is outside ForgeX's target segment and no ForgeX service is recommended."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Co-Founder",
+        "General Manager / Shop Manager"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Co-Founder",
+          "sourceUrl": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+          "quote": "[redacted] ([redacted]’s grandson) and [redacted] ([redacted] Son) had the idea that they could leverage their metal smithing reputation"
+        },
+        {
+          "name": "[redacted]",
+          "role": "Co-Founder",
+          "sourceUrl": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+          "quote": "[redacted] ([redacted]’s grandson) and [redacted] ([redacted] Son) had the idea that they could leverage their metal smithing reputation"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.boisemetalworks.com/contact/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How are incoming custom fabrication quote requests and uploaded customer drawings currently routed and tracked from initial inquiry through estimating?",
+        "What shop management, ERP, or accounting software do you currently use alongside your water jet nesting software?",
+        "Approximately how many staff members work across your fabrication shop, field welding crew, and office?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.boisemetalworks.com/",
+          "usedFor": "Business identity, address, phone number, principal metal fabrication and manufacturing services, dedicated point of contact policy, and technical script/form inventory."
+        },
+        {
+          "url": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+          "usedFor": "Company founding history (1994), heritage from Boise Spring Works (1917), and identification of founders [redacted] and [redacted]."
+        },
+        {
+          "url": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+          "usedFor": "Published shop rate ($95/hour), materials handled, painting vs. powder coating capabilities, and residential/commercial stair and railing code references."
+        },
+        {
+          "url": "https://www.boisemetalworks.com/contact/",
+          "usedFor": "Service area verification (Boise, Treasure Valley, Eastern Oregon), physical address, phone number, and project inquiry form with file upload."
+        },
+        {
+          "url": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+          "usedFor": "Shop equipment list (Vf4 CNC machine, 9' x 13' CNC water jet, shear, press brake, rollers, shop/field welding) and confirmation of geometric part-nesting software."
+        },
+        {
+          "url": "https://www.boisemetalworks.com/services/",
+          "usedFor": "Overview of fabrication services."
+        },
+        {
+          "url": "https://www.boisemetalworks.com/custom-designs-metals-fabrications-idaho/",
+          "usedFor": "Confirmation of custom design and metal fabrication focus across industrial, commercial, and residential applications."
+        }
+      ],
+      "limitations": [
+        "Employee headcount is not stated on the public website.",
+        "No contractor license numbers or state business registration details are published on the website.",
+        "No direct email address is published on the pages read (only a phone number and Contact Form 7 web forms).",
+        "Internal ERP, estimating, CAD/CAM vendor names, and accounting systems cannot be verified from the public website.",
+        "Whether the company pays for digital leads is not verifiable from the website (though gtag.js is present, no paid search landing pages or call-tracking scripts were observed)."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "ForgeX serves owner-led home-service contractors in HVAC, plumbing, and electrical with roughly 10 to 75 staff who pay for leads. Boise Metal Works is a custom metal fabrication, machining, water-jet cutting, and manufacturing company serving industrial, commercial, and residential clients. Because its core industry and job-shop manufacturing workflows fall outside ForgeX's target home-service contractor segment, it is not a fit."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.boisemetalworks.com/",
+        "quote": "2000 Yamhill Rd. Boise, ID 83716",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+        "quote": "Boise Metal Works was spawned from Boise Spring Works , which had been founded by [redacted] in 1917.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+        "quote": "start a new journey, founding Boise Metal Works in 1994.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.boisemetalworks.com/contact/",
+        "quote": "We have been serving Boise, Idaho including the Treasure Valley Communities of Meridian, Eagle, Nampa – Caldwell and Eastern Oregon since 1994.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.boisemetalworks.com/",
+        "quote": "Boise Metal Works provides custom metal fabrication and manufacturing solutions for commercial, industrial, and residential applications.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.boisemetalworks.com/",
+        "quote": "From one-of-a-kind projects to repeat production runs, our team combines skilled craftsmanship, modern equipment, and dependable service",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+        "quote": "A: Steel, Aluminum, Stainless Steel, Alloy, Galvanized, and Copper.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+        "quote": "Hardwire, Dual Shield, Tig and Stick, we have both Shop and Field capabilities",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+        "quote": "Our shop rate is $95 an hour and is subject to change. This is separate from our machining and water jet rates.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.boisemetalworks.com/",
+        "quote": "Your dedicated, Boise Metal Works point of contact is committed for the life of your project, from design to delivery.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+        "quote": "We have a table size of 9′ x 13′. We have a full 12″ Z axis travel for thicker composite materials.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.boisemetalworks.com/contact/",
+        "quote": "Upload your Idea Here (16M Max)",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+        "quote": "Maximum rise is 7″ per commercial code 7 1/4″ per residential code.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+        "quote": "our software allows us to geometrically nest parts to utilize material to its fullest extent.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.boisemetalworks.com/contact/",
+        "quote": "If you need help with your next custom metal project, then give us some details and attach any images you may have",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.boisemetalworks.com/",
+        "quote": "Your dedicated, Boise Metal Works point of contact is committed for the life of your project, from design to delivery.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+        "quote": "[redacted] ([redacted]’s grandson) and [redacted] ([redacted] Son) had the idea that they could leverage their metal smithing reputation",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+        "quote": "[redacted] ([redacted]’s grandson) and [redacted] ([redacted] Son) had the idea that they could leverage their metal smithing reputation",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.boisemetalworks.com/contact/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 18,
+      "quotesFound": 18,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 4,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.boisemetalworks.com/",
+      "finalUrl": "https://www.boisemetalworks.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:42:12.472Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 128098,
+      "truncated": false,
+      "sha256": "6b29ebe3ea12f8e69f31ac63774980881a88007538f5299bbd44464c0c0c624c",
+      "textSha256": "b5a626e2fee41482dd65f4ac866af566aa08044c010c5741af981b12d5db94d0",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+      "finalUrl": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:42:31.535Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 77155,
+      "truncated": false,
+      "sha256": "3e80df39e3ff3177dc0e8f9476ec2af7d76875465cee484bf192a4ba51a5d9a9",
+      "textSha256": "a6234b1d4460a9a94d90e44827f0bfa8fa56a4ff00156f5084ad1d67496d6ec7",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+      "finalUrl": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:42:34.453Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 83959,
+      "truncated": false,
+      "sha256": "e7e309ba4bf611c1157c6a9d24cd485db17818f0236d84c978e02d8f01401959",
+      "textSha256": "251c42b370947c1148bfdce6380df6f47767c1c66d5b2ac72a52246f689b2d01",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.boisemetalworks.com/contact/",
+      "finalUrl": "https://www.boisemetalworks.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:42:37.464Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 86184,
+      "truncated": false,
+      "sha256": "2baed398d24f84b4c163c39ef4ea01085486bbfea192a8e116b74c505e59c2e9",
+      "textSha256": "ab3dcd7fe6a607e74c19d5f8ac6aa01e787f7ede2f1a642a01114fb8e526a87e",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+      "finalUrl": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:42:43.854Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 93100,
+      "truncated": false,
+      "sha256": "c803b1faf17817296517ead214575ef4bf722c69d51d85bdc8f7df0a4ed9ab1d",
+      "textSha256": "cd1ca0afa197dc90dc8deae9ddbd211602419880bab157bc472bbcd330e0a55d",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.boisemetalworks.com/services/",
+      "finalUrl": "https://www.boisemetalworks.com/services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:42:46.768Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 90447,
+      "truncated": false,
+      "sha256": "6e4414fc2f22a2025108346247b755cb607afc2cba2e1da2d0cfb8cb023a001e",
+      "textSha256": "b2499bd52961cf751f500d6b8424d950271657d461d3787b4ed7b6f6c806e4d5",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.boisemetalworks.com/custom-designs-metals-fabrications-idaho/",
+      "finalUrl": "https://www.boisemetalworks.com/custom-designs-metals-fabrications-idaho/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:43:12.341Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 77145,
+      "truncated": false,
+      "sha256": "0288dd8bcf79bb62c0e1d7d59a162a537c0614b629ef2e80f57d6b9393c24599",
+      "textSha256": "9983146091140b62dec61222549b6c57834fbf327efdb2cfeb6c957006a88e1b",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.boisemetalworks.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.boisemetalworks.com/services/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.boisemetalworks.com/custom-designs-metals-fabrications-idaho/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 4,
+  "usage": {
+    "input": 64425,
+    "cachedInput": 41282,
+    "output": 4218,
+    "thinking": 1965,
+    "toolUse": 0,
+    "total": 70608
+  },
+  "costUsd": 0.11224420000000002,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1144974",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/"
+      }
+    },
+    {
+      "id": "call_1144975",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.boisemetalworks.com/metals-fabrication-industry-infomation/"
+      }
+    },
+    {
+      "id": "call_1144976",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.boisemetalworks.com/contact/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1449440",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.boisemetalworks.com/metal-fabrication-shop-capacities/"
+      }
+    },
+    {
+      "id": "call_1449441",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.boisemetalworks.com/services/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1590844",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.boisemetalworks.com/custom-designs-metals-fabrications-idaho/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Boise Metal Works\",\n    \"location\": \"2000 Yamhill Rd., Boise, ID 83716\",\n    \"claims\": [\n      {\n        \"statement\": \"Boise Metal Works is located at 2000 Yamhill Rd., Boise, ID 83716.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/\",\n        \"quote\": \"2000 Yamhill Rd. Boise, ID 83716\"\n      },\n      {\n        \"statement\": \"Boise Metal Works was founded in 1994, spawned from Boise Spring Works which was founded in 1917.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/\",\n        \"quote\": \"Boise Metal Works was spawned from Boise Spring Works , which had been founded by [redacted] in 1917.\"\n      },\n      {\n        \"statement\": \"[redacted] and [redacted] founded Boise Metal Works in 1994.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/\",\n        \"quote\": \"start a new journey, founding Boise Metal Works in 1994.\"\n      },\n      {\n        \"statement\": \"The company serves Boise, the Treasure Valley communities of Meridian, Eagle, Nampa, Caldwell, and Eastern Oregon.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/contact/\",\n        \"quote\": \"We have been serving Boise, Idaho including the Treasure Valley Communities of Meridian, Eagle, Nampa – Caldwell and Eastern Oregon since 1994.\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Custom Metal Fabrication and Manufacturing\",\n    \"activities\": [\n      \"Custom metal fabrication for commercial, industrial, and residential applications\",\n      \"Custom metal signs and architectural awnings\",\n      \"Custom truck accessories, upfitting, and fabricated steel tanks\",\n      \"Metal gates, fences, stairs, and railings\",\n      \"Structural steel fabrication\",\n      \"Product development and repeat manufacturing\",\n      \"CNC machining and CNC water jet cutting\",\n      \"In-house painting and partnered powder coating\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Boise Metal Works provides custom metal fabrication and manufacturing solutions across commercial, industrial, and residential applications.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/\",\n        \"quote\": \"Boise Metal Works provides custom metal fabrication and manufacturing solutions for commercial, industrial, and residential applications.\"\n      },\n      {\n        \"statement\": \"The company handles both one-of-a-kind custom projects and repeat production runs.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/\",\n        \"quote\": \"From one-of-a-kind projects to repeat production runs, our team combines skilled craftsmanship, modern equipment, and dependable service\"\n      },\n      {\n        \"statement\": \"The shop works with steel, aluminum, stainless steel, alloy, galvanized, and copper materials.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/metals-fabrication-industry-infomation/\",\n        \"quote\": \"A: Steel, Aluminum, Stainless Steel, Alloy, Galvanized, and Copper.\"\n      },\n      {\n        \"statement\": \"Boise Metal Works performs both shop and field welding using Hardwire, Dual Shield, Tig, and Stick processes.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/metal-fabrication-shop-capacities/\",\n        \"quote\": \"Hardwire, Dual Shield, Tig and Stick, we have both Shop and Field capabilities\"\n      },\n      {\n        \"statement\": \"Boise Metal Works is a metal fabricator and manufacturer rather than an HVAC, plumbing, or electrical home-service contractor.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.boisemetalworks.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company's published general shop rate is $95 per hour, separate from machining and water jet rates.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/metals-fabrication-industry-infomation/\",\n        \"quote\": \"Our shop rate is $95 an hour and is subject to change. This is separate from our machining and water jet rates.\"\n      },\n      {\n        \"statement\": \"Boise Metal Works assigns a dedicated point of contact from design to delivery for each project.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/\",\n        \"quote\": \"Your dedicated, Boise Metal Works point of contact is committed for the life of your project, from design to delivery.\"\n      },\n      {\n        \"statement\": \"The facility operates a Vf4 CNC machine and a 9' x 13' CNC water jet machine with 12\\\" Z-axis travel.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/metal-fabrication-shop-capacities/\",\n        \"quote\": \"We have a table size of 9′ x 13′. We have a full 12″ Z axis travel for thicker composite materials.\"\n      },\n      {\n        \"statement\": \"The website offers online quote and project inquiry forms that accept file uploads up to 16 MB.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/contact/\",\n        \"quote\": \"Upload your Idea Here (16M Max)\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The FAQ page references commercial and residential building code specifications for stair rise and handrail dimensions.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/metals-fabrication-industry-infomation/\",\n        \"quote\": \"Maximum rise is 7″ per commercial code 7 1/4″ per residential code.\"\n      }\n    ],\n    \"limitations\": \"No contractor license numbers, structural welding certifications, or Idaho business registration numbers are displayed on the pages read.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Geometric part-nesting software (unspecified vendor)\",\n      \"purpose\": \"Geometrically nesting parts for CNC water jet cutting to maximize material utilization\",\n      \"evidence\": {\n        \"statement\": \"Boise Metal Works states on its equipment capabilities page that its software geometrically nests parts to utilize material to its fullest extent.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/metal-fabrication-shop-capacities/\",\n        \"quote\": \"our software allows us to geometrically nest parts to utilize material to its fullest extent.\"\n      }\n    },\n    {\n      \"product\": \"WordPress with The7 theme, WPBakery Page Builder (js_composer), and Slider Revolution\",\n      \"purpose\": \"Website content management and front-end presentation\",\n      \"evidence\": {\n        \"statement\": \"The site loads scripts from paths containing /wp-includes/, /wp-content/themes/dt-the7/, /wp-content/plugins/js_composer/, and /wp-content/plugins/revslider/; identifying these specific software product names from script URLs relies on external product knowledge.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Contact Form 7\",\n      \"purpose\": \"Web form handling for quote and contact inquiries\",\n      \"evidence\": {\n        \"statement\": \"The site loads scripts from /wp-content/plugins/contact-form-7/ and posts forms to #wpcf7 targets; identifying the plugin as Contact Form 7 relies on external product knowledge.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google Tag Manager / Google Analytics (gtag.js)\",\n      \"purpose\": \"Website traffic and analytics tracking\",\n      \"evidence\": {\n        \"statement\": \"The site loads https://www.googletagmanager.com/gtag/js?id=G-ZTTS4XE50N; identifying the service from the script host relies on external product knowledge.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google reCAPTCHA\",\n      \"purpose\": \"Spam protection on website contact forms\",\n      \"evidence\": {\n        \"statement\": \"The site loads https://www.google.com/recaptcha/api.js on its pages; identifying the product from the script URL relies on external product knowledge.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Prospective customers are invited to submit project details and attach design images (up to 16 MB) via a web form on the homepage and contact page.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.boisemetalworks.com/contact/\",\n      \"quote\": \"If you need help with your next custom metal project, then give us some details and attach any images you may have\"\n    },\n    {\n      \"statement\": \"Each project is managed by a single dedicated point of contact from design through delivery.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.boisemetalworks.com/\",\n      \"quote\": \"Your dedicated, Boise Metal Works point of contact is committed for the life of your project, from design to delivery.\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Custom fabrication quote requests arriving via web forms with uploaded sketches or images may require manual triage, routing, and follow-up by estimators or project managers.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The website uses a basic web form with file upload ('Upload your Idea Here (16M Max)') and displays no customer portal or automated quoting/scheduling tool, though internal ERP or shop management workflows cannot be observed from the public site.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Fabrication shop management / ERP software (such as JobBOSS, ECI M1, FabSuite, or Fulcrum)\",\n      \"addresses\": \"Estimating, RFQ intake, CAD/CAM nesting integration, work order routing, and shop floor tracking for custom metal fabricators\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because Boise Metal Works is a custom metal fabrication and manufacturing shop outside ForgeX's target segment of owner-led HVAC, plumbing, and electrical home-service contractors.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because the company is outside ForgeX's target segment.\"\n  },\n  \"humanReview\": [\n    \"No implementation is recommended; in any custom metal fabrication workflow, engineering drawings, material specifications, structural code compliance, and custom quotes require human estimator and fabricator sign-off.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Custom metal fabrication involves bespoke engineering specifications, structural tolerances, and commercial/residential building codes that cannot be quoted or routed using templates designed for residential HVAC, plumbing, or electrical service calls.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"Although the FAQ page states a general shop rate of $95 per hour ('Our shop rate is $95 an hour and is subject to change.'), Boise Metal Works is outside ForgeX's target segment and no ForgeX service is recommended.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Co-Founder\",\n      \"General Manager / Shop Manager\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Co-Founder\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/\",\n        \"quote\": \"[redacted] ([redacted]’s grandson) and [redacted] ([redacted] Son) had the idea that they could leverage their metal smithing reputation\"\n      },\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Co-Founder\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/\",\n        \"quote\": \"[redacted] ([redacted]’s grandson) and [redacted] ([redacted] Son) had the idea that they could leverage their metal smithing reputation\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.boisemetalworks.com/contact/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How are incoming custom fabrication quote requests and uploaded customer drawings currently routed and tracked from initial inquiry through estimating?\",\n      \"What shop management, ERP, or accounting software do you currently use alongside your water jet nesting software?\",\n      \"Approximately how many staff members work across your fabrication shop, field welding crew, and office?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.boisemetalworks.com/\",\n        \"usedFor\": \"Business identity, address, phone number, principal metal fabrication and manufacturing services, dedicated point of contact policy, and technical script/form inventory.\"\n      },\n      {\n        \"url\": \"https://www.boisemetalworks.com/idaho-master-metal-fabricators-history/\",\n        \"usedFor\": \"Company founding history (1994), heritage from Boise Spring Works (1917), and identification of founders [redacted] and [redacted].\"\n      },\n      {\n        \"url\": \"https://www.boisemetalworks.com/metals-fabrication-industry-infomation/\",\n        \"usedFor\": \"Published shop rate ($95/hour), materials handled, painting vs. powder coating capabilities, and residential/commercial stair and railing code references.\"\n      },\n      {\n        \"url\": \"https://www.boisemetalworks.com/contact/\",\n        \"usedFor\": \"Service area verification (Boise, Treasure Valley, Eastern Oregon), physical address, phone number, and project inquiry form with file upload.\"\n      },\n      {\n        \"url\": \"https://www.boisemetalworks.com/metal-fabrication-shop-capacities/\",\n        \"usedFor\": \"Shop equipment list (Vf4 CNC machine, 9' x 13' CNC water jet, shear, press brake, rollers, shop/field welding) and confirmation of geometric part-nesting software.\"\n      },\n      {\n        \"url\": \"https://www.boisemetalworks.com/services/\",\n        \"usedFor\": \"Overview of fabrication services.\"\n      },\n      {\n        \"url\": \"https://www.boisemetalworks.com/custom-designs-metals-fabrications-idaho/\",\n        \"usedFor\": \"Confirmation of custom design and metal fabrication focus across industrial, commercial, and residential applications.\"\n      }\n    ],\n    \"limitations\": [\n      \"Employee headcount is not stated on the public website.\",\n      \"No contractor license numbers or state business registration details are published on the website.\",\n      \"No direct email address is published on the pages read (only a phone number and Contact Form 7 web forms).\",\n      \"Internal ERP, estimating, CAD/CAM vendor names, and accounting systems cannot be verified from the public website.\",\n      \"Whether the company pays for digital leads is not verifiable from the website (though gtag.js is present, no paid search landing pages or call-tracking scripts were observed).\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"ForgeX serves owner-led home-service contractors in HVAC, plumbing, and electrical with roughly 10 to 75 staff who pay for leads. Boise Metal Works is a custom metal fabrication, machining, water-jet cutting, and manufacturing company serving industrial, commercial, and residential clients. Because its core industry and job-shop manufacturing workflows fall outside ForgeX's target home-service contractor segment, it is not a fit.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "company": {
+    "id": "c07",
+    "name": "Crossflow Plumbing LLC",
+    "town": "Eagle",
+    "state": "Idaho",
+    "website": "https://crossflowplumbingllc.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:32:41.526Z",
+  "finishedAt": "2026-10-27T18:34:25.970Z",
+  "report": {
+    "identity": {
+      "name": "Crossflow Plumbing LLC",
+      "location": "384 N Stierman Way, Eagle, Idaho 83616",
+      "claims": [
+        {
+          "statement": "Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho."
+        },
+        {
+          "statement": "The business lists its street address as 384 N Stierman Way, Eagle, Idaho 83616.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+          "quote": "384 N Stierman Way Eagle, Idaho 83616"
+        },
+        {
+          "statement": "[redacted] is the Owner and Founder of Crossflow Plumbing LLC.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+          "quote": "~ [redacted], Owner & Founder of Crossflow Plumbing"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential Plumbing & Home Services",
+      "activities": [
+        "24/7 Emergency Plumbing",
+        "Drain Cleaning & Hydro Jetting",
+        "Water Heater Repair & Installation (Tank, Tankless, Hybrid, Gas, Electric)",
+        "Leak Detection & Pipe Repair",
+        "Sewer Line Inspection & Repair",
+        "Plumbing Fixture, Water Softener & Filtration Installation"
+      ],
+      "claims": [
+        {
+          "statement": "The company provides emergency plumbing, drain cleaning, water heater repair, leak detection, and sewer line repair.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+          "quote": "Crossflow Plumbing provides fast, professional plumbing services including emergency plumbing, drain cleaning, water heater repair, leak detection, and sewer line repair."
+        },
+        {
+          "statement": "The company installs water filtration systems and water softeners in addition to plumbing fixtures.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+          "quote": "Protect your plumbing and appliances from Idaho's hard water with professional softener installation."
+        },
+        {
+          "statement": "The company operates across Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton in Idaho's Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "We proudly serve the entire Treasure Valley including Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://crossflowplumbingllc.com/",
+      "claims": [
+        {
+          "statement": "The official website advertises 24/7/365 emergency plumbing service and bilingual (English and Spanish) customer communication.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+          "quote": "We promise to answer the phone, we explain what’s going on in plain English (but we can also speak in Spanish if you need it)"
+        },
+        {
+          "statement": "The homepage displays a counter stating 400+ happy customers and 24/7 emergency service.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "400+ Happy Customers 24/7 Emergency Service"
+        },
+        {
+          "statement": "The water heater service page publishes starting installed prices for tank ($800) and tankless ($1,500+) water heaters.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/water-heater-repair-boise/",
+          "quote": "That said, a new tank water heater is usually starting at $800 installed and tankless is $1,500 and up."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The website states that all of its plumbers are fully licensed, insured, and experienced.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "Yes, all our plumbers are fully licensed, insured, and experienced."
+        }
+      ],
+      "limitations": "Although the website states the business and its plumbers are licensed and insured, no specific Idaho plumbing contractor license number or state registration number is displayed on the pages read."
+    },
+    "existingSoftware": [
+      {
+        "product": "client.housecallpro.com widget",
+        "purpose": "Customer reviews widget embedded via iframe on the homepage",
+        "evidence": {
+          "statement": "The homepage embeds an iframe from client.housecallpro.com for displaying reviews.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "https://client.housecallpro.com/reviews/widget/64a6cf54-1946-40dc-96c9-ccbb074bd969"
+        }
+      },
+      {
+        "product": "Housecall Pro field-service management platform",
+        "purpose": "Field-service scheduling, dispatching, invoicing, and review management",
+        "evidence": {
+          "statement": "Because the homepage loads a widget from client.housecallpro.com, the company likely uses Housecall Pro as its field-service software.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "elementor / elementor-pro / hello-elementor / link-whisper-premium / google-site-kit",
+        "purpose": "Website content management, page building, internal linking, and site event tracking",
+        "evidence": {
+          "statement": "The website loads scripts from wp-content/plugins/elementor, elementor-pro, link-whisper-premium, and google-site-kit.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "https://crossflowplumbingllc.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.3.1"
+        }
+      },
+      {
+        "product": "googletagmanager.com (GT-K52TXMCT)",
+        "purpose": "Website analytics and tag management",
+        "evidence": {
+          "statement": "The website loads a Google Tag script with ID GT-K52TXMCT from www.googletagmanager.com.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "https://www.googletagmanager.com/gtag/js?id=GT-K52TXMCT"
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The website captures service requests via standard HTTP POST forms asking for Full Name, Email Address, Phone Number, Service Needed, and Message.",
+        "label": "fact",
+        "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+        "quote": "Full Name Email Address Phone Number Service Needed Select a service"
+      },
+      {
+        "statement": "The website does not embed an online booking widget or live chat widget on the pages read, relying instead on phone calls and POST forms.",
+        "label": "inference",
+        "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+        "quote": null
+      },
+      {
+        "statement": "The company states it prioritizes emergency calls and aims to respond within 1 to 2 hours across the Treasure Valley.",
+        "label": "fact",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "We prioritize emergency calls and typically respond within 1-2 hours depending on your location in the Treasure Valley."
+      },
+      {
+        "statement": "The company regularly receives common customer inquiries regarding water heater pricing, running toilets, and emergency steps.",
+        "label": "fact",
+        "sourceUrl": "https://crossflowplumbingllc.com/water-heater-repair-boise/",
+        "quote": "How much does a new water heater cost? We get that question often!"
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Web form leads submitted on the WordPress/Elementor site may require manual entry into the field-service software and may not receive an instant two-minute automated follow-up, risking lost leads during busy jobs or after hours.",
+        "label": "hypothesis",
+        "basis": "The site uses native POST forms on https://crossflowplumbingllc.com/ and https://crossflowplumbingllc.com/contact/ rather than an embedded field-service booking widget, though backend webhook automation cannot be ruled out from public pages."
+      },
+      {
+        "problem": "Owner and technicians may face interruptions from routine questions or after-hours calls that could be triaged or answered automatically before dispatch.",
+        "label": "hypothesis",
+        "basis": "The company advertises 24/7/365 emergency response across eight Treasure Valley towns and notes frequent customer questions, with no automated chat or triage assistant observable on the site."
+      },
+      {
+        "problem": "Tracking booked revenue, close rate, average ticket, and cost per booked job across lead sources may require manual consolidation across field-service, accounting, and marketing tools.",
+        "label": "hypothesis",
+        "basis": "The site uses googletagmanager.com and a client.housecallpro.com widget, suggesting multiple systems that owners often reconcile manually."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Built-in online booking, lead capture, and automated text/email follow-ups within the company's existing field-service software (such as Housecall Pro)",
+        "addresses": "Direct lead entry into field-service software and automated initial customer responses without custom middleware",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Native reporting dashboards within existing field-service software",
+        "addresses": "Basic tracking of job revenue, average ticket, and technician performance",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "One-week audit ($500 fixed price, credited in full toward any fix ordered within 30 days) to measure how many calls, web-form leads, and quotes slip through and quantify their value.",
+        "problem": "Potential delay or drop-off between WordPress web-form inquiries, missed calls while on job sites, and booked jobs.",
+        "whyNotExistingSoftware": "Field-service software only tracks leads that make it into the system; it does not audit unlogged phone calls, abandoned web forms, or cross-channel response delays."
+      },
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "Automated pipeline ($1,800 setup plus $149/month) ensuring every lead from the WordPress forms and other lead sources lands in the field-service software within two minutes, triggers an instant reply (in English or Spanish), and enforces callback reminders.",
+        "problem": "Manual re-keying of Elementor POST form submissions and delayed response to urgent plumbing leads.",
+        "whyNotExistingSoftware": "If the company prefers keeping its custom Elementor forms and multi-source lead capture rather than replacing them with a stock iframe widget, custom integration is needed to push leads into the field-service system and trigger immediate multi-step follow-up."
+      },
+      {
+        "name": "Owner's Monday numbers",
+        "kind": "catalog",
+        "description": "Weekly one-page summary ($1,200 setup plus $99/month) combining field-service software, accounting, and ad account data into booked revenue, close rate, average ticket, cost per booked job by lead source, and money owed.",
+        "problem": "Lack of unified visibility into true cost per booked job across marketing channels and accounting.",
+        "whyNotExistingSoftware": "Standard field-service dashboards do not automatically reconcile ad spend and accounting receivables into a single weekly owner scorecard."
+      }
+    ],
+    "feasibility": {
+      "rating": "high",
+      "explanation": "Connecting WordPress Elementor forms, phone/call logs, and major field-service management platforms via webhooks and APIs is straightforward and well-supported."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "Deterministic workflow automation should handle lead routing, CRM/field-service record creation, and KPI calculations, while AI agents can assist with classifying free-text form messages (e.g., distinguishing 24/7 emergencies from routine estimates) and drafting bilingual replies."
+    },
+    "humanReview": [
+      "Owner or dispatcher confirmation before dispatching a plumber or committing to a specific arrival window for 24/7 emergency requests.",
+      "Human review of any pricing estimates or non-standard troubleshooting advice before sending to a homeowner.",
+      "Owner verification of lead-source attribution mappings during setup of the Owner's Monday numbers report."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "In 24/7 emergency plumbing (such as burst pipes or sewer backups), an automated reply must never imply a technician is already en route unless confirmed by a human, as delays can result in severe property water damage."
+      },
+      {
+        "type": "compliance",
+        "description": "Automated SMS or voice follow-ups triggered from web forms or missed calls must comply with TCPA opt-in and disclosure requirements."
+      },
+      {
+        "type": "security",
+        "description": "Homeowner personally identifiable information (names, physical addresses, phone numbers, emails) must be transmitted securely over encrypted connections with least-privilege API keys."
+      }
+    ],
+    "commercial": {
+      "supportable": true,
+      "value": "Illustrative gross revenue of $800 to $1,500+ per additional water heater installation recovered, or $9,600 to $18,000+ annually if 1 additional installation per month is captured.",
+      "implementationCost": "$500 fixed price for the initial Revenue Leak Check (credited in full toward any fix ordered within 30 days); $1,800 setup plus $149/month for the Lead-to-job pipeline; or $1,200 setup plus $99/month for Owner's Monday numbers.",
+      "assumptions": [
+        "The website states on https://crossflowplumbingllc.com/water-heater-repair-boise/ that 'a new tank water heater is usually starting at $800 installed and tankless is $1,500 and up.'",
+        "Illustrative assumption: faster automated lead capture and instant reply recovers 1 previously missed water heater installation lead per month (12 per year).",
+        "Illustrative calculation: 1 job/month x $800 starting tank price = $800/month ($9,600/year), or 1 job/month x $1,500 starting tankless price = $1,500/month ($18,000/year) in gross revenue before labor and equipment costs."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner & Founder"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Owner & Founder",
+          "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+          "quote": "~ [redacted], Owner & Founder of Crossflow Plumbing"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://crossflowplumbingllc.com/contact/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How many plumbers and office staff are currently on your team, and how are incoming calls and web-form requests handled when everyone is on a job or after hours?",
+        "Are you currently using Housecall Pro across the business, and do leads from your website's contact forms flow into it automatically or get entered by hand?",
+        "Are you currently paying for leads (such as Google Ads or local lead services), and how do you track cost per booked job across those channels?",
+        "Have you already turned on any built-in online booking or automated text follow-up inside your current field-service software?"
+      ],
+      "outreachSubject": "Question about Crossflow Plumbing's web form leads & after-hours calls",
+      "outreachBody": "Hi [redacted],\n\nI was looking through crossflowplumbingllc.com and saw how you've built Crossflow Plumbing around fast 1-2 hour emergency response and upfront pricing across Eagle and the Treasure Valley.\n\nI noticed your site uses standard contact forms alongside your Housecall Pro reviews widget. When you and the team are under a house or handling after-hours calls, do web form inquiries and missed calls go straight into your dispatch software with an instant reply, or does someone have to enter and follow up on them manually?\n\nAt ForgeX, we offer a fixed-price Revenue Leak Check ($500, credited in full toward any fix you order within 30 days). In one week, we check how many calls, leads, and quotes slip through—and we also check whether tools you already pay for can solve it before recommending our Lead-to-job pipeline ($1,800 setup + $149/month). We don't promise specific results, just a clear look at where leads go.\n\nIf you're open to a brief conversation to see if this is relevant to your current setup, just reply to this email.\n\nBest regards,\n\n[Founder Name]\n[Founder Title], ForgeX\n[ForgeX Physical Postal Address]\n\nIf you prefer not to receive future emails from us, simply reply with \"unsubscribe\" or use [Opt-Out Link/Instructions] and we will remove you immediately."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://crossflowplumbingllc.com/",
+          "usedFor": "Business identity, service areas, 24/7 emergency response claims, Housecall Pro review widget iframe, Elementor/WordPress scripts, Google Tag ID, and owner name."
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+          "usedFor": "Owner and Founder verification ([redacted]), physical street address, business email, and bilingual (English/Spanish) service statement."
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/contact/",
+          "usedFor": "Permitted business contact channel ([redacted]), physical address, and web-form structure."
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/emergency-plumbing-eagle-boise-near-me/",
+          "usedFor": "Emergency plumbing service scope and diagnostic equipment claims."
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+          "usedFor": "Local Eagle service offerings including water softeners, filtration systems, and sewer camera inspections."
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/blog/",
+          "usedFor": "Content marketing activity and common customer inquiry topics."
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/water-heater-repair-boise/",
+          "usedFor": "Published starting prices for installed tank ($800) and tankless ($1,500+) water heaters."
+        }
+      ],
+      "limitations": [
+        "Employee headcount is not stated on the website; while the site refers to 'our plumbers' and 'our team', it cannot be confirmed from public pages whether the company employs 10 to 75 staff or is a smaller crew.",
+        "Whether the company pays for leads (e.g., paid search or lead-generation networks) cannot be confirmed from the website alone, although Google Tag (GT-K52TXMCT) is installed.",
+        "No specific Idaho state plumbing contractor license number is listed on the website.",
+        "Backend form routing (whether the WordPress POST forms trigger a webhook into Housecall Pro or simply send an email) is not observable from public page source."
+      ]
+    },
+    "qualification": {
+      "category": "pursue later",
+      "rationale": "Crossflow Plumbing LLC is an owner-led residential plumbing contractor in Eagle, Idaho with a clear decision-maker (Owner [redacted]), a verified business contact channel ([redacted]), and observable evidence of using WordPress/Elementor POST forms alongside a client.housecallpro.com widget. However, because employee headcount (target 10-75 staff), paid lead spend, and whether web-form leads are handled manually or already automated in the backend are unconfirmed hypotheses rather than verified facts, 'pursue later' is the appropriate qualification."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+        "quote": "384 N Stierman Way Eagle, Idaho 83616",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+        "quote": "~ [redacted], Owner & Founder of Crossflow Plumbing",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+        "quote": "Crossflow Plumbing provides fast, professional plumbing services including emergency plumbing, drain cleaning, water heater repair, leak detection, and sewer line repair.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+        "quote": "Protect your plumbing and appliances from Idaho's hard water with professional softener installation.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "We proudly serve the entire Treasure Valley including Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+        "quote": "We promise to answer the phone, we explain what’s going on in plain English (but we can also speak in Spanish if you need it)",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "400+ Happy Customers 24/7 Emergency Service",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://crossflowplumbingllc.com/water-heater-repair-boise/",
+        "quote": "That said, a new tank water heater is usually starting at $800 installed and tankless is $1,500 and up.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "Yes, all our plumbers are fully licensed, insured, and experienced.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "https://client.housecallpro.com/reviews/widget/64a6cf54-1946-40dc-96c9-ccbb074bd969",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "https://crossflowplumbingllc.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.3.1",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "https://www.googletagmanager.com/gtag/js?id=GT-K52TXMCT",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+        "quote": "Full Name Email Address Phone Number Service Needed Select a service",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "We prioritize emergency calls and typically respond within 1-2 hours depending on your location in the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://crossflowplumbingllc.com/water-heater-repair-boise/",
+        "quote": "How much does a new water heater cost? We get that question often!",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+        "quote": "~ [redacted], Owner & Founder of Crossflow Plumbing",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 17,
+      "quotesFound": 17,
+      "quotesFoundInDetails": 3,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 1,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://crossflowplumbingllc.com/",
+      "finalUrl": "https://crossflowplumbingllc.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:32:48.778Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 281769,
+      "truncated": false,
+      "sha256": "703b75e3a6bac8a795ce7a8356d839c4cfc0c7d2d1d4f907420cd27e4683c66f",
+      "textSha256": "e2fd00975d9c9439cd3db6c02b3ab51e4c75eea65d4127742ef8081938a144f0",
+      "fromCache": false
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+      "finalUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:32:54.712Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 150863,
+      "truncated": false,
+      "sha256": "a485a999ac5973d06f94e09d052e43242ed653bcaabbe435d4c4a8d43e23b6a9",
+      "textSha256": "49de25f10d5120240af42b74102115e2818f7518c14788f7c036be7a02411e26",
+      "fromCache": false
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/contact/",
+      "finalUrl": "https://crossflowplumbingllc.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:32:57.498Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 144537,
+      "truncated": false,
+      "sha256": "e394846240ab457f48da08e96346e9e438bdbf089cb5fb28e4a2d5f78c62f702",
+      "textSha256": "39b8fc61fdd777b3a67627962fbcd9d8e957b50add7700d94677d62e89b254e6",
+      "fromCache": false
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/service",
+      "finalUrl": "https://crossflowplumbingllc.com/emergency-plumbing-eagle-boise-near-me/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:33:03.696Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 242303,
+      "truncated": false,
+      "sha256": "eaa89fdf69908f44fd27aa806e9eb638e021b3be49c9388392244e976b0aeb55",
+      "textSha256": "02bb400d240771c5e449765f2742a54056764cc0c826661b9a89238f86396251",
+      "fromCache": false
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+      "finalUrl": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:33:06.666Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 269909,
+      "truncated": false,
+      "sha256": "c24fc21d97c0261463d00d5ecf5486c81caab6efc01583e132b4c23507ce8aed",
+      "textSha256": "f92ab342807bde8e5b7434cebcaa2de2e637af77af9141f2fb6724249db0d001",
+      "fromCache": false
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/blog/",
+      "finalUrl": "https://crossflowplumbingllc.com/blog/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:33:12.125Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 155568,
+      "truncated": false,
+      "sha256": "d7b40f2dc098176effae20ed4474e37da3aba94da130e9b402f12115bd0b970a",
+      "textSha256": "09395c4bdaa87ec72f0a9c65d1e379c67c72f17c4883a291d98d978329fc071a",
+      "fromCache": false
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/water-heater-repair-boise/",
+      "finalUrl": "https://crossflowplumbingllc.com/water-heater-repair-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:33:14.826Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 227656,
+      "truncated": false,
+      "sha256": "14eb0f6665ebaee55ef64489bab5cfd8e8cf61aac78023987d202338a48c655f",
+      "textSha256": "6e43f5f7ad72abda6365f446eef0708dafae42cf64c63e0d9de1590e5c61c050",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/service",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/blog/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/water-heater-repair-boise/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 52202,
+    "cachedInput": 19014,
+    "output": 5249,
+    "thinking": 1157,
+    "toolUse": 0,
+    "total": 58608
+  },
+  "costUsd": 0.1323374,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1594468",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/about-crossflow-plumbing/"
+      }
+    },
+    {
+      "id": "call_1594469",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/contact/"
+      }
+    },
+    {
+      "id": "call_1594470",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/service"
+      }
+    },
+    {
+      "id": "call_1594471",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/eagle-plumbing-company/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1898907",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/blog/"
+      }
+    },
+    {
+      "id": "call_1898908",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/water-heater-repair-boise/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Crossflow Plumbing LLC\",\n    \"location\": \"384 N Stierman Way, Eagle, Idaho 83616\",\n    \"claims\": [\n      {\n        \"statement\": \"Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho.\"\n      },\n      {\n        \"statement\": \"The business lists its street address as 384 N Stierman Way, Eagle, Idaho 83616.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/contact/\",\n        \"quote\": \"384 N Stierman Way Eagle, Idaho 83616\"\n      },\n      {\n        \"statement\": \"[redacted] is the Owner and Founder of Crossflow Plumbing LLC.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/about-crossflow-plumbing/\",\n        \"quote\": \"~ [redacted], Owner & Founder of Crossflow Plumbing\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential Plumbing & Home Services\",\n    \"activities\": [\n      \"24/7 Emergency Plumbing\",\n      \"Drain Cleaning & Hydro Jetting\",\n      \"Water Heater Repair & Installation (Tank, Tankless, Hybrid, Gas, Electric)\",\n      \"Leak Detection & Pipe Repair\",\n      \"Sewer Line Inspection & Repair\",\n      \"Plumbing Fixture, Water Softener & Filtration Installation\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company provides emergency plumbing, drain cleaning, water heater repair, leak detection, and sewer line repair.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/contact/\",\n        \"quote\": \"Crossflow Plumbing provides fast, professional plumbing services including emergency plumbing, drain cleaning, water heater repair, leak detection, and sewer line repair.\"\n      },\n      {\n        \"statement\": \"The company installs water filtration systems and water softeners in addition to plumbing fixtures.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/eagle-plumbing-company/\",\n        \"quote\": \"Protect your plumbing and appliances from Idaho's hard water with professional softener installation.\"\n      },\n      {\n        \"statement\": \"The company operates across Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton in Idaho's Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"We proudly serve the entire Treasure Valley including Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton.\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://crossflowplumbingllc.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The official website advertises 24/7/365 emergency plumbing service and bilingual (English and Spanish) customer communication.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/about-crossflow-plumbing/\",\n        \"quote\": \"We promise to answer the phone, we explain what’s going on in plain English (but we can also speak in Spanish if you need it)\"\n      },\n      {\n        \"statement\": \"The homepage displays a counter stating 400+ happy customers and 24/7 emergency service.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"400+ Happy Customers 24/7 Emergency Service\"\n      },\n      {\n        \"statement\": \"The water heater service page publishes starting installed prices for tank ($800) and tankless ($1,500+) water heaters.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/water-heater-repair-boise/\",\n        \"quote\": \"That said, a new tank water heater is usually starting at $800 installed and tankless is $1,500 and up.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The website states that all of its plumbers are fully licensed, insured, and experienced.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"Yes, all our plumbers are fully licensed, insured, and experienced.\"\n      }\n    ],\n    \"limitations\": \"Although the website states the business and its plumbers are licensed and insured, no specific Idaho plumbing contractor license number or state registration number is displayed on the pages read.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"client.housecallpro.com widget\",\n      \"purpose\": \"Customer reviews widget embedded via iframe on the homepage\",\n      \"evidence\": {\n        \"statement\": \"The homepage embeds an iframe from client.housecallpro.com for displaying reviews.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"https://client.housecallpro.com/reviews/widget/64a6cf54-1946-40dc-96c9-ccbb074bd969\"\n      }\n    },\n    {\n      \"product\": \"Housecall Pro field-service management platform\",\n      \"purpose\": \"Field-service scheduling, dispatching, invoicing, and review management\",\n      \"evidence\": {\n        \"statement\": \"Because the homepage loads a widget from client.housecallpro.com, the company likely uses Housecall Pro as its field-service software.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"elementor / elementor-pro / hello-elementor / link-whisper-premium / google-site-kit\",\n      \"purpose\": \"Website content management, page building, internal linking, and site event tracking\",\n      \"evidence\": {\n        \"statement\": \"The website loads scripts from wp-content/plugins/elementor, elementor-pro, link-whisper-premium, and google-site-kit.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"https://crossflowplumbingllc.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.3.1\"\n      }\n    },\n    {\n      \"product\": \"googletagmanager.com (GT-K52TXMCT)\",\n      \"purpose\": \"Website analytics and tag management\",\n      \"evidence\": {\n        \"statement\": \"The website loads a Google Tag script with ID GT-K52TXMCT from www.googletagmanager.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"https://www.googletagmanager.com/gtag/js?id=GT-K52TXMCT\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The website captures service requests via standard HTTP POST forms asking for Full Name, Email Address, Phone Number, Service Needed, and Message.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://crossflowplumbingllc.com/contact/\",\n      \"quote\": \"Full Name Email Address Phone Number Service Needed Select a service\"\n    },\n    {\n      \"statement\": \"The website does not embed an online booking widget or live chat widget on the pages read, relying instead on phone calls and POST forms.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://crossflowplumbingllc.com/contact/\",\n      \"quote\": null\n    },\n    {\n      \"statement\": \"The company states it prioritizes emergency calls and aims to respond within 1 to 2 hours across the Treasure Valley.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n      \"quote\": \"We prioritize emergency calls and typically respond within 1-2 hours depending on your location in the Treasure Valley.\"\n    },\n    {\n      \"statement\": \"The company regularly receives common customer inquiries regarding water heater pricing, running toilets, and emergency steps.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://crossflowplumbingllc.com/water-heater-repair-boise/\",\n      \"quote\": \"How much does a new water heater cost? We get that question often!\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Web form leads submitted on the WordPress/Elementor site may require manual entry into the field-service software and may not receive an instant two-minute automated follow-up, risking lost leads during busy jobs or after hours.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The site uses native POST forms on https://crossflowplumbingllc.com/ and https://crossflowplumbingllc.com/contact/ rather than an embedded field-service booking widget, though backend webhook automation cannot be ruled out from public pages.\"\n    },\n    {\n      \"problem\": \"Owner and technicians may face interruptions from routine questions or after-hours calls that could be triaged or answered automatically before dispatch.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The company advertises 24/7/365 emergency response across eight Treasure Valley towns and notes frequent customer questions, with no automated chat or triage assistant observable on the site.\"\n    },\n    {\n      \"problem\": \"Tracking booked revenue, close rate, average ticket, and cost per booked job across lead sources may require manual consolidation across field-service, accounting, and marketing tools.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The site uses googletagmanager.com and a client.housecallpro.com widget, suggesting multiple systems that owners often reconcile manually.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Built-in online booking, lead capture, and automated text/email follow-ups within the company's existing field-service software (such as Housecall Pro)\",\n      \"addresses\": \"Direct lead entry into field-service software and automated initial customer responses without custom middleware\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Native reporting dashboards within existing field-service software\",\n      \"addresses\": \"Basic tracking of job revenue, average ticket, and technician performance\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"One-week audit ($500 fixed price, credited in full toward any fix ordered within 30 days) to measure how many calls, web-form leads, and quotes slip through and quantify their value.\",\n      \"problem\": \"Potential delay or drop-off between WordPress web-form inquiries, missed calls while on job sites, and booked jobs.\",\n      \"whyNotExistingSoftware\": \"Field-service software only tracks leads that make it into the system; it does not audit unlogged phone calls, abandoned web forms, or cross-channel response delays.\"\n    },\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"Automated pipeline ($1,800 setup plus $149/month) ensuring every lead from the WordPress forms and other lead sources lands in the field-service software within two minutes, triggers an instant reply (in English or Spanish), and enforces callback reminders.\",\n      \"problem\": \"Manual re-keying of Elementor POST form submissions and delayed response to urgent plumbing leads.\",\n      \"whyNotExistingSoftware\": \"If the company prefers keeping its custom Elementor forms and multi-source lead capture rather than replacing them with a stock iframe widget, custom integration is needed to push leads into the field-service system and trigger immediate multi-step follow-up.\"\n    },\n    {\n      \"name\": \"Owner's Monday numbers\",\n      \"kind\": \"catalog\",\n      \"description\": \"Weekly one-page summary ($1,200 setup plus $99/month) combining field-service software, accounting, and ad account data into booked revenue, close rate, average ticket, cost per booked job by lead source, and money owed.\",\n      \"problem\": \"Lack of unified visibility into true cost per booked job across marketing channels and accounting.\",\n      \"whyNotExistingSoftware\": \"Standard field-service dashboards do not automatically reconcile ad spend and accounting receivables into a single weekly owner scorecard.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"high\",\n    \"explanation\": \"Connecting WordPress Elementor forms, phone/call logs, and major field-service management platforms via webhooks and APIs is straightforward and well-supported.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"Deterministic workflow automation should handle lead routing, CRM/field-service record creation, and KPI calculations, while AI agents can assist with classifying free-text form messages (e.g., distinguishing 24/7 emergencies from routine estimates) and drafting bilingual replies.\"\n  },\n  \"humanReview\": [\n    \"Owner or dispatcher confirmation before dispatching a plumber or committing to a specific arrival window for 24/7 emergency requests.\",\n    \"Human review of any pricing estimates or non-standard troubleshooting advice before sending to a homeowner.\",\n    \"Owner verification of lead-source attribution mappings during setup of the Owner's Monday numbers report.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"In 24/7 emergency plumbing (such as burst pipes or sewer backups), an automated reply must never imply a technician is already en route unless confirmed by a human, as delays can result in severe property water damage.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated SMS or voice follow-ups triggered from web forms or missed calls must comply with TCPA opt-in and disclosure requirements.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Homeowner personally identifiable information (names, physical addresses, phone numbers, emails) must be transmitted securely over encrypted connections with least-privilege API keys.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": true,\n    \"value\": \"Illustrative gross revenue of $800 to $1,500+ per additional water heater installation recovered, or $9,600 to $18,000+ annually if 1 additional installation per month is captured.\",\n    \"implementationCost\": \"$500 fixed price for the initial Revenue Leak Check (credited in full toward any fix ordered within 30 days); $1,800 setup plus $149/month for the Lead-to-job pipeline; or $1,200 setup plus $99/month for Owner's Monday numbers.\",\n    \"assumptions\": [\n      \"The website states on https://crossflowplumbingllc.com/water-heater-repair-boise/ that 'a new tank water heater is usually starting at $800 installed and tankless is $1,500 and up.'\",\n      \"Illustrative assumption: faster automated lead capture and instant reply recovers 1 previously missed water heater installation lead per month (12 per year).\",\n      \"Illustrative calculation: 1 job/month x $800 starting tank price = $800/month ($9,600/year), or 1 job/month x $1,500 starting tankless price = $1,500/month ($18,000/year) in gross revenue before labor and equipment costs.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner & Founder\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Owner & Founder\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/about-crossflow-plumbing/\",\n        \"quote\": \"~ [redacted], Owner & Founder of Crossflow Plumbing\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/contact/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How many plumbers and office staff are currently on your team, and how are incoming calls and web-form requests handled when everyone is on a job or after hours?\",\n      \"Are you currently using Housecall Pro across the business, and do leads from your website's contact forms flow into it automatically or get entered by hand?\",\n      \"Are you currently paying for leads (such as Google Ads or local lead services), and how do you track cost per booked job across those channels?\",\n      \"Have you already turned on any built-in online booking or automated text follow-up inside your current field-service software?\"\n    ],\n    \"outreachSubject\": \"Question about Crossflow Plumbing's web form leads & after-hours calls\",\n    \"outreachBody\": \"Hi [redacted],\\n\\nI was looking through crossflowplumbingllc.com and saw how you've built Crossflow Plumbing around fast 1-2 hour emergency response and upfront pricing across Eagle and the Treasure Valley.\\n\\nI noticed your site uses standard contact forms alongside your Housecall Pro reviews widget. When you and the team are under a house or handling after-hours calls, do web form inquiries and missed calls go straight into your dispatch software with an instant reply, or does someone have to enter and follow up on them manually?\\n\\nAt ForgeX, we offer a fixed-price Revenue Leak Check ($500, credited in full toward any fix you order within 30 days). In one week, we check how many calls, leads, and quotes slip through—and we also check whether tools you already pay for can solve it before recommending our Lead-to-job pipeline ($1,800 setup + $149/month). We don't promise specific results, just a clear look at where leads go.\\n\\nIf you're open to a brief conversation to see if this is relevant to your current setup, just reply to this email.\\n\\nBest regards,\\n\\n[Founder Name]\\n[Founder Title], ForgeX\\n[ForgeX Physical Postal Address]\\n\\nIf you prefer not to receive future emails from us, simply reply with \\\"unsubscribe\\\" or use [Opt-Out Link/Instructions] and we will remove you immediately.\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://crossflowplumbingllc.com/\",\n        \"usedFor\": \"Business identity, service areas, 24/7 emergency response claims, Housecall Pro review widget iframe, Elementor/WordPress scripts, Google Tag ID, and owner name.\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/about-crossflow-plumbing/\",\n        \"usedFor\": \"Owner and Founder verification ([redacted]), physical street address, business email, and bilingual (English/Spanish) service statement.\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/contact/\",\n        \"usedFor\": \"Permitted business contact channel ([redacted]), physical address, and web-form structure.\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/emergency-plumbing-eagle-boise-near-me/\",\n        \"usedFor\": \"Emergency plumbing service scope and diagnostic equipment claims.\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/eagle-plumbing-company/\",\n        \"usedFor\": \"Local Eagle service offerings including water softeners, filtration systems, and sewer camera inspections.\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/blog/\",\n        \"usedFor\": \"Content marketing activity and common customer inquiry topics.\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/water-heater-repair-boise/\",\n        \"usedFor\": \"Published starting prices for installed tank ($800) and tankless ($1,500+) water heaters.\"\n      }\n    ],\n    \"limitations\": [\n      \"Employee headcount is not stated on the website; while the site refers to 'our plumbers' and 'our team', it cannot be confirmed from public pages whether the company employs 10 to 75 staff or is a smaller crew.\",\n      \"Whether the company pays for leads (e.g., paid search or lead-generation networks) cannot be confirmed from the website alone, although Google Tag (GT-K52TXMCT) is installed.\",\n      \"No specific Idaho state plumbing contractor license number is listed on the website.\",\n      \"Backend form routing (whether the WordPress POST forms trigger a webhook into Housecall Pro or simply send an email) is not observable from public page source.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue later\",\n    \"rationale\": \"Crossflow Plumbing LLC is an owner-led residential plumbing contractor in Eagle, Idaho with a clear decision-maker (Owner [redacted]), a verified business contact channel ([redacted]), and observable evidence of using WordPress/Elementor POST forms alongside a client.housecallpro.com widget. However, because employee headcount (target 10-75 staff), paid lead spend, and whether web-form leads are handled manually or already automated in the backend are unconfirmed hypotheses rather than verified facts, 'pursue later' is the appropriate qualification.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

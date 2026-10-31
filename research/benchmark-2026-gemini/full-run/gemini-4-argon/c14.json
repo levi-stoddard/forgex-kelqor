@@ -1,0 +1,902 @@
+{
+  "company": {
+    "id": "c14",
+    "name": "Walker Electric LLC",
+    "town": "Treasure Valley (no street address published)",
+    "state": "Idaho",
+    "website": "https://walkerelectricidaho.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:43:16.475Z",
+  "finishedAt": "2026-10-27T18:46:33.289Z",
+  "report": {
+    "identity": {
+      "name": "Walker Electric LLC",
+      "location": "Treasure Valley, Idaho (serving Boise, Nampa, Meridian, Eagle, Star, Middleton, and Emmett; no street address published)",
+      "claims": [
+        {
+          "statement": "The company operates under the legal name Walker Electric LLC.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "© 2026 Walker Electric LLC Licensed & insured in Idaho"
+        },
+        {
+          "statement": "Walker Electric LLC is locally owned and operated in the Treasure Valley of Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "Walker Electric is locally owned and operated, serving homeowners and small businesses throughout Boise and the Treasure Valley."
+        },
+        {
+          "statement": "The company's service area covers Boise, Nampa, Meridian, Eagle, Star, Middleton, and Emmett in Ada and Canyon Counties.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/contact/",
+          "quote": "Serving the Treasure Valley Boise · Nampa · Meridian · Eagle Star · Middleton · Emmett"
+        },
+        {
+          "statement": "No physical street address is published on the pages read, indicating the business operates as a mobile service-area contractor.",
+          "label": "inference",
+          "sourceUrl": "https://walkerelectricidaho.com/contact/",
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Electrical Contracting (Home and Small Commercial Services)",
+      "activities": [
+        "Electrical service calls and troubleshooting",
+        "Lighting installation and whole-home or room rewiring",
+        "Standby and portable generator installation, transfer switches, and repairs",
+        "Hot tub and spa electrical wiring (120V and 240V circuits, GFCI protection, disconnects)",
+        "Level 2 EV charger installation and load calculations",
+        "New construction, custom home, addition, and small commercial electrical systems"
+      ],
+      "claims": [
+        {
+          "statement": "Walker Electric LLC provides residential and small commercial electrical services.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "Safe, dependable residential and small commercial electrical service—with honest answers, clean work, and transparent pricing."
+        },
+        {
+          "statement": "The company performs service calls for dead outlets, flickering lights, and tripped breakers.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/services/service-calls/",
+          "quote": "Prompt help for dead outlets, flickering lights, tripped breakers, and electrical problems that should not wait."
+        },
+        {
+          "statement": "The company installs standby generators, transfer switches, and backup power connections.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/services/generators/",
+          "quote": "Standby generators, transfer switches, and repairs designed to keep essential systems running through an outage."
+        },
+        {
+          "statement": "The company installs Level 2 home and commercial EV charging equipment.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/services/ev-chargers/",
+          "quote": "Level 2 home and commercial charging installed safely for Tesla, ChargePoint, JuiceBox, and other leading brands."
+        },
+        {
+          "statement": "The company provides complete electrical wiring for custom homes, additions, and small commercial builds.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/services/new-construction/",
+          "quote": "Complete electrical systems for custom homes, additions, and small commercial builds across the Treasure Valley."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://walkerelectricidaho.com/",
+      "claims": [
+        {
+          "statement": "Stated operating hours are Monday through Friday from 7:00 AM to 5:00 PM.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "Monday-Friday: 7:00 AM-5:00 PM"
+        },
+        {
+          "statement": "The business is closed on Saturdays and Sundays.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "Saturday-Sunday: Closed"
+        },
+        {
+          "statement": "The website publishes an educational blog with homeowner guides on electrical safety, generators, panels, hot tubs, and EV chargers.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/blog/",
+          "quote": "Practical guidance on electrical safety, backup power, EV charging, hot tubs, and the systems Treasure Valley homeowners depend on."
+        },
+        {
+          "statement": "The homepage describes the business using singular language while the Nampa page refers to a licensed team, leaving exact staff size unclear.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/electrician-in-nampa/",
+          "quote": "Our licensed team focuses on clean work, practical recommendations, transparent estimates, and communication you can count on."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The company states on its website footer and headers that it is licensed and insured in Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "© 2026 Walker Electric LLC Licensed & insured in Idaho"
+        },
+        {
+          "statement": "The company states that it coordinates electrical permits and inspections for projects that require them.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/electrician-in-boise/",
+          "quote": "We serve established homes, remodels, and new construction throughout Boise, coordinating permits and inspections when the project requires them."
+        }
+      ],
+      "limitations": "Although the website states that Walker Electric LLC is licensed and insured in Idaho, no specific Idaho electrical contractor license number or business registration number is published on any of the pages read."
+    },
+    "existingSoftware": [
+      {
+        "product": "Host reference: googletagmanager.com (hypothesized tag management / analytics tool)",
+        "purpose": "Website tag management and traffic or conversion tracking",
+        "evidence": {
+          "statement": "Pages on walkerelectricidaho.com reference the host googletagmanager.com; identifying this host as Google Tag Manager used for marketing or analytics tracking is a hypothesis from memory.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Host reference: schema.org (hypothesized structured data vocabulary)",
+        "purpose": "Search engine structured data markup",
+        "evidence": {
+          "statement": "Pages on walkerelectricidaho.com reference schema.org; identifying this as structured metadata markup for search engines is a hypothesis from memory.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Host references: facebook.com and maps.app.goo.gl (hypothesized social and map profile links)",
+        "purpose": "External social media presence and map/review profile linking",
+        "evidence": {
+          "statement": "Pages on walkerelectricidaho.com reference facebook.com and maps.app.goo.gl; identifying their specific platform operators and purpose is a hypothesis from memory.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The online estimate form on the contact page does not submit directly to a backend system; instead, it opens the visitor's local email application with pre-filled details.",
+        "label": "fact",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "quote": "Prepare my request → This opens your email app with the details filled in so you can review before sending."
+      },
+      {
+        "statement": "Prospective customers are instructed to call or send project details and photos manually to start an estimate.",
+        "label": "fact",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Call or send a few project details. Photos are helpful, too."
+      },
+      {
+        "statement": "The company lists no weekend hours and closes at 5:00 PM on weekdays, with no online booking widget or automated chat assistant visible on the site.",
+        "label": "inference",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": null
+      },
+      {
+        "statement": "No field-service management (FSM) portal, online scheduling iframe, or automated lead capture script is embedded on the pages read.",
+        "label": "inference",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Potential web-lead abandonment caused by the contact form relying on the visitor's local email client (mailto behavior) rather than server-side submission with instant confirmation.",
+        "label": "hypothesis",
+        "basis": "Derived from the fact on https://walkerelectricidaho.com/contact/ stating 'This opens your email app with the details filled in so you can review before sending.' Visitors on devices without a configured mail app may abandon the request before sending."
+      },
+      {
+        "problem": "Potential delayed response or missed inquiries outside of Monday–Friday 7:00 AM–5:00 PM operating hours.",
+        "label": "hypothesis",
+        "basis": "Derived from the published schedule showing Saturday–Sunday closed and weekday closing at 5:00 PM on https://walkerelectricidaho.com/, combined with the absence of an automated reply or online scheduling widget."
+      },
+      {
+        "problem": "Manual lead triage and entry from incoming emails, photos, and phone calls into whatever scheduling or quoting system the business uses.",
+        "label": "hypothesis",
+        "basis": "Derived from the instruction on https://walkerelectricidaho.com/ to 'Call or send a few project details. Photos are helpful, too' and the direct email workflow on https://walkerelectricidaho.com/contact/."
+      },
+      {
+        "problem": "Repetitive phone inquiries for routine pre-assessment questions (such as permit requirements, GFCI/AFCI troubleshooting, EV charger sizing, and generator transfer switches).",
+        "label": "hypothesis",
+        "basis": "Derived from the extensive FAQ sections on each service page and the 17 homeowner guide articles on https://walkerelectricidaho.com/blog/ that direct readers to call with questions."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Off-the-shelf Field Service Management (FSM) software with built-in web lead forms and automated SMS/email confirmations (such as Jobber, Housecall Pro, or ServiceTitan)",
+        "addresses": "Replaces the client-side email-app form with direct server-side lead capture, automated instant replies, and job scheduling.",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "Standard website form backend plugin or hosted form handler",
+        "addresses": "Captures 'Request a free estimate' submissions directly on the website without requiring the homeowner to open a separate email application.",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "One-week audit ($500 fixed price, credited in full toward any fix ordered within 30 days) to measure how many calls, email-app form attempts, leads, and quotes slip through.",
+        "problem": "Uncertain volume of dropped web inquiries from the email-app contact form and missed after-hours/weekend calls.",
+        "whyNotExistingSoftware": "Before buying or reconfiguring software, a one-week diagnostic establishes whether lead volume and leakage justify automation investment."
+      },
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "Captures every lead from web forms, email, and other sources into field-service software within two minutes, sends an instant reply, and tracks follow-up ($1,800 setup plus $149/month).",
+        "problem": "Potential lead drop-off from the email-app contact form and manual follow-up delays during field work or outside business hours.",
+        "whyNotExistingSoftware": "If the company already uses an internal calendar, accounting tool, or FSM that isn't connected to the static website form and phone/email channels, ForgeX connects all sources end-to-end with automated instant replies and follow-up tracking."
+      },
+      {
+        "name": "AI support assistant with human handoff",
+        "kind": "catalog",
+        "description": "Answers routine homeowner questions using Walker Electric's existing 17 homeowner guides and service FAQs, collects project details/photos, and hands qualified estimate requests to the team (fixed price set after scoping).",
+        "problem": "After-hours and weekend visitors having no interactive way to get answers from the site's educational content or submit structured project details.",
+        "whyNotExistingSoftware": "Generic chat widgets do not ground answers strictly in the company's own Treasure Valley electrical guides and service pages with controlled handoff rules."
+      }
+    ],
+    "feasibility": {
+      "rating": "high",
+      "explanation": "Replacing the client-side email-app form on https://walkerelectricidaho.com/contact/ with a server-side webhook and connecting incoming inquiries to an instant-reply and lead-tracking pipeline is technically straightforward. Furthermore, the site already has well-structured service FAQs and 17 homeowner articles on https://walkerelectricidaho.com/blog/ that could ground an AI support assistant if needed."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "Lead capture, routing, instant notifications, and follow-up reminders should be delivered through deterministic workflow automation for reliability. AI agents can assist by summarizing homeowner project descriptions, categorizing service types (Service Call, Lighting/Rewiring, Generator, Hot Tub, EV Charger, New Construction), and answering routine FAQ questions from the site's published guides before handing off to a licensed electrician."
+    },
+    "humanReview": [
+      "All electrical diagnostics, load calculations, code interpretations, and project estimates must be reviewed and approved by a licensed electrician before being sent to a customer.",
+      "Any AI support assistant must refrain from giving DIY electrical repair instructions or binding price quotes and immediately hand off troubleshooting or hazardous situations (such as buzzing panels, burning smells, or repeated breaker trips) to a human electrician.",
+      "Appointment scheduling that depends on location, permit coordination, or technician availability requires human confirmation."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "An AI assistant that provides inaccurate electrical advice or implies a fixed price before an on-site load calculation or diagnosis could create safety hazards or customer disputes."
+      },
+      {
+        "type": "compliance",
+        "description": "Automated SMS or email replies to new leads must comply with TCPA consent requirements and CAN-SPAM regulations."
+      },
+      {
+        "type": "security",
+        "description": "Homeowner contact details, home addresses, and project photos submitted during intake must be transmitted and stored securely with restricted access."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": "Revenue Leak Check: $500 fixed price (credited in full to any fix ordered within 30 days). Lead-to-job pipeline: $1,800 setup plus $149 per month. AI support assistant with human handoff: fixed price set after scoping.",
+      "assumptions": [
+        "The website publishes no service prices or diagnostic call fees (stating only that estimates are free and pricing depends on project scope), so commercial value cannot be calculated from site prices."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Managing Member",
+        "Operations Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://walkerelectricidaho.com/contact/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How many electricians and office staff are currently on the Walker Electric team, and are you actively running paid lead generation in the Treasure Valley?",
+        "On your contact page, clicking 'Prepare my request' opens the visitor's email app rather than submitting directly on the site—have you noticed how many visitors start that form versus actually sending the email?",
+        "What field-service management or scheduling software do you currently use to track incoming calls, photos, estimates, and follow-ups?",
+        "How do you currently handle estimate inquiries and service-call requests that come in after 5:00 PM on weekdays or over the weekend?"
+      ],
+      "outreachSubject": "Question about the estimate form on walkerelectricidaho.com",
+      "outreachBody": "Hello Walker Electric LLC Leadership,\n\nI was reviewing https://walkerelectricidaho.com/contact/ and noticed that your \"Request a free estimate\" form uses a \"Prepare my request\" button that opens the visitor's local email app rather than submitting directly on the page.\n\nFor electrical contractors, forms that rely on a visitor having an email app configured can sometimes cause homeowners—especially on mobile devices or outside your Monday–Friday 7:00 AM–5:00 PM hours—to drop off before their request reaches your inbox.\n\nAt ForgeX, we offer fixed-price automation services for home-service contractors, including a one-week Revenue Leak Check ($500 fixed price, credited in full toward any fix ordered within 30 days) and a Lead-to-job pipeline ($1,800 setup plus $149/month) that captures every web and email lead directly into your field-service software within two minutes and sends an instant reply.\n\nIf you already have a system handling this or if your current workflow is working well for your team size, no action is needed. If you would like to compare notes on how your web inquiries and follow-ups are currently routed, just reply to this email.\n\nBest regards,\n\n[FOUNDER_NAME]\n[FOUNDER_TITLE], ForgeX\n[FORGEX_POSTAL_ADDRESS]\n\nIf you prefer not to receive future emails from us, please reply with \"unsubscribe\" or use [OPT_OUT_MECHANISM]."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://walkerelectricidaho.com/",
+          "usedFor": "Business identity, locally owned status, service area, operating hours, intake steps, and homepage technical metadata."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/contact/",
+          "usedFor": "Permitted business contact email channel, Emmett service area inclusion, and verification of the client-side email-app estimate form."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/",
+          "usedFor": "Overview of the six core electrical service categories and service area."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/blog/",
+          "usedFor": "Verification of the 17 published homeowner electrical guides and educational content."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/service-calls/",
+          "usedFor": "Service call scope, troubleshooting workflow, and pricing policy (estimates provided after diagnosis, no published dollar rates)."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/electrician-in-boise/",
+          "usedFor": "Boise service area details and permit/inspection coordination statements."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/electrician-in-nampa/",
+          "usedFor": "Nampa/Canyon County service details and reference to a 'licensed team'."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/generators/",
+          "usedFor": "Generator installation scope and pricing factors."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/lighting-rewiring/",
+          "usedFor": "Lighting and rewiring service scope and FAQs."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/hot-tubs/",
+          "usedFor": "Hot tub and spa electrical wiring scope and permit FAQs."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/ev-chargers/",
+          "usedFor": "Level 2 EV charger installation scope and cost variable FAQs."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/new-construction/",
+          "usedFor": "New construction and custom home electrical system scope."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/",
+          "usedFor": "Checking whether generator guides publish any illustrative pricing."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/blog/ev-charger-installation-in-idaho-what-you-need-to-know/",
+          "usedFor": "Checking whether EV charger guides publish any illustrative pricing."
+        }
+      ],
+      "limitations": [
+        "Employee headcount is not stated on the website; the homepage uses singular phrasing ('One trusted electrician') while the Nampa page refers to 'Our licensed team', making it impossible to confirm from the website alone whether the company falls within ForgeX's target range of 10 to 75 staff.",
+        "Whether the company pays for leads cannot be confirmed from the public website (although googletagmanager.com is referenced in page metadata).",
+        "No individual is formally presented with an owner, executive, or manager title on the website outside of customer review text and an email address prefix, so no named individuals can be listed under verified decision-makers.",
+        "No specific Idaho electrical contractor license number or physical street address is published on the website.",
+        "No service prices or diagnostic fees are published on the website, preventing a supportable commercial value calculation."
+      ]
+    },
+    "qualification": {
+      "category": "pursue later",
+      "rationale": "Walker Electric LLC is a locally owned electrical contractor in the Treasure Valley of Idaho with a clear contact channel ([redacted]) and observable website friction (an estimate form on https://walkerelectricidaho.com/contact/ that opens the visitor's email app rather than capturing leads directly, plus no weekend hours or online booking). However, whether this causes actual lost revenue is a hypothesis rather than a confirmed customer problem, and the company's employee count (potentially smaller than ForgeX's 10–75 staff target given the homepage phrase 'One trusted electrician') and paid lead spend cannot be confirmed from the website alone. Accordingly, 'pursue later' after light discovery on team size and lead volume is the most accurate qualification."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "© 2026 Walker Electric LLC Licensed & insured in Idaho",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Walker Electric is locally owned and operated, serving homeowners and small businesses throughout Boise and the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "quote": "Serving the Treasure Valley Boise · Nampa · Meridian · Eagle Star · Middleton · Emmett",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Safe, dependable residential and small commercial electrical service—with honest answers, clean work, and transparent pricing.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://walkerelectricidaho.com/services/service-calls/",
+        "quote": "Prompt help for dead outlets, flickering lights, tripped breakers, and electrical problems that should not wait.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://walkerelectricidaho.com/services/generators/",
+        "quote": "Standby generators, transfer switches, and repairs designed to keep essential systems running through an outage.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://walkerelectricidaho.com/services/ev-chargers/",
+        "quote": "Level 2 home and commercial charging installed safely for Tesla, ChargePoint, JuiceBox, and other leading brands.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://walkerelectricidaho.com/services/new-construction/",
+        "quote": "Complete electrical systems for custom homes, additions, and small commercial builds across the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Monday-Friday: 7:00 AM-5:00 PM",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Saturday-Sunday: Closed",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://walkerelectricidaho.com/blog/",
+        "quote": "Practical guidance on electrical safety, backup power, EV charging, hot tubs, and the systems Treasure Valley homeowners depend on.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://walkerelectricidaho.com/electrician-in-nampa/",
+        "quote": "Our licensed team focuses on clean work, practical recommendations, transparent estimates, and communication you can count on.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "© 2026 Walker Electric LLC Licensed & insured in Idaho",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://walkerelectricidaho.com/electrician-in-boise/",
+        "quote": "We serve established homes, remodels, and new construction throughout Boise, coordinating permits and inspections when the project requires them.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "quote": "Prepare my request → This opens your email app with the details filled in so you can review before sending.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Call or send a few project details. Photos are helpful, too.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 16,
+      "quotesFound": 16,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 3,
+      "hypotheses": 3,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://walkerelectricidaho.com/",
+      "finalUrl": "https://walkerelectricidaho.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:22.694Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 57795,
+      "truncated": false,
+      "sha256": "88ded97ed2a73994ba20db7561cfaba51f5c00410d20a69521bbfedced1b4f37",
+      "textSha256": "5d4a55e1d9a9aec1901ba77f5c6ca0e204b69702b9e333e852115274ca52c293",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/contact/",
+      "finalUrl": "https://walkerelectricidaho.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:29.628Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 40099,
+      "truncated": false,
+      "sha256": "96d570d30cdfc5efb706b91438ad0834d53900ec5bddc0ac60e624bbbced240a",
+      "textSha256": "f7886cc7511dee6acea469082e00ac2aae7af69ce1ab19c675bba54b1ee44bdf",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/",
+      "finalUrl": "https://walkerelectricidaho.com/services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:32.424Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46004,
+      "truncated": false,
+      "sha256": "07a5d619e6aac9f02ac2da562de903cfab434136444d56af9e96e263677be90c",
+      "textSha256": "825152c9b32c7fd430286f34093fabde79abd0bdfda00589f511ad1871b2223a",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/",
+      "finalUrl": "https://walkerelectricidaho.com/blog/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:35.390Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 72058,
+      "truncated": false,
+      "sha256": "31c103e44bfa7bcbb77f3c89e2af9721b65accc424282ea13c5efe0079086794",
+      "textSha256": "051ab94b7cbad119d07472339e578bda99738dc4c2840fa78c0ddbf5d0a99c4d",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/service-calls/",
+      "finalUrl": "https://walkerelectricidaho.com/services/service-calls/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:38.419Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 52212,
+      "truncated": false,
+      "sha256": "7f4ded5d4968caf3aaa70bb0630894f935da20aa0b77bdabc5afadb12e612966",
+      "textSha256": "0ec64edb8461ae8108e0f95b486f10d8e39059aa7bcd12f97875a8935431ee73",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/electrician-in-boise/",
+      "finalUrl": "https://walkerelectricidaho.com/electrician-in-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:49.003Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 48827,
+      "truncated": false,
+      "sha256": "32cab0ed54e7b3d4086447ce45fcf3f64779009fc4d3b335d6fca02aee8c131a",
+      "textSha256": "2c3984c7fe404ffdb739fbff193b153716e9e12d4957e6c5f14e25f8b648a973",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/generators/",
+      "finalUrl": "https://walkerelectricidaho.com/services/generators/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:51.860Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 52100,
+      "truncated": false,
+      "sha256": "f19bb0a8e9458d868c9f253c7a9d57bebb6f124d612b2ec1b2993668902b48ea",
+      "textSha256": "75010adc0c4daa4766a775938ce4044aff3cfef0b164c3060bfa01e02f36a5de",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/",
+      "finalUrl": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:54.860Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 50412,
+      "truncated": false,
+      "sha256": "4a760aec4132c4c02f67e3070a87eb74fa930da3de6f1af2aacffb1005335da3",
+      "textSha256": "741a1517a1c7020e3b297bc33a66e779a7daac45ac8981c9eb8593e933c729e3",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/ev-charger-installation-in-idaho-what-you-need-to-know/",
+      "finalUrl": "https://walkerelectricidaho.com/blog/ev-charger-installation-in-idaho-what-you-need-to-know/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:57.878Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 52748,
+      "truncated": false,
+      "sha256": "90f36728001b7d4fb49353de889c8d81bf911c2e8d213501b05880af16fac46c",
+      "textSha256": "cdd0c5c212c1c0300e0b36529eb133822f6675d458894a95d97cb1c5a0aed825",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/lighting-rewiring/",
+      "finalUrl": "https://walkerelectricidaho.com/services/lighting-rewiring/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:45:00.076Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 51998,
+      "truncated": false,
+      "sha256": "aef316536879f90d0b940a2181bd835c902569f913183f3167690b71f8576c64",
+      "textSha256": "2eacd6b1f6655197a181ca700696430b54c38e05b85abb294d0a025b470610ab",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/hot-tubs/",
+      "finalUrl": "https://walkerelectricidaho.com/services/hot-tubs/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:45:02.041Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 51893,
+      "truncated": false,
+      "sha256": "f4cc76d216204e2623b062181492a216363db592ea32819c9fdc7275603f692b",
+      "textSha256": "fe7d9086d35cdd3825b7ada99a9c716e28bee567d52d5a885e6d681738efe7be",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/ev-chargers/",
+      "finalUrl": "https://walkerelectricidaho.com/services/ev-chargers/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:45:05.064Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 54696,
+      "truncated": false,
+      "sha256": "6115af067c30319d154dc4b104af26c8ecffe76b77639cef9329a37b5c30315a",
+      "textSha256": "778a4807f2c2dfcf2d3fbf97774413e32c25ce8d7e4b1b3a72b9bc430c9fe77c",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/new-construction/",
+      "finalUrl": "https://walkerelectricidaho.com/services/new-construction/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:45:08.039Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 52038,
+      "truncated": false,
+      "sha256": "b661881ed8e0ce1f0c48187dea99b3491bfc3ab03dafb5b6fe6865bd622ca12d",
+      "textSha256": "4952dd9b7d1d56c8b337d74a40b5bc7301c7c2a0c3cd7adbfb3c45da5098856c",
+      "fromCache": false
+    },
+    {
+      "url": "https://walkerelectricidaho.com/electrician-in-nampa/",
+      "finalUrl": "https://walkerelectricidaho.com/electrician-in-nampa/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:45:37.035Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 48764,
+      "truncated": false,
+      "sha256": "5936c5e42ccd04a4ba94758a802f2615a37b46a2837fcc5de9b8914aa2e8782e",
+      "textSha256": "c699e8f2598b705ffe96b048fd98cd5592c2f5d14624ebc99e559a9e7a9d339b",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://walkerelectricidaho.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/service-calls/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/electrician-in-boise/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/generators/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/ev-charger-installation-in-idaho-what-you-need-to-know/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/lighting-rewiring/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/hot-tubs/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/ev-chargers/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/new-construction/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/electrician-in-nampa/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 5,
+  "usage": {
+    "input": 93631,
+    "cachedInput": 62938,
+    "output": 6038,
+    "thinking": 8026,
+    "toolUse": 0,
+    "total": 107695
+  },
+  "costUsd": 0.2083198,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_450835",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/contact/"
+      }
+    },
+    {
+      "id": "call_450836",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/"
+      }
+    },
+    {
+      "id": "call_450837",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/blog/"
+      }
+    },
+    {
+      "id": "call_450838",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/service-calls/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1567238",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/electrician-in-boise/"
+      }
+    },
+    {
+      "id": "call_1567239",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/generators/"
+      }
+    },
+    {
+      "id": "call_1567240",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/"
+      }
+    },
+    {
+      "id": "call_1567241",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/blog/ev-charger-installation-in-idaho-what-you-need-to-know/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1347726",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/lighting-rewiring/"
+      }
+    },
+    {
+      "id": "call_1347727",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/hot-tubs/"
+      }
+    },
+    {
+      "id": "call_1347728",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/ev-chargers/"
+      }
+    },
+    {
+      "id": "call_1347729",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/new-construction/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1568771",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/electrician-in-nampa/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Walker Electric LLC\",\n    \"location\": \"Treasure Valley, Idaho (serving Boise, Nampa, Meridian, Eagle, Star, Middleton, and Emmett; no street address published)\",\n    \"claims\": [\n      {\n        \"statement\": \"The company operates under the legal name Walker Electric LLC.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"© 2026 Walker Electric LLC Licensed & insured in Idaho\"\n      },\n      {\n        \"statement\": \"Walker Electric LLC is locally owned and operated in the Treasure Valley of Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"Walker Electric is locally owned and operated, serving homeowners and small businesses throughout Boise and the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The company's service area covers Boise, Nampa, Meridian, Eagle, Star, Middleton, and Emmett in Ada and Canyon Counties.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\",\n        \"quote\": \"Serving the Treasure Valley Boise · Nampa · Meridian · Eagle Star · Middleton · Emmett\"\n      },\n      {\n        \"statement\": \"No physical street address is published on the pages read, indicating the business operates as a mobile service-area contractor.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Electrical Contracting (Home and Small Commercial Services)\",\n    \"activities\": [\n      \"Electrical service calls and troubleshooting\",\n      \"Lighting installation and whole-home or room rewiring\",\n      \"Standby and portable generator installation, transfer switches, and repairs\",\n      \"Hot tub and spa electrical wiring (120V and 240V circuits, GFCI protection, disconnects)\",\n      \"Level 2 EV charger installation and load calculations\",\n      \"New construction, custom home, addition, and small commercial electrical systems\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Walker Electric LLC provides residential and small commercial electrical services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"Safe, dependable residential and small commercial electrical service—with honest answers, clean work, and transparent pricing.\"\n      },\n      {\n        \"statement\": \"The company performs service calls for dead outlets, flickering lights, and tripped breakers.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/services/service-calls/\",\n        \"quote\": \"Prompt help for dead outlets, flickering lights, tripped breakers, and electrical problems that should not wait.\"\n      },\n      {\n        \"statement\": \"The company installs standby generators, transfer switches, and backup power connections.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/services/generators/\",\n        \"quote\": \"Standby generators, transfer switches, and repairs designed to keep essential systems running through an outage.\"\n      },\n      {\n        \"statement\": \"The company installs Level 2 home and commercial EV charging equipment.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/services/ev-chargers/\",\n        \"quote\": \"Level 2 home and commercial charging installed safely for Tesla, ChargePoint, JuiceBox, and other leading brands.\"\n      },\n      {\n        \"statement\": \"The company provides complete electrical wiring for custom homes, additions, and small commercial builds.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/services/new-construction/\",\n        \"quote\": \"Complete electrical systems for custom homes, additions, and small commercial builds across the Treasure Valley.\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://walkerelectricidaho.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"Stated operating hours are Monday through Friday from 7:00 AM to 5:00 PM.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"Monday-Friday: 7:00 AM-5:00 PM\"\n      },\n      {\n        \"statement\": \"The business is closed on Saturdays and Sundays.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"Saturday-Sunday: Closed\"\n      },\n      {\n        \"statement\": \"The website publishes an educational blog with homeowner guides on electrical safety, generators, panels, hot tubs, and EV chargers.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/blog/\",\n        \"quote\": \"Practical guidance on electrical safety, backup power, EV charging, hot tubs, and the systems Treasure Valley homeowners depend on.\"\n      },\n      {\n        \"statement\": \"The homepage describes the business using singular language while the Nampa page refers to a licensed team, leaving exact staff size unclear.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/electrician-in-nampa/\",\n        \"quote\": \"Our licensed team focuses on clean work, practical recommendations, transparent estimates, and communication you can count on.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The company states on its website footer and headers that it is licensed and insured in Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"© 2026 Walker Electric LLC Licensed & insured in Idaho\"\n      },\n      {\n        \"statement\": \"The company states that it coordinates electrical permits and inspections for projects that require them.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/electrician-in-boise/\",\n        \"quote\": \"We serve established homes, remodels, and new construction throughout Boise, coordinating permits and inspections when the project requires them.\"\n      }\n    ],\n    \"limitations\": \"Although the website states that Walker Electric LLC is licensed and insured in Idaho, no specific Idaho electrical contractor license number or business registration number is published on any of the pages read.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Host reference: googletagmanager.com (hypothesized tag management / analytics tool)\",\n      \"purpose\": \"Website tag management and traffic or conversion tracking\",\n      \"evidence\": {\n        \"statement\": \"Pages on walkerelectricidaho.com reference the host googletagmanager.com; identifying this host as Google Tag Manager used for marketing or analytics tracking is a hypothesis from memory.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Host reference: schema.org (hypothesized structured data vocabulary)\",\n      \"purpose\": \"Search engine structured data markup\",\n      \"evidence\": {\n        \"statement\": \"Pages on walkerelectricidaho.com reference schema.org; identifying this as structured metadata markup for search engines is a hypothesis from memory.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Host references: facebook.com and maps.app.goo.gl (hypothesized social and map profile links)\",\n      \"purpose\": \"External social media presence and map/review profile linking\",\n      \"evidence\": {\n        \"statement\": \"Pages on walkerelectricidaho.com reference facebook.com and maps.app.goo.gl; identifying their specific platform operators and purpose is a hypothesis from memory.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The online estimate form on the contact page does not submit directly to a backend system; instead, it opens the visitor's local email application with pre-filled details.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\",\n      \"quote\": \"Prepare my request → This opens your email app with the details filled in so you can review before sending.\"\n    },\n    {\n      \"statement\": \"Prospective customers are instructed to call or send project details and photos manually to start an estimate.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n      \"quote\": \"Call or send a few project details. Photos are helpful, too.\"\n    },\n    {\n      \"statement\": \"The company lists no weekend hours and closes at 5:00 PM on weekdays, with no online booking widget or automated chat assistant visible on the site.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n      \"quote\": null\n    },\n    {\n      \"statement\": \"No field-service management (FSM) portal, online scheduling iframe, or automated lead capture script is embedded on the pages read.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Potential web-lead abandonment caused by the contact form relying on the visitor's local email client (mailto behavior) rather than server-side submission with instant confirmation.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Derived from the fact on https://walkerelectricidaho.com/contact/ stating 'This opens your email app with the details filled in so you can review before sending.' Visitors on devices without a configured mail app may abandon the request before sending.\"\n    },\n    {\n      \"problem\": \"Potential delayed response or missed inquiries outside of Monday–Friday 7:00 AM–5:00 PM operating hours.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Derived from the published schedule showing Saturday–Sunday closed and weekday closing at 5:00 PM on https://walkerelectricidaho.com/, combined with the absence of an automated reply or online scheduling widget.\"\n    },\n    {\n      \"problem\": \"Manual lead triage and entry from incoming emails, photos, and phone calls into whatever scheduling or quoting system the business uses.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Derived from the instruction on https://walkerelectricidaho.com/ to 'Call or send a few project details. Photos are helpful, too' and the direct email workflow on https://walkerelectricidaho.com/contact/.\"\n    },\n    {\n      \"problem\": \"Repetitive phone inquiries for routine pre-assessment questions (such as permit requirements, GFCI/AFCI troubleshooting, EV charger sizing, and generator transfer switches).\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Derived from the extensive FAQ sections on each service page and the 17 homeowner guide articles on https://walkerelectricidaho.com/blog/ that direct readers to call with questions.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Off-the-shelf Field Service Management (FSM) software with built-in web lead forms and automated SMS/email confirmations (such as Jobber, Housecall Pro, or ServiceTitan)\",\n      \"addresses\": \"Replaces the client-side email-app form with direct server-side lead capture, automated instant replies, and job scheduling.\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"Standard website form backend plugin or hosted form handler\",\n      \"addresses\": \"Captures 'Request a free estimate' submissions directly on the website without requiring the homeowner to open a separate email application.\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"One-week audit ($500 fixed price, credited in full toward any fix ordered within 30 days) to measure how many calls, email-app form attempts, leads, and quotes slip through.\",\n      \"problem\": \"Uncertain volume of dropped web inquiries from the email-app contact form and missed after-hours/weekend calls.\",\n      \"whyNotExistingSoftware\": \"Before buying or reconfiguring software, a one-week diagnostic establishes whether lead volume and leakage justify automation investment.\"\n    },\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"Captures every lead from web forms, email, and other sources into field-service software within two minutes, sends an instant reply, and tracks follow-up ($1,800 setup plus $149/month).\",\n      \"problem\": \"Potential lead drop-off from the email-app contact form and manual follow-up delays during field work or outside business hours.\",\n      \"whyNotExistingSoftware\": \"If the company already uses an internal calendar, accounting tool, or FSM that isn't connected to the static website form and phone/email channels, ForgeX connects all sources end-to-end with automated instant replies and follow-up tracking.\"\n    },\n    {\n      \"name\": \"AI support assistant with human handoff\",\n      \"kind\": \"catalog\",\n      \"description\": \"Answers routine homeowner questions using Walker Electric's existing 17 homeowner guides and service FAQs, collects project details/photos, and hands qualified estimate requests to the team (fixed price set after scoping).\",\n      \"problem\": \"After-hours and weekend visitors having no interactive way to get answers from the site's educational content or submit structured project details.\",\n      \"whyNotExistingSoftware\": \"Generic chat widgets do not ground answers strictly in the company's own Treasure Valley electrical guides and service pages with controlled handoff rules.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"high\",\n    \"explanation\": \"Replacing the client-side email-app form on https://walkerelectricidaho.com/contact/ with a server-side webhook and connecting incoming inquiries to an instant-reply and lead-tracking pipeline is technically straightforward. Furthermore, the site already has well-structured service FAQs and 17 homeowner articles on https://walkerelectricidaho.com/blog/ that could ground an AI support assistant if needed.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"Lead capture, routing, instant notifications, and follow-up reminders should be delivered through deterministic workflow automation for reliability. AI agents can assist by summarizing homeowner project descriptions, categorizing service types (Service Call, Lighting/Rewiring, Generator, Hot Tub, EV Charger, New Construction), and answering routine FAQ questions from the site's published guides before handing off to a licensed electrician.\"\n  },\n  \"humanReview\": [\n    \"All electrical diagnostics, load calculations, code interpretations, and project estimates must be reviewed and approved by a licensed electrician before being sent to a customer.\",\n    \"Any AI support assistant must refrain from giving DIY electrical repair instructions or binding price quotes and immediately hand off troubleshooting or hazardous situations (such as buzzing panels, burning smells, or repeated breaker trips) to a human electrician.\",\n    \"Appointment scheduling that depends on location, permit coordination, or technician availability requires human confirmation.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"An AI assistant that provides inaccurate electrical advice or implies a fixed price before an on-site load calculation or diagnosis could create safety hazards or customer disputes.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated SMS or email replies to new leads must comply with TCPA consent requirements and CAN-SPAM regulations.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Homeowner contact details, home addresses, and project photos submitted during intake must be transmitted and stored securely with restricted access.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": \"Revenue Leak Check: $500 fixed price (credited in full to any fix ordered within 30 days). Lead-to-job pipeline: $1,800 setup plus $149 per month. AI support assistant with human handoff: fixed price set after scoping.\",\n    \"assumptions\": [\n      \"The website publishes no service prices or diagnostic call fees (stating only that estimates are free and pricing depends on project scope), so commercial value cannot be calculated from site prices.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Managing Member\",\n      \"Operations Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How many electricians and office staff are currently on the Walker Electric team, and are you actively running paid lead generation in the Treasure Valley?\",\n      \"On your contact page, clicking 'Prepare my request' opens the visitor's email app rather than submitting directly on the site—have you noticed how many visitors start that form versus actually sending the email?\",\n      \"What field-service management or scheduling software do you currently use to track incoming calls, photos, estimates, and follow-ups?\",\n      \"How do you currently handle estimate inquiries and service-call requests that come in after 5:00 PM on weekdays or over the weekend?\"\n    ],\n    \"outreachSubject\": \"Question about the estimate form on walkerelectricidaho.com\",\n    \"outreachBody\": \"Hello Walker Electric LLC Leadership,\\n\\nI was reviewing https://walkerelectricidaho.com/contact/ and noticed that your \\\"Request a free estimate\\\" form uses a \\\"Prepare my request\\\" button that opens the visitor's local email app rather than submitting directly on the page.\\n\\nFor electrical contractors, forms that rely on a visitor having an email app configured can sometimes cause homeowners—especially on mobile devices or outside your Monday–Friday 7:00 AM–5:00 PM hours—to drop off before their request reaches your inbox.\\n\\nAt ForgeX, we offer fixed-price automation services for home-service contractors, including a one-week Revenue Leak Check ($500 fixed price, credited in full toward any fix ordered within 30 days) and a Lead-to-job pipeline ($1,800 setup plus $149/month) that captures every web and email lead directly into your field-service software within two minutes and sends an instant reply.\\n\\nIf you already have a system handling this or if your current workflow is working well for your team size, no action is needed. If you would like to compare notes on how your web inquiries and follow-ups are currently routed, just reply to this email.\\n\\nBest regards,\\n\\n[FOUNDER_NAME]\\n[FOUNDER_TITLE], ForgeX\\n[FORGEX_POSTAL_ADDRESS]\\n\\nIf you prefer not to receive future emails from us, please reply with \\\"unsubscribe\\\" or use [OPT_OUT_MECHANISM].\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://walkerelectricidaho.com/\",\n        \"usedFor\": \"Business identity, locally owned status, service area, operating hours, intake steps, and homepage technical metadata.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/contact/\",\n        \"usedFor\": \"Permitted business contact email channel, Emmett service area inclusion, and verification of the client-side email-app estimate form.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/\",\n        \"usedFor\": \"Overview of the six core electrical service categories and service area.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/blog/\",\n        \"usedFor\": \"Verification of the 17 published homeowner electrical guides and educational content.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/service-calls/\",\n        \"usedFor\": \"Service call scope, troubleshooting workflow, and pricing policy (estimates provided after diagnosis, no published dollar rates).\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/electrician-in-boise/\",\n        \"usedFor\": \"Boise service area details and permit/inspection coordination statements.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/electrician-in-nampa/\",\n        \"usedFor\": \"Nampa/Canyon County service details and reference to a 'licensed team'.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/generators/\",\n        \"usedFor\": \"Generator installation scope and pricing factors.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/lighting-rewiring/\",\n        \"usedFor\": \"Lighting and rewiring service scope and FAQs.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/hot-tubs/\",\n        \"usedFor\": \"Hot tub and spa electrical wiring scope and permit FAQs.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/ev-chargers/\",\n        \"usedFor\": \"Level 2 EV charger installation scope and cost variable FAQs.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/new-construction/\",\n        \"usedFor\": \"New construction and custom home electrical system scope.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/\",\n        \"usedFor\": \"Checking whether generator guides publish any illustrative pricing.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/blog/ev-charger-installation-in-idaho-what-you-need-to-know/\",\n        \"usedFor\": \"Checking whether EV charger guides publish any illustrative pricing.\"\n      }\n    ],\n    \"limitations\": [\n      \"Employee headcount is not stated on the website; the homepage uses singular phrasing ('One trusted electrician') while the Nampa page refers to 'Our licensed team', making it impossible to confirm from the website alone whether the company falls within ForgeX's target range of 10 to 75 staff.\",\n      \"Whether the company pays for leads cannot be confirmed from the public website (although googletagmanager.com is referenced in page metadata).\",\n      \"No individual is formally presented with an owner, executive, or manager title on the website outside of customer review text and an email address prefix, so no named individuals can be listed under verified decision-makers.\",\n      \"No specific Idaho electrical contractor license number or physical street address is published on the website.\",\n      \"No service prices or diagnostic fees are published on the website, preventing a supportable commercial value calculation.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue later\",\n    \"rationale\": \"Walker Electric LLC is a locally owned electrical contractor in the Treasure Valley of Idaho with a clear contact channel ([redacted]) and observable website friction (an estimate form on https://walkerelectricidaho.com/contact/ that opens the visitor's email app rather than capturing leads directly, plus no weekend hours or online booking). However, whether this causes actual lost revenue is a hypothesis rather than a confirmed customer problem, and the company's employee count (potentially smaller than ForgeX's 10–75 staff target given the homepage phrase 'One trusted electrician') and paid lead spend cannot be confirmed from the website alone. Accordingly, 'pursue later' after light discovery on team size and lead volume is the most accurate qualification.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

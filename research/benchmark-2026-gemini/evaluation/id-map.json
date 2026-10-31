@@ -1,0 +1,31 @@
+{
+  "note": "Neutral benchmark id -> dataset A prospect id. Read only by the evaluation, never by the research runner.",
+  "seed": 20261027,
+  "map": {
+    "c01": "boise-metal-works",
+    "c02": "ascending-it",
+    "c03": "boss-tool",
+    "c04": "ardent-industries",
+    "c05": "crofts-electric",
+    "c06": "idaho-roofing",
+    "c07": "crossflow-plumbing",
+    "c08": "erwin-fabrication",
+    "c09": "microtech-systems",
+    "c10": "gem-heating",
+    "c11": "creations-unlimited",
+    "c12": "nw-roof-restoration",
+    "c13": "cornerstone-comfort",
+    "c14": "walker-electric",
+    "c15": "idaho-pc-solutions",
+    "c16": "amp-electric",
+    "c17": "running-water-plumbing",
+    "c18": "boise-remodeling",
+    "c19": "north-star-kitchen-bath",
+    "c20": "da-heating",
+    "c21": "treasure-valley-it",
+    "c22": "plumbing-solutions",
+    "c23": "it-secure",
+    "c24": "keeley-builders",
+    "c25": "kings-roofing"
+  }
+}

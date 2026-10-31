@@ -1,0 +1,733 @@
+{
+  "company": {
+    "id": "c18",
+    "name": "Boise Remodeling Co.",
+    "town": "Meridian",
+    "state": "Idaho",
+    "website": "https://boiseremodeling.co/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:52:56.641Z",
+  "finishedAt": "2026-10-27T18:54:33.000Z",
+  "report": {
+    "identity": {
+      "name": "Boise Remodeling Co. (DBA of P5 Home Co LLC)",
+      "location": "4031 W Wapoot St, Meridian, ID 83646",
+      "claims": [
+        {
+          "statement": "Boise Remodeling Co operates as a DBA of P5 Home Co LLC.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/",
+          "quote": "Boise Remodeling Co is a DBA of P5 Home Co LLC"
+        },
+        {
+          "statement": "The business lists its address at 4031 W Wapoot St, Meridian, ID 83646 and operates as a service-area business rather than a staffed storefront.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/contact",
+          "quote": "4031 W Wapoot St, Meridian, ID 83646 · Service-area business, not a staffed storefront"
+        },
+        {
+          "statement": "The company serves homeowners across Ada and Canyon County in the Treasure Valley of Idaho, including Boise, Meridian, Eagle, Nampa, Kuna, Star, Middleton, and Caldwell.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/about",
+          "quote": "We serve homeowners in Boise, Meridian, Eagle, Nampa, Kuna, Star, Middleton, Caldwell, and surrounding communities."
+        },
+        {
+          "statement": "Boise Remodeling Co is part of P5 Home Co alongside affiliated brands Boise Construction Co, Boise Handyman Co, Boise Cabinet Co, and Boise ADU Co.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/",
+          "quote": "Part of P5 Home Co: Boise Construction Co · Boise Remodeling Co · Boise Handyman Co · Boise Cabinet Co · Boise ADU Co"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential Design-Build Remodeling and General Contracting",
+      "activities": [
+        "Kitchen remodeling",
+        "Bathroom remodeling",
+        "Whole-home remodeling",
+        "Room additions",
+        "Accessory dwelling units (ADU / guest houses)",
+        "Basement remodeling",
+        "Outdoor living and decks",
+        "Aging-in-place remodeling",
+        "Design, estimating, and in-house Ada and Canyon County permitting"
+      ],
+      "claims": [
+        {
+          "statement": "Boise Remodeling Co is a design-build remodeling contractor handling kitchens, bathrooms, additions, and whole-home renovations across Ada and Canyon County.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/",
+          "quote": "Boise Remodeling Co is a design-build team for kitchens, bathrooms, additions, and whole-home work across Ada and Canyon County."
+        },
+        {
+          "statement": "The company manages design, estimating, permitting, and construction under a single contract.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/services",
+          "quote": "One accountable team handles design, estimating, permitting and construction under a single contract, from the first in-home visit through the final walkthrough."
+        },
+        {
+          "statement": "Boise Remodeling Co does not operate as an HVAC, plumbing, or electrical home-service contractor.",
+          "label": "inference",
+          "sourceUrl": "https://boiseremodeling.co/services",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://boiseremodeling.co/",
+      "claims": [
+        {
+          "statement": "The company's business hours for calls and text replies are Monday through Friday 9 am to 6 pm and Saturday 9 am to 4 pm Mountain Time.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/contact",
+          "quote": "Mon – Fri 9 am – 6 pm · Sat 9 am – 4 pm MT"
+        },
+        {
+          "statement": "The company offers a free 60 to 90 minute in-home consultation and states it responds within one business day.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/contact",
+          "quote": "Send a few details and we will reach out within one business day to schedule your free 60 to 90 minute in-home visit"
+        },
+        {
+          "statement": "Published starting planning figures on the services page include Bathroom Remodel from $10k, Kitchen Remodel from $15k, Aging-in-Place from $20k, Outdoor Living from $25k, Basement from $35k, Whole-Home from $40k, Room Addition from $95k, and ADU from $165k.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/services",
+          "quote": "Kitchen Remodel Custom kitchen renovations from cabinet refreshes to full gut-and-rebuild. Planning from $15k"
+        },
+        {
+          "statement": "The company states that it operates lean without big offices, showrooms, or fleets of trucks, and reserves the right to subcontract services.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/about",
+          "quote": "Big offices, showrooms, and fleets of trucks do not disappear. They get built into your price. We run lean on purpose"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Boise Remodeling Co lists Idaho Registered Contractor number 8381215 and states it is bonded and insured for residential remodeling work.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/about",
+          "quote": "Idaho Registered Contractor #8381215 . We are bonded and insured for residential remodeling work across the Treasure Valley."
+        },
+        {
+          "statement": "Pages on the website reference the Idaho Division of Occupational and Professional Licenses domains dopl.idaho.gov and edopl.idaho.gov.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/",
+          "quote": "dopl.idaho.gov"
+        }
+      ],
+      "limitations": "ForgeX can only read pages on the company's own website (boiseremodeling.co) and cannot independently query the external state licensing databases (dopl.idaho.gov or edopl.idaho.gov) to verify registration status, active dates, or standing."
+    },
+    "existingSoftware": [
+      {
+        "product": "Google Analytics 4 (GA4) and Google Ads",
+        "purpose": "Website analytics, call/text tap tracking, Google forwarding numbers, and paid search lead attribution with deduplicated reference numbers",
+        "evidence": {
+          "statement": "The privacy policy states the company uses Google Analytics 4 (GA4) and Google Ads to measure visits, quote requests, calls, and texts.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/privacy-policy",
+          "quote": "We use Google Analytics 4 (GA4) to understand how visitors use this site and Google Ads to measure which of our ads lead to quote"
+        }
+      },
+      {
+        "product": "Microsoft Clarity",
+        "purpose": "Website behavior analytics via heatmaps and session recordings with masked form fields",
+        "evidence": {
+          "statement": "The privacy policy states the site uses Microsoft Clarity for heatmaps and session recordings.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/privacy-policy",
+          "quote": "We also use Microsoft Clarity to see how visitors use our pages through heatmaps and session recordings; form fields are masked"
+        }
+      },
+      {
+        "product": "Meta Pixel and Meta Conversions API",
+        "purpose": "Client-side and server-side conversion tracking for Facebook and Instagram advertising leads",
+        "evidence": {
+          "statement": "The privacy policy states the site uses the Meta Pixel and Meta's Conversions API to measure visits and inquiries from Facebook and Instagram ads.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/privacy-policy",
+          "quote": "We also use the Meta Pixel and Meta's Conversions API to measure visits and inquiries from our Facebook and Instagram ads."
+        }
+      },
+      {
+        "product": "Online Remodel Cost Estimator & Automated Plan-Set Estimator",
+        "purpose": "Interactive online project range estimator and automated construction drawing reader that extracts room areas, heights, and schedules from uploaded floor plans",
+        "evidence": {
+          "statement": "The website includes an automated plan-reading tool that extracts measurements from uploaded floor plans alongside human review by the estimating team.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/remodel-plans-boise",
+          "quote": "They are stored with your enquiry and sent to our estimating team so we can review them by hand alongside the automatic read."
+        }
+      },
+      {
+        "product": "Subcontractor Portal",
+        "purpose": "Web portal for subcontractors hosted on the company website",
+        "evidence": {
+          "statement": "The website includes a dedicated Subcontractor Portal route at /subcontractor.",
+          "label": "fact",
+          "sourceUrl": "https://boiseremodeling.co/subcontractor",
+          "quote": "Subcontractor Portal | Boise Remodeling Co"
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The company runs paid search and social advertising across Google Ads, Facebook, and Instagram to generate remodeling quote requests, calls, and texts.",
+        "label": "fact",
+        "sourceUrl": "https://boiseremodeling.co/privacy-policy",
+        "quote": "We use Google Analytics 4 (GA4) to understand how visitors use this site and Google Ads to measure which of our ads lead to quote"
+      },
+      {
+        "statement": "The company commits to sending weekly written project updates every Friday to remodeling clients.",
+        "label": "fact",
+        "sourceUrl": "https://boiseremodeling.co/about",
+        "quote": "Instead of wondering what happened on your project this week, you receive a written update every Friday: what was completed, what is next"
+      },
+      {
+        "statement": "The company already operates custom web intake tools, including an interactive cost estimator, a guided optional intake, and an automated floor-plan reader, as well as server-side ad event tracking.",
+        "label": "inference",
+        "sourceUrl": "https://boiseremodeling.co/remodel-plans-boise",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "No confirmed operational or lead-handling problem is observable on the public website.",
+        "label": "inference",
+        "basis": "Based on https://boiseremodeling.co/, https://boiseremodeling.co/privacy-policy, and https://boiseremodeling.co/remodel-plans-boise, the company already replies to texts in minutes during business hours, tracks ad leads via server-side Conversions API and deduplicated reference IDs, and provides automated online estimating and plan-reading tools."
+      },
+      {
+        "problem": "Preparing weekly Friday written updates and reviewing uploaded floor plans by hand alongside the automatic read could require recurring project manager and estimator time.",
+        "label": "hypothesis",
+        "basis": "Plausible operational workload given the company's promises of weekly Friday written progress updates and manual estimator verification of uploaded plans, though there is no evidence that this causes a bottleneck."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Existing custom web application (online cost estimator, automated floor-plan reader, subcontractor portal, and server-side ad conversion tracking)",
+        "addresses": "Lead capture, preliminary project range estimation, plan takeoff intake, and ad attribution",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Construction project management platforms (such as residential design-build management software)",
+        "addresses": "Client portals, written change orders, subcontractor scheduling, and weekly progress logs",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because Boise Remodeling Co. is a residential design-build general contractor outside ForgeX's target segment of HVAC, plumbing, and electrical service contractors, and already operates sophisticated custom web intake and estimating automation."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended. Notably, the company already uses an automated drawing reader with human-in-the-loop estimator verification on its own website."
+    },
+    "humanReview": [
+      "No ForgeX automation is recommended; in the company's existing operations, human estimators review automated floor-plan reads and project managers issue written scopes and change orders."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Selling standardized home-service trade automations (built for high-volume HVAC, plumbing, and electrical dispatch) to a long-cycle design-build remodeling contractor risks poor workflow fit."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "Although the website publishes starting planning ranges on https://boiseremodeling.co/services (such as Bathroom Remodel 'Planning from $10k' and Kitchen Remodel 'Planning from $15k'), no ForgeX solution is recommended because the company is outside ForgeX's segment and has no evidenced automation gap.",
+        "Therefore, no commercial value or implementation cost projection is claimed."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Managing Member (P5 Home Co LLC)",
+        "General Manager",
+        "Estimating / Operations Lead"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://boiseremodeling.co/contact"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "What back-office construction management or CRM system does P5 Home Co use behind your custom website and subcontractor portal?",
+        "How many full-time staff versus subcontractors work across the P5 Home Co brands?",
+        "Are there any manual handoffs between your online estimator/plan reader and your project management workflow?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://boiseremodeling.co/",
+          "usedFor": "Business identity, DBA and parent entity (P5 Home Co LLC), contractor registration number, service overview, and contact details"
+        },
+        {
+          "url": "https://boiseremodeling.co/about",
+          "usedFor": "Design-build operating model, lean overhead structure, service areas, licensing/bonding statement, and weekly Friday update commitment"
+        },
+        {
+          "url": "https://boiseremodeling.co/contact",
+          "usedFor": "Meridian physical address, business hours, response time commitments, and primary business contact channel"
+        },
+        {
+          "url": "https://boiseremodeling.co/subcontractor",
+          "usedFor": "Verification of the on-site Subcontractor Portal route"
+        },
+        {
+          "url": "https://boiseremodeling.co/services",
+          "usedFor": "Principal remodeling activities and published starting planning ranges"
+        },
+        {
+          "url": "https://boiseremodeling.co/privacy-policy",
+          "usedFor": "Verification of Google Analytics 4, Google Ads, Microsoft Clarity, Meta Pixel, and Meta Conversions API usage"
+        },
+        {
+          "url": "https://boiseremodeling.co/estimate",
+          "usedFor": "Verification of the online Remodel Cost Estimator tool"
+        },
+        {
+          "url": "https://boiseremodeling.co/terms-of-service",
+          "usedFor": "Payment terms, subcontracting policy, and service terms"
+        },
+        {
+          "url": "https://boiseremodeling.co/remodel-plans-boise",
+          "usedFor": "Verification of the automated floor-plan reader and human-in-the-loop estimator review process"
+        }
+      ],
+      "limitations": [
+        "The website does not disclose total employee headcount (whether the company has 10 to 75 staff) and notes that it runs lean and subcontracts services as needed.",
+        "The website footer lists an individual under the title 'Public representative' rather than explicitly presenting them as an owner, executive, or manager; per ForgeX evidence rules, they are omitted from the named people list.",
+        "Internal back-office software (such as accounting or construction project management software behind the custom web app) cannot be verified from public pages.",
+        "State contractor registration status on dopl.idaho.gov / edopl.idaho.gov cannot be independently queried by ForgeX's site-restricted fetcher."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Boise Remodeling Co. (a DBA of P5 Home Co LLC) is a residential design-build general remodeling contractor specializing in kitchens, bathrooms, additions, whole-home renovations, and ADUs, which puts it outside ForgeX's target segment of HVAC, plumbing, and electrical service contractors with 10 to 75 staff. Furthermore, the company already operates a modern custom web stack featuring an interactive cost estimator, an automated floor-plan measurement reader with human review, a subcontractor portal, fast text response during business hours, and server-side ad conversion tracking (Meta Conversions API and Google Ads)."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://boiseremodeling.co/",
+        "quote": "Boise Remodeling Co is a DBA of P5 Home Co LLC",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://boiseremodeling.co/contact",
+        "quote": "4031 W Wapoot St, Meridian, ID 83646 · Service-area business, not a staffed storefront",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://boiseremodeling.co/about",
+        "quote": "We serve homeowners in Boise, Meridian, Eagle, Nampa, Kuna, Star, Middleton, Caldwell, and surrounding communities.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://boiseremodeling.co/",
+        "quote": "Part of P5 Home Co: Boise Construction Co · Boise Remodeling Co · Boise Handyman Co · Boise Cabinet Co · Boise ADU Co",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://boiseremodeling.co/",
+        "quote": "Boise Remodeling Co is a design-build team for kitchens, bathrooms, additions, and whole-home work across Ada and Canyon County.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://boiseremodeling.co/services",
+        "quote": "One accountable team handles design, estimating, permitting and construction under a single contract, from the first in-home visit through the final walkthrough.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://boiseremodeling.co/contact",
+        "quote": "Mon – Fri 9 am – 6 pm · Sat 9 am – 4 pm MT",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://boiseremodeling.co/contact",
+        "quote": "Send a few details and we will reach out within one business day to schedule your free 60 to 90 minute in-home visit",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://boiseremodeling.co/services",
+        "quote": "Kitchen Remodel Custom kitchen renovations from cabinet refreshes to full gut-and-rebuild. Planning from $15k",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://boiseremodeling.co/about",
+        "quote": "Big offices, showrooms, and fleets of trucks do not disappear. They get built into your price. We run lean on purpose",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://boiseremodeling.co/about",
+        "quote": "Idaho Registered Contractor #8381215 . We are bonded and insured for residential remodeling work across the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://boiseremodeling.co/",
+        "quote": "dopl.idaho.gov",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://boiseremodeling.co/privacy-policy",
+        "quote": "We use Google Analytics 4 (GA4) to understand how visitors use this site and Google Ads to measure which of our ads lead to quote",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://boiseremodeling.co/privacy-policy",
+        "quote": "We also use Microsoft Clarity to see how visitors use our pages through heatmaps and session recordings; form fields are masked",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://boiseremodeling.co/privacy-policy",
+        "quote": "We also use the Meta Pixel and Meta's Conversions API to measure visits and inquiries from our Facebook and Instagram ads.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://boiseremodeling.co/remodel-plans-boise",
+        "quote": "They are stored with your enquiry and sent to our estimating team so we can review them by hand alongside the automatic read.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://boiseremodeling.co/subcontractor",
+        "quote": "Subcontractor Portal | Boise Remodeling Co",
+        "verdict": "not found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://boiseremodeling.co/privacy-policy",
+        "quote": "We use Google Analytics 4 (GA4) to understand how visitors use this site and Google Ads to measure which of our ads lead to quote",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://boiseremodeling.co/about",
+        "quote": "Instead of wondering what happened on your project this week, you receive a written update every Friday: what was completed, what is next",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://boiseremodeling.co/contact",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 19,
+      "quotesFound": 18,
+      "quotesFoundInDetails": 1,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 1,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 0,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://boiseremodeling.co/",
+      "finalUrl": "https://boiseremodeling.co/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:52:59.821Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 195367,
+      "truncated": false,
+      "sha256": "55ba317ab544348fd5169e602c1a56e148320026f0c89f0a7690afacf6ce4196",
+      "textSha256": "b088c0f3cdbd847f7a49b1b8ec71aa1e46acaba216641913f7d183fb33faeba2",
+      "fromCache": false
+    },
+    {
+      "url": "https://boiseremodeling.co/about",
+      "finalUrl": "https://boiseremodeling.co/about",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:53:05.925Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 168333,
+      "truncated": false,
+      "sha256": "dcd6d55d3ea515ba8b9b78ff1e5edff3d90e386f8859924abfa8a5ea0d3e6ed7",
+      "textSha256": "ecb1522812c7c7b042f08bb0c78aac93d75039a163972c4e2a893e8187b63e82",
+      "fromCache": false
+    },
+    {
+      "url": "https://boiseremodeling.co/contact",
+      "finalUrl": "https://boiseremodeling.co/contact",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:53:08.816Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 183949,
+      "truncated": false,
+      "sha256": "2cea9a04a0921f40622e73c77657248c0fdcb1c533ddacc4abf318d25bd16267",
+      "textSha256": "f11d1ba1223756c5330def03aa121624498f4f1f6e021c3d2a8a521f436e9aaa",
+      "fromCache": false
+    },
+    {
+      "url": "https://boiseremodeling.co/subcontractor",
+      "finalUrl": "https://boiseremodeling.co/subcontractor",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:53:11.815Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 47327,
+      "truncated": false,
+      "sha256": "737d7f7b0237e8136ba86a30413c8a4c335c19e07589fe7e63c0d7e5c6585387",
+      "textSha256": "0553daabaee56a3c46b2771312e458f3ebbad845751ecd13e1176f24420e68d9",
+      "fromCache": false
+    },
+    {
+      "url": "https://boiseremodeling.co/services",
+      "finalUrl": "https://boiseremodeling.co/services",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:53:14.755Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 141769,
+      "truncated": false,
+      "sha256": "7df9e475ca23b4846cb1402419f00a295cefcbd265b0b0146b8e4494a79b0eb2",
+      "textSha256": "52441dee972edffbf0dee8999d8f907dcceccab5e1f7db8ae9eaabbb194a5503",
+      "fromCache": false
+    },
+    {
+      "url": "https://boiseremodeling.co/privacy-policy",
+      "finalUrl": "https://boiseremodeling.co/privacy-policy",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:53:19.716Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 94369,
+      "truncated": false,
+      "sha256": "36ffac307e0a570b06ed45e18d9d5b93076b831a127152719b5442404d8f5383",
+      "textSha256": "0710923d42dbf8a6e01923b82ad2d8f1ef7b29a45fd6354a5d8e960bfd3b9fb4",
+      "fromCache": false
+    },
+    {
+      "url": "https://boiseremodeling.co/estimate",
+      "finalUrl": "https://boiseremodeling.co/estimate",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:53:22.783Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 50699,
+      "truncated": false,
+      "sha256": "30c420d9f20e6784d41b897ef40b82db94c4dd2bc65d4c7b88224ce485cbe1fb",
+      "textSha256": "7f06f4e5f8b4b2c918ff88c2258ee46fa6f2c987c70870cc6a3c4e5bb5e5793d",
+      "fromCache": false
+    },
+    {
+      "url": "https://boiseremodeling.co/terms-of-service",
+      "finalUrl": "https://boiseremodeling.co/terms-of-service",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:53:26.951Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 89975,
+      "truncated": false,
+      "sha256": "4e6ba0166b8c9493823bd74349e041543ecdae58bd4c6ce291e042a6cffbed38",
+      "textSha256": "858861f334cd9642f2a9e106403560519dd322f3eb8434618412e694448567cf",
+      "fromCache": false
+    },
+    {
+      "url": "https://boiseremodeling.co/remodel-plans-boise",
+      "finalUrl": "https://boiseremodeling.co/remodel-plans-boise",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:53:44.047Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 139646,
+      "truncated": false,
+      "sha256": "9924867ada91b81ecb05dda7b7e3313522fec8de655e98ebd590b47148af7116",
+      "textSha256": "c1a04c1630a4baa05852b0d53a2978e8bad00a6562c6cad7cb6597a8e76a6eb0",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://boiseremodeling.co/about",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://boiseremodeling.co/contact",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://boiseremodeling.co/subcontractor",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://boiseremodeling.co/services",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://boiseremodeling.co/privacy-policy",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://boiseremodeling.co/estimate",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://boiseremodeling.co/terms-of-service",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://boiseremodeling.co/remodel-plans-boise",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 5,
+  "usage": {
+    "input": 118856,
+    "cachedInput": 84913,
+    "output": 4520,
+    "thinking": 1541,
+    "toolUse": 0,
+    "total": 124917
+  },
+  "costUsd": 0.1369873,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2218759",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://boiseremodeling.co/about"
+      }
+    },
+    {
+      "id": "call_2218760",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://boiseremodeling.co/contact"
+      }
+    },
+    {
+      "id": "call_2218761",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://boiseremodeling.co/subcontractor"
+      }
+    },
+    {
+      "id": "call_2218762",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://boiseremodeling.co/services"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_4165230",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://boiseremodeling.co/privacy-policy"
+      }
+    },
+    {
+      "id": "call_4165231",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://boiseremodeling.co/estimate"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3055587",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://boiseremodeling.co/terms-of-service"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3250942",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://boiseremodeling.co/remodel-plans-boise"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Boise Remodeling Co. (DBA of P5 Home Co LLC)\",\n    \"location\": \"4031 W Wapoot St, Meridian, ID 83646\",\n    \"claims\": [\n      {\n        \"statement\": \"Boise Remodeling Co operates as a DBA of P5 Home Co LLC.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/\",\n        \"quote\": \"Boise Remodeling Co is a DBA of P5 Home Co LLC\"\n      },\n      {\n        \"statement\": \"The business lists its address at 4031 W Wapoot St, Meridian, ID 83646 and operates as a service-area business rather than a staffed storefront.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/contact\",\n        \"quote\": \"4031 W Wapoot St, Meridian, ID 83646 · Service-area business, not a staffed storefront\"\n      },\n      {\n        \"statement\": \"The company serves homeowners across Ada and Canyon County in the Treasure Valley of Idaho, including Boise, Meridian, Eagle, Nampa, Kuna, Star, Middleton, and Caldwell.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/about\",\n        \"quote\": \"We serve homeowners in Boise, Meridian, Eagle, Nampa, Kuna, Star, Middleton, Caldwell, and surrounding communities.\"\n      },\n      {\n        \"statement\": \"Boise Remodeling Co is part of P5 Home Co alongside affiliated brands Boise Construction Co, Boise Handyman Co, Boise Cabinet Co, and Boise ADU Co.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/\",\n        \"quote\": \"Part of P5 Home Co: Boise Construction Co · Boise Remodeling Co · Boise Handyman Co · Boise Cabinet Co · Boise ADU Co\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential Design-Build Remodeling and General Contracting\",\n    \"activities\": [\n      \"Kitchen remodeling\",\n      \"Bathroom remodeling\",\n      \"Whole-home remodeling\",\n      \"Room additions\",\n      \"Accessory dwelling units (ADU / guest houses)\",\n      \"Basement remodeling\",\n      \"Outdoor living and decks\",\n      \"Aging-in-place remodeling\",\n      \"Design, estimating, and in-house Ada and Canyon County permitting\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Boise Remodeling Co is a design-build remodeling contractor handling kitchens, bathrooms, additions, and whole-home renovations across Ada and Canyon County.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/\",\n        \"quote\": \"Boise Remodeling Co is a design-build team for kitchens, bathrooms, additions, and whole-home work across Ada and Canyon County.\"\n      },\n      {\n        \"statement\": \"The company manages design, estimating, permitting, and construction under a single contract.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/services\",\n        \"quote\": \"One accountable team handles design, estimating, permitting and construction under a single contract, from the first in-home visit through the final walkthrough.\"\n      },\n      {\n        \"statement\": \"Boise Remodeling Co does not operate as an HVAC, plumbing, or electrical home-service contractor.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://boiseremodeling.co/services\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://boiseremodeling.co/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company's business hours for calls and text replies are Monday through Friday 9 am to 6 pm and Saturday 9 am to 4 pm Mountain Time.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/contact\",\n        \"quote\": \"Mon – Fri 9 am – 6 pm · Sat 9 am – 4 pm MT\"\n      },\n      {\n        \"statement\": \"The company offers a free 60 to 90 minute in-home consultation and states it responds within one business day.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/contact\",\n        \"quote\": \"Send a few details and we will reach out within one business day to schedule your free 60 to 90 minute in-home visit\"\n      },\n      {\n        \"statement\": \"Published starting planning figures on the services page include Bathroom Remodel from $10k, Kitchen Remodel from $15k, Aging-in-Place from $20k, Outdoor Living from $25k, Basement from $35k, Whole-Home from $40k, Room Addition from $95k, and ADU from $165k.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/services\",\n        \"quote\": \"Kitchen Remodel Custom kitchen renovations from cabinet refreshes to full gut-and-rebuild. Planning from $15k\"\n      },\n      {\n        \"statement\": \"The company states that it operates lean without big offices, showrooms, or fleets of trucks, and reserves the right to subcontract services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/about\",\n        \"quote\": \"Big offices, showrooms, and fleets of trucks do not disappear. They get built into your price. We run lean on purpose\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Boise Remodeling Co lists Idaho Registered Contractor number 8381215 and states it is bonded and insured for residential remodeling work.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/about\",\n        \"quote\": \"Idaho Registered Contractor #8381215 . We are bonded and insured for residential remodeling work across the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"Pages on the website reference the Idaho Division of Occupational and Professional Licenses domains dopl.idaho.gov and edopl.idaho.gov.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/\",\n        \"quote\": \"dopl.idaho.gov\"\n      }\n    ],\n    \"limitations\": \"ForgeX can only read pages on the company's own website (boiseremodeling.co) and cannot independently query the external state licensing databases (dopl.idaho.gov or edopl.idaho.gov) to verify registration status, active dates, or standing.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Google Analytics 4 (GA4) and Google Ads\",\n      \"purpose\": \"Website analytics, call/text tap tracking, Google forwarding numbers, and paid search lead attribution with deduplicated reference numbers\",\n      \"evidence\": {\n        \"statement\": \"The privacy policy states the company uses Google Analytics 4 (GA4) and Google Ads to measure visits, quote requests, calls, and texts.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/privacy-policy\",\n        \"quote\": \"We use Google Analytics 4 (GA4) to understand how visitors use this site and Google Ads to measure which of our ads lead to quote\"\n      }\n    },\n    {\n      \"product\": \"Microsoft Clarity\",\n      \"purpose\": \"Website behavior analytics via heatmaps and session recordings with masked form fields\",\n      \"evidence\": {\n        \"statement\": \"The privacy policy states the site uses Microsoft Clarity for heatmaps and session recordings.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/privacy-policy\",\n        \"quote\": \"We also use Microsoft Clarity to see how visitors use our pages through heatmaps and session recordings; form fields are masked\"\n      }\n    },\n    {\n      \"product\": \"Meta Pixel and Meta Conversions API\",\n      \"purpose\": \"Client-side and server-side conversion tracking for Facebook and Instagram advertising leads\",\n      \"evidence\": {\n        \"statement\": \"The privacy policy states the site uses the Meta Pixel and Meta's Conversions API to measure visits and inquiries from Facebook and Instagram ads.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/privacy-policy\",\n        \"quote\": \"We also use the Meta Pixel and Meta's Conversions API to measure visits and inquiries from our Facebook and Instagram ads.\"\n      }\n    },\n    {\n      \"product\": \"Online Remodel Cost Estimator & Automated Plan-Set Estimator\",\n      \"purpose\": \"Interactive online project range estimator and automated construction drawing reader that extracts room areas, heights, and schedules from uploaded floor plans\",\n      \"evidence\": {\n        \"statement\": \"The website includes an automated plan-reading tool that extracts measurements from uploaded floor plans alongside human review by the estimating team.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/remodel-plans-boise\",\n        \"quote\": \"They are stored with your enquiry and sent to our estimating team so we can review them by hand alongside the automatic read.\"\n      }\n    },\n    {\n      \"product\": \"Subcontractor Portal\",\n      \"purpose\": \"Web portal for subcontractors hosted on the company website\",\n      \"evidence\": {\n        \"statement\": \"The website includes a dedicated Subcontractor Portal route at /subcontractor.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://boiseremodeling.co/subcontractor\",\n        \"quote\": \"Subcontractor Portal | Boise Remodeling Co\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The company runs paid search and social advertising across Google Ads, Facebook, and Instagram to generate remodeling quote requests, calls, and texts.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://boiseremodeling.co/privacy-policy\",\n      \"quote\": \"We use Google Analytics 4 (GA4) to understand how visitors use this site and Google Ads to measure which of our ads lead to quote\"\n    },\n    {\n      \"statement\": \"The company commits to sending weekly written project updates every Friday to remodeling clients.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://boiseremodeling.co/about\",\n      \"quote\": \"Instead of wondering what happened on your project this week, you receive a written update every Friday: what was completed, what is next\"\n    },\n    {\n      \"statement\": \"The company already operates custom web intake tools, including an interactive cost estimator, a guided optional intake, and an automated floor-plan reader, as well as server-side ad event tracking.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://boiseremodeling.co/remodel-plans-boise\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"No confirmed operational or lead-handling problem is observable on the public website.\",\n      \"label\": \"inference\",\n      \"basis\": \"Based on https://boiseremodeling.co/, https://boiseremodeling.co/privacy-policy, and https://boiseremodeling.co/remodel-plans-boise, the company already replies to texts in minutes during business hours, tracks ad leads via server-side Conversions API and deduplicated reference IDs, and provides automated online estimating and plan-reading tools.\"\n    },\n    {\n      \"problem\": \"Preparing weekly Friday written updates and reviewing uploaded floor plans by hand alongside the automatic read could require recurring project manager and estimator time.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Plausible operational workload given the company's promises of weekly Friday written progress updates and manual estimator verification of uploaded plans, though there is no evidence that this causes a bottleneck.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Existing custom web application (online cost estimator, automated floor-plan reader, subcontractor portal, and server-side ad conversion tracking)\",\n      \"addresses\": \"Lead capture, preliminary project range estimation, plan takeoff intake, and ad attribution\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Construction project management platforms (such as residential design-build management software)\",\n      \"addresses\": \"Client portals, written change orders, subcontractor scheduling, and weekly progress logs\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because Boise Remodeling Co. is a residential design-build general contractor outside ForgeX's target segment of HVAC, plumbing, and electrical service contractors, and already operates sophisticated custom web intake and estimating automation.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended. Notably, the company already uses an automated drawing reader with human-in-the-loop estimator verification on its own website.\"\n  },\n  \"humanReview\": [\n    \"No ForgeX automation is recommended; in the company's existing operations, human estimators review automated floor-plan reads and project managers issue written scopes and change orders.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Selling standardized home-service trade automations (built for high-volume HVAC, plumbing, and electrical dispatch) to a long-cycle design-build remodeling contractor risks poor workflow fit.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"Although the website publishes starting planning ranges on https://boiseremodeling.co/services (such as Bathroom Remodel 'Planning from $10k' and Kitchen Remodel 'Planning from $15k'), no ForgeX solution is recommended because the company is outside ForgeX's segment and has no evidenced automation gap.\",\n      \"Therefore, no commercial value or implementation cost projection is claimed.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Managing Member (P5 Home Co LLC)\",\n      \"General Manager\",\n      \"Estimating / Operations Lead\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://boiseremodeling.co/contact\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What back-office construction management or CRM system does P5 Home Co use behind your custom website and subcontractor portal?\",\n      \"How many full-time staff versus subcontractors work across the P5 Home Co brands?\",\n      \"Are there any manual handoffs between your online estimator/plan reader and your project management workflow?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://boiseremodeling.co/\",\n        \"usedFor\": \"Business identity, DBA and parent entity (P5 Home Co LLC), contractor registration number, service overview, and contact details\"\n      },\n      {\n        \"url\": \"https://boiseremodeling.co/about\",\n        \"usedFor\": \"Design-build operating model, lean overhead structure, service areas, licensing/bonding statement, and weekly Friday update commitment\"\n      },\n      {\n        \"url\": \"https://boiseremodeling.co/contact\",\n        \"usedFor\": \"Meridian physical address, business hours, response time commitments, and primary business contact channel\"\n      },\n      {\n        \"url\": \"https://boiseremodeling.co/subcontractor\",\n        \"usedFor\": \"Verification of the on-site Subcontractor Portal route\"\n      },\n      {\n        \"url\": \"https://boiseremodeling.co/services\",\n        \"usedFor\": \"Principal remodeling activities and published starting planning ranges\"\n      },\n      {\n        \"url\": \"https://boiseremodeling.co/privacy-policy\",\n        \"usedFor\": \"Verification of Google Analytics 4, Google Ads, Microsoft Clarity, Meta Pixel, and Meta Conversions API usage\"\n      },\n      {\n        \"url\": \"https://boiseremodeling.co/estimate\",\n        \"usedFor\": \"Verification of the online Remodel Cost Estimator tool\"\n      },\n      {\n        \"url\": \"https://boiseremodeling.co/terms-of-service\",\n        \"usedFor\": \"Payment terms, subcontracting policy, and service terms\"\n      },\n      {\n        \"url\": \"https://boiseremodeling.co/remodel-plans-boise\",\n        \"usedFor\": \"Verification of the automated floor-plan reader and human-in-the-loop estimator review process\"\n      }\n    ],\n    \"limitations\": [\n      \"The website does not disclose total employee headcount (whether the company has 10 to 75 staff) and notes that it runs lean and subcontracts services as needed.\",\n      \"The website footer lists an individual under the title 'Public representative' rather than explicitly presenting them as an owner, executive, or manager; per ForgeX evidence rules, they are omitted from the named people list.\",\n      \"Internal back-office software (such as accounting or construction project management software behind the custom web app) cannot be verified from public pages.\",\n      \"State contractor registration status on dopl.idaho.gov / edopl.idaho.gov cannot be independently queried by ForgeX's site-restricted fetcher.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Boise Remodeling Co. (a DBA of P5 Home Co LLC) is a residential design-build general remodeling contractor specializing in kitchens, bathrooms, additions, whole-home renovations, and ADUs, which puts it outside ForgeX's target segment of HVAC, plumbing, and electrical service contractors with 10 to 75 staff. Furthermore, the company already operates a modern custom web stack featuring an interactive cost estimator, an automated floor-plan measurement reader with human review, a subcontractor portal, fast text response during business hours, and server-side ad conversion tracking (Meta Conversions API and Google Ads).\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

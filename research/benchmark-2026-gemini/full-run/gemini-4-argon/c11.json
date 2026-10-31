@@ -1,0 +1,649 @@
+{
+  "company": {
+    "id": "c11",
+    "name": "Creations Unlimited",
+    "town": "Nampa",
+    "state": "Idaho",
+    "website": "https://www.creationsultd.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:36:44.408Z",
+  "finishedAt": "2026-10-27T18:38:02.819Z",
+  "report": {
+    "identity": {
+      "name": "Creations Unlimited (Creations Unlimited Machining Inc.)",
+      "location": "175 Shannon Dr, Nampa, ID 83687, U.S.",
+      "claims": [
+        {
+          "statement": "The company's legal name is Creations Unlimited Machining Inc., established by [redacted] in 1989.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/",
+          "quote": "Creations Unlimited Machining Inc. was established by [redacted] in 1989."
+        },
+        {
+          "statement": "The company is located at 175 Shannon Dr, Nampa, ID, 83687, U.S.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/",
+          "quote": "Creations Unlimited, 175 Shannon Dr, Nampa, ID, 83687, U.S. [redacted] [redacted]"
+        },
+        {
+          "statement": "The company operated in Morgan Hill, California for 32 years before relocating to an 18,000 square foot facility in Nampa, Idaho in Summer 2021.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/about",
+          "quote": "32 Years of Business in California before relocating to Nampa Idaho Summer 2021"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Precision CNC Machining and Manufacturing",
+      "activities": [
+        "5-axis CNC precision machining",
+        "Quick-turn prototyping",
+        "Mild / low-volume production machining (1 to 2,500 pieces)",
+        "First article inspection (FAI) services",
+        "Overflow CNC machining work for other shops"
+      ],
+      "claims": [
+        {
+          "statement": "Creations Unlimited is a precision CNC shop specializing in complex 5-axis CNC parts.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/",
+          "quote": "Creations Unlimited is a full service precision CNC shop that specializes in complex 5 axis CNC parts that most shops are afraid to mill."
+        },
+        {
+          "statement": "The company provides machining services to the hi-tech, medical, space, and aerospace industries.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/about",
+          "quote": "Creations Unlimited continues to provide high quality machining to the hi-tech and medical industries and now have added machining services to the space and aerospace"
+        },
+        {
+          "statement": "The company offers 5-axis CNC machining, quick-turn prototyping, mild production (1 to 2,500 pieces), first article inspection, and overflow work.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/services",
+          "quote": "Jobs that range from 1 piece all the way up to 2500 pieces. We currently specialize in micro machining and medical device size machining"
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.creationsultd.com/",
+      "claims": [
+        {
+          "statement": "The company operates an 18,000 square foot temperature-controlled facility in Nampa, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/about",
+          "quote": "State of the Art 18,000 Sq Ft facility with full temperature control."
+        },
+        {
+          "statement": "Standard turnaround for 5-axis CNC milling quotes is under 24 hours with 2-week standard part delivery.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/services",
+          "quote": "Quotes are returned in under 24 hours, parts delivered in 2 weeks standard."
+        },
+        {
+          "statement": "The shop operates multi-pallet automated 5-axis machining cells capable of 24/7 lights-out machining.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/facilities",
+          "quote": "24/7 Lights Out Machining"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The company's Certifications page lists ISO 9001:2015, AS9100D Certificate, and ITAR Registration.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/certifications",
+          "quote": "ISO 9001:2015 and AS9100D Certificate ITAR Registration"
+        }
+      ],
+      "limitations": "Specific state business registration numbers, contractor license numbers (not applicable to a machine shop), or certificate numbers/expiration dates are not printed in the page text."
+    },
+    "existingSoftware": [
+      {
+        "product": "ProShop ERP / QMS",
+        "purpose": "Paperless shop management, ERP, and integrated Quality Management System (ISO/AS9100 management, inspection reporting, cert management, FAIR generation)",
+        "evidence": {
+          "statement": "The Key Advantages page states that the company runs a paperless shop and integrated QMS with ProShop, and links to proshoperp.com.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/key-advantages",
+          "quote": "Paperless shop with Proshop Integrated QMS with ProShop"
+        }
+      },
+      {
+        "product": "Siemens NX CAD/CAM",
+        "purpose": "CAD/CAM programming and full machine code simulation for 5-axis CNC machines",
+        "evidence": {
+          "statement": "The About page lists Siemens NX CAD/CAM with full machine code simulation for every 5-axis machine.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/about",
+          "quote": "Siemens NX CAD/CAM with Full Machine Code Simulation for every 5 axis machines"
+        }
+      },
+      {
+        "product": "Calypso Software",
+        "purpose": "Coordinate measuring machine (CMM) inspection software for Zeiss Contura G2",
+        "evidence": {
+          "statement": "The Facilities page lists Calypso Software under the Zeiss Contura G2 inspection equipment.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/facilities",
+          "quote": "CALYPSO SOFTWARE"
+        }
+      },
+      {
+        "product": "Squarespace",
+        "purpose": "Website content management and hosting",
+        "evidence": {
+          "statement": "The website loads scripts and assets from assets.squarespace.com, definitions.sqspcdn.com, and static1.squarespace.com.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/",
+          "quote": "https://assets.squarespace.com/@sqs/polyfiller/1.7.7/modern.js"
+        }
+      },
+      {
+        "product": "Adobe Typekit",
+        "purpose": "Web font delivery",
+        "evidence": {
+          "statement": "The website loads font scripts from use.typekit.net.",
+          "label": "fact",
+          "sourceUrl": "https://www.creationsultd.com/",
+          "quote": "use.typekit.net"
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The company already operates a paperless ERP with computer terminals at every machine and automated quality package/FAIR generation via ProShop.",
+        "label": "fact",
+        "sourceUrl": "https://www.creationsultd.com/about",
+        "quote": "Paperless ERP with computer terminals at every machine"
+      },
+      {
+        "statement": "The Contact / Request for Quote page displays an email address and phone number and references a Squarespace form visitor script, though no HTML form target was detected by the fetcher.",
+        "label": "inference",
+        "sourceUrl": "https://www.creationsultd.com/contact",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "No confirmed operational problems matching ForgeX's service catalog were identified; the company is a B2B CNC manufacturer with an existing paperless ERP/QMS (ProShop) rather than a residential home-service contractor.",
+        "label": "inference",
+        "basis": "Based on https://www.creationsultd.com/about and https://www.creationsultd.com/key-advantages, which show the business is a precision CNC machine shop already running ProShop ERP/QMS."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "ProShop ERP & QMS",
+        "addresses": "Shop floor management, paperless documentation, real-time quality inspection monitoring, certification management, and First Article Inspection Report (FAIR) generation.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Siemens NX CAD/CAM",
+        "addresses": "5-axis CNC programming and full machine code simulation.",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because Creations Unlimited is outside ForgeX's target segment of home-service contractors and already operates specialized manufacturing ERP/QMS software (ProShop)."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended for this business."
+    },
+    "humanReview": [],
+    "risks": [
+      {
+        "type": "compliance",
+        "description": "The company states it holds ITAR Registration and AS9100D certification for aerospace, space, and medical machining; any third-party cloud or AI automation handling technical drawings, quotes, or customer communications would face strict ITAR/export-control and quality compliance constraints."
+      },
+      {
+        "type": "operational",
+        "description": "ForgeX's core offerings are built around home-service field-service software, consumer lead intake, and QuickBooks reporting, which do not align with B2B aerospace/medical CNC machine shop workflows in ProShop ERP."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Founder / Owner",
+        "President / General Manager"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Founder",
+          "sourceUrl": "https://www.creationsultd.com/",
+          "quote": "Creations Unlimited Machining Inc. was established by [redacted] in 1989."
+        }
+      ],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.creationsultd.com/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.creationsultd.com/",
+          "usedFor": "Company identity, Nampa ID address, contact details, founder [redacted], and principal 5-axis CNC machining focus."
+        },
+        {
+          "url": "https://www.creationsultd.com/about",
+          "usedFor": "Company history, relocation to 18,000 sq ft Nampa facility, industries served, Siemens NX CAD/CAM usage, and paperless ERP terminals."
+        },
+        {
+          "url": "https://www.creationsultd.com/services",
+          "usedFor": "Service offerings (5-axis machining, quick-turn prototyping, mild production, FAI, overflow work) and quote/delivery turnaround times."
+        },
+        {
+          "url": "https://www.creationsultd.com/certifications",
+          "usedFor": "ISO 9001:2015, AS9100D, and ITAR registration claims."
+        },
+        {
+          "url": "https://www.creationsultd.com/contact",
+          "usedFor": "Address and contact verification."
+        },
+        {
+          "url": "https://www.creationsultd.com/key-advantages",
+          "usedFor": "Verification of ProShop paperless ERP and integrated QMS usage and robotic pallet automation."
+        },
+        {
+          "url": "https://www.creationsultd.com/facilities",
+          "usedFor": "Verification of CNC equipment, 24/7 lights-out machining capability, and Calypso CMM software."
+        },
+        {
+          "url": "https://www.creationsultd.com/quality",
+          "usedFor": "Verification of CMM inspection capabilities and First Article Inspection services."
+        }
+      ],
+      "limitations": [
+        "Exact employee headcount is not stated on the public website.",
+        "No service pricing is published on the website, as work is custom-quoted per project."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Creations Unlimited is a B2B 5-axis precision CNC machine shop serving aerospace, space, medical, and hi-tech manufacturing clients, placing it outside ForgeX's target segment of owner-led residential home-service contractors (HVAC, plumbing, and electrical). Furthermore, the company already operates a paperless shop floor and integrated QMS using ProShop ERP alongside robotic CNC automation."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.creationsultd.com/",
+        "quote": "Creations Unlimited Machining Inc. was established by [redacted] in 1989.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.creationsultd.com/",
+        "quote": "Creations Unlimited, 175 Shannon Dr, Nampa, ID, 83687, U.S. [redacted] [redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.creationsultd.com/about",
+        "quote": "32 Years of Business in California before relocating to Nampa Idaho Summer 2021",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.creationsultd.com/",
+        "quote": "Creations Unlimited is a full service precision CNC shop that specializes in complex 5 axis CNC parts that most shops are afraid to mill.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.creationsultd.com/about",
+        "quote": "Creations Unlimited continues to provide high quality machining to the hi-tech and medical industries and now have added machining services to the space and aerospace",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.creationsultd.com/services",
+        "quote": "Jobs that range from 1 piece all the way up to 2500 pieces. We currently specialize in micro machining and medical device size machining",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.creationsultd.com/about",
+        "quote": "State of the Art 18,000 Sq Ft facility with full temperature control.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.creationsultd.com/services",
+        "quote": "Quotes are returned in under 24 hours, parts delivered in 2 weeks standard.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.creationsultd.com/facilities",
+        "quote": "24/7 Lights Out Machining",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.creationsultd.com/certifications",
+        "quote": "ISO 9001:2015 and AS9100D Certificate ITAR Registration",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.creationsultd.com/key-advantages",
+        "quote": "Paperless shop with Proshop Integrated QMS with ProShop",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.creationsultd.com/about",
+        "quote": "Siemens NX CAD/CAM with Full Machine Code Simulation for every 5 axis machines",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.creationsultd.com/facilities",
+        "quote": "CALYPSO SOFTWARE",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.creationsultd.com/",
+        "quote": "https://assets.squarespace.com/@sqs/polyfiller/1.7.7/modern.js",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.creationsultd.com/",
+        "quote": "use.typekit.net",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.creationsultd.com/about",
+        "quote": "Paperless ERP with computer terminals at every machine",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.creationsultd.com/",
+        "quote": "Creations Unlimited Machining Inc. was established by [redacted] in 1989.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.creationsultd.com/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 17,
+      "quotesFound": 17,
+      "quotesFoundInDetails": 2,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 0,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.creationsultd.com/",
+      "finalUrl": "https://www.creationsultd.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:36:47.562Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 121104,
+      "truncated": false,
+      "sha256": "f1a236a815dce90192a90c8a3f75893c496f8e5ae2c3b79bfd2d31407e534909",
+      "textSha256": "5f4791c447a4e9827c5d91776fa235616c2009c111b660ae4399791fb35c4903",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.creationsultd.com/about",
+      "finalUrl": "https://www.creationsultd.com/about",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:36:52.341Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 92901,
+      "truncated": false,
+      "sha256": "c6b266d3677354327aea22b634dce22ba68d4a2cbcab39ec071c5a69d506d3ae",
+      "textSha256": "2083337f699e67133ce3d3684478286fddd29b95410f39ec7f229355462490fc",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.creationsultd.com/services",
+      "finalUrl": "https://www.creationsultd.com/services",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:36:55.934Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 114482,
+      "truncated": false,
+      "sha256": "7ac27a0fefb9b9e5676d6e34826dbe3e84727dc2ce5cf64d35c61195a2a34c74",
+      "textSha256": "6e376af02c931acba014b830ccd41b40ae49949999ce6cc15155d96b72a2c505",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.creationsultd.com/certifications",
+      "finalUrl": "https://www.creationsultd.com/certifications",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:36:58.674Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 94771,
+      "truncated": false,
+      "sha256": "44ed3f700eaa56d009fdfe0abb905b2857f4493b0ea6b25b31722826e0400cdf",
+      "textSha256": "cc2df020768082dac761fb6988e1e208025acb2025d98e484389f6e16bf5d6b2",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.creationsultd.com/contact",
+      "finalUrl": "https://www.creationsultd.com/contact",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:37:01.547Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 106998,
+      "truncated": false,
+      "sha256": "002bc7880e7288c61e7d4e78a3c90c2b9f3ae2e72919ac536b150425d008e4e7",
+      "textSha256": "f5291f28b48c4f30342a7b14232137463a730d5db36b1867d79ba244016e1e9f",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.creationsultd.com/key-advantages",
+      "finalUrl": "https://www.creationsultd.com/key-advantages",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:37:10.359Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 107351,
+      "truncated": false,
+      "sha256": "6a848496e3c7335adf6233124046c8046b149662fe8b901aa5f3ddb655922c59",
+      "textSha256": "a2907606887990690cbc8b9ed83c426cfdc3e502919f83aeb590008eb2f6a988",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.creationsultd.com/facilities",
+      "finalUrl": "https://www.creationsultd.com/facilities",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:37:13.297Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 152854,
+      "truncated": false,
+      "sha256": "a76dbade2437902b5ae384a5a465139ae2c2d4fbfd8a168a2031aa01cca42cfa",
+      "textSha256": "578cbc058ec6a18901a1a4277ef30b5d60c3df107e331b371b0313cfc7eb6987",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.creationsultd.com/quality",
+      "finalUrl": "https://www.creationsultd.com/quality",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:37:15.944Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 111903,
+      "truncated": false,
+      "sha256": "1f6fa9d6a05285b2bf8c8fabaffe19fb2532154c5922eee3d22a9f8a5110740a",
+      "textSha256": "94f36d0cb129723127d97a9febbd9265d5d34a97bd69215e2cff89a75127ef1d",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.creationsultd.com/about",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.creationsultd.com/services",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.creationsultd.com/certifications",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.creationsultd.com/contact",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.creationsultd.com/key-advantages",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.creationsultd.com/facilities",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.creationsultd.com/quality",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 50578,
+    "cachedInput": 25975,
+    "output": 3578,
+    "thinking": 647,
+    "toolUse": 0,
+    "total": 54803
+  },
+  "costUsd": 0.0940535,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1265165",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.creationsultd.com/about"
+      }
+    },
+    {
+      "id": "call_1265166",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.creationsultd.com/services"
+      }
+    },
+    {
+      "id": "call_1265167",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.creationsultd.com/certifications"
+      }
+    },
+    {
+      "id": "call_1265168",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.creationsultd.com/contact"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1496853",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.creationsultd.com/key-advantages"
+      }
+    },
+    {
+      "id": "call_1496854",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.creationsultd.com/facilities"
+      }
+    },
+    {
+      "id": "call_1496855",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.creationsultd.com/quality"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Creations Unlimited (Creations Unlimited Machining Inc.)\",\n    \"location\": \"175 Shannon Dr, Nampa, ID 83687, U.S.\",\n    \"claims\": [\n      {\n        \"statement\": \"The company's legal name is Creations Unlimited Machining Inc., established by [redacted] in 1989.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/\",\n        \"quote\": \"Creations Unlimited Machining Inc. was established by [redacted] in 1989.\"\n      },\n      {\n        \"statement\": \"The company is located at 175 Shannon Dr, Nampa, ID, 83687, U.S.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/\",\n        \"quote\": \"Creations Unlimited, 175 Shannon Dr, Nampa, ID, 83687, U.S. [redacted] [redacted]\"\n      },\n      {\n        \"statement\": \"The company operated in Morgan Hill, California for 32 years before relocating to an 18,000 square foot facility in Nampa, Idaho in Summer 2021.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/about\",\n        \"quote\": \"32 Years of Business in California before relocating to Nampa Idaho Summer 2021\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Precision CNC Machining and Manufacturing\",\n    \"activities\": [\n      \"5-axis CNC precision machining\",\n      \"Quick-turn prototyping\",\n      \"Mild / low-volume production machining (1 to 2,500 pieces)\",\n      \"First article inspection (FAI) services\",\n      \"Overflow CNC machining work for other shops\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Creations Unlimited is a precision CNC shop specializing in complex 5-axis CNC parts.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/\",\n        \"quote\": \"Creations Unlimited is a full service precision CNC shop that specializes in complex 5 axis CNC parts that most shops are afraid to mill.\"\n      },\n      {\n        \"statement\": \"The company provides machining services to the hi-tech, medical, space, and aerospace industries.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/about\",\n        \"quote\": \"Creations Unlimited continues to provide high quality machining to the hi-tech and medical industries and now have added machining services to the space and aerospace\"\n      },\n      {\n        \"statement\": \"The company offers 5-axis CNC machining, quick-turn prototyping, mild production (1 to 2,500 pieces), first article inspection, and overflow work.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/services\",\n        \"quote\": \"Jobs that range from 1 piece all the way up to 2500 pieces. We currently specialize in micro machining and medical device size machining\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.creationsultd.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company operates an 18,000 square foot temperature-controlled facility in Nampa, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/about\",\n        \"quote\": \"State of the Art 18,000 Sq Ft facility with full temperature control.\"\n      },\n      {\n        \"statement\": \"Standard turnaround for 5-axis CNC milling quotes is under 24 hours with 2-week standard part delivery.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/services\",\n        \"quote\": \"Quotes are returned in under 24 hours, parts delivered in 2 weeks standard.\"\n      },\n      {\n        \"statement\": \"The shop operates multi-pallet automated 5-axis machining cells capable of 24/7 lights-out machining.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/facilities\",\n        \"quote\": \"24/7 Lights Out Machining\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The company's Certifications page lists ISO 9001:2015, AS9100D Certificate, and ITAR Registration.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/certifications\",\n        \"quote\": \"ISO 9001:2015 and AS9100D Certificate ITAR Registration\"\n      }\n    ],\n    \"limitations\": \"Specific state business registration numbers, contractor license numbers (not applicable to a machine shop), or certificate numbers/expiration dates are not printed in the page text.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"ProShop ERP / QMS\",\n      \"purpose\": \"Paperless shop management, ERP, and integrated Quality Management System (ISO/AS9100 management, inspection reporting, cert management, FAIR generation)\",\n      \"evidence\": {\n        \"statement\": \"The Key Advantages page states that the company runs a paperless shop and integrated QMS with ProShop, and links to proshoperp.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/key-advantages\",\n        \"quote\": \"Paperless shop with Proshop Integrated QMS with ProShop\"\n      }\n    },\n    {\n      \"product\": \"Siemens NX CAD/CAM\",\n      \"purpose\": \"CAD/CAM programming and full machine code simulation for 5-axis CNC machines\",\n      \"evidence\": {\n        \"statement\": \"The About page lists Siemens NX CAD/CAM with full machine code simulation for every 5-axis machine.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/about\",\n        \"quote\": \"Siemens NX CAD/CAM with Full Machine Code Simulation for every 5 axis machines\"\n      }\n    },\n    {\n      \"product\": \"Calypso Software\",\n      \"purpose\": \"Coordinate measuring machine (CMM) inspection software for Zeiss Contura G2\",\n      \"evidence\": {\n        \"statement\": \"The Facilities page lists Calypso Software under the Zeiss Contura G2 inspection equipment.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/facilities\",\n        \"quote\": \"CALYPSO SOFTWARE\"\n      }\n    },\n    {\n      \"product\": \"Squarespace\",\n      \"purpose\": \"Website content management and hosting\",\n      \"evidence\": {\n        \"statement\": \"The website loads scripts and assets from assets.squarespace.com, definitions.sqspcdn.com, and static1.squarespace.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/\",\n        \"quote\": \"https://assets.squarespace.com/@sqs/polyfiller/1.7.7/modern.js\"\n      }\n    },\n    {\n      \"product\": \"Adobe Typekit\",\n      \"purpose\": \"Web font delivery\",\n      \"evidence\": {\n        \"statement\": \"The website loads font scripts from use.typekit.net.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.creationsultd.com/\",\n        \"quote\": \"use.typekit.net\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The company already operates a paperless ERP with computer terminals at every machine and automated quality package/FAIR generation via ProShop.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.creationsultd.com/about\",\n      \"quote\": \"Paperless ERP with computer terminals at every machine\"\n    },\n    {\n      \"statement\": \"The Contact / Request for Quote page displays an email address and phone number and references a Squarespace form visitor script, though no HTML form target was detected by the fetcher.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://www.creationsultd.com/contact\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"No confirmed operational problems matching ForgeX's service catalog were identified; the company is a B2B CNC manufacturer with an existing paperless ERP/QMS (ProShop) rather than a residential home-service contractor.\",\n      \"label\": \"inference\",\n      \"basis\": \"Based on https://www.creationsultd.com/about and https://www.creationsultd.com/key-advantages, which show the business is a precision CNC machine shop already running ProShop ERP/QMS.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"ProShop ERP & QMS\",\n      \"addresses\": \"Shop floor management, paperless documentation, real-time quality inspection monitoring, certification management, and First Article Inspection Report (FAIR) generation.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Siemens NX CAD/CAM\",\n      \"addresses\": \"5-axis CNC programming and full machine code simulation.\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because Creations Unlimited is outside ForgeX's target segment of home-service contractors and already operates specialized manufacturing ERP/QMS software (ProShop).\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended for this business.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [\n    {\n      \"type\": \"compliance\",\n      \"description\": \"The company states it holds ITAR Registration and AS9100D certification for aerospace, space, and medical machining; any third-party cloud or AI automation handling technical drawings, quotes, or customer communications would face strict ITAR/export-control and quality compliance constraints.\"\n    },\n    {\n      \"type\": \"operational\",\n      \"description\": \"ForgeX's core offerings are built around home-service field-service software, consumer lead intake, and QuickBooks reporting, which do not align with B2B aerospace/medical CNC machine shop workflows in ProShop ERP.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Founder / Owner\",\n      \"President / General Manager\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Founder\",\n        \"sourceUrl\": \"https://www.creationsultd.com/\",\n        \"quote\": \"Creations Unlimited Machining Inc. was established by [redacted] in 1989.\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.creationsultd.com/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.creationsultd.com/\",\n        \"usedFor\": \"Company identity, Nampa ID address, contact details, founder [redacted], and principal 5-axis CNC machining focus.\"\n      },\n      {\n        \"url\": \"https://www.creationsultd.com/about\",\n        \"usedFor\": \"Company history, relocation to 18,000 sq ft Nampa facility, industries served, Siemens NX CAD/CAM usage, and paperless ERP terminals.\"\n      },\n      {\n        \"url\": \"https://www.creationsultd.com/services\",\n        \"usedFor\": \"Service offerings (5-axis machining, quick-turn prototyping, mild production, FAI, overflow work) and quote/delivery turnaround times.\"\n      },\n      {\n        \"url\": \"https://www.creationsultd.com/certifications\",\n        \"usedFor\": \"ISO 9001:2015, AS9100D, and ITAR registration claims.\"\n      },\n      {\n        \"url\": \"https://www.creationsultd.com/contact\",\n        \"usedFor\": \"Address and contact verification.\"\n      },\n      {\n        \"url\": \"https://www.creationsultd.com/key-advantages\",\n        \"usedFor\": \"Verification of ProShop paperless ERP and integrated QMS usage and robotic pallet automation.\"\n      },\n      {\n        \"url\": \"https://www.creationsultd.com/facilities\",\n        \"usedFor\": \"Verification of CNC equipment, 24/7 lights-out machining capability, and Calypso CMM software.\"\n      },\n      {\n        \"url\": \"https://www.creationsultd.com/quality\",\n        \"usedFor\": \"Verification of CMM inspection capabilities and First Article Inspection services.\"\n      }\n    ],\n    \"limitations\": [\n      \"Exact employee headcount is not stated on the public website.\",\n      \"No service pricing is published on the website, as work is custom-quoted per project.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Creations Unlimited is a B2B 5-axis precision CNC machine shop serving aerospace, space, medical, and hi-tech manufacturing clients, placing it outside ForgeX's target segment of owner-led residential home-service contractors (HVAC, plumbing, and electrical). Furthermore, the company already operates a paperless shop floor and integrated QMS using ProShop ERP alongside robotic CNC automation.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

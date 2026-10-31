@@ -1,0 +1,180 @@
+{
+  "purpose": "The 25 companies of the Treasure Valley pilot, identity only, for Gemini's independent research.",
+  "companies": [
+    {
+      "id": "c01",
+      "name": "Boise Metal Works",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://www.boisemetalworks.com/"
+    },
+    {
+      "id": "c02",
+      "name": "Ascending IT",
+      "town": "Nampa",
+      "state": "Idaho",
+      "website": "https://ascending-it.com/"
+    },
+    {
+      "id": "c03",
+      "name": "Boss Tool & Manufacturing, Inc.",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://www.bosstoolmfginc.com/"
+    },
+    {
+      "id": "c04",
+      "name": "Ardent Industries Inc.",
+      "town": "Nampa",
+      "state": "Idaho",
+      "website": "https://ardentindustries.net/"
+    },
+    {
+      "id": "c05",
+      "name": "Crofts Electric",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://www.croftselectricboise.com/"
+    },
+    {
+      "id": "c06",
+      "name": "Idaho Roofing Contractors",
+      "town": "Meridian",
+      "state": "Idaho",
+      "website": "https://www.idahoroofingcontractors.com/"
+    },
+    {
+      "id": "c07",
+      "name": "Crossflow Plumbing LLC",
+      "town": "Eagle",
+      "state": "Idaho",
+      "website": "https://crossflowplumbingllc.com/"
+    },
+    {
+      "id": "c08",
+      "name": "Erwin Custom Fabrication",
+      "town": "Nampa",
+      "state": "Idaho",
+      "website": "https://erwinfab.com/"
+    },
+    {
+      "id": "c09",
+      "name": "MicroTech Systems",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://www.microtechboise.com/"
+    },
+    {
+      "id": "c10",
+      "name": "Gem Heating & Air Conditioning",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://www.gemheating.com/"
+    },
+    {
+      "id": "c11",
+      "name": "Creations Unlimited",
+      "town": "Nampa",
+      "state": "Idaho",
+      "website": "https://www.creationsultd.com/"
+    },
+    {
+      "id": "c12",
+      "name": "Northwest Roof Restoration, LLC",
+      "town": "Meridian (also Post Falls)",
+      "state": "Idaho",
+      "website": "https://nwroof.net/"
+    },
+    {
+      "id": "c13",
+      "name": "Cornerstone Comfort",
+      "town": "Nampa",
+      "state": "Idaho",
+      "website": "https://www.cornerstonecomfort.net/"
+    },
+    {
+      "id": "c14",
+      "name": "Walker Electric LLC",
+      "town": "Treasure Valley (no street address published)",
+      "state": "Idaho",
+      "website": "https://walkerelectricidaho.com/"
+    },
+    {
+      "id": "c15",
+      "name": "Idaho PC Solutions, LLC",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://www.idahopcsolutions.com/"
+    },
+    {
+      "id": "c16",
+      "name": "AMP Electric",
+      "town": "Nampa",
+      "state": "Idaho",
+      "website": "https://amp240v.com/"
+    },
+    {
+      "id": "c17",
+      "name": "Running Water Plumbing",
+      "town": "Meridian",
+      "state": "Idaho",
+      "website": "https://runningwaterplumbingidaho.com/"
+    },
+    {
+      "id": "c18",
+      "name": "Boise Remodeling Co.",
+      "town": "Meridian",
+      "state": "Idaho",
+      "website": "https://boiseremodeling.co/"
+    },
+    {
+      "id": "c19",
+      "name": "North Star Kitchen and Bath Remodels",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://northstarkitchenandbath.com/"
+    },
+    {
+      "id": "c20",
+      "name": "D & A Heating and Cooling",
+      "town": "Nampa",
+      "state": "Idaho",
+      "website": "https://www.dahvac.com/"
+    },
+    {
+      "id": "c21",
+      "name": "Treasure Valley IT",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://www.tvit.net/"
+    },
+    {
+      "id": "c22",
+      "name": "Plumbing Solutions of Idaho",
+      "town": "Meridian",
+      "state": "Idaho",
+      "website": "https://plumbingsolutionsofidaho.com/"
+    },
+    {
+      "id": "c23",
+      "name": "IT Secure LLC",
+      "town": "Meridian (no street address published)",
+      "state": "Idaho",
+      "website": "https://itsecure.tech/"
+    },
+    {
+      "id": "c24",
+      "name": "Keeley Builders",
+      "town": "Treasure Valley (no street address published)",
+      "state": "Idaho",
+      "website": "https://www.keeleybuilders.com/"
+    },
+    {
+      "id": "c25",
+      "name": "Kings Roofing & Contracting LLC",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://www.kingsroofingandcontracting.com/"
+    }
+  ]
+}

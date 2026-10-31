@@ -1,0 +1,653 @@
+{
+  "company": {
+    "id": "c23",
+    "name": "IT Secure LLC",
+    "town": "Meridian (no street address published)",
+    "state": "Idaho",
+    "website": "https://itsecure.tech/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:01:51.666Z",
+  "finishedAt": "2026-10-27T19:03:26.782Z",
+  "report": {
+    "identity": {
+      "name": "IT Secure LLC",
+      "location": "148 E Cordoba Ct, Meridian, ID 83646, United States",
+      "claims": [
+        {
+          "statement": "The legal name of the business is IT Secure LLC, doing business as IT Secure.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/privacy-policy/",
+          "quote": "This privacy notice for IT Secure LLC (doing business as IT Secure) (\"we,\" \"us,\" or \"our\"), describes how and why we might collect"
+        },
+        {
+          "statement": "The company is based in Meridian, Idaho, and serves Boise, Nampa, Eagle, the Treasure Valley of Idaho, and the Willamette Valley of Oregon.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/",
+          "quote": "Based in Meridian, we provide fast, reliable IT support to businesses throughout Boise, Nampa, Eagle, and the Treasure Valley."
+        },
+        {
+          "statement": "The company publishes a postal address of 148 E Cordoba Ct, Meridian, ID 83646, United States in its privacy policy.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/privacy-policy/",
+          "quote": "IT Secure LLC Data Protection Officer 148 E Cordoba Ct Meridian, ID 83646 United States"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Information Technology and Managed Services (Managed Service Provider / MSP)",
+      "activities": [
+        "Managed IT Support and Co-Managed IT Support",
+        "Cybersecurity Services and Compliance Management",
+        "Business Network and Wi-Fi Management",
+        "Data Backup and Disaster Recovery",
+        "Cloud Managed Services",
+        "Business Data Analysis",
+        "Communications VoIP and Unified Communications Services",
+        "Artificial Intelligence (AI) Solutions and Digital Transformation Consulting"
+      ],
+      "claims": [
+        {
+          "statement": "IT Secure operates as a Managed Service Provider delivering outsourced IT services to businesses.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/partnerships/",
+          "quote": "Partnerships with leading technology companies are integral to the success of a Managed Service Provider (MSP) that deliver outsourced IT services to businesses."
+        },
+        {
+          "statement": "The company provides managed IT support, cybersecurity, and support for Apple and Microsoft environments.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/",
+          "quote": "We offer proactive managed IT support, industry-leading cybersecurity, and expert assistance for both Apple and Microsoft environments—covering all your business technology needs"
+        },
+        {
+          "statement": "The company offers AI solutions to automate business processes, enhance decision-making, and provide predictive analytics.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/services/",
+          "quote": "Deploying AI-based tools and algorithms to automate processes, enhance decision-making, and provide predictive analytics across various business operations."
+        },
+        {
+          "statement": "IT Secure LLC is a B2B technology and IT services provider rather than a residential or home-service trade contractor.",
+          "label": "inference",
+          "sourceUrl": "https://itsecure.tech/services/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://itsecure.tech/",
+      "claims": [
+        {
+          "statement": "The company's official website is https://itsecure.tech/.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/",
+          "quote": "IT Secure | Treasure Valley's Trusted Managed Service Provider"
+        },
+        {
+          "statement": "The company states that its team has over 40 years of combined experience in technology and support.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/about/",
+          "quote": "With over 40 years of experience in technology and support, we are here to assist you."
+        },
+        {
+          "statement": "The company states it is a Microsoft Partner and an Apple Technical Partner, and integrates with the Google ecosystem.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/partnerships/",
+          "quote": "As an Apple Technical Partner, we are able to provide a more complete solution integrated with Apple's seamless experience."
+        },
+        {
+          "statement": "The website links to a client support portal at https://support.itsecure.tech/.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/",
+          "quote": "Client Dashboard"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The company identifies itself as a Limited Liability Company (IT Secure LLC).",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/",
+          "quote": "© 2026 IT Secure LLC | All Rights Reserved."
+        },
+        {
+          "statement": "The company states it offers certified support for Apple and Microsoft environments.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/",
+          "quote": "Certified Support for MAC & PC"
+        }
+      ],
+      "limitations": "No state contractor license numbers, business registration numbers, or regulatory license identifiers are published on the pages read. Because the business is an IT managed service provider rather than a trade contractor, trade licensing (such as HVAC, plumbing, or electrical) does not apply."
+    },
+    "existingSoftware": [
+      {
+        "product": "WePay",
+        "purpose": "Payment processing and payment data storage",
+        "evidence": {
+          "statement": "The company's privacy policy states that payment data is handled and stored by WePay.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/privacy-policy/",
+          "quote": "All payment data is handled and stored by WePay."
+        }
+      },
+      {
+        "product": "Remote Monitoring and Management (RMM) & Mobile Device Management (MDM) Systems",
+        "purpose": "Remote monitoring, patch management, and mobile device management for client IT environments",
+        "evidence": {
+          "statement": "The company states it uses RMM and MDM systems to monitor and manage client devices and IT tasks remotely.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/services/",
+          "quote": "RMM systems remotely monitor client systems, manage IT tasks, and resolve issues, often without needing to physically visit the client site."
+        }
+      },
+      {
+        "product": "Automated SMS/MMS Platform",
+        "purpose": "Automated and high-volume business SMS/MMS messaging via application, third-party integrations, and APIs",
+        "evidence": {
+          "statement": "The privacy policy states that automated SMS messaging is available through its platform using tools, third-party integrations, and APIs.",
+          "label": "fact",
+          "sourceUrl": "https://itsecure.tech/privacy-policy/",
+          "quote": "Automated SMS messaging is available through our platform using provided tools, third-party integrations, and APIs."
+        }
+      },
+      {
+        "product": "WordPress with Divi Theme and Forminator Plugin",
+        "purpose": "Website content management, visual page building, and web contact form handling",
+        "evidence": {
+          "statement": "The website likely runs on WordPress using the Divi theme and Forminator plugin for its contact form.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Calendly",
+        "purpose": "Online consultation scheduling widget",
+        "evidence": {
+          "statement": "The meeting scheduling page likely uses Calendly to book free consultations.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The navigation menu and footer link to a pricing page (https://itsecure.tech/pricing/) that returns an HTTP 404 not-found error.",
+        "label": "inference",
+        "sourceUrl": "https://itsecure.tech/",
+        "quote": null
+      },
+      {
+        "statement": "The company emphasizes live human phone answering over automated bots, stating callers reach a real person every time with no scripts or robots.",
+        "label": "fact",
+        "sourceUrl": "https://itsecure.tech/",
+        "quote": "Reach a real person every time you call—no scripts, no robots, just helpful IT professionals."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Broken navigation link to the Pricing page (HTTP 404) on the public website.",
+        "label": "inference",
+        "basis": "Links to https://itsecure.tech/pricing/ appear in the site navigation and footer on https://itsecure.tech/ and other pages, but fetching https://itsecure.tech/pricing/ returns HTTP 404 not-found."
+      },
+      {
+        "problem": "No confirmed operational or automation problems relevant to ForgeX's service catalog.",
+        "label": "inference",
+        "basis": "IT Secure LLC is itself a Managed Service Provider offering IT automation, AI solutions, business data analysis, and automated messaging platforms to other businesses, as stated on https://itsecure.tech/services/ and https://itsecure.tech/privacy-policy/."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "In-house Managed IT, AI Solutions, Business Data Analysis, Help Desk, and Automated SMS Platforms",
+        "addresses": "Process automation, data analytics, customer support triage, and automated lead/client messaging",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because IT Secure LLC is outside ForgeX's target segment of home-service contractors and already provides IT management, data analytics, and AI automation services in-house."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended. Furthermore, IT Secure LLC explicitly positions its brand against automated phone/support bots ('no scripts, no robots') while offering its own AI and automation services to clients."
+    },
+    "humanReview": [],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Pitching basic automation services to a Managed Service Provider that already sells AI solutions, cloud management, and business data analysis would be misaligned with ForgeX's home-service contractor focus."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "The website publishes no service prices (the /pricing/ link returns HTTP 404), and the business is not a fit for ForgeX services."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Managing Member",
+        "Chief Executive Officer / President",
+        "Data Protection Officer"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://itsecure.tech/contact/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://itsecure.tech/",
+          "usedFor": "Business identity, Meridian location, service areas, core MSP offerings, client dashboard link, and positioning statements."
+        },
+        {
+          "url": "https://itsecure.tech/about/",
+          "usedFor": "Company background, remote support and systems management focus, and statement of over 40 years of experience."
+        },
+        {
+          "url": "https://itsecure.tech/services/",
+          "usedFor": "Detailed list of primary and support services, including RMM, MDM, Business Data Analysis, Help Desk Support, and Artificial Intelligence (AI) Solutions."
+        },
+        {
+          "url": "https://itsecure.tech/contact/",
+          "usedFor": "Business phone number, text support number, and web contact form verification."
+        },
+        {
+          "url": "https://itsecure.tech/partnerships/",
+          "usedFor": "MSP industry classification and partnerships with Microsoft, Apple, and Google."
+        },
+        {
+          "url": "https://itsecure.tech/schedule-a-meeting/",
+          "usedFor": "Consultation booking page and scheduling script references."
+        },
+        {
+          "url": "https://itsecure.tech/privacy-policy/",
+          "usedFor": "Legal entity name (IT Secure LLC), Meridian street address, WePay payment processing usage, and automated SMS/MMS platform capabilities."
+        }
+      ],
+      "limitations": [
+        "The /pricing/ page linked across the site returns an HTTP 404 error, so no service pricing is publicly available.",
+        "The website does not list employee headcount or name any owners, executives, or managers outside of a customer testimonial (which is excluded under ForgeX evidence rules).",
+        "Email addresses on the website are obfuscated behind Cloudflare email protection links."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "IT Secure LLC is a B2B Managed Service Provider (MSP) offering IT support, cybersecurity, cloud services, business data analysis, and AI automation solutions. It falls outside ForgeX's target segment of owner-led home-service contractors (HVAC, plumbing, and electrical) and already owns and sells technology and automation solutions."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://itsecure.tech/privacy-policy/",
+        "quote": "This privacy notice for IT Secure LLC (doing business as IT Secure) (\"we,\" \"us,\" or \"our\"), describes how and why we might collect",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://itsecure.tech/",
+        "quote": "Based in Meridian, we provide fast, reliable IT support to businesses throughout Boise, Nampa, Eagle, and the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://itsecure.tech/privacy-policy/",
+        "quote": "IT Secure LLC Data Protection Officer 148 E Cordoba Ct Meridian, ID 83646 United States",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://itsecure.tech/partnerships/",
+        "quote": "Partnerships with leading technology companies are integral to the success of a Managed Service Provider (MSP) that deliver outsourced IT services to businesses.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://itsecure.tech/",
+        "quote": "We offer proactive managed IT support, industry-leading cybersecurity, and expert assistance for both Apple and Microsoft environments—covering all your business technology needs",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://itsecure.tech/services/",
+        "quote": "Deploying AI-based tools and algorithms to automate processes, enhance decision-making, and provide predictive analytics across various business operations.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://itsecure.tech/",
+        "quote": "IT Secure | Treasure Valley's Trusted Managed Service Provider",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://itsecure.tech/about/",
+        "quote": "With over 40 years of experience in technology and support, we are here to assist you.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://itsecure.tech/partnerships/",
+        "quote": "As an Apple Technical Partner, we are able to provide a more complete solution integrated with Apple's seamless experience.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://itsecure.tech/",
+        "quote": "Client Dashboard",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://itsecure.tech/",
+        "quote": "© 2026 IT Secure LLC | All Rights Reserved.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://itsecure.tech/",
+        "quote": "Certified Support for MAC & PC",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://itsecure.tech/privacy-policy/",
+        "quote": "All payment data is handled and stored by WePay.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://itsecure.tech/services/",
+        "quote": "RMM systems remotely monitor client systems, manage IT tasks, and resolve issues, often without needing to physically visit the client site.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://itsecure.tech/privacy-policy/",
+        "quote": "Automated SMS messaging is available through our platform using provided tools, third-party integrations, and APIs.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://itsecure.tech/",
+        "quote": "Reach a real person every time you call—no scripts, no robots, just helpful IT professionals.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://itsecure.tech/contact/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 16,
+      "quotesFound": 16,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 2,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://itsecure.tech/",
+      "finalUrl": "https://itsecure.tech/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:01:56.864Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 208446,
+      "truncated": false,
+      "sha256": "6a7ba48b7f9fff5b9436418b34c612e035daeec82d7cf5deaa8cf9d2e016d607",
+      "textSha256": "60e31fffa34b206d7142da314d491d44daf9b6c54626899ef92c79109fce2889",
+      "fromCache": false
+    },
+    {
+      "url": "https://itsecure.tech/about/",
+      "finalUrl": "https://itsecure.tech/about/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:02:10.634Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 173929,
+      "truncated": false,
+      "sha256": "7ab9cd0301c69955e1f7437e733b9bb2670de08dbf9ca4ac3134001075e57a50",
+      "textSha256": "cae989cc38120c8a7818d09c5700425ea98dc460f7b54e840cc155dfae59fbba",
+      "fromCache": false
+    },
+    {
+      "url": "https://itsecure.tech/services/",
+      "finalUrl": "https://itsecure.tech/services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:02:13.506Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 201112,
+      "truncated": false,
+      "sha256": "144b2f319bd1b54ad3aa99302a5d8aff314ba0759bd4734c963e52b879d8f98d",
+      "textSha256": "7bdc0dfaf6b5d381402a367fafdb39fbb63d7248c2238f0037b2ca3cdd8da9f9",
+      "fromCache": false
+    },
+    {
+      "url": "https://itsecure.tech/contact/",
+      "finalUrl": "https://itsecure.tech/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:02:16.445Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 194236,
+      "truncated": false,
+      "sha256": "ce57e9e005a8d2aa3838b9fd8dc432e57665410b5443f5867e0199a25707314f",
+      "textSha256": "11a4371c8ec6c2514806aff98936f8e55f672d5a538e6a266d88dbe4b735a93f",
+      "fromCache": false
+    },
+    {
+      "url": "https://itsecure.tech/pricing/",
+      "finalUrl": "https://itsecure.tech/pricing/",
+      "outcome": "not-found",
+      "status": 404,
+      "detail": "HTTP 404",
+      "retrievedAt": "2026-10-27T19:02:16.445Z",
+      "contentType": "",
+      "bytes": 0,
+      "truncated": false,
+      "sha256": null,
+      "textSha256": null,
+      "fromCache": false
+    },
+    {
+      "url": "https://itsecure.tech/partnerships/",
+      "finalUrl": "https://itsecure.tech/partnerships/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:02:26.299Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193754,
+      "truncated": false,
+      "sha256": "554c9de265d0f3f6e0e6d2bae93396de0c10bb0056ccfc89d8995d004f47efa7",
+      "textSha256": "5f014c001791790fd7bbc7b95f086ad14ab7ba7a8e25ff266b8f96f5cb097f11",
+      "fromCache": false
+    },
+    {
+      "url": "https://itsecure.tech/schedule-a-meeting/",
+      "finalUrl": "https://itsecure.tech/schedule-a-meeting/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:02:28.988Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 172154,
+      "truncated": false,
+      "sha256": "a1d3ed55070573816bccb2348dcab8efdd132222166d49fbd7f2df94cac501ca",
+      "textSha256": "7934ceea890d5ddc927f00094535e00fca7a87b59c2c008df06cfc8f36c5dbb0",
+      "fromCache": false
+    },
+    {
+      "url": "https://itsecure.tech/privacy-policy/",
+      "finalUrl": "https://itsecure.tech/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:02:32.132Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 206888,
+      "truncated": false,
+      "sha256": "41208d9e5fea85ab2c572cc6dbc0c126d40dc6c23c879eebc4c3ca6325da0626",
+      "textSha256": "f0504d360ef3692bd5f754d4e8ce49dd65ef0020edc964df9bd6e530c9c77b66",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://itsecure.tech/about/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://itsecure.tech/services/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://itsecure.tech/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://itsecure.tech/pricing/",
+      "outcome": "not-found"
+    },
+    {
+      "url": "https://itsecure.tech/partnerships/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://itsecure.tech/schedule-a-meeting/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://itsecure.tech/privacy-policy/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 43838,
+    "cachedInput": 20639,
+    "output": 3520,
+    "thinking": 1503,
+    "toolUse": 0,
+    "total": 48861
+  },
+  "costUsd": 0.09869189999999999,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1270147",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://itsecure.tech/about/"
+      }
+    },
+    {
+      "id": "call_1270148",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://itsecure.tech/services/"
+      }
+    },
+    {
+      "id": "call_1270149",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://itsecure.tech/contact/"
+      }
+    },
+    {
+      "id": "call_1270150",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://itsecure.tech/pricing/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2189343",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://itsecure.tech/partnerships/"
+      }
+    },
+    {
+      "id": "call_2189344",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://itsecure.tech/schedule-a-meeting/"
+      }
+    },
+    {
+      "id": "call_2189345",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://itsecure.tech/privacy-policy/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"IT Secure LLC\",\n    \"location\": \"148 E Cordoba Ct, Meridian, ID 83646, United States\",\n    \"claims\": [\n      {\n        \"statement\": \"The legal name of the business is IT Secure LLC, doing business as IT Secure.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/privacy-policy/\",\n        \"quote\": \"This privacy notice for IT Secure LLC (doing business as IT Secure) (\\\"we,\\\" \\\"us,\\\" or \\\"our\\\"), describes how and why we might collect\"\n      },\n      {\n        \"statement\": \"The company is based in Meridian, Idaho, and serves Boise, Nampa, Eagle, the Treasure Valley of Idaho, and the Willamette Valley of Oregon.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/\",\n        \"quote\": \"Based in Meridian, we provide fast, reliable IT support to businesses throughout Boise, Nampa, Eagle, and the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The company publishes a postal address of 148 E Cordoba Ct, Meridian, ID 83646, United States in its privacy policy.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/privacy-policy/\",\n        \"quote\": \"IT Secure LLC Data Protection Officer 148 E Cordoba Ct Meridian, ID 83646 United States\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Information Technology and Managed Services (Managed Service Provider / MSP)\",\n    \"activities\": [\n      \"Managed IT Support and Co-Managed IT Support\",\n      \"Cybersecurity Services and Compliance Management\",\n      \"Business Network and Wi-Fi Management\",\n      \"Data Backup and Disaster Recovery\",\n      \"Cloud Managed Services\",\n      \"Business Data Analysis\",\n      \"Communications VoIP and Unified Communications Services\",\n      \"Artificial Intelligence (AI) Solutions and Digital Transformation Consulting\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"IT Secure operates as a Managed Service Provider delivering outsourced IT services to businesses.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/partnerships/\",\n        \"quote\": \"Partnerships with leading technology companies are integral to the success of a Managed Service Provider (MSP) that deliver outsourced IT services to businesses.\"\n      },\n      {\n        \"statement\": \"The company provides managed IT support, cybersecurity, and support for Apple and Microsoft environments.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/\",\n        \"quote\": \"We offer proactive managed IT support, industry-leading cybersecurity, and expert assistance for both Apple and Microsoft environments—covering all your business technology needs\"\n      },\n      {\n        \"statement\": \"The company offers AI solutions to automate business processes, enhance decision-making, and provide predictive analytics.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/services/\",\n        \"quote\": \"Deploying AI-based tools and algorithms to automate processes, enhance decision-making, and provide predictive analytics across various business operations.\"\n      },\n      {\n        \"statement\": \"IT Secure LLC is a B2B technology and IT services provider rather than a residential or home-service trade contractor.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://itsecure.tech/services/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://itsecure.tech/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company's official website is https://itsecure.tech/.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/\",\n        \"quote\": \"IT Secure | Treasure Valley's Trusted Managed Service Provider\"\n      },\n      {\n        \"statement\": \"The company states that its team has over 40 years of combined experience in technology and support.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/about/\",\n        \"quote\": \"With over 40 years of experience in technology and support, we are here to assist you.\"\n      },\n      {\n        \"statement\": \"The company states it is a Microsoft Partner and an Apple Technical Partner, and integrates with the Google ecosystem.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/partnerships/\",\n        \"quote\": \"As an Apple Technical Partner, we are able to provide a more complete solution integrated with Apple's seamless experience.\"\n      },\n      {\n        \"statement\": \"The website links to a client support portal at https://support.itsecure.tech/.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/\",\n        \"quote\": \"Client Dashboard\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The company identifies itself as a Limited Liability Company (IT Secure LLC).\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/\",\n        \"quote\": \"© 2026 IT Secure LLC | All Rights Reserved.\"\n      },\n      {\n        \"statement\": \"The company states it offers certified support for Apple and Microsoft environments.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/\",\n        \"quote\": \"Certified Support for MAC & PC\"\n      }\n    ],\n    \"limitations\": \"No state contractor license numbers, business registration numbers, or regulatory license identifiers are published on the pages read. Because the business is an IT managed service provider rather than a trade contractor, trade licensing (such as HVAC, plumbing, or electrical) does not apply.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"WePay\",\n      \"purpose\": \"Payment processing and payment data storage\",\n      \"evidence\": {\n        \"statement\": \"The company's privacy policy states that payment data is handled and stored by WePay.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/privacy-policy/\",\n        \"quote\": \"All payment data is handled and stored by WePay.\"\n      }\n    },\n    {\n      \"product\": \"Remote Monitoring and Management (RMM) & Mobile Device Management (MDM) Systems\",\n      \"purpose\": \"Remote monitoring, patch management, and mobile device management for client IT environments\",\n      \"evidence\": {\n        \"statement\": \"The company states it uses RMM and MDM systems to monitor and manage client devices and IT tasks remotely.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/services/\",\n        \"quote\": \"RMM systems remotely monitor client systems, manage IT tasks, and resolve issues, often without needing to physically visit the client site.\"\n      }\n    },\n    {\n      \"product\": \"Automated SMS/MMS Platform\",\n      \"purpose\": \"Automated and high-volume business SMS/MMS messaging via application, third-party integrations, and APIs\",\n      \"evidence\": {\n        \"statement\": \"The privacy policy states that automated SMS messaging is available through its platform using tools, third-party integrations, and APIs.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://itsecure.tech/privacy-policy/\",\n        \"quote\": \"Automated SMS messaging is available through our platform using provided tools, third-party integrations, and APIs.\"\n      }\n    },\n    {\n      \"product\": \"WordPress with Divi Theme and Forminator Plugin\",\n      \"purpose\": \"Website content management, visual page building, and web contact form handling\",\n      \"evidence\": {\n        \"statement\": \"The website likely runs on WordPress using the Divi theme and Forminator plugin for its contact form.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Calendly\",\n      \"purpose\": \"Online consultation scheduling widget\",\n      \"evidence\": {\n        \"statement\": \"The meeting scheduling page likely uses Calendly to book free consultations.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The navigation menu and footer link to a pricing page (https://itsecure.tech/pricing/) that returns an HTTP 404 not-found error.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://itsecure.tech/\",\n      \"quote\": null\n    },\n    {\n      \"statement\": \"The company emphasizes live human phone answering over automated bots, stating callers reach a real person every time with no scripts or robots.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://itsecure.tech/\",\n      \"quote\": \"Reach a real person every time you call—no scripts, no robots, just helpful IT professionals.\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Broken navigation link to the Pricing page (HTTP 404) on the public website.\",\n      \"label\": \"inference\",\n      \"basis\": \"Links to https://itsecure.tech/pricing/ appear in the site navigation and footer on https://itsecure.tech/ and other pages, but fetching https://itsecure.tech/pricing/ returns HTTP 404 not-found.\"\n    },\n    {\n      \"problem\": \"No confirmed operational or automation problems relevant to ForgeX's service catalog.\",\n      \"label\": \"inference\",\n      \"basis\": \"IT Secure LLC is itself a Managed Service Provider offering IT automation, AI solutions, business data analysis, and automated messaging platforms to other businesses, as stated on https://itsecure.tech/services/ and https://itsecure.tech/privacy-policy/.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"In-house Managed IT, AI Solutions, Business Data Analysis, Help Desk, and Automated SMS Platforms\",\n      \"addresses\": \"Process automation, data analytics, customer support triage, and automated lead/client messaging\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because IT Secure LLC is outside ForgeX's target segment of home-service contractors and already provides IT management, data analytics, and AI automation services in-house.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended. Furthermore, IT Secure LLC explicitly positions its brand against automated phone/support bots ('no scripts, no robots') while offering its own AI and automation services to clients.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Pitching basic automation services to a Managed Service Provider that already sells AI solutions, cloud management, and business data analysis would be misaligned with ForgeX's home-service contractor focus.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"The website publishes no service prices (the /pricing/ link returns HTTP 404), and the business is not a fit for ForgeX services.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Managing Member\",\n      \"Chief Executive Officer / President\",\n      \"Data Protection Officer\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://itsecure.tech/contact/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://itsecure.tech/\",\n        \"usedFor\": \"Business identity, Meridian location, service areas, core MSP offerings, client dashboard link, and positioning statements.\"\n      },\n      {\n        \"url\": \"https://itsecure.tech/about/\",\n        \"usedFor\": \"Company background, remote support and systems management focus, and statement of over 40 years of experience.\"\n      },\n      {\n        \"url\": \"https://itsecure.tech/services/\",\n        \"usedFor\": \"Detailed list of primary and support services, including RMM, MDM, Business Data Analysis, Help Desk Support, and Artificial Intelligence (AI) Solutions.\"\n      },\n      {\n        \"url\": \"https://itsecure.tech/contact/\",\n        \"usedFor\": \"Business phone number, text support number, and web contact form verification.\"\n      },\n      {\n        \"url\": \"https://itsecure.tech/partnerships/\",\n        \"usedFor\": \"MSP industry classification and partnerships with Microsoft, Apple, and Google.\"\n      },\n      {\n        \"url\": \"https://itsecure.tech/schedule-a-meeting/\",\n        \"usedFor\": \"Consultation booking page and scheduling script references.\"\n      },\n      {\n        \"url\": \"https://itsecure.tech/privacy-policy/\",\n        \"usedFor\": \"Legal entity name (IT Secure LLC), Meridian street address, WePay payment processing usage, and automated SMS/MMS platform capabilities.\"\n      }\n    ],\n    \"limitations\": [\n      \"The /pricing/ page linked across the site returns an HTTP 404 error, so no service pricing is publicly available.\",\n      \"The website does not list employee headcount or name any owners, executives, or managers outside of a customer testimonial (which is excluded under ForgeX evidence rules).\",\n      \"Email addresses on the website are obfuscated behind Cloudflare email protection links.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"IT Secure LLC is a B2B Managed Service Provider (MSP) offering IT support, cybersecurity, cloud services, business data analysis, and AI automation solutions. It falls outside ForgeX's target segment of owner-led home-service contractors (HVAC, plumbing, and electrical) and already owns and sells technology and automation solutions.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

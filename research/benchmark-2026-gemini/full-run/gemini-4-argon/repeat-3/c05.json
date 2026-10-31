@@ -1,0 +1,667 @@
+{
+  "company": {
+    "id": "c05",
+    "name": "Crofts Electric",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.croftselectricboise.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T20:00:46.331Z",
+  "finishedAt": "2026-10-27T20:02:25.382Z",
+  "report": {
+    "identity": {
+      "name": "Crofts Electric (subsidiary of RC Electric LLC)",
+      "location": "Boise, Idaho (also operating in Lexington, Kentucky)",
+      "claims": [
+        {
+          "statement": "Crofts Electric is a licensed, family-owned electrical service business operating in Boise, Idaho and surrounding communities.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": "Crofts Electric is a licensed, family-owned electrician near you in Boise, Idaho with over 16 years of service homeowners, businesses, and construction contractors."
+        },
+        {
+          "statement": "Crofts Electric operates as a subsidiary of RC Electric LLC.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+          "quote": "Crofts Electric, a subsidiary of RC Electric LLC, currently specializes in five star service and top quality electrical work"
+        },
+        {
+          "statement": "The company was founded by Master Electrician and Licensed Contractor [redacted] in Lexington, Kentucky and expanded to Boise, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+          "quote": "[redacted], Master Electrician and Licensed Contracto r, opened Crofts Electric after achieving 14 years of advanced training and work experience."
+        },
+        {
+          "statement": "In Idaho, the company serves Boise, Eagle, Nampa, Meridian, Star, and Garden City.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": "We offer free and honest written estimates and fairly priced electrical services in Boise, Eagle, Nampa, Meridian, Star, and Garden City, ID."
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Electrical Contracting (Residential, Commercial, Construction, and Property Management)",
+      "activities": [
+        "Electrical panel and service upgrades",
+        "Residential and commercial electrical repairs and troubleshooting",
+        "EV charging station installations",
+        "Whole-home natural gas standby generator installations",
+        "Smart home technology and security camera (Ring) installations",
+        "New construction, kitchen remodeling, and commercial space fit-out electrical work",
+        "Property management and Realtor pre-listing electrical code compliance services",
+        "Building Automation Systems (BAS) and Building Energy Management Systems (BEMS) installations"
+      ],
+      "claims": [
+        {
+          "statement": "Crofts Electric provides residential and commercial electrical panel upgrades, circuit breaker repair, EV charger installations, smart home installations, standby generators, and remodeling work.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": "We provide a wide range of residential and commercial electrical services including electrical panel upgrades , circuit breaker repair and replacement , EV charger installations"
+        },
+        {
+          "statement": "The company performs electrical work for property management companies and Realtors.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/property-management-real-estate-electricians",
+          "quote": "[redacted]’ electricians can perform complex wiring, circuitry routing, and lighting design for properties under your management."
+        },
+        {
+          "statement": "The company installs Building Automation Systems (BAS), Building Energy Management Systems (BEMS), smart building systems, and security systems for construction projects.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": "We also specialize in Building Automation Systems (BAS), Building Energy Management Systems (BEMS), smart building systems, security systems, and EV charging system installations ."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.croftselectricboise.com/",
+      "claims": [
+        {
+          "statement": "Crofts Electric's stated business hours in Boise are Monday through Friday, 8:00 AM to 4:30 PM, and its phone number is [redacted].",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": "Available Monday–Friday, 8am–4:30pm · Call [redacted]"
+        },
+        {
+          "statement": "The company states that every electrician on its team is a certified journeyman or master electrician.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": "Every electrician on our team is a certified journeyman or master electrician."
+        },
+        {
+          "statement": "Crofts Electric offers free written estimates, a 15% discount on initial service call labor for new customers, and a 10% discount for seniors, first responders, and active military.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": "New customers receive a 15% discount on initial service call labor, and seniors, first responders, and active military receive a 10% discount on electrical services."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Crofts Electric lists Idaho Master Electrician License #CE061542 and Idaho Electrical Contractor License #ME059080 on its website.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": "Yes. Crofts Electric holds an Idaho Master Electrician License #CE061542 and Idaho Electrical Contractor License #ME059080 ."
+        },
+        {
+          "statement": "The website footer also lists Kentucky Master Electrician License #CE65316 and Kentucky Electrical Contractor License #ME65337.",
+          "label": "fact",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": "KY MASTER ELECTRICIAN LICENSE #CE65316 KY KY ELECTRICAL CONTRACTOR LICENSE #ME65337 ID MASTER ELECTRICIAN LICENSE #CE061542 ID ELECTRICAL CONTRACTOR LICENSE #ME059080"
+        }
+      ],
+      "limitations": "License numbers are stated on the company's website; independent verification against state licensing registries in Idaho and Kentucky cannot be performed from the company's site alone."
+    },
+    "existingSoftware": [
+      {
+        "product": "Squarespace (crofts-electric-boise.squarespace.com / assets.squarespace.com)",
+        "purpose": "Website content management system, hosting, and native web contact form component",
+        "evidence": {
+          "statement": "The website loads scripts from assets.squarespace.com and definitions.sqspcdn.com, references crofts-electric-boise.squarespace.com, and loads website.components.form.visitor.js on the contact page.",
+          "label": "inference",
+          "sourceUrl": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate",
+          "quote": null
+        }
+      },
+      {
+        "product": "Google Tag Manager / Google Ads tag (googletagmanager.com/gtag/js?id=AW-805112476)",
+        "purpose": "Advertising tag and conversion/analytics tracking on secondary pages",
+        "evidence": {
+          "statement": "The About, Contact, Discounts, and Property Management pages load https://www.googletagmanager.com/gtag/js?id=AW-805112476.",
+          "label": "inference",
+          "sourceUrl": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate",
+          "quote": null
+        }
+      },
+      {
+        "product": "Elfsight widget platform (apps.elfsight.com/p/platform.js)",
+        "purpose": "Third-party embedded website widget on the homepage",
+        "evidence": {
+          "statement": "The homepage loads https://apps.elfsight.com/p/platform.js.",
+          "label": "inference",
+          "sourceUrl": "https://www.croftselectricboise.com/",
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The company states its availability is Monday through Friday from 8:00 AM to 4:30 PM and directs visitors to call [redacted].",
+        "label": "fact",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "Available Monday–Friday, 8am–4:30pm · Call [redacted]"
+      },
+      {
+        "statement": "The Contact page directs prospective customers to use a standard web form or call by phone, with no online scheduling, live chat widget, or automated instant-response tool observable on the site.",
+        "label": "fact",
+        "sourceUrl": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate",
+        "quote": "We look forward to hearing from you! Use the form below to contact us, or give us a call."
+      },
+      {
+        "statement": "The presence of the AW-805112476 tag on the Contact, Discounts, and About pages indicates the company has configured paid advertising tracking.",
+        "label": "inference",
+        "sourceUrl": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate",
+        "quote": null
+      },
+      {
+        "statement": "The company operates across two geographic markets (Lexington, Kentucky and Boise, Idaho), which may require routing and tracking leads and estimates across multiple locations.",
+        "label": "inference",
+        "sourceUrl": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+        "quote": null
+      },
+      {
+        "statement": "Phone numbers on the website appear as plain text rather than clickable tel: links, and the homepage does not load the AW-805112476 tag that is present on inner pages.",
+        "label": "inference",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "After-hours, weekend, and overflow phone inquiries outside the 8:00 AM–4:30 PM Monday–Friday window, as well as web form submissions, may experience delayed follow-up if handled manually.",
+        "label": "hypothesis",
+        "basis": "The site lists office hours of Monday–Friday, 8am–4:30pm and relies on phone calls and a standard Squarespace contact form without observable automated instant-reply or online booking tools."
+      },
+      {
+        "problem": "Written estimates across residential, commercial, and property-management jobs may lack systematic follow-up tracking, potentially allowing open quotes to go cold.",
+        "label": "hypothesis",
+        "basis": "The company emphasizes free written estimates and multi-segment discounts (15% new client, 10% repeat/senior/military), which often involve manual quote follow-up unless managed in a field-service CRM."
+      },
+      {
+        "problem": "Owner visibility into marketing return on investment and lead conversion by source across Boise and Lexington may be fragmented.",
+        "label": "hypothesis",
+        "basis": "The site loads a Google tag (AW-805112476) on inner pages, but not on the homepage, and has no visible call-tracking scripts or clickable tel: links."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Off-the-shelf Field Service Management (FSM) software (such as Housecall Pro, Jobber, or ServiceTitan)",
+        "addresses": "Provides built-in online booking, automated lead intake, missed-call text-back, estimate follow-up sequences, and basic reporting.",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "Squarespace native form notifications and email autoresponders",
+        "addresses": "Sends basic confirmation emails when a visitor submits the Contact page form.",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "One-week audit ($500 fixed price, credited toward any fix ordered within 30 days) measuring how many calls, web form leads, and written estimates slip through after 4:30 PM or during busy dispatch hours.",
+        "problem": "Potential uncaptured calls, delayed web form responses, and unfollowed written estimates.",
+        "whyNotExistingSoftware": "Before buying or reconfiguring software, a quick diagnostic establishes whether a real revenue leak exists and whether the company's current back-office tools already have unused automation features."
+      },
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "Automated pipeline ($1,800 setup plus $149/month) that captures Squarespace form submissions and missed calls within two minutes, sends an instant SMS/email acknowledgment, and creates a tracked follow-up task in their field-service software.",
+        "problem": "Delayed response to web form leads and after-hours/overflow calls outside the 8:00 AM–4:30 PM weekday window.",
+        "whyNotExistingSoftware": "Squarespace forms do not natively push structured job leads into field-service software with instant SMS reply and persistent callback reminders without custom integration."
+      },
+      {
+        "name": "Owner's Monday numbers",
+        "kind": "catalog",
+        "description": "Weekly one-page summary ($1,200 setup plus $99/month) consolidating booked revenue, close rate on written estimates, average ticket, cost per booked job by lead source, and accounts receivable across operations.",
+        "problem": "Fragmented visibility into ad spend performance, estimate close rates, and receivables across residential and commercial work.",
+        "whyNotExistingSoftware": "Standard field-service software, accounting software, and ad accounts rarely combine cost-per-booked-job and receivables into a single cross-system weekly digest without custom data integration."
+      }
+    ],
+    "feasibility": {
+      "rating": "medium",
+      "explanation": "Integrating Squarespace form submissions and call/SMS workflows is straightforward, but overall technical feasibility depends on what field-service management and accounting software Crofts Electric uses internally, which is not observable on the public website."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "Deterministic workflow automation handles lead capture, instant SMS/email replies, and weekly metrics aggregation reliably, while AI agents can assist with classifying incoming project descriptions (e.g., panel upgrade vs. commercial fit-out vs. property management work order) and drafting initial replies."
+    },
+    "humanReview": [
+      "All written electrical estimates, pricing, and scope assessments must be reviewed and approved by a licensed electrician.",
+      "Code-compliance determinations, load calculations (such as EV chargers, standby generators, and sub-panels), and commercial bidding require direct human oversight.",
+      "Non-routine customer inquiries or emergency electrical safety issues must be routed immediately to qualified staff rather than handled by automated replies."
+    ],
+    "risks": [
+      {
+        "type": "compliance",
+        "description": "Automated SMS or phone follow-ups to leads must comply with TCPA consent requirements and state telemarketing rules."
+      },
+      {
+        "type": "operational",
+        "description": "An automated assistant or intake workflow must never give DIY electrical troubleshooting advice or imply that an electrical hazard is safe to ignore."
+      },
+      {
+        "type": "security",
+        "description": "Customer contact details, property addresses, and access instructions from property managers or Realtors must be transmitted and stored securely with minimal access."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": "Revenue Leak Check: $500 fixed price (credited in full toward any fix ordered within 30 days); Lead-to-job pipeline: $1,800 setup plus $149/month; Owner's Monday numbers: $1,200 setup plus $99/month.",
+      "assumptions": [
+        "The website states percentage discounts (15% off initial service call labor for new customers; 10% off for repeat customers, seniors, first responders, and active military) but publishes no dollar prices or service call fees, so illustrative commercial value cannot be calculated under ForgeX's evidence rules."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Master Electrician & Licensed Contractor",
+        "Office Manager / Operations Manager"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Master Electrician and Licensed Contractor / Founder",
+          "sourceUrl": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+          "quote": "[redacted], Master Electrician and Licensed Contracto r, opened Crofts Electric after achieving 14 years of advanced training and work experience."
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.croftselectricboise.com/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How many journeyman and master electricians are currently on the Crofts Electric team across Boise and Lexington?",
+        "What field-service software or CRM do you currently use to manage dispatching, written estimates, and invoicing?",
+        "When calls come in after 4:30 PM or on weekends—or when a prospect submits the Squarespace contact form—how quickly does someone follow up, and how is that tracked?",
+        "Do you already have a process for following up on open written estimates for panel upgrades, EV chargers, and remodeling jobs, or is that done manually?",
+        "How are you currently tracking which booked jobs come from Google Ads versus referrals, Realtors, and property managers?"
+      ],
+      "outreachSubject": "Question about lead & estimate follow-up at Crofts Electric",
+      "outreachBody": "Hi [redacted],\n\nI was looking at Crofts Electric's Boise website and noticed you handle everything from residential panel upgrades and EV chargers to property management and commercial fit-outs, with office hours running Monday–Friday, 8:00 AM to 4:30 PM.\n\nAt ForgeX, we work with owner-led electrical and home-service contractors on fixed-price workflow automations—such as routing web form leads and after-hours inquiries into your field-service software with an instant reply, or tracking open written estimates and ad-spend ROI in a one-page Monday summary.\n\nBefore recommending anything, we always check whether your existing software already covers what you need. If you don't already have automated lead intake and estimate follow-up in place, we also offer a 1-week Revenue Leak Check ($500 fixed price, credited in full toward any fix you order within 30 days) to measure whether any calls, leads, or written estimates are slipping through.\n\nWould you be open to a brief 10-minute call to see if this is relevant to your Boise and Lexington operations?\n\nBest regards,\n\n[Founder Name]\n[Founder Title], ForgeX\n[ForgeX Phone Number]\n[ForgeX Physical Postal Address]\n\nIf you prefer not to receive future emails from us, simply reply with \"unsubscribe\" or use [Opt-Out Link] and we will remove you right away."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.croftselectricboise.com/",
+          "usedFor": "Business identity, Boise service area, hours of operation, phone number, Idaho and Kentucky license numbers, services offered, discount offers, and homepage script/host analysis."
+        },
+        {
+          "url": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+          "usedFor": "Founder identity ([redacted]), parent entity (RC Electric LLC), company history in Lexington, KY and expansion to Boise, ID, and Google tag script evidence."
+        },
+        {
+          "url": "https://www.croftselectricboise.com/our-expert-boise-electricians-skills-qualifications",
+          "usedFor": "Workforce qualification policy (journeyman and master electricians only)."
+        },
+        {
+          "url": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate",
+          "usedFor": "Lead intake mechanism (Squarespace form and phone call), service categories, and Google tag script evidence."
+        },
+        {
+          "url": "https://www.croftselectricboise.com/boise-idaho-electrical-electrician-services-discounts",
+          "usedFor": "Discount structures (15% new customer labor discount, 10% repeat/senior/first responder/military discount) and confirmation that no dollar prices are published."
+        },
+        {
+          "url": "https://www.croftselectricboise.com/property-management-real-estate-electricians",
+          "usedFor": "B2B property management and real estate electrical service details."
+        }
+      ],
+      "limitations": [
+        "The website does not disclose the total employee headcount of Crofts Electric (whether it falls within the 10–75 staff target range).",
+        "Internal back-office software (such as field-service management, dispatching, or accounting systems) cannot be observed from the public website.",
+        "The website publishes percentage discounts (10% and 15%) but no dollar prices or service call rates, preventing a quantitative commercial value calculation.",
+        "The linked page https://www.croftselectricboise.com/trusted-experts-boise-electricians-lexington-electricians returned HTTP 404 (not found).",
+        "No business email address or physical street address is published on the pages read."
+      ]
+    },
+    "qualification": {
+      "category": "pursue later",
+      "rationale": "Crofts Electric is an owner-led electrical contractor ([redacted]) operating in Boise, ID and Lexington, KY with evidence of paid ad tracking (gtag AW-805112476), a clear business phone channel ([redacted]), weekday-only stated hours (Monday–Friday, 8am–4:30pm), and a standard Squarespace contact form with no visible online booking or automated lead capture on the site. However, staff headcount (10–75 employees) is unconfirmed on the website, and operational problems such as missed after-hours calls or unfollowed written estimates remain hypotheses rather than confirmed facts on the site."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "Crofts Electric is a licensed, family-owned electrician near you in Boise, Idaho with over 16 years of service homeowners, businesses, and construction contractors.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+        "quote": "Crofts Electric, a subsidiary of RC Electric LLC, currently specializes in five star service and top quality electrical work",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+        "quote": "[redacted], Master Electrician and Licensed Contracto r, opened Crofts Electric after achieving 14 years of advanced training and work experience.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "We offer free and honest written estimates and fairly priced electrical services in Boise, Eagle, Nampa, Meridian, Star, and Garden City, ID.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "We provide a wide range of residential and commercial electrical services including electrical panel upgrades , circuit breaker repair and replacement , EV charger installations",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.croftselectricboise.com/property-management-real-estate-electricians",
+        "quote": "[redacted]’ electricians can perform complex wiring, circuitry routing, and lighting design for properties under your management.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "We also specialize in Building Automation Systems (BAS), Building Energy Management Systems (BEMS), smart building systems, security systems, and EV charging system installations .",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "Available Monday–Friday, 8am–4:30pm · Call [redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "Every electrician on our team is a certified journeyman or master electrician.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "New customers receive a 15% discount on initial service call labor, and seniors, first responders, and active military receive a 10% discount on electrical services.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "Yes. Crofts Electric holds an Idaho Master Electrician License #CE061542 and Idaho Electrical Contractor License #ME059080 .",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "KY MASTER ELECTRICIAN LICENSE #CE65316 KY KY ELECTRICAL CONTRACTOR LICENSE #ME65337 ID MASTER ELECTRICIAN LICENSE #CE061542 ID ELECTRICAL CONTRACTOR LICENSE #ME059080",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "quote": "Available Monday–Friday, 8am–4:30pm · Call [redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate",
+        "quote": "We look forward to hearing from you! Use the form below to contact us, or give us a call.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+        "quote": "[redacted], Master Electrician and Licensed Contracto r, opened Crofts Electric after achieving 14 years of advanced training and work experience.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.croftselectricboise.com/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 15,
+      "quotesFound": 15,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 6,
+      "hypotheses": 0,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.croftselectricboise.com/",
+      "finalUrl": "https://www.croftselectricboise.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T20:00:50.591Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 398387,
+      "truncated": false,
+      "sha256": "4f87f5cb485c438c81d4f76ed42763ea164f45a50e222cc9f1385389f7a6d856",
+      "textSha256": "0f9ea45e2758d7eb88c672ed987466d47ca41eb088beba30a9259c0a56892199",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+      "finalUrl": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T20:00:56.496Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 238595,
+      "truncated": false,
+      "sha256": "9ea10455392f042a5828ef402d52fbfa07b3b3e735c07210982ab88b10e98ffa",
+      "textSha256": "92d95e9315fc9af86781688d2cc559b68061d0902b3faaa5b7cd2c41a1dc6494",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.croftselectricboise.com/our-expert-boise-electricians-skills-qualifications",
+      "finalUrl": "https://www.croftselectricboise.com/our-expert-boise-electricians-skills-qualifications",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T20:00:59.292Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 178265,
+      "truncated": false,
+      "sha256": "0101ddf88c0c1105a34006aa1a1787d4ef2d090ab37885798b7a01fefcf05f76",
+      "textSha256": "899b20f0c887dfb30e96d2494afa5f3cbab8d5d2505c087f4c9aea31eac94a9e",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate",
+      "finalUrl": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T20:01:02.555Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 258003,
+      "truncated": false,
+      "sha256": "490af918830e77def843d184c69f66dfae7c6d9cf41f0e8b4cb3bb8dcf461fbf",
+      "textSha256": "c58ab06b4343000706f3e4ccafe98caa6a62bd410060f9abaae20520fe2ac9d5",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.croftselectricboise.com/boise-idaho-electrical-electrician-services-discounts",
+      "finalUrl": "https://www.croftselectricboise.com/boise-idaho-electrical-electrician-services-discounts",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T20:01:05.319Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 248186,
+      "truncated": false,
+      "sha256": "b3ed0eee165bd5ae7cc03a57890d66e1ad174f96746e8511dab6b78592024cc1",
+      "textSha256": "f2b302384706e96c7c2bcdcfde576e86426dc903396bab7e4e8fb8026b6343e1",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.croftselectricboise.com/trusted-experts-boise-electricians-lexington-electricians",
+      "finalUrl": "https://www.croftselectricboise.com/trusted-experts-boise-electricians-lexington-electricians",
+      "outcome": "not-found",
+      "status": 404,
+      "detail": "HTTP 404",
+      "retrievedAt": "2026-10-27T20:01:10.176Z",
+      "contentType": "",
+      "bytes": 0,
+      "truncated": false,
+      "sha256": null,
+      "textSha256": null,
+      "fromCache": false
+    },
+    {
+      "url": "https://www.croftselectricboise.com/property-management-real-estate-electricians",
+      "finalUrl": "https://www.croftselectricboise.com/property-management-real-estate-electricians",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T20:01:13.261Z",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 161504,
+      "truncated": false,
+      "sha256": "61fd6b6af73088c17f0b788387e6a9bc59012d88859f39add7d047dfae744d7f",
+      "textSha256": "bbbf5b8be06088e740b383f8bb3661fe11c1cd9d33647af34099d7b35ac0e6b6",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.croftselectricboise.com/our-expert-boise-electricians-skills-qualifications",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.croftselectricboise.com/boise-idaho-electrical-electrician-services-discounts",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.croftselectricboise.com/trusted-experts-boise-electricians-lexington-electricians",
+      "outcome": "not-found"
+    },
+    {
+      "url": "https://www.croftselectricboise.com/property-management-real-estate-electricians",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 71593,
+    "cachedInput": 29724,
+    "output": 5736,
+    "thinking": 1795,
+    "toolUse": 0,
+    "total": 79124
+  },
+  "costUsd": 0.1620204,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2174216",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians"
+      }
+    },
+    {
+      "id": "call_2174217",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.croftselectricboise.com/our-expert-boise-electricians-skills-qualifications"
+      }
+    },
+    {
+      "id": "call_2174218",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate"
+      }
+    },
+    {
+      "id": "call_2174219",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.croftselectricboise.com/boise-idaho-electrical-electrician-services-discounts"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2251348",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.croftselectricboise.com/trusted-experts-boise-electricians-lexington-electricians"
+      }
+    },
+    {
+      "id": "call_2251349",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.croftselectricboise.com/property-management-real-estate-electricians"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Crofts Electric (subsidiary of RC Electric LLC)\",\n    \"location\": \"Boise, Idaho (also operating in Lexington, Kentucky)\",\n    \"claims\": [\n      {\n        \"statement\": \"Crofts Electric is a licensed, family-owned electrical service business operating in Boise, Idaho and surrounding communities.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": \"Crofts Electric is a licensed, family-owned electrician near you in Boise, Idaho with over 16 years of service homeowners, businesses, and construction contractors.\"\n      },\n      {\n        \"statement\": \"Crofts Electric operates as a subsidiary of RC Electric LLC.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians\",\n        \"quote\": \"Crofts Electric, a subsidiary of RC Electric LLC, currently specializes in five star service and top quality electrical work\"\n      },\n      {\n        \"statement\": \"The company was founded by Master Electrician and Licensed Contractor [redacted] in Lexington, Kentucky and expanded to Boise, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians\",\n        \"quote\": \"[redacted], Master Electrician and Licensed Contracto r, opened Crofts Electric after achieving 14 years of advanced training and work experience.\"\n      },\n      {\n        \"statement\": \"In Idaho, the company serves Boise, Eagle, Nampa, Meridian, Star, and Garden City.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": \"We offer free and honest written estimates and fairly priced electrical services in Boise, Eagle, Nampa, Meridian, Star, and Garden City, ID.\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Electrical Contracting (Residential, Commercial, Construction, and Property Management)\",\n    \"activities\": [\n      \"Electrical panel and service upgrades\",\n      \"Residential and commercial electrical repairs and troubleshooting\",\n      \"EV charging station installations\",\n      \"Whole-home natural gas standby generator installations\",\n      \"Smart home technology and security camera (Ring) installations\",\n      \"New construction, kitchen remodeling, and commercial space fit-out electrical work\",\n      \"Property management and Realtor pre-listing electrical code compliance services\",\n      \"Building Automation Systems (BAS) and Building Energy Management Systems (BEMS) installations\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Crofts Electric provides residential and commercial electrical panel upgrades, circuit breaker repair, EV charger installations, smart home installations, standby generators, and remodeling work.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": \"We provide a wide range of residential and commercial electrical services including electrical panel upgrades , circuit breaker repair and replacement , EV charger installations\"\n      },\n      {\n        \"statement\": \"The company performs electrical work for property management companies and Realtors.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/property-management-real-estate-electricians\",\n        \"quote\": \"[redacted]’ electricians can perform complex wiring, circuitry routing, and lighting design for properties under your management.\"\n      },\n      {\n        \"statement\": \"The company installs Building Automation Systems (BAS), Building Energy Management Systems (BEMS), smart building systems, and security systems for construction projects.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": \"We also specialize in Building Automation Systems (BAS), Building Energy Management Systems (BEMS), smart building systems, security systems, and EV charging system installations .\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.croftselectricboise.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"Crofts Electric's stated business hours in Boise are Monday through Friday, 8:00 AM to 4:30 PM, and its phone number is [redacted].\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": \"Available Monday–Friday, 8am–4:30pm · Call [redacted]\"\n      },\n      {\n        \"statement\": \"The company states that every electrician on its team is a certified journeyman or master electrician.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": \"Every electrician on our team is a certified journeyman or master electrician.\"\n      },\n      {\n        \"statement\": \"Crofts Electric offers free written estimates, a 15% discount on initial service call labor for new customers, and a 10% discount for seniors, first responders, and active military.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": \"New customers receive a 15% discount on initial service call labor, and seniors, first responders, and active military receive a 10% discount on electrical services.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Crofts Electric lists Idaho Master Electrician License #CE061542 and Idaho Electrical Contractor License #ME059080 on its website.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": \"Yes. Crofts Electric holds an Idaho Master Electrician License #CE061542 and Idaho Electrical Contractor License #ME059080 .\"\n      },\n      {\n        \"statement\": \"The website footer also lists Kentucky Master Electrician License #CE65316 and Kentucky Electrical Contractor License #ME65337.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": \"KY MASTER ELECTRICIAN LICENSE #CE65316 KY KY ELECTRICAL CONTRACTOR LICENSE #ME65337 ID MASTER ELECTRICIAN LICENSE #CE061542 ID ELECTRICAL CONTRACTOR LICENSE #ME059080\"\n      }\n    ],\n    \"limitations\": \"License numbers are stated on the company's website; independent verification against state licensing registries in Idaho and Kentucky cannot be performed from the company's site alone.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Squarespace (crofts-electric-boise.squarespace.com / assets.squarespace.com)\",\n      \"purpose\": \"Website content management system, hosting, and native web contact form component\",\n      \"evidence\": {\n        \"statement\": \"The website loads scripts from assets.squarespace.com and definitions.sqspcdn.com, references crofts-electric-boise.squarespace.com, and loads website.components.form.visitor.js on the contact page.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google Tag Manager / Google Ads tag (googletagmanager.com/gtag/js?id=AW-805112476)\",\n      \"purpose\": \"Advertising tag and conversion/analytics tracking on secondary pages\",\n      \"evidence\": {\n        \"statement\": \"The About, Contact, Discounts, and Property Management pages load https://www.googletagmanager.com/gtag/js?id=AW-805112476.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Elfsight widget platform (apps.elfsight.com/p/platform.js)\",\n      \"purpose\": \"Third-party embedded website widget on the homepage\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads https://apps.elfsight.com/p/platform.js.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The company states its availability is Monday through Friday from 8:00 AM to 4:30 PM and directs visitors to call [redacted].\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n      \"quote\": \"Available Monday–Friday, 8am–4:30pm · Call [redacted]\"\n    },\n    {\n      \"statement\": \"The Contact page directs prospective customers to use a standard web form or call by phone, with no online scheduling, live chat widget, or automated instant-response tool observable on the site.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate\",\n      \"quote\": \"We look forward to hearing from you! Use the form below to contact us, or give us a call.\"\n    },\n    {\n      \"statement\": \"The presence of the AW-805112476 tag on the Contact, Discounts, and About pages indicates the company has configured paid advertising tracking.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate\",\n      \"quote\": null\n    },\n    {\n      \"statement\": \"The company operates across two geographic markets (Lexington, Kentucky and Boise, Idaho), which may require routing and tracking leads and estimates across multiple locations.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians\",\n      \"quote\": null\n    },\n    {\n      \"statement\": \"Phone numbers on the website appear as plain text rather than clickable tel: links, and the homepage does not load the AW-805112476 tag that is present on inner pages.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://www.croftselectricboise.com/\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"After-hours, weekend, and overflow phone inquiries outside the 8:00 AM–4:30 PM Monday–Friday window, as well as web form submissions, may experience delayed follow-up if handled manually.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The site lists office hours of Monday–Friday, 8am–4:30pm and relies on phone calls and a standard Squarespace contact form without observable automated instant-reply or online booking tools.\"\n    },\n    {\n      \"problem\": \"Written estimates across residential, commercial, and property-management jobs may lack systematic follow-up tracking, potentially allowing open quotes to go cold.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The company emphasizes free written estimates and multi-segment discounts (15% new client, 10% repeat/senior/military), which often involve manual quote follow-up unless managed in a field-service CRM.\"\n    },\n    {\n      \"problem\": \"Owner visibility into marketing return on investment and lead conversion by source across Boise and Lexington may be fragmented.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The site loads a Google tag (AW-805112476) on inner pages, but not on the homepage, and has no visible call-tracking scripts or clickable tel: links.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Off-the-shelf Field Service Management (FSM) software (such as Housecall Pro, Jobber, or ServiceTitan)\",\n      \"addresses\": \"Provides built-in online booking, automated lead intake, missed-call text-back, estimate follow-up sequences, and basic reporting.\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"Squarespace native form notifications and email autoresponders\",\n      \"addresses\": \"Sends basic confirmation emails when a visitor submits the Contact page form.\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"One-week audit ($500 fixed price, credited toward any fix ordered within 30 days) measuring how many calls, web form leads, and written estimates slip through after 4:30 PM or during busy dispatch hours.\",\n      \"problem\": \"Potential uncaptured calls, delayed web form responses, and unfollowed written estimates.\",\n      \"whyNotExistingSoftware\": \"Before buying or reconfiguring software, a quick diagnostic establishes whether a real revenue leak exists and whether the company's current back-office tools already have unused automation features.\"\n    },\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"Automated pipeline ($1,800 setup plus $149/month) that captures Squarespace form submissions and missed calls within two minutes, sends an instant SMS/email acknowledgment, and creates a tracked follow-up task in their field-service software.\",\n      \"problem\": \"Delayed response to web form leads and after-hours/overflow calls outside the 8:00 AM–4:30 PM weekday window.\",\n      \"whyNotExistingSoftware\": \"Squarespace forms do not natively push structured job leads into field-service software with instant SMS reply and persistent callback reminders without custom integration.\"\n    },\n    {\n      \"name\": \"Owner's Monday numbers\",\n      \"kind\": \"catalog\",\n      \"description\": \"Weekly one-page summary ($1,200 setup plus $99/month) consolidating booked revenue, close rate on written estimates, average ticket, cost per booked job by lead source, and accounts receivable across operations.\",\n      \"problem\": \"Fragmented visibility into ad spend performance, estimate close rates, and receivables across residential and commercial work.\",\n      \"whyNotExistingSoftware\": \"Standard field-service software, accounting software, and ad accounts rarely combine cost-per-booked-job and receivables into a single cross-system weekly digest without custom data integration.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"medium\",\n    \"explanation\": \"Integrating Squarespace form submissions and call/SMS workflows is straightforward, but overall technical feasibility depends on what field-service management and accounting software Crofts Electric uses internally, which is not observable on the public website.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"Deterministic workflow automation handles lead capture, instant SMS/email replies, and weekly metrics aggregation reliably, while AI agents can assist with classifying incoming project descriptions (e.g., panel upgrade vs. commercial fit-out vs. property management work order) and drafting initial replies.\"\n  },\n  \"humanReview\": [\n    \"All written electrical estimates, pricing, and scope assessments must be reviewed and approved by a licensed electrician.\",\n    \"Code-compliance determinations, load calculations (such as EV chargers, standby generators, and sub-panels), and commercial bidding require direct human oversight.\",\n    \"Non-routine customer inquiries or emergency electrical safety issues must be routed immediately to qualified staff rather than handled by automated replies.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated SMS or phone follow-ups to leads must comply with TCPA consent requirements and state telemarketing rules.\"\n    },\n    {\n      \"type\": \"operational\",\n      \"description\": \"An automated assistant or intake workflow must never give DIY electrical troubleshooting advice or imply that an electrical hazard is safe to ignore.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Customer contact details, property addresses, and access instructions from property managers or Realtors must be transmitted and stored securely with minimal access.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": \"Revenue Leak Check: $500 fixed price (credited in full toward any fix ordered within 30 days); Lead-to-job pipeline: $1,800 setup plus $149/month; Owner's Monday numbers: $1,200 setup plus $99/month.\",\n    \"assumptions\": [\n      \"The website states percentage discounts (15% off initial service call labor for new customers; 10% off for repeat customers, seniors, first responders, and active military) but publishes no dollar prices or service call fees, so illustrative commercial value cannot be calculated under ForgeX's evidence rules.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Master Electrician & Licensed Contractor\",\n      \"Office Manager / Operations Manager\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Master Electrician and Licensed Contractor / Founder\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians\",\n        \"quote\": \"[redacted], Master Electrician and Licensed Contracto r, opened Crofts Electric after achieving 14 years of advanced training and work experience.\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.croftselectricboise.com/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How many journeyman and master electricians are currently on the Crofts Electric team across Boise and Lexington?\",\n      \"What field-service software or CRM do you currently use to manage dispatching, written estimates, and invoicing?\",\n      \"When calls come in after 4:30 PM or on weekends—or when a prospect submits the Squarespace contact form—how quickly does someone follow up, and how is that tracked?\",\n      \"Do you already have a process for following up on open written estimates for panel upgrades, EV chargers, and remodeling jobs, or is that done manually?\",\n      \"How are you currently tracking which booked jobs come from Google Ads versus referrals, Realtors, and property managers?\"\n    ],\n    \"outreachSubject\": \"Question about lead & estimate follow-up at Crofts Electric\",\n    \"outreachBody\": \"Hi [redacted],\\n\\nI was looking at Crofts Electric's Boise website and noticed you handle everything from residential panel upgrades and EV chargers to property management and commercial fit-outs, with office hours running Monday–Friday, 8:00 AM to 4:30 PM.\\n\\nAt ForgeX, we work with owner-led electrical and home-service contractors on fixed-price workflow automations—such as routing web form leads and after-hours inquiries into your field-service software with an instant reply, or tracking open written estimates and ad-spend ROI in a one-page Monday summary.\\n\\nBefore recommending anything, we always check whether your existing software already covers what you need. If you don't already have automated lead intake and estimate follow-up in place, we also offer a 1-week Revenue Leak Check ($500 fixed price, credited in full toward any fix you order within 30 days) to measure whether any calls, leads, or written estimates are slipping through.\\n\\nWould you be open to a brief 10-minute call to see if this is relevant to your Boise and Lexington operations?\\n\\nBest regards,\\n\\n[Founder Name]\\n[Founder Title], ForgeX\\n[ForgeX Phone Number]\\n[ForgeX Physical Postal Address]\\n\\nIf you prefer not to receive future emails from us, simply reply with \\\"unsubscribe\\\" or use [Opt-Out Link] and we will remove you right away.\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.croftselectricboise.com/\",\n        \"usedFor\": \"Business identity, Boise service area, hours of operation, phone number, Idaho and Kentucky license numbers, services offered, discount offers, and homepage script/host analysis.\"\n      },\n      {\n        \"url\": \"https://www.croftselectricboise.com/about-crofts-electric-boise-idaho-history-electricians\",\n        \"usedFor\": \"Founder identity ([redacted]), parent entity (RC Electric LLC), company history in Lexington, KY and expansion to Boise, ID, and Google tag script evidence.\"\n      },\n      {\n        \"url\": \"https://www.croftselectricboise.com/our-expert-boise-electricians-skills-qualifications\",\n        \"usedFor\": \"Workforce qualification policy (journeyman and master electricians only).\"\n      },\n      {\n        \"url\": \"https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate\",\n        \"usedFor\": \"Lead intake mechanism (Squarespace form and phone call), service categories, and Google tag script evidence.\"\n      },\n      {\n        \"url\": \"https://www.croftselectricboise.com/boise-idaho-electrical-electrician-services-discounts\",\n        \"usedFor\": \"Discount structures (15% new customer labor discount, 10% repeat/senior/first responder/military discount) and confirmation that no dollar prices are published.\"\n      },\n      {\n        \"url\": \"https://www.croftselectricboise.com/property-management-real-estate-electricians\",\n        \"usedFor\": \"B2B property management and real estate electrical service details.\"\n      }\n    ],\n    \"limitations\": [\n      \"The website does not disclose the total employee headcount of Crofts Electric (whether it falls within the 10–75 staff target range).\",\n      \"Internal back-office software (such as field-service management, dispatching, or accounting systems) cannot be observed from the public website.\",\n      \"The website publishes percentage discounts (10% and 15%) but no dollar prices or service call rates, preventing a quantitative commercial value calculation.\",\n      \"The linked page https://www.croftselectricboise.com/trusted-experts-boise-electricians-lexington-electricians returned HTTP 404 (not found).\",\n      \"No business email address or physical street address is published on the pages read.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue later\",\n    \"rationale\": \"Crofts Electric is an owner-led electrical contractor ([redacted]) operating in Boise, ID and Lexington, KY with evidence of paid ad tracking (gtag AW-805112476), a clear business phone channel ([redacted]), weekday-only stated hours (Monday–Friday, 8am–4:30pm), and a standard Squarespace contact form with no visible online booking or automated lead capture on the site. However, staff headcount (10–75 employees) is unconfirmed on the website, and operational problems such as missed after-hours calls or unfollowed written estimates remain hypotheses rather than confirmed facts on the site.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

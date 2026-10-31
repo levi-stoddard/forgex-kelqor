@@ -1,0 +1,900 @@
+{
+  "company": {
+    "id": "c13",
+    "name": "Cornerstone Comfort",
+    "town": "Nampa",
+    "state": "Idaho",
+    "website": "https://www.cornerstonecomfort.net/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:20:57.334Z",
+  "finishedAt": "2026-10-27T19:22:59.602Z",
+  "report": {
+    "identity": {
+      "name": "Cornerstone Comfort",
+      "location": "Nampa, Idaho",
+      "claims": [
+        {
+          "statement": "Cornerstone Comfort is owned and operated by [redacted].",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Cornerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]"
+        },
+        {
+          "statement": "The company was originally founded in 2011 under the name Izzy's Service.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]"
+        },
+        {
+          "statement": "The physical office is located at 130 2nd Ave N, Nampa, ID 83687.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "130 2nd Ave N, Nampa, ID 83687"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential HVAC, Heating, Cooling, and Water Systems",
+      "activities": [
+        "Heating and furnace repair, maintenance, and replacement",
+        "Air conditioning repair, maintenance, and replacement",
+        "Ductless mini-split installation and service",
+        "Traditional and tankless water heater repair and installation",
+        "Water softener and whole-home filtration installation",
+        "Indoor air quality and air scrubber systems",
+        "Boiler and hydronic radiant floor heating services"
+      ],
+      "claims": [
+        {
+          "statement": "Cornerstone Comfort provides residential heating, air conditioning, and water services across the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Cornerstone Comfort is a family owned and operated heating, air & water company."
+        },
+        {
+          "statement": "The company handles full system replacement, preventive maintenance, and repairs for heating, cooling, and water equipment.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/about",
+          "quote": "Our licensed and insured team works with furnaces, air conditioners, ductless systems, water heaters, water softeners, water purification systems, and indoor air quality solutions"
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.cornerstonecomfort.net/",
+      "claims": [
+        {
+          "statement": "The company highlights over 500 five-star customer reviews across the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/about",
+          "quote": "With over 500 five-star reviews from Treasure Valley homeowners, our reputation is built on consistent quality, honest service, and reliable results you can trust."
+        },
+        {
+          "statement": "The website provides an online instant estimate tool for HVAC and water heating.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "AI-powered estimates for Heating, Air Conditioning, Ductless, and Water Systems—built on real pricing, real equipment, and real installs."
+        },
+        {
+          "statement": "The company offers third-party financing partnerships including Wells Fargo Bank, N.A.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/financing",
+          "quote": "Wells Fargo Bank, N.A. financing options stand out as a great choice for financing your new AC or heating system."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Cornerstone Comfort holds Idaho contractor license #051546.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Cornerstone Comfort is licensed and insured to perform heating, air conditioning, and water services in Idaho. ​License #051546"
+        }
+      ],
+      "limitations": "Licensing evidence is based on public disclosures in the website footer; state licensing board databases were not independently queried."
+    },
+    "existingSoftware": [
+      {
+        "product": "Housecall Pro",
+        "purpose": "Field service management and online scheduling",
+        "evidence": {
+          "statement": "The website references Housecall Pro's booking service domain within its page assets.",
+          "label": "inference",
+          "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "quote": null
+        }
+      },
+      {
+        "product": "Wix",
+        "purpose": "Website hosting, content management, and native contact forms",
+        "evidence": {
+          "statement": "The website is built and served on the Wix platform, using Wix ThunderBolt runtime and Wix Form App widgets.",
+          "label": "inference",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Google Ads",
+        "purpose": "Paid search advertising and conversion tracking",
+        "evidence": {
+          "statement": "The site loads a Google Ads conversion tracking tag (AW-11223296975).",
+          "label": "inference",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Meta Pixel",
+        "purpose": "Paid social advertising conversion tracking",
+        "evidence": {
+          "statement": "The site loads Meta Pixel code (ID 887182607046180) to monitor ad visitors.",
+          "label": "inference",
+          "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "quote": null
+        }
+      },
+      {
+        "product": "SearchAtlas",
+        "purpose": "SEO and dynamic web content optimization",
+        "evidence": {
+          "statement": "A dynamic optimization script from SearchAtlas is executed in the site header.",
+          "label": "inference",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Microsoft Clarity",
+        "purpose": "User behavior analytics and session tracking",
+        "evidence": {
+          "statement": "Microsoft Clarity analytics script is installed across web pages.",
+          "label": "inference",
+          "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The business actively pays for traffic via Google Ads and Meta Pixel to capture HVAC replacement and repair leads.",
+        "label": "inference",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": null
+      },
+      {
+        "statement": "Multiple independent form entry points exist on the site alongside Housecall Pro scheduling.",
+        "label": "fact",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": "Get a Price Quote First name * Last name * Email * Phone * Select a Service * Choose an option Give us more details"
+      },
+      {
+        "statement": "Customer inquiries and email mailto links are split between the rebrand domain and legacy domain.",
+        "label": "inference",
+        "sourceUrl": "https://www.cornerstonecomfort.net/about",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Potential lead response lag from unintegrated Wix quote forms and instant estimate inquiries before entering Housecall Pro.",
+        "label": "hypothesis",
+        "basis": "The website employs standalone Wix forms across multiple pages alongside Housecall Pro booking; whether form submissions automatically trigger immediate dispatch tickets or require manual copy-paste is unverified."
+      },
+      {
+        "problem": "Disjointed executive tracking of paid ad spend against booked field-service revenue in Housecall Pro.",
+        "label": "hypothesis",
+        "basis": "The company actively runs Google Ads and Meta campaigns, but reporting between ad clicks, quote requests, and completed jobs in field-service software typically requires custom attribution pipeline setup."
+      },
+      {
+        "problem": "Risk of dropped customer inquiries during seasonal peaks due to split email addresses across legacy domain (yzzysservice.com) and current domain (cornerstonecomfort.net).",
+        "label": "hypothesis",
+        "basis": "Mailto links on multiple pages direct to [redacted] while display footers show [redacted], creating potential inbox fragmentation."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Housecall Pro native online booking widget",
+        "addresses": "Allows customers to directly book appointments into the field-service calendar.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Zapier or Make webhook integration between Wix Forms and Housecall Pro",
+        "addresses": "Automatically creates new customer records and job requests in Housecall Pro whenever a Wix web form is submitted.",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "Google Ads and Google Tag Manager conversion integration",
+        "addresses": "Tracks web form submissions back to paid search keywords.",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "Every lead from every source lands in your field-service software within two minutes, gets an instant reply, and nobody forgets to call back.",
+        "problem": "Potential lead response lag from unintegrated Wix quote forms and instant estimate inquiries before entering Housecall Pro.",
+        "whyNotExistingSoftware": "While Housecall Pro provides online booking, leads generated through Wix contact forms, instant estimate requests, and phone callbacks often sit unparsed in email notifications without custom webhook routing and immediate multi-channel response."
+      },
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "In one week, see how many calls, leads and quotes slip through, and what they are worth to you. The $500 fee is credited in full to any fix you order within 30 days.",
+        "problem": "Uncertainty regarding how many web quote submissions or ad clicks fail to convert into scheduled Housecall Pro dispatches.",
+        "whyNotExistingSoftware": "Housecall Pro reports operational jobs while Google Ads reports clicks, but neither audits the end-to-end drop-off rate of inbound web inquiries."
+      },
+      {
+        "name": "Owner's Monday numbers",
+        "kind": "catalog",
+        "description": "One page every Monday: booked revenue, close rate, average ticket, cost per booked job by lead source and money owed, from your field-service software, QuickBooks and ad accounts.",
+        "problem": "Disjointed executive tracking of paid ad spend against booked field-service revenue in Housecall Pro.",
+        "whyNotExistingSoftware": "Housecall Pro and ad platforms do not natively combine ad spend, close rates, and average job ticket into a single weekly scorecard without manual compilation."
+      }
+    ],
+    "feasibility": {
+      "rating": "high",
+      "explanation": "Cornerstone Comfort operates on standard modern platforms (Wix, Google Ads, Housecall Pro). Housecall Pro supports standard API and webhook connectors, making automated lead intake and data extraction highly feasible."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "AI can parse unstructured job details from inbound web messages and draft instant follow-ups, but job dispatching, physical evaluations, and pricing confirmation require deterministic scheduling rules and human oversight."
+    },
+    "humanReview": [
+      "Dispatch manager review before assigning technicians to scheduled service calls.",
+      "On-site diagnostic validation and formal estimate sign-off by licensed technicians prior to installation.",
+      "Owner approval of weekly financial attribution reports and ad spend reconciliations."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Faulty lead routing or automated scheduling could result in dispatch conflicts or missed emergency calls during high-demand weather extremes."
+      },
+      {
+        "type": "compliance",
+        "description": "Automated SMS responses must strictly adhere to TCPA opt-in requirements and Honor the company's stated opt-out policies."
+      },
+      {
+        "type": "security",
+        "description": "Inbound homeowner service addresses, phone numbers, and equipment details must be securely transmitted between Wix and Housecall Pro with encryption in transit."
+      }
+    ],
+    "commercial": {
+      "supportable": true,
+      "value": "$2,450 to $5,499 per recovered replacement job, or $139 per recovered maintenance tune-up (illustrative)",
+      "implementationCost": "$500 fixed price for Revenue Leak Check, or $1,800 setup plus $149/month for Lead-to-job pipeline",
+      "assumptions": [
+        "Illustrative pricing basis: The company publishes standard promotional prices including $2,450 for a hot water heater installation, $5,499 for a tankless water heater installation, and $139 for one-time HVAC maintenance.",
+        "Assumption: If lead capture automation prevents even one high-ticket water heater or replacement HVAC inquiry from falling through the cracks or booking with a competitor each month, illustrative gross revenue saved is $2,450 to $5,499.",
+        "Assumption: Converting 5 missed web inquiries into maintenance visits per month yields $695 in immediate diagnostic revenue and long-term Comfort Club membership opportunities ($200 to $500/year)."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Co-Owner / Founder",
+        "Operations Manager"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Co-Owner / Founder",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Cornerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]"
+        },
+        {
+          "name": "[redacted]",
+          "role": "Co-Owner / Founder",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Cornerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.cornerstonecomfort.net/"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.cornerstonecomfort.net/"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.cornerstonecomfort.net/about"
+        },
+        {
+          "kind": "web form",
+          "value": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "When a homeowner submits a quote request through your website or instant estimate tool, how quickly does that inquiry appear in Housecall Pro?",
+        "Are your Google Ads and Meta campaign leads automatically tracked through to completed jobs and revenue in Housecall Pro, or do you reconcile ROI by hand?",
+        "How does your team currently manage inbound customer emails across [redacted] and [redacted] during winter freezes and peak summer heatwaves?"
+      ],
+      "outreachSubject": "[redacted] - lead response & Housecall Pro sync at Cornerstone Comfort",
+      "outreachBody": "Hi [redacted],\n\nI came across Cornerstone Comfort while looking at top-rated HVAC and water contractors in Nampa and the Treasure Valley. Congratulations on building a strong reputation with over 500 reviews since 2011.\n\nI noticed you are running paid search campaigns and offer an instant estimate feature on your website. When homeowners reach out online for heating or water heater quotes, getting those inquiries into Housecall Pro within two minutes and following up immediately often determines whether you book the job or they call another local contractor.\n\nAt ForgeX, we provide fixed-price automation that routes web quote requests directly into your field-service software and triggers instant customer confirmation so no lead gets lost. We also offer a $500 Revenue Leak Check that audits your inbound pipeline over one week to measure where quotes might be slipping through.\n\nWe do not make blanket revenue promises, but if you would like to see how other contractors eliminate lead lag between their website and dispatch board, I would welcome a brief 10-minute conversation.\n\nBest regards,\n\n[Founder Name]\nForgeX\n[Founder Postal Address]\nTo stop receiving emails, please reply with 'unsubscribe'."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.cornerstonecomfort.net/",
+          "usedFor": "Verified business identity, founders, location, services, licensing declaration, and advertising tracking tags."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/about",
+          "usedFor": "Mission, review counts, trade scope, and owner background."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "usedFor": "Quote form structure, Housecall Pro scheduling reference, and contact details."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/instant-estimate",
+          "usedFor": "Instant estimate tool details and standard two-man installation evidence."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/comfort-club",
+          "usedFor": "Maintenance plan membership pricing ($19.99/mo to $44.99/mo, $139 one-time maintenance)."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/specials",
+          "usedFor": "Equipment pricing benchmarks ($2,450 water heater, $5,499 tankless, $4,899 softener combo)."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/hvac-repair",
+          "usedFor": "Diagnostic policy and service capabilities."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/privacy-policy",
+          "usedFor": "SMS consent protocols and data policies."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/terms-conditions",
+          "usedFor": "Terms of use and estimate disclaimers."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/financing",
+          "usedFor": "Lender partnerships (Wells Fargo) and financing offerings."
+        }
+      ],
+      "limitations": [
+        "Total employee headcount is not explicitly stated on the public website; multi-technician operations are inferred from 2-man installation notices and regional coverage, but exact staff size cannot be confirmed from public pages.",
+        "Internal integration status between Wix forms, email systems, and Housecall Pro dispatch cannot be directly inspected without backend access.",
+        "Licensing status was confirmed via company site declarations and was not independently validated through state regulatory lookup."
+      ]
+    },
+    "qualification": {
+      "category": "pursue later",
+      "rationale": "Cornerstone Comfort is an owner-led residential HVAC and water contractor founded by [redacted], actively paying for digital leads via Google Ads and Meta Pixel, and utilizing Housecall Pro. While it represents a plausible operational fit, exact staff size (segment requires ~10 to 75 staff) is not published on the site, and potential lead latency or manual double-entry between Wix forms and Housecall Pro remains an unconfirmed hypothesis rather than an established fact on the public website. Outreach is warranted to explore internal pipeline bottlenecks."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Cornerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]",
+        "verdict": "not found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "130 2nd Ave N, Nampa, ID 83687",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Cornerstone Comfort is a family owned and operated heating, air & water company.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.cornerstonecomfort.net/about",
+        "quote": "Our licensed and insured team works with furnaces, air conditioners, ductless systems, water heaters, water softeners, water purification systems, and indoor air quality solutions",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.cornerstonecomfort.net/about",
+        "quote": "With over 500 five-star reviews from Treasure Valley homeowners, our reputation is built on consistent quality, honest service, and reliable results you can trust.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "AI-powered estimates for Heating, Air Conditioning, Ductless, and Water Systems—built on real pricing, real equipment, and real installs.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.cornerstonecomfort.net/financing",
+        "quote": "Wells Fargo Bank, N.A. financing options stand out as a great choice for financing your new AC or heating system.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Cornerstone Comfort is licensed and insured to perform heating, air conditioning, and water services in Idaho. ​License #051546",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": "Get a Price Quote First name * Last name * Email * Phone * Select a Service * Choose an option Give us more details",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Cornerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]",
+        "verdict": "not found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Cornerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]",
+        "verdict": "not found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "verdict": "found"
+      },
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "verdict": "found"
+      },
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.cornerstonecomfort.net/about",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 12,
+      "quotesFound": 9,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 3,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 8,
+      "hypotheses": 0,
+      "channelsFound": 4,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.cornerstonecomfort.net/",
+      "finalUrl": "https://www.cornerstonecomfort.net/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:21.310Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1443416,
+      "truncated": false,
+      "sha256": "883c851085bb4ae9760048d7db0780b48cb5c0e78f59d1b6bf01255334a9f535",
+      "textSha256": "ac1cfa47645ff51f0d2e1f08676583b58dbd26803a692723f6b358d792a76a54",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/about",
+      "finalUrl": "https://www.cornerstonecomfort.net/about",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:26.174Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1334462,
+      "truncated": false,
+      "sha256": "9941e8b07e149ebc81c94a291bb1a5450d50180b9740bf80fd1501291a30a0e0",
+      "textSha256": "8651da40b0c5e8ac353a899a8f7f598cc5465a3e0d86271f62216b2c4aa8c383",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+      "finalUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:29.202Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 2000000,
+      "truncated": true,
+      "sha256": "33bb2e97f7ed5ac230a7b8a42af878079c90f8ae17acfe1b85b5ff2001c78009",
+      "textSha256": "545786e0ea16f2038e85fb48d3517ea480c78d52ea5716b347d5fd1a751f5156",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/instant-estimate",
+      "finalUrl": "https://www.cornerstonecomfort.net/instant-estimate",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:32.280Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1907490,
+      "truncated": false,
+      "sha256": "3206977f18143af8dd9dc146029238f45159523a076bf634b6cf21b8b8eabeb7",
+      "textSha256": "60ddf8b087cc268c661ed06cbdea8c4ca10cb74d12e1e139daaf0418ec94b008",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/comfort-club",
+      "finalUrl": "https://www.cornerstonecomfort.net/comfort-club",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:35.220Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1998924,
+      "truncated": false,
+      "sha256": "0cb490a2994180c49e0cf67b4b7b16ddfa08907da305a5e12ddf25ad9ef4364b",
+      "textSha256": "072eb888ccaac517dd58111e71c828d8354274c9427d8575e5cb488708c81443",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/specials",
+      "finalUrl": "https://www.cornerstonecomfort.net/specials",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:38.211Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1361333,
+      "truncated": false,
+      "sha256": "953d0cdf20f43deac46cb6d6c2c31173ab3cc017f69a0fcfc9171c5368e6e7ba",
+      "textSha256": "2dcb85f4d1040908a3a08ea0c01fa64d17b0091173924ebf477536d2d150140b",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/hvac-repair",
+      "finalUrl": "https://www.cornerstonecomfort.net/hvac-repair",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:21:07.534Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1357595,
+      "truncated": false,
+      "sha256": "9577e926f2c51949d6fabd96ea0a6d01feb3db4e98cd97ec56a66236bad1db85",
+      "textSha256": "e3ec0c60cbdc06159b03fca3313cf1abdcb2bbeeb817948b72404ea336a41896",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/privacy-policy",
+      "finalUrl": "https://www.cornerstonecomfort.net/privacy-policy",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:21:10.443Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 806676,
+      "truncated": false,
+      "sha256": "a4f00a2f7a29085e28b58b703f35659a5a52b1f494e23a64616d618e13329bdf",
+      "textSha256": "08e351a9b639511b00c133215626a5ed753a5c1427ee54ea7a70e93cf12ccd97",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/services",
+      "finalUrl": "https://www.cornerstonecomfort.net/services",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:41.226Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1361732,
+      "truncated": false,
+      "sha256": "1452e761f06d5d93ce13303401f3311aeff1971fbdf3b322ffdee1c974c75303",
+      "textSha256": "607105de7d1d8c89dc70754fb261682767723b50cbdd83445e3471fd532fa3ab",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/reviews",
+      "finalUrl": "https://www.cornerstonecomfort.net/reviews",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:21:13.613Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1248743,
+      "truncated": false,
+      "sha256": "a346cc3d2bbffff44d765a98ef116436dd701e0e639f4e16eb797cd29b74a6ca",
+      "textSha256": "6d83959f8438c6592f3ce3906f5152d49b29c7110e53f985224cec1525de18df",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/blog",
+      "finalUrl": "https://www.cornerstonecomfort.net/blog",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:21:16.638Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1094944,
+      "truncated": false,
+      "sha256": "cb87dcb074a774206dc8049edada138a1f6195149347ed3c4002be75cb5c8136",
+      "textSha256": "d72606ffd23697545d27adf0ff9b2fa9b81212d2587d7632b1083a483edd0214",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/hvac-nampa-id",
+      "finalUrl": "https://www.cornerstonecomfort.net/hvac-nampa-id",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:21:19.638Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 940612,
+      "truncated": false,
+      "sha256": "20be70493b6dd002a09ccd6acd5b20347df6b34afaf2e379264c8f19fb4ddcd9",
+      "textSha256": "55dd74f547b59db023f0e6ae5442c060f55d51379c5ee24038c37c95e52c314f",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/terms-conditions",
+      "finalUrl": "https://www.cornerstonecomfort.net/terms-conditions",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:21:22.645Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 792708,
+      "truncated": false,
+      "sha256": "f884c25244962f65faca46771a3385890a06361a5c771a30e3a8b0df181ab29d",
+      "textSha256": "1bbc88dcd9eb016bb6badb54f491b6e2438a0ebbb9c0675c4d924ca8ccb15ed9",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/financing",
+      "finalUrl": "https://www.cornerstonecomfort.net/financing",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:21:26.688Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1300200,
+      "truncated": false,
+      "sha256": "52abe740829afa067ac1e2c86f86b29fda847d4e19253aa9505594434652882a",
+      "textSha256": "335742b9d9ab7dc40231fcd36cc601668a32af9da07dd70eaf466faa310096e2",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.cornerstonecomfort.net/about",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/instant-estimate",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/comfort-club",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/specials",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/hvac-repair",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/privacy-policy",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/services",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/reviews",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/blog",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/hvac-nampa-id",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/terms-conditions",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/financing",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 6,
+  "usage": {
+    "input": 38463,
+    "cachedInput": 24684,
+    "output": 5228,
+    "thinking": 7737,
+    "toolUse": 0,
+    "total": 51428
+  },
+  "costUsd": 0.060804300000000006,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1636871",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/about"
+      }
+    },
+    {
+      "id": "call_1636872",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort"
+      }
+    },
+    {
+      "id": "call_1636873",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/instant-estimate"
+      }
+    },
+    {
+      "id": "call_1636874",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/comfort-club"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3147189",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/specials"
+      }
+    },
+    {
+      "id": "call_3147190",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/hvac-repair"
+      }
+    },
+    {
+      "id": "call_3147191",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/privacy-policy"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2557748",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/services"
+      }
+    },
+    {
+      "id": "call_2557749",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/reviews"
+      }
+    },
+    {
+      "id": "call_2557750",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/blog"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3247923",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/hvac-nampa-id"
+      }
+    },
+    {
+      "id": "call_3247924",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/terms-conditions"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3261143",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/financing"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Cornerstone Comfort\",\n    \"location\": \"Nampa, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"Cornerstone Comfort is owned and operated by [redacted].\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Cornerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]\"\n      },\n      {\n        \"statement\": \"The company was originally founded in 2011 under the name Izzy's Service.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]\"\n      },\n      {\n        \"statement\": \"The physical office is located at 130 2nd Ave N, Nampa, ID 83687.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"130 2nd Ave N, Nampa, ID 83687\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential HVAC, Heating, Cooling, and Water Systems\",\n    \"activities\": [\n      \"Heating and furnace repair, maintenance, and replacement\",\n      \"Air conditioning repair, maintenance, and replacement\",\n      \"Ductless mini-split installation and service\",\n      \"Traditional and tankless water heater repair and installation\",\n      \"Water softener and whole-home filtration installation\",\n      \"Indoor air quality and air scrubber systems\",\n      \"Boiler and hydronic radiant floor heating services\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Cornerstone Comfort provides residential heating, air conditioning, and water services across the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Cornerstone Comfort is a family owned and operated heating, air & water company.\"\n      },\n      {\n        \"statement\": \"The company handles full system replacement, preventive maintenance, and repairs for heating, cooling, and water equipment.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/about\",\n        \"quote\": \"Our licensed and insured team works with furnaces, air conditioners, ductless systems, water heaters, water softeners, water purification systems, and indoor air quality solutions\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.cornerstonecomfort.net/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company highlights over 500 five-star customer reviews across the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/about\",\n        \"quote\": \"With over 500 five-star reviews from Treasure Valley homeowners, our reputation is built on consistent quality, honest service, and reliable results you can trust.\"\n      },\n      {\n        \"statement\": \"The website provides an online instant estimate tool for HVAC and water heating.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"AI-powered estimates for Heating, Air Conditioning, Ductless, and Water Systems—built on real pricing, real equipment, and real installs.\"\n      },\n      {\n        \"statement\": \"The company offers third-party financing partnerships including Wells Fargo Bank, N.A.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/financing\",\n        \"quote\": \"Wells Fargo Bank, N.A. financing options stand out as a great choice for financing your new AC or heating system.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Cornerstone Comfort holds Idaho contractor license #051546.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Cornerstone Comfort is licensed and insured to perform heating, air conditioning, and water services in Idaho. ​License #051546\"\n      }\n    ],\n    \"limitations\": \"Licensing evidence is based on public disclosures in the website footer; state licensing board databases were not independently queried.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Housecall Pro\",\n      \"purpose\": \"Field service management and online scheduling\",\n      \"evidence\": {\n        \"statement\": \"The website references Housecall Pro's booking service domain within its page assets.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Wix\",\n      \"purpose\": \"Website hosting, content management, and native contact forms\",\n      \"evidence\": {\n        \"statement\": \"The website is built and served on the Wix platform, using Wix ThunderBolt runtime and Wix Form App widgets.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google Ads\",\n      \"purpose\": \"Paid search advertising and conversion tracking\",\n      \"evidence\": {\n        \"statement\": \"The site loads a Google Ads conversion tracking tag (AW-11223296975).\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Meta Pixel\",\n      \"purpose\": \"Paid social advertising conversion tracking\",\n      \"evidence\": {\n        \"statement\": \"The site loads Meta Pixel code (ID 887182607046180) to monitor ad visitors.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"SearchAtlas\",\n      \"purpose\": \"SEO and dynamic web content optimization\",\n      \"evidence\": {\n        \"statement\": \"A dynamic optimization script from SearchAtlas is executed in the site header.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Microsoft Clarity\",\n      \"purpose\": \"User behavior analytics and session tracking\",\n      \"evidence\": {\n        \"statement\": \"Microsoft Clarity analytics script is installed across web pages.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The business actively pays for traffic via Google Ads and Meta Pixel to capture HVAC replacement and repair leads.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n      \"quote\": null\n    },\n    {\n      \"statement\": \"Multiple independent form entry points exist on the site alongside Housecall Pro scheduling.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n      \"quote\": \"Get a Price Quote First name * Last name * Email * Phone * Select a Service * Choose an option Give us more details\"\n    },\n    {\n      \"statement\": \"Customer inquiries and email mailto links are split between the rebrand domain and legacy domain.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://www.cornerstonecomfort.net/about\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Potential lead response lag from unintegrated Wix quote forms and instant estimate inquiries before entering Housecall Pro.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The website employs standalone Wix forms across multiple pages alongside Housecall Pro booking; whether form submissions automatically trigger immediate dispatch tickets or require manual copy-paste is unverified.\"\n    },\n    {\n      \"problem\": \"Disjointed executive tracking of paid ad spend against booked field-service revenue in Housecall Pro.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The company actively runs Google Ads and Meta campaigns, but reporting between ad clicks, quote requests, and completed jobs in field-service software typically requires custom attribution pipeline setup.\"\n    },\n    {\n      \"problem\": \"Risk of dropped customer inquiries during seasonal peaks due to split email addresses across legacy domain (yzzysservice.com) and current domain (cornerstonecomfort.net).\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Mailto links on multiple pages direct to [redacted] while display footers show [redacted], creating potential inbox fragmentation.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Housecall Pro native online booking widget\",\n      \"addresses\": \"Allows customers to directly book appointments into the field-service calendar.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Zapier or Make webhook integration between Wix Forms and Housecall Pro\",\n      \"addresses\": \"Automatically creates new customer records and job requests in Housecall Pro whenever a Wix web form is submitted.\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"Google Ads and Google Tag Manager conversion integration\",\n      \"addresses\": \"Tracks web form submissions back to paid search keywords.\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"Every lead from every source lands in your field-service software within two minutes, gets an instant reply, and nobody forgets to call back.\",\n      \"problem\": \"Potential lead response lag from unintegrated Wix quote forms and instant estimate inquiries before entering Housecall Pro.\",\n      \"whyNotExistingSoftware\": \"While Housecall Pro provides online booking, leads generated through Wix contact forms, instant estimate requests, and phone callbacks often sit unparsed in email notifications without custom webhook routing and immediate multi-channel response.\"\n    },\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"In one week, see how many calls, leads and quotes slip through, and what they are worth to you. The $500 fee is credited in full to any fix you order within 30 days.\",\n      \"problem\": \"Uncertainty regarding how many web quote submissions or ad clicks fail to convert into scheduled Housecall Pro dispatches.\",\n      \"whyNotExistingSoftware\": \"Housecall Pro reports operational jobs while Google Ads reports clicks, but neither audits the end-to-end drop-off rate of inbound web inquiries.\"\n    },\n    {\n      \"name\": \"Owner's Monday numbers\",\n      \"kind\": \"catalog\",\n      \"description\": \"One page every Monday: booked revenue, close rate, average ticket, cost per booked job by lead source and money owed, from your field-service software, QuickBooks and ad accounts.\",\n      \"problem\": \"Disjointed executive tracking of paid ad spend against booked field-service revenue in Housecall Pro.\",\n      \"whyNotExistingSoftware\": \"Housecall Pro and ad platforms do not natively combine ad spend, close rates, and average job ticket into a single weekly scorecard without manual compilation.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"high\",\n    \"explanation\": \"Cornerstone Comfort operates on standard modern platforms (Wix, Google Ads, Housecall Pro). Housecall Pro supports standard API and webhook connectors, making automated lead intake and data extraction highly feasible.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"AI can parse unstructured job details from inbound web messages and draft instant follow-ups, but job dispatching, physical evaluations, and pricing confirmation require deterministic scheduling rules and human oversight.\"\n  },\n  \"humanReview\": [\n    \"Dispatch manager review before assigning technicians to scheduled service calls.\",\n    \"On-site diagnostic validation and formal estimate sign-off by licensed technicians prior to installation.\",\n    \"Owner approval of weekly financial attribution reports and ad spend reconciliations.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Faulty lead routing or automated scheduling could result in dispatch conflicts or missed emergency calls during high-demand weather extremes.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated SMS responses must strictly adhere to TCPA opt-in requirements and Honor the company's stated opt-out policies.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Inbound homeowner service addresses, phone numbers, and equipment details must be securely transmitted between Wix and Housecall Pro with encryption in transit.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": true,\n    \"value\": \"$2,450 to $5,499 per recovered replacement job, or $139 per recovered maintenance tune-up (illustrative)\",\n    \"implementationCost\": \"$500 fixed price for Revenue Leak Check, or $1,800 setup plus $149/month for Lead-to-job pipeline\",\n    \"assumptions\": [\n      \"Illustrative pricing basis: The company publishes standard promotional prices including $2,450 for a hot water heater installation, $5,499 for a tankless water heater installation, and $139 for one-time HVAC maintenance.\",\n      \"Assumption: If lead capture automation prevents even one high-ticket water heater or replacement HVAC inquiry from falling through the cracks or booking with a competitor each month, illustrative gross revenue saved is $2,450 to $5,499.\",\n      \"Assumption: Converting 5 missed web inquiries into maintenance visits per month yields $695 in immediate diagnostic revenue and long-term Comfort Club membership opportunities ($200 to $500/year).\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Co-Owner / Founder\",\n      \"Operations Manager\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Co-Owner / Founder\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Cornerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]\"\n      },\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Co-Owner / Founder\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Cornerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\"\n      },\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\"\n      },\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/about\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"When a homeowner submits a quote request through your website or instant estimate tool, how quickly does that inquiry appear in Housecall Pro?\",\n      \"Are your Google Ads and Meta campaign leads automatically tracked through to completed jobs and revenue in Housecall Pro, or do you reconcile ROI by hand?\",\n      \"How does your team currently manage inbound customer emails across [redacted] and [redacted] during winter freezes and peak summer heatwaves?\"\n    ],\n    \"outreachSubject\": \"[redacted] - lead response & Housecall Pro sync at Cornerstone Comfort\",\n    \"outreachBody\": \"Hi [redacted],\\n\\nI came across Cornerstone Comfort while looking at top-rated HVAC and water contractors in Nampa and the Treasure Valley. Congratulations on building a strong reputation with over 500 reviews since 2011.\\n\\nI noticed you are running paid search campaigns and offer an instant estimate feature on your website. When homeowners reach out online for heating or water heater quotes, getting those inquiries into Housecall Pro within two minutes and following up immediately often determines whether you book the job or they call another local contractor.\\n\\nAt ForgeX, we provide fixed-price automation that routes web quote requests directly into your field-service software and triggers instant customer confirmation so no lead gets lost. We also offer a $500 Revenue Leak Check that audits your inbound pipeline over one week to measure where quotes might be slipping through.\\n\\nWe do not make blanket revenue promises, but if you would like to see how other contractors eliminate lead lag between their website and dispatch board, I would welcome a brief 10-minute conversation.\\n\\nBest regards,\\n\\n[Founder Name]\\nForgeX\\n[Founder Postal Address]\\nTo stop receiving emails, please reply with 'unsubscribe'.\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/\",\n        \"usedFor\": \"Verified business identity, founders, location, services, licensing declaration, and advertising tracking tags.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/about\",\n        \"usedFor\": \"Mission, review counts, trade scope, and owner background.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"usedFor\": \"Quote form structure, Housecall Pro scheduling reference, and contact details.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/instant-estimate\",\n        \"usedFor\": \"Instant estimate tool details and standard two-man installation evidence.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/comfort-club\",\n        \"usedFor\": \"Maintenance plan membership pricing ($19.99/mo to $44.99/mo, $139 one-time maintenance).\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/specials\",\n        \"usedFor\": \"Equipment pricing benchmarks ($2,450 water heater, $5,499 tankless, $4,899 softener combo).\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/hvac-repair\",\n        \"usedFor\": \"Diagnostic policy and service capabilities.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/privacy-policy\",\n        \"usedFor\": \"SMS consent protocols and data policies.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/terms-conditions\",\n        \"usedFor\": \"Terms of use and estimate disclaimers.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/financing\",\n        \"usedFor\": \"Lender partnerships (Wells Fargo) and financing offerings.\"\n      }\n    ],\n    \"limitations\": [\n      \"Total employee headcount is not explicitly stated on the public website; multi-technician operations are inferred from 2-man installation notices and regional coverage, but exact staff size cannot be confirmed from public pages.\",\n      \"Internal integration status between Wix forms, email systems, and Housecall Pro dispatch cannot be directly inspected without backend access.\",\n      \"Licensing status was confirmed via company site declarations and was not independently validated through state regulatory lookup.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue later\",\n    \"rationale\": \"Cornerstone Comfort is an owner-led residential HVAC and water contractor founded by [redacted], actively paying for digital leads via Google Ads and Meta Pixel, and utilizing Housecall Pro. While it represents a plausible operational fit, exact staff size (segment requires ~10 to 75 staff) is not published on the site, and potential lead latency or manual double-entry between Wix forms and Housecall Pro remains an unconfirmed hypothesis rather than an established fact on the public website. Outreach is warranted to explore internal pipeline bottlenecks.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "company": {
+    "id": "c16",
+    "name": "AMP Electric",
+    "town": "Nampa",
+    "state": "Idaho",
+    "website": "https://amp240v.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:47:41.766Z",
+  "finishedAt": "2026-10-27T18:49:55.652Z",
+  "report": {
+    "identity": {
+      "name": "AMP Electric",
+      "location": "2328 W. Hemingway Blvd., Nampa, Idaho",
+      "claims": [
+        {
+          "statement": "AMP Electric is a locally owned and operated family business based in Nampa, Idaho, serving the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "At Amp Electric, we are a locally owned and operated family business proudly serving Nampa, Idaho, and the Treasure Valley."
+        },
+        {
+          "statement": "The company's street address is 2328 W. Hemingway Blvd.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "Address : 2328 W. Hemingway Blvd."
+        },
+        {
+          "statement": "AMP Electric states it has been operating in Nampa since 1996.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "Amp Electric - Your Trusted Nampa Electricians Since 1996"
+        },
+        {
+          "statement": "[redacted] is the Owner and [redacted] is the General Manager of AMP Electric.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "[redacted] General Manager [redacted] Owner"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Electrical Contracting (Home and Commercial Services)",
+      "activities": [
+        "Residential, commercial, and industrial electrical repairs and troubleshooting",
+        "Electrical panel upgrades, service changes, and electrical inspections",
+        "Lighting, ceiling fan, bath fan, and smart home automation (Lutron Radio RA3) installation",
+        "EV charging station installation",
+        "Backup generator installation and maintenance",
+        "Whole-house surge protection, circuit wiring, low-voltage cabling, and hardwired smoke/CO detector installation"
+      ],
+      "claims": [
+        {
+          "statement": "AMP Electric provides electrical services to residential, commercial, and industrial customers.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "At Amp Electric, we offer a full range of electrical services for residential, commercial, and industrial clients."
+        },
+        {
+          "statement": "Principal services include panel upgrades, rewiring, lighting installation, troubleshooting, electrical repairs, and EV charger installations.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "Our services include panel upgrades, rewiring, lighting installation, troubleshooting, electrical repairs, EV charger installations, and more."
+        },
+        {
+          "statement": "The company installs and maintains backup generators.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "Ensure uninterrupted power during outages with our reliable backup generator installation and maintenance services, tailored to meet your specific needs."
+        },
+        {
+          "statement": "The company installs and configures Lutron Radio RA3 smart-home controls, switches, dimmers, and plugs.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/electrical-services",
+          "quote": "Smart-home switches, dimmers and plugs, from brands listed below. Lutron Radio RA3 controls, installation and configuration."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://amp240v.com/",
+      "claims": [
+        {
+          "statement": "Standard business hours are Monday through Friday from 7:30 am to 4:30 pm.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "Hours of Operation: Monday - Friday | 7:30 am - 4:30 pm"
+        },
+        {
+          "statement": "AMP Electric advertises 24/7 emergency electrical services as well as same-day or next-day appointments.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "We also provide 24/7 emergency services for critical electrical problems."
+        },
+        {
+          "statement": "AMP Electric charges $89 for a 30-minute onsite estimate in the Treasure Valley, credited toward the final bill if hired.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "For an onsite estimate in the Treasure Valley, we charge a modest $89 for a 30-minute consultation."
+        },
+        {
+          "statement": "The company serves Boise, Meridian, Eagle, Star, Kuna, Nampa, Caldwell, Middleton, and areas from Mountain Home to Fruitland across Ada and Canyon counties.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "Amp Electric proudly serves the entire Treasure Valley, including Boise, Meridian, Eagle, Star, Kuna, Nampa, Caldwell, and Middleton."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "AMP Electric states on its website that it is licensed, insured, and certified to perform electrical work.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "Yes, Amp Electric is fully licensed, insured, and certified to perform electrical work."
+        },
+        {
+          "statement": "The company states that it provides proof of credentials upon request rather than listing license numbers on the website.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "We’re happy to provide proof of our credentials upon request."
+        }
+      ],
+      "limitations": "Specific Idaho electrical contractor license numbers and state business registration identifiers are not published on the website and cannot be independently verified solely from the company's public pages."
+    },
+    "existingSoftware": [
+      {
+        "product": "Synchrony",
+        "purpose": "Customer project financing",
+        "evidence": {
+          "statement": "AMP Electric partners with Synchrony to offer customer financing for electrical projects.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/electrician-with-financing",
+          "quote": "Amp Electric, in partnership with Synchrony, offers convenient financing options to help you start your project today and pay over time."
+        }
+      },
+      {
+        "product": "Online booking and appointment notification system",
+        "purpose": "Online appointment scheduling and SMS/email appointment notifications",
+        "evidence": {
+          "statement": "The website states that it provides an online booking system for scheduling consultations, repairs, and installations.",
+          "label": "fact",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "Our online booking system makes it easy to schedule an appointment for an electrical assessment, repair, install, or project consultation."
+        }
+      },
+      {
+        "product": "LeadConnector / GoHighLevel CRM and website builder",
+        "purpose": "Website hosting, web form capture, and SMS/email lead management",
+        "evidence": {
+          "statement": "The website loads scripts and references from stcdn.leadconnectorhq.com, backend.leadconnectorhq.com, services.leadconnectorhq.com, payment-embed.leadconnectorhq.com, and cdn.msgsndr.com, which likely correspond to the LeadConnector / GoHighLevel platform.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Authorize.Net",
+        "purpose": "Payment processing",
+        "evidence": {
+          "statement": "The website references js.authorize.net and jstest.authorize.net, which likely indicate Authorize.Net payment integration.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The financing page contains unedited placeholder copy ('Small Call to Action', 'Headline', and 'Lorem ipsum') in the application instructions.",
+        "label": "fact",
+        "sourceUrl": "https://amp240v.com/electrician-with-financing",
+        "quote": "Fill out Application: Lorem ipsum dolor sit amet consectetur. Aliquam odio enim pharetra et. Diam varius magna lobortis consequat elit."
+      },
+      {
+        "statement": "The services page instructs visitors to call [redacted] in the body text while displaying [redacted] in the header and footer.",
+        "label": "fact",
+        "sourceUrl": "https://amp240v.com/electrical-services",
+        "quote": "so if you don’t see what you’re looking for, just give us a call at [redacted]."
+      },
+      {
+        "statement": "The services page refers twice to smart-home device brands 'listed below', but no brand list is present on the page.",
+        "label": "fact",
+        "sourceUrl": "https://amp240v.com/electrical-services",
+        "quote": "Smart-home switches, dimmers and plugs, from brands listed below."
+      },
+      {
+        "statement": "The contact form collects consent for text and email appointment messages.",
+        "label": "fact",
+        "sourceUrl": "https://amp240v.com/contact-us",
+        "quote": "By providing my phone number & email address, I agree to receive text/email messages about my appointment."
+      },
+      {
+        "statement": "The presence of unfinished template text, missing reference lists, and two different phone numbers suggests the website and its underlying CRM/lead workflows may have been only partially configured.",
+        "label": "inference",
+        "sourceUrl": "https://amp240v.com/electrician-with-financing",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Website pages contain unfinished template text ('Lorem ipsum'), omitted smart-home brand lists, and two different phone numbers ([redacted] and [redacted]).",
+        "label": "fact",
+        "basis": "Directly observed on https://amp240v.com/electrician-with-financing and https://amp240v.com/electrical-services."
+      },
+      {
+        "problem": "Inbound calls or leads across two published phone numbers, web forms, and after-hours 24/7 emergency inquiries outside the 7:30 am – 4:30 pm weekday office window may not be consistently tracked, answered, or synced into field-service dispatch software.",
+        "label": "hypothesis",
+        "basis": "Plausible operational risk given the two phone numbers on the site, the gap between 7:30 am – 4:30 pm office hours and 24/7 emergency availability, and signs of an incompletely finished website setup, though actual call-handling performance cannot be verified publicly."
+      },
+      {
+        "problem": "Leadership may lack a single automated weekly view combining booked revenue, close rates, average ticket, and lead-source ROI across their CRM, field-service system, and accounting software.",
+        "label": "hypothesis",
+        "basis": "Common challenge for owner-led electrical contractors operating multiple systems, though internal reporting practices are not visible on the website."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Built-in CRM and automation workflows on the existing website platform (referencing leadconnectorhq.com / msgsndr.com)",
+        "addresses": "Instant SMS/email lead response, missed-call text-back, online booking confirmation, and call tracking across phone numbers",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Native reporting in existing field-service management and accounting software",
+        "addresses": "Job costing, invoice tracking, and basic revenue reporting",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "One-week audit ($500 fixed price, credited toward any fix ordered within 30 days) to measure how many calls, web leads, and $89 consultation requests across both published phone numbers and after-hours windows slip through or fail to convert.",
+        "problem": "Potential lead and call leakage across multiple phone numbers ([redacted] and [redacted]), unfinished website conversion flows, and after-hours emergency inquiries.",
+        "whyNotExistingSoftware": "While the company already hosts its site on a platform that supports lead tracking (leadconnectorhq.com), the unfinished pages suggest the platform's tracking and automation workflows may not be fully audited or connected to actual job conversion outcomes."
+      },
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "Automated pipeline ($1,800 setup plus $149/month) ensuring every lead from web forms, online booking, and both phone lines gets an instant reply and lands in their field-service or dispatch system within two minutes.",
+        "problem": "Potential manual re-entry or delayed follow-up between the website CRM and field-service scheduling software.",
+        "whyNotExistingSoftware": "Web-marketing CRMs typically do not sync natively out-of-the-box with specialized electrical field-service dispatch and estimating software without custom webhook/API bridging."
+      },
+      {
+        "name": "Owner's Monday numbers",
+        "kind": "catalog",
+        "description": "Automated weekly one-page summary ($1,200 setup plus $99/month) delivering booked revenue, close rate, average ticket, cost per booked job by lead source, and accounts receivable.",
+        "problem": "Potential fragmentation of lead data, job revenue, and accounting receivables across separate tools.",
+        "whyNotExistingSoftware": "Requires cross-system data aggregation across ad accounts, the website CRM, field-service dispatch software, and accounting software."
+      }
+    ],
+    "feasibility": {
+      "rating": "medium",
+      "explanation": "The website already runs on a modern web/CRM stack (referencing leadconnectorhq.com and services.leadconnectorhq.com) that supports webhooks and API integrations, making a Revenue Leak Check and Lead-to-job pipeline technically straightforward once the back-office field-service and accounting systems are identified."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "Deterministic workflow automation and API integrations should handle lead routing, instant SMS/email replies, and weekly KPI aggregation; AI agents can assist in classifying unstructured inquiry descriptions (e.g., separating urgent 24/7 electrical emergencies from routine $89 estimate requests) and summarizing call transcripts."
+    },
+    "humanReview": [
+      "Owner or General Manager approval of all customer-facing SMS and email response templates prior to activation.",
+      "Dispatcher review of any emergency or safety-critical electrical inquiries (such as panel hazards or power outages) rather than relying on automated triage alone.",
+      "Verification of mapping rules before writing customer or job records into field-service or accounting software."
+    ],
+    "risks": [
+      {
+        "type": "compliance",
+        "description": "Automated SMS and voice follow-ups must strictly adhere to TCPA opt-in and opt-out rules, even though the contact form already includes an SMS/email consent checkbox."
+      },
+      {
+        "type": "operational",
+        "description": "Misclassifying a 24/7 emergency electrical call or live-wire hazard as a routine consultation could delay urgent response and create safety or liability issues."
+      },
+      {
+        "type": "security",
+        "description": "Customer contact details, service addresses, and payment/financing references must be handled with least-privilege API credentials and never exposed in unencrypted logs."
+      }
+    ],
+    "commercial": {
+      "supportable": true,
+      "value": "Illustrative consultation fee recovery of $178 to $445 per month ($2,136 to $5,340 per year) in onsite consultation fees alone (2 to 5 recovered consultations per month × $89 published consultation fee), before counting downstream installation or repair revenue if hired.",
+      "implementationCost": "$500 fixed price for the initial Revenue Leak Check (credited in full toward any fix ordered within 30 days); if needed afterward, $1,800 setup plus $149/month for the Lead-to-job pipeline or $1,200 setup plus $99/month for Owner's Monday numbers.",
+      "assumptions": [
+        "Uses the site's only published price: $89 for a 30-minute onsite consultation in the Treasure Valley (which is credited toward the final bill if the customer hires AMP Electric).",
+        "Assumes 2 to 5 additional inquiries per month are captured and converted into paid $89 onsite consultations through faster response and unified call/form tracking.",
+        "Excludes project installation or repair ticket values (such as panel upgrades, EV chargers, or backup generators) because project prices are not published on the website."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "General Manager"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Owner",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "[redacted] Owner"
+        },
+        {
+          "name": "[redacted]",
+          "role": "General Manager",
+          "sourceUrl": "https://amp240v.com/",
+          "quote": "[redacted] General Manager"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://amp240v.com/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "We noticed your site runs on a CRM platform with online booking, but a few pages still have placeholder text and two different phone numbers ([redacted] and [redacted])—are calls and form submissions from both lines routing cleanly into your dispatch schedule right now?",
+        "What field-service management and accounting software does your team use once a customer books an $89 consultation or requests an estimate?",
+        "How are after-hours and weekend 24/7 emergency electrical calls currently handled and logged when the office is closed after 4:30 pm?",
+        "Approximately how many electricians and office staff are on the AMP Electric team today, and are you running paid search or local ads to drive leads?"
+      ],
+      "outreachSubject": "Quick question on AMP Electric's website & lead routing",
+      "outreachBody": "Hi [redacted],\n\nI was looking through AMP Electric's website (https://amp240v.com/) and noticed a couple of small items on your live pages that might be affecting incoming inquiries:\n\n1. Your Financing page (/electrician-with-financing) still has 'Lorem ipsum' placeholder text under the application steps.\n2. Your Services page (/electrical-services) asks customers to call [redacted] in the text while the rest of the site lists [redacted], and references a list of smart-home brands below that isn't showing up.\n\nBecause your site already uses a modern CRM setup for online booking and text/email notifications, you may already have most of the tools you need in place. However, when a site setup is left partway finished by an agency or builder, we often find that missed-call follow-ups, after-hours emergency inquiries, or handoffs into field-service software have silent gaps too.\n\nAt ForgeX, we run a fixed-price Revenue Leak Check ($500, credited in full if you ask us to build any fix within 30 days) where we audit one week of calls, web forms, and $89 consultation requests to see if anything is slipping through—or confirm that your current system is already catching everything.\n\nIf it would be helpful to compare notes on how your current setup is working, just reply to this email or let me know a good time for a brief call.\n\nBest regards,\n\n[Founder Name]\n[Founder Title], ForgeX\n[ForgeX Phone Number]\n[ForgeX Physical Postal Address]\n\nIf you prefer not to receive future emails from us, simply reply with \"unsubscribe\" or use [Opt-Out Link/Instructions] and we will remove you immediately."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://amp240v.com/",
+          "usedFor": "Business identity, Nampa address, operating history since 1996, leadership names ([redacted], Owner; [redacted], General Manager), services, $89 consultation fee, service area, office hours, 24/7 emergency availability, and online booking claim."
+        },
+        {
+          "url": "https://amp240v.com/electrical-services",
+          "usedFor": "Detailed list of electrical services, Lutron Radio RA3 installation, missing smart-home brand list reference, and secondary phone number ([redacted])."
+        },
+        {
+          "url": "https://amp240v.com/electrician-with-financing",
+          "usedFor": "Synchrony financing partnership and observation of unedited 'Lorem ipsum' template placeholder copy."
+        },
+        {
+          "url": "https://amp240v.com/contact-us",
+          "usedFor": "Contact form fields, SMS/email appointment consent language, and technical script/host references."
+        },
+        {
+          "url": "https://amp240v.com/amp-electric-home",
+          "usedFor": "Verification that the /amp-electric-home link duplicates the main homepage content."
+        }
+      ],
+      "limitations": [
+        "Exact employee headcount (whether within ForgeX's 10-to-75 staff target range) is not stated on the website.",
+        "Whether AMP Electric currently pays for leads or digital advertising cannot be confirmed from the website alone.",
+        "The website obfuscates the email address behind Cloudflare email protection ([email protected]), leaving phone and web form as the only directly readable contact channels.",
+        "Specific field-service management and accounting software used internally behind the website cannot be observed from public pages.",
+        "State electrical contractor license numbers are not displayed on the website."
+      ]
+    },
+    "qualification": {
+      "category": "pursue later",
+      "rationale": "AMP Electric is an established, owner-led residential and commercial electrical contractor in Nampa, Idaho (operating since 1996, led by Owner [redacted] and General Manager [redacted]). While public pages show factual website maintenance oversights—such as 'Lorem ipsum' placeholder text on the financing page and two different phone numbers on the services page—the company already uses a CRM/booking platform (referencing leadconnectorhq.com) with online scheduling and SMS/email opt-in. Because internal lead-handling problems, staff count (10–75), and paid lead spend are unconfirmed hypotheses rather than verified facts, 'pursue later' is the appropriate qualification."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "At Amp Electric, we are a locally owned and operated family business proudly serving Nampa, Idaho, and the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "Address : 2328 W. Hemingway Blvd.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "Amp Electric - Your Trusted Nampa Electricians Since 1996",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "[redacted] General Manager [redacted] Owner",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "At Amp Electric, we offer a full range of electrical services for residential, commercial, and industrial clients.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "Our services include panel upgrades, rewiring, lighting installation, troubleshooting, electrical repairs, EV charger installations, and more.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "Ensure uninterrupted power during outages with our reliable backup generator installation and maintenance services, tailored to meet your specific needs.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://amp240v.com/electrical-services",
+        "quote": "Smart-home switches, dimmers and plugs, from brands listed below. Lutron Radio RA3 controls, installation and configuration.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "Hours of Operation: Monday - Friday | 7:30 am - 4:30 pm",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "We also provide 24/7 emergency services for critical electrical problems.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "For an onsite estimate in the Treasure Valley, we charge a modest $89 for a 30-minute consultation.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "Amp Electric proudly serves the entire Treasure Valley, including Boise, Meridian, Eagle, Star, Kuna, Nampa, Caldwell, and Middleton.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "Yes, Amp Electric is fully licensed, insured, and certified to perform electrical work.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "We’re happy to provide proof of our credentials upon request.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://amp240v.com/electrician-with-financing",
+        "quote": "Amp Electric, in partnership with Synchrony, offers convenient financing options to help you start your project today and pay over time.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "Our online booking system makes it easy to schedule an appointment for an electrical assessment, repair, install, or project consultation.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://amp240v.com/electrician-with-financing",
+        "quote": "Fill out Application: Lorem ipsum dolor sit amet consectetur. Aliquam odio enim pharetra et. Diam varius magna lobortis consequat elit.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://amp240v.com/electrical-services",
+        "quote": "so if you don’t see what you’re looking for, just give us a call at [redacted].",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://amp240v.com/electrical-services",
+        "quote": "Smart-home switches, dimmers and plugs, from brands listed below.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://amp240v.com/contact-us",
+        "quote": "By providing my phone number & email address, I agree to receive text/email messages about my appointment.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "[redacted] Owner",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://amp240v.com/",
+        "quote": "[redacted] General Manager",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://amp240v.com/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 22,
+      "quotesFound": 22,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 2,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://amp240v.com/",
+      "finalUrl": "https://amp240v.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:47:45.018Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 417744,
+      "truncated": false,
+      "sha256": "86a099cf0e6acd878058ff4927b1dec67e29130ccb7aa51c737db4e51454481c",
+      "textSha256": "f84cee242459d88b6062faa091ed6f320584fd1068c77694f0ddde19aa636ef5",
+      "fromCache": false
+    },
+    {
+      "url": "https://amp240v.com/electrical-services",
+      "finalUrl": "https://amp240v.com/electrical-services",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:47:50.492Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 194128,
+      "truncated": false,
+      "sha256": "9837042826a606e5449eeb6744f5e7869170655c0007ef0d706792b94e884c24",
+      "textSha256": "dbc17fea6cbd3fbfd3abab990b9ad72b520c675f919be4e530fda6eb5220f52d",
+      "fromCache": false
+    },
+    {
+      "url": "https://amp240v.com/electrician-with-financing",
+      "finalUrl": "https://amp240v.com/electrician-with-financing",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:47:53.435Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 261892,
+      "truncated": false,
+      "sha256": "556bcf96876f05169bee99dd94876ac68190a757480a8f93d2975bfbcfc234ac",
+      "textSha256": "7c27a0bb760a73e568005f008dbaf96a68f0a96bfff55ed5ddff72c2550dc87e",
+      "fromCache": false
+    },
+    {
+      "url": "https://amp240v.com/contact-us",
+      "finalUrl": "https://amp240v.com/contact-us",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:47:56.440Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 238592,
+      "truncated": false,
+      "sha256": "d0dc68f00af5bec8438d6aa26db49356fbac588e6ec3d981fb777df0346afa75",
+      "textSha256": "47f7445c33ec81c2ebdd1d614d2d6ac7a652ef5c28c2fcf57e3cb9e8644f3a83",
+      "fromCache": false
+    },
+    {
+      "url": "https://amp240v.com/amp-electric-home",
+      "finalUrl": "https://amp240v.com/amp-electric-home",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:48:00.482Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 417735,
+      "truncated": false,
+      "sha256": "bcd61df6301442115a4d8f8234f779668e6d979b72cb9b42ba47c434982daa11",
+      "textSha256": "f84cee242459d88b6062faa091ed6f320584fd1068c77694f0ddde19aa636ef5",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://amp240v.com/electrical-services",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://amp240v.com/electrician-with-financing",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://amp240v.com/contact-us",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://amp240v.com/amp-electric-home",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 33708,
+    "cachedInput": 12224,
+    "output": 5698,
+    "thinking": 4185,
+    "toolUse": 0,
+    "total": 43591
+  },
+  "costUsd": 0.1430204,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2691825",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://amp240v.com/electrical-services"
+      }
+    },
+    {
+      "id": "call_2691826",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://amp240v.com/electrician-with-financing"
+      }
+    },
+    {
+      "id": "call_2691827",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://amp240v.com/contact-us"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1508525",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://amp240v.com/amp-electric-home"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"AMP Electric\",\n    \"location\": \"2328 W. Hemingway Blvd., Nampa, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"AMP Electric is a locally owned and operated family business based in Nampa, Idaho, serving the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"At Amp Electric, we are a locally owned and operated family business proudly serving Nampa, Idaho, and the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The company's street address is 2328 W. Hemingway Blvd.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"Address : 2328 W. Hemingway Blvd.\"\n      },\n      {\n        \"statement\": \"AMP Electric states it has been operating in Nampa since 1996.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"Amp Electric - Your Trusted Nampa Electricians Since 1996\"\n      },\n      {\n        \"statement\": \"[redacted] is the Owner and [redacted] is the General Manager of AMP Electric.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"[redacted] General Manager [redacted] Owner\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Electrical Contracting (Home and Commercial Services)\",\n    \"activities\": [\n      \"Residential, commercial, and industrial electrical repairs and troubleshooting\",\n      \"Electrical panel upgrades, service changes, and electrical inspections\",\n      \"Lighting, ceiling fan, bath fan, and smart home automation (Lutron Radio RA3) installation\",\n      \"EV charging station installation\",\n      \"Backup generator installation and maintenance\",\n      \"Whole-house surge protection, circuit wiring, low-voltage cabling, and hardwired smoke/CO detector installation\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"AMP Electric provides electrical services to residential, commercial, and industrial customers.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"At Amp Electric, we offer a full range of electrical services for residential, commercial, and industrial clients.\"\n      },\n      {\n        \"statement\": \"Principal services include panel upgrades, rewiring, lighting installation, troubleshooting, electrical repairs, and EV charger installations.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"Our services include panel upgrades, rewiring, lighting installation, troubleshooting, electrical repairs, EV charger installations, and more.\"\n      },\n      {\n        \"statement\": \"The company installs and maintains backup generators.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"Ensure uninterrupted power during outages with our reliable backup generator installation and maintenance services, tailored to meet your specific needs.\"\n      },\n      {\n        \"statement\": \"The company installs and configures Lutron Radio RA3 smart-home controls, switches, dimmers, and plugs.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/electrical-services\",\n        \"quote\": \"Smart-home switches, dimmers and plugs, from brands listed below. Lutron Radio RA3 controls, installation and configuration.\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://amp240v.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"Standard business hours are Monday through Friday from 7:30 am to 4:30 pm.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"Hours of Operation: Monday - Friday | 7:30 am - 4:30 pm\"\n      },\n      {\n        \"statement\": \"AMP Electric advertises 24/7 emergency electrical services as well as same-day or next-day appointments.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"We also provide 24/7 emergency services for critical electrical problems.\"\n      },\n      {\n        \"statement\": \"AMP Electric charges $89 for a 30-minute onsite estimate in the Treasure Valley, credited toward the final bill if hired.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"For an onsite estimate in the Treasure Valley, we charge a modest $89 for a 30-minute consultation.\"\n      },\n      {\n        \"statement\": \"The company serves Boise, Meridian, Eagle, Star, Kuna, Nampa, Caldwell, Middleton, and areas from Mountain Home to Fruitland across Ada and Canyon counties.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"Amp Electric proudly serves the entire Treasure Valley, including Boise, Meridian, Eagle, Star, Kuna, Nampa, Caldwell, and Middleton.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"AMP Electric states on its website that it is licensed, insured, and certified to perform electrical work.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"Yes, Amp Electric is fully licensed, insured, and certified to perform electrical work.\"\n      },\n      {\n        \"statement\": \"The company states that it provides proof of credentials upon request rather than listing license numbers on the website.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"We’re happy to provide proof of our credentials upon request.\"\n      }\n    ],\n    \"limitations\": \"Specific Idaho electrical contractor license numbers and state business registration identifiers are not published on the website and cannot be independently verified solely from the company's public pages.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Synchrony\",\n      \"purpose\": \"Customer project financing\",\n      \"evidence\": {\n        \"statement\": \"AMP Electric partners with Synchrony to offer customer financing for electrical projects.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/electrician-with-financing\",\n        \"quote\": \"Amp Electric, in partnership with Synchrony, offers convenient financing options to help you start your project today and pay over time.\"\n      }\n    },\n    {\n      \"product\": \"Online booking and appointment notification system\",\n      \"purpose\": \"Online appointment scheduling and SMS/email appointment notifications\",\n      \"evidence\": {\n        \"statement\": \"The website states that it provides an online booking system for scheduling consultations, repairs, and installations.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"Our online booking system makes it easy to schedule an appointment for an electrical assessment, repair, install, or project consultation.\"\n      }\n    },\n    {\n      \"product\": \"LeadConnector / GoHighLevel CRM and website builder\",\n      \"purpose\": \"Website hosting, web form capture, and SMS/email lead management\",\n      \"evidence\": {\n        \"statement\": \"The website loads scripts and references from stcdn.leadconnectorhq.com, backend.leadconnectorhq.com, services.leadconnectorhq.com, payment-embed.leadconnectorhq.com, and cdn.msgsndr.com, which likely correspond to the LeadConnector / GoHighLevel platform.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Authorize.Net\",\n      \"purpose\": \"Payment processing\",\n      \"evidence\": {\n        \"statement\": \"The website references js.authorize.net and jstest.authorize.net, which likely indicate Authorize.Net payment integration.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The financing page contains unedited placeholder copy ('Small Call to Action', 'Headline', and 'Lorem ipsum') in the application instructions.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://amp240v.com/electrician-with-financing\",\n      \"quote\": \"Fill out Application: Lorem ipsum dolor sit amet consectetur. Aliquam odio enim pharetra et. Diam varius magna lobortis consequat elit.\"\n    },\n    {\n      \"statement\": \"The services page instructs visitors to call [redacted] in the body text while displaying [redacted] in the header and footer.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://amp240v.com/electrical-services\",\n      \"quote\": \"so if you don’t see what you’re looking for, just give us a call at [redacted].\"\n    },\n    {\n      \"statement\": \"The services page refers twice to smart-home device brands 'listed below', but no brand list is present on the page.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://amp240v.com/electrical-services\",\n      \"quote\": \"Smart-home switches, dimmers and plugs, from brands listed below.\"\n    },\n    {\n      \"statement\": \"The contact form collects consent for text and email appointment messages.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://amp240v.com/contact-us\",\n      \"quote\": \"By providing my phone number & email address, I agree to receive text/email messages about my appointment.\"\n    },\n    {\n      \"statement\": \"The presence of unfinished template text, missing reference lists, and two different phone numbers suggests the website and its underlying CRM/lead workflows may have been only partially configured.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://amp240v.com/electrician-with-financing\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Website pages contain unfinished template text ('Lorem ipsum'), omitted smart-home brand lists, and two different phone numbers ([redacted] and [redacted]).\",\n      \"label\": \"fact\",\n      \"basis\": \"Directly observed on https://amp240v.com/electrician-with-financing and https://amp240v.com/electrical-services.\"\n    },\n    {\n      \"problem\": \"Inbound calls or leads across two published phone numbers, web forms, and after-hours 24/7 emergency inquiries outside the 7:30 am – 4:30 pm weekday office window may not be consistently tracked, answered, or synced into field-service dispatch software.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Plausible operational risk given the two phone numbers on the site, the gap between 7:30 am – 4:30 pm office hours and 24/7 emergency availability, and signs of an incompletely finished website setup, though actual call-handling performance cannot be verified publicly.\"\n    },\n    {\n      \"problem\": \"Leadership may lack a single automated weekly view combining booked revenue, close rates, average ticket, and lead-source ROI across their CRM, field-service system, and accounting software.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Common challenge for owner-led electrical contractors operating multiple systems, though internal reporting practices are not visible on the website.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Built-in CRM and automation workflows on the existing website platform (referencing leadconnectorhq.com / msgsndr.com)\",\n      \"addresses\": \"Instant SMS/email lead response, missed-call text-back, online booking confirmation, and call tracking across phone numbers\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Native reporting in existing field-service management and accounting software\",\n      \"addresses\": \"Job costing, invoice tracking, and basic revenue reporting\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"One-week audit ($500 fixed price, credited toward any fix ordered within 30 days) to measure how many calls, web leads, and $89 consultation requests across both published phone numbers and after-hours windows slip through or fail to convert.\",\n      \"problem\": \"Potential lead and call leakage across multiple phone numbers ([redacted] and [redacted]), unfinished website conversion flows, and after-hours emergency inquiries.\",\n      \"whyNotExistingSoftware\": \"While the company already hosts its site on a platform that supports lead tracking (leadconnectorhq.com), the unfinished pages suggest the platform's tracking and automation workflows may not be fully audited or connected to actual job conversion outcomes.\"\n    },\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"Automated pipeline ($1,800 setup plus $149/month) ensuring every lead from web forms, online booking, and both phone lines gets an instant reply and lands in their field-service or dispatch system within two minutes.\",\n      \"problem\": \"Potential manual re-entry or delayed follow-up between the website CRM and field-service scheduling software.\",\n      \"whyNotExistingSoftware\": \"Web-marketing CRMs typically do not sync natively out-of-the-box with specialized electrical field-service dispatch and estimating software without custom webhook/API bridging.\"\n    },\n    {\n      \"name\": \"Owner's Monday numbers\",\n      \"kind\": \"catalog\",\n      \"description\": \"Automated weekly one-page summary ($1,200 setup plus $99/month) delivering booked revenue, close rate, average ticket, cost per booked job by lead source, and accounts receivable.\",\n      \"problem\": \"Potential fragmentation of lead data, job revenue, and accounting receivables across separate tools.\",\n      \"whyNotExistingSoftware\": \"Requires cross-system data aggregation across ad accounts, the website CRM, field-service dispatch software, and accounting software.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"medium\",\n    \"explanation\": \"The website already runs on a modern web/CRM stack (referencing leadconnectorhq.com and services.leadconnectorhq.com) that supports webhooks and API integrations, making a Revenue Leak Check and Lead-to-job pipeline technically straightforward once the back-office field-service and accounting systems are identified.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"Deterministic workflow automation and API integrations should handle lead routing, instant SMS/email replies, and weekly KPI aggregation; AI agents can assist in classifying unstructured inquiry descriptions (e.g., separating urgent 24/7 electrical emergencies from routine $89 estimate requests) and summarizing call transcripts.\"\n  },\n  \"humanReview\": [\n    \"Owner or General Manager approval of all customer-facing SMS and email response templates prior to activation.\",\n    \"Dispatcher review of any emergency or safety-critical electrical inquiries (such as panel hazards or power outages) rather than relying on automated triage alone.\",\n    \"Verification of mapping rules before writing customer or job records into field-service or accounting software.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated SMS and voice follow-ups must strictly adhere to TCPA opt-in and opt-out rules, even though the contact form already includes an SMS/email consent checkbox.\"\n    },\n    {\n      \"type\": \"operational\",\n      \"description\": \"Misclassifying a 24/7 emergency electrical call or live-wire hazard as a routine consultation could delay urgent response and create safety or liability issues.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Customer contact details, service addresses, and payment/financing references must be handled with least-privilege API credentials and never exposed in unencrypted logs.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": true,\n    \"value\": \"Illustrative consultation fee recovery of $178 to $445 per month ($2,136 to $5,340 per year) in onsite consultation fees alone (2 to 5 recovered consultations per month × $89 published consultation fee), before counting downstream installation or repair revenue if hired.\",\n    \"implementationCost\": \"$500 fixed price for the initial Revenue Leak Check (credited in full toward any fix ordered within 30 days); if needed afterward, $1,800 setup plus $149/month for the Lead-to-job pipeline or $1,200 setup plus $99/month for Owner's Monday numbers.\",\n    \"assumptions\": [\n      \"Uses the site's only published price: $89 for a 30-minute onsite consultation in the Treasure Valley (which is credited toward the final bill if the customer hires AMP Electric).\",\n      \"Assumes 2 to 5 additional inquiries per month are captured and converted into paid $89 onsite consultations through faster response and unified call/form tracking.\",\n      \"Excludes project installation or repair ticket values (such as panel upgrades, EV chargers, or backup generators) because project prices are not published on the website.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"General Manager\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Owner\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"[redacted] Owner\"\n      },\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"General Manager\",\n        \"sourceUrl\": \"https://amp240v.com/\",\n        \"quote\": \"[redacted] General Manager\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://amp240v.com/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"We noticed your site runs on a CRM platform with online booking, but a few pages still have placeholder text and two different phone numbers ([redacted] and [redacted])—are calls and form submissions from both lines routing cleanly into your dispatch schedule right now?\",\n      \"What field-service management and accounting software does your team use once a customer books an $89 consultation or requests an estimate?\",\n      \"How are after-hours and weekend 24/7 emergency electrical calls currently handled and logged when the office is closed after 4:30 pm?\",\n      \"Approximately how many electricians and office staff are on the AMP Electric team today, and are you running paid search or local ads to drive leads?\"\n    ],\n    \"outreachSubject\": \"Quick question on AMP Electric's website & lead routing\",\n    \"outreachBody\": \"Hi [redacted],\\n\\nI was looking through AMP Electric's website (https://amp240v.com/) and noticed a couple of small items on your live pages that might be affecting incoming inquiries:\\n\\n1. Your Financing page (/electrician-with-financing) still has 'Lorem ipsum' placeholder text under the application steps.\\n2. Your Services page (/electrical-services) asks customers to call [redacted] in the text while the rest of the site lists [redacted], and references a list of smart-home brands below that isn't showing up.\\n\\nBecause your site already uses a modern CRM setup for online booking and text/email notifications, you may already have most of the tools you need in place. However, when a site setup is left partway finished by an agency or builder, we often find that missed-call follow-ups, after-hours emergency inquiries, or handoffs into field-service software have silent gaps too.\\n\\nAt ForgeX, we run a fixed-price Revenue Leak Check ($500, credited in full if you ask us to build any fix within 30 days) where we audit one week of calls, web forms, and $89 consultation requests to see if anything is slipping through—or confirm that your current system is already catching everything.\\n\\nIf it would be helpful to compare notes on how your current setup is working, just reply to this email or let me know a good time for a brief call.\\n\\nBest regards,\\n\\n[Founder Name]\\n[Founder Title], ForgeX\\n[ForgeX Phone Number]\\n[ForgeX Physical Postal Address]\\n\\nIf you prefer not to receive future emails from us, simply reply with \\\"unsubscribe\\\" or use [Opt-Out Link/Instructions] and we will remove you immediately.\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://amp240v.com/\",\n        \"usedFor\": \"Business identity, Nampa address, operating history since 1996, leadership names ([redacted], Owner; [redacted], General Manager), services, $89 consultation fee, service area, office hours, 24/7 emergency availability, and online booking claim.\"\n      },\n      {\n        \"url\": \"https://amp240v.com/electrical-services\",\n        \"usedFor\": \"Detailed list of electrical services, Lutron Radio RA3 installation, missing smart-home brand list reference, and secondary phone number ([redacted]).\"\n      },\n      {\n        \"url\": \"https://amp240v.com/electrician-with-financing\",\n        \"usedFor\": \"Synchrony financing partnership and observation of unedited 'Lorem ipsum' template placeholder copy.\"\n      },\n      {\n        \"url\": \"https://amp240v.com/contact-us\",\n        \"usedFor\": \"Contact form fields, SMS/email appointment consent language, and technical script/host references.\"\n      },\n      {\n        \"url\": \"https://amp240v.com/amp-electric-home\",\n        \"usedFor\": \"Verification that the /amp-electric-home link duplicates the main homepage content.\"\n      }\n    ],\n    \"limitations\": [\n      \"Exact employee headcount (whether within ForgeX's 10-to-75 staff target range) is not stated on the website.\",\n      \"Whether AMP Electric currently pays for leads or digital advertising cannot be confirmed from the website alone.\",\n      \"The website obfuscates the email address behind Cloudflare email protection ([email protected]), leaving phone and web form as the only directly readable contact channels.\",\n      \"Specific field-service management and accounting software used internally behind the website cannot be observed from public pages.\",\n      \"State electrical contractor license numbers are not displayed on the website.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue later\",\n    \"rationale\": \"AMP Electric is an established, owner-led residential and commercial electrical contractor in Nampa, Idaho (operating since 1996, led by Owner [redacted] and General Manager [redacted]). While public pages show factual website maintenance oversights—such as 'Lorem ipsum' placeholder text on the financing page and two different phone numbers on the services page—the company already uses a CRM/booking platform (referencing leadconnectorhq.com) with online scheduling and SMS/email opt-in. Because internal lead-handling problems, staff count (10–75), and paid lead spend are unconfirmed hypotheses rather than verified facts, 'pursue later' is the appropriate qualification.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

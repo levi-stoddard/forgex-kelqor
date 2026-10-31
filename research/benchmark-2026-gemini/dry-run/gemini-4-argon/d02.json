@@ -1,0 +1,900 @@
+{
+  "company": {
+    "id": "d02",
+    "name": "Stability Networks",
+    "town": "Meridian",
+    "state": "Idaho",
+    "website": "https://stabilitynetworks.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "startedAt": "2026-10-27T15:46:17.502Z",
+  "finishedAt": "2026-10-27T15:48:45.672Z",
+  "report": {
+    "identity": {
+      "name": "Stability Networks (Stability Networks, Inc.)",
+      "location": "2289 S. Bonito Way, Ste. 150, Meridian, Idaho 83642",
+      "claims": [
+        {
+          "statement": "The company operates under the trade name Stability Networks and identifies its legal controller as Stability Networks, Inc.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/privacy-policy/",
+          "quote": "Trade name: Stability Networks Identity of the controller: Stability Networks, Inc."
+        },
+        {
+          "statement": "Stability Networks is headquartered at 2289 S. Bonito Way, Ste. 150, Meridian, Idaho 83642.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/privacy-policy/",
+          "quote": "Headquarters are located at: 2289 S. Bonito Way, Ste. 150, Meridian, Idaho 83642"
+        },
+        {
+          "statement": "Stability Networks describes itself as a locally owned managed service provider serving the Boise and Treasure Valley region for over 20 years.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/about/",
+          "quote": "Elevate your business with Stability Networks, the largest locally owned MSP of tech companies in Boise, with over 20 years of excellence."
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Information Technology & Managed Services (MSP / IT Consulting & Cybersecurity)",
+      "activities": [
+        "Managed IT services, 24/7 monitoring, and helpdesk support",
+        "Managed cybersecurity, risk assessments, and regulatory compliance support (HIPAA, PCI-DSS)",
+        "Data backup and disaster recovery",
+        "Microsoft 365 solutions, migrations, SharePoint development, and Microsoft Power Platform / Copilot Studio implementation",
+        "Co-managed IT services and hardware acquisition",
+        "Unified communications and Cisco Webex / VoIP implementation"
+      ],
+      "claims": [
+        {
+          "statement": "Stability Networks provides managed IT support including server oversight, network administration, and proactive monitoring.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/",
+          "quote": "Complete system management including server oversight, network administration, and proactive monitoring to prevent issues before they impact your operations."
+        },
+        {
+          "statement": "The company designs, configures, and manages Microsoft 365 environments.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/",
+          "quote": "Expert design, configuration, and management of your Microsoft 365 environment, including security structure for remote workers and data loss protection."
+        },
+        {
+          "statement": "Stability Networks implements low-code applications, automated workflows, dashboards, and AI-powered chatbots using the Microsoft Power Platform.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/microsoft-power-platform/",
+          "quote": "The Microsoft Power Platform is a low-code suite designed to help businesses build custom apps, automate manual processes, create dashboards, and even deploy AI-powered chatbots"
+        },
+        {
+          "statement": "The company provides custom SharePoint development, intranet design, and workflow automation.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/sharepoint-development/",
+          "quote": "At Stability Networks, we design and build SharePoint environments that fit your business perfectly."
+        },
+        {
+          "statement": "Stability Networks offers consulting and implementation services for custom AI agents using Microsoft Copilot Studio.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/",
+          "quote": "Stability Networks can help map out where an agent makes sense for your business and build it correctly the first time."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://stabilitynetworks.com/",
+      "claims": [
+        {
+          "statement": "Stability Networks states that it supports IT for over 200 customers nationwide and monitors over 8,000 devices.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/about/",
+          "quote": "Supports IT for over 200+ customers nationwide Over 8,000 devices under monitoring"
+        },
+        {
+          "statement": "The company serves clients ranging from 10-user offices to multi-location enterprises across healthcare, finance, manufacturing, and professional services.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/managed-it-services/",
+          "quote": "Our clients range from 10-user offices to multi-location enterprises."
+        },
+        {
+          "statement": "Stability Networks markets IT services across Idaho (Meridian, Boise, Nampa, Sun Valley, Caldwell, Parma, Kuna, Middleton, Mountain Home, Twin Falls) and Salt Lake City, Utah.",
+          "label": "inference",
+          "sourceUrl": "https://stabilitynetworks.com/locations/",
+          "quote": null
+        },
+        {
+          "statement": "The company offers 24/7 after-hours emergency support for existing clients.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/contact/",
+          "quote": "After-Hours Emergency 24/7, 365 days. Press “2” and leave a detailed message."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The website privacy policy identifies the corporate legal entity as Stability Networks, Inc.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/privacy-policy/",
+          "quote": "Identity of the controller: Stability Networks, Inc."
+        },
+        {
+          "statement": "Stability Networks states that its team holds Microsoft Modern Workplace certifications and assists clients with HIPAA-HiTECH and PCI-DSS compliance.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/about/",
+          "quote": "As Certified Microsoft 365 Modern Workplace certified experts, we ensure your data is protected with the latest cyber defense technology."
+        },
+        {
+          "statement": "Stability Networks assists clients with federal and state regulatory compliance frameworks.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/about/",
+          "quote": "Assist with Federal and State regulatory bodies, such as HIPAA-HiTECH, PCI-DSS, etc."
+        }
+      ],
+      "limitations": "State corporate registration numbers, municipal business license numbers, and third-party verification of Microsoft partner certifications are not published on the company's website and could not be independently verified from public site pages alone."
+    },
+    "existingSoftware": [
+      {
+        "product": "HaloPSA",
+        "purpose": "Professional Services Automation (PSA), client portal, and IT ticketing/service management",
+        "evidence": {
+          "statement": "Every inspected page references the external host stabilitypartners.halopsa.com for the Client Portal.",
+          "label": "inference",
+          "sourceUrl": "https://stabilitynetworks.com/",
+          "quote": null
+        }
+      },
+      {
+        "product": "HubSpot",
+        "purpose": "Marketing automation, CRM tracking, and analytics integration with WordPress",
+        "evidence": {
+          "statement": "The website loads HubSpot tracking scripts (js-na2.hs-scripts.com/242569938.js) integrated with WordPress.",
+          "label": "inference",
+          "sourceUrl": "https://stabilitynetworks.com/",
+          "quote": null
+        }
+      },
+      {
+        "product": "WordPress (Flatsome Theme & Gravity Forms)",
+        "purpose": "Content management system and web lead capture forms",
+        "evidence": {
+          "statement": "The site loads WordPress core scripts, the Flatsome theme, and Gravity Forms with Google reCAPTCHA on its contact page.",
+          "label": "inference",
+          "sourceUrl": "https://stabilitynetworks.com/contact/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Microsoft 365, SharePoint, Power Platform, and Copilot Studio",
+        "purpose": "Internal and client-facing productivity, collaboration, workflow automation, and custom AI agents",
+        "evidence": {
+          "statement": "Stability Networks is a Microsoft-focused MSP that builds and deploys Microsoft 365, SharePoint, Power Platform, and Copilot Studio solutions.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/microsoft-power-platform/",
+          "quote": "Microsoft-certified experts in governance, security, and solution architecture"
+        }
+      },
+      {
+        "product": "Cloudflare & Google Tag Manager",
+        "purpose": "Web security, email address obfuscation, CDN/analytics, and tag management",
+        "evidence": {
+          "statement": "Pages load Cloudflare email-decode and beacon scripts as well as Google Tag Manager (GTM-5DCZ9GJ).",
+          "label": "inference",
+          "sourceUrl": "https://stabilitynetworks.com/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Trustindex",
+        "purpose": "Google review aggregation widget",
+        "evidence": {
+          "statement": "The homepage and About page load cdn.trustindex.io/loader.js to display verified Google reviews.",
+          "label": "fact",
+          "sourceUrl": "https://stabilitynetworks.com/",
+          "quote": "Trustindex verifies that the original source of the review is Google."
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Stability Networks already markets and delivers workflow automation, dashboards, and AI agent development to its own clients using Microsoft Power Platform, SharePoint, and Copilot Studio.",
+        "label": "fact",
+        "sourceUrl": "https://stabilitynetworks.com/microsoft-power-platform/",
+        "quote": "We help you identify high-impact use cases, develop the right tools, deploy them safely, and ensure long-term management, adoption, and scalability."
+      },
+      {
+        "statement": "The company routes client support through HaloPSA (stabilitypartners.halopsa.com), a specialized support phone number, and a 24/7 emergency line, while separating sales inquiries onto a dedicated phone number and Gravity Forms / HubSpot-tracked contact page.",
+        "label": "inference",
+        "sourceUrl": "https://stabilitynetworks.com/contact/",
+        "quote": null
+      },
+      {
+        "statement": "On the Locations page, the 'Send Resume' link is malformed as 'https://[redacted]/' instead of a 'mailto:' link, and the Privacy Policy contains template placeholder errors (such as mentioning children's websites and truncated verification email text).",
+        "label": "inference",
+        "sourceUrl": "https://stabilitynetworks.com/locations/",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "No confirmed operational or automation deficit was found that would require external SMB automation services; Stability Networks is itself an automation and IT services provider.",
+        "label": "inference",
+        "basis": "Based on https://stabilitynetworks.com/microsoft-power-platform/ and https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/, the company has in-house Microsoft-certified engineers who design and build custom workflows, dashboards, and AI agents."
+      },
+      {
+        "problem": "High volume of inbound client tickets across 200+ customers and 8,000+ monitored endpoints could require ongoing triage and technician dispatch.",
+        "label": "hypothesis",
+        "basis": "Plausible operational reality for a growing MSP of this scale, though customer reviews on the homepage praise fast response times and there is no evidence of a service backlog."
+      },
+      {
+        "problem": "Minor website link and copy hygiene issues exist on secondary pages (e.g., a malformed 'https://[redacted]/' link on the Locations page).",
+        "label": "fact",
+        "basis": "Directly observable in the link structure of https://stabilitynetworks.com/locations/."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "HaloPSA",
+        "addresses": "IT ticketing, dispatch, shared-inbox triage, SLA tracking, client portal, and PSA reporting",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "HubSpot + Gravity Forms",
+        "addresses": "Lead capture, CRM pipeline tracking, and marketing automation",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Microsoft Power Platform & Microsoft Copilot Studio",
+        "addresses": "Internal knowledge assistants, customer support chatbots, document intake, executive dashboards (Power BI), and custom workflow automation",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Microsoft SharePoint",
+        "addresses": "Document management, intranet portals, and approval workflows",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because Stability Networks already owns enterprise PSA/CRM software (HaloPSA, HubSpot) and employs certified engineers who build and sell workflow automation and custom AI agents using Microsoft Power Platform, SharePoint, and Microsoft Copilot Studio."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "While AI agents can handle IT helpdesk triage and internal knowledge retrieval—as Stability Networks itself explains in its blog post on Microsoft Copilot Studio—Stability Networks builds and delivers those exact capabilities in-house."
+    },
+    "humanReview": [
+      "Any automation in an MSP environment requires human engineer approval for security-sensitive actions, firewall/domain changes, and compliance-bound client operations.",
+      "As Stability Networks notes in its own Copilot Studio documentation, newly deployed AI agents require human review of outputs and strict data-access governance before operating autonomously."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Pitching basic SMB automation services to an established 200+-client MSP that sells Microsoft Power Platform and Copilot Studio consulting risks wasting sales effort and appearing uninformed about their business."
+      },
+      {
+        "type": "security",
+        "description": "MSPs manage privileged access across hundreds of client networks; their Master Service Agreement strictly restricts third-party software and unapproved tools in regulated environments."
+      },
+      {
+        "type": "compliance",
+        "description": "Stability Networks supports HIPAA-HiTECH and PCI-DSS regulated clients, meaning any internal or client-facing data processing must adhere to strict regulatory and contractual confidentiality controls."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "Commercial value and implementation cost for ForgeX services cannot be supported because Stability Networks already possesses both the software stack (HaloPSA, HubSpot, Microsoft 365 / Power Platform / Copilot Studio) and the in-house engineering staff to build and maintain automations.",
+        "ForgeX's field-service-oriented catalog (e.g., Lead-to-job pipeline, Owner's Monday numbers from field-service software) is designed for trades and SMBs without internal IT/automation teams, not for a large Microsoft-certified MSP."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Chief Executive Officer / President / Owner",
+        "Vice President of Operations / Service Delivery Manager",
+        "Practice Lead – Microsoft Power Platform & Modern Workplace"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Engineer II",
+          "sourceUrl": "https://stabilitynetworks.com/",
+          "quote": "Just today, [redacted], Engineer II went above and beyond to resolve a Priority 1 domain issue."
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/contact/"
+        },
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/contact/"
+        },
+        {
+          "kind": "phone",
+          "value": "+[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/contact/"
+        },
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/privacy-policy/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://stabilitynetworks.com/contact/",
+          "sourceUrl": "https://stabilitynetworks.com/contact/"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/locations/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "Does your Microsoft Power Platform and Copilot Studio team ever partner with or subcontract to outside specialists when client automation backlogs spike, or is all build work kept strictly in-house?",
+        "Are there non-Microsoft third-party system integrations requested by your SMB clients that fall outside your standard Power Platform and SharePoint scope?",
+        "How are you currently connecting HubSpot, Gravity Forms, and HaloPSA for your own internal sales-to-onboarding handoffs?"
+      ],
+      "outreachSubject": "Question regarding overflow partnership on non-Microsoft automations",
+      "outreachBody": "Hello Stability Networks Team,\n\nI reviewed your Microsoft Power Platform Practice and your recent article on building custom AI agents with Microsoft Copilot Studio. Because you already have an experienced in-house Microsoft engineering team and run HaloPSA and HubSpot, you clearly do not need an outside vendor for standard internal automations.\n\nAt ForgeX, we build fixed-price workflow automations (such as lead-to-job pipelines, invoice intake, and custom integrations) primarily for small and mid-sized businesses using non-Microsoft field-service and accounting tools. \n\nIf your team ever encounters SMB prospects or clients asking for lightweight, fixed-price automations outside your core Microsoft 365 / Power Platform / SharePoint scope—or if you ever look for a referral partner for those requests—I would welcome a brief conversation to see if a mutual referral relationship makes sense.\n\nAlso, as a small courtesy note while browsing your site: the \"Send Resume\" button on https://stabilitynetworks.com/locations/ currently links to \"https://[redacted]/\" rather than a mailto: link.\n\nBest regards,\n\n[FOUNDER_NAME]\n[FOUNDER_TITLE], ForgeX\n[FORGEX_EMAIL] | [FORGEX_PHONE]\n[FORGEX_POSTAL_ADDRESS]\n\nIf you prefer not to receive future emails from us, simply reply with \"Unsubscribe\" or use [OPT_OUT_LINK] and we will promptly remove you from our list."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://stabilitynetworks.com/",
+          "usedFor": "Core business identity, address, phone number, services, HaloPSA/HubSpot/WordPress tech stack, and client reviews naming Engineer II [redacted]."
+        },
+        {
+          "url": "https://stabilitynetworks.com/about/",
+          "usedFor": "Company scale (200+ customers, 8,000+ monitored devices, 20+ years in business), Microsoft certifications, and regulatory compliance capabilities."
+        },
+        {
+          "url": "https://stabilitynetworks.com/contact/",
+          "usedFor": "Sales and support phone numbers, physical address, web form, and Gravity Forms scripts."
+        },
+        {
+          "url": "https://stabilitynetworks.com/locations/",
+          "usedFor": "Service area locations and identification of the [redacted] email address (and malformed link)."
+        },
+        {
+          "url": "https://stabilitynetworks.com/microsoft-power-platform/",
+          "usedFor": "Evidence that Stability Networks already sells and implements workflow automation, custom apps, dashboards, and AI chatbots."
+        },
+        {
+          "url": "https://stabilitynetworks.com/masters-service-agreement/",
+          "usedFor": "Contractual structure, MRC billing model, confidentiality and PII provisions, and restrictions on third-party software."
+        },
+        {
+          "url": "https://stabilitynetworks.com/privacy-policy/",
+          "usedFor": "Legal controller name (Stability Networks, Inc.), headquarters address, and privacy contact phone number."
+        },
+        {
+          "url": "https://stabilitynetworks.com/managed-it-services/",
+          "usedFor": "Target client sizes (10-user offices to multi-location enterprises), industries served, and onboarding timelines."
+        },
+        {
+          "url": "https://stabilitynetworks.com/sharepoint-development/",
+          "usedFor": "Evidence of custom SharePoint development, document management, and Power Platform workflow integration services."
+        },
+        {
+          "url": "https://stabilitynetworks.com/blog/",
+          "usedFor": "Recent technical content demonstrating expertise in AI governance, Microsoft Purview, Security Copilot, and Copilot Studio."
+        },
+        {
+          "url": "https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/",
+          "usedFor": "Direct evidence that Stability Networks builds and scopes custom AI agents for clients using Microsoft Copilot Studio."
+        },
+        {
+          "url": "https://stabilitynetworks.com/it-services-in-meridian/",
+          "usedFor": "Local Meridian service positioning and confirmation of 25+ years of team experience."
+        }
+      ],
+      "limitations": [
+        "Executive leadership and owner names are not published on any of the inspected pages on stabilitynetworks.com.",
+        "Email addresses on the Contact and Privacy Policy pages are masked by Cloudflare email protection ([email protected]), leaving only [redacted] visible in link targets.",
+        "Internal operational metrics (such as internal ticket resolution times, sales close rates, or accounting software used) are not publicly visible.",
+        "State business registration records and official Microsoft Partner directory listings reside on external sites and could not be checked using the company-domain fetcher."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Stability Networks (Stability Networks, Inc.) is an established Managed Service Provider (200+ customers, 8,000+ monitored devices) that already uses HaloPSA and HubSpot internally and actively sells workflow automation, SharePoint development, Microsoft Power Platform, and Microsoft Copilot Studio AI agent consulting to its own clients. They already own the necessary enterprise tools and employ certified engineers to build automations, making them a peer/competitor in automation delivery rather than a prospect for ForgeX's fixed-price SMB catalog."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://stabilitynetworks.com/privacy-policy/",
+        "quote": "Trade name: Stability Networks Identity of the controller: Stability Networks, Inc.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://stabilitynetworks.com/privacy-policy/",
+        "quote": "Headquarters are located at: 2289 S. Bonito Way, Ste. 150, Meridian, Idaho 83642",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://stabilitynetworks.com/about/",
+        "quote": "Elevate your business with Stability Networks, the largest locally owned MSP of tech companies in Boise, with over 20 years of excellence.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://stabilitynetworks.com/",
+        "quote": "Complete system management including server oversight, network administration, and proactive monitoring to prevent issues before they impact your operations.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://stabilitynetworks.com/",
+        "quote": "Expert design, configuration, and management of your Microsoft 365 environment, including security structure for remote workers and data loss protection.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://stabilitynetworks.com/microsoft-power-platform/",
+        "quote": "The Microsoft Power Platform is a low-code suite designed to help businesses build custom apps, automate manual processes, create dashboards, and even deploy AI-powered chatbots",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://stabilitynetworks.com/sharepoint-development/",
+        "quote": "At Stability Networks, we design and build SharePoint environments that fit your business perfectly.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/",
+        "quote": "Stability Networks can help map out where an agent makes sense for your business and build it correctly the first time.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://stabilitynetworks.com/about/",
+        "quote": "Supports IT for over 200+ customers nationwide Over 8,000 devices under monitoring",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://stabilitynetworks.com/managed-it-services/",
+        "quote": "Our clients range from 10-user offices to multi-location enterprises.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://stabilitynetworks.com/contact/",
+        "quote": "After-Hours Emergency 24/7, 365 days. Press “2” and leave a detailed message.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://stabilitynetworks.com/privacy-policy/",
+        "quote": "Identity of the controller: Stability Networks, Inc.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://stabilitynetworks.com/about/",
+        "quote": "As Certified Microsoft 365 Modern Workplace certified experts, we ensure your data is protected with the latest cyber defense technology.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://stabilitynetworks.com/about/",
+        "quote": "Assist with Federal and State regulatory bodies, such as HIPAA-HiTECH, PCI-DSS, etc.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://stabilitynetworks.com/microsoft-power-platform/",
+        "quote": "Microsoft-certified experts in governance, security, and solution architecture",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://stabilitynetworks.com/",
+        "quote": "Trustindex verifies that the original source of the review is Google.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://stabilitynetworks.com/microsoft-power-platform/",
+        "quote": "We help you identify high-impact use cases, develop the right tools, deploy them safely, and ensure long-term management, adoption, and scalability.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://stabilitynetworks.com/",
+        "quote": "Just today, [redacted], Engineer II went above and beyond to resolve a Priority 1 domain issue.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://stabilitynetworks.com/contact/",
+        "verdict": "found"
+      },
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://stabilitynetworks.com/contact/",
+        "verdict": "found"
+      },
+      {
+        "kind": "phone",
+        "value": "+[redacted]",
+        "sourceUrl": "https://stabilitynetworks.com/contact/",
+        "verdict": "found"
+      },
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://stabilitynetworks.com/privacy-policy/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://stabilitynetworks.com/contact/",
+        "sourceUrl": "https://stabilitynetworks.com/contact/",
+        "verdict": "found"
+      },
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://stabilitynetworks.com/locations/",
+        "verdict": "not found"
+      }
+    ],
+    "summary": {
+      "facts": 18,
+      "quotesFound": 18,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 7,
+      "hypotheses": 0,
+      "channelsFound": 5,
+      "channelsNotFound": 1
+    }
+  },
+  "sources": [
+    {
+      "url": "https://stabilitynetworks.com/",
+      "finalUrl": "https://stabilitynetworks.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:46:22.097Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185817,
+      "truncated": false,
+      "sha256": "e8fbcc99aec97f037a4abb1bb544181463a460c8e72d74574e083dfdbe252f58",
+      "textSha256": "d6c181d956c476abb432240d781ecaca18a7da301f76d332e09f004db071a3dd"
+    },
+    {
+      "url": "https://stabilitynetworks.com/about/",
+      "finalUrl": "https://stabilitynetworks.com/about/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:46:38.996Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 167425,
+      "truncated": false,
+      "sha256": "d094449584a26de67b0b3143816182a9bbd15baaa533b5010436641c5146bc84",
+      "textSha256": "048195556f91d2a83415920c5ff8028e21232ad0930bf927ae64f24a16579a39"
+    },
+    {
+      "url": "https://stabilitynetworks.com/contact/",
+      "finalUrl": "https://stabilitynetworks.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:46:41.582Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 121087,
+      "truncated": false,
+      "sha256": "91ca2bd2f9d02fc47977234e89302976d12ca67087f98a79b5518bc5b6f84cf9",
+      "textSha256": "0aa39094843cf519f9d8a5e4fa4389b740692d70760f123ccaeecc104cf603af"
+    },
+    {
+      "url": "https://stabilitynetworks.com/locations/",
+      "finalUrl": "https://stabilitynetworks.com/locations/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:46:44.625Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 109555,
+      "truncated": false,
+      "sha256": "5fb1c6fdf0fdbe8e33fda11fe1a2511c30b062094e14bf92cf262ca13be502c4",
+      "textSha256": "4aefffe9ca1c9d2aa3abc3ef954a3eca5c4fc6cd0963383d650b77164b5248d7"
+    },
+    {
+      "url": "https://stabilitynetworks.com/microsoft-power-platform/",
+      "finalUrl": "https://stabilitynetworks.com/microsoft-power-platform/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:46:47.596Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 117343,
+      "truncated": false,
+      "sha256": "5c6762223ac25f7b3529beda87842d41f2179dcdf1b0baf7393dae58dbd20909",
+      "textSha256": "88284e80fec9bc109a1558ae0b9a33871f2f7242c6698c3974cdd4c74217af10"
+    },
+    {
+      "url": "https://stabilitynetworks.com/masters-service-agreement/",
+      "finalUrl": "https://stabilitynetworks.com/masters-service-agreement/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:46:50.904Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 123396,
+      "truncated": false,
+      "sha256": "34e5484b036ef6c2822ef99dccbb202079f0b610a5da49e3bb553e681587149d",
+      "textSha256": "873641da3246810ddee67b83b187cb9845b7c4d23af3e593b972476e4670ceba"
+    },
+    {
+      "url": "https://stabilitynetworks.com/privacy-policy",
+      "finalUrl": "https://stabilitynetworks.com/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:47:00.201Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 124189,
+      "truncated": false,
+      "sha256": "b8f8ba7d7745300de0bb4f61da1b9df79f729cc9d76d07ffd64b551da007367f",
+      "textSha256": "75fb35ff0e57316cfa2a22bbf34fdd334e4c2f7b13c544b196595e8740cf35cb"
+    },
+    {
+      "url": "https://stabilitynetworks.com/managed-it-services/",
+      "finalUrl": "https://stabilitynetworks.com/managed-it-services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:47:03.154Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 153971,
+      "truncated": false,
+      "sha256": "2a28e29e031e2120f2f15ed24ee1b50b790b4415b26177565a85040729b6b32a",
+      "textSha256": "0e92b6072d1522e9bd3a176991d50c26619e47ed106f0d55a9086003247909a3"
+    },
+    {
+      "url": "https://stabilitynetworks.com/sharepoint-development/",
+      "finalUrl": "https://stabilitynetworks.com/sharepoint-development/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:47:06.348Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 126975,
+      "truncated": false,
+      "sha256": "95be6afdc8aed16da128d8e7664a9281697095292a5fd2eddcc9985cd12d139b",
+      "textSha256": "3dfe7314e7df3ed563a713f60cea697037fd4287dde1bc11439b49c1397d8959"
+    },
+    {
+      "url": "https://stabilitynetworks.com/blog/",
+      "finalUrl": "https://stabilitynetworks.com/blog/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:47:09.594Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 135243,
+      "truncated": false,
+      "sha256": "6a459fc0917f164b05c152022532cc7426525a4ad4b495eb192e94b962130f08",
+      "textSha256": "6bef91978bb1ec260d87c3e36f93add9e6d2493978f0643ab12c0b0783f341dc"
+    },
+    {
+      "url": "https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/",
+      "finalUrl": "https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:47:29.223Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 110700,
+      "truncated": false,
+      "sha256": "c096c280ee9cc9868ad3a09cdaaee4be4db7bac195af66352d640baf6f2702d5",
+      "textSha256": "c28c800b33effadd2e29cec7adfcd246de046601968aa517d91f796291365b58"
+    },
+    {
+      "url": "https://stabilitynetworks.com/it-services-in-meridian/",
+      "finalUrl": "https://stabilitynetworks.com/it-services-in-meridian/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:47:32.011Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 135226,
+      "truncated": false,
+      "sha256": "46560099ca9704dfd817b22f59731c6c5f41b0aadddb0ada7d686a1b456fd233",
+      "textSha256": "93b1ea5405b7c16c154c040be09fabef57ec9a24d36f3c9956a2f130e813a3d8"
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://stabilitynetworks.com/about/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/locations/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/microsoft-power-platform/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/masters-service-agreement/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/privacy-policy",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/managed-it-services/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/sharepoint-development/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/blog/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://stabilitynetworks.com/it-services-in-meridian/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 4,
+  "usage": {
+    "input": 126530,
+    "cachedInput": 68531,
+    "output": 5851,
+    "thinking": 1144,
+    "toolUse": 0,
+    "total": 133525
+  },
+  "costUsd": 0.1928011,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2948743",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/about/"
+      }
+    },
+    {
+      "id": "call_2948744",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/contact/"
+      }
+    },
+    {
+      "id": "call_2948745",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/locations/"
+      }
+    },
+    {
+      "id": "call_2948746",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/microsoft-power-platform/"
+      }
+    },
+    {
+      "id": "call_2948747",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/masters-service-agreement/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1800201",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/privacy-policy"
+      }
+    },
+    {
+      "id": "call_1800202",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/managed-it-services/"
+      }
+    },
+    {
+      "id": "call_1800203",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/sharepoint-development/"
+      }
+    },
+    {
+      "id": "call_1800204",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/blog/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1070066",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/"
+      }
+    },
+    {
+      "id": "call_1070067",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://stabilitynetworks.com/it-services-in-meridian/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Stability Networks (Stability Networks, Inc.)\",\n    \"location\": \"2289 S. Bonito Way, Ste. 150, Meridian, Idaho 83642\",\n    \"claims\": [\n      {\n        \"statement\": \"The company operates under the trade name Stability Networks and identifies its legal controller as Stability Networks, Inc.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/privacy-policy/\",\n        \"quote\": \"Trade name: Stability Networks Identity of the controller: Stability Networks, Inc.\"\n      },\n      {\n        \"statement\": \"Stability Networks is headquartered at 2289 S. Bonito Way, Ste. 150, Meridian, Idaho 83642.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/privacy-policy/\",\n        \"quote\": \"Headquarters are located at: 2289 S. Bonito Way, Ste. 150, Meridian, Idaho 83642\"\n      },\n      {\n        \"statement\": \"Stability Networks describes itself as a locally owned managed service provider serving the Boise and Treasure Valley region for over 20 years.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/about/\",\n        \"quote\": \"Elevate your business with Stability Networks, the largest locally owned MSP of tech companies in Boise, with over 20 years of excellence.\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Information Technology & Managed Services (MSP / IT Consulting & Cybersecurity)\",\n    \"activities\": [\n      \"Managed IT services, 24/7 monitoring, and helpdesk support\",\n      \"Managed cybersecurity, risk assessments, and regulatory compliance support (HIPAA, PCI-DSS)\",\n      \"Data backup and disaster recovery\",\n      \"Microsoft 365 solutions, migrations, SharePoint development, and Microsoft Power Platform / Copilot Studio implementation\",\n      \"Co-managed IT services and hardware acquisition\",\n      \"Unified communications and Cisco Webex / VoIP implementation\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Stability Networks provides managed IT support including server oversight, network administration, and proactive monitoring.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/\",\n        \"quote\": \"Complete system management including server oversight, network administration, and proactive monitoring to prevent issues before they impact your operations.\"\n      },\n      {\n        \"statement\": \"The company designs, configures, and manages Microsoft 365 environments.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/\",\n        \"quote\": \"Expert design, configuration, and management of your Microsoft 365 environment, including security structure for remote workers and data loss protection.\"\n      },\n      {\n        \"statement\": \"Stability Networks implements low-code applications, automated workflows, dashboards, and AI-powered chatbots using the Microsoft Power Platform.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/microsoft-power-platform/\",\n        \"quote\": \"The Microsoft Power Platform is a low-code suite designed to help businesses build custom apps, automate manual processes, create dashboards, and even deploy AI-powered chatbots\"\n      },\n      {\n        \"statement\": \"The company provides custom SharePoint development, intranet design, and workflow automation.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/sharepoint-development/\",\n        \"quote\": \"At Stability Networks, we design and build SharePoint environments that fit your business perfectly.\"\n      },\n      {\n        \"statement\": \"Stability Networks offers consulting and implementation services for custom AI agents using Microsoft Copilot Studio.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/\",\n        \"quote\": \"Stability Networks can help map out where an agent makes sense for your business and build it correctly the first time.\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://stabilitynetworks.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"Stability Networks states that it supports IT for over 200 customers nationwide and monitors over 8,000 devices.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/about/\",\n        \"quote\": \"Supports IT for over 200+ customers nationwide Over 8,000 devices under monitoring\"\n      },\n      {\n        \"statement\": \"The company serves clients ranging from 10-user offices to multi-location enterprises across healthcare, finance, manufacturing, and professional services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/managed-it-services/\",\n        \"quote\": \"Our clients range from 10-user offices to multi-location enterprises.\"\n      },\n      {\n        \"statement\": \"Stability Networks markets IT services across Idaho (Meridian, Boise, Nampa, Sun Valley, Caldwell, Parma, Kuna, Middleton, Mountain Home, Twin Falls) and Salt Lake City, Utah.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/locations/\",\n        \"quote\": null\n      },\n      {\n        \"statement\": \"The company offers 24/7 after-hours emergency support for existing clients.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/contact/\",\n        \"quote\": \"After-Hours Emergency 24/7, 365 days. Press “2” and leave a detailed message.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The website privacy policy identifies the corporate legal entity as Stability Networks, Inc.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/privacy-policy/\",\n        \"quote\": \"Identity of the controller: Stability Networks, Inc.\"\n      },\n      {\n        \"statement\": \"Stability Networks states that its team holds Microsoft Modern Workplace certifications and assists clients with HIPAA-HiTECH and PCI-DSS compliance.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/about/\",\n        \"quote\": \"As Certified Microsoft 365 Modern Workplace certified experts, we ensure your data is protected with the latest cyber defense technology.\"\n      },\n      {\n        \"statement\": \"Stability Networks assists clients with federal and state regulatory compliance frameworks.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/about/\",\n        \"quote\": \"Assist with Federal and State regulatory bodies, such as HIPAA-HiTECH, PCI-DSS, etc.\"\n      }\n    ],\n    \"limitations\": \"State corporate registration numbers, municipal business license numbers, and third-party verification of Microsoft partner certifications are not published on the company's website and could not be independently verified from public site pages alone.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"HaloPSA\",\n      \"purpose\": \"Professional Services Automation (PSA), client portal, and IT ticketing/service management\",\n      \"evidence\": {\n        \"statement\": \"Every inspected page references the external host stabilitypartners.halopsa.com for the Client Portal.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"HubSpot\",\n      \"purpose\": \"Marketing automation, CRM tracking, and analytics integration with WordPress\",\n      \"evidence\": {\n        \"statement\": \"The website loads HubSpot tracking scripts (js-na2.hs-scripts.com/242569938.js) integrated with WordPress.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"WordPress (Flatsome Theme & Gravity Forms)\",\n      \"purpose\": \"Content management system and web lead capture forms\",\n      \"evidence\": {\n        \"statement\": \"The site loads WordPress core scripts, the Flatsome theme, and Gravity Forms with Google reCAPTCHA on its contact page.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/contact/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Microsoft 365, SharePoint, Power Platform, and Copilot Studio\",\n      \"purpose\": \"Internal and client-facing productivity, collaboration, workflow automation, and custom AI agents\",\n      \"evidence\": {\n        \"statement\": \"Stability Networks is a Microsoft-focused MSP that builds and deploys Microsoft 365, SharePoint, Power Platform, and Copilot Studio solutions.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/microsoft-power-platform/\",\n        \"quote\": \"Microsoft-certified experts in governance, security, and solution architecture\"\n      }\n    },\n    {\n      \"product\": \"Cloudflare & Google Tag Manager\",\n      \"purpose\": \"Web security, email address obfuscation, CDN/analytics, and tag management\",\n      \"evidence\": {\n        \"statement\": \"Pages load Cloudflare email-decode and beacon scripts as well as Google Tag Manager (GTM-5DCZ9GJ).\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Trustindex\",\n      \"purpose\": \"Google review aggregation widget\",\n      \"evidence\": {\n        \"statement\": \"The homepage and About page load cdn.trustindex.io/loader.js to display verified Google reviews.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/\",\n        \"quote\": \"Trustindex verifies that the original source of the review is Google.\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Stability Networks already markets and delivers workflow automation, dashboards, and AI agent development to its own clients using Microsoft Power Platform, SharePoint, and Copilot Studio.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://stabilitynetworks.com/microsoft-power-platform/\",\n      \"quote\": \"We help you identify high-impact use cases, develop the right tools, deploy them safely, and ensure long-term management, adoption, and scalability.\"\n    },\n    {\n      \"statement\": \"The company routes client support through HaloPSA (stabilitypartners.halopsa.com), a specialized support phone number, and a 24/7 emergency line, while separating sales inquiries onto a dedicated phone number and Gravity Forms / HubSpot-tracked contact page.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://stabilitynetworks.com/contact/\",\n      \"quote\": null\n    },\n    {\n      \"statement\": \"On the Locations page, the 'Send Resume' link is malformed as 'https://[redacted]/' instead of a 'mailto:' link, and the Privacy Policy contains template placeholder errors (such as mentioning children's websites and truncated verification email text).\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://stabilitynetworks.com/locations/\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"No confirmed operational or automation deficit was found that would require external SMB automation services; Stability Networks is itself an automation and IT services provider.\",\n      \"label\": \"inference\",\n      \"basis\": \"Based on https://stabilitynetworks.com/microsoft-power-platform/ and https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/, the company has in-house Microsoft-certified engineers who design and build custom workflows, dashboards, and AI agents.\"\n    },\n    {\n      \"problem\": \"High volume of inbound client tickets across 200+ customers and 8,000+ monitored endpoints could require ongoing triage and technician dispatch.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Plausible operational reality for a growing MSP of this scale, though customer reviews on the homepage praise fast response times and there is no evidence of a service backlog.\"\n    },\n    {\n      \"problem\": \"Minor website link and copy hygiene issues exist on secondary pages (e.g., a malformed 'https://[redacted]/' link on the Locations page).\",\n      \"label\": \"fact\",\n      \"basis\": \"Directly observable in the link structure of https://stabilitynetworks.com/locations/.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"HaloPSA\",\n      \"addresses\": \"IT ticketing, dispatch, shared-inbox triage, SLA tracking, client portal, and PSA reporting\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"HubSpot + Gravity Forms\",\n      \"addresses\": \"Lead capture, CRM pipeline tracking, and marketing automation\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Microsoft Power Platform & Microsoft Copilot Studio\",\n      \"addresses\": \"Internal knowledge assistants, customer support chatbots, document intake, executive dashboards (Power BI), and custom workflow automation\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Microsoft SharePoint\",\n      \"addresses\": \"Document management, intranet portals, and approval workflows\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because Stability Networks already owns enterprise PSA/CRM software (HaloPSA, HubSpot) and employs certified engineers who build and sell workflow automation and custom AI agents using Microsoft Power Platform, SharePoint, and Microsoft Copilot Studio.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"While AI agents can handle IT helpdesk triage and internal knowledge retrieval—as Stability Networks itself explains in its blog post on Microsoft Copilot Studio—Stability Networks builds and delivers those exact capabilities in-house.\"\n  },\n  \"humanReview\": [\n    \"Any automation in an MSP environment requires human engineer approval for security-sensitive actions, firewall/domain changes, and compliance-bound client operations.\",\n    \"As Stability Networks notes in its own Copilot Studio documentation, newly deployed AI agents require human review of outputs and strict data-access governance before operating autonomously.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Pitching basic SMB automation services to an established 200+-client MSP that sells Microsoft Power Platform and Copilot Studio consulting risks wasting sales effort and appearing uninformed about their business.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"MSPs manage privileged access across hundreds of client networks; their Master Service Agreement strictly restricts third-party software and unapproved tools in regulated environments.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Stability Networks supports HIPAA-HiTECH and PCI-DSS regulated clients, meaning any internal or client-facing data processing must adhere to strict regulatory and contractual confidentiality controls.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"Commercial value and implementation cost for ForgeX services cannot be supported because Stability Networks already possesses both the software stack (HaloPSA, HubSpot, Microsoft 365 / Power Platform / Copilot Studio) and the in-house engineering staff to build and maintain automations.\",\n      \"ForgeX's field-service-oriented catalog (e.g., Lead-to-job pipeline, Owner's Monday numbers from field-service software) is designed for trades and SMBs without internal IT/automation teams, not for a large Microsoft-certified MSP.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Chief Executive Officer / President / Owner\",\n      \"Vice President of Operations / Service Delivery Manager\",\n      \"Practice Lead – Microsoft Power Platform & Modern Workplace\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Engineer II\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/\",\n        \"quote\": \"Just today, [redacted], Engineer II went above and beyond to resolve a Priority 1 domain issue.\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/contact/\"\n      },\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/contact/\"\n      },\n      {\n        \"kind\": \"phone\",\n        \"value\": \"+[redacted]\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/contact/\"\n      },\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/privacy-policy/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://stabilitynetworks.com/contact/\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/contact/\"\n      },\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://stabilitynetworks.com/locations/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"Does your Microsoft Power Platform and Copilot Studio team ever partner with or subcontract to outside specialists when client automation backlogs spike, or is all build work kept strictly in-house?\",\n      \"Are there non-Microsoft third-party system integrations requested by your SMB clients that fall outside your standard Power Platform and SharePoint scope?\",\n      \"How are you currently connecting HubSpot, Gravity Forms, and HaloPSA for your own internal sales-to-onboarding handoffs?\"\n    ],\n    \"outreachSubject\": \"Question regarding overflow partnership on non-Microsoft automations\",\n    \"outreachBody\": \"Hello Stability Networks Team,\\n\\nI reviewed your Microsoft Power Platform Practice and your recent article on building custom AI agents with Microsoft Copilot Studio. Because you already have an experienced in-house Microsoft engineering team and run HaloPSA and HubSpot, you clearly do not need an outside vendor for standard internal automations.\\n\\nAt ForgeX, we build fixed-price workflow automations (such as lead-to-job pipelines, invoice intake, and custom integrations) primarily for small and mid-sized businesses using non-Microsoft field-service and accounting tools. \\n\\nIf your team ever encounters SMB prospects or clients asking for lightweight, fixed-price automations outside your core Microsoft 365 / Power Platform / SharePoint scope—or if you ever look for a referral partner for those requests—I would welcome a brief conversation to see if a mutual referral relationship makes sense.\\n\\nAlso, as a small courtesy note while browsing your site: the \\\"Send Resume\\\" button on https://stabilitynetworks.com/locations/ currently links to \\\"https://[redacted]/\\\" rather than a mailto: link.\\n\\nBest regards,\\n\\n[FOUNDER_NAME]\\n[FOUNDER_TITLE], ForgeX\\n[FORGEX_EMAIL] | [FORGEX_PHONE]\\n[FORGEX_POSTAL_ADDRESS]\\n\\nIf you prefer not to receive future emails from us, simply reply with \\\"Unsubscribe\\\" or use [OPT_OUT_LINK] and we will promptly remove you from our list.\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://stabilitynetworks.com/\",\n        \"usedFor\": \"Core business identity, address, phone number, services, HaloPSA/HubSpot/WordPress tech stack, and client reviews naming Engineer II [redacted].\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/about/\",\n        \"usedFor\": \"Company scale (200+ customers, 8,000+ monitored devices, 20+ years in business), Microsoft certifications, and regulatory compliance capabilities.\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/contact/\",\n        \"usedFor\": \"Sales and support phone numbers, physical address, web form, and Gravity Forms scripts.\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/locations/\",\n        \"usedFor\": \"Service area locations and identification of the [redacted] email address (and malformed link).\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/microsoft-power-platform/\",\n        \"usedFor\": \"Evidence that Stability Networks already sells and implements workflow automation, custom apps, dashboards, and AI chatbots.\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/masters-service-agreement/\",\n        \"usedFor\": \"Contractual structure, MRC billing model, confidentiality and PII provisions, and restrictions on third-party software.\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/privacy-policy/\",\n        \"usedFor\": \"Legal controller name (Stability Networks, Inc.), headquarters address, and privacy contact phone number.\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/managed-it-services/\",\n        \"usedFor\": \"Target client sizes (10-user offices to multi-location enterprises), industries served, and onboarding timelines.\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/sharepoint-development/\",\n        \"usedFor\": \"Evidence of custom SharePoint development, document management, and Power Platform workflow integration services.\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/blog/\",\n        \"usedFor\": \"Recent technical content demonstrating expertise in AI governance, Microsoft Purview, Security Copilot, and Copilot Studio.\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/\",\n        \"usedFor\": \"Direct evidence that Stability Networks builds and scopes custom AI agents for clients using Microsoft Copilot Studio.\"\n      },\n      {\n        \"url\": \"https://stabilitynetworks.com/it-services-in-meridian/\",\n        \"usedFor\": \"Local Meridian service positioning and confirmation of 25+ years of team experience.\"\n      }\n    ],\n    \"limitations\": [\n      \"Executive leadership and owner names are not published on any of the inspected pages on stabilitynetworks.com.\",\n      \"Email addresses on the Contact and Privacy Policy pages are masked by Cloudflare email protection ([email protected]), leaving only [redacted] visible in link targets.\",\n      \"Internal operational metrics (such as internal ticket resolution times, sales close rates, or accounting software used) are not publicly visible.\",\n      \"State business registration records and official Microsoft Partner directory listings reside on external sites and could not be checked using the company-domain fetcher.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Stability Networks (Stability Networks, Inc.) is an established Managed Service Provider (200+ customers, 8,000+ monitored devices) that already uses HaloPSA and HubSpot internally and actively sells workflow automation, SharePoint development, Microsoft Power Platform, and Microsoft Copilot Studio AI agent consulting to its own clients. They already own the necessary enterprise tools and employ certified engineers to build automations, making them a peer/competitor in automation delivery rather than a prospect for ForgeX's fixed-price SMB catalog.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

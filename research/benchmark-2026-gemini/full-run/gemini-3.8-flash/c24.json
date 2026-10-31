@@ -1,0 +1,617 @@
+{
+  "company": {
+    "id": "c24",
+    "name": "Keeley Builders",
+    "town": "Treasure Valley (no street address published)",
+    "state": "Idaho",
+    "website": "https://www.keeleybuilders.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:36:42.936Z",
+  "finishedAt": "2026-10-27T19:38:09.064Z",
+  "report": {
+    "identity": {
+      "name": "Keeley Builders",
+      "location": "Treasure Valley, Idaho",
+      "claims": [
+        {
+          "statement": "Keeley Builders is a small local business specializing in remodeling, handyman work, and flooring in the Boise area.",
+          "label": "fact",
+          "sourceUrl": "https://www.keeleybuilders.com/",
+          "quote": "Keeley Builders is a small, local business specializing in custom kitchen and bath remodeling, handyman services, and flooring installation"
+        },
+        {
+          "statement": "The business serves Boise, Eagle, Star, Meridian, Caldwell, Nampa, Kuna, Middleton, and the Treasure Valley region.",
+          "label": "fact",
+          "sourceUrl": "https://www.keeleybuilders.com/contact-us",
+          "quote": "Boise , Eagle , Star , Meridian , Caldwell , Nampa , Kuna , Middleton and all surrounding Treasure Valley, ID areas."
+        },
+        {
+          "statement": "The company was previously known as Keeley Enterprises.",
+          "label": "fact",
+          "sourceUrl": "https://www.keeleybuilders.com/about-us",
+          "quote": "Keeley Builders, previously known as Keeley Enterprises, is a small business based in the Boise, ID area"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential Remodeling, Handyman Services, and Home Construction",
+      "activities": [
+        "Custom kitchen and bathroom renovations",
+        "Basement finishing and home additions",
+        "Hardwood and LVP flooring installation",
+        "Interior and exterior painting",
+        "General handyman repairs and home maintenance",
+        "Affordable starter home and custom new construction"
+      ],
+      "claims": [
+        {
+          "statement": "The company provides comprehensive residential remodeling services including kitchens, bathrooms, basements, additions, and painting.",
+          "label": "fact",
+          "sourceUrl": "https://www.keeleybuilders.com/about-us",
+          "quote": "We offer complete residential remodeling services , including kitchen and bathroom renovations, basement finishing , home additions , whole-home remodeling, floor installation , and interior or exterior painting ."
+        },
+        {
+          "statement": "The business performs handyman maintenance tasks alongside residential remodeling and new construction.",
+          "label": "fact",
+          "sourceUrl": "https://www.keeleybuilders.com/handyman-services",
+          "quote": "While his teams skills go beyond general handyman services to residential remodeling and new home construction , he and his team are pros at handyman work."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.keeleybuilders.com/",
+      "claims": [
+        {
+          "statement": "The company website was designed by Surge Web Design.",
+          "label": "fact",
+          "sourceUrl": "https://www.keeleybuilders.com/",
+          "quote": "Designed by Surge Web Design."
+        },
+        {
+          "statement": "The business operates from 8:00 AM to 5:00 PM, Monday through Friday.",
+          "label": "fact",
+          "sourceUrl": "https://www.keeleybuilders.com/contact-us",
+          "quote": "8:00 AM – 5:00 PM, Monday-Friday"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Owner [redacted] is described on the website as a certified handyman with years of repair experience.",
+          "label": "fact",
+          "sourceUrl": "https://www.keeleybuilders.com/handyman-services",
+          "quote": "[redacted] of Keeley Builders is not only a certified handyman but has years and years of experience in general home repair and maintenance."
+        },
+        {
+          "statement": "The website does not display a specific Idaho contractor registration or specialty trade license number.",
+          "label": "inference",
+          "sourceUrl": "https://www.keeleybuilders.com/",
+          "quote": null
+        }
+      ],
+      "limitations": "The site mentions the owner is a certified handyman but does not publish formal state licensing numbers or corporate registration identifiers."
+    },
+    "existingSoftware": [
+      {
+        "product": "Surge Web Design CMS",
+        "purpose": "Website design, hosting, and content delivery",
+        "evidence": {
+          "statement": "The website footer confirms the site is designed and hosted via Surge Web Design.",
+          "label": "fact",
+          "sourceUrl": "https://www.keeleybuilders.com/",
+          "quote": "Designed by Surge Web Design."
+        }
+      },
+      {
+        "product": "Contractor Foreman (embed.contractorforeman.com)",
+        "purpose": "Web lead capture form iframe integration",
+        "evidence": {
+          "statement": "The Contact Us page embeds a lead capture form hosted at embed.contractorforeman.com, hypothesized to be the Contractor Foreman construction software suite.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Prospective clients are prompted to call by phone or submit an online request for project estimates.",
+        "label": "fact",
+        "sourceUrl": "https://www.keeleybuilders.com/",
+        "quote": "Call our home renovation company at [redacted] or contact us online for more information about our services and to set up an appointment"
+      },
+      {
+        "statement": "The business emphasizes personalized, owner-led service as a small local firm.",
+        "label": "fact",
+        "sourceUrl": "https://www.keeleybuilders.com/",
+        "quote": "Keeley Builders is a small, local business specializing in custom kitchen and bath remodeling, handyman services, and flooring installation"
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Company operates in general remodeling, handyman work, and home construction rather than ForgeX's target HVAC, plumbing, or electrical sectors.",
+        "label": "inference",
+        "basis": "The company's primary focus across all pages is custom remodeling, handyman services, and starter home builds rather than dedicated MEP trades."
+      },
+      {
+        "problem": "Company size is below ForgeX's target threshold of 10 to 75 staff.",
+        "label": "inference",
+        "basis": "The website repeatedly characterizes Keeley Builders as a 'small business' centered directly around owner [redacted], indicating a small crew."
+      },
+      {
+        "problem": "Lead capture and intake are already handled by embedded third-party contractor software.",
+        "label": "hypothesis",
+        "basis": "The contact page embeds an external lead capture iframe from embed.contractorforeman.com, indicating lead tracking may already be centralized in existing software."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Contractor Foreman Lead Capture and Management",
+        "addresses": "Embedded web intake, CRM tracking, estimating, and project administration for remodeling contractors.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "General Field Service Management Software",
+        "addresses": "Job scheduling, dispatching, and field invoicing for service technicians.",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solutions are recommended because the company falls outside ForgeX's target customer segment."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No solutions are proposed, making AI agent delivery non-applicable."
+    },
+    "humanReview": [
+      "Not applicable as no ForgeX solutions are recommended."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Offering pipeline automation to a small owner-operator remodeling contractor outside core trades carries low commercial alignment and poor expected utility."
+      },
+      {
+        "type": "compliance",
+        "description": "General construction and remodeling in Idaho require alignment with state consumer protection and contracting requirements before automating client agreements."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "Principal"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Owner",
+          "sourceUrl": "https://www.keeleybuilders.com/",
+          "quote": "[redacted], owner of Keeley Builders, has over ten years of experience in home remodeling and handyman services."
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.keeleybuilders.com/contact-us"
+        },
+        {
+          "kind": "web form",
+          "value": "https://www.keeleybuilders.com/contact-us",
+          "sourceUrl": "https://www.keeleybuilders.com/contact-us"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "What back-office workflows currently take up the majority of administrative time outside Contractor Foreman?",
+        "How many technicians and administrative staff operate under Keeley Builders today?",
+        "What channels drive the majority of your residential remodeling and handyman inquiries?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.keeleybuilders.com/",
+          "usedFor": "Homepage analysis, owner identification, core service overview, phone numbers, and web designer attribution"
+        },
+        {
+          "url": "https://www.keeleybuilders.com/about-us",
+          "usedFor": "Company background, previous business name, service list, and FAQ information"
+        },
+        {
+          "url": "https://www.keeleybuilders.com/contact-us",
+          "usedFor": "Business hours, operating area, phone channel, and embedded lead form source host"
+        },
+        {
+          "url": "https://www.keeleybuilders.com/a/locations/hours",
+          "usedFor": "Hours of operation page verification"
+        },
+        {
+          "url": "https://www.keeleybuilders.com/remodeling-services",
+          "usedFor": "Detailed remodeling project types and service descriptions"
+        },
+        {
+          "url": "https://www.keeleybuilders.com/handyman-services",
+          "usedFor": "Handyman trade breakdown and owner certification claims"
+        },
+        {
+          "url": "https://www.keeleybuilders.com/new-construction-services",
+          "usedFor": "New build starter home services and partner business references"
+        },
+        {
+          "url": "https://www.keeleybuilders.com/testimonials",
+          "usedFor": "Review form and testimonial structure review"
+        }
+      ],
+      "limitations": [
+        "The website does not disclose employee counts or team size.",
+        "No pricing or estimate schedules are published on the website.",
+        "No direct corporate email address is published on any reviewed page.",
+        "Formal state contractor licensing or business registration numbers are not listed."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Keeley Builders is outside ForgeX's target profile: it operates in residential remodeling, handyman maintenance, and home construction rather than HVAC, plumbing, or electrical trades; it is self-described as a small local business centered around owner [redacted] with no evidence of 10 to 75 staff; and it already uses an embedded third-party software form (embed.contractorforeman.com) for lead intake."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.keeleybuilders.com/",
+        "quote": "Keeley Builders is a small, local business specializing in custom kitchen and bath remodeling, handyman services, and flooring installation",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.keeleybuilders.com/contact-us",
+        "quote": "Boise , Eagle , Star , Meridian , Caldwell , Nampa , Kuna , Middleton and all surrounding Treasure Valley, ID areas.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.keeleybuilders.com/about-us",
+        "quote": "Keeley Builders, previously known as Keeley Enterprises, is a small business based in the Boise, ID area",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.keeleybuilders.com/about-us",
+        "quote": "We offer complete residential remodeling services , including kitchen and bathroom renovations, basement finishing , home additions , whole-home remodeling, floor installation , and interior or exterior painting .",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.keeleybuilders.com/handyman-services",
+        "quote": "While his teams skills go beyond general handyman services to residential remodeling and new home construction , he and his team are pros at handyman work.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.keeleybuilders.com/",
+        "quote": "Designed by Surge Web Design.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.keeleybuilders.com/contact-us",
+        "quote": "8:00 AM – 5:00 PM, Monday-Friday",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.keeleybuilders.com/handyman-services",
+        "quote": "[redacted] of Keeley Builders is not only a certified handyman but has years and years of experience in general home repair and maintenance.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.keeleybuilders.com/",
+        "quote": "Designed by Surge Web Design.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.keeleybuilders.com/",
+        "quote": "Call our home renovation company at [redacted] or contact us online for more information about our services and to set up an appointment",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.keeleybuilders.com/",
+        "quote": "Keeley Builders is a small, local business specializing in custom kitchen and bath remodeling, handyman services, and flooring installation",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.keeleybuilders.com/",
+        "quote": "[redacted], owner of Keeley Builders, has over ten years of experience in home remodeling and handyman services.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.keeleybuilders.com/contact-us",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://www.keeleybuilders.com/contact-us",
+        "sourceUrl": "https://www.keeleybuilders.com/contact-us",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 12,
+      "quotesFound": 12,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 1,
+      "channelsFound": 2,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.keeleybuilders.com/",
+      "finalUrl": "https://www.keeleybuilders.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:03:30.407Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 168147,
+      "truncated": false,
+      "sha256": "c6254dd2d0effc0409a70f79aa6648a46a0692c1a69dc59a96d655c38fcc02d9",
+      "textSha256": "9a7d51511771a983603bf789467eb638ec0614d9dfea9066cba1cd3fda511ead",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.keeleybuilders.com/about-us",
+      "finalUrl": "https://www.keeleybuilders.com/about-us",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:03:36.154Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 124795,
+      "truncated": false,
+      "sha256": "cb8e59b4bb45637fbdaa64aa6bb02078600d386cfb43d6619d7492f20be3b3d3",
+      "textSha256": "713713bb9cff1ab04e8655c92623f5ef25756d095c0d8a0f288d568da265dc54",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.keeleybuilders.com/contact-us",
+      "finalUrl": "https://www.keeleybuilders.com/contact-us",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:03:38.886Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 111598,
+      "truncated": false,
+      "sha256": "bf8a0a295c9a95c60b2b7befc095270438d61844ab8016f49472bb239b07a581",
+      "textSha256": "d2d2ca5da979c43239aeb1c39fd5bcf21b195d7405989033fdb011305829e9bf",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.keeleybuilders.com/a/locations/hours",
+      "finalUrl": "https://www.keeleybuilders.com/a/locations/hours",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:03:47.890Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 94482,
+      "truncated": false,
+      "sha256": "97d9b6f43db3b4bc095020990c6deb21538afe83311d14821a93e6007300928f",
+      "textSha256": "f7dc85a6885a4e63a69ce75bf819158bfd49529a29cee1750d4df9f888e3e06a",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.keeleybuilders.com/remodeling-services",
+      "finalUrl": "https://www.keeleybuilders.com/remodeling-services",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:03:42.057Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 134186,
+      "truncated": false,
+      "sha256": "c8e073a59b8feba73bebecfbd2e417f155032c68a7eea1e55425513cfe2bbce4",
+      "textSha256": "a48a15264f35e2027e6e740e4aaa32d45a7f6c5f94cd5082ca0aec5deb3ea30b",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.keeleybuilders.com/handyman-services",
+      "finalUrl": "https://www.keeleybuilders.com/handyman-services",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:03:45.112Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 135059,
+      "truncated": false,
+      "sha256": "ccbfb9a4036f5e6d64f826fa0b84d785808d94f1c8bed8b114d09adf6437d8a0",
+      "textSha256": "47a0ecb25c7f2f555280bb730b63e24dee5635345fc8641a68b8e49a7e203b74",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.keeleybuilders.com/new-construction-services",
+      "finalUrl": "https://www.keeleybuilders.com/new-construction-services",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:04:43.788Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 133219,
+      "truncated": false,
+      "sha256": "67eb371ff928587a23282dca5a0e0c19f87fd35e83940f248d523b70da020d67",
+      "textSha256": "4de68383e1e0cb2350501ea241e71aca7b42c57d2ad97b29c32a39577968a13c",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.keeleybuilders.com/testimonials",
+      "finalUrl": "https://www.keeleybuilders.com/testimonials",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:04:46.166Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 114856,
+      "truncated": false,
+      "sha256": "3b93a9cde6046f67d0c516ca80f824fd9cb4e82dcb7d418fd25fe797533d0ee8",
+      "textSha256": "c9d3324039407c29554b236820172ebebcffda8f75450bf82cf51cd23f5c7b59",
+      "fromCache": true
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.keeleybuilders.com/about-us",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.keeleybuilders.com/contact-us",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.keeleybuilders.com/a/locations/hours",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.keeleybuilders.com/remodeling-services",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.keeleybuilders.com/handyman-services",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.keeleybuilders.com/new-construction-services",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.keeleybuilders.com/testimonials",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 4,
+  "usage": {
+    "input": 14163,
+    "cachedInput": 8061,
+    "output": 3046,
+    "thinking": 8120,
+    "toolUse": 0,
+    "total": 25329
+  },
+  "costUsd": 0.047053575,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3741840",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.keeleybuilders.com/about-us"
+      }
+    },
+    {
+      "id": "call_3741841",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.keeleybuilders.com/contact-us"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3370608",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.keeleybuilders.com/a/locations/hours"
+      }
+    },
+    {
+      "id": "call_3370609",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.keeleybuilders.com/remodeling-services"
+      }
+    },
+    {
+      "id": "call_3370610",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.keeleybuilders.com/handyman-services"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_367040",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.keeleybuilders.com/new-construction-services"
+      }
+    },
+    {
+      "id": "call_367041",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.keeleybuilders.com/testimonials"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Keeley Builders\",\n    \"location\": \"Treasure Valley, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"Keeley Builders is a small local business specializing in remodeling, handyman work, and flooring in the Boise area.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/\",\n        \"quote\": \"Keeley Builders is a small, local business specializing in custom kitchen and bath remodeling, handyman services, and flooring installation\"\n      },\n      {\n        \"statement\": \"The business serves Boise, Eagle, Star, Meridian, Caldwell, Nampa, Kuna, Middleton, and the Treasure Valley region.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/contact-us\",\n        \"quote\": \"Boise , Eagle , Star , Meridian , Caldwell , Nampa , Kuna , Middleton and all surrounding Treasure Valley, ID areas.\"\n      },\n      {\n        \"statement\": \"The company was previously known as Keeley Enterprises.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/about-us\",\n        \"quote\": \"Keeley Builders, previously known as Keeley Enterprises, is a small business based in the Boise, ID area\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential Remodeling, Handyman Services, and Home Construction\",\n    \"activities\": [\n      \"Custom kitchen and bathroom renovations\",\n      \"Basement finishing and home additions\",\n      \"Hardwood and LVP flooring installation\",\n      \"Interior and exterior painting\",\n      \"General handyman repairs and home maintenance\",\n      \"Affordable starter home and custom new construction\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company provides comprehensive residential remodeling services including kitchens, bathrooms, basements, additions, and painting.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/about-us\",\n        \"quote\": \"We offer complete residential remodeling services , including kitchen and bathroom renovations, basement finishing , home additions , whole-home remodeling, floor installation , and interior or exterior painting .\"\n      },\n      {\n        \"statement\": \"The business performs handyman maintenance tasks alongside residential remodeling and new construction.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/handyman-services\",\n        \"quote\": \"While his teams skills go beyond general handyman services to residential remodeling and new home construction , he and his team are pros at handyman work.\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.keeleybuilders.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company website was designed by Surge Web Design.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/\",\n        \"quote\": \"Designed by Surge Web Design.\"\n      },\n      {\n        \"statement\": \"The business operates from 8:00 AM to 5:00 PM, Monday through Friday.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/contact-us\",\n        \"quote\": \"8:00 AM – 5:00 PM, Monday-Friday\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Owner [redacted] is described on the website as a certified handyman with years of repair experience.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/handyman-services\",\n        \"quote\": \"[redacted] of Keeley Builders is not only a certified handyman but has years and years of experience in general home repair and maintenance.\"\n      },\n      {\n        \"statement\": \"The website does not display a specific Idaho contractor registration or specialty trade license number.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/\",\n        \"quote\": null\n      }\n    ],\n    \"limitations\": \"The site mentions the owner is a certified handyman but does not publish formal state licensing numbers or corporate registration identifiers.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Surge Web Design CMS\",\n      \"purpose\": \"Website design, hosting, and content delivery\",\n      \"evidence\": {\n        \"statement\": \"The website footer confirms the site is designed and hosted via Surge Web Design.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/\",\n        \"quote\": \"Designed by Surge Web Design.\"\n      }\n    },\n    {\n      \"product\": \"Contractor Foreman (embed.contractorforeman.com)\",\n      \"purpose\": \"Web lead capture form iframe integration\",\n      \"evidence\": {\n        \"statement\": \"The Contact Us page embeds a lead capture form hosted at embed.contractorforeman.com, hypothesized to be the Contractor Foreman construction software suite.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Prospective clients are prompted to call by phone or submit an online request for project estimates.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.keeleybuilders.com/\",\n      \"quote\": \"Call our home renovation company at [redacted] or contact us online for more information about our services and to set up an appointment\"\n    },\n    {\n      \"statement\": \"The business emphasizes personalized, owner-led service as a small local firm.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.keeleybuilders.com/\",\n      \"quote\": \"Keeley Builders is a small, local business specializing in custom kitchen and bath remodeling, handyman services, and flooring installation\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Company operates in general remodeling, handyman work, and home construction rather than ForgeX's target HVAC, plumbing, or electrical sectors.\",\n      \"label\": \"inference\",\n      \"basis\": \"The company's primary focus across all pages is custom remodeling, handyman services, and starter home builds rather than dedicated MEP trades.\"\n    },\n    {\n      \"problem\": \"Company size is below ForgeX's target threshold of 10 to 75 staff.\",\n      \"label\": \"inference\",\n      \"basis\": \"The website repeatedly characterizes Keeley Builders as a 'small business' centered directly around owner [redacted], indicating a small crew.\"\n    },\n    {\n      \"problem\": \"Lead capture and intake are already handled by embedded third-party contractor software.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The contact page embeds an external lead capture iframe from embed.contractorforeman.com, indicating lead tracking may already be centralized in existing software.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Contractor Foreman Lead Capture and Management\",\n      \"addresses\": \"Embedded web intake, CRM tracking, estimating, and project administration for remodeling contractors.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"General Field Service Management Software\",\n      \"addresses\": \"Job scheduling, dispatching, and field invoicing for service technicians.\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solutions are recommended because the company falls outside ForgeX's target customer segment.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No solutions are proposed, making AI agent delivery non-applicable.\"\n  },\n  \"humanReview\": [\n    \"Not applicable as no ForgeX solutions are recommended.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Offering pipeline automation to a small owner-operator remodeling contractor outside core trades carries low commercial alignment and poor expected utility.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"General construction and remodeling in Idaho require alignment with state consumer protection and contracting requirements before automating client agreements.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"Principal\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Owner\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/\",\n        \"quote\": \"[redacted], owner of Keeley Builders, has over ten years of experience in home remodeling and handyman services.\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/contact-us\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://www.keeleybuilders.com/contact-us\",\n        \"sourceUrl\": \"https://www.keeleybuilders.com/contact-us\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What back-office workflows currently take up the majority of administrative time outside Contractor Foreman?\",\n      \"How many technicians and administrative staff operate under Keeley Builders today?\",\n      \"What channels drive the majority of your residential remodeling and handyman inquiries?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.keeleybuilders.com/\",\n        \"usedFor\": \"Homepage analysis, owner identification, core service overview, phone numbers, and web designer attribution\"\n      },\n      {\n        \"url\": \"https://www.keeleybuilders.com/about-us\",\n        \"usedFor\": \"Company background, previous business name, service list, and FAQ information\"\n      },\n      {\n        \"url\": \"https://www.keeleybuilders.com/contact-us\",\n        \"usedFor\": \"Business hours, operating area, phone channel, and embedded lead form source host\"\n      },\n      {\n        \"url\": \"https://www.keeleybuilders.com/a/locations/hours\",\n        \"usedFor\": \"Hours of operation page verification\"\n      },\n      {\n        \"url\": \"https://www.keeleybuilders.com/remodeling-services\",\n        \"usedFor\": \"Detailed remodeling project types and service descriptions\"\n      },\n      {\n        \"url\": \"https://www.keeleybuilders.com/handyman-services\",\n        \"usedFor\": \"Handyman trade breakdown and owner certification claims\"\n      },\n      {\n        \"url\": \"https://www.keeleybuilders.com/new-construction-services\",\n        \"usedFor\": \"New build starter home services and partner business references\"\n      },\n      {\n        \"url\": \"https://www.keeleybuilders.com/testimonials\",\n        \"usedFor\": \"Review form and testimonial structure review\"\n      }\n    ],\n    \"limitations\": [\n      \"The website does not disclose employee counts or team size.\",\n      \"No pricing or estimate schedules are published on the website.\",\n      \"No direct corporate email address is published on any reviewed page.\",\n      \"Formal state contractor licensing or business registration numbers are not listed.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Keeley Builders is outside ForgeX's target profile: it operates in residential remodeling, handyman maintenance, and home construction rather than HVAC, plumbing, or electrical trades; it is self-described as a small local business centered around owner [redacted] with no evidence of 10 to 75 staff; and it already uses an embedded third-party software form (embed.contractorforeman.com) for lead intake.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "company": {
+    "id": "c03",
+    "name": "Boss Tool & Manufacturing, Inc.",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.bosstoolmfginc.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "restricted",
+  "startedAt": "2026-10-27T19:45:11.483Z",
+  "finishedAt": "2026-10-27T19:45:26.294Z",
+  "report": {
+    "identity": {
+      "name": "Boss Tool & Manufacturing, Inc.",
+      "location": "Boise, Idaho",
+      "claims": [
+        {
+          "statement": "The target company is identified in the research request as Boss Tool & Manufacturing, Inc. in Boise, Idaho, though no pages from its website could be read to verify its identity or location.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Unverified (company name suggests tool and manufacturing)",
+      "activities": [],
+      "claims": [
+        {
+          "statement": "Based on its name, the business may operate in tool and manufacturing rather than home-service contracting (HVAC, plumbing, or electrical), but its industry and principal activities could not be verified from website pages.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "Unverified (no pages could be read)",
+      "claims": [
+        {
+          "statement": "No public information from the company's official website could be retrieved or verified because the homepage answered automated requests with a bot check.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [],
+      "limitations": "No pages from the company's website could be read, so no licensing or business-registration information could be checked."
+    },
+    "existingSoftware": [],
+    "opportunityEvidence": [],
+    "problems": [],
+    "existingSolutions": [],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because the company's website could not be read and no operational facts are available."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No solution is recommended due to lack of verifiable evidence from the company's website."
+    },
+    "humanReview": [],
+    "risks": [],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "President",
+        "General Manager"
+      ],
+      "people": [],
+      "channels": []
+    },
+    "discovery": {
+      "questions": [],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [],
+      "limitations": [
+        "The company's website could not be read because its homepage answers automated requests with a bot check.",
+        "No pages were read, so business identity, location, industry, staff size, software stack, licensing, pricing, and contact channels could not be verified."
+      ]
+    },
+    "qualification": {
+      "category": "insufficient evidence",
+      "rationale": "The company's website could not be read due to a bot check, leaving no verifiable facts about its operations, industry, size, software, or contact channels. Additionally, the company's name suggests manufacturing rather than ForgeX's target segment of home-service contractors."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [],
+    "channels": [],
+    "flags": [],
+    "summary": {
+      "facts": 0,
+      "quotesFound": 0,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 0,
+      "hypotheses": 3,
+      "channelsFound": 0,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.bosstoolmfginc.com/",
+      "finalUrl": "https://www.bosstoolmfginc.com/",
+      "outcome": "refused",
+      "status": 200,
+      "detail": "The site answered with a bot check; not worked around.",
+      "retrievedAt": "2026-10-27T19:45:11.483Z",
+      "contentType": "",
+      "bytes": 0,
+      "truncated": false,
+      "sha256": null,
+      "textSha256": null,
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [],
+  "turns": 1,
+  "usage": {
+    "input": 5016,
+    "cachedInput": 0,
+    "output": 812,
+    "thinking": 0,
+    "toolUse": 0,
+    "total": 5828
+  },
+  "costUsd": 0.018152,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Boss Tool & Manufacturing, Inc.\",\n    \"location\": \"Boise, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"The target company is identified in the research request as Boss Tool & Manufacturing, Inc. in Boise, Idaho, though no pages from its website could be read to verify its identity or location.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Unverified (company name suggests tool and manufacturing)\",\n    \"activities\": [],\n    \"claims\": [\n      {\n        \"statement\": \"Based on its name, the business may operate in tool and manufacturing rather than home-service contracting (HVAC, plumbing, or electrical), but its industry and principal activities could not be verified from website pages.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"Unverified (no pages could be read)\",\n    \"claims\": [\n      {\n        \"statement\": \"No public information from the company's official website could be retrieved or verified because the homepage answered automated requests with a bot check.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [],\n    \"limitations\": \"No pages from the company's website could be read, so no licensing or business-registration information could be checked.\"\n  },\n  \"existingSoftware\": [],\n  \"opportunityEvidence\": [],\n  \"problems\": [],\n  \"existingSolutions\": [],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because the company's website could not be read and no operational facts are available.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No solution is recommended due to lack of verifiable evidence from the company's website.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"President\",\n      \"General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": []\n  },\n  \"discovery\": {\n    \"questions\": [],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [],\n    \"limitations\": [\n      \"The company's website could not be read because its homepage answers automated requests with a bot check.\",\n      \"No pages were read, so business identity, location, industry, staff size, software stack, licensing, pricing, and contact channels could not be verified.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"insufficient evidence\",\n    \"rationale\": \"The company's website could not be read due to a bot check, leaving no verifiable facts about its operations, industry, size, software, or contact channels. Additionally, the company's name suggests manufacturing rather than ForgeX's target segment of home-service contractors.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ],
+  "accessNote": "Homepage tried again at run time: refused (The site answered with a bot check; not worked around.)."
+}

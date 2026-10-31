@@ -1,0 +1,757 @@
+{
+  "company": {
+    "id": "c17",
+    "name": "Running Water Plumbing",
+    "town": "Meridian",
+    "state": "Idaho",
+    "website": "https://runningwaterplumbingidaho.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:27:11.512Z",
+  "finishedAt": "2026-10-27T19:28:40.942Z",
+  "report": {
+    "identity": {
+      "name": "Running Water Plumbing LLC",
+      "location": "3665 S Peoria Way, Meridian, ID 83642",
+      "claims": [
+        {
+          "statement": "Running Water Plumbing LLC is based in Meridian, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley."
+        },
+        {
+          "statement": "The physical business address listed on the website is 3665 S Peoria Way, Meridian, ID 83642.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "3665 S Peoria Way, Meridian, ID 83642"
+        },
+        {
+          "statement": "The business was founded by [redacted].",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley."
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential plumbing and piping contractor",
+      "activities": [
+        "General plumbing repairs and remodeling",
+        "Water heater installation, repair, and flush maintenance",
+        "Drain cleaning and sewer line repairs",
+        "Sewer camera inspections and main line replacements",
+        "Water treatment and water softener installation",
+        "Gas line installation and repairs",
+        "Radiant heating system installation and servicing",
+        "Bury hydrant and garbage disposal installations"
+      ],
+      "claims": [
+        {
+          "statement": "The company provides residential plumbing services across the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "We handle water heaters , drains, sewer and water lines , water treatment and everyday repairs, with 24/7 emergency service"
+        },
+        {
+          "statement": "The company offers annual maintenance memberships called Buffalo Bucks covering plumbing inspections and drain clearing.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+          "quote": "The annual maintenance plan is simple, affordable, and packed with value. For just $199/year or $19.95/month"
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://runningwaterplumbingidaho.com/",
+      "claims": [
+        {
+          "statement": "The company operates its official website at runningwaterplumbingidaho.com.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "Copyright © 2025 Running Water Plumbing LLC"
+        },
+        {
+          "statement": "The business operates 24/7 for emergency plumbing calls.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+          "quote": "Hours: Open 24/7"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The business represents that it is licensed, bonded, and insured.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley."
+        },
+        {
+          "statement": "Founder [redacted] holds a journeyman certification and contractor's license.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "earned his journeyman certification, and eventually obtained his contractor’s license to serve his community on a larger scale."
+        }
+      ],
+      "limitations": "Specific state contractor registration numbers or journeyman license numbers are not published on the website pages reviewed."
+    },
+    "existingSoftware": [
+      {
+        "product": "Hearth",
+        "purpose": "Customer project financing and payment plan pre-approval",
+        "evidence": {
+          "statement": "The company uses Hearth for customer financing.",
+          "label": "fact",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/financing/",
+          "quote": "That’s why we’ve partnered with Hearth to make financing simple and stress-free."
+        }
+      },
+      {
+        "product": "Jobber",
+        "purpose": "Online booking and customer hub portal",
+        "evidence": {
+          "statement": "The company appears to use Jobber for client scheduling and self-service booking based on references to clienthub.getjobber.com.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "WordPress / WPForms",
+        "purpose": "Website content management and contact form handling",
+        "evidence": {
+          "statement": "The website appears to utilize WordPress with WPForms and anti-spam protection for processing incoming web forms.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The business explicitly states that it keeps its team small rather than operating a large workforce.",
+        "label": "fact",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+        "quote": "We keep our crew small to train each plumber the right way, drive clean trucks, and treat every home like it’s our own."
+      },
+      {
+        "statement": "Internal administration, scheduling, and bookkeeping are personally handled by co-owner [redacted].",
+        "label": "fact",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!"
+      },
+      {
+        "statement": "The company's team size is a micro-operation of approximately 2 to 4 individuals, well below the 10 to 75 staff range required for ForgeX's core lead routing and operational automation solutions.",
+        "label": "inference",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Manual overhead managing scheduling, dispatch, and bookkeeping on a single internal administrator.",
+        "label": "hypothesis",
+        "basis": "The website describes [redacted] handling scheduling, bookkeeping, and day-to-day operational details, which could limit administrative throughput during periods of high inquiry volume."
+      },
+      {
+        "problem": "After-hours emergency lead capture and triage.",
+        "label": "hypothesis",
+        "basis": "The business offers 24/7 emergency service, which may require manual call taking outside normal business hours for a small family team."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Jobber Client Hub",
+        "addresses": "Customer online self-service booking and appointment requests directly integrated with field operations.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Hearth Financing Platform",
+        "addresses": "Estimating and monthly payment financing options for high-ticket plumbing jobs.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Direct phone and web form intake handled by family ownership",
+        "addresses": "Lead qualification and direct customer service matching the company's personal service model.",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solutions are recommended because the company operates well outside ForgeX's target market criteria."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No AI delivery is recommended."
+    },
+    "humanReview": [
+      "Owner oversight on all incoming plumbing service calls and job estimations.",
+      "Manual review and confirmation of online booking requests."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Introducing multi-system custom automation into a small 2-4 person shop risks creating unnecessary technical overhead when standard off-the-shelf tools (like Jobber) already cover their operational scale."
+      },
+      {
+        "type": "compliance",
+        "description": "Automated messaging systems must comply with TCPA consent guidelines, which adds compliance overhead unnecessary for a micro-contractor."
+      },
+      {
+        "type": "security",
+        "description": "Adding third-party data integrations creates unnecessary access points for customer contact and address data."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Founder",
+        "Co-Owner / Office & Operations Manager"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Founder / Owner",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley."
+        },
+        {
+          "name": "[redacted]",
+          "role": "Scheduling & Bookkeeping Manager",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/contact/"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/contact/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://runningwaterplumbingidaho.com/contact/",
+          "sourceUrl": "https://runningwaterplumbingidaho.com/contact/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How are online booking requests via Jobber currently reconciled with your daily technician schedule?",
+        "Does handling phone calls and bookkeeping internally create scheduling delays during emergency calls?",
+        "Are you planning to maintain your current small crew model, or are there plans to expand technician headcount over the coming year?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://runningwaterplumbingidaho.com/",
+          "usedFor": "Business identity, location, founders, core services, and customer value propositions."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+          "usedFor": "Company history, deliberate small crew size, supplier partnerships, and licensing details."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/meet-the-team/",
+          "usedFor": "Team composition and operational structure."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/contact/",
+          "usedFor": "Verified business contact channels, address, and 24/7 operating hours."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/financing/",
+          "usedFor": "Hearth financing partnership verification."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+          "usedFor": "Buffalo Bucks membership pricing and structure."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/special-offers/",
+          "usedFor": "Promotional discounts and online booking incentives."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+          "usedFor": "Legal terms and pricing estimate policies."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/privacy-policy/",
+          "usedFor": "Privacy practices and data collection disclosure."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/plumbing-faq/",
+          "usedFor": "Common service inquiries and emergency policies."
+        },
+        {
+          "url": "https://runningwaterplumbingidaho.com/services/",
+          "usedFor": "Catalog of plumbing, radiant heating, drain, and water heater service offerings."
+        }
+      ],
+      "limitations": [
+        "The exact number of field technicians cannot be definitively established beyond the stated small team model ([redacted], [redacted], and a small field crew).",
+        "Specific software configuration details for Jobber could not be viewed directly as they reside behind clienthub.getjobber.com."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "ForgeX targets owner-led home-service contractors (HVAC, plumbing, and electrical) with approximately 10 to 75 staff who pay for leads. Running Water Plumbing LLC is an intentionally small, family-operated business founded by [redacted], with his wife [redacted] managing scheduling and bookkeeping. The company explicitly states on its website: 'We keep our crew small to train each plumber the right way', indicating a micro-team of roughly 2 to 4 people. Furthermore, the company already uses off-the-shelf tooling suited to its current size (including Jobber for online booking and Hearth for financing). Because the firm operates far below the 10-staff threshold and does not demonstrate the organizational complexity or lead volume required for ForgeX's service catalog, it is disqualified as not a fit."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "3665 S Peoria Way, Meridian, ID 83642",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "We handle water heaters , drains, sewer and water lines , water treatment and everyday repairs, with 24/7 emergency service",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+        "quote": "The annual maintenance plan is simple, affordable, and packed with value. For just $199/year or $19.95/month",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "Copyright © 2025 Running Water Plumbing LLC",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+        "quote": "Hours: Open 24/7",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "earned his journeyman certification, and eventually obtained his contractor’s license to serve his community on a larger scale.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/financing/",
+        "quote": "That’s why we’ve partnered with Hearth to make financing simple and stress-free.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+        "quote": "We keep our crew small to train each plumber the right way, drive clean trucks, and treat every home like it’s our own.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/",
+        "quote": "[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+        "verdict": "found"
+      },
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://runningwaterplumbingidaho.com/contact/",
+        "sourceUrl": "https://runningwaterplumbingidaho.com/contact/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 14,
+      "quotesFound": 14,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 2,
+      "channelsFound": 3,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://runningwaterplumbingidaho.com/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:49:58.947Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1441927,
+      "truncated": false,
+      "sha256": "8987da31675bb6d7bd178a2b90bd4c2c18aefa1cf15c57664a915d3a8397a7c5",
+      "textSha256": "a79521e48eddd4cddc7ccba12c5a19d0a8f163c1a19ce9654de2e510652c688c",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/meet-the-team/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/meet-the-team/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:08.133Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 873869,
+      "truncated": false,
+      "sha256": "b36a67823b2c456e41e9f7323eb029912abe82ff3496104557d636e704f524e0",
+      "textSha256": "d6629d522d556378cca8a431e9aae12e987b205e72a303a75dfa02fa777b51ac",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:05.331Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 977951,
+      "truncated": false,
+      "sha256": "8172571e10412c637487ec1b562fd08a5809a3c3f79305ea9bc3209e4d5fe4cf",
+      "textSha256": "893a55b75c5e9792c4c7a54455f6fdb040e1fd39f6853ef29e76b9ae58cad02d",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/contact/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:11.110Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 839113,
+      "truncated": false,
+      "sha256": "66674daf9fd7ae5c2aa3ed3c2e38e14e05b622c7cce5dbc7ccdc97fe807ed87c",
+      "textSha256": "d760abf7f42646fb11b215dc41b50105a4ad46109f6a31eda41fbc2f65407c10",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/special-offers/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/special-offers/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:14.113Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 775074,
+      "truncated": false,
+      "sha256": "c58fdbcc37113a09088bd56b0196c84c7fa3aa82f687aa8181d43e0ee87ae658",
+      "textSha256": "e7afce0795f6645230de79971b59824725134396f4d40a8191c96eae8dc6bde4",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:17.105Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 821417,
+      "truncated": false,
+      "sha256": "a6d90933b8171c13fa62e5735102139fabde293dbe435bb262dde999dd9398e7",
+      "textSha256": "cdd3206113bab235f00b4137c123008cc4d9cb4d19ffe4632bc5f25140f9fa6c",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:30.081Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 485941,
+      "truncated": false,
+      "sha256": "8956d17161f6ac7ed8d44a809393919e3c0d50bfeeacd77fbe2de12234aab3fe",
+      "textSha256": "966a1ede2191ba8068b5f71036746c42fb7076d446dbfb3f6ff4c7268db3d76d",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/privacy-policy/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:33.085Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 494506,
+      "truncated": false,
+      "sha256": "f1646daa07af42875ea7ea77bd8f2fdc6b5eaab9c5128ff87f4cd28e1b299e92",
+      "textSha256": "ab69663d1a3a4964f1da3ec1ef11feb6d0d694f5c2935cec3c5667ca9326b1e0",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/financing/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/financing/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:27.318Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 756188,
+      "truncated": false,
+      "sha256": "7d75a4a9cb337659a6b4fa2a22f5d2ae21526022b61fa5b3d5358b07cd5263ab",
+      "textSha256": "906cbe2710ce0c264b5344e03e89f5b87a711e4df796264158061a3edcea516f",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/plumbing-faq/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/plumbing-faq/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:50:20.131Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 470704,
+      "truncated": false,
+      "sha256": "d0cadb322afba8076d8dd22d4544252ad996e5eafa07c316a89930824c9a56bb",
+      "textSha256": "11fb0dcb2ad333d011a7615e11f8d3dd242dfb0e2f33052dfe2ee40415e4ca5e",
+      "fromCache": true
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/services/",
+      "finalUrl": "https://runningwaterplumbingidaho.com/services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:27:27.982Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 997167,
+      "truncated": false,
+      "sha256": "1125f156950b492f80528a91f96e4c8b77d58ca11d3954fd243097f58849db97",
+      "textSha256": "2b338e4d1cda656cc71efa7cce2d30ad4fac20452dd335c368b6dcb5a360ccf0",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://runningwaterplumbingidaho.com/meet-the-team/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/special-offers/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/maintenance-plan/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/privacy-policy/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/financing/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/plumbing-faq/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://runningwaterplumbingidaho.com/services/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 4,
+  "usage": {
+    "input": 30173,
+    "cachedInput": 14432,
+    "output": 3752,
+    "thinking": 7574,
+    "toolUse": 0,
+    "total": 41499
+  },
+  "costUsd": 0.05536065,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1643164",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/meet-the-team/"
+      }
+    },
+    {
+      "id": "call_1643165",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/"
+      }
+    },
+    {
+      "id": "call_1643166",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/contact/"
+      }
+    },
+    {
+      "id": "call_1643167",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/special-offers/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2423240",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/maintenance-plan/"
+      }
+    },
+    {
+      "id": "call_2423241",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/terms-and-conditions/"
+      }
+    },
+    {
+      "id": "call_2423242",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/privacy-policy/"
+      }
+    },
+    {
+      "id": "call_2423243",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/financing/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1844479",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/plumbing-faq/"
+      }
+    },
+    {
+      "id": "call_1844480",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://runningwaterplumbingidaho.com/services/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Running Water Plumbing LLC\",\n    \"location\": \"3665 S Peoria Way, Meridian, ID 83642\",\n    \"claims\": [\n      {\n        \"statement\": \"Running Water Plumbing LLC is based in Meridian, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The physical business address listed on the website is 3665 S Peoria Way, Meridian, ID 83642.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"3665 S Peoria Way, Meridian, ID 83642\"\n      },\n      {\n        \"statement\": \"The business was founded by [redacted].\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley.\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential plumbing and piping contractor\",\n    \"activities\": [\n      \"General plumbing repairs and remodeling\",\n      \"Water heater installation, repair, and flush maintenance\",\n      \"Drain cleaning and sewer line repairs\",\n      \"Sewer camera inspections and main line replacements\",\n      \"Water treatment and water softener installation\",\n      \"Gas line installation and repairs\",\n      \"Radiant heating system installation and servicing\",\n      \"Bury hydrant and garbage disposal installations\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company provides residential plumbing services across the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"We handle water heaters , drains, sewer and water lines , water treatment and everyday repairs, with 24/7 emergency service\"\n      },\n      {\n        \"statement\": \"The company offers annual maintenance memberships called Buffalo Bucks covering plumbing inspections and drain clearing.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/maintenance-plan/\",\n        \"quote\": \"The annual maintenance plan is simple, affordable, and packed with value. For just $199/year or $19.95/month\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://runningwaterplumbingidaho.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company operates its official website at runningwaterplumbingidaho.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"Copyright © 2025 Running Water Plumbing LLC\"\n      },\n      {\n        \"statement\": \"The business operates 24/7 for emergency plumbing calls.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/contact/\",\n        \"quote\": \"Hours: Open 24/7\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The business represents that it is licensed, bonded, and insured.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"Running Water Plumbing is a licensed, bonded and insured plumbing company based in Meridian, ID, serving homes across the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"Founder [redacted] holds a journeyman certification and contractor's license.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"earned his journeyman certification, and eventually obtained his contractor’s license to serve his community on a larger scale.\"\n      }\n    ],\n    \"limitations\": \"Specific state contractor registration numbers or journeyman license numbers are not published on the website pages reviewed.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Hearth\",\n      \"purpose\": \"Customer project financing and payment plan pre-approval\",\n      \"evidence\": {\n        \"statement\": \"The company uses Hearth for customer financing.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/financing/\",\n        \"quote\": \"That’s why we’ve partnered with Hearth to make financing simple and stress-free.\"\n      }\n    },\n    {\n      \"product\": \"Jobber\",\n      \"purpose\": \"Online booking and customer hub portal\",\n      \"evidence\": {\n        \"statement\": \"The company appears to use Jobber for client scheduling and self-service booking based on references to clienthub.getjobber.com.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"WordPress / WPForms\",\n      \"purpose\": \"Website content management and contact form handling\",\n      \"evidence\": {\n        \"statement\": \"The website appears to utilize WordPress with WPForms and anti-spam protection for processing incoming web forms.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The business explicitly states that it keeps its team small rather than operating a large workforce.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/\",\n      \"quote\": \"We keep our crew small to train each plumber the right way, drive clean trucks, and treat every home like it’s our own.\"\n    },\n    {\n      \"statement\": \"Internal administration, scheduling, and bookkeeping are personally handled by co-owner [redacted].\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n      \"quote\": \"[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!\"\n    },\n    {\n      \"statement\": \"The company's team size is a micro-operation of approximately 2 to 4 individuals, well below the 10 to 75 staff range required for ForgeX's core lead routing and operational automation solutions.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Manual overhead managing scheduling, dispatch, and bookkeeping on a single internal administrator.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The website describes [redacted] handling scheduling, bookkeeping, and day-to-day operational details, which could limit administrative throughput during periods of high inquiry volume.\"\n    },\n    {\n      \"problem\": \"After-hours emergency lead capture and triage.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The business offers 24/7 emergency service, which may require manual call taking outside normal business hours for a small family team.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Jobber Client Hub\",\n      \"addresses\": \"Customer online self-service booking and appointment requests directly integrated with field operations.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Hearth Financing Platform\",\n      \"addresses\": \"Estimating and monthly payment financing options for high-ticket plumbing jobs.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Direct phone and web form intake handled by family ownership\",\n      \"addresses\": \"Lead qualification and direct customer service matching the company's personal service model.\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solutions are recommended because the company operates well outside ForgeX's target market criteria.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No AI delivery is recommended.\"\n  },\n  \"humanReview\": [\n    \"Owner oversight on all incoming plumbing service calls and job estimations.\",\n    \"Manual review and confirmation of online booking requests.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Introducing multi-system custom automation into a small 2-4 person shop risks creating unnecessary technical overhead when standard off-the-shelf tools (like Jobber) already cover their operational scale.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated messaging systems must comply with TCPA consent guidelines, which adds compliance overhead unnecessary for a micro-contractor.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Adding third-party data integrations creates unnecessary access points for customer contact and address data.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Founder\",\n      \"Co-Owner / Office & Operations Manager\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Founder / Owner\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"Running Water Plumbing LLC was founded by [redacted], a local Idaho plumber with over 14 years of hands-on experience in the Treasure Valley.\"\n      },\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Scheduling & Bookkeeping Manager\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/\",\n        \"quote\": \"[redacted]’s wife, [redacted], helps keep everything running smoothly behind the scenes: handling scheduling, bookkeeping, and the day-to-day details that keep the business flowing!\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/contact/\"\n      },\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/contact/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://runningwaterplumbingidaho.com/contact/\",\n        \"sourceUrl\": \"https://runningwaterplumbingidaho.com/contact/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How are online booking requests via Jobber currently reconciled with your daily technician schedule?\",\n      \"Does handling phone calls and bookkeeping internally create scheduling delays during emergency calls?\",\n      \"Are you planning to maintain your current small crew model, or are there plans to expand technician headcount over the coming year?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/\",\n        \"usedFor\": \"Business identity, location, founders, core services, and customer value propositions.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/\",\n        \"usedFor\": \"Company history, deliberate small crew size, supplier partnerships, and licensing details.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/meet-the-team/\",\n        \"usedFor\": \"Team composition and operational structure.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/contact/\",\n        \"usedFor\": \"Verified business contact channels, address, and 24/7 operating hours.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/financing/\",\n        \"usedFor\": \"Hearth financing partnership verification.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/maintenance-plan/\",\n        \"usedFor\": \"Buffalo Bucks membership pricing and structure.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/special-offers/\",\n        \"usedFor\": \"Promotional discounts and online booking incentives.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/terms-and-conditions/\",\n        \"usedFor\": \"Legal terms and pricing estimate policies.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/privacy-policy/\",\n        \"usedFor\": \"Privacy practices and data collection disclosure.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/plumbing-faq/\",\n        \"usedFor\": \"Common service inquiries and emergency policies.\"\n      },\n      {\n        \"url\": \"https://runningwaterplumbingidaho.com/services/\",\n        \"usedFor\": \"Catalog of plumbing, radiant heating, drain, and water heater service offerings.\"\n      }\n    ],\n    \"limitations\": [\n      \"The exact number of field technicians cannot be definitively established beyond the stated small team model ([redacted], [redacted], and a small field crew).\",\n      \"Specific software configuration details for Jobber could not be viewed directly as they reside behind clienthub.getjobber.com.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"ForgeX targets owner-led home-service contractors (HVAC, plumbing, and electrical) with approximately 10 to 75 staff who pay for leads. Running Water Plumbing LLC is an intentionally small, family-operated business founded by [redacted], with his wife [redacted] managing scheduling and bookkeeping. The company explicitly states on its website: 'We keep our crew small to train each plumber the right way', indicating a micro-team of roughly 2 to 4 people. Furthermore, the company already uses off-the-shelf tooling suited to its current size (including Jobber for online booking and Hearth for financing). Because the firm operates far below the 10-staff threshold and does not demonstrate the organizational complexity or lead volume required for ForgeX's service catalog, it is disqualified as not a fit.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

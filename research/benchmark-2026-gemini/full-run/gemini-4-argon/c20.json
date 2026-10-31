@@ -1,0 +1,171 @@
+{
+  "company": {
+    "id": "c20",
+    "name": "D & A Heating and Cooling",
+    "town": "Nampa",
+    "state": "Idaho",
+    "website": "https://www.dahvac.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "restricted",
+  "startedAt": "2026-10-27T18:55:54.087Z",
+  "finishedAt": "2026-10-27T18:56:13.195Z",
+  "report": {
+    "identity": {
+      "name": "D & A Heating and Cooling",
+      "location": "Nampa, Idaho",
+      "claims": [
+        {
+          "statement": "The company operates under the name D & A Heating and Cooling in Nampa, Idaho, based on the initial research request, though this could not be verified from its website.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Heating, Ventilation, and Air Conditioning (HVAC) (unverified)",
+      "activities": [
+        "Heating and cooling services (unverified)"
+      ],
+      "claims": [
+        {
+          "statement": "Based on the business name, the company likely provides residential or commercial heating and air conditioning services.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "Unverified (the target website refused automated requests with HTTP 403 and could not be read)",
+      "claims": [
+        {
+          "statement": "No public information from the company's website could be retrieved or verified because the homepage returned HTTP 403.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [],
+      "limitations": "No pages from the company's website could be read due to an HTTP 403 response, so contractor licensing and business registration details could not be checked."
+    },
+    "existingSoftware": [],
+    "opportunityEvidence": [],
+    "problems": [],
+    "existingSolutions": [],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No operational problems, existing software systems, or business workflows could be verified because the company's website could not be read."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because there is insufficient evidence regarding the company's operations and needs."
+    },
+    "humanReview": [],
+    "risks": [],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "General Manager"
+      ],
+      "people": [],
+      "channels": []
+    },
+    "discovery": {
+      "questions": [
+        "How many field technicians and office staff currently work at D & A Heating and Cooling?",
+        "Which field-service management software and accounting tools do you currently use to manage jobs and invoices?",
+        "How are incoming phone calls, web leads, and customer inquiries currently handled and followed up on?",
+        "What paid lead sources or advertising channels are you currently running, and how do you track cost per booked job?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [],
+      "limitations": [
+        "The company's website refused automated requests (HTTP 403), so no pages were read.",
+        "Business identity, location, services, team size, licensing, software stack, pricing, and contact channels could not be verified."
+      ]
+    },
+    "qualification": {
+      "category": "insufficient evidence",
+      "rationale": "The company's website could not be read because its homepage refused automated requests (HTTP 403). With no readable pages, it is impossible to verify whether the company fits ForgeX's segment, what software it already uses, whether any operational problem exists, or how to contact the business."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [],
+    "channels": [],
+    "flags": [],
+    "summary": {
+      "facts": 0,
+      "quotesFound": 0,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 0,
+      "hypotheses": 3,
+      "channelsFound": 0,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.dahvac.com/",
+      "finalUrl": "https://www.dahvac.com/",
+      "outcome": "refused",
+      "status": 403,
+      "detail": "The site refused automated access (HTTP 403).",
+      "retrievedAt": "2026-10-27T18:55:54.087Z",
+      "contentType": "",
+      "bytes": 0,
+      "truncated": false,
+      "sha256": null,
+      "textSha256": null,
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [],
+  "turns": 1,
+  "usage": {
+    "input": 5016,
+    "cachedInput": 0,
+    "output": 916,
+    "thinking": 327,
+    "toolUse": 0,
+    "total": 6259
+  },
+  "costUsd": 0.022462,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"D & A Heating and Cooling\",\n    \"location\": \"Nampa, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"The company operates under the name D & A Heating and Cooling in Nampa, Idaho, based on the initial research request, though this could not be verified from its website.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Heating, Ventilation, and Air Conditioning (HVAC) (unverified)\",\n    \"activities\": [\n      \"Heating and cooling services (unverified)\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Based on the business name, the company likely provides residential or commercial heating and air conditioning services.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"Unverified (the target website refused automated requests with HTTP 403 and could not be read)\",\n    \"claims\": [\n      {\n        \"statement\": \"No public information from the company's website could be retrieved or verified because the homepage returned HTTP 403.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [],\n    \"limitations\": \"No pages from the company's website could be read due to an HTTP 403 response, so contractor licensing and business registration details could not be checked.\"\n  },\n  \"existingSoftware\": [],\n  \"opportunityEvidence\": [],\n  \"problems\": [],\n  \"existingSolutions\": [],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No operational problems, existing software systems, or business workflows could be verified because the company's website could not be read.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because there is insufficient evidence regarding the company's operations and needs.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": []\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How many field technicians and office staff currently work at D & A Heating and Cooling?\",\n      \"Which field-service management software and accounting tools do you currently use to manage jobs and invoices?\",\n      \"How are incoming phone calls, web leads, and customer inquiries currently handled and followed up on?\",\n      \"What paid lead sources or advertising channels are you currently running, and how do you track cost per booked job?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [],\n    \"limitations\": [\n      \"The company's website refused automated requests (HTTP 403), so no pages were read.\",\n      \"Business identity, location, services, team size, licensing, software stack, pricing, and contact channels could not be verified.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"insufficient evidence\",\n    \"rationale\": \"The company's website could not be read because its homepage refused automated requests (HTTP 403). With no readable pages, it is impossible to verify whether the company fits ForgeX's segment, what software it already uses, whether any operational problem exists, or how to contact the business.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ],
+  "accessNote": "Homepage tried again at run time: refused (The site refused automated access (HTTP 403).)."
+}

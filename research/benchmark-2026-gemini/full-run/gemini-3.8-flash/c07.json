@@ -1,0 +1,633 @@
+{
+  "company": {
+    "id": "c07",
+    "name": "Crossflow Plumbing LLC",
+    "town": "Eagle",
+    "state": "Idaho",
+    "website": "https://crossflowplumbingllc.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:14:42.017Z",
+  "finishedAt": "2026-10-27T19:16:11.233Z",
+  "report": {
+    "identity": {
+      "name": "Crossflow Plumbing LLC",
+      "location": "384 N Stierman Way, Eagle, Idaho 83616",
+      "claims": [
+        {
+          "statement": "Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho."
+        },
+        {
+          "statement": "The business operates from a physical address at 384 N Stierman Way in Eagle, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+          "quote": "384 N Stierman Way Eagle, Idaho 83616"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential plumbing services",
+      "activities": [
+        "Emergency plumbing repairs",
+        "Burst pipe repair",
+        "Drain clearing and hydro jetting",
+        "Water heater repair and installation",
+        "Sewer line inspection and repair",
+        "Leak detection",
+        "Plumbing fixture installation"
+      ],
+      "claims": [
+        {
+          "statement": "The company provides comprehensive residential plumbing services across the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+          "quote": "Complete plumbing services, including emergency response, drain cleaning, water heater repair and installation, leak detection, pipe repair, sewer line work, and fixture installation"
+        },
+        {
+          "statement": "Crossflow Plumbing LLC offers 24/7 emergency response for plumbing issues.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "24/7 emergency response for burst pipes, sewer backups, and urgent plumbing issues"
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://crossflowplumbingllc.com/",
+      "claims": [
+        {
+          "statement": "The company serves Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton in Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "We proudly serve the entire Treasure Valley including Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton."
+        },
+        {
+          "statement": "The business is owner-operated with [redacted] answering calls and performing service directly.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+          "quote": "[redacted] answers, [redacted] shows up, and [redacted] fixes it. That’s Crossflow Plumbing. That’s the whole pitch."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The company advertises that it is licensed and insured.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "Licensed & Insured"
+        },
+        {
+          "statement": "No specific Idaho state plumbing contractor license number is published on the website.",
+          "label": "inference",
+          "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+          "quote": null
+        },
+        {
+          "statement": "Contractor licensing status would need to be confirmed directly through the Idaho Division of Occupational and Professional Licenses.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ],
+      "limitations": "The site claims licensed and insured status across several pages but does not provide an Idaho plumbing contractor license number or registration ID."
+    },
+    "existingSoftware": [
+      {
+        "product": "client.housecallpro.com reviews widget",
+        "purpose": "Display customer reviews and potential field-service integration",
+        "evidence": {
+          "statement": "The homepage loads an iframe pointing to client.housecallpro.com review widget 64a6cf54-1946-40dc-96c9-ccbb074bd969.",
+          "label": "fact",
+          "sourceUrl": "https://crossflowplumbingllc.com/",
+          "quote": "client.housecallpro.com"
+        }
+      },
+      {
+        "product": "Elementor Pro form engine",
+        "purpose": "Website lead capture and contact form submissions",
+        "evidence": {
+          "statement": "The website uses Elementor Pro scripts and WordPress form actions to handle service requests.",
+          "label": "inference",
+          "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The company is positioned as an individual owner-operator who personally answers calls, visits sites, and performs repairs.",
+        "label": "fact",
+        "sourceUrl": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+        "quote": "[redacted] answers, [redacted] shows up, and [redacted] fixes it. That’s Crossflow Plumbing. That’s the whole pitch."
+      },
+      {
+        "statement": "The site displays an unconfigured placeholder counter showing 0+ years of experience alongside 400+ happy customers.",
+        "label": "fact",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "Years Experience 0 + Local Plumbing Experts in Eagle Idaho 400+ Happy Customers"
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Headcount and operational scale fall well outside ForgeX's target customer segment of 10 to 75 staff.",
+        "label": "inference",
+        "basis": "The website explicitly markets the business as a solo owner-operator operation where the owner answers the phone, shows up, and completes the work himself (https://crossflowplumbingllc.com/best-plumber-near-me/)."
+      },
+      {
+        "problem": "As a solo owner-operator, call handling capacity while working on job sites could potentially delay lead response.",
+        "label": "hypothesis",
+        "basis": "When an owner-operator is under a sink or hydro-jetting a sewer line, answering incoming calls immediately is physically constrained."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Housecall Pro integrated online booking and call forwarding",
+        "addresses": "Capturing emergency leads and booking service windows directly while the plumber is on a job.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "WordPress/Elementor automated form email alerts and instant auto-responder",
+        "addresses": "Providing immediate confirmation to homeowners submitting the website service request form.",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solutions are recommended because the company does not match ForgeX's target business size."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No custom automation or AI agents are recommended for this business."
+    },
+    "humanReview": [],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Solo owner-operator capacity creates a single point of failure for both administrative tasks and emergency field operations."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "No commercial engagement is proposed as Crossflow Plumbing LLC falls outside ForgeX's target segment of 10 to 75 staff.",
+        "While a blog post mentions general Boise emergency plumbing costs ranging from $150 to $500, the company does not publish a standardized price sheet for its specific services."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "Founder",
+        "Operator"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Owner & Founder",
+          "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+          "quote": "[redacted], Owner & Founder of Crossflow Plumbing"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://crossflowplumbingllc.com/"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://crossflowplumbingllc.com/contact/",
+          "sourceUrl": "https://crossflowplumbingllc.com/contact/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How do you manage incoming emergency calls while on a job site?",
+        "Are you looking to expand beyond an owner-operator model to add dedicated dispatchers or multiple field technicians?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://crossflowplumbingllc.com/",
+          "usedFor": "Identity, core services, service areas, Housecall Pro review widget reference, contact phone number"
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+          "usedFor": "Ownership identification ([redacted], Owner & Founder), business address, email contact, operating philosophy"
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/contact/",
+          "usedFor": "Contact channels, web form structure, verified address"
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+          "usedFor": "Local service offerings, fixture installation details, equipment capabilities"
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/emergency-plumbing-eagle-boise-near-me/",
+          "usedFor": "24/7 emergency service description and repair scope"
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/blog/",
+          "usedFor": "Blog post topics and educational resources"
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/emergency-plumber-questions/",
+          "usedFor": "Treasure Valley water conditions and operational insights"
+        },
+        {
+          "url": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+          "usedFor": "Confirmation of solo owner-operator business model ('[redacted] answers, [redacted] shows up, and [redacted] fixes it'), licensing claims, local market pricing notes"
+        }
+      ],
+      "limitations": [
+        "The website does not disclose employee headcount or an organizational directory, though copy explicitly highlights the business as an owner-operator operation.",
+        "Specific state plumbing contractor license numbers are not published on the site."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Crossflow Plumbing LLC is outside ForgeX's target segment of owner-led home-service contractors with about 10 to 75 staff who pay for leads. The website explicitly positions the company as an owner-operator plumbing service where the owner personally answers calls, visits homes, and performs the repairs ('[redacted] answers, [redacted] shows up, and [redacted] fixes it. That’s Crossflow Plumbing. That’s the whole pitch'). The firm lacks the staffing scale, administrative overhead, and lead volume required for ForgeX's fixed-price automation offerings."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+        "quote": "384 N Stierman Way Eagle, Idaho 83616",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+        "quote": "Complete plumbing services, including emergency response, drain cleaning, water heater repair and installation, leak detection, pipe repair, sewer line work, and fixture installation",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "24/7 emergency response for burst pipes, sewer backups, and urgent plumbing issues",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "We proudly serve the entire Treasure Valley including Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+        "quote": "[redacted] answers, [redacted] shows up, and [redacted] fixes it. That’s Crossflow Plumbing. That’s the whole pitch.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "Licensed & Insured",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "client.housecallpro.com",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+        "quote": "[redacted] answers, [redacted] shows up, and [redacted] fixes it. That’s Crossflow Plumbing. That’s the whole pitch.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "quote": "Years Experience 0 + Local Plumbing Experts in Eagle Idaho 400+ Happy Customers",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+        "quote": "[redacted], Owner & Founder of Crossflow Plumbing",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://crossflowplumbingllc.com/",
+        "verdict": "found"
+      },
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://crossflowplumbingllc.com/contact/",
+        "sourceUrl": "https://crossflowplumbingllc.com/contact/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 11,
+      "quotesFound": 11,
+      "quotesFoundInDetails": 1,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 1,
+      "channelsFound": 3,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://crossflowplumbingllc.com/",
+      "finalUrl": "https://crossflowplumbingllc.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:32:48.778Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 281769,
+      "truncated": false,
+      "sha256": "703b75e3a6bac8a795ce7a8356d839c4cfc0c7d2d1d4f907420cd27e4683c66f",
+      "textSha256": "e2fd00975d9c9439cd3db6c02b3ab51e4c75eea65d4127742ef8081938a144f0",
+      "fromCache": true
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+      "finalUrl": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:32:54.712Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 150863,
+      "truncated": false,
+      "sha256": "a485a999ac5973d06f94e09d052e43242ed653bcaabbe435d4c4a8d43e23b6a9",
+      "textSha256": "49de25f10d5120240af42b74102115e2818f7518c14788f7c036be7a02411e26",
+      "fromCache": true
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/contact/",
+      "finalUrl": "https://crossflowplumbingllc.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:32:57.498Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 144537,
+      "truncated": false,
+      "sha256": "e394846240ab457f48da08e96346e9e438bdbf089cb5fb28e4a2d5f78c62f702",
+      "textSha256": "39b8fc61fdd777b3a67627962fbcd9d8e957b50add7700d94677d62e89b254e6",
+      "fromCache": true
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+      "finalUrl": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:33:06.666Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 269909,
+      "truncated": false,
+      "sha256": "c24fc21d97c0261463d00d5ecf5486c81caab6efc01583e132b4c23507ce8aed",
+      "textSha256": "f92ab342807bde8e5b7434cebcaa2de2e637af77af9141f2fb6724249db0d001",
+      "fromCache": true
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/service",
+      "finalUrl": "https://crossflowplumbingllc.com/emergency-plumbing-eagle-boise-near-me/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:33:03.696Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 242303,
+      "truncated": false,
+      "sha256": "eaa89fdf69908f44fd27aa806e9eb638e021b3be49c9388392244e976b0aeb55",
+      "textSha256": "02bb400d240771c5e449765f2742a54056764cc0c826661b9a89238f86396251",
+      "fromCache": true
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/blog/",
+      "finalUrl": "https://crossflowplumbingllc.com/blog/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:33:12.125Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 155568,
+      "truncated": false,
+      "sha256": "d7b40f2dc098176effae20ed4474e37da3aba94da130e9b402f12115bd0b970a",
+      "textSha256": "09395c4bdaa87ec72f0a9c65d1e379c67c72f17c4883a291d98d978329fc071a",
+      "fromCache": true
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/emergency-plumber-questions/",
+      "finalUrl": "https://crossflowplumbingllc.com/emergency-plumber-questions/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:14:54.781Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 146436,
+      "truncated": false,
+      "sha256": "9086b0596efcd5601b6c89ec0817d0642cbade81f0ca38a516115715fe567ea6",
+      "textSha256": "7dd3c5a676a8facab335c3c7a09f3663217808bf6fb886545178a96190c1f2d3",
+      "fromCache": false
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+      "finalUrl": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:15:07.395Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 158161,
+      "truncated": false,
+      "sha256": "aefed13318a15ff76adb7bab842cad1a343eac521a703319ed7e490c8363e1a8",
+      "textSha256": "37cdf5d3e06b2eab794fa54ccef4f170155cabf21847dd3b70750c5defbbd3e2",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://crossflowplumbingllc.com/about-crossflow-plumbing/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/eagle-plumbing-company/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/emergency-plumbing-eagle-boise-near-me/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/blog/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/emergency-plumber-questions/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/service",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://crossflowplumbingllc.com/best-plumber-near-me/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 6,
+  "usage": {
+    "input": 35231,
+    "cachedInput": 17420,
+    "output": 3186,
+    "thinking": 7557,
+    "toolUse": 0,
+    "total": 45974
+  },
+  "costUsd": 0.054951,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_351605",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/about-crossflow-plumbing/"
+      }
+    },
+    {
+      "id": "call_351606",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/contact/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3472646",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/eagle-plumbing-company/"
+      }
+    },
+    {
+      "id": "call_3472647",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/emergency-plumbing-eagle-boise-near-me/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3500560",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/blog/"
+      }
+    },
+    {
+      "id": "call_3500561",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/emergency-plumber-questions/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1392373",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/service"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3208934",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://crossflowplumbingllc.com/best-plumber-near-me/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Crossflow Plumbing LLC\",\n    \"location\": \"384 N Stierman Way, Eagle, Idaho 83616\",\n    \"claims\": [\n      {\n        \"statement\": \"Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"Crossflow Plumbing LLC is a locally owned plumbing company based in Eagle, Idaho.\"\n      },\n      {\n        \"statement\": \"The business operates from a physical address at 384 N Stierman Way in Eagle, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/about-crossflow-plumbing/\",\n        \"quote\": \"384 N Stierman Way Eagle, Idaho 83616\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential plumbing services\",\n    \"activities\": [\n      \"Emergency plumbing repairs\",\n      \"Burst pipe repair\",\n      \"Drain clearing and hydro jetting\",\n      \"Water heater repair and installation\",\n      \"Sewer line inspection and repair\",\n      \"Leak detection\",\n      \"Plumbing fixture installation\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company provides comprehensive residential plumbing services across the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/best-plumber-near-me/\",\n        \"quote\": \"Complete plumbing services, including emergency response, drain cleaning, water heater repair and installation, leak detection, pipe repair, sewer line work, and fixture installation\"\n      },\n      {\n        \"statement\": \"Crossflow Plumbing LLC offers 24/7 emergency response for plumbing issues.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"24/7 emergency response for burst pipes, sewer backups, and urgent plumbing issues\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://crossflowplumbingllc.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company serves Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton in Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"We proudly serve the entire Treasure Valley including Eagle, Meridian, Boise, Nampa, Star, Kuna, Melba, and Middleton.\"\n      },\n      {\n        \"statement\": \"The business is owner-operated with [redacted] answering calls and performing service directly.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/best-plumber-near-me/\",\n        \"quote\": \"[redacted] answers, [redacted] shows up, and [redacted] fixes it. That’s Crossflow Plumbing. That’s the whole pitch.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The company advertises that it is licensed and insured.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"Licensed & Insured\"\n      },\n      {\n        \"statement\": \"No specific Idaho state plumbing contractor license number is published on the website.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/about-crossflow-plumbing/\",\n        \"quote\": null\n      },\n      {\n        \"statement\": \"Contractor licensing status would need to be confirmed directly through the Idaho Division of Occupational and Professional Licenses.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ],\n    \"limitations\": \"The site claims licensed and insured status across several pages but does not provide an Idaho plumbing contractor license number or registration ID.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"client.housecallpro.com reviews widget\",\n      \"purpose\": \"Display customer reviews and potential field-service integration\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads an iframe pointing to client.housecallpro.com review widget 64a6cf54-1946-40dc-96c9-ccbb074bd969.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n        \"quote\": \"client.housecallpro.com\"\n      }\n    },\n    {\n      \"product\": \"Elementor Pro form engine\",\n      \"purpose\": \"Website lead capture and contact form submissions\",\n      \"evidence\": {\n        \"statement\": \"The website uses Elementor Pro scripts and WordPress form actions to handle service requests.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/contact/\",\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The company is positioned as an individual owner-operator who personally answers calls, visits sites, and performs repairs.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://crossflowplumbingllc.com/best-plumber-near-me/\",\n      \"quote\": \"[redacted] answers, [redacted] shows up, and [redacted] fixes it. That’s Crossflow Plumbing. That’s the whole pitch.\"\n    },\n    {\n      \"statement\": \"The site displays an unconfigured placeholder counter showing 0+ years of experience alongside 400+ happy customers.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://crossflowplumbingllc.com/\",\n      \"quote\": \"Years Experience 0 + Local Plumbing Experts in Eagle Idaho 400+ Happy Customers\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Headcount and operational scale fall well outside ForgeX's target customer segment of 10 to 75 staff.\",\n      \"label\": \"inference\",\n      \"basis\": \"The website explicitly markets the business as a solo owner-operator operation where the owner answers the phone, shows up, and completes the work himself (https://crossflowplumbingllc.com/best-plumber-near-me/).\"\n    },\n    {\n      \"problem\": \"As a solo owner-operator, call handling capacity while working on job sites could potentially delay lead response.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"When an owner-operator is under a sink or hydro-jetting a sewer line, answering incoming calls immediately is physically constrained.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Housecall Pro integrated online booking and call forwarding\",\n      \"addresses\": \"Capturing emergency leads and booking service windows directly while the plumber is on a job.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"WordPress/Elementor automated form email alerts and instant auto-responder\",\n      \"addresses\": \"Providing immediate confirmation to homeowners submitting the website service request form.\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solutions are recommended because the company does not match ForgeX's target business size.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No custom automation or AI agents are recommended for this business.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Solo owner-operator capacity creates a single point of failure for both administrative tasks and emergency field operations.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"No commercial engagement is proposed as Crossflow Plumbing LLC falls outside ForgeX's target segment of 10 to 75 staff.\",\n      \"While a blog post mentions general Boise emergency plumbing costs ranging from $150 to $500, the company does not publish a standardized price sheet for its specific services.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"Founder\",\n      \"Operator\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Owner & Founder\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/about-crossflow-plumbing/\",\n        \"quote\": \"[redacted], Owner & Founder of Crossflow Plumbing\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/\"\n      },\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/about-crossflow-plumbing/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://crossflowplumbingllc.com/contact/\",\n        \"sourceUrl\": \"https://crossflowplumbingllc.com/contact/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How do you manage incoming emergency calls while on a job site?\",\n      \"Are you looking to expand beyond an owner-operator model to add dedicated dispatchers or multiple field technicians?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://crossflowplumbingllc.com/\",\n        \"usedFor\": \"Identity, core services, service areas, Housecall Pro review widget reference, contact phone number\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/about-crossflow-plumbing/\",\n        \"usedFor\": \"Ownership identification ([redacted], Owner & Founder), business address, email contact, operating philosophy\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/contact/\",\n        \"usedFor\": \"Contact channels, web form structure, verified address\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/eagle-plumbing-company/\",\n        \"usedFor\": \"Local service offerings, fixture installation details, equipment capabilities\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/emergency-plumbing-eagle-boise-near-me/\",\n        \"usedFor\": \"24/7 emergency service description and repair scope\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/blog/\",\n        \"usedFor\": \"Blog post topics and educational resources\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/emergency-plumber-questions/\",\n        \"usedFor\": \"Treasure Valley water conditions and operational insights\"\n      },\n      {\n        \"url\": \"https://crossflowplumbingllc.com/best-plumber-near-me/\",\n        \"usedFor\": \"Confirmation of solo owner-operator business model ('[redacted] answers, [redacted] shows up, and [redacted] fixes it'), licensing claims, local market pricing notes\"\n      }\n    ],\n    \"limitations\": [\n      \"The website does not disclose employee headcount or an organizational directory, though copy explicitly highlights the business as an owner-operator operation.\",\n      \"Specific state plumbing contractor license numbers are not published on the site.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Crossflow Plumbing LLC is outside ForgeX's target segment of owner-led home-service contractors with about 10 to 75 staff who pay for leads. The website explicitly positions the company as an owner-operator plumbing service where the owner personally answers calls, visits homes, and performs the repairs ('[redacted] answers, [redacted] shows up, and [redacted] fixes it. That’s Crossflow Plumbing. That’s the whole pitch'). The firm lacks the staffing scale, administrative overhead, and lead volume required for ForgeX's fixed-price automation offerings.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

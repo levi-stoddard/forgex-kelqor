@@ -1,0 +1,751 @@
+{
+  "company": {
+    "id": "c21",
+    "name": "Treasure Valley IT",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.tvit.net/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:56:13.195Z",
+  "finishedAt": "2026-10-27T18:58:01.234Z",
+  "report": {
+    "identity": {
+      "name": "Treasure Valley IT",
+      "location": "9019 W Barnes St, Boise, ID 83709",
+      "claims": [
+        {
+          "statement": "The business operates under the name Treasure Valley IT (also referred to as TVIT).",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/",
+          "quote": "At Treasure Valley IT, our mission is to deliver exceptional service by dedicating our full attention to each client's unique needs."
+        },
+        {
+          "statement": "Treasure Valley IT's main office is located at 9019 W Barnes St, Boise, ID 83709.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/",
+          "quote": "Main Office: 9019 W Barnes St Boise ID 83709"
+        },
+        {
+          "statement": "The company serves Boise, Idaho and surrounding Treasure Valley communities including Eagle, Kuna, Nampa, Garden City, Middleton, Meridian, Star, and Caldwell.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/",
+          "quote": "We are proud to serve Boise, Idaho and the surrounding areas, including: Boise Eagle Kuna Nampa Garden City Middleton Meridian Star Caldwell Idaho"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Information Technology Services / Managed Service Provider (MSP)",
+      "activities": [
+        "Managed IT and co-managed IT services",
+        "Core IT infrastructure, server repair, network management, and disaster recovery",
+        "Cybersecurity, IT compliance, and audit services",
+        "Software and productivity services (Microsoft Office 365, email migration, IT project management, hardware procurement)",
+        "Commercial and residential IT support"
+      ],
+      "claims": [
+        {
+          "statement": "Treasure Valley IT provides IT services to both business and residential clients.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/",
+          "quote": "We provide comprehensive IT services for both businesses and residential clients."
+        },
+        {
+          "statement": "The company offers both fully managed IT services and co-managed IT across multiple support tiers.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/",
+          "quote": "We offer fully managed IT services as well as co-managed IT with different tiers of support."
+        },
+        {
+          "statement": "Its core infrastructure offerings include managed IT, disaster recovery, server repair, cybersecurity, and network management.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/our-services/",
+          "quote": "Managed IT, disaster recovery, server repair, cybersecurity, network management, and more."
+        },
+        {
+          "statement": "The company is an IT managed service provider rather than a home-service trade contractor in HVAC, plumbing, or electrical.",
+          "label": "inference",
+          "sourceUrl": "https://www.tvit.net/our-services/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.tvit.net/",
+      "claims": [
+        {
+          "statement": "The website offers free network assessments to prospective business clients.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/",
+          "quote": "We’ll assess your network, identify risks, and recommend solutions—all at no cost."
+        },
+        {
+          "statement": "Treasure Valley IT states that it is a member of the Idaho Veterans Chamber of Commerce and employs veterans on its team.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/about/",
+          "quote": "At Treasure Valley IT, we are honored to be proud members of the Idaho Veterans Chamber of Commerce"
+        },
+        {
+          "statement": "The website lists Dell Technologies, Verizon One Talk, Acronis, Apple, MailProtector, Microsoft, Lenovo, and Fortinet under its vendors section.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/",
+          "quote": "Our Vendors Dell Technologies Verizon One Talk Acronis Apple MailProtector Microsoft Lenovo Fortinet"
+        },
+        {
+          "statement": "The company applies a 3.5% processing fee to online credit card bill payments.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/client-support/pay-bill/",
+          "quote": "*Please note that a 3.5% credit card processing fee will be applied at checkout."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The company states that it provides Microsoft Certified Support.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/software-and-productivity-services/",
+          "quote": "Certified support for Microsoft products, including troubleshooting, updates, and integration."
+        },
+        {
+          "statement": "The company states that it provides Apple-certified support.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/software-and-productivity-services/",
+          "quote": "Reliable Apple-certified support for iOS and iOS X."
+        }
+      ],
+      "limitations": "No state business-registration numbers, corporate entity filings, or trade contractor license numbers were published on the pages read."
+    },
+    "existingSoftware": [
+      {
+        "product": "Google Ads",
+        "purpose": "Advertising and remarketing cookies",
+        "evidence": {
+          "statement": "The privacy policy states that Google is used as a third-party vendor to serve ads using cookies.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/privacy-policy/",
+          "quote": "Google, as a third party vendor, uses cookies to serve ads."
+        }
+      },
+      {
+        "product": "Gravatar (automattic.com)",
+        "purpose": "Commenter profile image lookup on website",
+        "evidence": {
+          "statement": "The privacy policy states that an anonymized hash of a commenter's email address may be sent to the Gravatar service.",
+          "label": "fact",
+          "sourceUrl": "https://www.tvit.net/privacy-policy/",
+          "quote": "An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service"
+        }
+      },
+      {
+        "product": "Client Portal hosted at tvit.itclientportal.com",
+        "purpose": "Customer support portal login",
+        "evidence": {
+          "statement": "The Client Portal page references the external host tvit.itclientportal.com for client logins.",
+          "label": "inference",
+          "sourceUrl": "https://www.tvit.net/client-support/client-portal/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Payment Portal hosted at secure2.wise-sync.com",
+        "purpose": "Online invoice and bill payment processing",
+        "evidence": {
+          "statement": "The Pay Bill page references the external host secure2.wise-sync.com for customer invoice payments.",
+          "label": "inference",
+          "sourceUrl": "https://www.tvit.net/client-support/pay-bill/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Web tracking, caching, and marketing scripts (googletagmanager.com, static.cloudflareinsights.com, cdn.leadinfo.net, link.msgsndr.com, to.getnitropack.com)",
+        "purpose": "Website tag management, analytics, lead tracking, and page optimization",
+        "evidence": {
+          "statement": "The homepage loads scripts or frames from googletagmanager.com and static.cloudflareinsights.com and references cdn.leadinfo.net, link.msgsndr.com, and to.getnitropack.com.",
+          "label": "inference",
+          "sourceUrl": "https://www.tvit.net/",
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The New Client Onboarding Form collects sensitive infrastructure credentials, including server admin, local computer admin, and networking equipment passwords, via a standard web POST form.",
+        "label": "fact",
+        "sourceUrl": "https://www.tvit.net/client-support/client-onboarding-form/",
+        "quote": "Server Admin Accounts and Passwords? Local Computer Admin Accounts and Passwords? Networking Equipment Account Name and Passwords?"
+      },
+      {
+        "statement": "The homepage counter for 'Tickets Resolved Last Month' displays 0.",
+        "label": "fact",
+        "sourceUrl": "https://www.tvit.net/",
+        "quote": "Tickets Resolved Last Month 0"
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Collecting plain-text administrative passwords on a general web onboarding form may create credential-handling overhead and security exposure compared to a dedicated vault or PSA onboarding workflow.",
+        "label": "hypothesis",
+        "basis": "The onboarding page asks new clients to type server, local admin, and network passwords directly into form fields."
+      },
+      {
+        "problem": "The homepage counter showing 'Tickets Resolved Last Month 0' appears to be an unmaintained or broken website counter widget.",
+        "label": "inference",
+        "basis": "Observed directly on https://www.tvit.net/ where the counter value reads 0."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Existing IT client portal and PSA/documentation stack (tvit.itclientportal.com) and Microsoft 365 toolset",
+        "addresses": "Structured client onboarding, credential documentation, and ticket management",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "Treasure Valley IT is a Managed IT Service Provider outside ForgeX's target segment of owner-led home-service contractors (HVAC, plumbing, and electrical), so no ForgeX solution is recommended."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because the company is outside ForgeX's target market and operates as an IT services provider."
+    },
+    "humanReview": [
+      "No ForgeX automation is recommended; if the founder reviews this account, no outreach should be sent."
+    ],
+    "risks": [
+      {
+        "type": "security",
+        "description": "Requesting server, computer, and network administrator passwords via a web form on https://www.tvit.net/client-support/client-onboarding-form/ carries credential-storage and transmission risks if not routed directly into an encrypted password manager."
+      },
+      {
+        "type": "operational",
+        "description": "Pursuing an IT managed service provider falls outside ForgeX's home-service contractor specialization and standardized field-service integrations."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "The website does not publish service pricing, and the company is not a fit for ForgeX's catalog."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Founder",
+        "President / Managing Partner",
+        "Operations or Service Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.tvit.net/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.tvit.net/",
+          "usedFor": "Business identity, Boise office address, service areas, vendor list, ticket counter, and sales phone channel"
+        },
+        {
+          "url": "https://www.tvit.net/about/",
+          "usedFor": "Company mission and Idaho Veterans Chamber of Commerce membership"
+        },
+        {
+          "url": "https://www.tvit.net/meet-our-team-treasure-valley-it/",
+          "usedFor": "Checked for named owners, executives, or managers (none listed on page)"
+        },
+        {
+          "url": "https://www.tvit.net/our-services/",
+          "usedFor": "Verification of core business activities as an IT managed services provider"
+        },
+        {
+          "url": "https://www.tvit.net/software-and-productivity-services/",
+          "usedFor": "Verification of Microsoft and Apple certified support and IT service offerings"
+        },
+        {
+          "url": "https://www.tvit.net/privacy-policy/",
+          "usedFor": "Verification of Google Ads and Gravatar usage"
+        },
+        {
+          "url": "https://www.tvit.net/client-support/client-portal/",
+          "usedFor": "Identification of client portal host (tvit.itclientportal.com)"
+        },
+        {
+          "url": "https://www.tvit.net/client-support/pay-bill/",
+          "usedFor": "Identification of payment portal host (secure2.wise-sync.com) and credit card processing fee policy"
+        },
+        {
+          "url": "https://www.tvit.net/client-support/client-onboarding-form/",
+          "usedFor": "Analysis of client onboarding form fields and workflow"
+        },
+        {
+          "url": "https://www.tvit.net/client-support/remote-support/",
+          "usedFor": "Review of remote support and ticket submission workflow"
+        }
+      ],
+      "limitations": [
+        "https://www.tvit.net/contact-us/ refused automated access (HTTP 403) and could not be read.",
+        "The Meet Our Team and About pages do not name any owners, executives, or managers.",
+        "Employee headcount, revenue, and service pricing are not published on the pages read.",
+        "State business-registration details are not published on the website."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Treasure Valley IT is a Managed IT Service Provider (MSP) offering IT infrastructure, cybersecurity, and software support services rather than an owner-led home-service contractor in HVAC, plumbing, or electrical. Additionally, as an IT services provider with its own technical staff and client portal systems, it falls outside ForgeX's target segment."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.tvit.net/",
+        "quote": "At Treasure Valley IT, our mission is to deliver exceptional service by dedicating our full attention to each client's unique needs.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.tvit.net/",
+        "quote": "Main Office: 9019 W Barnes St Boise ID 83709",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.tvit.net/",
+        "quote": "We are proud to serve Boise, Idaho and the surrounding areas, including: Boise Eagle Kuna Nampa Garden City Middleton Meridian Star Caldwell Idaho",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.tvit.net/",
+        "quote": "We provide comprehensive IT services for both businesses and residential clients.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.tvit.net/",
+        "quote": "We offer fully managed IT services as well as co-managed IT with different tiers of support.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.tvit.net/our-services/",
+        "quote": "Managed IT, disaster recovery, server repair, cybersecurity, network management, and more.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.tvit.net/",
+        "quote": "We’ll assess your network, identify risks, and recommend solutions—all at no cost.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.tvit.net/about/",
+        "quote": "At Treasure Valley IT, we are honored to be proud members of the Idaho Veterans Chamber of Commerce",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.tvit.net/",
+        "quote": "Our Vendors Dell Technologies Verizon One Talk Acronis Apple MailProtector Microsoft Lenovo Fortinet",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.tvit.net/client-support/pay-bill/",
+        "quote": "*Please note that a 3.5% credit card processing fee will be applied at checkout.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.tvit.net/software-and-productivity-services/",
+        "quote": "Certified support for Microsoft products, including troubleshooting, updates, and integration.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.tvit.net/software-and-productivity-services/",
+        "quote": "Reliable Apple-certified support for iOS and iOS X.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.tvit.net/privacy-policy/",
+        "quote": "Google, as a third party vendor, uses cookies to serve ads.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.tvit.net/privacy-policy/",
+        "quote": "An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.tvit.net/client-support/client-onboarding-form/",
+        "quote": "Server Admin Accounts and Passwords? Local Computer Admin Accounts and Passwords? Networking Equipment Account Name and Passwords?",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.tvit.net/",
+        "quote": "Tickets Resolved Last Month 0",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.tvit.net/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 16,
+      "quotesFound": 16,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 4,
+      "hypotheses": 0,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.tvit.net/",
+      "finalUrl": "https://www.tvit.net/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:56:22.551Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 706931,
+      "truncated": false,
+      "sha256": "6c8f5dac0e41a3d721fd858ca57e370f6c15936a6a712cb0e2bf86879539717a",
+      "textSha256": "1c8bcc73e3a4509f4dadfe999b7fd698c3c0a52f1bef546b59833ffd3aa921a0",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/about/",
+      "finalUrl": "https://www.tvit.net/about/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:56:31.437Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 597456,
+      "truncated": false,
+      "sha256": "f34320c1cd8e92603ccfcfe4e69a50bb3d2ada31c096c50ae6dcdb7d2e489665",
+      "textSha256": "e44ef779464d69aff1120a06728aef3c0351f84ddcc9db8fbb74104c0d6eab19",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/meet-our-team-treasure-valley-it/",
+      "finalUrl": "https://www.tvit.net/meet-our-team-treasure-valley-it/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:56:34.380Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 593481,
+      "truncated": false,
+      "sha256": "fb31ce68487cc5db64fbf9109d3e0af3d99e9006cec5e292114a0fda2f666a5a",
+      "textSha256": "1c3e96fa796114acd3583e3d09dff48d6ffca38bd454b19d1c795193da2dc70c",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/contact-us/",
+      "finalUrl": "https://www.tvit.net/contact-us/",
+      "outcome": "refused",
+      "status": 403,
+      "detail": "The site refused automated access (HTTP 403).",
+      "retrievedAt": "2026-10-27T18:56:34.381Z",
+      "contentType": "",
+      "bytes": 0,
+      "truncated": false,
+      "sha256": null,
+      "textSha256": null,
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/our-services/",
+      "finalUrl": "https://www.tvit.net/our-services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:56:40.529Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 581429,
+      "truncated": false,
+      "sha256": "68dcbc3a1c59f22c084c0d1c39870cba12dacab52674d57493d4c46316b0aa85",
+      "textSha256": "e4fc3b24e0d5d8329a37ba24c3e43a61a3ce1390cc19e8e3c2f7239ec05e673a",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/software-and-productivity-services/",
+      "finalUrl": "https://www.tvit.net/software-and-productivity-services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:56:43.402Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 605656,
+      "truncated": false,
+      "sha256": "2c09561ed1e813565158c39b37ee9727015fd5ff4f7db7eac611c6a3734e544d",
+      "textSha256": "3b03ccc286587f9920a900e5090c5baeaee35bf4a376caf4e1b6cae2a38cf6b5",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/privacy-policy/",
+      "finalUrl": "https://www.tvit.net/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:56:51.240Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 556666,
+      "truncated": false,
+      "sha256": "32c50a3eefd47dbb14b30b098495c7ab0c32e84232dd69614d1fa49c60f6c623",
+      "textSha256": "362af02275a34bc5fe1b0d999d0f4de563ed61811fd733f5dc091426fd5c872d",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/client-support/client-portal/",
+      "finalUrl": "https://www.tvit.net/client-support/client-portal/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:56:54.132Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 572405,
+      "truncated": false,
+      "sha256": "cb12c2f2122034c21aceb6af118850afff51b767e75e2f0fed2706ee64199561",
+      "textSha256": "0666fbeea0c32d636653ea6afccc26588a2bfcf43e7fe739846b559df5b1ae02",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/client-support/pay-bill/",
+      "finalUrl": "https://www.tvit.net/client-support/pay-bill/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:56:57.131Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 574352,
+      "truncated": false,
+      "sha256": "411774989c6ce575c6efc686af8d3f0f5f4377fafda3f74fe7f50083f24cda83",
+      "textSha256": "a901a220cfece00db9fd9f0d5f67db9980b7fc8e0315701eb5f2eaadb686e0f2",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/client-support/client-onboarding-form/",
+      "finalUrl": "https://www.tvit.net/client-support/client-onboarding-form/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:57:03.024Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 592422,
+      "truncated": false,
+      "sha256": "f28c2d05f752b1b6be1c6c7c718bfd07aa81d9b075bc99618446b875075b478a",
+      "textSha256": "e0ba42a2fcd908c3f1a6299ebb5aab6f338588529fc58e15636471c3d40cdbe5",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.tvit.net/client-support/remote-support/",
+      "finalUrl": "https://www.tvit.net/client-support/remote-support/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:57:05.907Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 570581,
+      "truncated": false,
+      "sha256": "107305c19ed56671d74b95f4fee409b14ac457dfffe8058f9dd167fb17d7d51f",
+      "textSha256": "4ae09b73d3efebe8afc8575d5ce638b96a71e0e7e20ea25e7fd9ee7af893e87b",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.tvit.net/about/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.tvit.net/meet-our-team-treasure-valley-it/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.tvit.net/contact-us/",
+      "outcome": "refused"
+    },
+    {
+      "url": "https://www.tvit.net/our-services/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.tvit.net/software-and-productivity-services/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.tvit.net/privacy-policy/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.tvit.net/client-support/client-portal/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.tvit.net/client-support/pay-bill/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.tvit.net/client-support/client-onboarding-form/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.tvit.net/client-support/remote-support/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 4,
+  "usage": {
+    "input": 90240,
+    "cachedInput": 36598,
+    "output": 3887,
+    "thinking": 1826,
+    "toolUse": 0,
+    "total": 95953
+  },
+  "costUsd": 0.1680738,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2952168",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/about/"
+      }
+    },
+    {
+      "id": "call_2952169",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/meet-our-team-treasure-valley-it/"
+      }
+    },
+    {
+      "id": "call_2952170",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/contact-us/"
+      }
+    },
+    {
+      "id": "call_2952171",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/our-services/"
+      }
+    },
+    {
+      "id": "call_2952172",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/software-and-productivity-services/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1914574",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/privacy-policy/"
+      }
+    },
+    {
+      "id": "call_1914575",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/client-support/client-portal/"
+      }
+    },
+    {
+      "id": "call_1914576",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/client-support/pay-bill/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1542325",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/client-support/client-onboarding-form/"
+      }
+    },
+    {
+      "id": "call_1542326",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.tvit.net/client-support/remote-support/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Treasure Valley IT\",\n    \"location\": \"9019 W Barnes St, Boise, ID 83709\",\n    \"claims\": [\n      {\n        \"statement\": \"The business operates under the name Treasure Valley IT (also referred to as TVIT).\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/\",\n        \"quote\": \"At Treasure Valley IT, our mission is to deliver exceptional service by dedicating our full attention to each client's unique needs.\"\n      },\n      {\n        \"statement\": \"Treasure Valley IT's main office is located at 9019 W Barnes St, Boise, ID 83709.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/\",\n        \"quote\": \"Main Office: 9019 W Barnes St Boise ID 83709\"\n      },\n      {\n        \"statement\": \"The company serves Boise, Idaho and surrounding Treasure Valley communities including Eagle, Kuna, Nampa, Garden City, Middleton, Meridian, Star, and Caldwell.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/\",\n        \"quote\": \"We are proud to serve Boise, Idaho and the surrounding areas, including: Boise Eagle Kuna Nampa Garden City Middleton Meridian Star Caldwell Idaho\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Information Technology Services / Managed Service Provider (MSP)\",\n    \"activities\": [\n      \"Managed IT and co-managed IT services\",\n      \"Core IT infrastructure, server repair, network management, and disaster recovery\",\n      \"Cybersecurity, IT compliance, and audit services\",\n      \"Software and productivity services (Microsoft Office 365, email migration, IT project management, hardware procurement)\",\n      \"Commercial and residential IT support\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Treasure Valley IT provides IT services to both business and residential clients.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/\",\n        \"quote\": \"We provide comprehensive IT services for both businesses and residential clients.\"\n      },\n      {\n        \"statement\": \"The company offers both fully managed IT services and co-managed IT across multiple support tiers.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/\",\n        \"quote\": \"We offer fully managed IT services as well as co-managed IT with different tiers of support.\"\n      },\n      {\n        \"statement\": \"Its core infrastructure offerings include managed IT, disaster recovery, server repair, cybersecurity, and network management.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/our-services/\",\n        \"quote\": \"Managed IT, disaster recovery, server repair, cybersecurity, network management, and more.\"\n      },\n      {\n        \"statement\": \"The company is an IT managed service provider rather than a home-service trade contractor in HVAC, plumbing, or electrical.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.tvit.net/our-services/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.tvit.net/\",\n    \"claims\": [\n      {\n        \"statement\": \"The website offers free network assessments to prospective business clients.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/\",\n        \"quote\": \"We’ll assess your network, identify risks, and recommend solutions—all at no cost.\"\n      },\n      {\n        \"statement\": \"Treasure Valley IT states that it is a member of the Idaho Veterans Chamber of Commerce and employs veterans on its team.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/about/\",\n        \"quote\": \"At Treasure Valley IT, we are honored to be proud members of the Idaho Veterans Chamber of Commerce\"\n      },\n      {\n        \"statement\": \"The website lists Dell Technologies, Verizon One Talk, Acronis, Apple, MailProtector, Microsoft, Lenovo, and Fortinet under its vendors section.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/\",\n        \"quote\": \"Our Vendors Dell Technologies Verizon One Talk Acronis Apple MailProtector Microsoft Lenovo Fortinet\"\n      },\n      {\n        \"statement\": \"The company applies a 3.5% processing fee to online credit card bill payments.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/client-support/pay-bill/\",\n        \"quote\": \"*Please note that a 3.5% credit card processing fee will be applied at checkout.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The company states that it provides Microsoft Certified Support.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/software-and-productivity-services/\",\n        \"quote\": \"Certified support for Microsoft products, including troubleshooting, updates, and integration.\"\n      },\n      {\n        \"statement\": \"The company states that it provides Apple-certified support.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/software-and-productivity-services/\",\n        \"quote\": \"Reliable Apple-certified support for iOS and iOS X.\"\n      }\n    ],\n    \"limitations\": \"No state business-registration numbers, corporate entity filings, or trade contractor license numbers were published on the pages read.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Google Ads\",\n      \"purpose\": \"Advertising and remarketing cookies\",\n      \"evidence\": {\n        \"statement\": \"The privacy policy states that Google is used as a third-party vendor to serve ads using cookies.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/privacy-policy/\",\n        \"quote\": \"Google, as a third party vendor, uses cookies to serve ads.\"\n      }\n    },\n    {\n      \"product\": \"Gravatar (automattic.com)\",\n      \"purpose\": \"Commenter profile image lookup on website\",\n      \"evidence\": {\n        \"statement\": \"The privacy policy states that an anonymized hash of a commenter's email address may be sent to the Gravatar service.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.tvit.net/privacy-policy/\",\n        \"quote\": \"An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service\"\n      }\n    },\n    {\n      \"product\": \"Client Portal hosted at tvit.itclientportal.com\",\n      \"purpose\": \"Customer support portal login\",\n      \"evidence\": {\n        \"statement\": \"The Client Portal page references the external host tvit.itclientportal.com for client logins.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.tvit.net/client-support/client-portal/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Payment Portal hosted at secure2.wise-sync.com\",\n      \"purpose\": \"Online invoice and bill payment processing\",\n      \"evidence\": {\n        \"statement\": \"The Pay Bill page references the external host secure2.wise-sync.com for customer invoice payments.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.tvit.net/client-support/pay-bill/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Web tracking, caching, and marketing scripts (googletagmanager.com, static.cloudflareinsights.com, cdn.leadinfo.net, link.msgsndr.com, to.getnitropack.com)\",\n      \"purpose\": \"Website tag management, analytics, lead tracking, and page optimization\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads scripts or frames from googletagmanager.com and static.cloudflareinsights.com and references cdn.leadinfo.net, link.msgsndr.com, and to.getnitropack.com.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.tvit.net/\",\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The New Client Onboarding Form collects sensitive infrastructure credentials, including server admin, local computer admin, and networking equipment passwords, via a standard web POST form.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.tvit.net/client-support/client-onboarding-form/\",\n      \"quote\": \"Server Admin Accounts and Passwords? Local Computer Admin Accounts and Passwords? Networking Equipment Account Name and Passwords?\"\n    },\n    {\n      \"statement\": \"The homepage counter for 'Tickets Resolved Last Month' displays 0.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.tvit.net/\",\n      \"quote\": \"Tickets Resolved Last Month 0\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Collecting plain-text administrative passwords on a general web onboarding form may create credential-handling overhead and security exposure compared to a dedicated vault or PSA onboarding workflow.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The onboarding page asks new clients to type server, local admin, and network passwords directly into form fields.\"\n    },\n    {\n      \"problem\": \"The homepage counter showing 'Tickets Resolved Last Month 0' appears to be an unmaintained or broken website counter widget.\",\n      \"label\": \"inference\",\n      \"basis\": \"Observed directly on https://www.tvit.net/ where the counter value reads 0.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Existing IT client portal and PSA/documentation stack (tvit.itclientportal.com) and Microsoft 365 toolset\",\n      \"addresses\": \"Structured client onboarding, credential documentation, and ticket management\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"Treasure Valley IT is a Managed IT Service Provider outside ForgeX's target segment of owner-led home-service contractors (HVAC, plumbing, and electrical), so no ForgeX solution is recommended.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because the company is outside ForgeX's target market and operates as an IT services provider.\"\n  },\n  \"humanReview\": [\n    \"No ForgeX automation is recommended; if the founder reviews this account, no outreach should be sent.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"security\",\n      \"description\": \"Requesting server, computer, and network administrator passwords via a web form on https://www.tvit.net/client-support/client-onboarding-form/ carries credential-storage and transmission risks if not routed directly into an encrypted password manager.\"\n    },\n    {\n      \"type\": \"operational\",\n      \"description\": \"Pursuing an IT managed service provider falls outside ForgeX's home-service contractor specialization and standardized field-service integrations.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"The website does not publish service pricing, and the company is not a fit for ForgeX's catalog.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Founder\",\n      \"President / Managing Partner\",\n      \"Operations or Service Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.tvit.net/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.tvit.net/\",\n        \"usedFor\": \"Business identity, Boise office address, service areas, vendor list, ticket counter, and sales phone channel\"\n      },\n      {\n        \"url\": \"https://www.tvit.net/about/\",\n        \"usedFor\": \"Company mission and Idaho Veterans Chamber of Commerce membership\"\n      },\n      {\n        \"url\": \"https://www.tvit.net/meet-our-team-treasure-valley-it/\",\n        \"usedFor\": \"Checked for named owners, executives, or managers (none listed on page)\"\n      },\n      {\n        \"url\": \"https://www.tvit.net/our-services/\",\n        \"usedFor\": \"Verification of core business activities as an IT managed services provider\"\n      },\n      {\n        \"url\": \"https://www.tvit.net/software-and-productivity-services/\",\n        \"usedFor\": \"Verification of Microsoft and Apple certified support and IT service offerings\"\n      },\n      {\n        \"url\": \"https://www.tvit.net/privacy-policy/\",\n        \"usedFor\": \"Verification of Google Ads and Gravatar usage\"\n      },\n      {\n        \"url\": \"https://www.tvit.net/client-support/client-portal/\",\n        \"usedFor\": \"Identification of client portal host (tvit.itclientportal.com)\"\n      },\n      {\n        \"url\": \"https://www.tvit.net/client-support/pay-bill/\",\n        \"usedFor\": \"Identification of payment portal host (secure2.wise-sync.com) and credit card processing fee policy\"\n      },\n      {\n        \"url\": \"https://www.tvit.net/client-support/client-onboarding-form/\",\n        \"usedFor\": \"Analysis of client onboarding form fields and workflow\"\n      },\n      {\n        \"url\": \"https://www.tvit.net/client-support/remote-support/\",\n        \"usedFor\": \"Review of remote support and ticket submission workflow\"\n      }\n    ],\n    \"limitations\": [\n      \"https://www.tvit.net/contact-us/ refused automated access (HTTP 403) and could not be read.\",\n      \"The Meet Our Team and About pages do not name any owners, executives, or managers.\",\n      \"Employee headcount, revenue, and service pricing are not published on the pages read.\",\n      \"State business-registration details are not published on the website.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Treasure Valley IT is a Managed IT Service Provider (MSP) offering IT infrastructure, cybersecurity, and software support services rather than an owner-led home-service contractor in HVAC, plumbing, or electrical. Additionally, as an IT services provider with its own technical staff and client portal systems, it falls outside ForgeX's target segment.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

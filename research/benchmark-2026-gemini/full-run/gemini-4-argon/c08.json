@@ -1,0 +1,510 @@
+{
+  "company": {
+    "id": "c08",
+    "name": "Erwin Custom Fabrication",
+    "town": "Nampa",
+    "state": "Idaho",
+    "website": "https://erwinfab.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:34:25.974Z",
+  "finishedAt": "2026-10-27T18:35:34.933Z",
+  "report": {
+    "identity": {
+      "name": "Erwin Custom Fabrication",
+      "location": "811 N Kings Rd, Nampa, ID 83687",
+      "claims": [
+        {
+          "statement": "Erwin Custom Fabrication operates from 811 N Kings Rd, Nampa, ID 83687.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/contact/",
+          "quote": "811 N Kings Rd, Nampa, ID 83687"
+        },
+        {
+          "statement": "The business has been established and operating since April 4, 1993.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/about/",
+          "quote": "With over 28 years of expertise—and 32 years in business since April 4, 1993—we specialize in structural steel fabrication"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Custom Metal Fabrication and Welding",
+      "activities": [
+        "Custom metal fabrication",
+        "Structural steel fabrication",
+        "Welding services",
+        "Sheet metal fabrication",
+        "Aluminum and stainless steel fabrication",
+        "Metal laser cutting",
+        "Ornamental metals, gates, and fences",
+        "Custom metal range hoods, countertops, cabinets, sinks, and steel tanks"
+      ],
+      "claims": [
+        {
+          "statement": "The shop provides custom metal fabrication, structural steel fabrication, welding, sheet metal, aluminum and stainless fabrication, laser cutting, ornamental metals, countertops, gates, and fences.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/",
+          "quote": "We provide custom metal fabrication, structural steel fabrication, welding, sheet metal, aluminum and stainless fabrication, metal laser cutting, ornamental metals, custom countertops, gates, and fences."
+        },
+        {
+          "statement": "The company fabricates custom metal pieces in its Nampa shop for both residential and commercial clients, rather than operating as a residential HVAC, plumbing, or electrical home-service contractor.",
+          "label": "inference",
+          "sourceUrl": "https://erwinfab.com/services/metal-fabrication-nampa-id/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://erwinfab.com/",
+      "claims": [
+        {
+          "statement": "The business's regular shop hours are Monday through Thursday from 7:00 AM to 4:30 PM, and it is closed Friday through Sunday.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/contact/",
+          "quote": "Mon–Thu 7:00 AM–4:30 PM Fri–Sun Closed"
+        },
+        {
+          "statement": "The company serves Nampa, Caldwell, Meridian, Eagle, Star, Boise, Garden City, Kuna, McCall, Cascade, and Emmett.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/",
+          "quote": "we deliver tight fits, clean welds, and dependable handoff for clients in Nampa, Caldwell, Meridian, Eagle, Star, Boise, Garden City, Kuna, McCall, Cascade, and Emmett."
+        },
+        {
+          "statement": "The website lists a 5.0 review rating across 140+ local reviews.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/",
+          "quote": "Local Reviews 140+ Review Rating 5.0"
+        },
+        {
+          "statement": "The website footer credits Brightbeam SEO Boise.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/",
+          "quote": "Brightbeam SEO Boise"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The company describes itself as a metal fabricator, aluminum welder, sheet metal contractor, and welder.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/",
+          "quote": "We are a metal fabricator, aluminum welder, sheet metal contractor, and welder equipped for a wide range of custom jobs."
+        }
+      ],
+      "limitations": "No state contractor license numbers, welding certification numbers, or business registration numbers are displayed on the pages read."
+    },
+    "existingSoftware": [
+      {
+        "product": "reCAPTCHA",
+        "purpose": "Spam and bot protection on website quote request forms",
+        "evidence": {
+          "statement": "The website quote forms state that the site is protected by reCAPTCHA.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/",
+          "quote": "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply."
+        }
+      },
+      {
+        "product": "googletagmanager.com iframe",
+        "purpose": "Website tag management and analytics tracking",
+        "evidence": {
+          "statement": "The website loads a frame from googletagmanager.com with ID GTM-WZ4BLQFV.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/",
+          "quote": "https://www.googletagmanager.com/ns.html?id=GTM-WZ4BLQFV"
+        }
+      },
+      {
+        "product": "google.com/maps/embed iframe",
+        "purpose": "Embedded location map on website pages",
+        "evidence": {
+          "statement": "The website embeds a map frame from google.com/maps/embed.",
+          "label": "fact",
+          "sourceUrl": "https://erwinfab.com/",
+          "quote": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.7097796330045!2d-116.53635942382645!3d43.59176107110502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae4dada5b39b33%3A0xbc121a038de1cdc4!2sErwin%20Custom%20Fabrication!5e0!3m2!1sen!2sph!4v1786593383385!5m2!1sen!2sph"
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Customers request quotes by calling, emailing, or submitting a basic web form with Name, Email, Phone, and Message, or by bringing drawings, photos, and measurements during shop hours.",
+        "label": "fact",
+        "sourceUrl": "https://erwinfab.com/services/metal-fabrication-nampa-id/",
+        "quote": "How do I get a metal fabrication quote in Nampa? + Call [redacted] or email [redacted] with drawings, photos, or measurements."
+      },
+      {
+        "statement": "The shop is closed Friday through Sunday, meaning inquiries arriving after 4:30 PM Thursday wait until Monday morning unless monitored.",
+        "label": "inference",
+        "sourceUrl": "https://erwinfab.com/contact/",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Potential delay in responding to weekend or after-hours quote requests while the shop is closed Friday through Sunday.",
+        "label": "hypothesis",
+        "basis": "The shop's stated hours are Monday through Thursday 7:00 AM to 4:30 PM and closed Friday through Sunday, and no automated instant-reply or chat system is visible on the public site."
+      },
+      {
+        "problem": "Manual back-and-forth to collect drawings, measurements, and photos when prospects initially submit only a text message via the website quote form.",
+        "label": "hypothesis",
+        "basis": "The website quote form includes only Name, Email, Phone, and Message fields without a file upload field, whereas the service page notes that drawings, photos, and field sizes are needed for quoting."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Standard web form file upload field and automated email autoresponder via existing website or email provider",
+        "addresses": "Collecting drawings/photos upfront and acknowledging inquiries submitted outside Monday–Thursday shop hours",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "Job-shop ERP/estimating software (such as JobBOSS, ECI M1, or QuickBooks with job costing)",
+        "addresses": "Quote tracking and shop scheduling for custom metal fabrication",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because the company is a custom metal fabrication job shop outside ForgeX's target segment of HVAC, plumbing, and electrical contractors."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended."
+    },
+    "humanReview": [
+      "Custom metal fabrication quotes require human review of engineering drawings, material thicknesses, tolerances, and shop capacity."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Custom fabrication relies on precise physical specifications, drawings, and material selection; automating quote generation or scope advice without human estimator review could result in misquoted jobs or structural safety issues."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "The website displays no prices, average project values, lead volumes, or employee headcount, so commercial value cannot be calculated."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "Shop Manager / General Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://erwinfab.com/contact/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How many fabrication quote requests do you typically receive per week via phone, email, and your website form?",
+        "What software do you currently use to track incoming drawings, estimates, and shop jobs?",
+        "How many staff members work in the shop and office?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://erwinfab.com/",
+          "usedFor": "Business identity, services, review count, service areas, reCAPTCHA and tag manager usage, and contact details"
+        },
+        {
+          "url": "https://erwinfab.com/about/",
+          "usedFor": "Company history, founding date (April 4, 1993), and business description"
+        },
+        {
+          "url": "https://erwinfab.com/faq/",
+          "usedFor": "General metal fabrication FAQs and service scope verification"
+        },
+        {
+          "url": "https://erwinfab.com/contact/",
+          "usedFor": "Physical address, operating hours (Mon–Thu 7:00 AM–4:30 PM), and official contact channel"
+        },
+        {
+          "url": "https://erwinfab.com/services/metal-fabrication-nampa-id/",
+          "usedFor": "Quoting workflow, drawing/measurement intake process, and shop operations"
+        }
+      ],
+      "limitations": [
+        "The website does not state the company's employee count or revenue.",
+        "The website does not identify any owners, executives, or managers by title (individuals are only mentioned in client review quotes).",
+        "The website does not list state contractor license numbers or internal shop/accounting software.",
+        "The website does not publish service pricing or paid lead-generation evidence."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Erwin Custom Fabrication is a custom metal fabrication and welding shop (structural steel, sheet metal, aluminum, stainless steel, laser cutting, gates, range hoods, and tanks) rather than a residential HVAC, plumbing, or electrical contractor. In addition, its employee count and paid lead-generation activity cannot be verified from the public website, placing it outside ForgeX's target segment."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://erwinfab.com/contact/",
+        "quote": "811 N Kings Rd, Nampa, ID 83687",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://erwinfab.com/about/",
+        "quote": "With over 28 years of expertise—and 32 years in business since April 4, 1993—we specialize in structural steel fabrication",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://erwinfab.com/",
+        "quote": "We provide custom metal fabrication, structural steel fabrication, welding, sheet metal, aluminum and stainless fabrication, metal laser cutting, ornamental metals, custom countertops, gates, and fences.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://erwinfab.com/contact/",
+        "quote": "Mon–Thu 7:00 AM–4:30 PM Fri–Sun Closed",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://erwinfab.com/",
+        "quote": "we deliver tight fits, clean welds, and dependable handoff for clients in Nampa, Caldwell, Meridian, Eagle, Star, Boise, Garden City, Kuna, McCall, Cascade, and Emmett.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://erwinfab.com/",
+        "quote": "Local Reviews 140+ Review Rating 5.0",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://erwinfab.com/",
+        "quote": "Brightbeam SEO Boise",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://erwinfab.com/",
+        "quote": "We are a metal fabricator, aluminum welder, sheet metal contractor, and welder equipped for a wide range of custom jobs.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://erwinfab.com/",
+        "quote": "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://erwinfab.com/",
+        "quote": "https://www.googletagmanager.com/ns.html?id=GTM-WZ4BLQFV",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://erwinfab.com/",
+        "quote": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.7097796330045!2d-116.53635942382645!3d43.59176107110502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae4dada5b39b33%3A0xbc121a038de1cdc4!2sErwin%20Custom%20Fabrication!5e0!3m2!1sen!2sph!4v1786593383385!5m2!1sen!2sph",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://erwinfab.com/services/metal-fabrication-nampa-id/",
+        "quote": "How do I get a metal fabrication quote in Nampa? + Call [redacted] or email [redacted] with drawings, photos, or measurements.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://erwinfab.com/contact/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 12,
+      "quotesFound": 12,
+      "quotesFoundInDetails": 2,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 0,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://erwinfab.com/",
+      "finalUrl": "https://erwinfab.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:34:29.191Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 336473,
+      "truncated": false,
+      "sha256": "c8ba091a1edd7aca18828804a31fd657a5b4c92193c0edc1245bf5b4d4da3324",
+      "textSha256": "291bb22f054b9239e04043d1be4fb9ace934e6702c85d9e6a8162514c69c3e9f",
+      "fromCache": false
+    },
+    {
+      "url": "https://erwinfab.com/about",
+      "finalUrl": "https://erwinfab.com/about/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:34:37.783Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 164003,
+      "truncated": false,
+      "sha256": "f2be3c3970e0cfe36e8febaa5c752cebd093ec224d6225751ea66216f21e1d51",
+      "textSha256": "92583df82827ff7325a398bae1c07ff49ce80f73bea7c524f7c28d32a04777d4",
+      "fromCache": false
+    },
+    {
+      "url": "https://erwinfab.com/faq",
+      "finalUrl": "https://erwinfab.com/faq/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:34:43.893Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 96682,
+      "truncated": false,
+      "sha256": "2ca59112aa1eae2f838094ee2f02c3c08326d368c555d56056cfa3833dd3daee",
+      "textSha256": "f8281df9c99ec17429445d0079b1519363db9bd45ac207de1ca2da47170fc807",
+      "fromCache": false
+    },
+    {
+      "url": "https://erwinfab.com/contact",
+      "finalUrl": "https://erwinfab.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:34:49.797Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 73107,
+      "truncated": false,
+      "sha256": "e956e9b5754352547b74df28b42e4753e3569bfad864272471f1202af086a85e",
+      "textSha256": "c85e06a6b4db222fc36f1ded97b3dd1bc94a599c9441c0d101d572e04fc2f915",
+      "fromCache": false
+    },
+    {
+      "url": "https://erwinfab.com/services/metal-fabrication-nampa-id/",
+      "finalUrl": "https://erwinfab.com/services/metal-fabrication-nampa-id/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:35:02.392Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 149097,
+      "truncated": false,
+      "sha256": "e57a53fc4e62956de4f6556d522d8004d41733f7b9618975d08c64c669890ef3",
+      "textSha256": "d06bf9580faa03b2b9b2ad10caf703eafa86510ffeda158f19627a8b0ac4be05",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://erwinfab.com/about",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://erwinfab.com/faq",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://erwinfab.com/contact",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://erwinfab.com/services/metal-fabrication-nampa-id/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 51096,
+    "cachedInput": 27915,
+    "output": 3181,
+    "thinking": 757,
+    "toolUse": 0,
+    "total": 55034
+  },
+  "costUsd": 0.0885335,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_264513",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://erwinfab.com/about"
+      }
+    },
+    {
+      "id": "call_264514",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://erwinfab.com/faq"
+      }
+    },
+    {
+      "id": "call_264515",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://erwinfab.com/contact"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2027167",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://erwinfab.com/services/metal-fabrication-nampa-id/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Erwin Custom Fabrication\",\n    \"location\": \"811 N Kings Rd, Nampa, ID 83687\",\n    \"claims\": [\n      {\n        \"statement\": \"Erwin Custom Fabrication operates from 811 N Kings Rd, Nampa, ID 83687.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/contact/\",\n        \"quote\": \"811 N Kings Rd, Nampa, ID 83687\"\n      },\n      {\n        \"statement\": \"The business has been established and operating since April 4, 1993.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/about/\",\n        \"quote\": \"With over 28 years of expertise—and 32 years in business since April 4, 1993—we specialize in structural steel fabrication\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Custom Metal Fabrication and Welding\",\n    \"activities\": [\n      \"Custom metal fabrication\",\n      \"Structural steel fabrication\",\n      \"Welding services\",\n      \"Sheet metal fabrication\",\n      \"Aluminum and stainless steel fabrication\",\n      \"Metal laser cutting\",\n      \"Ornamental metals, gates, and fences\",\n      \"Custom metal range hoods, countertops, cabinets, sinks, and steel tanks\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The shop provides custom metal fabrication, structural steel fabrication, welding, sheet metal, aluminum and stainless fabrication, laser cutting, ornamental metals, countertops, gates, and fences.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/\",\n        \"quote\": \"We provide custom metal fabrication, structural steel fabrication, welding, sheet metal, aluminum and stainless fabrication, metal laser cutting, ornamental metals, custom countertops, gates, and fences.\"\n      },\n      {\n        \"statement\": \"The company fabricates custom metal pieces in its Nampa shop for both residential and commercial clients, rather than operating as a residential HVAC, plumbing, or electrical home-service contractor.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://erwinfab.com/services/metal-fabrication-nampa-id/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://erwinfab.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The business's regular shop hours are Monday through Thursday from 7:00 AM to 4:30 PM, and it is closed Friday through Sunday.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/contact/\",\n        \"quote\": \"Mon–Thu 7:00 AM–4:30 PM Fri–Sun Closed\"\n      },\n      {\n        \"statement\": \"The company serves Nampa, Caldwell, Meridian, Eagle, Star, Boise, Garden City, Kuna, McCall, Cascade, and Emmett.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/\",\n        \"quote\": \"we deliver tight fits, clean welds, and dependable handoff for clients in Nampa, Caldwell, Meridian, Eagle, Star, Boise, Garden City, Kuna, McCall, Cascade, and Emmett.\"\n      },\n      {\n        \"statement\": \"The website lists a 5.0 review rating across 140+ local reviews.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/\",\n        \"quote\": \"Local Reviews 140+ Review Rating 5.0\"\n      },\n      {\n        \"statement\": \"The website footer credits Brightbeam SEO Boise.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/\",\n        \"quote\": \"Brightbeam SEO Boise\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The company describes itself as a metal fabricator, aluminum welder, sheet metal contractor, and welder.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/\",\n        \"quote\": \"We are a metal fabricator, aluminum welder, sheet metal contractor, and welder equipped for a wide range of custom jobs.\"\n      }\n    ],\n    \"limitations\": \"No state contractor license numbers, welding certification numbers, or business registration numbers are displayed on the pages read.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"reCAPTCHA\",\n      \"purpose\": \"Spam and bot protection on website quote request forms\",\n      \"evidence\": {\n        \"statement\": \"The website quote forms state that the site is protected by reCAPTCHA.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/\",\n        \"quote\": \"This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.\"\n      }\n    },\n    {\n      \"product\": \"googletagmanager.com iframe\",\n      \"purpose\": \"Website tag management and analytics tracking\",\n      \"evidence\": {\n        \"statement\": \"The website loads a frame from googletagmanager.com with ID GTM-WZ4BLQFV.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/\",\n        \"quote\": \"https://www.googletagmanager.com/ns.html?id=GTM-WZ4BLQFV\"\n      }\n    },\n    {\n      \"product\": \"google.com/maps/embed iframe\",\n      \"purpose\": \"Embedded location map on website pages\",\n      \"evidence\": {\n        \"statement\": \"The website embeds a map frame from google.com/maps/embed.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://erwinfab.com/\",\n        \"quote\": \"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.7097796330045!2d-116.53635942382645!3d43.59176107110502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae4dada5b39b33%3A0xbc121a038de1cdc4!2sErwin%20Custom%20Fabrication!5e0!3m2!1sen!2sph!4v1786593383385!5m2!1sen!2sph\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Customers request quotes by calling, emailing, or submitting a basic web form with Name, Email, Phone, and Message, or by bringing drawings, photos, and measurements during shop hours.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://erwinfab.com/services/metal-fabrication-nampa-id/\",\n      \"quote\": \"How do I get a metal fabrication quote in Nampa? + Call [redacted] or email [redacted] with drawings, photos, or measurements.\"\n    },\n    {\n      \"statement\": \"The shop is closed Friday through Sunday, meaning inquiries arriving after 4:30 PM Thursday wait until Monday morning unless monitored.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://erwinfab.com/contact/\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Potential delay in responding to weekend or after-hours quote requests while the shop is closed Friday through Sunday.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The shop's stated hours are Monday through Thursday 7:00 AM to 4:30 PM and closed Friday through Sunday, and no automated instant-reply or chat system is visible on the public site.\"\n    },\n    {\n      \"problem\": \"Manual back-and-forth to collect drawings, measurements, and photos when prospects initially submit only a text message via the website quote form.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The website quote form includes only Name, Email, Phone, and Message fields without a file upload field, whereas the service page notes that drawings, photos, and field sizes are needed for quoting.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Standard web form file upload field and automated email autoresponder via existing website or email provider\",\n      \"addresses\": \"Collecting drawings/photos upfront and acknowledging inquiries submitted outside Monday–Thursday shop hours\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"Job-shop ERP/estimating software (such as JobBOSS, ECI M1, or QuickBooks with job costing)\",\n      \"addresses\": \"Quote tracking and shop scheduling for custom metal fabrication\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because the company is a custom metal fabrication job shop outside ForgeX's target segment of HVAC, plumbing, and electrical contractors.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended.\"\n  },\n  \"humanReview\": [\n    \"Custom metal fabrication quotes require human review of engineering drawings, material thicknesses, tolerances, and shop capacity.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Custom fabrication relies on precise physical specifications, drawings, and material selection; automating quote generation or scope advice without human estimator review could result in misquoted jobs or structural safety issues.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"The website displays no prices, average project values, lead volumes, or employee headcount, so commercial value cannot be calculated.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"Shop Manager / General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://erwinfab.com/contact/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How many fabrication quote requests do you typically receive per week via phone, email, and your website form?\",\n      \"What software do you currently use to track incoming drawings, estimates, and shop jobs?\",\n      \"How many staff members work in the shop and office?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://erwinfab.com/\",\n        \"usedFor\": \"Business identity, services, review count, service areas, reCAPTCHA and tag manager usage, and contact details\"\n      },\n      {\n        \"url\": \"https://erwinfab.com/about/\",\n        \"usedFor\": \"Company history, founding date (April 4, 1993), and business description\"\n      },\n      {\n        \"url\": \"https://erwinfab.com/faq/\",\n        \"usedFor\": \"General metal fabrication FAQs and service scope verification\"\n      },\n      {\n        \"url\": \"https://erwinfab.com/contact/\",\n        \"usedFor\": \"Physical address, operating hours (Mon–Thu 7:00 AM–4:30 PM), and official contact channel\"\n      },\n      {\n        \"url\": \"https://erwinfab.com/services/metal-fabrication-nampa-id/\",\n        \"usedFor\": \"Quoting workflow, drawing/measurement intake process, and shop operations\"\n      }\n    ],\n    \"limitations\": [\n      \"The website does not state the company's employee count or revenue.\",\n      \"The website does not identify any owners, executives, or managers by title (individuals are only mentioned in client review quotes).\",\n      \"The website does not list state contractor license numbers or internal shop/accounting software.\",\n      \"The website does not publish service pricing or paid lead-generation evidence.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Erwin Custom Fabrication is a custom metal fabrication and welding shop (structural steel, sheet metal, aluminum, stainless steel, laser cutting, gates, range hoods, and tanks) rather than a residential HVAC, plumbing, or electrical contractor. In addition, its employee count and paid lead-generation activity cannot be verified from the public website, placing it outside ForgeX's target segment.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "company": {
+    "id": "c02",
+    "name": "Ascending IT",
+    "town": "Nampa",
+    "state": "Idaho",
+    "website": "https://ascending-it.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:57:48.729Z",
+  "finishedAt": "2026-10-27T19:59:37.233Z",
+  "report": {
+    "identity": {
+      "name": "Ascending IT (also styled as Ascending-IT)",
+      "location": "2128 N Devlin Way, Nampa, ID 83687 (serving Boise and the Treasure Valley)",
+      "claims": [
+        {
+          "statement": "Ascending IT lists its physical street address in Nampa, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/",
+          "quote": "2128 N Devlin Way, Nampa, ID 83687"
+        },
+        {
+          "statement": "The company states it serves small to medium businesses across the Treasure Valley and nationwide from the Boise area.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/",
+          "quote": "Based in Boise, serving businesses locally across the Treasure Valley and nationwide."
+        },
+        {
+          "statement": "The footer copyright notice identifies the business as Ascending-IT.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/",
+          "quote": "© 2026 Ascending-IT | All Rights Reserved | Site by Modern Penguin"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Information Technology Services / Managed Service Provider (MSP) & Cybersecurity",
+      "activities": [
+        "Managed IT services and 24/7 monitoring",
+        "Cybersecurity services (EDR, MDR, anti-phishing, ransomware protection, dark web monitoring)",
+        "Cloud and SaaS management (Microsoft 365 and Google Workspace)",
+        "IT infrastructure, network, firewall, and patch management",
+        "Backup and disaster recovery",
+        "Co-managed IT services and Virtual CIO (vCIO) consulting",
+        "IT security and compliance assessments (HIPAA, PCI-DSS, FINRA)"
+      ],
+      "claims": [
+        {
+          "statement": "Ascending IT provides proactive IT management and built-in cybersecurity for small to medium businesses.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/",
+          "quote": "With 20+ years of experience, Ascending IT delivers proactive IT management and built-in cybersecurity for small to medium businesses across the Treasure Valley."
+        },
+        {
+          "statement": "The company offers 24/7 monitoring, proactive maintenance, and helpdesk support.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/",
+          "quote": "Our Boise Managed IT Services provide 24/7 monitoring, proactive maintenance, and fast support to reduce downtime, control costs, and keep your business running."
+        },
+        {
+          "statement": "Ascending IT is an B2B IT managed service provider rather than a residential home-service contractor in HVAC, plumbing, or electrical trades.",
+          "label": "inference",
+          "sourceUrl": "https://ascending-it.com/managed-it-support-boise/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://ascending-it.com/",
+      "claims": [
+        {
+          "statement": "Ascending IT structures its managed IT offerings into three tiers: Silver Package, Gold Package, and Platinum Package.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/",
+          "quote": "Silver Package Gold Package Platinum Package"
+        },
+        {
+          "statement": "Every new client engagement starts with a Free IT Assessment delivered within three business days.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/free-it-assessment-boise/",
+          "quote": "Your assessment is prepared within 3 business days (unless you’re facing an urgent IT crisis, in which case we fast-track your review)."
+        },
+        {
+          "statement": "The company serves clients across Healthcare, Construction, Finance & Accounting, Professional Services, Manufacturing, Retail, and Hospitality.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/",
+          "quote": "Healthcare Construction Finance & Accounting Professional Services Manufacturing Retail Hospitality"
+        },
+        {
+          "statement": "The website includes links for clients to make payments and view support ticket status referencing on-sitesvcs.connectboosterportal.com and onsitesvcs.itclientportal.com.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/",
+          "quote": "Make A Payment View Ticket Status"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The company states it assists clients with regulatory compliance frameworks including HIPAA, PCI-DSS, and FINRA, though it does not list its own state business registration numbers or trade licenses on the website.",
+          "label": "fact",
+          "sourceUrl": "https://ascending-it.com/boise-it-company/",
+          "quote": "From HIPAA to PCI-DSS, and cybersecurity threats to scaling challenges, we provide proactive solutions that give you clarity and confidence."
+        }
+      ],
+      "limitations": "No corporate entity registration numbers, legal formation details, or state contractor/trade license numbers are displayed on the public website pages read."
+    },
+    "existingSoftware": [
+      {
+        "product": "on-sitesvcs.connectboosterportal.com (ConnectBooster billing portal)",
+        "purpose": "Client billing and online payment portal",
+        "evidence": {
+          "statement": "The host on-sitesvcs.connectboosterportal.com referenced on the site is likely a ConnectBooster payment portal used for the 'Make A Payment' link.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "onsitesvcs.itclientportal.com (IT Client Portal / PSA ticketing portal)",
+        "purpose": "Client support ticket status and service portal",
+        "evidence": {
+          "statement": "The host onsitesvcs.itclientportal.com referenced on the site is likely a customer-facing PSA ticketing portal used for the 'View Ticket Status' link.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "WordPress with Divi Theme, DiviFlash, Divi Toolbox, and Fluent Forms",
+        "purpose": "Content management system, website theme/builder, and web form handling",
+        "evidence": {
+          "statement": "The script paths containing /wp-includes/, /wp-content/themes/Divi/, /wp-content/plugins/diviflash/, and /wp-content/plugins/fluentform/ indicate the website is built on WordPress using Divi and Fluent Forms.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "CookieYes (cdn-cookieyes.com) and Termageddon (policies.termageddon.com)",
+        "purpose": "Cookie consent banner management and embedded privacy policy management",
+        "evidence": {
+          "statement": "Scripts loaded from cdn-cookieyes.com and policies.termageddon.com indicate the site uses CookieYes for consent management and Termageddon for policy embeds.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Google Tag Manager / Google Analytics (googletagmanager.com) and Google reCAPTCHA",
+        "purpose": "Website analytics tracking and form spam protection",
+        "evidence": {
+          "statement": "Scripts loaded from www.googletagmanager.com and www.google.com/recaptcha/api.js indicate the site uses Google analytics/tag management and reCAPTCHA.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Ascending IT already operates a client portal for ticket status and a payment portal, and delivers automated email threat remediation and SaaS monitoring as part of its own managed service offerings.",
+        "label": "fact",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "*Automated Email Threat Remediation is for 365/Google Workspace"
+      },
+      {
+        "statement": "The company uses web forms for lead capture via its Contact page and Free IT Assessment request page.",
+        "label": "fact",
+        "sourceUrl": "https://ascending-it.com/it-support-boise/",
+        "quote": "Reach out directly or fill out our Free IT Assessment form to get started."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "No confirmed operational or automation problems exist on the public website that match ForgeX's home-service contractor offerings.",
+        "label": "inference",
+        "basis": "Based on https://ascending-it.com/ and https://ascending-it.com/managed-it-support-boise/, Ascending IT is an IT Managed Service Provider with its own technical staff, ticketing portal, payment portal, and automation tooling."
+      },
+      {
+        "problem": "Preparing comprehensive Free IT Assessments within 3 business days could involve manual audit aggregation for the technical team.",
+        "label": "hypothesis",
+        "basis": "Plausible operational workload for an MSP conducting security and network audits, though unconfirmed from public pages."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Client Ticketing Portal (onsitesvcs.itclientportal.com) and Payment Portal (on-sitesvcs.connectboosterportal.com)",
+        "addresses": "Customer support triage, ticket tracking, and invoice collection",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "MSP RMM, EDR, MDR, and SaaS Active Monitoring stack",
+        "addresses": "Endpoint management, patch management, and automated threat remediation",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because Ascending IT is an IT Managed Services Provider outside ForgeX's target segment of owner-led home-service contractors (HVAC, plumbing, and electrical) and already operates its own IT management and ticketing systems."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "Not applicable as no ForgeX automation service is recommended for this company."
+    },
+    "humanReview": [
+      "No outreach or implementation is recommended because the company is outside ForgeX's target segment."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Selling contractor-focused automation packages to a Managed IT Services Provider that manages technology and security for its own living would waste sales effort and misalign with ForgeX's core segment."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Founder",
+        "Managing Partner / President",
+        "Service Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://ascending-it.com/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "What PSA and RMM platforms do you currently use to manage client tickets and assessments?",
+        "Do you serve HVAC, plumbing, or electrical contractors in the Treasure Valley who might benefit from field-service lead and reporting automation?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://ascending-it.com/",
+          "usedFor": "Business identity, Nampa physical address, phone and email contact details, service packages (Silver, Gold, Platinum), industries served, and portal host references."
+        },
+        {
+          "url": "https://ascending-it.com/boise-it-company/",
+          "usedFor": "Company background, mission, values, and compliance frameworks supported (HIPAA, PCI-DSS)."
+        },
+        {
+          "url": "https://ascending-it.com/it-support-boise/",
+          "usedFor": "Contact channels, 24/7 support hours, physical address verification, and contact form details."
+        },
+        {
+          "url": "https://ascending-it.com/managed-it-support-boise/",
+          "usedFor": "Detailed breakdown of managed IT, cybersecurity, cloud/SaaS, backup, and vCIO services."
+        },
+        {
+          "url": "https://ascending-it.com/privacy-policy/",
+          "usedFor": "Checking for legal entity details and observing embedded policy script references."
+        },
+        {
+          "url": "https://ascending-it.com/free-it-assessment-boise/",
+          "usedFor": "Details on the Free IT Assessment process, 3-business-day turnaround, and evaluation criteria."
+        }
+      ],
+      "limitations": [
+        "No owners, executives, or managers are named on the website (only a client testimonial first name and last initial is shown, which is excluded per ForgeX rules).",
+        "Exact employee headcount and service pricing rates are not disclosed on the website.",
+        "State business registration numbers are not listed on the public site, and the privacy policy text is dynamically loaded via a third-party script."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Ascending IT is a B2B Managed IT Services and Cybersecurity Provider (MSP) rather than an owner-led home-service contractor in HVAC, plumbing, or electrical trades. Furthermore, the company is a technology provider with its own ticketing portal, billing portal, and IT automation capabilities."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "2128 N Devlin Way, Nampa, ID 83687",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "Based in Boise, serving businesses locally across the Treasure Valley and nationwide.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "© 2026 Ascending-IT | All Rights Reserved | Site by Modern Penguin",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "With 20+ years of experience, Ascending IT delivers proactive IT management and built-in cybersecurity for small to medium businesses across the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "Our Boise Managed IT Services provide 24/7 monitoring, proactive maintenance, and fast support to reduce downtime, control costs, and keep your business running.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "Silver Package Gold Package Platinum Package",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://ascending-it.com/free-it-assessment-boise/",
+        "quote": "Your assessment is prepared within 3 business days (unless you’re facing an urgent IT crisis, in which case we fast-track your review).",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "Healthcare Construction Finance & Accounting Professional Services Manufacturing Retail Hospitality",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "Make A Payment View Ticket Status",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://ascending-it.com/boise-it-company/",
+        "quote": "From HIPAA to PCI-DSS, and cybersecurity threats to scaling challenges, we provide proactive solutions that give you clarity and confidence.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://ascending-it.com/",
+        "quote": "*Automated Email Threat Remediation is for 365/Google Workspace",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://ascending-it.com/it-support-boise/",
+        "quote": "Reach out directly or fill out our Free IT Assessment form to get started.",
+        "verdict": "found on another page",
+        "foundOn": "https://ascending-it.com/"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://ascending-it.com/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 12,
+      "quotesFound": 11,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 1,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 5,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://ascending-it.com/",
+      "finalUrl": "https://ascending-it.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:57:51.836Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 348923,
+      "truncated": false,
+      "sha256": "330246b261afd9b722831b0f2ac92b8473add517f550094baf9576aafc7eea6c",
+      "textSha256": "06f9c35f1183c16da8b374913afb6a11b83b2f8ae938b5a80f89709db626a854",
+      "fromCache": false
+    },
+    {
+      "url": "https://ascending-it.com/boise-it-company/",
+      "finalUrl": "https://ascending-it.com/boise-it-company/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:57:58.402Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190772,
+      "truncated": false,
+      "sha256": "99c75318fa65da78d9eab3ecf7db3f1d8998c99ad2b6000ffdfe2664be2dd411",
+      "textSha256": "fbac64bb93c5917603a7c130b069c40939f3dea56666792e5fb2ea50f014a115",
+      "fromCache": false
+    },
+    {
+      "url": "https://ascending-it.com/it-support-boise/",
+      "finalUrl": "https://ascending-it.com/it-support-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:58:01.292Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188043,
+      "truncated": false,
+      "sha256": "02a1bf7e7737db327ba9a8791f998f2fcc291a265f760270a84e1f8f37ae0e88",
+      "textSha256": "d9f4099097f4ffc33eb076cab4a3eedcdabd464631a4055cc018b5d25ffc043e",
+      "fromCache": false
+    },
+    {
+      "url": "https://ascending-it.com/managed-it-support-boise/",
+      "finalUrl": "https://ascending-it.com/managed-it-support-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:58:06.161Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 205416,
+      "truncated": false,
+      "sha256": "c8996296f715c80548a6ac7e0c2eb4cb407fb42b73121afed2187315fdf8f76c",
+      "textSha256": "bd619e4bc487c3db8d4116a700cd0939f93cf5f27135ff5038836774a9fc9bd8",
+      "fromCache": false
+    },
+    {
+      "url": "https://ascending-it.com/privacy-policy",
+      "finalUrl": "https://ascending-it.com/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:58:12.166Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 170593,
+      "truncated": false,
+      "sha256": "c163ffaf4630de1301dc263924e5f561d2965e1ee983e8c9b7d9986dfc428e61",
+      "textSha256": "868cd8ff671e79a49cf419a522e41241c116c1286620df3d822bb2a227d23c6d",
+      "fromCache": false
+    },
+    {
+      "url": "https://ascending-it.com/free-it-assessment-boise/",
+      "finalUrl": "https://ascending-it.com/free-it-assessment-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:58:37.383Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 197785,
+      "truncated": false,
+      "sha256": "0852b39c6a94affca0632decca79969e084f2942ff80ff24a37b0ce7c6cc9366",
+      "textSha256": "42d842378b143f42f9bed6c1a649b17ed4533ec682daa5e14946ae11fc25ec0e",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://ascending-it.com/boise-it-company/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://ascending-it.com/it-support-boise/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://ascending-it.com/managed-it-support-boise/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://ascending-it.com/privacy-policy",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://ascending-it.com/free-it-assessment-boise/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 4,
+  "usage": {
+    "input": 55334,
+    "cachedInput": 35342,
+    "output": 3452,
+    "thinking": 2106,
+    "toolUse": 0,
+    "total": 60892
+  },
+  "costUsd": 0.0990982,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1931154",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://ascending-it.com/boise-it-company/"
+      }
+    },
+    {
+      "id": "call_1931155",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://ascending-it.com/it-support-boise/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1972765",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://ascending-it.com/managed-it-support-boise/"
+      }
+    },
+    {
+      "id": "call_1972766",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://ascending-it.com/privacy-policy"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_353655",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://ascending-it.com/free-it-assessment-boise/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Ascending IT (also styled as Ascending-IT)\",\n    \"location\": \"2128 N Devlin Way, Nampa, ID 83687 (serving Boise and the Treasure Valley)\",\n    \"claims\": [\n      {\n        \"statement\": \"Ascending IT lists its physical street address in Nampa, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/\",\n        \"quote\": \"2128 N Devlin Way, Nampa, ID 83687\"\n      },\n      {\n        \"statement\": \"The company states it serves small to medium businesses across the Treasure Valley and nationwide from the Boise area.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/\",\n        \"quote\": \"Based in Boise, serving businesses locally across the Treasure Valley and nationwide.\"\n      },\n      {\n        \"statement\": \"The footer copyright notice identifies the business as Ascending-IT.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/\",\n        \"quote\": \"© 2026 Ascending-IT | All Rights Reserved | Site by Modern Penguin\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Information Technology Services / Managed Service Provider (MSP) & Cybersecurity\",\n    \"activities\": [\n      \"Managed IT services and 24/7 monitoring\",\n      \"Cybersecurity services (EDR, MDR, anti-phishing, ransomware protection, dark web monitoring)\",\n      \"Cloud and SaaS management (Microsoft 365 and Google Workspace)\",\n      \"IT infrastructure, network, firewall, and patch management\",\n      \"Backup and disaster recovery\",\n      \"Co-managed IT services and Virtual CIO (vCIO) consulting\",\n      \"IT security and compliance assessments (HIPAA, PCI-DSS, FINRA)\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Ascending IT provides proactive IT management and built-in cybersecurity for small to medium businesses.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/\",\n        \"quote\": \"With 20+ years of experience, Ascending IT delivers proactive IT management and built-in cybersecurity for small to medium businesses across the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The company offers 24/7 monitoring, proactive maintenance, and helpdesk support.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/\",\n        \"quote\": \"Our Boise Managed IT Services provide 24/7 monitoring, proactive maintenance, and fast support to reduce downtime, control costs, and keep your business running.\"\n      },\n      {\n        \"statement\": \"Ascending IT is an B2B IT managed service provider rather than a residential home-service contractor in HVAC, plumbing, or electrical trades.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://ascending-it.com/managed-it-support-boise/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://ascending-it.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"Ascending IT structures its managed IT offerings into three tiers: Silver Package, Gold Package, and Platinum Package.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/\",\n        \"quote\": \"Silver Package Gold Package Platinum Package\"\n      },\n      {\n        \"statement\": \"Every new client engagement starts with a Free IT Assessment delivered within three business days.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/free-it-assessment-boise/\",\n        \"quote\": \"Your assessment is prepared within 3 business days (unless you’re facing an urgent IT crisis, in which case we fast-track your review).\"\n      },\n      {\n        \"statement\": \"The company serves clients across Healthcare, Construction, Finance & Accounting, Professional Services, Manufacturing, Retail, and Hospitality.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/\",\n        \"quote\": \"Healthcare Construction Finance & Accounting Professional Services Manufacturing Retail Hospitality\"\n      },\n      {\n        \"statement\": \"The website includes links for clients to make payments and view support ticket status referencing on-sitesvcs.connectboosterportal.com and onsitesvcs.itclientportal.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/\",\n        \"quote\": \"Make A Payment View Ticket Status\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The company states it assists clients with regulatory compliance frameworks including HIPAA, PCI-DSS, and FINRA, though it does not list its own state business registration numbers or trade licenses on the website.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ascending-it.com/boise-it-company/\",\n        \"quote\": \"From HIPAA to PCI-DSS, and cybersecurity threats to scaling challenges, we provide proactive solutions that give you clarity and confidence.\"\n      }\n    ],\n    \"limitations\": \"No corporate entity registration numbers, legal formation details, or state contractor/trade license numbers are displayed on the public website pages read.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"on-sitesvcs.connectboosterportal.com (ConnectBooster billing portal)\",\n      \"purpose\": \"Client billing and online payment portal\",\n      \"evidence\": {\n        \"statement\": \"The host on-sitesvcs.connectboosterportal.com referenced on the site is likely a ConnectBooster payment portal used for the 'Make A Payment' link.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"onsitesvcs.itclientportal.com (IT Client Portal / PSA ticketing portal)\",\n      \"purpose\": \"Client support ticket status and service portal\",\n      \"evidence\": {\n        \"statement\": \"The host onsitesvcs.itclientportal.com referenced on the site is likely a customer-facing PSA ticketing portal used for the 'View Ticket Status' link.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"WordPress with Divi Theme, DiviFlash, Divi Toolbox, and Fluent Forms\",\n      \"purpose\": \"Content management system, website theme/builder, and web form handling\",\n      \"evidence\": {\n        \"statement\": \"The script paths containing /wp-includes/, /wp-content/themes/Divi/, /wp-content/plugins/diviflash/, and /wp-content/plugins/fluentform/ indicate the website is built on WordPress using Divi and Fluent Forms.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"CookieYes (cdn-cookieyes.com) and Termageddon (policies.termageddon.com)\",\n      \"purpose\": \"Cookie consent banner management and embedded privacy policy management\",\n      \"evidence\": {\n        \"statement\": \"Scripts loaded from cdn-cookieyes.com and policies.termageddon.com indicate the site uses CookieYes for consent management and Termageddon for policy embeds.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google Tag Manager / Google Analytics (googletagmanager.com) and Google reCAPTCHA\",\n      \"purpose\": \"Website analytics tracking and form spam protection\",\n      \"evidence\": {\n        \"statement\": \"Scripts loaded from www.googletagmanager.com and www.google.com/recaptcha/api.js indicate the site uses Google analytics/tag management and reCAPTCHA.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Ascending IT already operates a client portal for ticket status and a payment portal, and delivers automated email threat remediation and SaaS monitoring as part of its own managed service offerings.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://ascending-it.com/\",\n      \"quote\": \"*Automated Email Threat Remediation is for 365/Google Workspace\"\n    },\n    {\n      \"statement\": \"The company uses web forms for lead capture via its Contact page and Free IT Assessment request page.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://ascending-it.com/it-support-boise/\",\n      \"quote\": \"Reach out directly or fill out our Free IT Assessment form to get started.\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"No confirmed operational or automation problems exist on the public website that match ForgeX's home-service contractor offerings.\",\n      \"label\": \"inference\",\n      \"basis\": \"Based on https://ascending-it.com/ and https://ascending-it.com/managed-it-support-boise/, Ascending IT is an IT Managed Service Provider with its own technical staff, ticketing portal, payment portal, and automation tooling.\"\n    },\n    {\n      \"problem\": \"Preparing comprehensive Free IT Assessments within 3 business days could involve manual audit aggregation for the technical team.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Plausible operational workload for an MSP conducting security and network audits, though unconfirmed from public pages.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Client Ticketing Portal (onsitesvcs.itclientportal.com) and Payment Portal (on-sitesvcs.connectboosterportal.com)\",\n      \"addresses\": \"Customer support triage, ticket tracking, and invoice collection\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"MSP RMM, EDR, MDR, and SaaS Active Monitoring stack\",\n      \"addresses\": \"Endpoint management, patch management, and automated threat remediation\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because Ascending IT is an IT Managed Services Provider outside ForgeX's target segment of owner-led home-service contractors (HVAC, plumbing, and electrical) and already operates its own IT management and ticketing systems.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"Not applicable as no ForgeX automation service is recommended for this company.\"\n  },\n  \"humanReview\": [\n    \"No outreach or implementation is recommended because the company is outside ForgeX's target segment.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Selling contractor-focused automation packages to a Managed IT Services Provider that manages technology and security for its own living would waste sales effort and misalign with ForgeX's core segment.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Founder\",\n      \"Managing Partner / President\",\n      \"Service Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://ascending-it.com/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What PSA and RMM platforms do you currently use to manage client tickets and assessments?\",\n      \"Do you serve HVAC, plumbing, or electrical contractors in the Treasure Valley who might benefit from field-service lead and reporting automation?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://ascending-it.com/\",\n        \"usedFor\": \"Business identity, Nampa physical address, phone and email contact details, service packages (Silver, Gold, Platinum), industries served, and portal host references.\"\n      },\n      {\n        \"url\": \"https://ascending-it.com/boise-it-company/\",\n        \"usedFor\": \"Company background, mission, values, and compliance frameworks supported (HIPAA, PCI-DSS).\"\n      },\n      {\n        \"url\": \"https://ascending-it.com/it-support-boise/\",\n        \"usedFor\": \"Contact channels, 24/7 support hours, physical address verification, and contact form details.\"\n      },\n      {\n        \"url\": \"https://ascending-it.com/managed-it-support-boise/\",\n        \"usedFor\": \"Detailed breakdown of managed IT, cybersecurity, cloud/SaaS, backup, and vCIO services.\"\n      },\n      {\n        \"url\": \"https://ascending-it.com/privacy-policy/\",\n        \"usedFor\": \"Checking for legal entity details and observing embedded policy script references.\"\n      },\n      {\n        \"url\": \"https://ascending-it.com/free-it-assessment-boise/\",\n        \"usedFor\": \"Details on the Free IT Assessment process, 3-business-day turnaround, and evaluation criteria.\"\n      }\n    ],\n    \"limitations\": [\n      \"No owners, executives, or managers are named on the website (only a client testimonial first name and last initial is shown, which is excluded per ForgeX rules).\",\n      \"Exact employee headcount and service pricing rates are not disclosed on the website.\",\n      \"State business registration numbers are not listed on the public site, and the privacy policy text is dynamically loaded via a third-party script.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Ascending IT is a B2B Managed IT Services and Cybersecurity Provider (MSP) rather than an owner-led home-service contractor in HVAC, plumbing, or electrical trades. Furthermore, the company is a technology provider with its own ticketing portal, billing portal, and IT automation capabilities.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

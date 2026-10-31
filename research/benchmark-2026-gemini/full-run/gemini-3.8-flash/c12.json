@@ -1,0 +1,779 @@
+{
+  "company": {
+    "id": "c12",
+    "name": "Northwest Roof Restoration, LLC",
+    "town": "Meridian (also Post Falls)",
+    "state": "Idaho",
+    "website": "https://nwroof.net/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:19:26.250Z",
+  "finishedAt": "2026-10-27T19:20:57.331Z",
+  "report": {
+    "identity": {
+      "name": "Northwest Roof Restoration, LLC",
+      "location": "Meridian, Idaho (with an additional branch in Post Falls, Idaho)",
+      "claims": [
+        {
+          "statement": "Northwest Roof Restoration is a family-owned roofing company based in Meridian, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": "Northwest Roof Restoration is a family-owned roofing company in Meridian, serving Boise, Eagle, Nampa, Caldwell, Post Falls, and the Treasure Valley since 2000"
+        },
+        {
+          "statement": "The company operates locations at 1028 E Cayman Dr in Meridian and 728 S Gold Finch Rd in Post Falls.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": "Northwest Roof Restoration serves Meridian, Boise, Eagle, Nampa, Caldwell, Kuna, Star, Middleton, and Post Falls from 1028 E Cayman Dr, Meridian, ID 83642"
+        },
+        {
+          "statement": "The business maintains dual operating addresses in Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/contact-us",
+          "quote": "1028 E Cayman Dr, Meridian, ID 83642 728 S Gold Finch Rd, Post Falls, ID 83854"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Roofing contracting (residential and commercial)",
+      "activities": [
+        "Roof repair and leak detection",
+        "New roof installation",
+        "Commercial roofing (TPO, PVC, EPDM, and metal)",
+        "Roof inspections and certifications",
+        "Emergency storm damage tarping and insurance restoration work",
+        "Re-roofing"
+      ],
+      "claims": [
+        {
+          "statement": "The business provides roof repair, new installations, and commercial roofing.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": "Roof repair, new roof installation, and commercial roofing from Northwest Roof Restoration, LLC."
+        },
+        {
+          "statement": "Commercial roofing capabilities include repairs, TPO and PVC single-ply membranes, metal roofing, and inspections.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/commercial-roofer",
+          "quote": "We handle commercial roof repair, flat roof systems, TPO and PVC membranes, metal roofing, inspections, and full commercial roof replacement"
+        },
+        {
+          "statement": "The business is a roofing contractor rather than an HVAC, plumbing, or electrical contractor.",
+          "label": "inference",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://nwroof.net/",
+      "claims": [
+        {
+          "statement": "The company has operated under the same ownership since 2003.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": "under the same ownership since 2003."
+        },
+        {
+          "statement": "The company's regular business hours are Monday through Friday from 8 AM to 5 PM.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/contact-us",
+          "quote": "Monday - Friday: 8 AM - 5 PM"
+        },
+        {
+          "statement": "The website was designed by Trafficology.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": "2022 Design by Trafficology"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The business certifies and inspects roofs for compliance with state regulations.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": "Our company is equipped to certify and inspect all roofs to ensure that they are in compliance with all state regulations."
+        },
+        {
+          "statement": "The company holds a contractor registration with the State of Idaho Division of Occupational and Professional Licenses.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ],
+      "limitations": "The website notes that the company conducts inspections to ensure roofs meet state regulations, but it does not publish an Idaho contractor registration or license number on its public pages."
+    },
+    "existingSoftware": [
+      {
+        "product": "Google Tag Manager",
+        "purpose": "Website analytics and tracking tag deployment",
+        "evidence": {
+          "statement": "The website loads script assets from googletagmanager.com.",
+          "label": "inference",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Tawk.to",
+        "purpose": "Website chat widget",
+        "evidence": {
+          "statement": "The website references the host embed.tawk.to and includes an Online chat status indicator.",
+          "label": "inference",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Weblium",
+        "purpose": "Content management system and web form handling",
+        "evidence": {
+          "statement": "The site loads assets and endpoints from api.weblium.com and us-central1-weblium-contact-form-app.cloudfunctions.net.",
+          "label": "inference",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Standard Web Forms / Email Intake",
+        "purpose": "Customer inquiry and estimate request collection",
+        "evidence": {
+          "statement": "Prospective clients request estimates via site forms or direct email.",
+          "label": "fact",
+          "sourceUrl": "https://nwroof.net/",
+          "quote": "email [redacted], or use the Request a Free Estimate form on this site, and our team will get back to you soon."
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Inbound estimate requests collected through website forms depend on manual asynchronous callbacks rather than real-time calendar booking.",
+        "label": "fact",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "Leave us your info, and our roofing contractors will get back to you asap!"
+      },
+      {
+        "statement": "Online inquiries are directed to email or web forms without integrated field-service management customer portal links.",
+        "label": "fact",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "email [redacted], or use the Request a Free Estimate form on this site, and our team will get back to you soon."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Potential lead response delays resulting from manual triage of website form submissions and emails.",
+        "label": "hypothesis",
+        "basis": "The website indicates staff will 'get back to you asap' and 'get back to you soon' after receiving contact form inputs, which relies on human review rather than instant automated CRM scheduling."
+      },
+      {
+        "problem": "Company operates outside ForgeX's primary target service segment.",
+        "label": "fact",
+        "basis": "The business operates strictly in roofing installation, restoration, and repairs, rather than HVAC, plumbing, or electrical trades."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Roofing-specific field service and CRM software (e.g., JobNimbus, AccuLynx, or Roofr)",
+        "addresses": "Lead pipeline management, aerial measurement integration, automated follow-up sequences, and customer proposal tracking.",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "Weblium native form notifications and webhook integrations",
+        "addresses": "Instantly sending form submissions via SMS or email to office staff or dispatchers.",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "Because Northwest Roof Restoration is a roofing contractor outside ForgeX's core HVAC, plumbing, and electrical focus, no ForgeX implementation is recommended."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solutions are recommended for delivery."
+    },
+    "humanReview": [
+      "Manual physical or drone roof damage inspection before issuing binding replacement or repair estimates.",
+      "Human review of insurance scope sheets and carrier documentation for hail, storm, and wind claims."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Attempting automated roof quote generation without visual inspection of decking, slope, and flashing risks significant underbidding or material mismatch."
+      },
+      {
+        "type": "compliance",
+        "description": "Roof certifications and commercial membrane installations require compliance with Idaho state and local building codes and manufacturer warranty specifications."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "The website provides free estimates and does not publish specific project, per-square, or hourly pricing; therefore, commercial value cannot be calculated from website figures."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "General Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://nwroof.net/"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://nwroof.net/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://nwroof.net/",
+          "sourceUrl": "https://nwroof.net/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "What CRM or field management platform do you use to manage roof estimate requests across the Treasure Valley and Post Falls?",
+        "How quickly is your office team able to respond to online estimate requests during storm events?",
+        "Do you rely primarily on word-of-mouth and builder referrals, or do you actively buy digital roofing leads?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://nwroof.net/",
+          "usedFor": "Business identity, phone, email, services offered, locations, and lead capture forms."
+        },
+        {
+          "url": "https://nwroof.net/contact-us",
+          "usedFor": "Operating hours, dual office addresses, and contact methods."
+        },
+        {
+          "url": "https://nwroof.net/commercial-roofer",
+          "usedFor": "Commercial roofing materials, commercial services, and project references."
+        },
+        {
+          "url": "https://nwroof.net/service-area",
+          "usedFor": "Geographic service area coverage in Treasure Valley and North Idaho."
+        },
+        {
+          "url": "https://nwroof.net/service-area/roofers-meridian-idaho-commercial-residential",
+          "usedFor": "Meridian service area details and commercial project history."
+        },
+        {
+          "url": "https://nwroof.net/service-area/roofers-post-falls-idaho-commercial-residential",
+          "usedFor": "Post Falls office address and North Idaho service details."
+        },
+        {
+          "url": "https://nwroof.net/testimonials",
+          "usedFor": "Review evaluation and verifying management representations."
+        },
+        {
+          "url": "https://nwroof.net/new-roof-installation",
+          "usedFor": "Residential installation processes and materials."
+        },
+        {
+          "url": "https://nwroof.net/roof-repairs",
+          "usedFor": "Repair scope, emergency services, and insurance assistance."
+        },
+        {
+          "url": "https://nwroof.net/privacy-policy",
+          "usedFor": "Privacy policies, cookie usage, and data handling."
+        },
+        {
+          "url": "https://nwroof.net/blog",
+          "usedFor": "Industry news and blog content assessment."
+        },
+        {
+          "url": "https://nwroof.net/gallery",
+          "usedFor": "Project portfolio review."
+        }
+      ],
+      "limitations": [
+        "Employee headcount is not stated on the public website.",
+        "Specific state contractor registration numbers are not published on the website.",
+        "Service and installation pricing is not disclosed on the site, preventing commercial value calculations.",
+        "Owners and executive leadership are not presented on dedicated team or about pages (names appear only within customer testimonials, which cannot be used per evidence rules)."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Northwest Roof Restoration, LLC is a residential and commercial roofing contractor. ForgeX's target market is owner-led home-service contractors in HVAC, plumbing, and electrical with approximately 10 to 75 staff who pay for leads. Roofing falls outside ForgeX's target vertical, and the website does not provide evidence of 10 to 75 staff or paid lead generation."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "Northwest Roof Restoration is a family-owned roofing company in Meridian, serving Boise, Eagle, Nampa, Caldwell, Post Falls, and the Treasure Valley since 2000",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "Northwest Roof Restoration serves Meridian, Boise, Eagle, Nampa, Caldwell, Kuna, Star, Middleton, and Post Falls from 1028 E Cayman Dr, Meridian, ID 83642",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://nwroof.net/contact-us",
+        "quote": "1028 E Cayman Dr, Meridian, ID 83642 728 S Gold Finch Rd, Post Falls, ID 83854",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "Roof repair, new roof installation, and commercial roofing from Northwest Roof Restoration, LLC.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://nwroof.net/commercial-roofer",
+        "quote": "We handle commercial roof repair, flat roof systems, TPO and PVC membranes, metal roofing, inspections, and full commercial roof replacement",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "under the same ownership since 2003.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://nwroof.net/contact-us",
+        "quote": "Monday - Friday: 8 AM - 5 PM",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "2022 Design by Trafficology",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "Our company is equipped to certify and inspect all roofs to ensure that they are in compliance with all state regulations.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "email [redacted], or use the Request a Free Estimate form on this site, and our team will get back to you soon.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "Leave us your info, and our roofing contractors will get back to you asap!",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://nwroof.net/",
+        "quote": "email [redacted], or use the Request a Free Estimate form on this site, and our team will get back to you soon.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://nwroof.net/",
+        "verdict": "found"
+      },
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://nwroof.net/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://nwroof.net/",
+        "sourceUrl": "https://nwroof.net/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 12,
+      "quotesFound": 12,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 4,
+      "hypotheses": 1,
+      "channelsFound": 3,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://nwroof.net/",
+      "finalUrl": "https://nwroof.net/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:38:06.392Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 627046,
+      "truncated": false,
+      "sha256": "549b1cd5c3e873f9c2a4954bae1bde16c2b646ef316ff1083bda0cee4ae269c5",
+      "textSha256": "c8f57887f4485f3aba498e23705d3305228b9a3fcd42ad043632b6bd0daf9b6b",
+      "fromCache": true
+    },
+    {
+      "url": "https://nwroof.net/contact-us",
+      "finalUrl": "https://nwroof.net/contact-us",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:38:12.797Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 350865,
+      "truncated": false,
+      "sha256": "4f51cf12b981241eda3c7c924f5df26164678e821109e3d3549a17d75c6f486e",
+      "textSha256": "62d47242d71572c0ba844d0f30f4bf770db9a5435af0515c764fda987fe9edbb",
+      "fromCache": true
+    },
+    {
+      "url": "https://nwroof.net/testimonials",
+      "finalUrl": "https://nwroof.net/testimonials",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:19:33.166Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 437848,
+      "truncated": false,
+      "sha256": "61a64af6579fe97c789d85ee08c0a19f14607914a331db46ec9d3417a71a44fd",
+      "textSha256": "87f1fe9c06130e062f4fc37973f88a019e047e18090a9664111747f5d075b388",
+      "fromCache": false
+    },
+    {
+      "url": "https://nwroof.net/blog",
+      "finalUrl": "https://nwroof.net/blog",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:19:35.745Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 298587,
+      "truncated": false,
+      "sha256": "86257417851bad8885225699e74f471a287becd66f9215e01ebc0f4b46c492c3",
+      "textSha256": "ede35559f9c7ab37e529c882ac7a479322522d71a5f2feaafdf7b2377259c3fe",
+      "fromCache": false
+    },
+    {
+      "url": "https://nwroof.net/privacy-policy",
+      "finalUrl": "https://nwroof.net/privacy-policy",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:38:27.653Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 305695,
+      "truncated": false,
+      "sha256": "08e462d519a571eb7c49b2b85b7b030ca11b2e556d457477893a15567fe39f42",
+      "textSha256": "523847a09b45fdf9bc42d749aeff00e193c0e77985b9ac2b2902249fed97d766",
+      "fromCache": true
+    },
+    {
+      "url": "https://nwroof.net/commercial-roofer",
+      "finalUrl": "https://nwroof.net/commercial-roofer",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:38:18.437Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 360675,
+      "truncated": false,
+      "sha256": "b4d3221209b9ee00171291112ab20096350382924b7165cfaafd30534371c65a",
+      "textSha256": "d917154d131104be636d3433874bf663fcf4126a3698220aa66ec7e76731e076",
+      "fromCache": true
+    },
+    {
+      "url": "https://nwroof.net/service-area",
+      "finalUrl": "https://nwroof.net/service-area",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:38:21.453Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 352390,
+      "truncated": false,
+      "sha256": "b78bfe5dc4a6743cb6ab02ea8eba7443a96f83a04c7d47fab8c4550f03eb4e08",
+      "textSha256": "031a2b374c5d2030acc489d7b29b23c6804f139971de0b57308df9630570c522",
+      "fromCache": true
+    },
+    {
+      "url": "https://nwroof.net/new-roof-installation",
+      "finalUrl": "https://nwroof.net/new-roof-installation",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:38:16.149Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 354495,
+      "truncated": false,
+      "sha256": "44fa928d24c665344f0a16b7efa4e2d52ce678a06c53d5255c74e0d4057904a6",
+      "textSha256": "0f2b83d0254592adcd17f0cad4f3085550fd9db779a38977dd27609a0f8056fc",
+      "fromCache": true
+    },
+    {
+      "url": "https://nwroof.net/roof-repairs",
+      "finalUrl": "https://nwroof.net/roof-repairs",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:38:30.703Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 343845,
+      "truncated": false,
+      "sha256": "588b781c9772d787cecfbc439d48e9f73f823bf1c7b2839a9f5e7b275901157a",
+      "textSha256": "8d36ae9b360fbab48a6cc3d128401e0457e33a160a3c99878a4d81142a5db1cf",
+      "fromCache": true
+    },
+    {
+      "url": "https://nwroof.net/gallery",
+      "finalUrl": "https://nwroof.net/gallery",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:19:45.832Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 332081,
+      "truncated": false,
+      "sha256": "4298b10182aa19759270150c0a00a0fb5d01ead2674cc6f443ee3afd1f9bdb95",
+      "textSha256": "e33c04f61650d36edfce81f09a5835c8a0b17c2c451f730a56c94366b710c6ef",
+      "fromCache": false
+    },
+    {
+      "url": "https://nwroof.net/service-area/roofers-meridian-idaho-commercial-residential",
+      "finalUrl": "https://nwroof.net/service-area/roofers-meridian-idaho-commercial-residential",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:19:49.330Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 370654,
+      "truncated": false,
+      "sha256": "60f42907b61f7b73bdb1978b6ba7533ca67d9acec081e2d7c2b9a7abf7a84c9d",
+      "textSha256": "8402044103ad8b6f0541a64314ab125f57ba6cbe752f84519d9af9f1f50279b7",
+      "fromCache": false
+    },
+    {
+      "url": "https://nwroof.net/service-area/roofers-post-falls-idaho-commercial-residential",
+      "finalUrl": "https://nwroof.net/service-area/roofers-post-falls-idaho-commercial-residential",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:19:53.094Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 370869,
+      "truncated": false,
+      "sha256": "ad25499cfda8813ce666552558ee1edaf585e07b6823868aecffdcea87e7f230",
+      "textSha256": "20ad924d9e3be7e71d4df96a16115b365f9658101519baa3105190516bd76f65",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://nwroof.net/contact-us",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/testimonials",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/blog",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/privacy-policy",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/commercial-roofer",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/service-area",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/new-roof-installation",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/roof-repairs",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/gallery",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/service-area/roofers-meridian-idaho-commercial-residential",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://nwroof.net/service-area/roofers-post-falls-idaho-commercial-residential",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 6,
+  "usage": {
+    "input": 29978,
+    "cachedInput": 20433,
+    "output": 3569,
+    "thinking": 6328,
+    "toolUse": 0,
+    "total": 39875
+  },
+  "costUsd": 0.045804975,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3168012",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/contact-us"
+      }
+    },
+    {
+      "id": "call_3168013",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/testimonials"
+      }
+    },
+    {
+      "id": "call_3168014",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/blog"
+      }
+    },
+    {
+      "id": "call_3168015",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/privacy-policy"
+      }
+    },
+    {
+      "id": "call_3168016",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/commercial-roofer"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2146414",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/service-area"
+      }
+    },
+    {
+      "id": "call_2146415",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/new-roof-installation"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2375787",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/roof-repairs"
+      }
+    },
+    {
+      "id": "call_2375788",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/gallery"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2657748",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/service-area/roofers-meridian-idaho-commercial-residential"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1956278",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://nwroof.net/service-area/roofers-post-falls-idaho-commercial-residential"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Northwest Roof Restoration, LLC\",\n    \"location\": \"Meridian, Idaho (with an additional branch in Post Falls, Idaho)\",\n    \"claims\": [\n      {\n        \"statement\": \"Northwest Roof Restoration is a family-owned roofing company based in Meridian, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": \"Northwest Roof Restoration is a family-owned roofing company in Meridian, serving Boise, Eagle, Nampa, Caldwell, Post Falls, and the Treasure Valley since 2000\"\n      },\n      {\n        \"statement\": \"The company operates locations at 1028 E Cayman Dr in Meridian and 728 S Gold Finch Rd in Post Falls.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": \"Northwest Roof Restoration serves Meridian, Boise, Eagle, Nampa, Caldwell, Kuna, Star, Middleton, and Post Falls from 1028 E Cayman Dr, Meridian, ID 83642\"\n      },\n      {\n        \"statement\": \"The business maintains dual operating addresses in Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/contact-us\",\n        \"quote\": \"1028 E Cayman Dr, Meridian, ID 83642 728 S Gold Finch Rd, Post Falls, ID 83854\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Roofing contracting (residential and commercial)\",\n    \"activities\": [\n      \"Roof repair and leak detection\",\n      \"New roof installation\",\n      \"Commercial roofing (TPO, PVC, EPDM, and metal)\",\n      \"Roof inspections and certifications\",\n      \"Emergency storm damage tarping and insurance restoration work\",\n      \"Re-roofing\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The business provides roof repair, new installations, and commercial roofing.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": \"Roof repair, new roof installation, and commercial roofing from Northwest Roof Restoration, LLC.\"\n      },\n      {\n        \"statement\": \"Commercial roofing capabilities include repairs, TPO and PVC single-ply membranes, metal roofing, and inspections.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/commercial-roofer\",\n        \"quote\": \"We handle commercial roof repair, flat roof systems, TPO and PVC membranes, metal roofing, inspections, and full commercial roof replacement\"\n      },\n      {\n        \"statement\": \"The business is a roofing contractor rather than an HVAC, plumbing, or electrical contractor.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://nwroof.net/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company has operated under the same ownership since 2003.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": \"under the same ownership since 2003.\"\n      },\n      {\n        \"statement\": \"The company's regular business hours are Monday through Friday from 8 AM to 5 PM.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/contact-us\",\n        \"quote\": \"Monday - Friday: 8 AM - 5 PM\"\n      },\n      {\n        \"statement\": \"The website was designed by Trafficology.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": \"2022 Design by Trafficology\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The business certifies and inspects roofs for compliance with state regulations.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": \"Our company is equipped to certify and inspect all roofs to ensure that they are in compliance with all state regulations.\"\n      },\n      {\n        \"statement\": \"The company holds a contractor registration with the State of Idaho Division of Occupational and Professional Licenses.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ],\n    \"limitations\": \"The website notes that the company conducts inspections to ensure roofs meet state regulations, but it does not publish an Idaho contractor registration or license number on its public pages.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Google Tag Manager\",\n      \"purpose\": \"Website analytics and tracking tag deployment\",\n      \"evidence\": {\n        \"statement\": \"The website loads script assets from googletagmanager.com.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Tawk.to\",\n      \"purpose\": \"Website chat widget\",\n      \"evidence\": {\n        \"statement\": \"The website references the host embed.tawk.to and includes an Online chat status indicator.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Weblium\",\n      \"purpose\": \"Content management system and web form handling\",\n      \"evidence\": {\n        \"statement\": \"The site loads assets and endpoints from api.weblium.com and us-central1-weblium-contact-form-app.cloudfunctions.net.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Standard Web Forms / Email Intake\",\n      \"purpose\": \"Customer inquiry and estimate request collection\",\n      \"evidence\": {\n        \"statement\": \"Prospective clients request estimates via site forms or direct email.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://nwroof.net/\",\n        \"quote\": \"email [redacted], or use the Request a Free Estimate form on this site, and our team will get back to you soon.\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Inbound estimate requests collected through website forms depend on manual asynchronous callbacks rather than real-time calendar booking.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://nwroof.net/\",\n      \"quote\": \"Leave us your info, and our roofing contractors will get back to you asap!\"\n    },\n    {\n      \"statement\": \"Online inquiries are directed to email or web forms without integrated field-service management customer portal links.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://nwroof.net/\",\n      \"quote\": \"email [redacted], or use the Request a Free Estimate form on this site, and our team will get back to you soon.\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Potential lead response delays resulting from manual triage of website form submissions and emails.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The website indicates staff will 'get back to you asap' and 'get back to you soon' after receiving contact form inputs, which relies on human review rather than instant automated CRM scheduling.\"\n    },\n    {\n      \"problem\": \"Company operates outside ForgeX's primary target service segment.\",\n      \"label\": \"fact\",\n      \"basis\": \"The business operates strictly in roofing installation, restoration, and repairs, rather than HVAC, plumbing, or electrical trades.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Roofing-specific field service and CRM software (e.g., JobNimbus, AccuLynx, or Roofr)\",\n      \"addresses\": \"Lead pipeline management, aerial measurement integration, automated follow-up sequences, and customer proposal tracking.\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"Weblium native form notifications and webhook integrations\",\n      \"addresses\": \"Instantly sending form submissions via SMS or email to office staff or dispatchers.\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"Because Northwest Roof Restoration is a roofing contractor outside ForgeX's core HVAC, plumbing, and electrical focus, no ForgeX implementation is recommended.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solutions are recommended for delivery.\"\n  },\n  \"humanReview\": [\n    \"Manual physical or drone roof damage inspection before issuing binding replacement or repair estimates.\",\n    \"Human review of insurance scope sheets and carrier documentation for hail, storm, and wind claims.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Attempting automated roof quote generation without visual inspection of decking, slope, and flashing risks significant underbidding or material mismatch.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Roof certifications and commercial membrane installations require compliance with Idaho state and local building codes and manufacturer warranty specifications.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"The website provides free estimates and does not publish specific project, per-square, or hourly pricing; therefore, commercial value cannot be calculated from website figures.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://nwroof.net/\"\n      },\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://nwroof.net/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://nwroof.net/\",\n        \"sourceUrl\": \"https://nwroof.net/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What CRM or field management platform do you use to manage roof estimate requests across the Treasure Valley and Post Falls?\",\n      \"How quickly is your office team able to respond to online estimate requests during storm events?\",\n      \"Do you rely primarily on word-of-mouth and builder referrals, or do you actively buy digital roofing leads?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://nwroof.net/\",\n        \"usedFor\": \"Business identity, phone, email, services offered, locations, and lead capture forms.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/contact-us\",\n        \"usedFor\": \"Operating hours, dual office addresses, and contact methods.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/commercial-roofer\",\n        \"usedFor\": \"Commercial roofing materials, commercial services, and project references.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/service-area\",\n        \"usedFor\": \"Geographic service area coverage in Treasure Valley and North Idaho.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/service-area/roofers-meridian-idaho-commercial-residential\",\n        \"usedFor\": \"Meridian service area details and commercial project history.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/service-area/roofers-post-falls-idaho-commercial-residential\",\n        \"usedFor\": \"Post Falls office address and North Idaho service details.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/testimonials\",\n        \"usedFor\": \"Review evaluation and verifying management representations.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/new-roof-installation\",\n        \"usedFor\": \"Residential installation processes and materials.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/roof-repairs\",\n        \"usedFor\": \"Repair scope, emergency services, and insurance assistance.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/privacy-policy\",\n        \"usedFor\": \"Privacy policies, cookie usage, and data handling.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/blog\",\n        \"usedFor\": \"Industry news and blog content assessment.\"\n      },\n      {\n        \"url\": \"https://nwroof.net/gallery\",\n        \"usedFor\": \"Project portfolio review.\"\n      }\n    ],\n    \"limitations\": [\n      \"Employee headcount is not stated on the public website.\",\n      \"Specific state contractor registration numbers are not published on the website.\",\n      \"Service and installation pricing is not disclosed on the site, preventing commercial value calculations.\",\n      \"Owners and executive leadership are not presented on dedicated team or about pages (names appear only within customer testimonials, which cannot be used per evidence rules).\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Northwest Roof Restoration, LLC is a residential and commercial roofing contractor. ForgeX's target market is owner-led home-service contractors in HVAC, plumbing, and electrical with approximately 10 to 75 staff who pay for leads. Roofing falls outside ForgeX's target vertical, and the website does not provide evidence of 10 to 75 staff or paid lead generation.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

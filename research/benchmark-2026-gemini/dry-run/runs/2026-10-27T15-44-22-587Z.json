@@ -1,0 +1,79 @@
+{
+  "stage": "dry-run",
+  "simulate": false,
+  "startedAt": "2026-10-27T15:44:22.587Z",
+  "finishedAt": "2026-10-27T15:51:35.975Z",
+  "gitCommit": "4b73c84",
+  "sdk": "@google/genai 2.28.0",
+  "promptVersion": "gemini-benchmark-v1",
+  "systemPromptSha256": "70e828a2394d4a07cb0139d6c4af40085c6acf4c414e8a74e4f784a48d140dba",
+  "toolSha256": "e823197eb80ae8b277c19266b9bc10e9e00d6c4c5ec36a43064fa27592c75d42",
+  "schemaSha256": "b4585baad8a544764dd944a93bfe80afd6c1dabbbfb853058cab849b2c0a6e1c",
+  "inputsFile": "dry-run.json",
+  "inputsSha256": "fb51bd05d8ef9df0983ac04d8f8ee6cd3d2e466971480ef450da6ebb04bb36fd",
+  "authorization": {
+    "stage": "dry-run",
+    "capUsd": 5,
+    "inputs": "dry-run.json",
+    "models": [
+      "gemini-4-argon",
+      "gemini-3.8-flash"
+    ],
+    "approvedBy": "owner",
+    "approvedOn": "2026-10-27",
+    "terms": "Decision 6: up to $5 for the initial paid Gemini dry run, once the owner has completed the ForgeX Google project and billing setup. It does not permit Claude to buy credits or change billing settings. The remaining $55 and the learning experiment are not authorized.",
+    "goAhead": "2026-10-27: the owner said to run the dry run now on the current, shared billing account, accepting the shared cap for this test, and confirmed AI Studio logging is off."
+  },
+  "models": [
+    "gemini-4-argon",
+    "gemini-3.8-flash"
+  ],
+  "repeat": null,
+  "companiesFilter": null,
+  "excluded": [],
+  "stageSpentUsd": 0.514096325,
+  "capUsd": 5,
+  "stopReason": null,
+  "results": [
+    {
+      "company": "d01",
+      "model": "gemini-4-argon",
+      "status": "completed",
+      "costUsd": 0.1975216,
+      "turns": 3,
+      "pages": 5,
+      "facts": 17,
+      "quotesFound": 14
+    },
+    {
+      "company": "d02",
+      "model": "gemini-4-argon",
+      "status": "completed",
+      "costUsd": 0.1928011,
+      "turns": 4,
+      "pages": 12,
+      "facts": 18,
+      "quotesFound": 18
+    },
+    {
+      "company": "d01",
+      "model": "gemini-3.8-flash",
+      "status": "completed",
+      "costUsd": 0.07443945,
+      "turns": 11,
+      "pages": 11,
+      "facts": 20,
+      "quotesFound": 14
+    },
+    {
+      "company": "d02",
+      "model": "gemini-3.8-flash",
+      "status": "completed",
+      "costUsd": 0.049334174999999994,
+      "turns": 11,
+      "pages": 11,
+      "facts": 16,
+      "quotesFound": 16
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "note": "Which companies ForgeX's fetcher may research, decided from the preflight check (robots.txt, homepage access, site terms). The runner skips any company without include: true.",
+  "decidedOn": "2026-10-27",
+  "restrictedRuns": "Protocol v1.3 (approved by the owner on 2026-10-27): a company with include: false and a restricted entry is not skipped. It gets a restricted run, in which the model is told only its identity and restricted.reason and has no page tool. restricted.recheck says whether the homepage may be tried once more at run time; it is false when the site's terms forbid automated collection, and that site is never fetched.",
+  "companies": {
+    "d01": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the site's terms link redirects to the homepage, so there are no terms restricting automated access."
+    },
+    "d02": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c01": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c02": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the site terms were checked and do not restrict reading or automated access."
+    },
+    "c03": {
+      "include": false,
+      "reason": "Excluded: the homepage answers ForgeX's fetcher with a bot check, which is not worked around.",
+      "restricted": { "recheck": true, "reason": "its homepage answers automated requests with a bot check" }
+    },
+    "c04": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c05": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c06": {
+      "include": true,
+      "reason": "robots.txt permits the homepage. The site terms forbid copying or reproducing its content without permission but not reading it; ForgeX keeps no copies, only facts and short internal quotes."
+    },
+    "c07": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c08": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c09": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c10": {
+      "include": false,
+      "reason": "Excluded: the site terms forbid systematic or automated data collection without the company's written consent.",
+      "restricted": { "recheck": false, "reason": "its terms forbid systematic or automated data collection without the company's written consent" }
+    },
+    "c11": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c12": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c13": {
+      "include": true,
+      "reason": "robots.txt permits the homepage. The site terms forbid copying, reproducing or distributing its content without permission but not reading it; ForgeX keeps no copies, only facts and short internal quotes."
+    },
+    "c14": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c15": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the site terms were checked and do not restrict reading or automated access."
+    },
+    "c16": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c17": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the site terms were checked and do not restrict reading or automated access."
+    },
+    "c18": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the site terms were checked and do not restrict reading or automated access."
+    },
+    "c19": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the site terms were checked and do not restrict reading or automated access."
+    },
+    "c20": {
+      "include": false,
+      "reason": "Excluded: the site refuses ForgeX's fetcher (HTTP 403), which is not worked around.",
+      "restricted": { "recheck": true, "reason": "its homepage refuses automated requests (HTTP 403)" }
+    },
+    "c21": {
+      "include": true,
+      "reason": "robots.txt permits the homepage. The link matched as terms is a services page; no terms restricting automated access were found."
+    },
+    "c22": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the site terms were checked and do not restrict reading or automated access."
+    },
+    "c23": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c24": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    },
+    "c25": {
+      "include": true,
+      "reason": "robots.txt permits the homepage; the homepage links no terms page."
+    }
+  }
+}

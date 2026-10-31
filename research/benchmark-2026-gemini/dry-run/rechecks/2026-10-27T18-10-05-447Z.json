@@ -1,0 +1,539 @@
+{
+  "recheckedAt": "2026-10-27T18:10:05.447Z",
+  "stage": "dry-run",
+  "checker": "Protocol v1.3: quotes and contact channels are checked against each cited page's text and its technical details, then against the other pages that run was served; rule flags cover links no page shows, inferences without a source read, contacts who aren't owners or managers, careers addresses, outreach without a fit, values not shown as an illustrative calculation, and a category other than insufficient evidence after no site access.",
+  "records": [
+    {
+      "file": "dry-run\\gemini-3.8-flash\\d01.json",
+      "company": "d01",
+      "model": "gemini-3.8-flash",
+      "runTimeSummary": {
+        "facts": 20,
+        "quotesFound": 14,
+        "quotesNotFound": 6,
+        "sourcesNotRead": 0,
+        "factsWithoutQuote": 0,
+        "inferences": 1,
+        "hypotheses": 0,
+        "channelsFound": 4,
+        "channelsNotFound": 0
+      },
+      "summary": {
+        "facts": 20,
+        "quotesFound": 15,
+        "quotesFoundInDetails": 3,
+        "quotesOnAnotherPage": 2,
+        "quotesNotFound": 3,
+        "sourcesNotRead": 0,
+        "factsWithoutQuote": 0,
+        "inferences": 1,
+        "hypotheses": 0,
+        "channelsFound": 4,
+        "channelsOnAnotherPage": 0,
+        "channelsNotFound": 0,
+        "flags": 6
+      },
+      "unresolvedQuotes": [
+        {
+          "section": "industry",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Our centrally dispatched crews reach most locations in 15-25 minutes, day or night.",
+          "verdict": "found on another page",
+          "foundOn": "https://hydepark-plumbing.com/boise-idaho-plumbing-service-area/"
+        },
+        {
+          "section": "licensing",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "ID License #PLB-J-4285, fully bonded with $2M liability coverage.",
+          "verdict": "found on another page",
+          "foundOn": "https://hydepark-plumbing.com/about-us/"
+        },
+        {
+          "section": "existingSoftware",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "https://dashboard.linkgraph.com/scripts/dynamic_optimization.js",
+          "verdict": "not found"
+        },
+        {
+          "section": "contacts.people",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Both jobs required more work than anticipated and [redacted] couldn't have been more responsive, patient and considerate.",
+          "verdict": "not found"
+        },
+        {
+          "section": "contacts.people",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Both jobs required more work than anticipated and [redacted] couldn't have been more responsive, patient and considerate.",
+          "verdict": "not found"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "verdict": "found"
+        },
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/",
+          "verdict": "found"
+        },
+        {
+          "kind": "web form",
+          "value": "https://hydepark-plumbing.com/contact-us/",
+          "sourceUrl": "https://hydepark-plumbing.com/contact-us/",
+          "verdict": "found"
+        },
+        {
+          "kind": "web form",
+          "value": "https://hydepark-plumbing.com/ (Homepage Step 1/2 Service Request Form)",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "verdict": "found"
+        }
+      ],
+      "flags": [
+        {
+          "rule": "person not presented as owner or manager",
+          "where": "contacts.people.0",
+          "detail": "[redacted], Content Author / Plumbing Staff"
+        },
+        {
+          "rule": "person not presented as owner or manager",
+          "where": "contacts.people.1",
+          "detail": "[redacted], Service Technician (named in homeowner testimonial)"
+        },
+        {
+          "rule": "person not presented as owner or manager",
+          "where": "contacts.people.2",
+          "detail": "[redacted], Service Technician (named in homeowner testimonial)"
+        },
+        {
+          "rule": "link not on a page read",
+          "where": "existingSoftware.2.evidence.statement",
+          "detail": "dashboard.linkgraph.com"
+        },
+        {
+          "rule": "link not on a page read",
+          "where": "existingSoftware.2.evidence.quote",
+          "detail": "https://dashboard.linkgraph.com/scripts/dynamic_optimization.js"
+        },
+        {
+          "rule": "value not shown as an illustrative calculation",
+          "where": "commercial.value",
+          "detail": "$1,500 - $4,500/month in recovered emergency jobs"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://hydepark-plumbing.com/",
+          "outcome": "ok",
+          "sameAsDuringRun": false
+        },
+        {
+          "url": "https://hydepark-plumbing.com/about-us/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://hydepark-plumbing.com/contact-us/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://hydepark-plumbing.com/privacy-policy/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://hydepark-plumbing.com/boise-plumbing-resourses/boise-plumbers-faqs/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://hydepark-plumbing.com/plumbers-boise-id/",
+          "outcome": "ok",
+          "sameAsDuringRun": false
+        },
+        {
+          "url": "https://hydepark-plumbing.com/boise-idaho-plumbing-service-area/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://hydepark-plumbing.com/hyde-park-plumbing-insights-boise/",
+          "outcome": "ok",
+          "sameAsDuringRun": false
+        }
+      ]
+    },
+    {
+      "file": "dry-run\\gemini-3.8-flash\\d02.json",
+      "company": "d02",
+      "model": "gemini-3.8-flash",
+      "runTimeSummary": {
+        "facts": 16,
+        "quotesFound": 16,
+        "quotesNotFound": 0,
+        "sourcesNotRead": 0,
+        "factsWithoutQuote": 0,
+        "inferences": 4,
+        "hypotheses": 1,
+        "channelsFound": 4,
+        "channelsNotFound": 1
+      },
+      "summary": {
+        "facts": 16,
+        "quotesFound": 16,
+        "quotesFoundInDetails": 0,
+        "quotesOnAnotherPage": 0,
+        "quotesNotFound": 0,
+        "sourcesNotRead": 0,
+        "factsWithoutQuote": 0,
+        "inferences": 4,
+        "hypotheses": 1,
+        "channelsFound": 5,
+        "channelsOnAnotherPage": 0,
+        "channelsNotFound": 0,
+        "flags": 3
+      },
+      "unresolvedQuotes": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/",
+          "verdict": "found"
+        },
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/contact/",
+          "verdict": "found"
+        },
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/privacy-policy/",
+          "verdict": "found"
+        },
+        {
+          "kind": "web form",
+          "value": "https://stabilitynetworks.com/contact/",
+          "sourceUrl": "https://stabilitynetworks.com/contact/",
+          "verdict": "found"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/locations/",
+          "verdict": "found"
+        }
+      ],
+      "flags": [
+        {
+          "rule": "person not presented as owner or manager",
+          "where": "contacts.people.0",
+          "detail": "[redacted], Engineer II"
+        },
+        {
+          "rule": "careers address",
+          "where": "contacts.channels.4",
+          "detail": "[redacted]"
+        },
+        {
+          "rule": "outreach without a fit",
+          "where": "discovery",
+          "detail": "An outreach draft for a company rated \"not a fit\"."
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://stabilitynetworks.com/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/about/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/contact/",
+          "outcome": "ok",
+          "sameAsDuringRun": false
+        },
+        {
+          "url": "https://stabilitynetworks.com/microsoft-power-platform/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/sharepoint-development/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/masters-service-agreement/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/privacy-policy/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/blog/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/author/stability_networks_team/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/locations/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        }
+      ]
+    },
+    {
+      "file": "dry-run\\gemini-4-argon\\d01.json",
+      "company": "d01",
+      "model": "gemini-4-argon",
+      "runTimeSummary": {
+        "facts": 17,
+        "quotesFound": 14,
+        "quotesNotFound": 3,
+        "sourcesNotRead": 0,
+        "factsWithoutQuote": 0,
+        "inferences": 3,
+        "hypotheses": 0,
+        "channelsFound": 3,
+        "channelsNotFound": 0
+      },
+      "summary": {
+        "facts": 17,
+        "quotesFound": 17,
+        "quotesFoundInDetails": 3,
+        "quotesOnAnotherPage": 0,
+        "quotesNotFound": 0,
+        "sourcesNotRead": 0,
+        "factsWithoutQuote": 0,
+        "inferences": 3,
+        "hypotheses": 0,
+        "channelsFound": 3,
+        "channelsOnAnotherPage": 0,
+        "channelsNotFound": 0,
+        "flags": 0
+      },
+      "unresolvedQuotes": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "+[redacted]",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "verdict": "found"
+        },
+        {
+          "kind": "web form",
+          "value": "https://hydepark-plumbing.com/",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "verdict": "found"
+        },
+        {
+          "kind": "web form",
+          "value": "https://hydepark-plumbing.com/contact-us/#",
+          "sourceUrl": "https://hydepark-plumbing.com/contact-us/",
+          "verdict": "found"
+        }
+      ],
+      "flags": [],
+      "pages": [
+        {
+          "url": "https://hydepark-plumbing.com/",
+          "outcome": "ok",
+          "sameAsDuringRun": false
+        },
+        {
+          "url": "https://hydepark-plumbing.com/about-us/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://hydepark-plumbing.com/contact-us/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://hydepark-plumbing.com/privacy-policy/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        }
+      ]
+    },
+    {
+      "file": "dry-run\\gemini-4-argon\\d02.json",
+      "company": "d02",
+      "model": "gemini-4-argon",
+      "runTimeSummary": {
+        "facts": 18,
+        "quotesFound": 18,
+        "quotesNotFound": 0,
+        "sourcesNotRead": 0,
+        "factsWithoutQuote": 0,
+        "inferences": 7,
+        "hypotheses": 0,
+        "channelsFound": 5,
+        "channelsNotFound": 1
+      },
+      "summary": {
+        "facts": 18,
+        "quotesFound": 18,
+        "quotesFoundInDetails": 0,
+        "quotesOnAnotherPage": 0,
+        "quotesNotFound": 0,
+        "sourcesNotRead": 0,
+        "factsWithoutQuote": 0,
+        "inferences": 7,
+        "hypotheses": 0,
+        "channelsFound": 6,
+        "channelsOnAnotherPage": 0,
+        "channelsNotFound": 0,
+        "flags": 3
+      },
+      "unresolvedQuotes": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/contact/",
+          "verdict": "found"
+        },
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/contact/",
+          "verdict": "found"
+        },
+        {
+          "kind": "phone",
+          "value": "+[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/contact/",
+          "verdict": "found"
+        },
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/privacy-policy/",
+          "verdict": "found"
+        },
+        {
+          "kind": "web form",
+          "value": "https://stabilitynetworks.com/contact/",
+          "sourceUrl": "https://stabilitynetworks.com/contact/",
+          "verdict": "found"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://stabilitynetworks.com/locations/",
+          "verdict": "found"
+        }
+      ],
+      "flags": [
+        {
+          "rule": "person not presented as owner or manager",
+          "where": "contacts.people.0",
+          "detail": "[redacted], Engineer II"
+        },
+        {
+          "rule": "careers address",
+          "where": "contacts.channels.5",
+          "detail": "[redacted]"
+        },
+        {
+          "rule": "outreach without a fit",
+          "where": "discovery",
+          "detail": "An outreach draft for a company rated \"not a fit\"."
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://stabilitynetworks.com/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/about/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/contact/",
+          "outcome": "ok",
+          "sameAsDuringRun": false
+        },
+        {
+          "url": "https://stabilitynetworks.com/locations/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/microsoft-power-platform/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/masters-service-agreement/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/privacy-policy/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/managed-it-services/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/sharepoint-development/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/blog/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/microsoft-365/how-copilot-studio-lets-your-business-build-custom-ai-agents-without-writing-code/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        },
+        {
+          "url": "https://stabilitynetworks.com/it-services-in-meridian/",
+          "outcome": "ok",
+          "sameAsDuringRun": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,933 @@
+{
+  "company": {
+    "id": "c22",
+    "name": "Plumbing Solutions of Idaho",
+    "town": "Meridian",
+    "state": "Idaho",
+    "website": "https://plumbingsolutionsofidaho.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:33:27.275Z",
+  "finishedAt": "2026-10-27T19:35:27.178Z",
+  "report": {
+    "identity": {
+      "name": "Plumbing Solutions of Idaho",
+      "location": "Meridian, Idaho",
+      "claims": [
+        {
+          "statement": "Plumbing Solutions of Idaho is physically located at 870 E. Franklin Road, Suite 506, Meridian, ID 83642.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+          "quote": "870 E. Franklin Road, Suite 506 Meridian, ID 83642"
+        },
+        {
+          "statement": "The business was founded in 2005 as a quality-focused plumbing business located in Meridian, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+          "quote": "Founded in 2005, Plumbing Solutions of Idaho is a quality-focused business located in Meridian, Idaho."
+        },
+        {
+          "statement": "The company operates as an established home-service trade contractor serving the Treasure Valley region with an estimated team size within the 10 to 75 staff range.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Plumbing & Mechanical Contracting",
+      "activities": [
+        "Residential Plumbing Maintenance & Repair",
+        "Commercial Plumbing",
+        "24/7 Emergency Plumbing",
+        "Drain Cleaning & Sewer Cleaning",
+        "Hydro Jetting",
+        "Sewer Line Repair & Trenchless Sewer Replacement",
+        "Water Heater Repair & Installation (Tank & Tankless)",
+        "Boiler Repair, Installation & Maintenance",
+        "Water Softening & Water Filtration Systems",
+        "Reverse Osmosis Systems",
+        "Leak Detection & Repiping"
+      ],
+      "claims": [
+        {
+          "statement": "The company provides residential and commercial plumbing, boiler, drain, sewer, water heater, and water treatment services.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+          "quote": "Reach out to Plumbing Solutions of Idaho today for speedy plumbing, boiler, drains & sewers, water heaters, and water treatment assistance."
+        },
+        {
+          "statement": "The business operates 24/7 emergency response service across its operational footprint.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": "Open 24/7 | Call [redacted]"
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://plumbingsolutionsofidaho.com/",
+      "claims": [
+        {
+          "statement": "Plumbing Solutions of Idaho maintains over 1,000 Google reviews with an average 4.9-star rating.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+          "quote": "4.9 Stars | 1000+ Google Reviews"
+        },
+        {
+          "statement": "The company received the 2024 BBB Torch Award for Ethics and was named Business of the Year by the Meridian Chamber of Commerce.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/community/",
+          "quote": "Plumbing Solutions of Idaho Awarded 2024 BBB Torch Award for Ethics"
+        },
+        {
+          "statement": "The company serves Meridian, Boise, Caldwell, Eagle, Kuna, Middleton, Nampa, and Star.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+          "quote": "Serving Boise, Meridian, and the Surrounding Area"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Plumbing Solutions of Idaho publishes Idaho plumbing contractor license PLB-C-12709 on its website.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+          "quote": "Licenses: PLB-C-12709"
+        }
+      ],
+      "limitations": "Licensing evidence is derived entirely from published disclaimers on the company's contact and schedule pages; state licensing database confirmation was not performed."
+    },
+    "existingSoftware": [
+      {
+        "product": "ServiceTitan",
+        "purpose": "Field-service management software and marketing assets",
+        "evidence": {
+          "statement": "The company's website pages reference static assets from ServiceTitan.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Formidable Forms",
+        "purpose": "WordPress website form builder used for service bookings, contact messages, and job applications",
+        "evidence": {
+          "statement": "Form handling scripts on contact, schedule, and career pages are loaded from the Formidable plugin directory.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+          "quote": null
+        }
+      },
+      {
+        "product": "ClickCease",
+        "purpose": "Pay-per-click ad fraud detection and protection",
+        "evidence": {
+          "statement": "Pages across the website communicate with ClickCease tracking hosts.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Choozle",
+        "purpose": "Digital programmatic advertising and audience tracking",
+        "evidence": {
+          "statement": "Website pages load the Choozle advertising bootstrap script.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": null
+        }
+      },
+      {
+        "product": "RealWork Labs",
+        "purpose": "Local project check-ins and customer review generation",
+        "evidence": {
+          "statement": "The company's website references the RealWork Labs application host.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/recent-projects/",
+          "quote": null
+        }
+      },
+      {
+        "product": "ApplicantPro",
+        "purpose": "Applicant tracking and recruitment management",
+        "evidence": {
+          "statement": "The careers page links to an ApplicantPro portal for candidate recruitment.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/careers/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Service Finance Company / GreenSky",
+        "purpose": "Consumer financing portal integration for residential plumbing projects",
+        "evidence": {
+          "statement": "The financing page includes direct forms and links to Service Finance Company and GreenSky platforms.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/financing/",
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The booking page utilizes a Formidable WordPress form that submits directly to the local WordPress page rather than an embedded real-time field service booking engine.",
+        "label": "inference",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+        "quote": null
+      },
+      {
+        "statement": "The online booking form lists options for 'Air Conditioning' and 'Heating' alongside plumbing services, despite the company operating primarily as a plumbing specialist.",
+        "label": "fact",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+        "quote": "Service Needed * Air Conditioning Heating Plumbing Sewers Drains"
+      },
+      {
+        "statement": "The company invests actively in paid digital acquisition across Google, Bing, Facebook, and display networks as indicated by remarketing and ClickCease integrations.",
+        "label": "inference",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Potential lead intake latency or manual data re-entry between WordPress Formidable forms and the central field-service management platform (ServiceTitan).",
+        "label": "hypothesis",
+        "basis": "The website uses Formidable Forms submitting to WordPress rather than an integrated ServiceTitan web booking widget, meaning form submissions likely route via email to dispatch."
+      },
+      {
+        "problem": "Mismatched service category selections on the primary scheduling form ('Air Conditioning' and 'Heating' on a plumbing site) causing misrouted or unqualified triage.",
+        "label": "inference",
+        "basis": "https://plumbingsolutionsofidaho.com/schedule-service/"
+      },
+      {
+        "problem": "Incomplete attribution or reporting latency across multi-channel paid ad sources (Google Ads, Bing Ads, Facebook, Choozle) and booked revenue in ServiceTitan.",
+        "label": "hypothesis",
+        "basis": "Active presence of multiple ad platforms and ClickCease click protection suggests significant marketing spend, where cross-platform cost-per-booked-job reporting often requires manual aggregation."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "ServiceTitan Web Booking Widget",
+        "addresses": "Directly injects customer booking requests into ServiceTitan scheduling dispatch with live availability and automatic customer profile creation.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Formidable Forms Webhooks / Zapier Add-on",
+        "addresses": "Automatically triggers an API payload from WordPress form submissions to external CRMs or ServiceTitan Booking API.",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "ServiceTitan Marketing Pro / ROI Analytics",
+        "addresses": "Tracks revenue attribution by campaign and integrates ad spend reporting with dispatch outcomes.",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "A one-week operational diagnostic auditing web form response speeds, off-hours dispatch handling, call attribution, and missed inquiries against booked jobs.",
+        "problem": "Unverified lead drop-off between paid advertising clicks, website form submissions, and actual dispatch board booking.",
+        "whyNotExistingSoftware": "ServiceTitan and Google Analytics track activity within their own silos but do not benchmark end-to-end response lag or measure off-hours leakage without independent auditing."
+      },
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "Integration bridge connecting website Formidable booking forms directly to ServiceTitan's Booking API within two minutes, with automated customer confirmation SMS.",
+        "problem": "Forms currently route to WordPress/dispatch email, risking manual transcription delay during peak call periods or overnight.",
+        "whyNotExistingSoftware": "While ServiceTitan provides an off-the-shelf booking widget, contractors often prefer custom on-brand forms that require lightweight middleware to post cleanly into ServiceTitan."
+      },
+      {
+        "name": "Owner's Monday numbers",
+        "kind": "catalog",
+        "description": "Single-page weekly dashboard compiling booked plumbing revenue, average ticket, ad spend, and cost per booked call across ServiceTitan, ad networks, and QuickBooks.",
+        "problem": "Disparate reporting across Choozle, ClickCease, Google Ads, and ServiceTitan complicates weekly commercial visibility.",
+        "whyNotExistingSoftware": "Standard platform dashboards do not unify third-party ad network spend, accounting data, and field job completion in one simple Monday executive report."
+      }
+    ],
+    "feasibility": {
+      "rating": "high",
+      "explanation": "The company's digital stack uses standard WordPress architecture with Formidable Forms alongside ServiceTitan infrastructure, both of which support webhooks and REST APIs for automated data synchronization."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "AI models can handle conversational triage, inquiry categorization, and draft dispatch replies, but core lead pipeline synchronization and dashboard aggregation rely on deterministic API connectors."
+    },
+    "humanReview": [
+      "Dispatchers must review and confirm technician job assignments before finalizing appointments on the calendar.",
+      "Emergency service inquiries submitted after-hours require immediate dispatcher telephone verification.",
+      "Weekly executive metrics must be reconciled against certified bank and accounting statements."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Automated form routing must not bypass on-call emergency dispatch protocols for urgent situations like flooding or ruptured water lines."
+      },
+      {
+        "type": "compliance",
+        "description": "SMS notifications to customers submitting booking requests must strictly honor TCPA consent checkboxes already implemented on the site forms."
+      },
+      {
+        "type": "security",
+        "description": "API keys connecting WordPress form endpoints to ServiceTitan or reporting databases must be secured against unauthorized access."
+      }
+    ],
+    "commercial": {
+      "supportable": true,
+      "value": "$7,200 to $12,000 annually (illustrative)",
+      "implementationCost": "$1,800 setup plus $149/month for Lead-to-job pipeline, or $500 for Revenue Leak Check",
+      "assumptions": [
+        "Plumbing Solutions of Idaho advertises standard drain cleaning jobs costing between $100 and $300 (average midpoint $200).",
+        "If lead intake delays or missed follow-ups cause 3 to 5 standard drain cleaning jobs ($200 each) to slip through per month, illustrative lost gross revenue is $600 to $1,000 monthly ($7,200 to $12,000 annually).",
+        "Value will be higher if larger repairs or installations (such as water heaters or repiping) are delayed or lost."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / President",
+        "General Manager",
+        "Operations Manager / Dispatch Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/"
+        },
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://plumbingsolutionsofidaho.com/schedule-service/",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://plumbingsolutionsofidaho.com/contact-us/",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "When a customer submits a service request on your schedule page, how does that inquiry currently enter ServiceTitan—via direct API, email alert to dispatch, or manual entry?",
+        "How do your on-call dispatchers handle after-hours or weekend web form submissions for emergency plumbing calls?",
+        "How do you currently track marketing spend efficiency across Google Ads, Choozle, and other channels down to completed jobs in ServiceTitan?"
+      ],
+      "outreachSubject": "Service scheduling workflow / Plumbing Solutions of Idaho",
+      "outreachBody": "Hi [Owner / General Manager Name],\n\nMy name is [Founder Name] with ForgeX. We work with established plumbing and home-service trade contractors to streamline lead intake and field-service integration.\n\nWhile reviewing your website, I noticed your online service scheduling page uses a custom WordPress form that appears to route to your dispatch email, even though your site references ServiceTitan assets. In many plumbing operations, web submissions can take valuable minutes to get transcribed into ServiceTitan, especially during morning dispatch rushes or overnight emergency calls.\n\nWe don't sell generic software and don't make promises without understanding your specific workflow. If you or your dispatch team ever find that web inquiries or after-hours requests create unnecessary transcription work, I'd welcome the chance to share how similar plumbing contractors bridge that pipeline automatically.\n\nIf you prefer not to hear from us, simply reply with 'opt out' or 'remove' and I will respect your preference immediately.\n\nBest regards,\n\n[Founder Name]\nFounder, ForgeX\n[Founder Street Address, City, State, ZIP]\n[Founder Phone Number] | [Founder Email]"
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://plumbingsolutionsofidaho.com/",
+          "usedFor": "Company name, primary phone, email, 24/7 service statement, tech stack scripts and hosts"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/",
+          "usedFor": "Company founding year, location, review statistics, service overview, secondary phone"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/meet-the-team/",
+          "usedFor": "Personnel verification (confirmed absence of named executive leadership)"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/contact-us/",
+          "usedFor": "Physical address, plumbing license number (PLB-C-12709), Formidable contact form structure"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/schedule-service/",
+          "usedFor": "Online booking form structure, service categories (including AC/Heating), SMS opt-in terms"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/careers/",
+          "usedFor": "Benefits packages, applicant tracking platform reference (ApplicantPro)"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/community/",
+          "usedFor": "BBB Torch Award for Ethics, Chamber of Commerce Business of the Year, community initiatives"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/financing/",
+          "usedFor": "Financing integrations (Service Finance Company, GreenSky)"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/coupons/",
+          "usedFor": "Stated promotional pricing ($99 water heater flush, $50 off plumbing)"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/drains-sewers/drain-cleaning/",
+          "usedFor": "Stated pricing range ($100 to $300 for standard drain cleaning jobs)"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/water-heaters/water-heater-repair/",
+          "usedFor": "Water heater service offerings and promotional discounts"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+          "usedFor": "SMS service terms, dispatch email verification, legal provisions"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+          "usedFor": "Advertising platforms verification (Google Ads, Bing Ads, Facebook remarketing)"
+        }
+      ],
+      "limitations": [
+        "No individual owner, executive, or manager names are listed on the public website.",
+        "Internal dispatch workflows and whether Formidable Forms connects to ServiceTitan via backend webhooks cannot be definitively confirmed from public frontend inspection.",
+        "State licensing registry records were not independently inspected beyond the contractor license number published on site."
+      ]
+    },
+    "qualification": {
+      "category": "pursue later",
+      "rationale": "Plumbing Solutions of Idaho fits ForgeX's target profile: an established owner-led plumbing contractor in Meridian, ID with ~10 to 75 personnel, active paid advertising (Google Ads, Bing Ads, Choozle, ClickCease), and field-service software (ServiceTitan). Observable operational surfaces exist—such as web booking through WordPress Formidable Forms rather than ServiceTitan's live booking widget, and mismatched HVAC options on their booking form. However, because public website analysis cannot verify whether their dispatch team experiences delays or already utilizes custom webhook automation into ServiceTitan, the operational problems remain hypotheses. The account should be pursued later via founder discovery questions."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+        "quote": "870 E. Franklin Road, Suite 506 Meridian, ID 83642",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+        "quote": "Founded in 2005, Plumbing Solutions of Idaho is a quality-focused business located in Meridian, Idaho.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+        "quote": "Reach out to Plumbing Solutions of Idaho today for speedy plumbing, boiler, drains & sewers, water heaters, and water treatment assistance.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+        "quote": "Open 24/7 | Call [redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+        "quote": "4.9 Stars | 1000+ Google Reviews",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/community/",
+        "quote": "Plumbing Solutions of Idaho Awarded 2024 BBB Torch Award for Ethics",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+        "quote": "Serving Boise, Meridian, and the Surrounding Area",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+        "quote": "Licenses: PLB-C-12709",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+        "quote": "Service Needed * Air Conditioning Heating Plumbing Sewers Drains",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+        "verdict": "found"
+      },
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+        "verdict": "found"
+      },
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://plumbingsolutionsofidaho.com/schedule-service/",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://plumbingsolutionsofidaho.com/contact-us/",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 9,
+      "quotesFound": 9,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 10,
+      "hypotheses": 0,
+      "channelsFound": 5,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://plumbingsolutionsofidaho.com/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:04.854Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 120334,
+      "truncated": false,
+      "sha256": "9517ed3b6580d3989487d985aff44aaa25e4b37bf32daefb61067a80412f3432",
+      "textSha256": "005f2a5aaf4f1d0ae99e8a5f342c0702fc3bab0d4eeec19b44c87fe6ec6b0a53",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:25.468Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 97146,
+      "truncated": false,
+      "sha256": "fcf8c9d00ac923909e87d8545e7871425c088f977552e902a8d00a35aa591a77",
+      "textSha256": "fe2ac6bff61c913e64aacf012a00b862bf19f2e09d75e82272e2cfae52599306",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/meet-the-team/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/meet-the-team/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:28.241Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 72290,
+      "truncated": false,
+      "sha256": "e8d429c1d17241397c3e9ab2b365135ad7cf2e8a4f40129a5136916f6bc73a2c",
+      "textSha256": "f1375e2cc3380cecc54d7d05ae0a49a690f33a7048913520a299a68498ed465c",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/contact-us/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:31.283Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 67752,
+      "truncated": false,
+      "sha256": "365737c9abc7a427915ca57c7359d80acb847db6a47fe2d06c1bea6717de8404",
+      "textSha256": "341c2bae67b1648f973dadd0803f40364e0e083c8ffae265e3130092948d312e",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/schedule-service/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:34.341Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 68263,
+      "truncated": false,
+      "sha256": "10e16f0577d350d718c90dfe051ef3167c6db31137835acd79d22341a37aacb8",
+      "textSha256": "0c9b4974db17b2585b5ff2f5c26678eaa2166e619376129ea2156618487ae500",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/careers/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/careers/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:40.287Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 70639,
+      "truncated": false,
+      "sha256": "68e93d09526ce98fd65cca9413979eaf56bb3a4cad6f73a5d1b7b5901660f822",
+      "textSha256": "f6e57f280cb614e9809166fcbeff6cc35c2eaeb82edb9ff50f5e9bdbe353aced",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:46.277Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 61304,
+      "truncated": false,
+      "sha256": "9b99575c9278eb0c411e78f9a832e1bfd0fbea8b434a51938b13964143729fa7",
+      "textSha256": "42ed910190d9998e3faf550b3c8045b25013e4c45629d4c19a84696d5b418f98",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:12.367Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 77446,
+      "truncated": false,
+      "sha256": "6d5f728ceb0ef62145376f8b04c2ee74b367f2968d70d6d430c5b996d09fd958",
+      "textSha256": "61161539263247a2dbc56f66d0e5dd8592d519c08ec05ce699a9722a60ea603c",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/coupons/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/coupons/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:37.287Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 56832,
+      "truncated": false,
+      "sha256": "e39308caa5dee7562c55e79f5621d175cd519a4ab4ec1bf5b7b1a5c175b472ad",
+      "textSha256": "c28dde0d851be8436283fcaa5f3fe4e094b5b5ff8f6f111fe2806ac5c16f0e1e",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/financing/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/financing/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:43.256Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 58984,
+      "truncated": false,
+      "sha256": "71c637e0151dcd404430ba69d3b41748c9ee7cab4be47c63212671b6972430ad",
+      "textSha256": "5d640b8a269b7e5007ed23f4013bf0a34ea79db099219adac194797483880e59",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/blog/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/blog/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:24.280Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 150238,
+      "truncated": false,
+      "sha256": "8d063710270562d54671edfb2f4e9705db8cccfacaf5628ab68a1b82f7c1783a",
+      "textSha256": "ec8a42321dc70e41f914e4049edeb583bf8a4fb170020ca2de917e0e959e26ff",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/community/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/community/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:15.137Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 93595,
+      "truncated": false,
+      "sha256": "72b0883dc550a5125936beaacc4676da851794e6e2dfe3f5eae75b2261a10eb8",
+      "textSha256": "a58655fe1c3dacedc3e709223d9126cda529088da2fe8f007424ecd17f97c051",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/recent-projects/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/recent-projects/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:18.085Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 91186,
+      "truncated": false,
+      "sha256": "f987e1125aec5334b11eca0905df841dffe61a96e6e708635c9952b6e88bada0",
+      "textSha256": "ea854aa6ea28964200d83e0795050b96d70f7cab73427350f9fae23c63e346e8",
+      "fromCache": true
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/water-heaters/water-heater-repair/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/water-heaters/water-heater-repair/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:34:01.936Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 94743,
+      "truncated": false,
+      "sha256": "fafe94181b38bc3ef791f04a023b72ba6172bb1abef3f7e838c14ff49498d88f",
+      "textSha256": "d0cfd513e8766c658cc0570459e1076edc437d25bcc6586b544286d69ba59acf",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/drains-sewers/drain-cleaning/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/drains-sewers/drain-cleaning/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:34:04.678Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 104758,
+      "truncated": false,
+      "sha256": "3d31959d22391d32ae8dd4f70862802269a966e4dad342c5faf8d285d05786d0",
+      "textSha256": "eecf5dedbf8f65c53e598de0f5a7fee464fd28e3481bb2ec6635d82862d9b764",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/meet-the-team/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/contact-us/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/schedule-service/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/careers/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/coupons/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/financing/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/blog/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/community/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/recent-projects/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/water-heaters/water-heater-repair/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/drains-sewers/drain-cleaning/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 6,
+  "usage": {
+    "input": 37459,
+    "cachedInput": 23525,
+    "output": 5471,
+    "thinking": 8385,
+    "toolUse": 0,
+    "total": 51315
+  },
+  "costUsd": 0.06417487499999999,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3413797",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/"
+      }
+    },
+    {
+      "id": "call_3413798",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/meet-the-team/"
+      }
+    },
+    {
+      "id": "call_3413799",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/contact-us/"
+      }
+    },
+    {
+      "id": "call_3413800",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/schedule-service/"
+      }
+    },
+    {
+      "id": "call_3413801",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/careers/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3374924",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/terms-and-conditions/"
+      }
+    },
+    {
+      "id": "call_3374925",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/privacy-policy/"
+      }
+    },
+    {
+      "id": "call_3374926",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/coupons/"
+      }
+    },
+    {
+      "id": "call_3374927",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/financing/"
+      }
+    },
+    {
+      "id": "call_3374928",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/blog/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3422018",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/community/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2088786",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/recent-projects/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3544196",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/water-heaters/water-heater-repair/"
+      }
+    },
+    {
+      "id": "call_3544197",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/drains-sewers/drain-cleaning/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Plumbing Solutions of Idaho\",\n    \"location\": \"Meridian, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"Plumbing Solutions of Idaho is physically located at 870 E. Franklin Road, Suite 506, Meridian, ID 83642.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/contact-us/\",\n        \"quote\": \"870 E. Franklin Road, Suite 506 Meridian, ID 83642\"\n      },\n      {\n        \"statement\": \"The business was founded in 2005 as a quality-focused plumbing business located in Meridian, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/\",\n        \"quote\": \"Founded in 2005, Plumbing Solutions of Idaho is a quality-focused business located in Meridian, Idaho.\"\n      },\n      {\n        \"statement\": \"The company operates as an established home-service trade contractor serving the Treasure Valley region with an estimated team size within the 10 to 75 staff range.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Plumbing & Mechanical Contracting\",\n    \"activities\": [\n      \"Residential Plumbing Maintenance & Repair\",\n      \"Commercial Plumbing\",\n      \"24/7 Emergency Plumbing\",\n      \"Drain Cleaning & Sewer Cleaning\",\n      \"Hydro Jetting\",\n      \"Sewer Line Repair & Trenchless Sewer Replacement\",\n      \"Water Heater Repair & Installation (Tank & Tankless)\",\n      \"Boiler Repair, Installation & Maintenance\",\n      \"Water Softening & Water Filtration Systems\",\n      \"Reverse Osmosis Systems\",\n      \"Leak Detection & Repiping\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company provides residential and commercial plumbing, boiler, drain, sewer, water heater, and water treatment services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/\",\n        \"quote\": \"Reach out to Plumbing Solutions of Idaho today for speedy plumbing, boiler, drains & sewers, water heaters, and water treatment assistance.\"\n      },\n      {\n        \"statement\": \"The business operates 24/7 emergency response service across its operational footprint.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": \"Open 24/7 | Call [redacted]\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://plumbingsolutionsofidaho.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"Plumbing Solutions of Idaho maintains over 1,000 Google reviews with an average 4.9-star rating.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/\",\n        \"quote\": \"4.9 Stars | 1000+ Google Reviews\"\n      },\n      {\n        \"statement\": \"The company received the 2024 BBB Torch Award for Ethics and was named Business of the Year by the Meridian Chamber of Commerce.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/community/\",\n        \"quote\": \"Plumbing Solutions of Idaho Awarded 2024 BBB Torch Award for Ethics\"\n      },\n      {\n        \"statement\": \"The company serves Meridian, Boise, Caldwell, Eagle, Kuna, Middleton, Nampa, and Star.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/contact-us/\",\n        \"quote\": \"Serving Boise, Meridian, and the Surrounding Area\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Plumbing Solutions of Idaho publishes Idaho plumbing contractor license PLB-C-12709 on its website.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/contact-us/\",\n        \"quote\": \"Licenses: PLB-C-12709\"\n      }\n    ],\n    \"limitations\": \"Licensing evidence is derived entirely from published disclaimers on the company's contact and schedule pages; state licensing database confirmation was not performed.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"ServiceTitan\",\n      \"purpose\": \"Field-service management software and marketing assets\",\n      \"evidence\": {\n        \"statement\": \"The company's website pages reference static assets from ServiceTitan.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Formidable Forms\",\n      \"purpose\": \"WordPress website form builder used for service bookings, contact messages, and job applications\",\n      \"evidence\": {\n        \"statement\": \"Form handling scripts on contact, schedule, and career pages are loaded from the Formidable plugin directory.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/contact-us/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"ClickCease\",\n      \"purpose\": \"Pay-per-click ad fraud detection and protection\",\n      \"evidence\": {\n        \"statement\": \"Pages across the website communicate with ClickCease tracking hosts.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Choozle\",\n      \"purpose\": \"Digital programmatic advertising and audience tracking\",\n      \"evidence\": {\n        \"statement\": \"Website pages load the Choozle advertising bootstrap script.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"RealWork Labs\",\n      \"purpose\": \"Local project check-ins and customer review generation\",\n      \"evidence\": {\n        \"statement\": \"The company's website references the RealWork Labs application host.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/recent-projects/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"ApplicantPro\",\n      \"purpose\": \"Applicant tracking and recruitment management\",\n      \"evidence\": {\n        \"statement\": \"The careers page links to an ApplicantPro portal for candidate recruitment.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/careers/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Service Finance Company / GreenSky\",\n      \"purpose\": \"Consumer financing portal integration for residential plumbing projects\",\n      \"evidence\": {\n        \"statement\": \"The financing page includes direct forms and links to Service Finance Company and GreenSky platforms.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/financing/\",\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The booking page utilizes a Formidable WordPress form that submits directly to the local WordPress page rather than an embedded real-time field service booking engine.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/schedule-service/\",\n      \"quote\": null\n    },\n    {\n      \"statement\": \"The online booking form lists options for 'Air Conditioning' and 'Heating' alongside plumbing services, despite the company operating primarily as a plumbing specialist.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/schedule-service/\",\n      \"quote\": \"Service Needed * Air Conditioning Heating Plumbing Sewers Drains\"\n    },\n    {\n      \"statement\": \"The company invests actively in paid digital acquisition across Google, Bing, Facebook, and display networks as indicated by remarketing and ClickCease integrations.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/privacy-policy/\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Potential lead intake latency or manual data re-entry between WordPress Formidable forms and the central field-service management platform (ServiceTitan).\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The website uses Formidable Forms submitting to WordPress rather than an integrated ServiceTitan web booking widget, meaning form submissions likely route via email to dispatch.\"\n    },\n    {\n      \"problem\": \"Mismatched service category selections on the primary scheduling form ('Air Conditioning' and 'Heating' on a plumbing site) causing misrouted or unqualified triage.\",\n      \"label\": \"inference\",\n      \"basis\": \"https://plumbingsolutionsofidaho.com/schedule-service/\"\n    },\n    {\n      \"problem\": \"Incomplete attribution or reporting latency across multi-channel paid ad sources (Google Ads, Bing Ads, Facebook, Choozle) and booked revenue in ServiceTitan.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Active presence of multiple ad platforms and ClickCease click protection suggests significant marketing spend, where cross-platform cost-per-booked-job reporting often requires manual aggregation.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"ServiceTitan Web Booking Widget\",\n      \"addresses\": \"Directly injects customer booking requests into ServiceTitan scheduling dispatch with live availability and automatic customer profile creation.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Formidable Forms Webhooks / Zapier Add-on\",\n      \"addresses\": \"Automatically triggers an API payload from WordPress form submissions to external CRMs or ServiceTitan Booking API.\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"ServiceTitan Marketing Pro / ROI Analytics\",\n      \"addresses\": \"Tracks revenue attribution by campaign and integrates ad spend reporting with dispatch outcomes.\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"A one-week operational diagnostic auditing web form response speeds, off-hours dispatch handling, call attribution, and missed inquiries against booked jobs.\",\n      \"problem\": \"Unverified lead drop-off between paid advertising clicks, website form submissions, and actual dispatch board booking.\",\n      \"whyNotExistingSoftware\": \"ServiceTitan and Google Analytics track activity within their own silos but do not benchmark end-to-end response lag or measure off-hours leakage without independent auditing.\"\n    },\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"Integration bridge connecting website Formidable booking forms directly to ServiceTitan's Booking API within two minutes, with automated customer confirmation SMS.\",\n      \"problem\": \"Forms currently route to WordPress/dispatch email, risking manual transcription delay during peak call periods or overnight.\",\n      \"whyNotExistingSoftware\": \"While ServiceTitan provides an off-the-shelf booking widget, contractors often prefer custom on-brand forms that require lightweight middleware to post cleanly into ServiceTitan.\"\n    },\n    {\n      \"name\": \"Owner's Monday numbers\",\n      \"kind\": \"catalog\",\n      \"description\": \"Single-page weekly dashboard compiling booked plumbing revenue, average ticket, ad spend, and cost per booked call across ServiceTitan, ad networks, and QuickBooks.\",\n      \"problem\": \"Disparate reporting across Choozle, ClickCease, Google Ads, and ServiceTitan complicates weekly commercial visibility.\",\n      \"whyNotExistingSoftware\": \"Standard platform dashboards do not unify third-party ad network spend, accounting data, and field job completion in one simple Monday executive report.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"high\",\n    \"explanation\": \"The company's digital stack uses standard WordPress architecture with Formidable Forms alongside ServiceTitan infrastructure, both of which support webhooks and REST APIs for automated data synchronization.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"AI models can handle conversational triage, inquiry categorization, and draft dispatch replies, but core lead pipeline synchronization and dashboard aggregation rely on deterministic API connectors.\"\n  },\n  \"humanReview\": [\n    \"Dispatchers must review and confirm technician job assignments before finalizing appointments on the calendar.\",\n    \"Emergency service inquiries submitted after-hours require immediate dispatcher telephone verification.\",\n    \"Weekly executive metrics must be reconciled against certified bank and accounting statements.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Automated form routing must not bypass on-call emergency dispatch protocols for urgent situations like flooding or ruptured water lines.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"SMS notifications to customers submitting booking requests must strictly honor TCPA consent checkboxes already implemented on the site forms.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"API keys connecting WordPress form endpoints to ServiceTitan or reporting databases must be secured against unauthorized access.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": true,\n    \"value\": \"$7,200 to $12,000 annually (illustrative)\",\n    \"implementationCost\": \"$1,800 setup plus $149/month for Lead-to-job pipeline, or $500 for Revenue Leak Check\",\n    \"assumptions\": [\n      \"Plumbing Solutions of Idaho advertises standard drain cleaning jobs costing between $100 and $300 (average midpoint $200).\",\n      \"If lead intake delays or missed follow-ups cause 3 to 5 standard drain cleaning jobs ($200 each) to slip through per month, illustrative lost gross revenue is $600 to $1,000 monthly ($7,200 to $12,000 annually).\",\n      \"Value will be higher if larger repairs or installations (such as water heaters or repiping) are delayed or lost.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / President\",\n      \"General Manager\",\n      \"Operations Manager / Dispatch Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/contact-us/\"\n      },\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/\"\n      },\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/contact-us/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://plumbingsolutionsofidaho.com/schedule-service/\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/schedule-service/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://plumbingsolutionsofidaho.com/contact-us/\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/contact-us/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"When a customer submits a service request on your schedule page, how does that inquiry currently enter ServiceTitan—via direct API, email alert to dispatch, or manual entry?\",\n      \"How do your on-call dispatchers handle after-hours or weekend web form submissions for emergency plumbing calls?\",\n      \"How do you currently track marketing spend efficiency across Google Ads, Choozle, and other channels down to completed jobs in ServiceTitan?\"\n    ],\n    \"outreachSubject\": \"Service scheduling workflow / Plumbing Solutions of Idaho\",\n    \"outreachBody\": \"Hi [Owner / General Manager Name],\\n\\nMy name is [Founder Name] with ForgeX. We work with established plumbing and home-service trade contractors to streamline lead intake and field-service integration.\\n\\nWhile reviewing your website, I noticed your online service scheduling page uses a custom WordPress form that appears to route to your dispatch email, even though your site references ServiceTitan assets. In many plumbing operations, web submissions can take valuable minutes to get transcribed into ServiceTitan, especially during morning dispatch rushes or overnight emergency calls.\\n\\nWe don't sell generic software and don't make promises without understanding your specific workflow. If you or your dispatch team ever find that web inquiries or after-hours requests create unnecessary transcription work, I'd welcome the chance to share how similar plumbing contractors bridge that pipeline automatically.\\n\\nIf you prefer not to hear from us, simply reply with 'opt out' or 'remove' and I will respect your preference immediately.\\n\\nBest regards,\\n\\n[Founder Name]\\nFounder, ForgeX\\n[Founder Street Address, City, State, ZIP]\\n[Founder Phone Number] | [Founder Email]\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/\",\n        \"usedFor\": \"Company name, primary phone, email, 24/7 service statement, tech stack scripts and hosts\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/\",\n        \"usedFor\": \"Company founding year, location, review statistics, service overview, secondary phone\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/meet-the-team/\",\n        \"usedFor\": \"Personnel verification (confirmed absence of named executive leadership)\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/contact-us/\",\n        \"usedFor\": \"Physical address, plumbing license number (PLB-C-12709), Formidable contact form structure\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/schedule-service/\",\n        \"usedFor\": \"Online booking form structure, service categories (including AC/Heating), SMS opt-in terms\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/careers/\",\n        \"usedFor\": \"Benefits packages, applicant tracking platform reference (ApplicantPro)\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/community/\",\n        \"usedFor\": \"BBB Torch Award for Ethics, Chamber of Commerce Business of the Year, community initiatives\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/financing/\",\n        \"usedFor\": \"Financing integrations (Service Finance Company, GreenSky)\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/coupons/\",\n        \"usedFor\": \"Stated promotional pricing ($99 water heater flush, $50 off plumbing)\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/drains-sewers/drain-cleaning/\",\n        \"usedFor\": \"Stated pricing range ($100 to $300 for standard drain cleaning jobs)\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/water-heaters/water-heater-repair/\",\n        \"usedFor\": \"Water heater service offerings and promotional discounts\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/terms-and-conditions/\",\n        \"usedFor\": \"SMS service terms, dispatch email verification, legal provisions\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/privacy-policy/\",\n        \"usedFor\": \"Advertising platforms verification (Google Ads, Bing Ads, Facebook remarketing)\"\n      }\n    ],\n    \"limitations\": [\n      \"No individual owner, executive, or manager names are listed on the public website.\",\n      \"Internal dispatch workflows and whether Formidable Forms connects to ServiceTitan via backend webhooks cannot be definitively confirmed from public frontend inspection.\",\n      \"State licensing registry records were not independently inspected beyond the contractor license number published on site.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue later\",\n    \"rationale\": \"Plumbing Solutions of Idaho fits ForgeX's target profile: an established owner-led plumbing contractor in Meridian, ID with ~10 to 75 personnel, active paid advertising (Google Ads, Bing Ads, Choozle, ClickCease), and field-service software (ServiceTitan). Observable operational surfaces exist—such as web booking through WordPress Formidable Forms rather than ServiceTitan's live booking widget, and mismatched HVAC options on their booking form. However, because public website analysis cannot verify whether their dispatch team experiences delays or already utilizes custom webhook automation into ServiceTitan, the operational problems remain hypotheses. The account should be pursued later via founder discovery questions.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "dataset": "C, part of the evaluation of dataset B (tag dataset-b-v1)",
+  "method": "Each specific in a fact or inference statement is looked for in the text, title, description and technical details of the pages that run was served, re-read now; pages whose text changed since the run are listed. Covers the main run of the 22 companies researched in full; restricted runs state no facts. Single-digit numbers and numbers in words are outside this check.",
+  "checkedAt": [
+    "2026-10-27T20:10:28.717Z",
+    "2026-10-27T19:57:49.850Z"
+  ],
+  "script": "scripts/specifics.mts",
+  "models": {
+    "gemini-4-argon": {
+      "statements": 419,
+      "specifics": 148,
+      "notOnAnyPageRead": [
+        {
+          "id": "c17",
+          "label": "inference",
+          "specific": "75",
+          "statement": "Because the company describes its crew as small and lists only a few roles on its team page, it may have fewer than ForgeX's typical 10 to 75 staff range.",
+          "quote": null,
+          "sourceUrl": "https://runningwaterplumbingidaho.com/about-running-water-plumbing-llc/",
+          "verdict": "from ForgeX segment definition, which the prompt gives the model"
+        },
+        {
+          "id": "c23",
+          "label": "inference",
+          "specific": "404",
+          "statement": "The navigation menu and footer link to a pricing page (https://itsecure.tech/pricing/) that returns an HTTP 404 not-found error.",
+          "quote": null,
+          "sourceUrl": "https://itsecure.tech/",
+          "verdict": "legitimate: the fetcher reported HTTP 404 for that page to the model"
+        }
+      ],
+      "pagesChangedSinceRun": [
+        "https://itsecure.tech/privacy-policy/"
+      ]
+    },
+    "gemini-3.8-flash": {
+      "statements": 316,
+      "specifics": 77,
+      "notOnAnyPageRead": [
+        {
+          "id": "c17",
+          "label": "inference",
+          "specific": "75",
+          "statement": "The company's team size is a micro-operation of approximately 2 to 4 individuals, well below the 10 to 75 staff range required for ForgeX's core lead routing and operational automation solutions.",
+          "quote": null,
+          "sourceUrl": "https://runningwaterplumbingidaho.com/",
+          "verdict": "from ForgeX segment definition; the same statement invents a team size of 2 to 4 (single digits, outside this check)"
+        },
+        {
+          "id": "c22",
+          "label": "inference",
+          "specific": "75",
+          "statement": "The company operates as an established home-service trade contractor serving the Treasure Valley region with an estimated team size within the 10 to 75 staff range.",
+          "quote": null,
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+          "verdict": "from ForgeX segment definition, but the size estimate it supports has no source on any page"
+        },
+        {
+          "id": "c23",
+          "label": "inference",
+          "specific": "404",
+          "statement": "The website's published navigation link to pricing is broken and returns an HTTP 404 not-found status.",
+          "quote": null,
+          "sourceUrl": "https://itsecure.tech/",
+          "verdict": "legitimate: the fetcher reported HTTP 404 for that page to the model"
+        }
+      ],
+      "pagesChangedSinceRun": [
+        "https://itsecure.tech/privacy-policy/"
+      ]
+    }
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "company": {
+    "id": "c14",
+    "name": "Walker Electric LLC",
+    "town": "Treasure Valley (no street address published)",
+    "state": "Idaho",
+    "website": "https://walkerelectricidaho.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:22:59.613Z",
+  "finishedAt": "2026-10-27T19:24:07.396Z",
+  "report": {
+    "identity": {
+      "name": "Walker Electric LLC",
+      "location": "Treasure Valley, Idaho",
+      "claims": [
+        {
+          "statement": "Walker Electric LLC operates in the Treasure Valley area of Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "Licensed & insured · Treasure Valley, Idaho Call [redacted]"
+        },
+        {
+          "statement": "The business is locally owned and operated, serving residential and small commercial clients in Boise and surrounding communities.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "Walker Electric is locally owned and operated, serving homeowners and small businesses throughout Boise and the Treasure Valley."
+        },
+        {
+          "statement": "The company operates as a solo electrician or single-operator electrical service.",
+          "label": "inference",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Electrical contracting",
+      "activities": [
+        "Electrical service calls and troubleshooting",
+        "Lighting upgrades and rewiring",
+        "Standby generator installation and repair",
+        "Hot tub and spa electrical connections",
+        "Level 2 EV charger installation",
+        "New construction electrical systems"
+      ],
+      "claims": [
+        {
+          "statement": "Walker Electric provides residential and small commercial electrical services including repairs, installations, and upgrades.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "Safe, dependable residential and small commercial electrical service—with honest answers, clean work, and transparent pricing."
+        },
+        {
+          "statement": "The business performs service calls for dead outlets, lighting issues, tripped breakers, and urgent electrical faults.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/services/service-calls/",
+          "quote": "Prompt help for dead outlets, flickering lights, tripped breakers, and electrical problems that should not wait."
+        },
+        {
+          "statement": "The business installs standby generators and transfer equipment across the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/services/generators/",
+          "quote": "Standby generators, transfer switches, and repairs designed to keep essential systems running through an outage."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://walkerelectricidaho.com/",
+      "claims": [
+        {
+          "statement": "The official website provides details on service categories, service areas, homeowner guides, and contact information.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "Local electrical service rooted in craftsmanship, transparency, and care."
+        },
+        {
+          "statement": "Service coverage encompasses Boise, Nampa, Meridian, Eagle, Star, Middleton, and Emmett.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/contact/",
+          "quote": "Serving the Treasure Valley Boise · Nampa · Meridian · Eagle Star · Middleton · Emmett"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Walker Electric LLC states that it is licensed and insured in Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": "Licensed & insured in Idaho"
+        },
+        {
+          "statement": "The company coordinates permits and electrical inspections for applicable installations.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/electrician-in-boise/",
+          "quote": "We serve established homes, remodels, and new construction throughout Boise, coordinating permits and inspections when the project requires them."
+        }
+      ],
+      "limitations": "The website states the business is licensed and insured in Idaho, but does not publish a specific Idaho state electrical contractor license number or registration ID."
+    },
+    "existingSoftware": [
+      {
+        "product": "Google Tag Manager",
+        "purpose": "Website tag management and web analytics tracking",
+        "evidence": {
+          "statement": "The public website references Google Tag Manager assets.",
+          "label": "inference",
+          "sourceUrl": "https://walkerelectricidaho.com/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Client-side email generation form",
+        "purpose": "Estimate request pre-formatting that hands off to visitor email software",
+        "evidence": {
+          "statement": "The online estimate form formats user inputs and opens the user's external email client rather than submitting to a server-side CRM or database.",
+          "label": "fact",
+          "sourceUrl": "https://walkerelectricidaho.com/contact/",
+          "quote": "This opens your email app with the details filled in so you can review before sending."
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The website explicitly markets the business around a single electrician rather than a multi-technician crew.",
+        "label": "fact",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "What we do One trusted electrician. Every project, big or small."
+      },
+      {
+        "statement": "Inbound web requests rely on visitors having a functional email application configured on their device.",
+        "label": "fact",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "quote": "This opens your email app with the details filled in so you can review before sending."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Potential customer drop-off on web estimates if visitors do not have an active default email client installed or configured.",
+        "label": "inference",
+        "basis": "The contact form on https://walkerelectricidaho.com/contact/ indicates 'This opens your email app with the details filled in so you can review before sending', which fails if the browser or operating system lacks a default mail client."
+      },
+      {
+        "problem": "Missed phone calls or delayed email responses during active on-site electrical work.",
+        "label": "hypothesis",
+        "basis": "For a solo electrician working in the field during business hours (7:00 AM - 5:00 PM), answering calls and manually replying to emails simultaneously may cause delays."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Standard server-side web form handler (e.g., standard website contact form plugin or email relay)",
+        "addresses": "Delivers estimate requests reliably into the owner's inbox without requiring the website visitor to open a third-party email application.",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "Solo-contractor field service mobile app (e.g., entry-level Jobber or Housecall Pro)",
+        "addresses": "Manages basic job scheduling, customer text dispatching, and quotes for an independent contractor.",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX custom automation or catalog solutions are recommended because the company falls outside ForgeX's target business segment."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "AI agent deployment is not recommended for a single-operator electrical contractor that does not have high lead volume or administrative staff overhead."
+    },
+    "humanReview": [
+      "Owner manual review of any inbound project requests and estimates."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Implementing automated dispatch or pipeline tools for a single-person trade business introduces unnecessary cost and operational overhead without sufficient job volume to justify it."
+      },
+      {
+        "type": "security",
+        "description": "Client-side email forms expose contact email parameters in the user's browser, though risks remain minimal for basic contact details."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "No service pricing, diagnostic fees, or hourly rates are published on the website."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "Principal Electrician",
+        "Managing Member"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "+[redacted]",
+          "sourceUrl": "https://walkerelectricidaho.com/contact/"
+        },
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://walkerelectricidaho.com/contact/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://walkerelectricidaho.com/contact/",
+          "sourceUrl": "https://walkerelectricidaho.com/contact/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How do you currently capture and track customer inquiries when you are on a job site?",
+        "Do website visitors experience friction using the estimate button that opens their local email application?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://walkerelectricidaho.com/",
+          "usedFor": "Company identity, location, core trade services, operating hours, and single-electrician positioning."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/contact/",
+          "usedFor": "Contact channels, service areas, and estimate request form functionality."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/",
+          "usedFor": "Electrical service catalog overview."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/service-calls/",
+          "usedFor": "Service call diagnostics and troubleshooting workflow details."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/services/generators/",
+          "usedFor": "Generator service offerings and pricing approach."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/electrician-in-boise/",
+          "usedFor": "Local licensing, permits, and inspection coordination details."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/blog/",
+          "usedFor": "Informational content review and software footprint verification."
+        },
+        {
+          "url": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/",
+          "usedFor": "Verification of pricing disclosures and customer education."
+        }
+      ],
+      "limitations": [
+        "The website does not disclose specific staff counts, but explicitly markets 'One trusted electrician. Every project, big or small.', demonstrating it is an individual owner-operator rather than a 10-75 employee firm.",
+        "No state electrical license number is displayed on the website.",
+        "No published prices or fee ranges exist on the site."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Walker Electric LLC is outside ForgeX's target customer segment. ForgeX specifically targets owner-led home-service contractors with about 10 to 75 staff who pay for leads. Walker Electric describes itself on its homepage as 'One trusted electrician. Every project, big or small.', operating as a solo proprietor / single-electrician business. The company does not operate the team size, administrative overhead, or multi-channel lead flow required to justify ForgeX's automation services."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Licensed & insured · Treasure Valley, Idaho Call [redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Walker Electric is locally owned and operated, serving homeowners and small businesses throughout Boise and the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Safe, dependable residential and small commercial electrical service—with honest answers, clean work, and transparent pricing.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://walkerelectricidaho.com/services/service-calls/",
+        "quote": "Prompt help for dead outlets, flickering lights, tripped breakers, and electrical problems that should not wait.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://walkerelectricidaho.com/services/generators/",
+        "quote": "Standby generators, transfer switches, and repairs designed to keep essential systems running through an outage.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Local electrical service rooted in craftsmanship, transparency, and care.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "quote": "Serving the Treasure Valley Boise · Nampa · Meridian · Eagle Star · Middleton · Emmett",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "Licensed & insured in Idaho",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://walkerelectricidaho.com/electrician-in-boise/",
+        "quote": "We serve established homes, remodels, and new construction throughout Boise, coordinating permits and inspections when the project requires them.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "quote": "This opens your email app with the details filled in so you can review before sending.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://walkerelectricidaho.com/",
+        "quote": "What we do One trusted electrician. Every project, big or small.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "quote": "This opens your email app with the details filled in so you can review before sending.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "+[redacted]",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "verdict": "found"
+      },
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://walkerelectricidaho.com/contact/",
+        "sourceUrl": "https://walkerelectricidaho.com/contact/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 12,
+      "quotesFound": 12,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 0,
+      "channelsFound": 3,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://walkerelectricidaho.com/",
+      "finalUrl": "https://walkerelectricidaho.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:22.694Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 57795,
+      "truncated": false,
+      "sha256": "88ded97ed2a73994ba20db7561cfaba51f5c00410d20a69521bbfedced1b4f37",
+      "textSha256": "5d4a55e1d9a9aec1901ba77f5c6ca0e204b69702b9e333e852115274ca52c293",
+      "fromCache": true
+    },
+    {
+      "url": "https://walkerelectricidaho.com/contact/",
+      "finalUrl": "https://walkerelectricidaho.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:29.628Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 40099,
+      "truncated": false,
+      "sha256": "96d570d30cdfc5efb706b91438ad0834d53900ec5bddc0ac60e624bbbced240a",
+      "textSha256": "f7886cc7511dee6acea469082e00ac2aae7af69ce1ab19c675bba54b1ee44bdf",
+      "fromCache": true
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/",
+      "finalUrl": "https://walkerelectricidaho.com/services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:32.424Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46004,
+      "truncated": false,
+      "sha256": "07a5d619e6aac9f02ac2da562de903cfab434136444d56af9e96e263677be90c",
+      "textSha256": "825152c9b32c7fd430286f34093fabde79abd0bdfda00589f511ad1871b2223a",
+      "fromCache": true
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/",
+      "finalUrl": "https://walkerelectricidaho.com/blog/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:35.390Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 72058,
+      "truncated": false,
+      "sha256": "31c103e44bfa7bcbb77f3c89e2af9721b65accc424282ea13c5efe0079086794",
+      "textSha256": "051ab94b7cbad119d07472339e578bda99738dc4c2840fa78c0ddbf5d0a99c4d",
+      "fromCache": true
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/service-calls/",
+      "finalUrl": "https://walkerelectricidaho.com/services/service-calls/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:38.419Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 52212,
+      "truncated": false,
+      "sha256": "7f4ded5d4968caf3aaa70bb0630894f935da20aa0b77bdabc5afadb12e612966",
+      "textSha256": "0ec64edb8461ae8108e0f95b486f10d8e39059aa7bcd12f97875a8935431ee73",
+      "fromCache": true
+    },
+    {
+      "url": "https://walkerelectricidaho.com/electrician-in-boise/",
+      "finalUrl": "https://walkerelectricidaho.com/electrician-in-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:49.003Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 48827,
+      "truncated": false,
+      "sha256": "32cab0ed54e7b3d4086447ce45fcf3f64779009fc4d3b335d6fca02aee8c131a",
+      "textSha256": "2c3984c7fe404ffdb739fbff193b153716e9e12d4957e6c5f14e25f8b648a973",
+      "fromCache": true
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/",
+      "finalUrl": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:54.860Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 50412,
+      "truncated": false,
+      "sha256": "4a760aec4132c4c02f67e3070a87eb74fa930da3de6f1af2aacffb1005335da3",
+      "textSha256": "741a1517a1c7020e3b297bc33a66e779a7daac45ac8981c9eb8593e933c729e3",
+      "fromCache": true
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/generators/",
+      "finalUrl": "https://walkerelectricidaho.com/services/generators/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:43:51.860Z",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 52100,
+      "truncated": false,
+      "sha256": "f19bb0a8e9458d868c9f253c7a9d57bebb6f124d612b2ec1b2993668902b48ea",
+      "textSha256": "75010adc0c4daa4766a775938ce4044aff3cfef0b164c3060bfa01e02f36a5de",
+      "fromCache": true
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://walkerelectricidaho.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/service-calls/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/electrician-in-boise/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://walkerelectricidaho.com/services/generators/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 4,
+  "usage": {
+    "input": 15871,
+    "cachedInput": 9495,
+    "output": 3112,
+    "thinking": 4650,
+    "toolUse": 0,
+    "total": 23633
+  },
+  "costUsd": 0.034601625,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3021200",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/contact/"
+      }
+    },
+    {
+      "id": "call_3021201",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/"
+      }
+    },
+    {
+      "id": "call_3021202",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/blog/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2118003",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/service-calls/"
+      }
+    },
+    {
+      "id": "call_2118004",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/electrician-in-boise/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2474973",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/"
+      }
+    },
+    {
+      "id": "call_2474974",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://walkerelectricidaho.com/services/generators/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Walker Electric LLC\",\n    \"location\": \"Treasure Valley, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"Walker Electric LLC operates in the Treasure Valley area of Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"Licensed & insured · Treasure Valley, Idaho Call [redacted]\"\n      },\n      {\n        \"statement\": \"The business is locally owned and operated, serving residential and small commercial clients in Boise and surrounding communities.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"Walker Electric is locally owned and operated, serving homeowners and small businesses throughout Boise and the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The company operates as a solo electrician or single-operator electrical service.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Electrical contracting\",\n    \"activities\": [\n      \"Electrical service calls and troubleshooting\",\n      \"Lighting upgrades and rewiring\",\n      \"Standby generator installation and repair\",\n      \"Hot tub and spa electrical connections\",\n      \"Level 2 EV charger installation\",\n      \"New construction electrical systems\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Walker Electric provides residential and small commercial electrical services including repairs, installations, and upgrades.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"Safe, dependable residential and small commercial electrical service—with honest answers, clean work, and transparent pricing.\"\n      },\n      {\n        \"statement\": \"The business performs service calls for dead outlets, lighting issues, tripped breakers, and urgent electrical faults.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/services/service-calls/\",\n        \"quote\": \"Prompt help for dead outlets, flickering lights, tripped breakers, and electrical problems that should not wait.\"\n      },\n      {\n        \"statement\": \"The business installs standby generators and transfer equipment across the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/services/generators/\",\n        \"quote\": \"Standby generators, transfer switches, and repairs designed to keep essential systems running through an outage.\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://walkerelectricidaho.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The official website provides details on service categories, service areas, homeowner guides, and contact information.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"Local electrical service rooted in craftsmanship, transparency, and care.\"\n      },\n      {\n        \"statement\": \"Service coverage encompasses Boise, Nampa, Meridian, Eagle, Star, Middleton, and Emmett.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\",\n        \"quote\": \"Serving the Treasure Valley Boise · Nampa · Meridian · Eagle Star · Middleton · Emmett\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Walker Electric LLC states that it is licensed and insured in Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": \"Licensed & insured in Idaho\"\n      },\n      {\n        \"statement\": \"The company coordinates permits and electrical inspections for applicable installations.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/electrician-in-boise/\",\n        \"quote\": \"We serve established homes, remodels, and new construction throughout Boise, coordinating permits and inspections when the project requires them.\"\n      }\n    ],\n    \"limitations\": \"The website states the business is licensed and insured in Idaho, but does not publish a specific Idaho state electrical contractor license number or registration ID.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Google Tag Manager\",\n      \"purpose\": \"Website tag management and web analytics tracking\",\n      \"evidence\": {\n        \"statement\": \"The public website references Google Tag Manager assets.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Client-side email generation form\",\n      \"purpose\": \"Estimate request pre-formatting that hands off to visitor email software\",\n      \"evidence\": {\n        \"statement\": \"The online estimate form formats user inputs and opens the user's external email client rather than submitting to a server-side CRM or database.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\",\n        \"quote\": \"This opens your email app with the details filled in so you can review before sending.\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The website explicitly markets the business around a single electrician rather than a multi-technician crew.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://walkerelectricidaho.com/\",\n      \"quote\": \"What we do One trusted electrician. Every project, big or small.\"\n    },\n    {\n      \"statement\": \"Inbound web requests rely on visitors having a functional email application configured on their device.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\",\n      \"quote\": \"This opens your email app with the details filled in so you can review before sending.\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Potential customer drop-off on web estimates if visitors do not have an active default email client installed or configured.\",\n      \"label\": \"inference\",\n      \"basis\": \"The contact form on https://walkerelectricidaho.com/contact/ indicates 'This opens your email app with the details filled in so you can review before sending', which fails if the browser or operating system lacks a default mail client.\"\n    },\n    {\n      \"problem\": \"Missed phone calls or delayed email responses during active on-site electrical work.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"For a solo electrician working in the field during business hours (7:00 AM - 5:00 PM), answering calls and manually replying to emails simultaneously may cause delays.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Standard server-side web form handler (e.g., standard website contact form plugin or email relay)\",\n      \"addresses\": \"Delivers estimate requests reliably into the owner's inbox without requiring the website visitor to open a third-party email application.\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"Solo-contractor field service mobile app (e.g., entry-level Jobber or Housecall Pro)\",\n      \"addresses\": \"Manages basic job scheduling, customer text dispatching, and quotes for an independent contractor.\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX custom automation or catalog solutions are recommended because the company falls outside ForgeX's target business segment.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"AI agent deployment is not recommended for a single-operator electrical contractor that does not have high lead volume or administrative staff overhead.\"\n  },\n  \"humanReview\": [\n    \"Owner manual review of any inbound project requests and estimates.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Implementing automated dispatch or pipeline tools for a single-person trade business introduces unnecessary cost and operational overhead without sufficient job volume to justify it.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Client-side email forms expose contact email parameters in the user's browser, though risks remain minimal for basic contact details.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"No service pricing, diagnostic fees, or hourly rates are published on the website.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"Principal Electrician\",\n      \"Managing Member\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"+[redacted]\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\"\n      },\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://walkerelectricidaho.com/contact/\",\n        \"sourceUrl\": \"https://walkerelectricidaho.com/contact/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How do you currently capture and track customer inquiries when you are on a job site?\",\n      \"Do website visitors experience friction using the estimate button that opens their local email application?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://walkerelectricidaho.com/\",\n        \"usedFor\": \"Company identity, location, core trade services, operating hours, and single-electrician positioning.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/contact/\",\n        \"usedFor\": \"Contact channels, service areas, and estimate request form functionality.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/\",\n        \"usedFor\": \"Electrical service catalog overview.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/service-calls/\",\n        \"usedFor\": \"Service call diagnostics and troubleshooting workflow details.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/services/generators/\",\n        \"usedFor\": \"Generator service offerings and pricing approach.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/electrician-in-boise/\",\n        \"usedFor\": \"Local licensing, permits, and inspection coordination details.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/blog/\",\n        \"usedFor\": \"Informational content review and software footprint verification.\"\n      },\n      {\n        \"url\": \"https://walkerelectricidaho.com/blog/do-you-need-a-home-generator-in-idaho-a-guide-for-homeowners/\",\n        \"usedFor\": \"Verification of pricing disclosures and customer education.\"\n      }\n    ],\n    \"limitations\": [\n      \"The website does not disclose specific staff counts, but explicitly markets 'One trusted electrician. Every project, big or small.', demonstrating it is an individual owner-operator rather than a 10-75 employee firm.\",\n      \"No state electrical license number is displayed on the website.\",\n      \"No published prices or fee ranges exist on the site.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Walker Electric LLC is outside ForgeX's target customer segment. ForgeX specifically targets owner-led home-service contractors with about 10 to 75 staff who pay for leads. Walker Electric describes itself on its homepage as 'One trusted electrician. Every project, big or small.', operating as a solo proprietor / single-electrician business. The company does not operate the team size, administrative overhead, or multi-channel lead flow required to justify ForgeX's automation services.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

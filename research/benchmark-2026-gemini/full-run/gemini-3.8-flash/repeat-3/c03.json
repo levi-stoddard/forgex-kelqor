@@ -1,0 +1,172 @@
+{
+  "company": {
+    "id": "c03",
+    "name": "Boss Tool & Manufacturing, Inc.",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.bosstoolmfginc.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "restricted",
+  "startedAt": "2026-10-27T20:05:19.449Z",
+  "finishedAt": "2026-10-27T20:05:55.377Z",
+  "report": {
+    "identity": {
+      "name": "Boss Tool & Manufacturing, Inc.",
+      "location": "Boise, Idaho",
+      "claims": [
+        {
+          "statement": "The company name is Boss Tool & Manufacturing, Inc. and its reported location is Boise, Idaho.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Tooling and Manufacturing",
+      "activities": [
+        "Tool manufacturing",
+        "Machining and fabrication"
+      ],
+      "claims": [
+        {
+          "statement": "The business operates in tooling and manufacturing, as inferred tentatively from its legal name.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.bosstoolmfginc.com/",
+      "claims": [
+        {
+          "statement": "The company's official website was unreachable because automated requests encountered a bot check.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [],
+      "limitations": "Licensing and registration details could not be verified because the website was not accessible."
+    },
+    "existingSoftware": [],
+    "opportunityEvidence": [],
+    "problems": [],
+    "existingSolutions": [],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "Technical feasibility cannot be evaluated without access to website information or existing software stack details."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No solutions are proposed due to lack of verified operational data."
+    },
+    "humanReview": [],
+    "risks": [],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "President",
+        "General Manager"
+      ],
+      "people": [],
+      "channels": []
+    },
+    "discovery": {
+      "questions": [
+        "What primary trade services or manufacturing operations does the business provide?",
+        "What software tools are currently used for incoming inquiry management, quoting, and job scheduling?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [],
+      "limitations": [
+        "The official website could not be read because automated requests were stopped by a bot check.",
+        "No pages were accessible, so no facts or inferences could be derived from public website text.",
+        "Company size, trade segment, software usage, personnel, and contact channels could not be verified."
+      ]
+    },
+    "qualification": {
+      "category": "insufficient evidence",
+      "rationale": "The company's website could not be read because automated requests were blocked by a bot check, providing no verifiable information to judge segment fit, workflow opportunities, or commercial viability."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [],
+    "channels": [],
+    "flags": [],
+    "summary": {
+      "facts": 0,
+      "quotesFound": 0,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 0,
+      "hypotheses": 3,
+      "channelsFound": 0,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.bosstoolmfginc.com/",
+      "finalUrl": "https://www.bosstoolmfginc.com/",
+      "outcome": "refused",
+      "status": 200,
+      "detail": "The site answered with a bot check; not worked around.",
+      "retrievedAt": "2026-10-27T20:05:19.449Z",
+      "contentType": "",
+      "bytes": 0,
+      "truncated": false,
+      "sha256": null,
+      "textSha256": null,
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [],
+  "turns": 1,
+  "usage": {
+    "input": 1372,
+    "cachedInput": 0,
+    "output": 762,
+    "thinking": 3899,
+    "toolUse": 0,
+    "total": 6033
+  },
+  "costUsd": 0.01850775,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Boss Tool & Manufacturing, Inc.\",\n    \"location\": \"Boise, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"The company name is Boss Tool & Manufacturing, Inc. and its reported location is Boise, Idaho.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Tooling and Manufacturing\",\n    \"activities\": [\n      \"Tool manufacturing\",\n      \"Machining and fabrication\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The business operates in tooling and manufacturing, as inferred tentatively from its legal name.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.bosstoolmfginc.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company's official website was unreachable because automated requests encountered a bot check.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [],\n    \"limitations\": \"Licensing and registration details could not be verified because the website was not accessible.\"\n  },\n  \"existingSoftware\": [],\n  \"opportunityEvidence\": [],\n  \"problems\": [],\n  \"existingSolutions\": [],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"Technical feasibility cannot be evaluated without access to website information or existing software stack details.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No solutions are proposed due to lack of verified operational data.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"President\",\n      \"General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": []\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What primary trade services or manufacturing operations does the business provide?\",\n      \"What software tools are currently used for incoming inquiry management, quoting, and job scheduling?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [],\n    \"limitations\": [\n      \"The official website could not be read because automated requests were stopped by a bot check.\",\n      \"No pages were accessible, so no facts or inferences could be derived from public website text.\",\n      \"Company size, trade segment, software usage, personnel, and contact channels could not be verified.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"insufficient evidence\",\n    \"rationale\": \"The company's website could not be read because automated requests were blocked by a bot check, providing no verifiable information to judge segment fit, workflow opportunities, or commercial viability.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ],
+  "accessNote": "Homepage tried again at run time: refused (The site answered with a bot check; not worked around.)."
+}

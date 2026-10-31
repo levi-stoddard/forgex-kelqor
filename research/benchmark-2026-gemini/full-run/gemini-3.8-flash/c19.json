@@ -1,0 +1,797 @@
+{
+  "company": {
+    "id": "c19",
+    "name": "North Star Kitchen and Bath Remodels",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://northstarkitchenandbath.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:30:12.223Z",
+  "finishedAt": "2026-10-27T19:32:16.928Z",
+  "report": {
+    "identity": {
+      "name": "North Star Kitchen and Bath Remodels",
+      "location": "Boise, Idaho",
+      "claims": [
+        {
+          "statement": "The business operates under the name North Star Kitchen and Bath Remodels.",
+          "label": "fact",
+          "sourceUrl": "https://northstarkitchenandbath.com/",
+          "quote": "North Star Kitchen and Bath Remodels"
+        },
+        {
+          "statement": "The company's office address is located on Main Street in Boise, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://northstarkitchenandbath.com/",
+          "quote": "999 W Main St Suite 100, Boise, ID 83702"
+        },
+        {
+          "statement": "The business describes itself as a family-owned remodeling company.",
+          "label": "fact",
+          "sourceUrl": "https://northstarkitchenandbath.com/",
+          "quote": "As a family-owned business, we treat clients like family, providing personalized renovations that cater to every budget and always exceed expectations."
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential Kitchen and Bathroom Remodeling / General Contracting",
+      "activities": [
+        "Full-scale kitchen remodeling and renovations",
+        "Bathroom remodeling and renovations",
+        "Kitchen and bath design services",
+        "Cabinetry supply and installation",
+        "Countertop installation",
+        "Flooring installation",
+        "Bathtub refinishing and shower conversions"
+      ],
+      "claims": [
+        {
+          "statement": "The company provides full-scale kitchen renovations, kitchen design, cabinetry, countertops, flooring, islands, and open-concept remodeling in Boise.",
+          "label": "fact",
+          "sourceUrl": "https://northstarkitchenandbath.com/kitchen-remodel-cost-boise/",
+          "quote": "North Star Kitchen and Bath Remodels offers full-scale renovations, kitchen design, cabinetry, countertops, flooring, islands, and open-concept remodels throughout Boise and the Treasure Valley."
+        },
+        {
+          "statement": "The company operates as a residential remodeling contractor rather than a dedicated MEP (mechanical, electrical, plumbing) contractor.",
+          "label": "inference",
+          "sourceUrl": "https://northstarkitchenandbath.com/bathroom-renovation-cost/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://northstarkitchenandbath.com/",
+      "claims": [
+        {
+          "statement": "The business lists standard operating hours from 7:00 AM to 6:00 PM, Monday through Friday.",
+          "label": "fact",
+          "sourceUrl": "https://northstarkitchenandbath.com/",
+          "quote": "Monday - Friday 7AM - 6PM"
+        },
+        {
+          "statement": "The company advertises service coverage throughout the city of Boise and the surrounding Treasure Valley area.",
+          "label": "fact",
+          "sourceUrl": "https://northstarkitchenandbath.com/",
+          "quote": "North Star Kitchen and Bath Remodels is proud to serve the city of Boise and the entire surrounding Treasure Valley area."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The company notes that specialized trade labor such as plumbing and electrical work is handled separately from standard remodeling tasks.",
+          "label": "fact",
+          "sourceUrl": "https://northstarkitchenandbath.com/bathroom-renovation-cost/",
+          "quote": "Trade labor - from a licensed plumber, electrician, and tile installer - is priced separately and reflects both skill and liability."
+        },
+        {
+          "statement": "The business describes its role as a general contractor managing subcontractors and project schedules to meet building codes.",
+          "label": "fact",
+          "sourceUrl": "https://northstarkitchenandbath.com/bathroom-renovation-cost/",
+          "quote": "A general contractor typically charges 10 to 20 percent of the total project cost to manage subcontractors, coordinate scheduling, and ensure work meets building codes."
+        }
+      ],
+      "limitations": "The website discusses trade permitting requirements and licensed subcontractors, but does not display a specific Idaho general contractor registration or state trade license number on the pages reviewed."
+    },
+    "existingSoftware": [
+      {
+        "product": "msgsndr.com widget",
+        "purpose": "Lead intake and survey embed for quote requests",
+        "evidence": {
+          "statement": "The site embeds a third-party survey frame hosted at msgsndr.com, which is associated with GoHighLevel CRM software.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "WordPress CMS",
+        "purpose": "Content management and website publishing",
+        "evidence": {
+          "statement": "The site runs on WordPress, as evidenced by core script file paths under wp-includes and wp-content.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Oxygen Builder",
+        "purpose": "Website page building and styling",
+        "evidence": {
+          "statement": "The site references scripts located in the oxygen plugin directory.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "WP Rocket",
+        "purpose": "Page caching and asset lazy-loading",
+        "evidence": {
+          "statement": "Asset loading scripts point to the wp-rocket plugin assets path.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "WP Review Slider Pro",
+        "purpose": "Customer testimonial presentation",
+        "evidence": {
+          "statement": "The site loads review slider scripts from wp-review-slider-pro plugin paths.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Google Tag Manager",
+        "purpose": "Marketing tag and analytics tracking",
+        "evidence": {
+          "statement": "The website loads Google Tag Manager script UA-138039080-1.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The company actively solicits inbound estimate calls and online consultation requests.",
+        "label": "fact",
+        "sourceUrl": "https://northstarkitchenandbath.com/our-team-remodeling-contractors-boise/",
+        "quote": "GET YOUR FREE ESTIMATE TODAY CALL US TODAY!"
+      },
+      {
+        "statement": "Inbound online leads pass through a third-party msgsndr.com survey widget embedded directly into website pages.",
+        "label": "inference",
+        "sourceUrl": "https://northstarkitchenandbath.com/",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Mismatch with ForgeX's target market segment of HVAC, plumbing, and electrical service businesses.",
+        "label": "fact",
+        "basis": "The business is a kitchen and bathroom renovation design-build company and general contractor, not a dedicated mechanical, electrical, or plumbing service contractor."
+      },
+      {
+        "problem": "Potential lead leakage or slow response times during off-hours or peak inquiry times.",
+        "label": "hypothesis",
+        "basis": "Inbound requests rely on phone calls and an embedded survey widget; off-hours triage and response speed cannot be observed from the outside."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "HighLevel (msgsndr.com) CRM & Automation",
+        "addresses": "Embedded lead capture survey, automated text/email confirmations, and CRM contact storage.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Construction Management Platforms (e.g., Buildertrend, Jobber, or CoConstruct)",
+        "addresses": "Subcontractor scheduling, change order management, trade permit coordination, and design selections.",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solutions are recommended because the company operates in general remodeling and cabinetry/finish installation rather than ForgeX's target home-service trades (HVAC, plumbing, and electrical)."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "Not applicable as no ForgeX solutions are recommended for this prospect."
+    },
+    "humanReview": [],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Attempting to introduce custom lead-handling workflows could conflict with their existing msgsndr.com survey and CRM setup."
+      },
+      {
+        "type": "compliance",
+        "description": "Remodeling contracts in Boise involve trade-specific permits and subcontractor management governed by Idaho state and municipal regulations."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "The site quotes typical kitchen project ranges from $15,000 to $130,000+ and bathroom remodel ranges from $8,000 to $25,000.",
+        "No commercial value or implementation package is modeled because North Star Kitchen and Bath Remodels falls outside ForgeX's target ICP."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "General Manager",
+        "Managing Partner"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://northstarkitchenandbath.com/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://msgsndr.com/widget/survey/cfRo4qkrDJntOyswr2xd",
+          "sourceUrl": "https://northstarkitchenandbath.com/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "What software do you currently use behind your msgsndr survey widget to manage estimate requests and client consultations?",
+        "Do you perform any trade work in-house, or are all plumbing, mechanical, and electrical scopes subcontracted to trade partners?",
+        "How does your team currently manage project scheduling, subcontractor handoffs, and customer change orders?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://northstarkitchenandbath.com/",
+          "usedFor": "Business identity, address, operating hours, phone number, and iframe review"
+        },
+        {
+          "url": "https://northstarkitchenandbath.com/our-team-remodeling-contractors-boise/",
+          "usedFor": "Evaluation of personnel disclosures, company positioning, and estimate calls-to-action"
+        },
+        {
+          "url": "https://northstarkitchenandbath.com/contact/",
+          "usedFor": "Contact channels and business hours verification"
+        },
+        {
+          "url": "https://northstarkitchenandbath.com/why-choose-us/",
+          "usedFor": "Value proposition and family-owned operating model confirmation"
+        },
+        {
+          "url": "https://northstarkitchenandbath.com/service-areas/",
+          "usedFor": "Geographic service territory verification across the Treasure Valley"
+        },
+        {
+          "url": "https://northstarkitchenandbath.com/client-reviews/",
+          "usedFor": "Customer review analysis and verification of staff references"
+        },
+        {
+          "url": "https://northstarkitchenandbath.com/kitchen-remodel-cost-boise/",
+          "usedFor": "Remodeling scope definitions, permit discussions, and kitchen pricing ranges"
+        },
+        {
+          "url": "https://northstarkitchenandbath.com/bathroom-renovation-cost/",
+          "usedFor": "Trade subcontracting explanations, licensing distinctions, and bathroom pricing ranges"
+        },
+        {
+          "url": "https://northstarkitchenandbath.com/remodeling-permit-for-kitchen-and-bathroom/",
+          "usedFor": "Boise permitting details and contractor responsibilities"
+        }
+      ],
+      "limitations": [
+        "The website does not present individual executive, owner, or manager profiles outside of customer reviews and testimonials, which cannot be used to attribute personnel under ForgeX rules.",
+        "Direct business email addresses are obfuscated behind Cloudflare email-protection scripts and not publicly revealed as plain text.",
+        "The business does not publish team headcount or state licensing numbers on the public pages reviewed."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "North Star Kitchen and Bath Remodels operates as a residential kitchen and bathroom remodeling design-build contractor and general contractor. It falls outside ForgeX's defined target segment of owner-led HVAC, plumbing, and electrical service contractors with 10 to 75 staff who pay for service leads. In addition, the company already uses a third-party CRM survey widget (msgsndr.com) for inbound lead capture, and the website provides no evidence of meeting the 10-75 staff threshold. No outreach draft is generated."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://northstarkitchenandbath.com/",
+        "quote": "North Star Kitchen and Bath Remodels",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://northstarkitchenandbath.com/",
+        "quote": "999 W Main St Suite 100, Boise, ID 83702",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://northstarkitchenandbath.com/",
+        "quote": "As a family-owned business, we treat clients like family, providing personalized renovations that cater to every budget and always exceed expectations.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://northstarkitchenandbath.com/kitchen-remodel-cost-boise/",
+        "quote": "North Star Kitchen and Bath Remodels offers full-scale renovations, kitchen design, cabinetry, countertops, flooring, islands, and open-concept remodels throughout Boise and the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://northstarkitchenandbath.com/",
+        "quote": "Monday - Friday 7AM - 6PM",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://northstarkitchenandbath.com/",
+        "quote": "North Star Kitchen and Bath Remodels is proud to serve the city of Boise and the entire surrounding Treasure Valley area.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://northstarkitchenandbath.com/bathroom-renovation-cost/",
+        "quote": "Trade labor - from a licensed plumber, electrician, and tile installer - is priced separately and reflects both skill and liability.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://northstarkitchenandbath.com/bathroom-renovation-cost/",
+        "quote": "A general contractor typically charges 10 to 20 percent of the total project cost to manage subcontractors, coordinate scheduling, and ensure work meets building codes.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://northstarkitchenandbath.com/our-team-remodeling-contractors-boise/",
+        "quote": "GET YOUR FREE ESTIMATE TODAY CALL US TODAY!",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://northstarkitchenandbath.com/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://msgsndr.com/widget/survey/cfRo4qkrDJntOyswr2xd",
+        "sourceUrl": "https://northstarkitchenandbath.com/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 9,
+      "quotesFound": 9,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 6,
+      "channelsFound": 2,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://northstarkitchenandbath.com/",
+      "finalUrl": "https://northstarkitchenandbath.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:54:36.424Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 240344,
+      "truncated": false,
+      "sha256": "cfbcddb832ae7d19c52d7251c7b3ce76271f20de867fe7f3a3270ee944e66691",
+      "textSha256": "0b1fbcef9a1839cbcd140553d9c76dbce580ea827617ebf467174d5319dc9d27",
+      "fromCache": true
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/our-team-remodeling-contractors-boise/",
+      "finalUrl": "https://northstarkitchenandbath.com/our-team-remodeling-contractors-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:54:42.356Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 177510,
+      "truncated": false,
+      "sha256": "7c2aafaa1f0a13f267fbd033b93ab70d9054242fa7d5ad939e456c3c402534da",
+      "textSha256": "97471d3c41748528b832cbb25bad97b5386edfe8395034b682bd659e55100c9b",
+      "fromCache": true
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/contact/",
+      "finalUrl": "https://northstarkitchenandbath.com/contact/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:54:51.285Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196954,
+      "truncated": false,
+      "sha256": "e07caba654bfcfb60b932c337c21b5c559529d6114595c56c3458a2bf595fb3d",
+      "textSha256": "a8c5f9da4861f0ffc9552683b3235753e591e6bbf3d870f8d52c2873db4ce4a3",
+      "fromCache": true
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/why-choose-us",
+      "finalUrl": "https://northstarkitchenandbath.com/why-choose-us/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:54:48.280Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192657,
+      "truncated": false,
+      "sha256": "951087db7662209bb3a53a2b4f58239b4147baa97ff4407f34cab2abe9ea5e4a",
+      "textSha256": "b27d27cbcca6f359e7ce1a954a283536d499a7a23b8a1ba0b2dc31cc689c786f",
+      "fromCache": true
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/kitchen-and-bath-remodel-boise/",
+      "finalUrl": "https://northstarkitchenandbath.com/kitchen-and-bath-remodel-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:54:54.298Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 215402,
+      "truncated": false,
+      "sha256": "2d41dd6c947cc3ed309dbbf204595e9c40dea3f65bc7113dd9481746797d7a03",
+      "textSha256": "1291d3eee7765fe51640b61b20ac13bf75f6868c5b04573d90c6bf6af166ac7b",
+      "fromCache": true
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/privacy-policy",
+      "finalUrl": "https://northstarkitchenandbath.com/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:55:15.627Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184167,
+      "truncated": false,
+      "sha256": "2e9c3442dd8c18171dc0136c05762f1fbcf42fd6f6706a256f5e415c8a5c0e2d",
+      "textSha256": "d00a77efb90119e9b989b88f1f839ad313c94df25b68dae8d96226a28df17d75",
+      "fromCache": true
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/terms-conditions",
+      "finalUrl": "https://northstarkitchenandbath.com/terms-conditions/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:55:09.620Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192271,
+      "truncated": false,
+      "sha256": "5bd109f2f919cbd06b0d74e4be4225a6a7b0b97a46f4f174ebaf0d561a99ccf4",
+      "textSha256": "5672829cbec6868fd8ea19f8dde3ef816e25c75c12c80c035e55e7332719c141",
+      "fromCache": true
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/client-reviews",
+      "finalUrl": "https://northstarkitchenandbath.com/client-reviews/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:30:24.442Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184917,
+      "truncated": false,
+      "sha256": "d88db8525fa75c406e6937e829e20dbf98cbfe2133f3617f50b5d172d6ca7e35",
+      "textSha256": "e7b1234e46e19e9183a22d5f09ebae74c09ed1cf2d9bb19d7da42a7528cc5317",
+      "fromCache": false
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/service-areas/",
+      "finalUrl": "https://northstarkitchenandbath.com/service-areas/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:30:27.406Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 225579,
+      "truncated": false,
+      "sha256": "f88c5ee2bb876fcfb583c86fa75978f09eb0073014ce8cbdee2f7367acb01867",
+      "textSha256": "c7e934daf075f8e075c4e0f1a47432a08b89b6cd83f83eee25e9f2c26947defc",
+      "fromCache": false
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/blog/",
+      "finalUrl": "https://northstarkitchenandbath.com/blog/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:30:31.102Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 183226,
+      "truncated": false,
+      "sha256": "4e79654e4ee5e1cb3bb7595ef9903554c03d678b1825191df77659b063c030ba",
+      "textSha256": "85e3e98acd40b265e808013c2b08d4fb8ebf267054697c76b75395b730a36617",
+      "fromCache": false
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/kitchen-remodel-cost-boise/",
+      "finalUrl": "https://northstarkitchenandbath.com/kitchen-remodel-cost-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:30:35.535Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 180334,
+      "truncated": false,
+      "sha256": "8ce3a304fd29469cbbca5043cde483c9a158fc2f863760c199db6c07a9e443e5",
+      "textSha256": "6a5414ebb075597ae18cb4eb77a8dbab3e310d086013bc2f1b4d0be0b7467662",
+      "fromCache": false
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/bathroom-renovation-cost/",
+      "finalUrl": "https://northstarkitchenandbath.com/bathroom-renovation-cost/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:30:39.704Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 209165,
+      "truncated": false,
+      "sha256": "98bb725d81e1f9a536b757705cd2219b27876566401c577a1b146908dba53706",
+      "textSha256": "ccd4a97fc67cec5c64ef9dc4cb9fa89d8adcb8366ac7ab7b3572a850bd66d1e9",
+      "fromCache": false
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/kitchen-and-bath-design/",
+      "finalUrl": "https://northstarkitchenandbath.com/kitchen-and-bath-design/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:30:54.933Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 216117,
+      "truncated": false,
+      "sha256": "6e1819be87e8df89085fddd7f61dae7987ed388fff48bcea237ff31fd06bf9f4",
+      "textSha256": "261060f247cf809934875988e39545228a309f911814e0cb454a622a68e62e9d",
+      "fromCache": false
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/remodeling-permit-for-kitchen-and-bathroom/",
+      "finalUrl": "https://northstarkitchenandbath.com/remodeling-permit-for-kitchen-and-bathroom/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:30:57.865Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191549,
+      "truncated": false,
+      "sha256": "60df9b16e2ef978f29c0f7edfa4979a0f1ed23dba97e56073be08ae373d3a824",
+      "textSha256": "59eb58bbf8c6734661e9a459820b39306d06dac116194658574c6a14906aea1b",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://northstarkitchenandbath.com/our-team-remodeling-contractors-boise/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/contact/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/why-choose-us",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/kitchen-and-bath-remodel-boise/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/privacy-policy",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/terms-conditions",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/client-reviews",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/service-areas/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/blog/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/kitchen-remodel-cost-boise/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/bathroom-renovation-cost/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/kitchen-and-bath-design/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://northstarkitchenandbath.com/remodeling-permit-for-kitchen-and-bathroom/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 6,
+  "usage": {
+    "input": 42051,
+    "cachedInput": 26001,
+    "output": 3730,
+    "thinking": 9802,
+    "toolUse": 0,
+    "total": 55583
+  },
+  "costUsd": 0.064732575,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3268197",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/our-team-remodeling-contractors-boise/"
+      }
+    },
+    {
+      "id": "call_3268198",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/contact/"
+      }
+    },
+    {
+      "id": "call_3268199",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/why-choose-us"
+      }
+    },
+    {
+      "id": "call_3268200",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/kitchen-and-bath-remodel-boise/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2757722",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/privacy-policy"
+      }
+    },
+    {
+      "id": "call_2757723",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/terms-conditions"
+      }
+    },
+    {
+      "id": "call_2757724",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/client-reviews"
+      }
+    },
+    {
+      "id": "call_2757725",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/service-areas/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3921889",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/blog/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2476623",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/kitchen-remodel-cost-boise/"
+      }
+    },
+    {
+      "id": "call_2476624",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/bathroom-renovation-cost/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3859967",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/kitchen-and-bath-design/"
+      }
+    },
+    {
+      "id": "call_3859968",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://northstarkitchenandbath.com/remodeling-permit-for-kitchen-and-bathroom/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"North Star Kitchen and Bath Remodels\",\n    \"location\": \"Boise, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"The business operates under the name North Star Kitchen and Bath Remodels.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/\",\n        \"quote\": \"North Star Kitchen and Bath Remodels\"\n      },\n      {\n        \"statement\": \"The company's office address is located on Main Street in Boise, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/\",\n        \"quote\": \"999 W Main St Suite 100, Boise, ID 83702\"\n      },\n      {\n        \"statement\": \"The business describes itself as a family-owned remodeling company.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/\",\n        \"quote\": \"As a family-owned business, we treat clients like family, providing personalized renovations that cater to every budget and always exceed expectations.\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential Kitchen and Bathroom Remodeling / General Contracting\",\n    \"activities\": [\n      \"Full-scale kitchen remodeling and renovations\",\n      \"Bathroom remodeling and renovations\",\n      \"Kitchen and bath design services\",\n      \"Cabinetry supply and installation\",\n      \"Countertop installation\",\n      \"Flooring installation\",\n      \"Bathtub refinishing and shower conversions\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company provides full-scale kitchen renovations, kitchen design, cabinetry, countertops, flooring, islands, and open-concept remodeling in Boise.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/kitchen-remodel-cost-boise/\",\n        \"quote\": \"North Star Kitchen and Bath Remodels offers full-scale renovations, kitchen design, cabinetry, countertops, flooring, islands, and open-concept remodels throughout Boise and the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The company operates as a residential remodeling contractor rather than a dedicated MEP (mechanical, electrical, plumbing) contractor.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/bathroom-renovation-cost/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://northstarkitchenandbath.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The business lists standard operating hours from 7:00 AM to 6:00 PM, Monday through Friday.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/\",\n        \"quote\": \"Monday - Friday 7AM - 6PM\"\n      },\n      {\n        \"statement\": \"The company advertises service coverage throughout the city of Boise and the surrounding Treasure Valley area.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/\",\n        \"quote\": \"North Star Kitchen and Bath Remodels is proud to serve the city of Boise and the entire surrounding Treasure Valley area.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The company notes that specialized trade labor such as plumbing and electrical work is handled separately from standard remodeling tasks.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/bathroom-renovation-cost/\",\n        \"quote\": \"Trade labor - from a licensed plumber, electrician, and tile installer - is priced separately and reflects both skill and liability.\"\n      },\n      {\n        \"statement\": \"The business describes its role as a general contractor managing subcontractors and project schedules to meet building codes.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/bathroom-renovation-cost/\",\n        \"quote\": \"A general contractor typically charges 10 to 20 percent of the total project cost to manage subcontractors, coordinate scheduling, and ensure work meets building codes.\"\n      }\n    ],\n    \"limitations\": \"The website discusses trade permitting requirements and licensed subcontractors, but does not display a specific Idaho general contractor registration or state trade license number on the pages reviewed.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"msgsndr.com widget\",\n      \"purpose\": \"Lead intake and survey embed for quote requests\",\n      \"evidence\": {\n        \"statement\": \"The site embeds a third-party survey frame hosted at msgsndr.com, which is associated with GoHighLevel CRM software.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"WordPress CMS\",\n      \"purpose\": \"Content management and website publishing\",\n      \"evidence\": {\n        \"statement\": \"The site runs on WordPress, as evidenced by core script file paths under wp-includes and wp-content.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Oxygen Builder\",\n      \"purpose\": \"Website page building and styling\",\n      \"evidence\": {\n        \"statement\": \"The site references scripts located in the oxygen plugin directory.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"WP Rocket\",\n      \"purpose\": \"Page caching and asset lazy-loading\",\n      \"evidence\": {\n        \"statement\": \"Asset loading scripts point to the wp-rocket plugin assets path.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"WP Review Slider Pro\",\n      \"purpose\": \"Customer testimonial presentation\",\n      \"evidence\": {\n        \"statement\": \"The site loads review slider scripts from wp-review-slider-pro plugin paths.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google Tag Manager\",\n      \"purpose\": \"Marketing tag and analytics tracking\",\n      \"evidence\": {\n        \"statement\": \"The website loads Google Tag Manager script UA-138039080-1.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The company actively solicits inbound estimate calls and online consultation requests.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://northstarkitchenandbath.com/our-team-remodeling-contractors-boise/\",\n      \"quote\": \"GET YOUR FREE ESTIMATE TODAY CALL US TODAY!\"\n    },\n    {\n      \"statement\": \"Inbound online leads pass through a third-party msgsndr.com survey widget embedded directly into website pages.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://northstarkitchenandbath.com/\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Mismatch with ForgeX's target market segment of HVAC, plumbing, and electrical service businesses.\",\n      \"label\": \"fact\",\n      \"basis\": \"The business is a kitchen and bathroom renovation design-build company and general contractor, not a dedicated mechanical, electrical, or plumbing service contractor.\"\n    },\n    {\n      \"problem\": \"Potential lead leakage or slow response times during off-hours or peak inquiry times.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Inbound requests rely on phone calls and an embedded survey widget; off-hours triage and response speed cannot be observed from the outside.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"HighLevel (msgsndr.com) CRM & Automation\",\n      \"addresses\": \"Embedded lead capture survey, automated text/email confirmations, and CRM contact storage.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Construction Management Platforms (e.g., Buildertrend, Jobber, or CoConstruct)\",\n      \"addresses\": \"Subcontractor scheduling, change order management, trade permit coordination, and design selections.\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solutions are recommended because the company operates in general remodeling and cabinetry/finish installation rather than ForgeX's target home-service trades (HVAC, plumbing, and electrical).\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"Not applicable as no ForgeX solutions are recommended for this prospect.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Attempting to introduce custom lead-handling workflows could conflict with their existing msgsndr.com survey and CRM setup.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Remodeling contracts in Boise involve trade-specific permits and subcontractor management governed by Idaho state and municipal regulations.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"The site quotes typical kitchen project ranges from $15,000 to $130,000+ and bathroom remodel ranges from $8,000 to $25,000.\",\n      \"No commercial value or implementation package is modeled because North Star Kitchen and Bath Remodels falls outside ForgeX's target ICP.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"General Manager\",\n      \"Managing Partner\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://msgsndr.com/widget/survey/cfRo4qkrDJntOyswr2xd\",\n        \"sourceUrl\": \"https://northstarkitchenandbath.com/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What software do you currently use behind your msgsndr survey widget to manage estimate requests and client consultations?\",\n      \"Do you perform any trade work in-house, or are all plumbing, mechanical, and electrical scopes subcontracted to trade partners?\",\n      \"How does your team currently manage project scheduling, subcontractor handoffs, and customer change orders?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://northstarkitchenandbath.com/\",\n        \"usedFor\": \"Business identity, address, operating hours, phone number, and iframe review\"\n      },\n      {\n        \"url\": \"https://northstarkitchenandbath.com/our-team-remodeling-contractors-boise/\",\n        \"usedFor\": \"Evaluation of personnel disclosures, company positioning, and estimate calls-to-action\"\n      },\n      {\n        \"url\": \"https://northstarkitchenandbath.com/contact/\",\n        \"usedFor\": \"Contact channels and business hours verification\"\n      },\n      {\n        \"url\": \"https://northstarkitchenandbath.com/why-choose-us/\",\n        \"usedFor\": \"Value proposition and family-owned operating model confirmation\"\n      },\n      {\n        \"url\": \"https://northstarkitchenandbath.com/service-areas/\",\n        \"usedFor\": \"Geographic service territory verification across the Treasure Valley\"\n      },\n      {\n        \"url\": \"https://northstarkitchenandbath.com/client-reviews/\",\n        \"usedFor\": \"Customer review analysis and verification of staff references\"\n      },\n      {\n        \"url\": \"https://northstarkitchenandbath.com/kitchen-remodel-cost-boise/\",\n        \"usedFor\": \"Remodeling scope definitions, permit discussions, and kitchen pricing ranges\"\n      },\n      {\n        \"url\": \"https://northstarkitchenandbath.com/bathroom-renovation-cost/\",\n        \"usedFor\": \"Trade subcontracting explanations, licensing distinctions, and bathroom pricing ranges\"\n      },\n      {\n        \"url\": \"https://northstarkitchenandbath.com/remodeling-permit-for-kitchen-and-bathroom/\",\n        \"usedFor\": \"Boise permitting details and contractor responsibilities\"\n      }\n    ],\n    \"limitations\": [\n      \"The website does not present individual executive, owner, or manager profiles outside of customer reviews and testimonials, which cannot be used to attribute personnel under ForgeX rules.\",\n      \"Direct business email addresses are obfuscated behind Cloudflare email-protection scripts and not publicly revealed as plain text.\",\n      \"The business does not publish team headcount or state licensing numbers on the public pages reviewed.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"North Star Kitchen and Bath Remodels operates as a residential kitchen and bathroom remodeling design-build contractor and general contractor. It falls outside ForgeX's defined target segment of owner-led HVAC, plumbing, and electrical service contractors with 10 to 75 staff who pay for service leads. In addition, the company already uses a third-party CRM survey widget (msgsndr.com) for inbound lead capture, and the website provides no evidence of meeting the 10-75 staff threshold. No outreach draft is generated.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

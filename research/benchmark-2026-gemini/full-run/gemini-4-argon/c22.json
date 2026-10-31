@@ -1,0 +1,1140 @@
+{
+  "company": {
+    "id": "c22",
+    "name": "Plumbing Solutions of Idaho",
+    "town": "Meridian",
+    "state": "Idaho",
+    "website": "https://plumbingsolutionsofidaho.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:58:01.239Z",
+  "finishedAt": "2026-10-27T19:01:51.656Z",
+  "report": {
+    "identity": {
+      "name": "Plumbing Solutions of Idaho",
+      "location": "870 E. Franklin Road, Suite 506, Meridian, ID 83642",
+      "claims": [
+        {
+          "statement": "Plumbing Solutions of Idaho was founded in 2005 and is located in Meridian, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+          "quote": "Founded in 2005, Plumbing Solutions of Idaho is a quality-focused business located in Meridian, Idaho."
+        },
+        {
+          "statement": "The company's street address is 870 E. Franklin Road, Suite 506, Meridian, ID 83642.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": "870 E. Franklin Road, Suite 506 Meridian, ID 83642"
+        },
+        {
+          "statement": "The company states that it is a family-owned business.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/meridian-plumbers/",
+          "quote": "We are a family-owned business and we are committed to providing you with the best service at a fair price."
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Plumbing Contractor (Residential and Commercial)",
+      "activities": [
+        "Residential and commercial plumbing installation, maintenance, and repair",
+        "24/7 emergency plumbing and same-day service",
+        "Drain cleaning, hydro jetting, sewer inspections, and trenchless/traditional sewer line repair and replacement",
+        "Water heater repair, installation, tankless conversions, and circulating systems",
+        "Boiler repair, installation, and maintenance",
+        "Water treatment, softening, conditioning, filtration, purification, and reverse osmosis",
+        "Leak detection, piping and repiping, backflow testing, sump pumps, septic systems, and plumbing remodeling"
+      ],
+      "claims": [
+        {
+          "statement": "The company provides plumbing, boiler, drains and sewers, water heaters, and water treatment services.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+          "quote": "Reach out to Plumbing Solutions of Idaho today for speedy plumbing, boiler, drains & sewers, water heaters, and water treatment assistance."
+        },
+        {
+          "statement": "The company serves both residential and commercial plumbing customers.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+          "quote": "Our mission is to provide excellent residential and commercial plumbing services to all of Idaho"
+        },
+        {
+          "statement": "The company offers same-day and 24/7 emergency plumbing services.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": "Experience the convenience of our same-day and 24/7 emergency plumbing solutions."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://plumbingsolutionsofidaho.com/",
+      "claims": [
+        {
+          "statement": "The website advertises a 4.9-star rating with over 1,000 Google reviews.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": "4.9 Stars | 1000+ Google Reviews"
+        },
+        {
+          "statement": "The company states it received the 2024 BBB Torch Award for Ethics.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/community/",
+          "quote": "Plumbing Solutions of Idaho Awarded 2024 BBB Torch Award for Ethics"
+        },
+        {
+          "statement": "The company states it was named Business of the Year by the Meridian Chamber of Commerce.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/community/",
+          "quote": "We are thrilled to announce that the Meridian Chamber of Commerce has honored Plumbing Solutions of Idaho as the Business of the Year!"
+        },
+        {
+          "statement": "The company serves Boise, Meridian, Caldwell, Eagle, Kuna, Middleton, Nampa, and Star in the Treasure Valley.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": null
+        },
+        {
+          "statement": "The company operates an established multi-employee workforce with structured benefits including health and life insurance, a retirement plan, and paid time off.",
+          "label": "inference",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/careers/",
+          "quote": null
+        },
+        {
+          "statement": "Based on review volume, multi-city Treasure Valley coverage, fleet references, and structured employee benefits, the company likely employs between 10 and 75 staff.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The Contact Us and Schedule Service pages display contractor license number PLB-C-12709.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+          "quote": "Licenses: PLB-C-12709"
+        },
+        {
+          "statement": "The company states that its plumbers are licensed, insured, and bonded.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/meridian-plumbers/",
+          "quote": "Yes, all of our Meridian plumbers are licensed, fully insured and bonded."
+        },
+        {
+          "statement": "The website's Terms and Conditions page contains boilerplate governing law language referencing New York rather than Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+          "quote": "These Terms shall be governed and construed in accordance with the laws of New York, United States, without regard to its conflict of law provisions."
+        }
+      ],
+      "limitations": "License PLB-C-12709 is stated on the website, but independent verification against state licensing board records or corporate registration databases is outside the scope of reading the company's website."
+    },
+    "existingSoftware": [
+      {
+        "product": "Google Analytics",
+        "purpose": "Website traffic tracking and analytics",
+        "evidence": {
+          "statement": "The Privacy Policy states that the site uses Google Analytics to track and report website traffic.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+          "quote": "Google Analytics is a web analytics service offered by Google that tracks and reports website traffic."
+        }
+      },
+      {
+        "product": "Google Ads (AdWords)",
+        "purpose": "Paid search and display remarketing advertising",
+        "evidence": {
+          "statement": "The Privacy Policy states that the company uses Google Ads (AdWords) remarketing services.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+          "quote": "Google Ads (AdWords) remarketing service is provided by Google Inc."
+        }
+      },
+      {
+        "product": "Bing Ads Remarketing",
+        "purpose": "Paid search and remarketing advertising",
+        "evidence": {
+          "statement": "The Privacy Policy states that the company uses Bing Ads remarketing services.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+          "quote": "Bing Ads remarketing service is provided by Microsoft Inc."
+        }
+      },
+      {
+        "product": "Facebook",
+        "purpose": "Social media remarketing and interest-based advertising",
+        "evidence": {
+          "statement": "The Privacy Policy states that the company uses Facebook remarketing services.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+          "quote": "Facebook remarketing service is provided by Facebook Inc."
+        }
+      },
+      {
+        "product": "GreenSky",
+        "purpose": "Customer financing for plumbing services and projects",
+        "evidence": {
+          "statement": "The Financing page states that GreenSky provides financing options for customers.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/financing/",
+          "quote": "Need Financing for your service or project? GreenSky can help!"
+        }
+      },
+      {
+        "product": "Service Finance Company, LLC",
+        "purpose": "Customer financing for home improvement and plumbing projects",
+        "evidence": {
+          "statement": "The Financing page states that Service Finance Company, LLC offers financing options and links to apply.svcfin.com.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/financing/",
+          "quote": "Service Finance Company, LLC offers hassle-free financing options for your home improvement needs."
+        }
+      },
+      {
+        "product": "static.servicetitan.com",
+        "purpose": "Host referenced across website pages (likely field-service management or call tracking assets)",
+        "evidence": {
+          "statement": "Every page read on the website references the host static.servicetitan.com.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": "static.servicetitan.com"
+        }
+      },
+      {
+        "product": "plumbingsolutionsofidaho.applicantpro.com",
+        "purpose": "Host referenced on the Careers page for job listings and applicant tracking",
+        "evidence": {
+          "statement": "The Careers page references the host plumbingsolutionsofidaho.applicantpro.com.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/about/careers/",
+          "quote": "plumbingsolutionsofidaho.applicantpro.com"
+        }
+      },
+      {
+        "product": "clickcease.com / monitor.clickcease.com",
+        "purpose": "Host referenced across pages (commonly associated with paid-click monitoring)",
+        "evidence": {
+          "statement": "The homepage references the host clickcease.com.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": "clickcease.com"
+        }
+      },
+      {
+        "product": "app.realworklabs.com",
+        "purpose": "Host referenced across pages (commonly associated with jobsite photo/review mapping widgets)",
+        "evidence": {
+          "statement": "The homepage references the host app.realworklabs.com.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+          "quote": "app.realworklabs.com"
+        }
+      },
+      {
+        "product": "https://plumbingsolutionsofidaho.com/wp-content/plugins/formidable/js/frm.min.js?ver=7.0",
+        "purpose": "Website form plugin script used on Contact Us, Schedule Service, and Careers pages",
+        "evidence": {
+          "statement": "The Schedule Service page loads the script https://plumbingsolutionsofidaho.com/wp-content/plugins/formidable/js/frm.min.js?ver=7.0.",
+          "label": "fact",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+          "quote": "https://plumbingsolutionsofidaho.com/wp-content/plugins/formidable/js/frm.min.js?ver=7.0"
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The Schedule Service form asks users to select from 'Air Conditioning Heating Plumbing Sewers Drains' even though the company is a plumbing, boiler, drain, and water treatment contractor.",
+        "label": "fact",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+        "quote": "Service Needed * Air Conditioning Heating Plumbing Sewers Drains"
+      },
+      {
+        "statement": "Both the Contact Us and Schedule Service pages submit via standard web POST requests to the website rather than providing real-time appointment booking or instant interactive triage.",
+        "label": "inference",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+        "quote": null
+      },
+      {
+        "statement": "The Coupons page displays a $50 off plumbing service offer with an expiration date of 7/31/25.",
+        "label": "fact",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/coupons/",
+        "quote": "Not to be combined with any other offer. Expires 7/31/25."
+      },
+      {
+        "statement": "The Coupons page displays a $99 Water Heater Flush offer with an expiration date of 5/31/25.",
+        "label": "fact",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/coupons/",
+        "quote": "$99 Water Heater Flush Not to be combined with any other offer. Expires 5/31/25."
+      },
+      {
+        "statement": "The website lists two different phone numbers across pages: [redacted] in the header and [redacted] in the body text of the About and Coupons pages.",
+        "label": "fact",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+        "quote": "Call us at [redacted] or fill out our online contact form to get started."
+      },
+      {
+        "statement": "A single email address, [redacted], is published across the site for dispatch, general contact, privacy requests, and terms inquiries.",
+        "label": "fact",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+        "quote": "By email: [redacted]· By phone number: [redacted]"
+      }
+    ],
+    "problems": [
+      {
+        "problem": "The online 'Schedule Service' form is an uncustomized static web form (including irrelevant 'Air Conditioning' and 'Heating' options) rather than an interactive booking or instant lead-capture workflow.",
+        "label": "fact",
+        "basis": "Observed directly on https://plumbingsolutionsofidaho.com/schedule-service/, where the form posts to the WordPress URL and lists 'Service Needed * Air Conditioning Heating Plumbing Sewers Drains'."
+      },
+      {
+        "problem": "Website marketing and conversion assets show signs of agency template neglect, including coupons expired in May and July 2025, New York governing-law boilerplate, and secondary phone numbers embedded in body copy.",
+        "label": "inference",
+        "basis": "Inferred from https://plumbingsolutionsofidaho.com/about/coupons/ (2025 expiration dates), https://plumbingsolutionsofidaho.com/terms-and-conditions/ (New York law), and https://plumbingsolutionsofidaho.com/about/ (secondary phone number [redacted])."
+      },
+      {
+        "problem": "Web form submissions from paid ads and organic visitors may experience delays before being entered into field-service software and receiving a callback, especially after hours or during peak dispatch periods.",
+        "label": "hypothesis",
+        "basis": "While static.servicetitan.com is referenced on the site, the Schedule Service and Contact Us pages use standard WordPress forms rather than an embedded real-time scheduler or instant chat widget."
+      },
+      {
+        "problem": "Incoming emails to the single published address ([redacted]) may mix urgent customer dispatch requests with vendor, billing, and general inquiries.",
+        "label": "hypothesis",
+        "basis": "[redacted] is the sole email address published across all pages of the website."
+      },
+      {
+        "problem": "Leadership may lack a consolidated weekly view combining paid ad spend across Google, Bing, and Facebook with booked job revenue and close rates.",
+        "label": "hypothesis",
+        "basis": "The Privacy Policy and page scripts show multiple advertising and tracking platforms in use, which commonly require manual reconciliation with field-service and accounting data."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Native field-service management web booking widget and lead integration (associated with static.servicetitan.com)",
+        "addresses": "Direct online scheduling and automated ingestion of web form leads into dispatch software",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Website agency content and form updates via MountainMarketingGroup.net",
+        "addresses": "Correcting the 'Air Conditioning / Heating' dropdown options on the Schedule Service form and updating expired 2025 coupon dates",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "One-week audit ($500 fixed price, credited toward any fix ordered within 30 days) measuring how many calls, web form submissions, and quotes slip through across phone and web channels.",
+        "problem": "Potential delay or leakage between paid ad clicks, static WordPress form submissions, and booked jobs in dispatch.",
+        "whyNotExistingSoftware": "Even when a contractor owns field-service software, an independent audit across website forms, call tracking numbers, and inbox logs identifies where leads are dropping before configuring or building automation."
+      },
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "Automated pipeline ($1,800 setup plus $149/month) ensuring every web form and lead source lands in the field-service software within two minutes, triggers an instant SMS/email reply, and alerts dispatch until followed up.",
+        "problem": "Static WordPress forms on Contact Us and Schedule Service may rely on manual email reading at [redacted] before a lead is entered and contacted.",
+        "whyNotExistingSoftware": "If their current WordPress form setup is not natively pushing structured lead records into their dispatch queue with instant two-minute SMS replies, a lightweight webhook-to-API bridge solves it without redesigning the website."
+      },
+      {
+        "name": "Owner's Monday numbers",
+        "kind": "catalog",
+        "description": "Automated weekly one-page report ($1,200 setup plus $99/month) showing booked revenue, close rate, average ticket, cost per booked job by lead source, and accounts receivable.",
+        "problem": "Reconciling return on ad spend across Google Ads, Bing Ads, Facebook, and third-party ad trackers against actual booked plumbing revenue.",
+        "whyNotExistingSoftware": "Native field-service dashboards often require complex ad-account mapping or high-tier marketing add-ons to combine multi-channel ad spend and accounting receivables into a single Monday digest."
+      }
+    ],
+    "feasibility": {
+      "rating": "high",
+      "explanation": "The website runs on a standard stack with WordPress forms (frm.min.js) and already includes SMS opt-in checkboxes for appointment reminders and text communications on both the Contact Us and Schedule Service forms. Connecting form webhooks, email parsing, and ad-spend APIs to dispatch software is technically straightforward."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "Deterministic workflow automation (webhooks, API integrations, and scheduled data aggregation) should handle lead routing, instant SMS confirmation, and weekly KPI reporting. AI agents are well-suited for classifying free-text form messages, triaging the shared [redacted] inbox, and drafting initial responses, while human dispatchers must control emergency prioritization and technician assignment."
+    },
+    "humanReview": [
+      "Human dispatcher verification for any lead indicating an active plumbing emergency (such as burst pipes, active flooding, or sewage backups).",
+      "Human approval before finalizing technician dispatch assignments or modifying schedule slots.",
+      "Human review of drafted replies in the [redacted] inbox before sending non-standard quotes or commercial commitments."
+    ],
+    "risks": [
+      {
+        "type": "compliance",
+        "description": "Automated SMS replies must strictly respect the user's SMS opt-in checkbox state on the Contact Us and Schedule Service forms and honor STOP/HELP commands under TCPA and carrier 10DLC rules."
+      },
+      {
+        "type": "operational",
+        "description": "Plumbing Solutions of Idaho advertises 24/7 emergency response; an automated reply must never give a customer with an active water leak the false impression that a truck is already rolling before a live dispatcher or on-call tech confirms."
+      },
+      {
+        "type": "security",
+        "description": "Customer names, phone numbers, emails, and service addresses must be transmitted over encrypted connections with least-privilege API credentials."
+      }
+    ],
+    "commercial": {
+      "supportable": true,
+      "value": "Illustrative: $495 per month ($5,940 per year) at the baseline promotional service level, calculated from the site's published $99 Water Heater Flush price times an assumed 5 additional captured leads per month (standard repair and installation prices are not listed on the website).",
+      "implementationCost": "$500 fixed price for the Revenue Leak Check (credited in full toward any fix ordered within 30 days); $1,800 setup plus $149/month for the Lead-to-job pipeline; or $1,200 setup plus $99/month for Owner's Monday numbers.",
+      "assumptions": [
+        "The only specific service price published on the website is the $99 Water Heater Flush (alongside a $50 Off Any Plumbing Service coupon) on https://plumbingsolutionsofidaho.com/about/coupons/.",
+        "Assumes 5 otherwise-missed or delayed web/phone leads per month are converted into booked jobs at the $99 published price ($99 x 5 = $495/month illustrative baseline).",
+        "Standard diagnostic, repair, sewer, and installation ticket prices are not published on the website and are therefore excluded from this calculation."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / President",
+        "General Manager",
+        "Operations / Dispatch Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://plumbingsolutionsofidaho.com/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "When a homeowner submits the 'Schedule Service' form on your website—especially after hours—how does that request currently get into your dispatch board, and how quickly do they get a text or call back?",
+        "Did you know your online Schedule Service form currently lists 'Air Conditioning' and 'Heating' in the dropdown, and your Coupons page still shows 2025 expiration dates?",
+        "Since you reference ServiceTitan on your site, are your WordPress forms automatically creating bookings/leads inside it, or is dispatch manually entering emails from [redacted]?",
+        "With two phone numbers showing on the site ([redacted] in the header and [redacted] in page copy) plus Google, Bing, and Facebook ads running, how do you currently track which ad channel produces booked plumbing revenue each week?"
+      ],
+      "outreachSubject": "Quick note on your Schedule Service form / Plumbing Solutions of Idaho",
+      "outreachBody": "Hi Plumbing Solutions of Idaho team,\n\nI was looking through plumbingsolutionsofidaho.com and noticed a couple of small items on your site that might be costing you leads:\n\n1. On your Schedule Service page, the 'Service Needed' dropdown asks customers to choose between 'Air Conditioning' and 'Heating' alongside Plumbing, Sewers, and Drains.\n2. Your Coupons page still shows 2025 expiration dates (5/31/25 and 7/31/25).\n\nEven if you have your web agency clean those up, I wanted to ask how those WordPress form submissions currently reach your dispatch board. I run ForgeX—we help home-service contractors connect their web forms and call/lead channels directly into their field-service software with an instant reply in under two minutes.\n\nWe offer a fixed-price $500 Revenue Leak Check where, in one week, we audit how many calls, web leads, and quotes slip through the cracks (and the $500 is credited in full if you order a fix within 30 days). We don't promise specific results, and if your current software already handles this end-to-end, we'll tell you straight up.\n\nWould the owner or operations manager be open to a 10-minute chat next week?\n\nBest regards,\n\n[FOUNDER NAME]\n[FOUNDER TITLE], ForgeX\n[FORGEX POSTAL ADDRESS]\n[FORGEX PHONE / WEBSITE]\n\nIf you prefer not to receive future emails from us, simply reply with \"unsubscribe\" or [OPT-OUT MECHANISM] and we will remove you immediately."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://plumbingsolutionsofidaho.com/",
+          "usedFor": "Business identity, address, 24/7 service claims, review count, contact email, and referenced hosts (static.servicetitan.com, clickcease.com, app.realworklabs.com)"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/",
+          "usedFor": "2005 founding year, Meridian location, residential/commercial mission, and secondary phone number [redacted]"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/meet-the-team/",
+          "usedFor": "Checked for named owners, executives, or managers (none listed)"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/contact-us/",
+          "usedFor": "Contractor license PLB-C-12709, contact form structure, and SMS opt-in checkboxes"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/schedule-service/",
+          "usedFor": "Schedule Service form structure, frm.min.js script, and uncustomized 'Air Conditioning Heating' dropdown options"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/coupons/",
+          "usedFor": "Published promotional pricing ($99 Water Heater Flush, $50 Off) and expired 2025 dates"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/careers/",
+          "usedFor": "Employee benefits evidence and reference to plumbingsolutionsofidaho.applicantpro.com"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/financing/",
+          "usedFor": "GreenSky and Service Finance Company, LLC usage"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+          "usedFor": "SMS messaging terms, New York governing law boilerplate, and [redacted] usage"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+          "usedFor": "Explicit disclosures of Google Analytics, Google Ads (AdWords), Bing Ads Remarketing, and Facebook remarketing"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/about/community/",
+          "usedFor": "2024 BBB Torch Award for Ethics and Meridian Chamber of Commerce Business of the Year recognition"
+        },
+        {
+          "url": "https://plumbingsolutionsofidaho.com/meridian-plumbers/",
+          "usedFor": "Family-owned business statement, licensing/bonding claims, and 24-48 hour non-emergency scheduling policy"
+        }
+      ],
+      "limitations": [
+        "The website does not name any individual owners, executives, or managers on the About or Meet The Team pages.",
+        "Exact employee headcount is not stated on the website.",
+        "Although static.servicetitan.com is referenced on the site, the internal configuration of their field-service software and whether WordPress form submissions sync automatically into it cannot be verified from public pages alone.",
+        "Standard service and installation prices are not published on the website; only coupon offers ($99 Water Heater Flush and $50 Off) are shown."
+      ]
+    },
+    "qualification": {
+      "category": "pursue now",
+      "rationale": "Plumbing Solutions of Idaho is a family-owned plumbing contractor in Meridian, ID (founded in 2005, 1,000+ Google reviews, active paid advertising across Google, Bing, and Facebook) that fits ForgeX's target segment. Observable facts on the website—including a static WordPress 'Schedule Service' form with uncustomized 'Air Conditioning / Heating' options, expired 2025 coupons, multiple phone numbers in page text, and a single shared [redacted] email address—point to concrete lead-capture and intake hygiene gaps that ForgeX's Revenue Leak Check and Lead-to-job pipeline directly address, and a permitted business contact channel is available."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+        "quote": "Founded in 2005, Plumbing Solutions of Idaho is a quality-focused business located in Meridian, Idaho.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+        "quote": "870 E. Franklin Road, Suite 506 Meridian, ID 83642",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/meridian-plumbers/",
+        "quote": "We are a family-owned business and we are committed to providing you with the best service at a fair price.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+        "quote": "Reach out to Plumbing Solutions of Idaho today for speedy plumbing, boiler, drains & sewers, water heaters, and water treatment assistance.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+        "quote": "Our mission is to provide excellent residential and commercial plumbing services to all of Idaho",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+        "quote": "Experience the convenience of our same-day and 24/7 emergency plumbing solutions.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+        "quote": "4.9 Stars | 1000+ Google Reviews",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/community/",
+        "quote": "Plumbing Solutions of Idaho Awarded 2024 BBB Torch Award for Ethics",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/community/",
+        "quote": "We are thrilled to announce that the Meridian Chamber of Commerce has honored Plumbing Solutions of Idaho as the Business of the Year!",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+        "quote": "Licenses: PLB-C-12709",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/meridian-plumbers/",
+        "quote": "Yes, all of our Meridian plumbers are licensed, fully insured and bonded.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+        "quote": "These Terms shall be governed and construed in accordance with the laws of New York, United States, without regard to its conflict of law provisions.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+        "quote": "Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+        "quote": "Google Ads (AdWords) remarketing service is provided by Google Inc.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+        "quote": "Bing Ads remarketing service is provided by Microsoft Inc.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+        "quote": "Facebook remarketing service is provided by Facebook Inc.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/financing/",
+        "quote": "Need Financing for your service or project? GreenSky can help!",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/financing/",
+        "quote": "Service Finance Company, LLC offers hassle-free financing options for your home improvement needs.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+        "quote": "static.servicetitan.com",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/careers/",
+        "quote": "plumbingsolutionsofidaho.applicantpro.com",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+        "quote": "clickcease.com",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+        "quote": "app.realworklabs.com",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+        "quote": "https://plumbingsolutionsofidaho.com/wp-content/plugins/formidable/js/frm.min.js?ver=7.0",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+        "quote": "Service Needed * Air Conditioning Heating Plumbing Sewers Drains",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/coupons/",
+        "quote": "Not to be combined with any other offer. Expires 7/31/25.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/coupons/",
+        "quote": "$99 Water Heater Flush Not to be combined with any other offer. Expires 5/31/25.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/about/",
+        "quote": "Call us at [redacted] or fill out our online contact form to get started.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+        "quote": "By email: [redacted]· By phone number: [redacted]",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://plumbingsolutionsofidaho.com/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 28,
+      "quotesFound": 28,
+      "quotesFoundInDetails": 5,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 3,
+      "hypotheses": 1,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://plumbingsolutionsofidaho.com/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:04.854Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 120334,
+      "truncated": false,
+      "sha256": "9517ed3b6580d3989487d985aff44aaa25e4b37bf32daefb61067a80412f3432",
+      "textSha256": "005f2a5aaf4f1d0ae99e8a5f342c0702fc3bab0d4eeec19b44c87fe6ec6b0a53",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:25.468Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 97146,
+      "truncated": false,
+      "sha256": "fcf8c9d00ac923909e87d8545e7871425c088f977552e902a8d00a35aa591a77",
+      "textSha256": "fe2ac6bff61c913e64aacf012a00b862bf19f2e09d75e82272e2cfae52599306",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/meet-the-team/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/meet-the-team/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:28.241Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 72290,
+      "truncated": false,
+      "sha256": "e8d429c1d17241397c3e9ab2b365135ad7cf2e8a4f40129a5136916f6bc73a2c",
+      "textSha256": "f1375e2cc3380cecc54d7d05ae0a49a690f33a7048913520a299a68498ed465c",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/contact-us/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/contact-us/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:31.283Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 67752,
+      "truncated": false,
+      "sha256": "365737c9abc7a427915ca57c7359d80acb847db6a47fe2d06c1bea6717de8404",
+      "textSha256": "341c2bae67b1648f973dadd0803f40364e0e083c8ffae265e3130092948d312e",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/schedule-service/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/schedule-service/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:34.341Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 68263,
+      "truncated": false,
+      "sha256": "10e16f0577d350d718c90dfe051ef3167c6db31137835acd79d22341a37aacb8",
+      "textSha256": "0c9b4974db17b2585b5ff2f5c26678eaa2166e619376129ea2156618487ae500",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/coupons/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/coupons/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:37.287Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 56832,
+      "truncated": false,
+      "sha256": "e39308caa5dee7562c55e79f5621d175cd519a4ab4ec1bf5b7b1a5c175b472ad",
+      "textSha256": "c28dde0d851be8436283fcaa5f3fe4e094b5b5ff8f6f111fe2806ac5c16f0e1e",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/careers/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/careers/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:40.287Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 70639,
+      "truncated": false,
+      "sha256": "68e93d09526ce98fd65cca9413979eaf56bb3a4cad6f73a5d1b7b5901660f822",
+      "textSha256": "f6e57f280cb614e9809166fcbeff6cc35c2eaeb82edb9ff50f5e9bdbe353aced",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/financing/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/financing/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:43.256Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 58984,
+      "truncated": false,
+      "sha256": "71c637e0151dcd404430ba69d3b41748c9ee7cab4be47c63212671b6972430ad",
+      "textSha256": "5d640b8a269b7e5007ed23f4013bf0a34ea79db099219adac194797483880e59",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:58:46.277Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 61304,
+      "truncated": false,
+      "sha256": "9b99575c9278eb0c411e78f9a832e1bfd0fbea8b434a51938b13964143729fa7",
+      "textSha256": "42ed910190d9998e3faf550b3c8045b25013e4c45629d4c19a84696d5b418f98",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:12.367Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 77446,
+      "truncated": false,
+      "sha256": "6d5f728ceb0ef62145376f8b04c2ee74b367f2968d70d6d430c5b996d09fd958",
+      "textSha256": "61161539263247a2dbc56f66d0e5dd8592d519c08ec05ce699a9722a60ea603c",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/community/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/community/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:15.137Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 93595,
+      "truncated": false,
+      "sha256": "72b0883dc550a5125936beaacc4676da851794e6e2dfe3f5eae75b2261a10eb8",
+      "textSha256": "a58655fe1c3dacedc3e709223d9126cda529088da2fe8f007424ecd17f97c051",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/recent-projects/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/recent-projects/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:18.085Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 91186,
+      "truncated": false,
+      "sha256": "f987e1125aec5334b11eca0905df841dffe61a96e6e708635c9952b6e88bada0",
+      "textSha256": "ea854aa6ea28964200d83e0795050b96d70f7cab73427350f9fae23c63e346e8",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/reviews/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/about/reviews/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:21.156Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 88622,
+      "truncated": false,
+      "sha256": "87ccfbaeb35f69a3787087da6c42f4a5a96b349aca546a1606af78f059b49b51",
+      "textSha256": "6d97ec2dcfabcfeae5ec62e83b30280256702baa104dd177eb42ce8e4714351a",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/blog/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/blog/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:24.280Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 150238,
+      "truncated": false,
+      "sha256": "8d063710270562d54671edfb2f4e9705db8cccfacaf5628ab68a1b82f7c1783a",
+      "textSha256": "ec8a42321dc70e41f914e4049edeb583bf8a4fb170020ca2de917e0e959e26ff",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/blog/skilled_plumbers/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/blog/skilled_plumbers/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:37.176Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 85376,
+      "truncated": false,
+      "sha256": "8a9d42092a44acfbc22c99a78762b10acddeffcbf8c4bcd233524cf63424d523",
+      "textSha256": "d80b32280145ffc078e84f98362c66f7a2243b994d4fce5485af164f0c2264b5",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/blog/pink-booties-this-october/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/blog/pink-booties-this-october/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:40.089Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 85598,
+      "truncated": false,
+      "sha256": "7cefab25c378390138b69b88b47d377ef1d5cad811cf8c6df14ee15b3a367728",
+      "textSha256": "a2cabbcf81f55081c55b41528bcee36a82a8cdffdb90660b57cfd1d7506564fd",
+      "fromCache": false
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/meridian-plumbers/",
+      "finalUrl": "https://plumbingsolutionsofidaho.com/meridian-plumbers/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:59:43.143Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 107246,
+      "truncated": false,
+      "sha256": "d6050b424fd7a186b0e818bce8d9c0b262a4810ba8ebb034d416443907a00290",
+      "textSha256": "5e9ff8a55922f31624f1989b21ac490c1ba863a457fc22d88f2bb61ce2e4e2a9",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/meet-the-team/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/contact-us/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/schedule-service/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/coupons/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/careers/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/financing/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/privacy-policy/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/community/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/recent-projects/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/about/reviews/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/blog/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/blog/skilled_plumbers/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/blog/pink-booties-this-october/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://plumbingsolutionsofidaho.com/meridian-plumbers/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 4,
+  "usage": {
+    "input": 160496,
+    "cachedInput": 40490,
+    "output": 7771,
+    "thinking": 5980,
+    "toolUse": 0,
+    "total": 174247
+  },
+  "costUsd": 0.381571,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2269524",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/"
+      }
+    },
+    {
+      "id": "call_2269525",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/meet-the-team/"
+      }
+    },
+    {
+      "id": "call_2269526",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/contact-us/"
+      }
+    },
+    {
+      "id": "call_2269527",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/schedule-service/"
+      }
+    },
+    {
+      "id": "call_2269528",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/coupons/"
+      }
+    },
+    {
+      "id": "call_2269529",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/careers/"
+      }
+    },
+    {
+      "id": "call_2269530",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/financing/"
+      }
+    },
+    {
+      "id": "call_2269531",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/terms-and-conditions/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_3268954",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/privacy-policy/"
+      }
+    },
+    {
+      "id": "call_3268955",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/community/"
+      }
+    },
+    {
+      "id": "call_3268956",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/recent-projects/"
+      }
+    },
+    {
+      "id": "call_3268957",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/about/reviews/"
+      }
+    },
+    {
+      "id": "call_3268958",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/blog/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_446292",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/blog/skilled_plumbers/"
+      }
+    },
+    {
+      "id": "call_446293",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/blog/pink-booties-this-october/"
+      }
+    },
+    {
+      "id": "call_446294",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://plumbingsolutionsofidaho.com/meridian-plumbers/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Plumbing Solutions of Idaho\",\n    \"location\": \"870 E. Franklin Road, Suite 506, Meridian, ID 83642\",\n    \"claims\": [\n      {\n        \"statement\": \"Plumbing Solutions of Idaho was founded in 2005 and is located in Meridian, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/\",\n        \"quote\": \"Founded in 2005, Plumbing Solutions of Idaho is a quality-focused business located in Meridian, Idaho.\"\n      },\n      {\n        \"statement\": \"The company's street address is 870 E. Franklin Road, Suite 506, Meridian, ID 83642.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": \"870 E. Franklin Road, Suite 506 Meridian, ID 83642\"\n      },\n      {\n        \"statement\": \"The company states that it is a family-owned business.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/meridian-plumbers/\",\n        \"quote\": \"We are a family-owned business and we are committed to providing you with the best service at a fair price.\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Plumbing Contractor (Residential and Commercial)\",\n    \"activities\": [\n      \"Residential and commercial plumbing installation, maintenance, and repair\",\n      \"24/7 emergency plumbing and same-day service\",\n      \"Drain cleaning, hydro jetting, sewer inspections, and trenchless/traditional sewer line repair and replacement\",\n      \"Water heater repair, installation, tankless conversions, and circulating systems\",\n      \"Boiler repair, installation, and maintenance\",\n      \"Water treatment, softening, conditioning, filtration, purification, and reverse osmosis\",\n      \"Leak detection, piping and repiping, backflow testing, sump pumps, septic systems, and plumbing remodeling\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company provides plumbing, boiler, drains and sewers, water heaters, and water treatment services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/\",\n        \"quote\": \"Reach out to Plumbing Solutions of Idaho today for speedy plumbing, boiler, drains & sewers, water heaters, and water treatment assistance.\"\n      },\n      {\n        \"statement\": \"The company serves both residential and commercial plumbing customers.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/\",\n        \"quote\": \"Our mission is to provide excellent residential and commercial plumbing services to all of Idaho\"\n      },\n      {\n        \"statement\": \"The company offers same-day and 24/7 emergency plumbing services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": \"Experience the convenience of our same-day and 24/7 emergency plumbing solutions.\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://plumbingsolutionsofidaho.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The website advertises a 4.9-star rating with over 1,000 Google reviews.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": \"4.9 Stars | 1000+ Google Reviews\"\n      },\n      {\n        \"statement\": \"The company states it received the 2024 BBB Torch Award for Ethics.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/community/\",\n        \"quote\": \"Plumbing Solutions of Idaho Awarded 2024 BBB Torch Award for Ethics\"\n      },\n      {\n        \"statement\": \"The company states it was named Business of the Year by the Meridian Chamber of Commerce.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/community/\",\n        \"quote\": \"We are thrilled to announce that the Meridian Chamber of Commerce has honored Plumbing Solutions of Idaho as the Business of the Year!\"\n      },\n      {\n        \"statement\": \"The company serves Boise, Meridian, Caldwell, Eagle, Kuna, Middleton, Nampa, and Star in the Treasure Valley.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": null\n      },\n      {\n        \"statement\": \"The company operates an established multi-employee workforce with structured benefits including health and life insurance, a retirement plan, and paid time off.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/careers/\",\n        \"quote\": null\n      },\n      {\n        \"statement\": \"Based on review volume, multi-city Treasure Valley coverage, fleet references, and structured employee benefits, the company likely employs between 10 and 75 staff.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The Contact Us and Schedule Service pages display contractor license number PLB-C-12709.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/contact-us/\",\n        \"quote\": \"Licenses: PLB-C-12709\"\n      },\n      {\n        \"statement\": \"The company states that its plumbers are licensed, insured, and bonded.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/meridian-plumbers/\",\n        \"quote\": \"Yes, all of our Meridian plumbers are licensed, fully insured and bonded.\"\n      },\n      {\n        \"statement\": \"The website's Terms and Conditions page contains boilerplate governing law language referencing New York rather than Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/terms-and-conditions/\",\n        \"quote\": \"These Terms shall be governed and construed in accordance with the laws of New York, United States, without regard to its conflict of law provisions.\"\n      }\n    ],\n    \"limitations\": \"License PLB-C-12709 is stated on the website, but independent verification against state licensing board records or corporate registration databases is outside the scope of reading the company's website.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Google Analytics\",\n      \"purpose\": \"Website traffic tracking and analytics\",\n      \"evidence\": {\n        \"statement\": \"The Privacy Policy states that the site uses Google Analytics to track and report website traffic.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/privacy-policy/\",\n        \"quote\": \"Google Analytics is a web analytics service offered by Google that tracks and reports website traffic.\"\n      }\n    },\n    {\n      \"product\": \"Google Ads (AdWords)\",\n      \"purpose\": \"Paid search and display remarketing advertising\",\n      \"evidence\": {\n        \"statement\": \"The Privacy Policy states that the company uses Google Ads (AdWords) remarketing services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/privacy-policy/\",\n        \"quote\": \"Google Ads (AdWords) remarketing service is provided by Google Inc.\"\n      }\n    },\n    {\n      \"product\": \"Bing Ads Remarketing\",\n      \"purpose\": \"Paid search and remarketing advertising\",\n      \"evidence\": {\n        \"statement\": \"The Privacy Policy states that the company uses Bing Ads remarketing services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/privacy-policy/\",\n        \"quote\": \"Bing Ads remarketing service is provided by Microsoft Inc.\"\n      }\n    },\n    {\n      \"product\": \"Facebook\",\n      \"purpose\": \"Social media remarketing and interest-based advertising\",\n      \"evidence\": {\n        \"statement\": \"The Privacy Policy states that the company uses Facebook remarketing services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/privacy-policy/\",\n        \"quote\": \"Facebook remarketing service is provided by Facebook Inc.\"\n      }\n    },\n    {\n      \"product\": \"GreenSky\",\n      \"purpose\": \"Customer financing for plumbing services and projects\",\n      \"evidence\": {\n        \"statement\": \"The Financing page states that GreenSky provides financing options for customers.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/financing/\",\n        \"quote\": \"Need Financing for your service or project? GreenSky can help!\"\n      }\n    },\n    {\n      \"product\": \"Service Finance Company, LLC\",\n      \"purpose\": \"Customer financing for home improvement and plumbing projects\",\n      \"evidence\": {\n        \"statement\": \"The Financing page states that Service Finance Company, LLC offers financing options and links to apply.svcfin.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/financing/\",\n        \"quote\": \"Service Finance Company, LLC offers hassle-free financing options for your home improvement needs.\"\n      }\n    },\n    {\n      \"product\": \"static.servicetitan.com\",\n      \"purpose\": \"Host referenced across website pages (likely field-service management or call tracking assets)\",\n      \"evidence\": {\n        \"statement\": \"Every page read on the website references the host static.servicetitan.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": \"static.servicetitan.com\"\n      }\n    },\n    {\n      \"product\": \"plumbingsolutionsofidaho.applicantpro.com\",\n      \"purpose\": \"Host referenced on the Careers page for job listings and applicant tracking\",\n      \"evidence\": {\n        \"statement\": \"The Careers page references the host plumbingsolutionsofidaho.applicantpro.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/careers/\",\n        \"quote\": \"plumbingsolutionsofidaho.applicantpro.com\"\n      }\n    },\n    {\n      \"product\": \"clickcease.com / monitor.clickcease.com\",\n      \"purpose\": \"Host referenced across pages (commonly associated with paid-click monitoring)\",\n      \"evidence\": {\n        \"statement\": \"The homepage references the host clickcease.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": \"clickcease.com\"\n      }\n    },\n    {\n      \"product\": \"app.realworklabs.com\",\n      \"purpose\": \"Host referenced across pages (commonly associated with jobsite photo/review mapping widgets)\",\n      \"evidence\": {\n        \"statement\": \"The homepage references the host app.realworklabs.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\",\n        \"quote\": \"app.realworklabs.com\"\n      }\n    },\n    {\n      \"product\": \"https://plumbingsolutionsofidaho.com/wp-content/plugins/formidable/js/frm.min.js?ver=7.0\",\n      \"purpose\": \"Website form plugin script used on Contact Us, Schedule Service, and Careers pages\",\n      \"evidence\": {\n        \"statement\": \"The Schedule Service page loads the script https://plumbingsolutionsofidaho.com/wp-content/plugins/formidable/js/frm.min.js?ver=7.0.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/schedule-service/\",\n        \"quote\": \"https://plumbingsolutionsofidaho.com/wp-content/plugins/formidable/js/frm.min.js?ver=7.0\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The Schedule Service form asks users to select from 'Air Conditioning Heating Plumbing Sewers Drains' even though the company is a plumbing, boiler, drain, and water treatment contractor.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/schedule-service/\",\n      \"quote\": \"Service Needed * Air Conditioning Heating Plumbing Sewers Drains\"\n    },\n    {\n      \"statement\": \"Both the Contact Us and Schedule Service pages submit via standard web POST requests to the website rather than providing real-time appointment booking or instant interactive triage.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/schedule-service/\",\n      \"quote\": null\n    },\n    {\n      \"statement\": \"The Coupons page displays a $50 off plumbing service offer with an expiration date of 7/31/25.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/coupons/\",\n      \"quote\": \"Not to be combined with any other offer. Expires 7/31/25.\"\n    },\n    {\n      \"statement\": \"The Coupons page displays a $99 Water Heater Flush offer with an expiration date of 5/31/25.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/coupons/\",\n      \"quote\": \"$99 Water Heater Flush Not to be combined with any other offer. Expires 5/31/25.\"\n    },\n    {\n      \"statement\": \"The website lists two different phone numbers across pages: [redacted] in the header and [redacted] in the body text of the About and Coupons pages.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/about/\",\n      \"quote\": \"Call us at [redacted] or fill out our online contact form to get started.\"\n    },\n    {\n      \"statement\": \"A single email address, [redacted], is published across the site for dispatch, general contact, privacy requests, and terms inquiries.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/terms-and-conditions/\",\n      \"quote\": \"By email: [redacted]· By phone number: [redacted]\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"The online 'Schedule Service' form is an uncustomized static web form (including irrelevant 'Air Conditioning' and 'Heating' options) rather than an interactive booking or instant lead-capture workflow.\",\n      \"label\": \"fact\",\n      \"basis\": \"Observed directly on https://plumbingsolutionsofidaho.com/schedule-service/, where the form posts to the WordPress URL and lists 'Service Needed * Air Conditioning Heating Plumbing Sewers Drains'.\"\n    },\n    {\n      \"problem\": \"Website marketing and conversion assets show signs of agency template neglect, including coupons expired in May and July 2025, New York governing-law boilerplate, and secondary phone numbers embedded in body copy.\",\n      \"label\": \"inference\",\n      \"basis\": \"Inferred from https://plumbingsolutionsofidaho.com/about/coupons/ (2025 expiration dates), https://plumbingsolutionsofidaho.com/terms-and-conditions/ (New York law), and https://plumbingsolutionsofidaho.com/about/ (secondary phone number [redacted]).\"\n    },\n    {\n      \"problem\": \"Web form submissions from paid ads and organic visitors may experience delays before being entered into field-service software and receiving a callback, especially after hours or during peak dispatch periods.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"While static.servicetitan.com is referenced on the site, the Schedule Service and Contact Us pages use standard WordPress forms rather than an embedded real-time scheduler or instant chat widget.\"\n    },\n    {\n      \"problem\": \"Incoming emails to the single published address ([redacted]) may mix urgent customer dispatch requests with vendor, billing, and general inquiries.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"[redacted] is the sole email address published across all pages of the website.\"\n    },\n    {\n      \"problem\": \"Leadership may lack a consolidated weekly view combining paid ad spend across Google, Bing, and Facebook with booked job revenue and close rates.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The Privacy Policy and page scripts show multiple advertising and tracking platforms in use, which commonly require manual reconciliation with field-service and accounting data.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Native field-service management web booking widget and lead integration (associated with static.servicetitan.com)\",\n      \"addresses\": \"Direct online scheduling and automated ingestion of web form leads into dispatch software\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Website agency content and form updates via MountainMarketingGroup.net\",\n      \"addresses\": \"Correcting the 'Air Conditioning / Heating' dropdown options on the Schedule Service form and updating expired 2025 coupon dates\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"One-week audit ($500 fixed price, credited toward any fix ordered within 30 days) measuring how many calls, web form submissions, and quotes slip through across phone and web channels.\",\n      \"problem\": \"Potential delay or leakage between paid ad clicks, static WordPress form submissions, and booked jobs in dispatch.\",\n      \"whyNotExistingSoftware\": \"Even when a contractor owns field-service software, an independent audit across website forms, call tracking numbers, and inbox logs identifies where leads are dropping before configuring or building automation.\"\n    },\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"Automated pipeline ($1,800 setup plus $149/month) ensuring every web form and lead source lands in the field-service software within two minutes, triggers an instant SMS/email reply, and alerts dispatch until followed up.\",\n      \"problem\": \"Static WordPress forms on Contact Us and Schedule Service may rely on manual email reading at [redacted] before a lead is entered and contacted.\",\n      \"whyNotExistingSoftware\": \"If their current WordPress form setup is not natively pushing structured lead records into their dispatch queue with instant two-minute SMS replies, a lightweight webhook-to-API bridge solves it without redesigning the website.\"\n    },\n    {\n      \"name\": \"Owner's Monday numbers\",\n      \"kind\": \"catalog\",\n      \"description\": \"Automated weekly one-page report ($1,200 setup plus $99/month) showing booked revenue, close rate, average ticket, cost per booked job by lead source, and accounts receivable.\",\n      \"problem\": \"Reconciling return on ad spend across Google Ads, Bing Ads, Facebook, and third-party ad trackers against actual booked plumbing revenue.\",\n      \"whyNotExistingSoftware\": \"Native field-service dashboards often require complex ad-account mapping or high-tier marketing add-ons to combine multi-channel ad spend and accounting receivables into a single Monday digest.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"high\",\n    \"explanation\": \"The website runs on a standard stack with WordPress forms (frm.min.js) and already includes SMS opt-in checkboxes for appointment reminders and text communications on both the Contact Us and Schedule Service forms. Connecting form webhooks, email parsing, and ad-spend APIs to dispatch software is technically straightforward.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"Deterministic workflow automation (webhooks, API integrations, and scheduled data aggregation) should handle lead routing, instant SMS confirmation, and weekly KPI reporting. AI agents are well-suited for classifying free-text form messages, triaging the shared [redacted] inbox, and drafting initial responses, while human dispatchers must control emergency prioritization and technician assignment.\"\n  },\n  \"humanReview\": [\n    \"Human dispatcher verification for any lead indicating an active plumbing emergency (such as burst pipes, active flooding, or sewage backups).\",\n    \"Human approval before finalizing technician dispatch assignments or modifying schedule slots.\",\n    \"Human review of drafted replies in the [redacted] inbox before sending non-standard quotes or commercial commitments.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated SMS replies must strictly respect the user's SMS opt-in checkbox state on the Contact Us and Schedule Service forms and honor STOP/HELP commands under TCPA and carrier 10DLC rules.\"\n    },\n    {\n      \"type\": \"operational\",\n      \"description\": \"Plumbing Solutions of Idaho advertises 24/7 emergency response; an automated reply must never give a customer with an active water leak the false impression that a truck is already rolling before a live dispatcher or on-call tech confirms.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Customer names, phone numbers, emails, and service addresses must be transmitted over encrypted connections with least-privilege API credentials.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": true,\n    \"value\": \"Illustrative: $495 per month ($5,940 per year) at the baseline promotional service level, calculated from the site's published $99 Water Heater Flush price times an assumed 5 additional captured leads per month (standard repair and installation prices are not listed on the website).\",\n    \"implementationCost\": \"$500 fixed price for the Revenue Leak Check (credited in full toward any fix ordered within 30 days); $1,800 setup plus $149/month for the Lead-to-job pipeline; or $1,200 setup plus $99/month for Owner's Monday numbers.\",\n    \"assumptions\": [\n      \"The only specific service price published on the website is the $99 Water Heater Flush (alongside a $50 Off Any Plumbing Service coupon) on https://plumbingsolutionsofidaho.com/about/coupons/.\",\n      \"Assumes 5 otherwise-missed or delayed web/phone leads per month are converted into booked jobs at the $99 published price ($99 x 5 = $495/month illustrative baseline).\",\n      \"Standard diagnostic, repair, sewer, and installation ticket prices are not published on the website and are therefore excluded from this calculation.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / President\",\n      \"General Manager\",\n      \"Operations / Dispatch Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://plumbingsolutionsofidaho.com/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"When a homeowner submits the 'Schedule Service' form on your website—especially after hours—how does that request currently get into your dispatch board, and how quickly do they get a text or call back?\",\n      \"Did you know your online Schedule Service form currently lists 'Air Conditioning' and 'Heating' in the dropdown, and your Coupons page still shows 2025 expiration dates?\",\n      \"Since you reference ServiceTitan on your site, are your WordPress forms automatically creating bookings/leads inside it, or is dispatch manually entering emails from [redacted]?\",\n      \"With two phone numbers showing on the site ([redacted] in the header and [redacted] in page copy) plus Google, Bing, and Facebook ads running, how do you currently track which ad channel produces booked plumbing revenue each week?\"\n    ],\n    \"outreachSubject\": \"Quick note on your Schedule Service form / Plumbing Solutions of Idaho\",\n    \"outreachBody\": \"Hi Plumbing Solutions of Idaho team,\\n\\nI was looking through plumbingsolutionsofidaho.com and noticed a couple of small items on your site that might be costing you leads:\\n\\n1. On your Schedule Service page, the 'Service Needed' dropdown asks customers to choose between 'Air Conditioning' and 'Heating' alongside Plumbing, Sewers, and Drains.\\n2. Your Coupons page still shows 2025 expiration dates (5/31/25 and 7/31/25).\\n\\nEven if you have your web agency clean those up, I wanted to ask how those WordPress form submissions currently reach your dispatch board. I run ForgeX—we help home-service contractors connect their web forms and call/lead channels directly into their field-service software with an instant reply in under two minutes.\\n\\nWe offer a fixed-price $500 Revenue Leak Check where, in one week, we audit how many calls, web leads, and quotes slip through the cracks (and the $500 is credited in full if you order a fix within 30 days). We don't promise specific results, and if your current software already handles this end-to-end, we'll tell you straight up.\\n\\nWould the owner or operations manager be open to a 10-minute chat next week?\\n\\nBest regards,\\n\\n[FOUNDER NAME]\\n[FOUNDER TITLE], ForgeX\\n[FORGEX POSTAL ADDRESS]\\n[FORGEX PHONE / WEBSITE]\\n\\nIf you prefer not to receive future emails from us, simply reply with \\\"unsubscribe\\\" or [OPT-OUT MECHANISM] and we will remove you immediately.\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/\",\n        \"usedFor\": \"Business identity, address, 24/7 service claims, review count, contact email, and referenced hosts (static.servicetitan.com, clickcease.com, app.realworklabs.com)\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/\",\n        \"usedFor\": \"2005 founding year, Meridian location, residential/commercial mission, and secondary phone number [redacted]\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/meet-the-team/\",\n        \"usedFor\": \"Checked for named owners, executives, or managers (none listed)\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/contact-us/\",\n        \"usedFor\": \"Contractor license PLB-C-12709, contact form structure, and SMS opt-in checkboxes\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/schedule-service/\",\n        \"usedFor\": \"Schedule Service form structure, frm.min.js script, and uncustomized 'Air Conditioning Heating' dropdown options\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/coupons/\",\n        \"usedFor\": \"Published promotional pricing ($99 Water Heater Flush, $50 Off) and expired 2025 dates\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/careers/\",\n        \"usedFor\": \"Employee benefits evidence and reference to plumbingsolutionsofidaho.applicantpro.com\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/financing/\",\n        \"usedFor\": \"GreenSky and Service Finance Company, LLC usage\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/terms-and-conditions/\",\n        \"usedFor\": \"SMS messaging terms, New York governing law boilerplate, and [redacted] usage\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/privacy-policy/\",\n        \"usedFor\": \"Explicit disclosures of Google Analytics, Google Ads (AdWords), Bing Ads Remarketing, and Facebook remarketing\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/about/community/\",\n        \"usedFor\": \"2024 BBB Torch Award for Ethics and Meridian Chamber of Commerce Business of the Year recognition\"\n      },\n      {\n        \"url\": \"https://plumbingsolutionsofidaho.com/meridian-plumbers/\",\n        \"usedFor\": \"Family-owned business statement, licensing/bonding claims, and 24-48 hour non-emergency scheduling policy\"\n      }\n    ],\n    \"limitations\": [\n      \"The website does not name any individual owners, executives, or managers on the About or Meet The Team pages.\",\n      \"Exact employee headcount is not stated on the website.\",\n      \"Although static.servicetitan.com is referenced on the site, the internal configuration of their field-service software and whether WordPress form submissions sync automatically into it cannot be verified from public pages alone.\",\n      \"Standard service and installation prices are not published on the website; only coupon offers ($99 Water Heater Flush and $50 Off) are shown.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue now\",\n    \"rationale\": \"Plumbing Solutions of Idaho is a family-owned plumbing contractor in Meridian, ID (founded in 2005, 1,000+ Google reviews, active paid advertising across Google, Bing, and Facebook) that fits ForgeX's target segment. Observable facts on the website—including a static WordPress 'Schedule Service' form with uncustomized 'Air Conditioning / Heating' options, expired 2025 coupons, multiple phone numbers in page text, and a single shared [redacted] email address—point to concrete lead-capture and intake hygiene gaps that ForgeX's Revenue Leak Check and Lead-to-job pipeline directly address, and a permitted business contact channel is available.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

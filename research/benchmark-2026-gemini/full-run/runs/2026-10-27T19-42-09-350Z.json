@@ -1,0 +1,168 @@
+{
+  "stage": "full-run",
+  "simulate": false,
+  "startedAt": "2026-10-27T19:42:09.350Z",
+  "finishedAt": "2026-10-27T19:55:01.147Z",
+  "gitCommit": "886e308",
+  "sdk": "@google/genai 2.28.0",
+  "promptVersion": "gemini-benchmark-v1.3",
+  "systemPromptSha256": "18ede776a5df260c450bff59da480c1ce3078647a55dd1904c42814883888e18",
+  "toolSha256": "7958fed402601fd5263a6f7b38efa3d1dfef25d1650aac34db3a939c653b7742",
+  "schemaSha256": "b4585baad8a544764dd944a93bfe80afd6c1dabbbfb853058cab849b2c0a6e1c",
+  "inputsFile": "benchmark-25.json",
+  "inputsSha256": "bf12275b965d3ff80b40103a66c894fb78c54c8e28a39629b0ad2b7470f3425b",
+  "authorization": {
+    "stage": "full-run",
+    "capUsd": 20,
+    "inputs": "benchmark-25.json",
+    "models": [
+      "gemini-4-argon",
+      "gemini-3.8-flash"
+    ],
+    "approvedBy": "owner",
+    "approvedOn": "2026-10-27",
+    "terms": "Owner approval of 2026-10-27 (FULL 25-COMPANY BENCHMARK): the full benchmark under protocol v1.3 on both models against the original 25 companies, including restricted runs and the planned consistency rounds, for at most $20 of Gemini spend in total; no other spending is authorized. Start with c01 and c10 and review them for accuracy, invented information, rule violations, qualification errors and unexpected costs before continuing. Stop on insufficient budget, a material protocol defect, a source-access violation or an unexpected cost increase. Use the approved shared billing account; no billing or credential changes, no contact with businesses, no outreach, deployment, production changes or publication.",
+    "goAhead": "2026-10-27: the owner explicitly authorized the paid benchmark under these exact conditions."
+  },
+  "models": [
+    "gemini-4-argon",
+    "gemini-3.8-flash"
+  ],
+  "repeat": "2",
+  "companiesFilter": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05"
+  ],
+  "restricted": [
+    "c03"
+  ],
+  "excluded": [],
+  "stageSpentUsd": 5.366738900000003,
+  "capUsd": 20,
+  "stopReason": null,
+  "results": [
+    {
+      "company": "c01",
+      "model": "gemini-4-argon",
+      "access": "full",
+      "status": "completed",
+      "costUsd": 0.11224420000000002,
+      "turns": 4,
+      "pages": 7,
+      "facts": 18,
+      "quotesFound": 18,
+      "flags": 0
+    },
+    {
+      "company": "c02",
+      "model": "gemini-4-argon",
+      "access": "full",
+      "status": "completed",
+      "costUsd": 0.1027005,
+      "turns": 4,
+      "pages": 7,
+      "facts": 18,
+      "quotesFound": 18,
+      "flags": 0
+    },
+    {
+      "company": "c03",
+      "model": "gemini-4-argon",
+      "access": "restricted",
+      "status": "completed",
+      "costUsd": 0.018152,
+      "turns": 1,
+      "pages": 0,
+      "facts": 0,
+      "quotesFound": 0,
+      "flags": 0
+    },
+    {
+      "company": "c04",
+      "model": "gemini-4-argon",
+      "access": "full",
+      "status": "completed",
+      "costUsd": 0.0620296,
+      "turns": 2,
+      "pages": 3,
+      "facts": 11,
+      "quotesFound": 11,
+      "flags": 0
+    },
+    {
+      "company": "c05",
+      "model": "gemini-4-argon",
+      "access": "full",
+      "status": "completed",
+      "costUsd": 0.2220775,
+      "turns": 3,
+      "pages": 6,
+      "facts": 17,
+      "quotesFound": 17,
+      "flags": 0
+    },
+    {
+      "company": "c01",
+      "model": "gemini-3.8-flash",
+      "access": "full",
+      "status": "completed",
+      "costUsd": 0.0542508,
+      "turns": 4,
+      "pages": 6,
+      "facts": 7,
+      "quotesFound": 7,
+      "flags": 0
+    },
+    {
+      "company": "c02",
+      "model": "gemini-3.8-flash",
+      "access": "full",
+      "status": "completed",
+      "costUsd": 0.047185500000000005,
+      "turns": 6,
+      "pages": 10,
+      "facts": 10,
+      "quotesFound": 10,
+      "flags": 0
+    },
+    {
+      "company": "c03",
+      "model": "gemini-3.8-flash",
+      "access": "restricted",
+      "status": "completed",
+      "costUsd": 0.016254,
+      "turns": 1,
+      "pages": 0,
+      "facts": 0,
+      "quotesFound": 0,
+      "flags": 0
+    },
+    {
+      "company": "c04",
+      "model": "gemini-3.8-flash",
+      "access": "full",
+      "status": "completed",
+      "costUsd": 0.02513595,
+      "turns": 2,
+      "pages": 4,
+      "facts": 8,
+      "quotesFound": 8,
+      "flags": 0
+    },
+    {
+      "company": "c05",
+      "model": "gemini-3.8-flash",
+      "access": "full",
+      "status": "completed",
+      "costUsd": 0.07771515,
+      "turns": 6,
+      "pages": 9,
+      "facts": 11,
+      "quotesFound": 11,
+      "flags": 0
+    }
+  ]
+}

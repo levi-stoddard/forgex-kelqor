@@ -1,0 +1,25 @@
+{
+  "note": "Paid stages the owner has authorized. The runner refuses any stage, inputs file or model not listed here, and never spends past capUsd. Entries are added only on the owner's explicit approval.",
+  "stages": [
+    {
+      "stage": "dry-run",
+      "capUsd": 5,
+      "inputs": "dry-run.json",
+      "models": ["gemini-4-argon", "gemini-3.8-flash"],
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-27",
+      "terms": "Decision 6: up to $5 for the initial paid Gemini dry run, once the owner has completed the ForgeX Google project and billing setup. It does not permit Claude to buy credits or change billing settings. The remaining $55 and the learning experiment are not authorized.",
+      "goAhead": "2026-10-27: the owner said to run the dry run now on the current, shared billing account, accepting the shared cap for this test, and confirmed AI Studio logging is off."
+    },
+    {
+      "stage": "full-run",
+      "capUsd": 20,
+      "inputs": "benchmark-25.json",
+      "models": ["gemini-4-argon", "gemini-3.8-flash"],
+      "approvedBy": "owner",
+      "approvedOn": "2026-10-27",
+      "terms": "Owner approval of 2026-10-27 (FULL 25-COMPANY BENCHMARK): the full benchmark under protocol v1.3 on both models against the original 25 companies, including restricted runs and the planned consistency rounds, for at most $20 of Gemini spend in total; no other spending is authorized. Start with c01 and c10 and review them for accuracy, invented information, rule violations, qualification errors and unexpected costs before continuing. Stop on insufficient budget, a material protocol defect, a source-access violation or an unexpected cost increase. Use the approved shared billing account; no billing or credential changes, no contact with businesses, no outreach, deployment, production changes or publication.",
+      "goAhead": "2026-10-27: the owner explicitly authorized the paid benchmark under these exact conditions."
+    }
+  ]
+}

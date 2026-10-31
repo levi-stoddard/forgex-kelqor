@@ -1,0 +1,443 @@
+{
+  "company": {
+    "id": "c04",
+    "name": "Ardent Industries Inc.",
+    "town": "Nampa",
+    "state": "Idaho",
+    "website": "https://ardentindustries.net/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T19:45:26.295Z",
+  "finishedAt": "2026-10-27T19:46:19.989Z",
+  "report": {
+    "identity": {
+      "name": "Ardent Industries Inc.",
+      "location": "1020 N. Franklin Blvd Suite 101, Nampa, ID 83687",
+      "claims": [
+        {
+          "statement": "The company's legal name shown in the website copyright notice is Ardent Industries Inc.",
+          "label": "fact",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": "© 2026 Ardent Industries Inc. All rights reserved."
+        },
+        {
+          "statement": "The business is located at 1020 N. Franklin Blvd Suite 101 Nampa, ID 83687.",
+          "label": "fact",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": "1020 N. Franklin Blvd Suite 101 Nampa, ID 83687"
+        },
+        {
+          "statement": "Ardent Industries was founded in California in 2014 and relocated to Idaho in 2017.",
+          "label": "fact",
+          "sourceUrl": "https://ardentindustries.net/about-us/",
+          "quote": "Ardent Industries was established in California in 2014, relocating to Idaho in 2017."
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Metal Fabrication and CNC Machining Manufacturing",
+      "activities": [
+        "Precision sheet metal fabrication (laser cutting, press brake, hardware)",
+        "CNC machining (milling and turning)",
+        "Powder coating",
+        "MIG and TIG welding"
+      ],
+      "claims": [
+        {
+          "statement": "Ardent Industries specializes in precision sheet metal fabrication, CNC machining, powder coating, and welding services.",
+          "label": "fact",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": "We specialize in precision sheet metal fabrication, CNC machining, powder coating, and welding services in Nampa, Idaho, and the surrounding Treasure Valley."
+        },
+        {
+          "statement": "The company manufactures metal components for industries including semiconductor, robotics, chemical processing, home furnishings, electronic components, and automotive aftermarket.",
+          "label": "fact",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": "Ardent Industries provides top-notch metal fabrication solutions for a wide range of industries, including but not limited to semiconductor, robotics, chemical processing, home furnishings"
+        },
+        {
+          "statement": "Ardent Industries is an industrial metal manufacturing and fabrication shop rather than a residential or commercial HVAC, plumbing, or electrical home-service contractor.",
+          "label": "inference",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://ardentindustries.net/",
+      "claims": [
+        {
+          "statement": "The company states it is a locally owned and operated business serving the Treasure Valley and out-of-state clients.",
+          "label": "fact",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": "As a locally owned and operated business, we understand the needs of the Treasure Valley community and strive to provide exceptional service"
+        },
+        {
+          "statement": "The website includes an online store navigation link pointing to a products section.",
+          "label": "fact",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": "STORE"
+        },
+        {
+          "statement": "The Contact Us page provides a web contact form along with phone and email contact details.",
+          "label": "fact",
+          "sourceUrl": "https://ardentindustries.net/contact-us/",
+          "quote": "I allow Ardent Industries to contact me with the details provided on this form."
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The website references corporate status through the name Ardent Industries Inc.",
+          "label": "fact",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": "© 2026 Ardent Industries Inc. All rights reserved."
+        }
+      ],
+      "limitations": "No contractor license numbers, state registration numbers, or manufacturing certifications (such as ISO certifications) are stated on the pages read."
+    },
+    "existingSoftware": [
+      {
+        "product": "wp-content / wp-includes scripts",
+        "purpose": "Website content management system scripts",
+        "evidence": {
+          "statement": "The homepage loads scripts from wp-includes and wp-content paths on ardentindustries.net.",
+          "label": "inference",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "WooCommerce plugin scripts",
+        "purpose": "E-commerce shopping cart and order attribution functionality on the website",
+        "evidence": {
+          "statement": "The homepage loads scripts from wp-content/plugins/woocommerce/ on ardentindustries.net.",
+          "label": "inference",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "Elementor and Elementor Pro plugin scripts",
+        "purpose": "Website page building and layout rendering",
+        "evidence": {
+          "statement": "The homepage loads scripts from wp-content/plugins/elementor/ and wp-content/plugins/elementor-pro/ on ardentindustries.net.",
+          "label": "inference",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "facebook-for-woocommerce and connect.facebook.net",
+        "purpose": "Advertising and e-commerce pixel event tracking",
+        "evidence": {
+          "statement": "The homepage loads scripts from wp-content/plugins/facebook-for-woocommerce/ and references connect.facebook.net.",
+          "label": "inference",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": null
+        }
+      },
+      {
+        "product": "googletagmanager.com (gtag/js)",
+        "purpose": "Website analytics and tag management",
+        "evidence": {
+          "statement": "The homepage loads a tag script from www.googletagmanager.com.",
+          "label": "inference",
+          "sourceUrl": "https://ardentindustries.net/",
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The Contact Us page uses a general inquiry form collecting name, phone number, email, and message rather than an automated RFQ or CAD upload system.",
+        "label": "fact",
+        "sourceUrl": "https://ardentindustries.net/contact-us/",
+        "quote": "Your Name Your Phone Number Your Email Your Message"
+      },
+      {
+        "statement": "The company handles both low-quantity custom jobs and larger production runs across sheet metal, machining, welding, and powder coating.",
+        "label": "fact",
+        "sourceUrl": "https://ardentindustries.net/",
+        "quote": "Small or large, simple or complex, low quantity or production quantities, our capabilities and skill set nets the high quality customers expect"
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Incoming custom fabrication and machining quote requests submitted via email or the basic web form may require manual triage and follow-up.",
+        "label": "hypothesis",
+        "basis": "The website displays a general email address ([redacted]) and a basic 4-field contact form without structured RFQ fields or file attachments."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Manufacturing ERP / Shop Management Software with RFQ Portals",
+        "addresses": "Job quoting, CAD file intake, shop floor routing, and order management for machine and fabrication shops.",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because Ardent Industries Inc. is a manufacturing and metal fabrication company outside ForgeX's target segment of home-service contractors."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended as the company is outside ForgeX's service segment."
+    },
+    "humanReview": [],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Offering home-service contractor automation packages to a B2B precision machining and fabrication shop would misalign with their shop-floor ERP, CAD/CAM quoting, and industrial production workflows."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / President",
+        "General Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://ardentindustries.net/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://ardentindustries.net/",
+          "usedFor": "Business identity, physical address, core manufacturing activities, industries served, contact email, and website scripts."
+        },
+        {
+          "url": "https://ardentindustries.net/about-us/",
+          "usedFor": "Company founding history, relocation from California to Idaho, and regional service area."
+        },
+        {
+          "url": "https://ardentindustries.net/contact-us/",
+          "usedFor": "Contact form structure and verification of contact details."
+        }
+      ],
+      "limitations": [
+        "Employee headcount is not stated on the pages read.",
+        "No owners, executives, or managers are named on the pages read.",
+        "Internal shop management, CAD/CAM, or accounting software cannot be observed from the public website."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "Ardent Industries Inc. is a precision sheet metal fabrication, CNC machining, powder coating, and welding manufacturer serving industrial clients (semiconductor, robotics, chemical processing, automotive aftermarket, etc.). It is outside ForgeX's target segment of owner-led HVAC, plumbing, and electrical home-service contractors."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://ardentindustries.net/",
+        "quote": "© 2026 Ardent Industries Inc. All rights reserved.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://ardentindustries.net/",
+        "quote": "1020 N. Franklin Blvd Suite 101 Nampa, ID 83687",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://ardentindustries.net/about-us/",
+        "quote": "Ardent Industries was established in California in 2014, relocating to Idaho in 2017.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://ardentindustries.net/",
+        "quote": "We specialize in precision sheet metal fabrication, CNC machining, powder coating, and welding services in Nampa, Idaho, and the surrounding Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://ardentindustries.net/",
+        "quote": "Ardent Industries provides top-notch metal fabrication solutions for a wide range of industries, including but not limited to semiconductor, robotics, chemical processing, home furnishings",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://ardentindustries.net/",
+        "quote": "As a locally owned and operated business, we understand the needs of the Treasure Valley community and strive to provide exceptional service",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://ardentindustries.net/",
+        "quote": "STORE",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://ardentindustries.net/contact-us/",
+        "quote": "I allow Ardent Industries to contact me with the details provided on this form.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://ardentindustries.net/",
+        "quote": "© 2026 Ardent Industries Inc. All rights reserved.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://ardentindustries.net/contact-us/",
+        "quote": "Your Name Your Phone Number Your Email Your Message",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://ardentindustries.net/",
+        "quote": "Small or large, simple or complex, low quantity or production quantities, our capabilities and skill set nets the high quality customers expect",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://ardentindustries.net/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 11,
+      "quotesFound": 11,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 6,
+      "hypotheses": 0,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://ardentindustries.net/",
+      "finalUrl": "https://ardentindustries.net/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:45:30.929Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 183517,
+      "truncated": false,
+      "sha256": "7a831b812e3b7b9a211df8bb28f2897d3dc880307014b95504f18cee032c9207",
+      "textSha256": "a9b6b989c00f126484fc9258fba26d7a9108883a8bec92e21a1985bc87f1d872",
+      "fromCache": false
+    },
+    {
+      "url": "https://ardentindustries.net/about-us/",
+      "finalUrl": "https://ardentindustries.net/about-us/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:45:36.972Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 158028,
+      "truncated": false,
+      "sha256": "a256b37ba4e29db0aadee15161f92c197e4052fa737077e312fd69ed91786151",
+      "textSha256": "60ba39634a6cf8ca31a9186ff0e19890e34723fa5dec4b00aa662cbdca3dedd3",
+      "fromCache": false
+    },
+    {
+      "url": "https://ardentindustries.net/contact-us/",
+      "finalUrl": "https://ardentindustries.net/contact-us/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T19:45:39.962Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 159542,
+      "truncated": false,
+      "sha256": "c6b8ebacda4888e47661b2954807e47a64f458d2655ed5c44c83487f42c2b275",
+      "textSha256": "d27715d0eb3c9780f74be02d54698bd6d1c87c91ea1a9a53878c6c2d5f45354a",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://ardentindustries.net/about-us/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://ardentindustries.net/contact-us/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 2,
+  "usage": {
+    "input": 24343,
+    "cachedInput": 9056,
+    "output": 2604,
+    "thinking": 451,
+    "toolUse": 0,
+    "total": 27398
+  },
+  "costUsd": 0.0620296,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1771991",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://ardentindustries.net/about-us/"
+      }
+    },
+    {
+      "id": "call_1771992",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://ardentindustries.net/contact-us/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Ardent Industries Inc.\",\n    \"location\": \"1020 N. Franklin Blvd Suite 101, Nampa, ID 83687\",\n    \"claims\": [\n      {\n        \"statement\": \"The company's legal name shown in the website copyright notice is Ardent Industries Inc.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": \"© 2026 Ardent Industries Inc. All rights reserved.\"\n      },\n      {\n        \"statement\": \"The business is located at 1020 N. Franklin Blvd Suite 101 Nampa, ID 83687.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": \"1020 N. Franklin Blvd Suite 101 Nampa, ID 83687\"\n      },\n      {\n        \"statement\": \"Ardent Industries was founded in California in 2014 and relocated to Idaho in 2017.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ardentindustries.net/about-us/\",\n        \"quote\": \"Ardent Industries was established in California in 2014, relocating to Idaho in 2017.\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Metal Fabrication and CNC Machining Manufacturing\",\n    \"activities\": [\n      \"Precision sheet metal fabrication (laser cutting, press brake, hardware)\",\n      \"CNC machining (milling and turning)\",\n      \"Powder coating\",\n      \"MIG and TIG welding\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Ardent Industries specializes in precision sheet metal fabrication, CNC machining, powder coating, and welding services.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": \"We specialize in precision sheet metal fabrication, CNC machining, powder coating, and welding services in Nampa, Idaho, and the surrounding Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The company manufactures metal components for industries including semiconductor, robotics, chemical processing, home furnishings, electronic components, and automotive aftermarket.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": \"Ardent Industries provides top-notch metal fabrication solutions for a wide range of industries, including but not limited to semiconductor, robotics, chemical processing, home furnishings\"\n      },\n      {\n        \"statement\": \"Ardent Industries is an industrial metal manufacturing and fabrication shop rather than a residential or commercial HVAC, plumbing, or electrical home-service contractor.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://ardentindustries.net/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company states it is a locally owned and operated business serving the Treasure Valley and out-of-state clients.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": \"As a locally owned and operated business, we understand the needs of the Treasure Valley community and strive to provide exceptional service\"\n      },\n      {\n        \"statement\": \"The website includes an online store navigation link pointing to a products section.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": \"STORE\"\n      },\n      {\n        \"statement\": \"The Contact Us page provides a web contact form along with phone and email contact details.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ardentindustries.net/contact-us/\",\n        \"quote\": \"I allow Ardent Industries to contact me with the details provided on this form.\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The website references corporate status through the name Ardent Industries Inc.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": \"© 2026 Ardent Industries Inc. All rights reserved.\"\n      }\n    ],\n    \"limitations\": \"No contractor license numbers, state registration numbers, or manufacturing certifications (such as ISO certifications) are stated on the pages read.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"wp-content / wp-includes scripts\",\n      \"purpose\": \"Website content management system scripts\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads scripts from wp-includes and wp-content paths on ardentindustries.net.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"WooCommerce plugin scripts\",\n      \"purpose\": \"E-commerce shopping cart and order attribution functionality on the website\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads scripts from wp-content/plugins/woocommerce/ on ardentindustries.net.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Elementor and Elementor Pro plugin scripts\",\n      \"purpose\": \"Website page building and layout rendering\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads scripts from wp-content/plugins/elementor/ and wp-content/plugins/elementor-pro/ on ardentindustries.net.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"facebook-for-woocommerce and connect.facebook.net\",\n      \"purpose\": \"Advertising and e-commerce pixel event tracking\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads scripts from wp-content/plugins/facebook-for-woocommerce/ and references connect.facebook.net.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"googletagmanager.com (gtag/js)\",\n      \"purpose\": \"Website analytics and tag management\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads a tag script from www.googletagmanager.com.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://ardentindustries.net/\",\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The Contact Us page uses a general inquiry form collecting name, phone number, email, and message rather than an automated RFQ or CAD upload system.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://ardentindustries.net/contact-us/\",\n      \"quote\": \"Your Name Your Phone Number Your Email Your Message\"\n    },\n    {\n      \"statement\": \"The company handles both low-quantity custom jobs and larger production runs across sheet metal, machining, welding, and powder coating.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://ardentindustries.net/\",\n      \"quote\": \"Small or large, simple or complex, low quantity or production quantities, our capabilities and skill set nets the high quality customers expect\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Incoming custom fabrication and machining quote requests submitted via email or the basic web form may require manual triage and follow-up.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The website displays a general email address ([redacted]) and a basic 4-field contact form without structured RFQ fields or file attachments.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Manufacturing ERP / Shop Management Software with RFQ Portals\",\n      \"addresses\": \"Job quoting, CAD file intake, shop floor routing, and order management for machine and fabrication shops.\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because Ardent Industries Inc. is a manufacturing and metal fabrication company outside ForgeX's target segment of home-service contractors.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended as the company is outside ForgeX's service segment.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Offering home-service contractor automation packages to a B2B precision machining and fabrication shop would misalign with their shop-floor ERP, CAD/CAM quoting, and industrial production workflows.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / President\",\n      \"General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://ardentindustries.net/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://ardentindustries.net/\",\n        \"usedFor\": \"Business identity, physical address, core manufacturing activities, industries served, contact email, and website scripts.\"\n      },\n      {\n        \"url\": \"https://ardentindustries.net/about-us/\",\n        \"usedFor\": \"Company founding history, relocation from California to Idaho, and regional service area.\"\n      },\n      {\n        \"url\": \"https://ardentindustries.net/contact-us/\",\n        \"usedFor\": \"Contact form structure and verification of contact details.\"\n      }\n    ],\n    \"limitations\": [\n      \"Employee headcount is not stated on the pages read.\",\n      \"No owners, executives, or managers are named on the pages read.\",\n      \"Internal shop management, CAD/CAM, or accounting software cannot be observed from the public website.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"Ardent Industries Inc. is a precision sheet metal fabrication, CNC machining, powder coating, and welding manufacturer serving industrial clients (semiconductor, robotics, chemical processing, automotive aftermarket, etc.). It is outside ForgeX's target segment of owner-led HVAC, plumbing, and electrical home-service contractors.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

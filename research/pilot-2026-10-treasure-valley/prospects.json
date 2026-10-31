@@ -1,0 +1,863 @@
+{
+  "pilot": {
+    "name": "Treasure Valley research pilot",
+    "researchedOn": "2026-10-26",
+    "region": "Boise / Treasure Valley, Idaho",
+    "mix": { "construction-home-services": 15, "manufacturing": 5, "technology": 5 },
+    "researcher": "Claude Code session acting for the owner. Research and drafts only: no business was contacted, no form was submitted to a business, nothing was sent.",
+    "labels": {
+      "observed": "Seen on a cited page or official record on the research date.",
+      "inferred": "Follows from observed facts; not stated by the business.",
+      "hypothesis": "A possible problem. Unconfirmed until the business confirms it or credible evidence establishes it."
+    },
+    "scoring": {
+      "fit": "0-3. 3 = owner-led firm in the core segment (HVAC, plumbing, electrical) that a list-priced offer fits; 2 = adjacent segment or size unclear; 1 = no ready offer or likely too small; 0 = poor fit.",
+      "evidence": "0-3. 3 = several observed signals of a lead-response or operations gap; 2 = one clear signal; 1 = weak or indirect signals; 0 = the problem looks solved.",
+      "reach": "0-3. 3 = named decision-maker plus a direct business email or phone; 2 = named decision-maker with a general channel, or a direct email without a name; 1 = general channel only; 0 = none.",
+      "score": "fit x evidence x reach, 0-27",
+      "priority": "Contact first >= 12; Second wave 6-11; Hold = fits a segment but evidence is weak; Discovery only = possible need, no offer yet; Skip = poor fit; Partner = better approached as a referral partner than as a customer."
+    },
+    "draftFooter": "Every draft ends with: [Your name] · [phone] · [ForgeX postal address] · Reply \"no thanks\" and I won't write again. (CAN-SPAM: postal address, clear identity, opt-out honored within 10 business days.)",
+    "sources": {
+      "dopl": "https://edopl.idaho.gov/OnlineServices/?link=PubSearch",
+      "servicetitanAgents": "https://www.servicetitan.com/blog/webinar-recap-ai-virtual-agents-call-booking",
+      "housecallproCsrAi": "https://www.housecallpro.com/features/ai-team/csr-ai/",
+      "jobberPricing": "https://www.getjobber.com/pricing/"
+    },
+    "notChecked": [
+      "Idaho Secretary of State entity records",
+      "Census County Business Patterns counts (the API now requires a key; signing up for one needs the owner)",
+      "Review sites, LinkedIn, Google Maps and job boards (excluded by policy)"
+    ]
+  },
+  "prospects": [
+    {
+      "id": "gem-heating",
+      "name": "Gem Heating & Air Conditioning",
+      "legalName": "GEM HEATING AND AIR CONDITIONING LLC",
+      "website": "https://www.gemheating.com/",
+      "group": "construction-home-services",
+      "industry": "HVAC",
+      "town": "Boise",
+      "verification": [
+        "DOPL: General Contractor Registration RCE-68074, active, expires 2027-10-19",
+        "DOPL: HVAC Contractor License 1981900, active, expires 2029-04-30"
+      ],
+      "evidence": [
+        { "label": "observed", "text": "Site says the company is owned by master technician [redacted]", "source": "https://www.gemheating.com/", "method": "page text" },
+        { "label": "observed", "text": "Claims 24/7 emergency support; another section limits emergency service to weekends and holidays", "source": "https://www.gemheating.com/", "method": "page text" },
+        { "label": "observed", "text": "\"Schedule Service\" buttons open the contact page; no booking tool on the page", "source": "https://www.gemheating.com/", "method": "page text" },
+        { "label": "observed", "text": "Google Ads conversion tag and Google Tag Manager in the page source", "source": "https://www.gemheating.com/", "method": "page source" },
+        { "label": "inferred", "text": "Probably pays for search ads", "source": "https://www.gemheating.com/", "method": "from the ads tag" }
+      ],
+      "hypotheses": [
+        "Calls from paid search are not tied to booked jobs (no call tracking detected)",
+        "After-hours calls depend on whoever carries the phone"
+      ],
+      "existingSoftware": "No field-service or call-tracking tool detected on the site. If after-hours answering is the gap, Jobber, Housecall Pro and ServiceTitan all sell AI answering; compare those before anything custom.",
+      "recommendation": "Revenue Leak Check; a pipeline only if the check finds a gap their tools can't close.",
+      "value": { "toForgeX": "$500; $3,588 in year one if the pipeline follows", "toCustomer": "Not estimable from public data; the Leak Check measures it." },
+      "risks": ["Needs call records from their phone provider", "No call tracking detected", "Texting needs carrier registration (A2P 10DLC)"],
+      "contact": { "phone": "[redacted] (call or text)", "email": "[redacted]", "form": "https://www.gemheating.com/contact/" },
+      "decisionMaker": { "role": "Owner", "name": "[redacted]", "nameSource": "https://www.gemheating.com/" },
+      "draft": {
+        "subject": "Calls from your Google ads",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. Your site has Google Ads tracking installed and sends \"Schedule Service\" to a contact page, so I'm guessing most new customers call you. That setup can make it hard to know which paid calls turned into jobs and which were missed. For a flat $500 I'll measure your recent calls and requests, show what was missed or answered late, and tell you whether the tools you already have can close the gap. If nothing's leaking, I'll say so. Worth 15 minutes next week?"
+      },
+      "questions": [
+        "What happens to a call when nobody can pick up: voicemail, an answering service, or someone's cell?",
+        "Roughly how many new-customer calls and requests come in a month, and from where?",
+        "How do you know which ad calls became jobs?",
+        "What is an average booked job worth to you?"
+      ],
+      "score": { "fit": 3, "evidence": 2, "reach": 3, "total": 18, "priority": "Contact first", "why": "Core segment, owner named, paid-search tag and no booking path." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "da-heating",
+      "name": "D & A Heating and Cooling",
+      "legalName": null,
+      "website": "https://www.dahvac.com/",
+      "group": "construction-home-services",
+      "industry": "HVAC",
+      "town": "Nampa",
+      "verification": ["DOPL: no exact match under the trade name in two searches; legal name not shown on the site"],
+      "evidence": [
+        { "label": "observed", "text": "549 W Locust Ln, Nampa; serving the Treasure Valley since 2004", "source": "https://www.dahvac.com/", "method": "page text" },
+        { "label": "observed", "text": "\"24/7 emergency HVAC service\" and \"Same-day scheduling available on most calls, plus weekend appointments\"", "source": "https://www.dahvac.com/", "method": "page text" },
+        { "label": "observed", "text": "\"Book Now\" scheduler page and a contact form", "source": "https://www.dahvac.com/", "method": "page text" },
+        { "label": "observed", "text": "The texting consent on the form links to Scorpion's acceptable use policy", "source": "https://www.dahvac.com/", "method": "page text" },
+        { "label": "inferred", "text": "Marketing runs on Scorpion, an agency platform, so they likely pay for leads", "source": "https://www.dahvac.com/", "method": "from the consent link" }
+      ],
+      "hypotheses": [
+        "Agency reporting stops at leads, not booked jobs or cost per booked job",
+        "Speed of after-hours answering is unknown under a 24/7 promise"
+      ],
+      "existingSoftware": "Scorpion marketing platform (features unknown); field-service software unknown. The site blocked the page-source scan.",
+      "recommendation": "Revenue Leak Check; then Owner's Monday numbers if cost per booked job isn't visible to them.",
+      "value": { "toForgeX": "$500; $2,388 to $3,588 in year one if a monthly service follows", "toCustomer": "Not estimable from public data." },
+      "risks": ["Agency may control call tracking and reports", "Needs call and booking records"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://www.dahvac.com/contact-us/" },
+      "decisionMaker": { "role": "Owner and President", "name": "[redacted]", "nameSource": "https://www.dahvac.com/about-us/" },
+      "draft": {
+        "subject": "Your 24/7 promise",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. Your site promises 24/7 emergency service and same-day scheduling, so a missed call can become another company's job. For a flat $500 I'll measure how your recent calls and online requests were handled (answered, missed or slow) and what that's likely worth in booked work. If your setup is already catching everything, I'll tell you. Could we talk for 15 minutes next week?"
+      },
+      "questions": [
+        "Who answers after hours today, and how fast?",
+        "Does your agency report booked jobs and cost per booked job, or only leads?",
+        "Roughly how many new-customer calls a month, and from where?",
+        "What is an average booked job worth to you?"
+      ],
+      "score": { "fit": 3, "evidence": 2, "reach": 2, "total": 12, "priority": "Contact first", "why": "Core segment, owner named, agency-run marketing under a 24/7 promise." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "cornerstone-comfort",
+      "name": "Cornerstone Comfort",
+      "legalName": "Licensed as [redacted], DBA CORNERSTONE COMFORT",
+      "website": "https://www.cornerstonecomfort.net/",
+      "group": "construction-home-services",
+      "industry": "HVAC and water",
+      "town": "Nampa",
+      "verification": ["DOPL: HVAC Contractor License 051546, holder [redacted], DBA Cornerstone Comfort, active, expires 2027-02-28. The record carries a discipline flag (details not reviewed; not for outreach)."],
+      "evidence": [
+        { "label": "observed", "text": "Owned by husband-and-wife team [redacted]; founded 2011 as Izzy's Service", "source": "https://www.cornerstonecomfort.net/", "method": "page text" },
+        { "label": "observed", "text": "\"Schedule Now\" books through Housecall Pro", "source": "https://www.cornerstonecomfort.net/", "method": "page text" },
+        { "label": "observed", "text": "The page shows [redacted], but all three email links open a message to [redacted]", "source": "https://www.cornerstonecomfort.net/", "method": "browser check" },
+        { "label": "observed", "text": "The browser tab title still reads \"Izzy's Service\"", "source": "https://www.cornerstonecomfort.net/", "method": "browser check" },
+        { "label": "observed", "text": "No after-hours or 24/7 claim", "source": "https://www.cornerstonecomfort.net/", "method": "page text" }
+      ],
+      "hypotheses": [
+        "Messages sent through the email links reach an old inbox nobody checks",
+        "After-hours calls go unanswered"
+      ],
+      "existingSoftware": "Housecall Pro. Its CSR AI add-on answers and books calls 24/7, so configure that before anything custom.",
+      "recommendation": "Revenue Leak Check focused on email and call handling; set up Housecall Pro's own tools if after-hours is the gap.",
+      "value": { "toForgeX": "$500; setup work is likely small", "toCustomer": "Not estimable from public data." },
+      "risks": ["Housecall Pro data access may depend on their plan (unverified)"],
+      "contact": { "phone": "[redacted]", "email": "[redacted] (links point to [redacted])", "form": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort" },
+      "decisionMaker": { "role": "Owners", "name": "[redacted]", "nameSource": "https://www.cornerstonecomfort.net/ and the DOPL license record" },
+      "draft": {
+        "subject": "Your website's email link",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. A quick heads-up: your site shows [redacted], but clicking it opens a message to [redacted], the old Izzy's Service address. If nobody checks that inbox, some requests may be waiting there. I help home-service owners find gaps like that across calls and web requests. Since you already use Housecall Pro, the fix is often a setting, not new software. Happy to walk through what I'd check in 15 minutes."
+      },
+      "questions": [
+        "Is the yzzysservice.com inbox still checked?",
+        "What happens to calls after hours today?",
+        "Have you looked at Housecall Pro's CSR AI? What held you back?",
+        "Roughly how many new-customer requests a month, and from where?"
+      ],
+      "score": { "fit": 3, "evidence": 2, "reach": 3, "total": 18, "priority": "Contact first", "why": "Core segment, owners named, a verified email-routing gap, existing platform to configure." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "plumbing-solutions",
+      "name": "Plumbing Solutions of Idaho",
+      "legalName": null,
+      "website": "https://plumbingsolutionsofidaho.com/",
+      "group": "construction-home-services",
+      "industry": "Plumbing",
+      "town": "Meridian",
+      "verification": ["DOPL: Plumbing Contractor License PLB-C-12709, holder [redacted], active, expires 2029-08-31"],
+      "evidence": [
+        { "label": "observed", "text": "\"Open 24/7\"; \"Book Now\" opens their own scheduling page; dispatch@ email", "source": "https://plumbingsolutionsofidaho.com/", "method": "page text" },
+        { "label": "observed", "text": "\"4.9 Stars | 1000+ Google Reviews\"; Meridian Chamber 2024 Business of the Year; careers page", "source": "https://plumbingsolutionsofidaho.com/", "method": "page text" },
+        { "label": "observed", "text": "ServiceTitan and a Meta Pixel in the page source", "source": "https://plumbingsolutionsofidaho.com/", "method": "page source" },
+        { "label": "inferred", "text": "An established operation with dispatch staff", "source": "https://plumbingsolutionsofidaho.com/", "method": "from the dispatch inbox and awards" }
+      ],
+      "hypotheses": ["Owner-level reporting across lead sources may be missing (weak)"],
+      "existingSoftware": "ServiceTitan, whose AI virtual agents handle overflow and after-hours calls, plus its own reporting.",
+      "recommendation": "Hold. If contacted, offer Owner's Monday numbers only if ServiceTitan reports don't already give cost per booked job.",
+      "value": { "toForgeX": "$1,200 plus $99 a month if Monday numbers fits", "toCustomer": "Not estimable from public data." },
+      "risks": ["ServiceTitan integrations may need vendor approval (unverified)"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://plumbingsolutionsofidaho.com/contact-us/" },
+      "decisionMaker": { "role": "Not stated on the site", "name": "[redacted]", "nameSource": "DOPL license record" },
+      "draft": {
+        "subject": "One page every Monday",
+        "body": "Hello, I'm [Your name] with ForgeX. You clearly run a busy shop. Some owners still want one plain page each Monday: calls, booked jobs, close rate and cost per booked job by source, without logging in to anything. I set that up for a fixed fee from the systems you already use. If your current reports already do this, no need to reply. If not, would a short call be useful?"
+      },
+      "questions": [
+        "Which numbers do you look at every week, and where do they come from?",
+        "Do you know cost per booked job by lead source today?",
+        "Have you tried ServiceTitan's AI virtual agents?"
+      ],
+      "score": { "fit": 2, "evidence": 1, "reach": 2, "total": 4, "priority": "Hold", "why": "Mature operation on ServiceTitan; no observable gap." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "crossflow-plumbing",
+      "name": "Crossflow Plumbing LLC",
+      "legalName": "CROSSFLOW PLUMBING LLC",
+      "website": "https://crossflowplumbingllc.com/",
+      "group": "construction-home-services",
+      "industry": "Plumbing",
+      "town": "Eagle",
+      "verification": ["DOPL: Plumbing Contractor License 5071088, active, expires 2028-09-30"],
+      "evidence": [
+        { "label": "observed", "text": "\"[redacted], Owner\"; \"Owner & Operator\"", "source": "https://crossflowplumbingllc.com/", "method": "page text" },
+        { "label": "observed", "text": "\"24/7 emergency response\" and \"typically respond within 1-2 hours\"", "source": "https://crossflowplumbingllc.com/", "method": "page text" },
+        { "label": "observed", "text": "Housecall Pro in the page source; online request form", "source": "https://crossflowplumbingllc.com/", "method": "page source" },
+        { "label": "inferred", "text": "Probably under 10 staff", "source": "https://crossflowplumbingllc.com/", "method": "from \"Owner & Operator\"" }
+      ],
+      "hypotheses": ["An owner-operator answering 24/7 misses calls while on jobs"],
+      "existingSoftware": "Housecall Pro. Its CSR AI add-on is the honest first recommendation.",
+      "recommendation": "Hold. Advise trying Housecall Pro's CSR AI before paying ForgeX.",
+      "value": { "toForgeX": "$500 at most", "toCustomer": "Not estimable from public data." },
+      "risks": ["Likely too small for a monthly service"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://crossflowplumbingllc.com/contact/" },
+      "decisionMaker": { "role": "Owner", "name": "[redacted]", "nameSource": "https://crossflowplumbingllc.com/" },
+      "draft": {
+        "subject": "Covering calls while you're on a job",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. Your site promises 24/7 service and a one-to-two-hour emergency response. That's a lot to carry while you're on a job. Since your site uses Housecall Pro, its CSR AI add-on can answer and book calls when you can't; it's worth trying before paying anyone else, including me. If you'd rather know first how many calls you miss, I can measure it for a flat $500. Glad to help either way."
+      },
+      "questions": [
+        "How many calls do you think you miss in a typical week?",
+        "Have you looked at Housecall Pro's CSR AI?",
+        "Who covers the phone when you're on a job?"
+      ],
+      "score": { "fit": 1, "evidence": 2, "reach": 2, "total": 4, "priority": "Hold", "why": "Clear signal but likely too small; their own platform covers the fix." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "running-water-plumbing",
+      "name": "Running Water Plumbing",
+      "legalName": "Licensed as [redacted], DBA RUNNING WATER PLUMBING",
+      "website": "https://runningwaterplumbingidaho.com/",
+      "group": "construction-home-services",
+      "industry": "Plumbing",
+      "town": "Meridian",
+      "verification": ["DOPL: Plumbing Contractor License 074478, holder [redacted], active, expires 2027-05-31"],
+      "evidence": [
+        { "label": "observed", "text": "\"Licensed 24/7 Plumber in Meridian\"; \"Emergency Service, Anytime\"", "source": "https://runningwaterplumbingidaho.com/", "method": "page text" },
+        { "label": "observed", "text": "\"BOOK ONLINE\" goes to a Jobber client hub", "source": "https://runningwaterplumbingidaho.com/", "method": "page text" },
+        { "label": "observed", "text": "WhatConverts lead tracking in the page source; email [redacted] in the page source", "source": "https://runningwaterplumbingidaho.com/", "method": "page source" },
+        { "label": "inferred", "text": "Lead data already exists, so a Leak Check can be quick", "source": "https://runningwaterplumbingidaho.com/", "method": "from the tracking tool" }
+      ],
+      "hypotheses": ["After-hours calls under a 24/7 promise go unanswered or wait"],
+      "existingSoftware": "Jobber (online booking; Jobber sells an AI receptionist add-on for $29 a month) and WhatConverts (lead tracking).",
+      "recommendation": "Revenue Leak Check from their WhatConverts and Jobber data; if after-hours is the gap, Jobber's AI receptionist first.",
+      "value": { "toForgeX": "$500; more only if a gap remains after their own tools", "toCustomer": "Not estimable from public data." },
+      "risks": ["Needs read access to WhatConverts and Jobber reports"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://runningwaterplumbingidaho.com/contact/" },
+      "decisionMaker": { "role": "Plumbing license holder; likely owner (title unconfirmed)", "name": "[redacted]", "nameSource": "DOPL license record" },
+      "draft": {
+        "subject": "Your lead data",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. Your site books through Jobber and tracks leads with WhatConverts, so you already have the data most plumbers don't. For a flat $500 I'll turn the last 60 days into one page: how many calls and requests came in after hours or went unanswered, how fast they got a reply, and what that's likely worth. If Jobber's own AI receptionist would fix the gap, I'll tell you. 15 minutes next week?"
+      },
+      "questions": [
+        "What happens to a 9 pm call today?",
+        "Do you look at the WhatConverts reports, or does someone else?",
+        "Have you tried Jobber's AI receptionist?",
+        "What is an average booked job worth to you?"
+      ],
+      "score": { "fit": 2, "evidence": 2, "reach": 3, "total": 12, "priority": "Contact first", "why": "24/7 promise, data already collected, direct email to a named license holder." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "crofts-electric",
+      "name": "Crofts Electric",
+      "legalName": "RC ELECTRIC DBA CROFTS ELECTRIC (license holder [redacted])",
+      "website": "https://www.croftselectricboise.com/",
+      "group": "construction-home-services",
+      "industry": "Electrical",
+      "town": "Boise",
+      "verification": ["DOPL: Electrical Contractor License 061542, holder [redacted], RC Electric DBA Crofts Electric, active, expires 2026-11-30"],
+      "evidence": [
+        { "label": "observed", "text": "\"Available Monday–Friday, 8am–4:30pm\"; no 24/7 or after-hours statement", "source": "https://www.croftselectricboise.com/", "method": "page text" },
+        { "label": "observed", "text": "No booking tool; free estimates through the contact page", "source": "https://www.croftselectricboise.com/", "method": "page text" },
+        { "label": "observed", "text": "\"a licensed, family-owned electrician\" with \"over 16 years of service\"", "source": "https://www.croftselectricboise.com/", "method": "page text" }
+      ],
+      "hypotheses": [
+        "Evening and weekend calls go unanswered",
+        "Homeowners who can't reach them call the next electrician"
+      ],
+      "existingSoftware": "None detected (Squarespace site).",
+      "recommendation": "Revenue Leak Check, then the Lead-to-job pipeline (missed-call text-back, after-hours requests) if the check shows the gap.",
+      "value": { "toForgeX": "$500; $3,588 in year one with the pipeline", "toCustomer": "Not estimable from public data." },
+      "risks": ["Phone setup unknown; text-back needs number forwarding or porting and carrier registration (A2P 10DLC)"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate" },
+      "decisionMaker": { "role": "Electrical contractor license holder; site says family-owned (title unconfirmed)", "name": "[redacted]", "nameSource": "DOPL license record" },
+      "draft": {
+        "subject": "Calls after 4:30",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. Your site lists Monday to Friday, 8 to 4:30, and I didn't see a way to request service after hours. A homeowner with a problem at 6 pm may call the next electrician on the list. For a flat $500 I'll measure how many calls and requests arrive outside your hours, how many are missed, and the cheapest way to catch them. If it isn't worth fixing, I'll say so. Open to a 15-minute call?"
+      },
+      "questions": [
+        "What happens to calls after 4:30 and on weekends?",
+        "Roughly how many new-customer calls a month?",
+        "Do you use any scheduling or field-service software?",
+        "What is an average service call worth to you?"
+      ],
+      "score": { "fit": 3, "evidence": 3, "reach": 2, "total": 18, "priority": "Contact first", "why": "Business-hours phone, no booking, no after-hours path; owner identified by license." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "amp-electric",
+      "name": "AMP Electric",
+      "legalName": "Licensed as [redacted], DBA AMP ELECTRIC",
+      "website": "https://amp240v.com/",
+      "group": "construction-home-services",
+      "industry": "Electrical",
+      "town": "Nampa",
+      "verification": ["DOPL: Electrical Contractor License ELE-C-27024, holder [redacted], DBA AMP Electric, active, expires 2027-08-31. The record carries a discipline flag (details not reviewed; not for outreach)."],
+      "evidence": [
+        { "label": "observed", "text": "Owner [redacted]; General Manager [redacted]; since 1996; 2328 W. Hemingway Blvd, Nampa", "source": "https://amp240v.com/", "method": "page text" },
+        { "label": "observed", "text": "\"24/7 emergency services\"; online booking; \"$89 for a 30-minute consultation\"", "source": "https://amp240v.com/", "method": "page text" },
+        { "label": "observed", "text": "LeadConnector (GoHighLevel) platform and Synchrony financing in the page source", "source": "https://amp240v.com/", "method": "page source" }
+      ],
+      "hypotheses": ["The CRM's text-back and follow-up automations are not all switched on (weak)"],
+      "existingSoftware": "LeadConnector (GoHighLevel), a marketing CRM that can text back missed calls and run follow-ups.",
+      "recommendation": "Second wave. A Leak Check focused on what their current platform does with missed calls and requests; no new software.",
+      "value": { "toForgeX": "$500", "toCustomer": "Not estimable from public data." },
+      "risks": ["An agency may manage the platform"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://amp240v.com/contact-us" },
+      "decisionMaker": { "role": "Owner", "name": "[redacted]", "nameSource": "https://amp240v.com/ and the DOPL license record" },
+      "draft": {
+        "subject": "Getting more from the system you have",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. Your site runs on LeadConnector and offers online booking and 24/7 emergency service. Platforms like that can text back missed calls and follow up automatically, but those features have to be switched on and tested. For a flat $500 I'll check what actually happens to your calls and requests today and what your current system could do, without selling you new software. Worth 15 minutes?"
+      },
+      "questions": [
+        "Who set up your LeadConnector account, and what does it do today?",
+        "Do missed calls get an automatic text back?",
+        "How many new-customer calls a month?"
+      ],
+      "score": { "fit": 3, "evidence": 1, "reach": 2, "total": 6, "priority": "Second wave", "why": "Core segment, but tools already in place; no observed gap." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "walker-electric",
+      "name": "Walker Electric LLC",
+      "legalName": "WALKER ELECTRIC LLC",
+      "website": "https://walkerelectricidaho.com/",
+      "group": "construction-home-services",
+      "industry": "Electrical",
+      "town": "Treasure Valley (no street address published)",
+      "verification": ["DOPL: Electrical Contractor License 072669, active, expires 2027-01-31"],
+      "evidence": [
+        { "label": "observed", "text": "Hours \"Monday-Friday: 7:00 AM-5:00 PM\", \"Saturday-Sunday: Closed\"", "source": "https://walkerelectricidaho.com/", "method": "page text" },
+        { "label": "observed", "text": "Estimates by phone or the contact page; no booking tool", "source": "https://walkerelectricidaho.com/", "method": "page text" },
+        { "label": "observed", "text": "Email [redacted]; \"locally owned and operated\"", "source": "https://walkerelectricidaho.com/", "method": "page text" }
+      ],
+      "hypotheses": ["Weekend and evening calls wait until Monday"],
+      "existingSoftware": "None detected.",
+      "recommendation": "Revenue Leak Check, then the pipeline if volume justifies it.",
+      "value": { "toForgeX": "$500; $3,588 in year one with the pipeline", "toCustomer": "Not estimable from public data." },
+      "risks": ["Size unknown; may be small"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://walkerelectricidaho.com/contact/" },
+      "decisionMaker": { "role": "Likely the owner (title not stated)", "name": null, "nameSource": "\"[redacted]\" appears in the company email and a review; role not confirmed" },
+      "draft": {
+        "subject": "Weekend calls",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. Your site lists weekday hours, closed weekends, and estimates by phone or the contact page. That can leave Saturday calls and evening requests waiting until Monday. For a flat $500 I'll measure how many calls and requests come in while you're closed, how many are missed, and what they're likely worth, then suggest the simplest fix. Interested in a 15-minute call?"
+      },
+      "questions": [
+        "What happens to weekend calls today?",
+        "How many new-customer calls a month?",
+        "Do you use any scheduling software?"
+      ],
+      "score": { "fit": 2, "evidence": 3, "reach": 2, "total": 12, "priority": "Contact first", "why": "Closed weekends and no booking path; direct email." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "nw-roof-restoration",
+      "name": "Northwest Roof Restoration, LLC",
+      "legalName": "NORTHWEST ROOF RESTORATION, LLC",
+      "website": "https://nwroof.net/",
+      "group": "construction-home-services",
+      "industry": "Roofing",
+      "town": "Meridian (also Post Falls)",
+      "verification": [
+        "DOPL: General Contractor Registration RCE-11711, active, expires 2028-01-24",
+        "DOPL: Public Works Contractor Class AA License PWC-C-16296, active, expires 2027-07-31"
+      ],
+      "evidence": [
+        { "label": "observed", "text": "Since 2000; \"under the same ownership since 2003\"; same-day emergency repairs; estimate form", "source": "https://nwroof.net/", "method": "page text" },
+        { "label": "observed", "text": "Tawk.to live chat in the page source", "source": "https://nwroof.net/", "method": "page source" },
+        { "label": "inferred", "text": "The Class AA public-works license suggests large commercial work, where ForgeX's residential offers matter less", "source": "DOPL", "method": "from the license class" }
+      ],
+      "hypotheses": ["Live chat goes unanswered outside office hours"],
+      "existingSoftware": "Tawk.to live chat.",
+      "recommendation": "Hold.",
+      "value": { "toForgeX": "$500", "toCustomer": "Not estimable from public data." },
+      "risks": ["Commercial focus"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://nwroof.net/contact-us" },
+      "decisionMaker": { "role": "Owner (not named)", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "Chats and calls after hours",
+        "body": "Hello, I'm [Your name] with ForgeX. Your site offers live chat, an estimate form and same-day emergency repairs. I help contractors check what happens to chats, calls and forms after hours, and how fast each gets an answer. For a flat $500 I'll measure it and show you any gaps. Would a short call make sense?"
+      },
+      "questions": ["Who answers the website chat, and when?", "What share of your work is residential?"],
+      "score": { "fit": 2, "evidence": 1, "reach": 2, "total": 4, "priority": "Hold", "why": "Weak evidence and a commercial tilt." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "idaho-roofing",
+      "name": "Idaho Roofing Contractors",
+      "legalName": "IDAHO ROOFING CONTRACTORS INC",
+      "website": "https://www.idahoroofingcontractors.com/",
+      "group": "construction-home-services",
+      "industry": "Roofing",
+      "town": "Meridian",
+      "verification": [
+        "DOPL: General Contractor Registration RCE-5471, active, expires 2028-01-04",
+        "DOPL: Public Works Contractor Class B License 047426, active, expires 2027-01-31"
+      ],
+      "evidence": [
+        { "label": "observed", "text": "\"Over 940 reviews With A 4.9 Average\"; free-inspection promotion; form asks consent to text", "source": "https://www.idahoroofingcontractors.com/", "method": "page text" },
+        { "label": "observed", "text": "Meta Pixel and Trustindex in the page source", "source": "https://www.idahoroofingcontractors.com/", "method": "page source" },
+        { "label": "inferred", "text": "An established, marketing-active firm", "source": "https://www.idahoroofingcontractors.com/", "method": "from reviews, promotions and badges" }
+      ],
+      "hypotheses": ["Time from inspection request to first call varies (weak)"],
+      "existingSoftware": "Texting to leads (vendor unknown).",
+      "recommendation": "Hold.",
+      "value": { "toForgeX": "$500 to $2,388", "toCustomer": "Not estimable from public data." },
+      "risks": ["No named contact"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://www.idahoroofingcontractors.com/contact-us/" },
+      "decisionMaker": { "role": "Not named (leadership listed without names)", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "From inspection request to first call",
+        "body": "Hello, I'm [Your name] with ForgeX. With 940-plus reviews and a free-inspection offer, you likely get a steady flow of requests. I measure how quickly each request gets a first call and how many turn into booked inspections, by source. If that would be useful, a 15-minute call would show whether it's worth a closer look."
+      },
+      "questions": ["How fast does a new inspection request get a call today?", "Do you know booked inspections by source?"],
+      "score": { "fit": 2, "evidence": 1, "reach": 1, "total": 2, "priority": "Hold", "why": "Looks well run; no named contact." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "kings-roofing",
+      "name": "Kings Roofing & Contracting LLC",
+      "legalName": "KINGS ROOFING & CONTRACTING LLC",
+      "website": "https://www.kingsroofingandcontracting.com/",
+      "group": "construction-home-services",
+      "industry": "Roofing",
+      "town": "Boise",
+      "verification": ["DOPL: General Contractor Registration RCE-66571, active, expires 2027-06-05"],
+      "evidence": [
+        { "label": "observed", "text": "\"We answer calls around the clock and respond to roof emergencies within 60 minutes\"; listed as open 24 hours", "source": "https://www.kingsroofingandcontracting.com/", "method": "page text" },
+        { "label": "observed", "text": "Business email is a Gmail address; free quote form", "source": "https://www.kingsroofingandcontracting.com/", "method": "page text" },
+        { "label": "observed", "text": "Image caption names \"owner [redacted]\"", "source": "https://www.kingsroofingandcontracting.com/", "method": "page text" },
+        { "label": "inferred", "text": "A small team", "source": "https://www.kingsroofingandcontracting.com/", "method": "from the Gmail address" }
+      ],
+      "hypotheses": ["A round-the-clock, 60-minute promise slips at night or in storms"],
+      "existingSoftware": "None detected.",
+      "recommendation": "Revenue Leak Check, then the pipeline.",
+      "value": { "toForgeX": "$500; $3,588 in year one with the pipeline", "toCustomer": "Not estimable from public data." },
+      "risks": ["Storm-driven volume makes the measurement window matter"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://www.kingsroofingandcontracting.com/free-roof-quote/" },
+      "decisionMaker": { "role": "Owner", "name": "[redacted]", "nameSource": "https://www.kingsroofingandcontracting.com/ (image caption)" },
+      "draft": {
+        "subject": "Your 60-minute promise",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. Your site promises to answer calls around the clock and reach roof emergencies within 60 minutes. That's a strong promise, and a hard one to keep every night. For a flat $500 I'll measure how your recent calls and quote requests were actually handled, so you know where the promise holds and where it slips. 15 minutes next week?"
+      },
+      "questions": [
+        "Who answers at 2 am today?",
+        "How many quote requests a month, and from where?",
+        "What is an average roof job worth to you?"
+      ],
+      "score": { "fit": 2, "evidence": 2, "reach": 3, "total": 12, "priority": "Contact first", "why": "A specific public promise to test; owner named; direct email." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "boise-remodeling",
+      "name": "Boise Remodeling Co.",
+      "legalName": "Registered as EASY HOME CONSTRUCTION, LLC, DBA P5 HOME CO. LLC",
+      "website": "https://boiseremodeling.co/",
+      "group": "construction-home-services",
+      "industry": "Remodeling",
+      "town": "Meridian",
+      "verification": ["DOPL: General Contractor Registration 8381215, registrant Easy Home Construction, LLC, DBA P5 Home Co. LLC, active, expires 2028-05-27. The site calls Boise Remodeling Co. a DBA of P5 Home Co LLC."],
+      "evidence": [
+        { "label": "observed", "text": "\"We reply in minutes during business hours\"; \"We follow up within one business day\"; call and text links; a cost calculator", "source": "https://boiseremodeling.co/", "method": "page text" },
+        { "label": "observed", "text": "Google Ads tag, Meta Pixel and GreenSky financing in the page source", "source": "https://boiseremodeling.co/", "method": "page source" },
+        { "label": "observed", "text": "Sister sites for handyman, construction and cabinet work; \"Public representative: [redacted]\"", "source": "https://boiseremodeling.co/", "method": "page text" }
+      ],
+      "hypotheses": ["Reporting across several brands is hard (weak)"],
+      "existingSoftware": "Ad tracking; CRM unknown.",
+      "recommendation": "Hold. Lead response already looks like a strength.",
+      "value": { "toForgeX": "$1,200 plus $99 a month if Monday numbers fits", "toCustomer": "Not estimable from public data." },
+      "risks": ["Several legal and brand names"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://boiseremodeling.co/contact" },
+      "decisionMaker": { "role": "Public representative (ownership not stated)", "name": "[redacted]", "nameSource": "https://boiseremodeling.co/" },
+      "draft": {
+        "subject": "One page across your brands",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. You run several brands and advertise, and your site promises replies within minutes. Some owners want one page each Monday showing requests, visits booked and cost per booked visit across brands. If that isn't already easy for you, I set it up for a fixed fee. Worth a short call?"
+      },
+      "questions": ["How do you see results across your brands today?", "Do you know cost per booked visit by source?"],
+      "score": { "fit": 2, "evidence": 1, "reach": 2, "total": 4, "priority": "Hold", "why": "Problem looks solved; marketing-led operation." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "north-star-kitchen-bath",
+      "name": "North Star Kitchen and Bath Remodels",
+      "legalName": null,
+      "website": "https://northstarkitchenandbath.com/",
+      "group": "construction-home-services",
+      "industry": "Remodeling",
+      "town": "Boise",
+      "verification": ["DOPL: no registration found under \"North Star Kitchen\" or \"North Star Remodel\"; legal name not shown on the site"],
+      "evidence": [
+        { "label": "observed", "text": "One \"Call Now\" button reads [redacted]; its tap-to-call link dials the correct [redacted]", "source": "https://northstarkitchenandbath.com/", "method": "browser check" },
+        { "label": "observed", "text": "Quote buttons scroll to a section of the page; the email address is hidden behind a link; hours Monday to Friday, 7 to 6", "source": "https://northstarkitchenandbath.com/", "method": "page text" },
+        { "label": "observed", "text": "\"family-run company\"; footer copyright 2024", "source": "https://northstarkitchenandbath.com/", "method": "page text" }
+      ],
+      "hypotheses": ["None strong; the typo only affects people who type the number in"],
+      "existingSoftware": "None detected; the site blocked the page-source scan.",
+      "recommendation": "Hold. If calling, mention the typo as a courtesy.",
+      "value": { "toForgeX": "$500", "toCustomer": "Not estimable from public data." },
+      "risks": ["Contractor registration not confirmed"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://northstarkitchenandbath.com/contact/" },
+      "decisionMaker": { "role": "Owner (not named)", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "A typo on your site",
+        "body": "Hello, I'm [Your name] with ForgeX. A small heads-up: one \"Call Now\" button on your homepage reads [redacted]. Tapping it still dials correctly, but anyone typing the number in would miss you. I help remodelers find gaps like this across calls and web requests. Happy to share anything else I notice. Would a short call be useful?"
+      },
+      "questions": ["How do most new clients reach you?", "How fast does a new inquiry get a reply?"],
+      "score": { "fit": 2, "evidence": 1, "reach": 1, "total": 2, "priority": "Hold", "why": "Minor verified issue; no named contact; registration unconfirmed." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "keeley-builders",
+      "name": "Keeley Builders",
+      "legalName": null,
+      "website": "https://www.keeleybuilders.com/",
+      "group": "construction-home-services",
+      "industry": "Remodeling and handyman",
+      "town": "Treasure Valley (no street address published)",
+      "verification": ["DOPL: no registration found under \"Keeley Builders\"; a surname search was inconclusive"],
+      "evidence": [
+        { "label": "observed", "text": "\"[redacted], owner of Keeley Builders\"; \"a small, local business\"", "source": "https://www.keeleybuilders.com/", "method": "page text" },
+        { "label": "observed", "text": "Contact by phone or the contact page", "source": "https://www.keeleybuilders.com/", "method": "page text" }
+      ],
+      "hypotheses": ["Calls are missed while the owner is on job sites"],
+      "existingSoftware": "None detected.",
+      "recommendation": "Skip. Likely too small for the offers.",
+      "value": { "toForgeX": "Unlikely to buy", "toCustomer": "Not estimable from public data." },
+      "risks": ["Size", "Registration unconfirmed"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://www.keeleybuilders.com/contact-us" },
+      "decisionMaker": { "role": "Owner", "name": "[redacted]", "nameSource": "https://www.keeleybuilders.com/" },
+      "draft": {
+        "subject": "Calls while you're on a job site",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. As a small business, you're likely on job sites when new customers call. I help contractors measure how many calls and requests go unanswered and the cheapest way to catch them, often with tools they already have. If that's ever useful, I'm happy to talk."
+      },
+      "questions": ["How many calls do you miss in a typical week?"],
+      "score": { "fit": 1, "evidence": 1, "reach": 2, "total": 2, "priority": "Skip", "why": "Too small for a paid offer." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "creations-unlimited",
+      "name": "Creations Unlimited",
+      "legalName": null,
+      "website": "https://www.creationsultd.com/",
+      "group": "manufacturing",
+      "industry": "5-axis CNC machining",
+      "town": "Nampa",
+      "verification": ["Company site: 175 Shannon Dr, Nampa. No state license applies; Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "Serves hi-tech, medical, space and aerospace; 18,000 sq ft temperature-controlled plant", "source": "https://www.creationsultd.com/about", "method": "page text" },
+        { "label": "observed", "text": "\"Request for Quote\" goes to the contact page; no file upload or turnaround claim", "source": "https://www.creationsultd.com/about", "method": "page text" },
+        { "label": "observed", "text": "Uses \"Paperless ERP\" (vendor unnamed) and Siemens NX CAD/CAM; footer copyright 2019", "source": "https://www.creationsultd.com/about", "method": "page text" },
+        { "label": "observed", "text": "Established by [redacted] in 1989 in California; moved to Nampa in 2021; sons [redacted] joined", "source": "https://www.creationsultd.com/about", "method": "page text" }
+      ],
+      "hypotheses": [
+        "Quote requests arrive by email with drawings, and quoting depends on a few people",
+        "Some aerospace or medical drawings may be export-controlled (a delivery risk to check first)"
+      ],
+      "existingSoftware": "An ERP (unnamed) and CAD/CAM; quoting may already live in the ERP.",
+      "recommendation": "Discovery conversation only; no ForgeX offer fits yet.",
+      "value": { "toForgeX": "None defined yet", "toCustomer": "Not estimable; would need quote volume, win rate and average order." },
+      "risks": ["Controlled technical data (ITAR) would rule out most AI handling", "ERP integration unknown"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://www.creationsultd.com/contact" },
+      "decisionMaker": { "role": "Founder; family members (titles not stated)", "name": "[redacted] (founder); [redacted]", "nameSource": "https://www.creationsultd.com/about" },
+      "draft": {
+        "subject": "How you handle RFQs",
+        "body": "Hi [redacted], I'm [Your name] with ForgeX. I'm talking with Treasure Valley machine shops about how requests for quotation arrive and how long quotes take, to see where AI can help without touching controlled data. Your site takes RFQs through the contact page. Would you, [redacted] spare 20 minutes to tell me how it works today? I'm not selling anything on that call."
+      },
+      "questions": [
+        "How many requests for quotation a month, and how do they arrive?",
+        "How long from request to quote, and what slows it?",
+        "Does your ERP handle quoting today?",
+        "Do customers send export-controlled drawings?"
+      ],
+      "score": { "fit": 1, "evidence": 1, "reach": 3, "total": 3, "priority": "Discovery only", "why": "Reachable, but no offer fits and data may be controlled." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "boise-metal-works",
+      "name": "Boise Metal Works",
+      "legalName": null,
+      "website": "https://www.boisemetalworks.com/",
+      "group": "manufacturing",
+      "industry": "Custom metal fabrication",
+      "town": "Boise",
+      "verification": ["Company site: 2000 Yamhill Rd, Boise; since 1994. Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "Custom work from railings, stairs and gates to tanks, truck upfitting and product development, for commercial, industrial and residential clients", "source": "https://www.boisemetalworks.com/", "method": "page text" },
+        { "label": "observed", "text": "Quote form with a file upload (16 MB); no turnaround claim", "source": "https://www.boisemetalworks.com/", "method": "page text" }
+      ],
+      "hypotheses": ["Many small custom quotes, and homeowner or builder inquiries wait for an estimator"],
+      "existingSoftware": "None detected.",
+      "recommendation": "Hold. A Leak Check adapted to inquiries could apply.",
+      "value": { "toForgeX": "$500 if adapted", "toCustomer": "Not estimable from public data." },
+      "risks": ["No named contact"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://www.boisemetalworks.com/contact/" },
+      "decisionMaker": { "role": "Owner (not named)", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "Quote requests",
+        "body": "Hello, I'm [Your name] with ForgeX. Your site takes quote requests with file uploads for everything from railings to tanks. I help shops measure how fast inquiries get a reply and a quote, and fix the slow spots, often with tools they already have. Would a 15-minute call be worthwhile?"
+      },
+      "questions": ["How many quote requests a week, and who answers them?", "How long does a typical quote take?"],
+      "score": { "fit": 2, "evidence": 1, "reach": 1, "total": 2, "priority": "Hold", "why": "Plausible inbound-inquiry fit; weak evidence; no named contact." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "erwin-fabrication",
+      "name": "Erwin Custom Fabrication",
+      "legalName": null,
+      "website": "https://erwinfab.com/",
+      "group": "manufacturing",
+      "industry": "Custom metal fabrication",
+      "town": "Nampa",
+      "verification": ["Company site: 811 N Kings Rd, Nampa; open since 1993. Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "Shop hours \"Mon–Thu 7:00 AM–4:30 PM\"", "source": "https://erwinfab.com/", "method": "page text" },
+        { "label": "observed", "text": "\"Request a Custom Fabrication Quote\" form (no upload); \"we'll follow up promptly\"", "source": "https://erwinfab.com/", "method": "page text" },
+        { "label": "observed", "text": "Serves homeowners, builders, contractors and commercial clients", "source": "https://erwinfab.com/", "method": "page text" },
+        { "label": "inferred", "text": "A request sent Thursday afternoon can wait until Monday", "source": "https://erwinfab.com/", "method": "from the shop hours" }
+      ],
+      "hypotheses": ["Requests that arrive Thursday afternoon through Sunday wait several days"],
+      "existingSoftware": "None detected.",
+      "recommendation": "Second wave. A Leak Check adapted to inquiries, then a same-day acknowledgment and routing for form requests (a light build).",
+      "value": { "toForgeX": "$500 plus a small setup", "toCustomer": "Not estimable from public data." },
+      "risks": ["No named contact"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://erwinfab.com/contact" },
+      "decisionMaker": { "role": "Owner (not named)", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "Requests that arrive on Fridays",
+        "body": "Hello, I'm [Your name] with ForgeX. Your shop hours are Monday to Thursday, so a request sent Thursday afternoon can wait until Monday. I help shops make sure every inquiry gets a same-day acknowledgment and reaches the right person, without new software where possible. Would a 15-minute call be useful?"
+      },
+      "questions": ["Who sees a quote request sent on a Friday, and when?", "How many requests a week?", "How fast do you usually reply?"],
+      "score": { "fit": 2, "evidence": 2, "reach": 2, "total": 8, "priority": "Second wave", "why": "Four-day week with form-only quotes; direct email." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "boss-tool",
+      "name": "Boss Tool & Manufacturing, Inc.",
+      "legalName": "Boss Tool & Manufacturing, Inc. (site footer)",
+      "website": "https://www.bosstoolmfginc.com/",
+      "group": "manufacturing",
+      "industry": "CNC machining and sheet metal",
+      "town": "Boise",
+      "verification": ["Company site: 2929 S Featherly Way, Boise. Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "CNC, conventional machining and sheet metal for medical, industrial, power, aerospace and electronics", "source": "https://www.bosstoolmfginc.com/", "method": "page text" },
+        { "label": "observed", "text": "Quotes through the contact page; no email shown", "source": "https://www.bosstoolmfginc.com/", "method": "page text" }
+      ],
+      "hypotheses": ["Quote requests come by phone or form and are handled by hand"],
+      "existingSoftware": "None detected.",
+      "recommendation": "Skip for now.",
+      "value": { "toForgeX": "None defined yet", "toCustomer": "Not estimable from public data." },
+      "risks": ["Aerospace work may involve controlled data"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://www.bosstoolmfginc.com/contact.php" },
+      "decisionMaker": { "role": "Owner (not named)", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "How quotes reach you",
+        "body": "Hello, I'm [Your name] with ForgeX. I'm learning how Treasure Valley machine shops handle quote requests and where the delays are. Would you spare 15 minutes to tell me how it works at Boss Tool? I'm not selling anything on that call."
+      },
+      "questions": ["How do quote requests arrive?", "How long does a quote take?"],
+      "score": { "fit": 1, "evidence": 1, "reach": 1, "total": 1, "priority": "Skip", "why": "No offer fits; little to go on." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "ardent-industries",
+      "name": "Ardent Industries Inc.",
+      "legalName": "Ardent Industries Inc. (site footer)",
+      "website": "https://ardentindustries.net/",
+      "group": "manufacturing",
+      "industry": "Sheet metal, CNC, powder coating",
+      "town": "Nampa",
+      "verification": ["Company site: 1020 N. Franklin Blvd Suite 101, Nampa. Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "Serves semiconductor, robotics, chemical processing, home furnishings, electronics and automotive aftermarket", "source": "https://ardentindustries.net/", "method": "page text" },
+        { "label": "observed", "text": "No quote form: \"Contact us today to discuss your project\"; info@ email", "source": "https://ardentindustries.net/", "method": "page text" }
+      ],
+      "hypotheses": ["Project inquiries arrive by email or phone and are handled by hand"],
+      "existingSoftware": "None detected.",
+      "recommendation": "Skip for now; discovery if manufacturing becomes a focus.",
+      "value": { "toForgeX": "None defined yet", "toCustomer": "Not estimable from public data." },
+      "risks": ["No offer fits"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://ardentindustries.net/contact-us/" },
+      "decisionMaker": { "role": "Owner (not named)", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "How project inquiries reach you",
+        "body": "Hello, I'm [Your name] with ForgeX. I'm learning how fabrication shops handle new project inquiries and quotes, and where AI tools help or don't. Would you spare 15 minutes to tell me how it works at Ardent? I'm not selling anything on that call."
+      },
+      "questions": ["How do project inquiries arrive?", "How long does a quote take?"],
+      "score": { "fit": 1, "evidence": 1, "reach": 2, "total": 2, "priority": "Skip", "why": "No offer fits." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "microtech-systems",
+      "name": "MicroTech Systems",
+      "legalName": null,
+      "website": "https://www.microtechboise.com/",
+      "group": "technology",
+      "industry": "Managed IT services",
+      "town": "Boise",
+      "verification": ["Company site: 125 E 50th Street, Boise; family business since 1970 (About page). Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "Managed IT for small and mid-size businesses; TechCare program; ticket submission; office hours 9 to 5, Monday to Friday", "source": "https://www.microtechboise.com/", "method": "page text" },
+        { "label": "observed", "text": "HubSpot in the page source", "source": "https://www.microtechboise.com/", "method": "page source" }
+      ],
+      "hypotheses": ["None for ForgeX's offers"],
+      "existingSoftware": "HubSpot (marketing automation) and a ticketing system.",
+      "recommendation": "Partner conversation only (referrals in both directions).",
+      "value": { "toForgeX": "Referrals, if any", "toCustomer": "Not applicable." },
+      "risks": ["May see ForgeX as a competitor"],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://www.microtechboise.com/contact-us" },
+      "decisionMaker": { "role": "Not named", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "A referral idea",
+        "body": "Hello, I'm [Your name] with ForgeX. I help home-service and construction firms stop losing calls and web requests, with fixed-price work. Your clients are small and mid-size businesses, and some probably ask you about this. Would you be open to a 15-minute call about referring work in both directions?"
+      },
+      "questions": ["Do clients ask you about missed calls or lead follow-up?", "Do you offer automation or AI services today?"],
+      "score": { "fit": 1, "evidence": 0, "reach": 1, "total": 0, "priority": "Partner", "why": "Not a customer; serves small businesses." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "idaho-pc-solutions",
+      "name": "Idaho PC Solutions, LLC",
+      "legalName": "Idaho PC Solutions, LLC (site footer)",
+      "website": "https://www.idahopcsolutions.com/",
+      "group": "technology",
+      "industry": "Computer repair and small-business IT",
+      "town": "Boise",
+      "verification": ["Company site: 280 N 8th St, Boise; visits by appointment; since 2007. Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "Hourly pricing: diagnostics from $95; $120 an hour on-site; $95 an hour remote", "source": "https://www.idahopcsolutions.com/", "method": "page text" },
+        { "label": "observed", "text": "Business email is a Gmail address", "source": "https://www.idahopcsolutions.com/", "method": "page text" }
+      ],
+      "hypotheses": ["None"],
+      "existingSoftware": "Not relevant.",
+      "recommendation": "Skip. Too small to buy or to refer much.",
+      "value": { "toForgeX": "None", "toCustomer": "Not applicable." },
+      "risks": [],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": null },
+      "decisionMaker": { "role": "Not named", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "A referral idea",
+        "body": "Hello, I'm [Your name] with ForgeX. I help small contractors stop losing calls and web requests. If any of your small-business clients ask about that, I'd be glad to compare notes. Open to a short call?"
+      },
+      "questions": ["Do clients ask you about phones or booking?"],
+      "score": { "fit": 0, "evidence": 0, "reach": 2, "total": 0, "priority": "Skip", "why": "Very small IT shop." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "ascending-it",
+      "name": "Ascending IT",
+      "legalName": null,
+      "website": "https://ascending-it.com/",
+      "group": "technology",
+      "industry": "Managed IT services",
+      "town": "Nampa",
+      "verification": ["Company site: 2128 N Devlin Way, Nampa. Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "Lists construction and manufacturing among the industries it serves", "source": "https://ascending-it.com/", "method": "page text" },
+        { "label": "observed", "text": "Free IT assessment funnel; Silver, Gold and Platinum plans; client ticket and payment portals", "source": "https://ascending-it.com/", "method": "page text" }
+      ],
+      "hypotheses": ["None for ForgeX's offers"],
+      "existingSoftware": "Mature IT tooling (ticket portal, payment portal).",
+      "recommendation": "Partner conversation: they serve construction and manufacturing firms.",
+      "value": { "toForgeX": "Referrals, if any", "toCustomer": "Not applicable." },
+      "risks": ["May prefer to build automation services themselves"],
+      "contact": { "phone": "[redacted]", "email": "[redacted]", "form": "https://ascending-it.com/request-it-assessment/" },
+      "decisionMaker": { "role": "Not named", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "Your construction and manufacturing clients",
+        "body": "Hello, I'm [Your name] with ForgeX. Your site lists construction and manufacturing among the industries you serve. I do fixed-price work for those firms on missed calls, slow replies and weekly numbers, which sits next to IT rather than inside it. Would you be open to 15 minutes on referring work to each other?"
+      },
+      "questions": ["Do your construction clients ask about phones, booking or lead follow-up?", "Would referrals in both directions interest you?"],
+      "score": { "fit": 1, "evidence": 0, "reach": 2, "total": 0, "priority": "Partner", "why": "Serves ForgeX's target industries." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "it-secure",
+      "name": "IT Secure LLC",
+      "legalName": "IT Secure LLC (site footer)",
+      "website": "https://itsecure.tech/",
+      "group": "technology",
+      "industry": "Managed IT services",
+      "town": "Meridian (no street address published)",
+      "verification": ["Company site only. Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "\"Reach a real person every time you call—no scripts, no robots\"", "source": "https://itsecure.tech/", "method": "page text" },
+        { "label": "observed", "text": "Free consultation scheduling; client dashboard; toll-free number", "source": "https://itsecure.tech/", "method": "page text" }
+      ],
+      "hypotheses": ["None"],
+      "existingSoftware": "Not relevant.",
+      "recommendation": "Skip. Its \"no robots\" positioning makes it an unlikely AI partner.",
+      "value": { "toForgeX": "None", "toCustomer": "Not applicable." },
+      "risks": [],
+      "contact": { "phone": "[redacted]", "email": null, "form": "https://itsecure.tech/schedule-a-meeting/" },
+      "decisionMaker": { "role": "Not named", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "A referral idea",
+        "body": "Hello, I'm [Your name] with ForgeX. I help contractors stop losing calls and web requests. If your clients ever ask about that, I'd be glad to compare notes. Open to a short call?"
+      },
+      "questions": ["Do clients ask you about phones or booking?"],
+      "score": { "fit": 0, "evidence": 0, "reach": 1, "total": 0, "priority": "Skip", "why": "Positions against AI answering." },
+      "founderDecision": null,
+      "outcome": null
+    },
+    {
+      "id": "treasure-valley-it",
+      "name": "Treasure Valley IT",
+      "legalName": null,
+      "website": "https://www.tvit.net/",
+      "group": "technology",
+      "industry": "Managed IT services",
+      "town": "Boise",
+      "verification": ["Company site: 9019 W Barnes St, Boise. Secretary of State not checked."],
+      "evidence": [
+        { "label": "observed", "text": "Lists engineering and construction, manufacturing and agriculture among its industries; serves businesses and residential clients", "source": "https://www.tvit.net/", "method": "page text" },
+        { "label": "observed", "text": "Separate support, sales and main phone lines; \"24/7/365 Support\"", "source": "https://www.tvit.net/", "method": "page text" },
+        { "label": "observed", "text": "LeadConnector (GoHighLevel) in the page source", "source": "https://www.tvit.net/", "method": "page source" }
+      ],
+      "hypotheses": ["None for ForgeX's offers"],
+      "existingSoftware": "LeadConnector (GoHighLevel) for its own marketing.",
+      "recommendation": "Partner conversation: they serve construction and manufacturing firms.",
+      "value": { "toForgeX": "Referrals, if any", "toCustomer": "Not applicable." },
+      "risks": ["May offer automation themselves"],
+      "contact": { "phone": "Sales [redacted]; main [redacted]; support [redacted]", "email": null, "form": "https://www.tvit.net/contact-us/" },
+      "decisionMaker": { "role": "Not named", "name": null, "nameSource": null },
+      "draft": {
+        "subject": "Your construction and manufacturing clients",
+        "body": "Hello, I'm [Your name] with ForgeX. Your site lists engineering, construction and manufacturing among your industries. I do fixed-price work for those firms on missed calls, slow replies and weekly numbers. Would you be open to 15 minutes on referring work to each other?"
+      },
+      "questions": ["Do your construction clients ask about phones, booking or lead follow-up?", "Would referrals in both directions interest you?"],
+      "score": { "fit": 1, "evidence": 0, "reach": 1, "total": 0, "priority": "Partner", "why": "Serves ForgeX's target industries." },
+      "founderDecision": null,
+      "outcome": null
+    }
+  ]
+}

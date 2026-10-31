@@ -1,0 +1,781 @@
+{
+  "company": {
+    "id": "c13",
+    "name": "Cornerstone Comfort",
+    "town": "Nampa",
+    "state": "Idaho",
+    "website": "https://www.cornerstonecomfort.net/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:39:18.231Z",
+  "finishedAt": "2026-10-27T18:43:16.469Z",
+  "report": {
+    "identity": {
+      "name": "Cornerstone Comfort (formerly Izzy’s Service)",
+      "location": "130 2nd Ave N, Nampa, ID 83687",
+      "claims": [
+        {
+          "statement": "Cornerstone Comfort is a family-owned and operated heating, air, and water company originally founded in 2011 as Izzy’s Service by [redacted].",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]"
+        },
+        {
+          "statement": "The business lists its physical address in Nampa, Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "130 2nd Ave N, Nampa, ID 83687"
+        },
+        {
+          "statement": "The company serves residential customers across Boise, Nampa, Meridian, Caldwell, Eagle, Middleton, Kuna, Star, and the greater Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Since 2011, [redacted] have proudly served Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, and the surrounding Treasure Valley"
+        },
+        {
+          "statement": "The business is actively transitioning its brand from Izzy’s Service to Cornerstone Comfort, as both names appear across page titles, disclaimers, and body copy.",
+          "label": "inference",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential HVAC and Water Services Contractor",
+      "activities": [
+        "Heating repair, maintenance, and furnace replacement",
+        "Air conditioning installation, repair, and seasonal maintenance",
+        "Ductless mini-split system installation and service",
+        "Traditional and tankless water heater repair and replacement",
+        "Water softener and whole-home water purification system installation",
+        "Indoor air quality solutions (air scrubbers, filters, surge protectors)",
+        "Recurring HVAC and water heater maintenance memberships (Comfort Club)"
+      ],
+      "claims": [
+        {
+          "statement": "Cornerstone Comfort provides residential repair, maintenance, and full system replacement for heating, air conditioning, ductless, water heating, water treatment, and indoor air quality equipment.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/about",
+          "quote": "Our licensed and insured team works with furnaces, air conditioners, ductless systems, water heaters, water softeners, water purification systems, and indoor air quality solutions"
+        },
+        {
+          "statement": "The company offers three tiered recurring maintenance memberships (Silver, Gold, and Platinum Comfort Club plans) as well as one-time maintenance visits.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/comfort-club",
+          "quote": "Choose from Silver, Gold, or Platinum membership levels and enjoy priority service, regular inspections, and exclusive member savings."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.cornerstonecomfort.net/",
+      "claims": [
+        {
+          "statement": "The company advertises over 500 five-star customer reviews from Treasure Valley homeowners.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "With over 500 five-star reviews from Treasure Valley homeowners, our reputation is built on consistent quality, honest service, and reliable results you can trust."
+        },
+        {
+          "statement": "The website features an online Instant Estimate tool that provides preliminary pricing for HVAC, ductless, and water systems in approximately 60 seconds.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "AI-powered estimates for Heating, Air Conditioning, Ductless, and Water Systems—built on real pricing, real equipment, and real installs."
+        },
+        {
+          "statement": "Standard installations are scoped around a two-person installation crew.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/instant-estimate",
+          "quote": "All estimates include standard 2-man installation."
+        },
+        {
+          "statement": "Exact total employee headcount is not disclosed on the website, so whether the company falls within ForgeX's 10 to 75 staff target range is unconfirmed.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Cornerstone Comfort states on its website footer that it is licensed and insured in Idaho under License #051546.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Cornerstone Comfort is licensed and insured to perform heating, air conditioning, and water services in Idaho. ​License #051546"
+        }
+      ],
+      "limitations": "Licensing is verified only from the company's self-reported statement (#051546) on its public website; external state licensing databases and corporate registration records were not accessed."
+    },
+    "existingSoftware": [
+      {
+        "product": "Wix (wix-thunderbolt, form-app-builder, bookings-uou, faq-builder)",
+        "purpose": "Website hosting, content management, native lead/contact forms, and site widgets",
+        "evidence": {
+          "statement": "The contact page configuration explicitly embeds Wix platform modules including form-app-builder, bookings-uou, and faq-builder under com.wixpress.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "quote": "\"groupId\":\"com.wixpress\",\"artifactId\":\"form-app-builder\""
+        }
+      },
+      {
+        "product": "book.housecallpro.com (online scheduling host)",
+        "purpose": "External online booking host referenced across site pages",
+        "evidence": {
+          "statement": "The homepage and other pages reference book.housecallpro.com among external hosts.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "book.housecallpro.com"
+        }
+      },
+      {
+        "product": "Housecall Pro (field-service management platform)",
+        "purpose": "Field-service scheduling, dispatching, and customer management",
+        "evidence": {
+          "statement": "Based on the book.housecallpro.com host reference, the business likely uses Housecall Pro as its core field-service management software.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Google Ads Tag (AW-11223296975) & Google Tag Manager (GTM-5KMJ5LK)",
+        "purpose": "Paid search advertising conversion tracking and tag management",
+        "evidence": {
+          "statement": "The site embeds a Google Ads Tag configuration with ID AW-11223296975 and Google Tag Manager container GTM-5KMJ5LK.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "quote": "\"domain\":\"\",\"name\":\"Google Ads Tag\""
+        }
+      },
+      {
+        "product": "Meta Pixel (Facebook Pixel ID 887182607046180)",
+        "purpose": "Paid social advertising tracking associated with legacy domain izzysservice.com",
+        "evidence": {
+          "statement": "The site embeds a custom head script named Meta referencing izzysservice.com and connect.facebook.net.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "quote": "\"domain\":\"izzysservice.com\",\"name\":\"Meta\""
+        }
+      },
+      {
+        "product": "Microsoft Clarity",
+        "purpose": "Website session recording and heatmap analytics",
+        "evidence": {
+          "statement": "The site embeds a tracking script named Microsoft Clarity loading from clarity.ms.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "quote": "\"domain\":\"\",\"name\":\"Microsoft Clarity\""
+        }
+      },
+      {
+        "product": "On-site AI Instant Estimate Tool",
+        "purpose": "Interactive 60-second online price estimator for HVAC, ductless, and water systems",
+        "evidence": {
+          "statement": "The website offers an AI-powered instant estimator on /instant-estimate that collects system preferences and emails a copy of the estimate.",
+          "label": "fact",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "AI-powered estimates for Heating, Air Conditioning, Ductless, and Water Systems—built on real pricing, real equipment, and real installs."
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Across all read pages, the clickable mailto link points to [redacted] (spelled with a 'y'), whereas the legacy domain in the Meta script is izzysservice.com and the visible footer text displays [redacted].",
+        "label": "fact",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "[redacted]"
+      },
+      {
+        "statement": "The visible text in the footer and contact sections displays [redacted] as the company email address.",
+        "label": "fact",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "[redacted]"
+      },
+      {
+        "statement": "The contact page presents two separate Wix forms ('Get a Price Quote' and 'Let’s Talk Comfort') alongside a 'Schedule Now' booking option.",
+        "label": "fact",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": "Get a Price Quote First name * Last name * Email * Phone * Select a Service * Choose an option"
+      },
+      {
+        "statement": "The Comfort Club page uses a standalone Wix form ('Join the Comfort Club Today') that asks customers to select Silver, Gold, or Platinum and Monthly or Yearly billing without an integrated checkout or automated onboarding flow visible on the page.",
+        "label": "fact",
+        "sourceUrl": "https://www.cornerstonecomfort.net/comfort-club",
+        "quote": "Join the Comfort Club Today First name * Last name * Email * Phone *"
+      },
+      {
+        "statement": "The Instant Estimate page generates an online estimate and emails a copy to the homeowner, requiring a subsequent in-home evaluation to finalize a fixed price.",
+        "label": "fact",
+        "sourceUrl": "https://www.cornerstonecomfort.net/instant-estimate",
+        "quote": "You’ll answer a few quick questions, then we’ll show your estimate and email you a copy."
+      },
+      {
+        "statement": "Because customer inquiries enter through multiple separate paths—online scheduling via book.housecallpro.com, at least three distinct Wix form types, the Instant Estimate tool, phone calls, and a misconfigured mailto link—the business has fragmented lead capture while actively paying for Google Ads and Meta traffic.",
+        "label": "inference",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Direct email inquiries initiated by clicking the website's email link are routed to '[redacted]' (a probable typo for the former 'izzysservice.com' domain) rather than '[redacted]', creating an immediate risk of bounced or lost customer leads.",
+        "label": "fact",
+        "basis": "Observed directly on https://www.cornerstonecomfort.net/ and all subpages: the mailto link is '[redacted]', while the visible text is '[redacted]' and the Meta embed domain is 'izzysservice.com'."
+      },
+      {
+        "problem": "Lead and booking intake is split across Wix native forms (quote requests, general contact, Comfort Club signups), an Instant Estimate tool, and external book.housecallpro.com links.",
+        "label": "inference",
+        "basis": "Inferred from the presence of Wix form-app scripts and forms alongside book.housecallpro.com references and the /instant-estimate page."
+      },
+      {
+        "problem": "Leads submitted through Wix forms ('Get a Price Quote', 'Let’s Talk Comfort', 'Join the Comfort Club Today') and the Instant Estimate tool may not automatically sync into their field-service software within two minutes, potentially causing manual data entry overhead or delayed follow-up on high-value installation estimates.",
+        "label": "hypothesis",
+        "basis": "Wix forms and custom instant estimators typically send email notifications to a shared inbox unless custom webhook/API automation is configured to push leads into field-service software."
+      },
+      {
+        "problem": "With active paid advertising on Google Ads (AW-11223296975) and Meta (connect.facebook.net) driving traffic across multiple conversion paths, the owners may lack a single weekly report connecting ad spend by channel to actual booked jobs and closed revenue.",
+        "label": "hypothesis",
+        "basis": "Small home-service contractors using Wix and field-service software rarely have automated attribution tying Google and Meta ad spend to closed job revenue in their field-service and accounting systems."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Wix Editor mailto link correction",
+        "addresses": "Fixes the '[redacted]' typo in the clickable email links across the website header/footer so emails go to '[redacted]'.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Native online booking and lead capture widgets from their existing field-service software (book.housecallpro.com)",
+        "addresses": "Replacing or connecting Wix native quote forms with native field-service lead forms so web inquiries land directly in the dispatch/CRM system without custom middleware.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Wix Automations",
+        "addresses": "Sends basic automated confirmation emails when a visitor submits a Wix form ('Get a Price Quote' or 'Join the Comfort Club Today').",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "One-week audit ($500 fixed price, credited in full toward any fix ordered within 30 days) examining how many calls, Wix form submissions, Instant Estimate completions, and misrouted emails slip through without a booked job, and quantifying their revenue value.",
+        "problem": "Fragmented lead intake across Wix forms, Instant Estimate, phone calls, and the misconfigured mailto link while spending on Google and Meta ads.",
+        "whyNotExistingSoftware": "Existing software platforms (Wix, Google Ads, and field-service software) each track only their own silo and do not audit cross-channel lead drop-off, unfollowed instant estimates, or broken contact links."
+      },
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "Automated pipeline ($1,800 setup plus $149/month) ensuring every lead from Wix quote forms, Comfort Club signup forms, and the Instant Estimate tool lands directly in their field-service software within two minutes, triggers an immediate personalized reply, and creates a tracked follow-up task so no estimate or inquiry goes uncalled.",
+        "problem": "Potential manual re-entry or slow follow-up on Wix form submissions and 60-second Instant Estimate leads that require an in-home evaluation to close.",
+        "whyNotExistingSoftware": "While their booking software handles direct appointment slots, custom multi-step flows like the Instant Estimate tool and Comfort Club plan selection forms on Wix do not natively create structured customer records, estimates, and automated follow-up sequences inside field-service software without custom integration."
+      },
+      {
+        "name": "Owner's Monday numbers",
+        "kind": "catalog",
+        "description": "Weekly one-page summary ($1,200 setup plus $99/month) delivered every Monday showing booked revenue, close rate, average ticket, cost per booked job by lead source, and accounts receivable across their field-service software, accounting software, and Google/Meta ad accounts.",
+        "problem": "Lack of unified visibility into return on ad spend across Google Ads, Meta Ads, Instant Estimate leads, and completed field jobs.",
+        "whyNotExistingSoftware": "Native dashboards in Wix, Google Ads, Meta Ads, and field-service software do not combine ad spend and accounting receivables with closed job data into a single source-attributed owner report."
+      }
+    ],
+    "feasibility": {
+      "rating": "high",
+      "explanation": "Wix forms and webhook triggers, Google/Meta ad reporting APIs, and standard field-service management APIs/webhooks are well-documented and straightforward to integrate using standard automation workflows."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "Deterministic workflow automation (webhooks, API integrations, and SQL/data aggregation) should handle lead routing, CRM record creation, and Monday financial reporting for reliability, while AI agents can assist in drafting personalized follow-up messages based on the homeowner's Instant Estimate selections or triaging free-text form inquiries."
+    },
+    "humanReview": [
+      "Owner or office manager review before sending any non-standard pricing or custom technical responses to homeowners.",
+      "In-home technician evaluation and human approval are explicitly required before issuing a final fixed installation price following an online Instant Estimate.",
+      "Human verification of Comfort Club recurring billing setup and plan eligibility before charging a customer."
+    ],
+    "risks": [
+      {
+        "type": "compliance",
+        "description": "Automated SMS or email replies triggered by Wix forms or the Instant Estimate tool must comply with TCPA and CAN-SPAM consent rules, ensuring opt-in language on Wix forms covers automated follow-up."
+      },
+      {
+        "type": "operational",
+        "description": "Ongoing rebranding from Izzy’s Service to Cornerstone Comfort creates a risk of inconsistent sender names, domains, or duplicate customer records if legacy and new domains are not normalized during integration."
+      },
+      {
+        "type": "security",
+        "description": "Customer PII (names, home addresses, phone numbers, and equipment details) transmitted between Wix forms and field-service software must be encrypted in transit and stored with least-privilege API credentials."
+      }
+    ],
+    "commercial": {
+      "supportable": true,
+      "value": "Illustrative gross revenue impact of $5,760/year from converting 2 additional Gold Comfort Club memberships per month (24/year × $240/year published price), plus an illustrative $9,800/year from recovering 1 additional standard hot water heater replacement per quarter (4/year × $2,450 published special price), or $21,996/year if recovering 1 tankless water heater installation per quarter (4/year × $5,499 published special price).",
+      "implementationCost": "Revenue Leak Check: $500 fixed price (credited in full if a fix is ordered within 30 days). Lead-to-job pipeline: $1,800 setup + $149/month ($3,588 in year one). Owner's Monday numbers: $1,200 setup + $99/month ($2,388 in year one).",
+      "assumptions": [
+        "Illustrative calculation uses published prices on https://www.cornerstonecomfort.net/comfort-club ($139 one-time maintenance; $200/year Silver; $240/year Gold; $500/year Platinum) and https://www.cornerstonecomfort.net/specials ($2,450 Hot Water Heater; $4,899 Whole Home Water Softener & Filter; $5,499 Tankless Water Heater; $850 Air Scrubber; $200 Surge Protector).",
+        "Assumes fixing misrouted email links and automating sub-2-minute lead follow-up across Wix forms and the Instant Estimate tool recovers an illustrative 2 Gold Comfort Club plans per month (24/year) and 1 hot water heater or tankless water heater installation per quarter (4/year).",
+        "Figures represent illustrative gross revenue based on published site prices, not net profit or guaranteed results."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Co-Owner",
+        "General Manager / Office Manager"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Co-Owner",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]"
+        },
+        {
+          "name": "[redacted]",
+          "role": "Co-Owner",
+          "sourceUrl": "https://www.cornerstonecomfort.net/",
+          "quote": "Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "email",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.cornerstonecomfort.net/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "When a homeowner completes your 60-second Instant Estimate or submits the 'Get a Price Quote' or 'Comfort Club' forms on Wix, does that information land automatically in your scheduling software, or does someone in the office enter it by hand?",
+        "Were you aware that the clickable email link on your website currently points to '[redacted]' (with a 'y') rather than '[redacted]'?",
+        "How quickly is your team currently able to follow up with homeowners who generate an online Instant Estimate to get their in-home evaluation booked?",
+        "Between Google Ads, Meta Ads, and organic traffic, how do you currently track which ad channel produces booked installations versus just clicks or form fills?",
+        "How many technicians and office staff are currently on your team handling incoming calls, estimates, and dispatch?"
+      ],
+      "outreachSubject": "Quick heads-up on a broken email link on cornerstonecomfort.net + lead routing question",
+      "outreachBody": "Hi [redacted],\n\nI was looking through Cornerstone Comfort's website and noticed a quick technical issue from the rebrand from Izzy's Service: while your page text lists [redacted], the clickable email link across the site actually points to [redacted] (spelled with a \"y\"). Anyone clicking that link to email you is likely getting a bounce.\n\nI also noticed you're running Google and Meta ads while capturing leads across several different places—your 60-second Instant Estimate tool, Wix quote and Comfort Club forms, and online scheduling.\n\nI run ForgeX ([ForgeX Website Placeholder]), where we help family-owned HVAC and plumbing contractors connect their web forms, instant estimators, and ad accounts directly into their field-service software. Before recommending any software work, we offer a fixed-price Revenue Leak Check ($500) that audits how many calls, form leads, and instant estimates slip through the cracks over one week—and the $500 is credited in full if you decide to have us build a fix within 30 days. We don't promise specific revenue results, and sometimes the best answer is a simple tweak to the tools you already own.\n\nWould you be open to a brief 10-minute call next week to see if your Instant Estimate and Wix form leads are syncing cleanly into your dispatch system?\n\nBest regards,\n\n[Founder Name]\n[Founder Title], ForgeX\n[Founder Phone Number]\n[ForgeX Street Address, City, State, ZIP]\n\nIf you prefer not to receive future emails from me, simply reply with \"unsubscribe\" or \"opt out\" and I will remove you immediately."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.cornerstonecomfort.net/",
+          "usedFor": "Business identity, Nampa physical address, ownership ([redacted]), Idaho license #051546, 500+ 5-star reviews, Instant Estimate overview, book.housecallpro.com reference, and mailto link discrepancy ([redacted] vs [redacted])."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/about",
+          "usedFor": "Principal HVAC and water business activities, mission, and residential service scope."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+          "usedFor": "Embedded Wix configuration (com.wixpress, form-app-builder, bookings-uou), Google Ads Tag (AW-11223296975), Meta pixel (izzysservice.com), Microsoft Clarity, and multiple Wix intake forms."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/instant-estimate",
+          "usedFor": "Instant Estimate workflow details, 2-man installation crew assumption, and in-home evaluation requirement."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/comfort-club",
+          "usedFor": "Published pricing for Comfort Club maintenance plans ($19.99/mo or $200/yr Silver; $24.99/mo or $240/yr Gold; $44.99/mo or $500/yr Platinum) and one-time maintenance ($139), plus the Comfort Club signup form."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/specials",
+          "usedFor": "Published equipment and service special prices ($2,450 Hot Water Heater, $5,499 Tankless Water Heater, $4,899 Whole Home Water Softener & Filter, $850 Air Scrubber, $200 Surge Protector, $1,500 off Trane HVAC System)."
+        },
+        {
+          "url": "https://www.cornerstonecomfort.net/services",
+          "usedFor": "Verification of core service lines and Treasure Valley service areas."
+        }
+      ],
+      "limitations": [
+        "Exact employee headcount is not stated on the public website; only 'standard 2-man installation' and 'Our licensed and insured team' are mentioned, so whether the company has 10 to 75 staff cannot be confirmed without discovery.",
+        "Back-office integrations between Wix forms, the Instant Estimate tool, and their field-service software cannot be observed from public client-side code.",
+        "Accounting software (such as QuickBooks) and internal call-handling processes are not visible on the website.",
+        "State contractor licensing (#051546) is self-reported on the website and was not cross-checked against external state databases."
+      ]
+    },
+    "qualification": {
+      "category": "pursue now",
+      "rationale": "Cornerstone Comfort is an owner-led residential HVAC and water contractor in Nampa, Idaho (founded in 2011 by [redacted], with 500+ five-star reviews) that actively pays for leads via Google Ads (AW-11223296975) and Meta Ads. Publicly observable facts on the website point directly to lead-capture and routing issues that ForgeX's Revenue Leak Check and Lead-to-job pipeline address: (1) a broken/misspelled clickable email link ('[redacted]') across all pages during their rebrand from Izzy's Service to Cornerstone Comfort, and (2) fragmented lead intake split across multiple native Wix forms ('Get a Price Quote', 'Let’s Talk Comfort', 'Join the Comfort Club Today'), a 60-second Instant Estimate tool requiring follow-up for in-home evaluation, and external book.housecallpro.com scheduling links. A verified business contact channel ([redacted]) and named owner decision-makers exist, making this a strong candidate for immediate outreach while verifying team headcount during discovery."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "130 2nd Ave N, Nampa, ID 83687",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Since 2011, [redacted] have proudly served Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, and the surrounding Treasure Valley",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.cornerstonecomfort.net/about",
+        "quote": "Our licensed and insured team works with furnaces, air conditioners, ductless systems, water heaters, water softeners, water purification systems, and indoor air quality solutions",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.cornerstonecomfort.net/comfort-club",
+        "quote": "Choose from Silver, Gold, or Platinum membership levels and enjoy priority service, regular inspections, and exclusive member savings.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "With over 500 five-star reviews from Treasure Valley homeowners, our reputation is built on consistent quality, honest service, and reliable results you can trust.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "AI-powered estimates for Heating, Air Conditioning, Ductless, and Water Systems—built on real pricing, real equipment, and real installs.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.cornerstonecomfort.net/instant-estimate",
+        "quote": "All estimates include standard 2-man installation.",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Cornerstone Comfort is licensed and insured to perform heating, air conditioning, and water services in Idaho. ​License #051546",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": "\"groupId\":\"com.wixpress\",\"artifactId\":\"form-app-builder\"",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "book.housecallpro.com",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": "\"domain\":\"\",\"name\":\"Google Ads Tag\"",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": "\"domain\":\"izzysservice.com\",\"name\":\"Meta\"",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": "\"domain\":\"\",\"name\":\"Microsoft Clarity\"",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "AI-powered estimates for Heating, Air Conditioning, Ductless, and Water Systems—built on real pricing, real equipment, and real installs.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "[redacted]",
+        "verdict": "found in page details"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "[redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+        "quote": "Get a Price Quote First name * Last name * Email * Phone * Select a Service * Choose an option",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.cornerstonecomfort.net/comfort-club",
+        "quote": "Join the Comfort Club Today First name * Last name * Email * Phone *",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.cornerstonecomfort.net/instant-estimate",
+        "quote": "You’ll answer a few quick questions, then we’ll show your estimate and email you a copy.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "quote": "Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "email",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.cornerstonecomfort.net/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 22,
+      "quotesFound": 22,
+      "quotesFoundInDetails": 2,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 2,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.cornerstonecomfort.net/",
+      "finalUrl": "https://www.cornerstonecomfort.net/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:21.310Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1443416,
+      "truncated": false,
+      "sha256": "883c851085bb4ae9760048d7db0780b48cb5c0e78f59d1b6bf01255334a9f535",
+      "textSha256": "ac1cfa47645ff51f0d2e1f08676583b58dbd26803a692723f6b358d792a76a54",
+      "fromCache": true
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/about",
+      "finalUrl": "https://www.cornerstonecomfort.net/about",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:26.174Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1334462,
+      "truncated": false,
+      "sha256": "9941e8b07e149ebc81c94a291bb1a5450d50180b9740bf80fd1501291a30a0e0",
+      "textSha256": "8651da40b0c5e8ac353a899a8f7f598cc5465a3e0d86271f62216b2c4aa8c383",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+      "finalUrl": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:29.202Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 2000000,
+      "truncated": true,
+      "sha256": "33bb2e97f7ed5ac230a7b8a42af878079c90f8ae17acfe1b85b5ff2001c78009",
+      "textSha256": "545786e0ea16f2038e85fb48d3517ea480c78d52ea5716b347d5fd1a751f5156",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/instant-estimate",
+      "finalUrl": "https://www.cornerstonecomfort.net/instant-estimate",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:32.280Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1907490,
+      "truncated": false,
+      "sha256": "3206977f18143af8dd9dc146029238f45159523a076bf634b6cf21b8b8eabeb7",
+      "textSha256": "60ddf8b087cc268c661ed06cbdea8c4ca10cb74d12e1e139daaf0418ec94b008",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/comfort-club",
+      "finalUrl": "https://www.cornerstonecomfort.net/comfort-club",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:35.220Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1998924,
+      "truncated": false,
+      "sha256": "0cb490a2994180c49e0cf67b4b7b16ddfa08907da305a5e12ddf25ad9ef4364b",
+      "textSha256": "072eb888ccaac517dd58111e71c828d8354274c9427d8575e5cb488708c81443",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/specials",
+      "finalUrl": "https://www.cornerstonecomfort.net/specials",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:38.211Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1361333,
+      "truncated": false,
+      "sha256": "953d0cdf20f43deac46cb6d6c2c31173ab3cc017f69a0fcfc9171c5368e6e7ba",
+      "textSha256": "2dcb85f4d1040908a3a08ea0c01fa64d17b0091173924ebf477536d2d150140b",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/services",
+      "finalUrl": "https://www.cornerstonecomfort.net/services",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:39:41.226Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1361732,
+      "truncated": false,
+      "sha256": "1452e761f06d5d93ce13303401f3311aeff1971fbdf3b322ffdee1c974c75303",
+      "textSha256": "607105de7d1d8c89dc70754fb261682767723b50cbdd83445e3471fd532fa3ab",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.cornerstonecomfort.net/about",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/instant-estimate",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/comfort-club",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/specials",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/services",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.cornerstonecomfort.net/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 100072,
+    "cachedInput": 50786,
+    "output": 7069,
+    "thinking": 7534,
+    "toolUse": 0,
+    "total": 114675
+  },
+  "costUsd": 0.24968060000000003,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1649580",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/about"
+      }
+    },
+    {
+      "id": "call_1649581",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/contact-cornerstone-comfort"
+      }
+    },
+    {
+      "id": "call_1649582",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/instant-estimate"
+      }
+    },
+    {
+      "id": "call_1649583",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/comfort-club"
+      }
+    },
+    {
+      "id": "call_1649584",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/specials"
+      }
+    },
+    {
+      "id": "call_1649585",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/services"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1727197",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.cornerstonecomfort.net/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Cornerstone Comfort (formerly Izzy’s Service)\",\n    \"location\": \"130 2nd Ave N, Nampa, ID 83687\",\n    \"claims\": [\n      {\n        \"statement\": \"Cornerstone Comfort is a family-owned and operated heating, air, and water company originally founded in 2011 as Izzy’s Service by [redacted].\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]\"\n      },\n      {\n        \"statement\": \"The business lists its physical address in Nampa, Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"130 2nd Ave N, Nampa, ID 83687\"\n      },\n      {\n        \"statement\": \"The company serves residential customers across Boise, Nampa, Meridian, Caldwell, Eagle, Middleton, Kuna, Star, and the greater Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Since 2011, [redacted] have proudly served Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, and the surrounding Treasure Valley\"\n      },\n      {\n        \"statement\": \"The business is actively transitioning its brand from Izzy’s Service to Cornerstone Comfort, as both names appear across page titles, disclaimers, and body copy.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential HVAC and Water Services Contractor\",\n    \"activities\": [\n      \"Heating repair, maintenance, and furnace replacement\",\n      \"Air conditioning installation, repair, and seasonal maintenance\",\n      \"Ductless mini-split system installation and service\",\n      \"Traditional and tankless water heater repair and replacement\",\n      \"Water softener and whole-home water purification system installation\",\n      \"Indoor air quality solutions (air scrubbers, filters, surge protectors)\",\n      \"Recurring HVAC and water heater maintenance memberships (Comfort Club)\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Cornerstone Comfort provides residential repair, maintenance, and full system replacement for heating, air conditioning, ductless, water heating, water treatment, and indoor air quality equipment.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/about\",\n        \"quote\": \"Our licensed and insured team works with furnaces, air conditioners, ductless systems, water heaters, water softeners, water purification systems, and indoor air quality solutions\"\n      },\n      {\n        \"statement\": \"The company offers three tiered recurring maintenance memberships (Silver, Gold, and Platinum Comfort Club plans) as well as one-time maintenance visits.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/comfort-club\",\n        \"quote\": \"Choose from Silver, Gold, or Platinum membership levels and enjoy priority service, regular inspections, and exclusive member savings.\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.cornerstonecomfort.net/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company advertises over 500 five-star customer reviews from Treasure Valley homeowners.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"With over 500 five-star reviews from Treasure Valley homeowners, our reputation is built on consistent quality, honest service, and reliable results you can trust.\"\n      },\n      {\n        \"statement\": \"The website features an online Instant Estimate tool that provides preliminary pricing for HVAC, ductless, and water systems in approximately 60 seconds.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"AI-powered estimates for Heating, Air Conditioning, Ductless, and Water Systems—built on real pricing, real equipment, and real installs.\"\n      },\n      {\n        \"statement\": \"Standard installations are scoped around a two-person installation crew.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/instant-estimate\",\n        \"quote\": \"All estimates include standard 2-man installation.\"\n      },\n      {\n        \"statement\": \"Exact total employee headcount is not disclosed on the website, so whether the company falls within ForgeX's 10 to 75 staff target range is unconfirmed.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Cornerstone Comfort states on its website footer that it is licensed and insured in Idaho under License #051546.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Cornerstone Comfort is licensed and insured to perform heating, air conditioning, and water services in Idaho. ​License #051546\"\n      }\n    ],\n    \"limitations\": \"Licensing is verified only from the company's self-reported statement (#051546) on its public website; external state licensing databases and corporate registration records were not accessed.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Wix (wix-thunderbolt, form-app-builder, bookings-uou, faq-builder)\",\n      \"purpose\": \"Website hosting, content management, native lead/contact forms, and site widgets\",\n      \"evidence\": {\n        \"statement\": \"The contact page configuration explicitly embeds Wix platform modules including form-app-builder, bookings-uou, and faq-builder under com.wixpress.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"quote\": \"\\\"groupId\\\":\\\"com.wixpress\\\",\\\"artifactId\\\":\\\"form-app-builder\\\"\"\n      }\n    },\n    {\n      \"product\": \"book.housecallpro.com (online scheduling host)\",\n      \"purpose\": \"External online booking host referenced across site pages\",\n      \"evidence\": {\n        \"statement\": \"The homepage and other pages reference book.housecallpro.com among external hosts.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"book.housecallpro.com\"\n      }\n    },\n    {\n      \"product\": \"Housecall Pro (field-service management platform)\",\n      \"purpose\": \"Field-service scheduling, dispatching, and customer management\",\n      \"evidence\": {\n        \"statement\": \"Based on the book.housecallpro.com host reference, the business likely uses Housecall Pro as its core field-service management software.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google Ads Tag (AW-11223296975) & Google Tag Manager (GTM-5KMJ5LK)\",\n      \"purpose\": \"Paid search advertising conversion tracking and tag management\",\n      \"evidence\": {\n        \"statement\": \"The site embeds a Google Ads Tag configuration with ID AW-11223296975 and Google Tag Manager container GTM-5KMJ5LK.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"quote\": \"\\\"domain\\\":\\\"\\\",\\\"name\\\":\\\"Google Ads Tag\\\"\"\n      }\n    },\n    {\n      \"product\": \"Meta Pixel (Facebook Pixel ID 887182607046180)\",\n      \"purpose\": \"Paid social advertising tracking associated with legacy domain izzysservice.com\",\n      \"evidence\": {\n        \"statement\": \"The site embeds a custom head script named Meta referencing izzysservice.com and connect.facebook.net.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"quote\": \"\\\"domain\\\":\\\"izzysservice.com\\\",\\\"name\\\":\\\"Meta\\\"\"\n      }\n    },\n    {\n      \"product\": \"Microsoft Clarity\",\n      \"purpose\": \"Website session recording and heatmap analytics\",\n      \"evidence\": {\n        \"statement\": \"The site embeds a tracking script named Microsoft Clarity loading from clarity.ms.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"quote\": \"\\\"domain\\\":\\\"\\\",\\\"name\\\":\\\"Microsoft Clarity\\\"\"\n      }\n    },\n    {\n      \"product\": \"On-site AI Instant Estimate Tool\",\n      \"purpose\": \"Interactive 60-second online price estimator for HVAC, ductless, and water systems\",\n      \"evidence\": {\n        \"statement\": \"The website offers an AI-powered instant estimator on /instant-estimate that collects system preferences and emails a copy of the estimate.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"AI-powered estimates for Heating, Air Conditioning, Ductless, and Water Systems—built on real pricing, real equipment, and real installs.\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Across all read pages, the clickable mailto link points to [redacted] (spelled with a 'y'), whereas the legacy domain in the Meta script is izzysservice.com and the visible footer text displays [redacted].\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n      \"quote\": \"[redacted]\"\n    },\n    {\n      \"statement\": \"The visible text in the footer and contact sections displays [redacted] as the company email address.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n      \"quote\": \"[redacted]\"\n    },\n    {\n      \"statement\": \"The contact page presents two separate Wix forms ('Get a Price Quote' and 'Let’s Talk Comfort') alongside a 'Schedule Now' booking option.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n      \"quote\": \"Get a Price Quote First name * Last name * Email * Phone * Select a Service * Choose an option\"\n    },\n    {\n      \"statement\": \"The Comfort Club page uses a standalone Wix form ('Join the Comfort Club Today') that asks customers to select Silver, Gold, or Platinum and Monthly or Yearly billing without an integrated checkout or automated onboarding flow visible on the page.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.cornerstonecomfort.net/comfort-club\",\n      \"quote\": \"Join the Comfort Club Today First name * Last name * Email * Phone *\"\n    },\n    {\n      \"statement\": \"The Instant Estimate page generates an online estimate and emails a copy to the homeowner, requiring a subsequent in-home evaluation to finalize a fixed price.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.cornerstonecomfort.net/instant-estimate\",\n      \"quote\": \"You’ll answer a few quick questions, then we’ll show your estimate and email you a copy.\"\n    },\n    {\n      \"statement\": \"Because customer inquiries enter through multiple separate paths—online scheduling via book.housecallpro.com, at least three distinct Wix form types, the Instant Estimate tool, phone calls, and a misconfigured mailto link—the business has fragmented lead capture while actively paying for Google Ads and Meta traffic.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Direct email inquiries initiated by clicking the website's email link are routed to '[redacted]' (a probable typo for the former 'izzysservice.com' domain) rather than '[redacted]', creating an immediate risk of bounced or lost customer leads.\",\n      \"label\": \"fact\",\n      \"basis\": \"Observed directly on https://www.cornerstonecomfort.net/ and all subpages: the mailto link is '[redacted]', while the visible text is '[redacted]' and the Meta embed domain is 'izzysservice.com'.\"\n    },\n    {\n      \"problem\": \"Lead and booking intake is split across Wix native forms (quote requests, general contact, Comfort Club signups), an Instant Estimate tool, and external book.housecallpro.com links.\",\n      \"label\": \"inference\",\n      \"basis\": \"Inferred from the presence of Wix form-app scripts and forms alongside book.housecallpro.com references and the /instant-estimate page.\"\n    },\n    {\n      \"problem\": \"Leads submitted through Wix forms ('Get a Price Quote', 'Let’s Talk Comfort', 'Join the Comfort Club Today') and the Instant Estimate tool may not automatically sync into their field-service software within two minutes, potentially causing manual data entry overhead or delayed follow-up on high-value installation estimates.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Wix forms and custom instant estimators typically send email notifications to a shared inbox unless custom webhook/API automation is configured to push leads into field-service software.\"\n    },\n    {\n      \"problem\": \"With active paid advertising on Google Ads (AW-11223296975) and Meta (connect.facebook.net) driving traffic across multiple conversion paths, the owners may lack a single weekly report connecting ad spend by channel to actual booked jobs and closed revenue.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Small home-service contractors using Wix and field-service software rarely have automated attribution tying Google and Meta ad spend to closed job revenue in their field-service and accounting systems.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Wix Editor mailto link correction\",\n      \"addresses\": \"Fixes the '[redacted]' typo in the clickable email links across the website header/footer so emails go to '[redacted]'.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Native online booking and lead capture widgets from their existing field-service software (book.housecallpro.com)\",\n      \"addresses\": \"Replacing or connecting Wix native quote forms with native field-service lead forms so web inquiries land directly in the dispatch/CRM system without custom middleware.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Wix Automations\",\n      \"addresses\": \"Sends basic automated confirmation emails when a visitor submits a Wix form ('Get a Price Quote' or 'Join the Comfort Club Today').\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"One-week audit ($500 fixed price, credited in full toward any fix ordered within 30 days) examining how many calls, Wix form submissions, Instant Estimate completions, and misrouted emails slip through without a booked job, and quantifying their revenue value.\",\n      \"problem\": \"Fragmented lead intake across Wix forms, Instant Estimate, phone calls, and the misconfigured mailto link while spending on Google and Meta ads.\",\n      \"whyNotExistingSoftware\": \"Existing software platforms (Wix, Google Ads, and field-service software) each track only their own silo and do not audit cross-channel lead drop-off, unfollowed instant estimates, or broken contact links.\"\n    },\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"Automated pipeline ($1,800 setup plus $149/month) ensuring every lead from Wix quote forms, Comfort Club signup forms, and the Instant Estimate tool lands directly in their field-service software within two minutes, triggers an immediate personalized reply, and creates a tracked follow-up task so no estimate or inquiry goes uncalled.\",\n      \"problem\": \"Potential manual re-entry or slow follow-up on Wix form submissions and 60-second Instant Estimate leads that require an in-home evaluation to close.\",\n      \"whyNotExistingSoftware\": \"While their booking software handles direct appointment slots, custom multi-step flows like the Instant Estimate tool and Comfort Club plan selection forms on Wix do not natively create structured customer records, estimates, and automated follow-up sequences inside field-service software without custom integration.\"\n    },\n    {\n      \"name\": \"Owner's Monday numbers\",\n      \"kind\": \"catalog\",\n      \"description\": \"Weekly one-page summary ($1,200 setup plus $99/month) delivered every Monday showing booked revenue, close rate, average ticket, cost per booked job by lead source, and accounts receivable across their field-service software, accounting software, and Google/Meta ad accounts.\",\n      \"problem\": \"Lack of unified visibility into return on ad spend across Google Ads, Meta Ads, Instant Estimate leads, and completed field jobs.\",\n      \"whyNotExistingSoftware\": \"Native dashboards in Wix, Google Ads, Meta Ads, and field-service software do not combine ad spend and accounting receivables with closed job data into a single source-attributed owner report.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"high\",\n    \"explanation\": \"Wix forms and webhook triggers, Google/Meta ad reporting APIs, and standard field-service management APIs/webhooks are well-documented and straightforward to integrate using standard automation workflows.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"Deterministic workflow automation (webhooks, API integrations, and SQL/data aggregation) should handle lead routing, CRM record creation, and Monday financial reporting for reliability, while AI agents can assist in drafting personalized follow-up messages based on the homeowner's Instant Estimate selections or triaging free-text form inquiries.\"\n  },\n  \"humanReview\": [\n    \"Owner or office manager review before sending any non-standard pricing or custom technical responses to homeowners.\",\n    \"In-home technician evaluation and human approval are explicitly required before issuing a final fixed installation price following an online Instant Estimate.\",\n    \"Human verification of Comfort Club recurring billing setup and plan eligibility before charging a customer.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated SMS or email replies triggered by Wix forms or the Instant Estimate tool must comply with TCPA and CAN-SPAM consent rules, ensuring opt-in language on Wix forms covers automated follow-up.\"\n    },\n    {\n      \"type\": \"operational\",\n      \"description\": \"Ongoing rebranding from Izzy’s Service to Cornerstone Comfort creates a risk of inconsistent sender names, domains, or duplicate customer records if legacy and new domains are not normalized during integration.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Customer PII (names, home addresses, phone numbers, and equipment details) transmitted between Wix forms and field-service software must be encrypted in transit and stored with least-privilege API credentials.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": true,\n    \"value\": \"Illustrative gross revenue impact of $5,760/year from converting 2 additional Gold Comfort Club memberships per month (24/year × $240/year published price), plus an illustrative $9,800/year from recovering 1 additional standard hot water heater replacement per quarter (4/year × $2,450 published special price), or $21,996/year if recovering 1 tankless water heater installation per quarter (4/year × $5,499 published special price).\",\n    \"implementationCost\": \"Revenue Leak Check: $500 fixed price (credited in full if a fix is ordered within 30 days). Lead-to-job pipeline: $1,800 setup + $149/month ($3,588 in year one). Owner's Monday numbers: $1,200 setup + $99/month ($2,388 in year one).\",\n    \"assumptions\": [\n      \"Illustrative calculation uses published prices on https://www.cornerstonecomfort.net/comfort-club ($139 one-time maintenance; $200/year Silver; $240/year Gold; $500/year Platinum) and https://www.cornerstonecomfort.net/specials ($2,450 Hot Water Heater; $4,899 Whole Home Water Softener & Filter; $5,499 Tankless Water Heater; $850 Air Scrubber; $200 Surge Protector).\",\n      \"Assumes fixing misrouted email links and automating sub-2-minute lead follow-up across Wix forms and the Instant Estimate tool recovers an illustrative 2 Gold Comfort Club plans per month (24/year) and 1 hot water heater or tankless water heater installation per quarter (4/year).\",\n      \"Figures represent illustrative gross revenue based on published site prices, not net profit or guaranteed results.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Co-Owner\",\n      \"General Manager / Office Manager\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Co-Owner\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]\"\n      },\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Co-Owner\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\",\n        \"quote\": \"Founded in 2011, (originally Izzy’s Service), Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"email\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.cornerstonecomfort.net/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"When a homeowner completes your 60-second Instant Estimate or submits the 'Get a Price Quote' or 'Comfort Club' forms on Wix, does that information land automatically in your scheduling software, or does someone in the office enter it by hand?\",\n      \"Were you aware that the clickable email link on your website currently points to '[redacted]' (with a 'y') rather than '[redacted]'?\",\n      \"How quickly is your team currently able to follow up with homeowners who generate an online Instant Estimate to get their in-home evaluation booked?\",\n      \"Between Google Ads, Meta Ads, and organic traffic, how do you currently track which ad channel produces booked installations versus just clicks or form fills?\",\n      \"How many technicians and office staff are currently on your team handling incoming calls, estimates, and dispatch?\"\n    ],\n    \"outreachSubject\": \"Quick heads-up on a broken email link on cornerstonecomfort.net + lead routing question\",\n    \"outreachBody\": \"Hi [redacted],\\n\\nI was looking through Cornerstone Comfort's website and noticed a quick technical issue from the rebrand from Izzy's Service: while your page text lists [redacted], the clickable email link across the site actually points to [redacted] (spelled with a \\\"y\\\"). Anyone clicking that link to email you is likely getting a bounce.\\n\\nI also noticed you're running Google and Meta ads while capturing leads across several different places—your 60-second Instant Estimate tool, Wix quote and Comfort Club forms, and online scheduling.\\n\\nI run ForgeX ([ForgeX Website Placeholder]), where we help family-owned HVAC and plumbing contractors connect their web forms, instant estimators, and ad accounts directly into their field-service software. Before recommending any software work, we offer a fixed-price Revenue Leak Check ($500) that audits how many calls, form leads, and instant estimates slip through the cracks over one week—and the $500 is credited in full if you decide to have us build a fix within 30 days. We don't promise specific revenue results, and sometimes the best answer is a simple tweak to the tools you already own.\\n\\nWould you be open to a brief 10-minute call next week to see if your Instant Estimate and Wix form leads are syncing cleanly into your dispatch system?\\n\\nBest regards,\\n\\n[Founder Name]\\n[Founder Title], ForgeX\\n[Founder Phone Number]\\n[ForgeX Street Address, City, State, ZIP]\\n\\nIf you prefer not to receive future emails from me, simply reply with \\\"unsubscribe\\\" or \\\"opt out\\\" and I will remove you immediately.\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/\",\n        \"usedFor\": \"Business identity, Nampa physical address, ownership ([redacted]), Idaho license #051546, 500+ 5-star reviews, Instant Estimate overview, book.housecallpro.com reference, and mailto link discrepancy ([redacted] vs [redacted]).\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/about\",\n        \"usedFor\": \"Principal HVAC and water business activities, mission, and residential service scope.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/contact-cornerstone-comfort\",\n        \"usedFor\": \"Embedded Wix configuration (com.wixpress, form-app-builder, bookings-uou), Google Ads Tag (AW-11223296975), Meta pixel (izzysservice.com), Microsoft Clarity, and multiple Wix intake forms.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/instant-estimate\",\n        \"usedFor\": \"Instant Estimate workflow details, 2-man installation crew assumption, and in-home evaluation requirement.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/comfort-club\",\n        \"usedFor\": \"Published pricing for Comfort Club maintenance plans ($19.99/mo or $200/yr Silver; $24.99/mo or $240/yr Gold; $44.99/mo or $500/yr Platinum) and one-time maintenance ($139), plus the Comfort Club signup form.\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/specials\",\n        \"usedFor\": \"Published equipment and service special prices ($2,450 Hot Water Heater, $5,499 Tankless Water Heater, $4,899 Whole Home Water Softener & Filter, $850 Air Scrubber, $200 Surge Protector, $1,500 off Trane HVAC System).\"\n      },\n      {\n        \"url\": \"https://www.cornerstonecomfort.net/services\",\n        \"usedFor\": \"Verification of core service lines and Treasure Valley service areas.\"\n      }\n    ],\n    \"limitations\": [\n      \"Exact employee headcount is not stated on the public website; only 'standard 2-man installation' and 'Our licensed and insured team' are mentioned, so whether the company has 10 to 75 staff cannot be confirmed without discovery.\",\n      \"Back-office integrations between Wix forms, the Instant Estimate tool, and their field-service software cannot be observed from public client-side code.\",\n      \"Accounting software (such as QuickBooks) and internal call-handling processes are not visible on the website.\",\n      \"State contractor licensing (#051546) is self-reported on the website and was not cross-checked against external state databases.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue now\",\n    \"rationale\": \"Cornerstone Comfort is an owner-led residential HVAC and water contractor in Nampa, Idaho (founded in 2011 by [redacted], with 500+ five-star reviews) that actively pays for leads via Google Ads (AW-11223296975) and Meta Ads. Publicly observable facts on the website point directly to lead-capture and routing issues that ForgeX's Revenue Leak Check and Lead-to-job pipeline address: (1) a broken/misspelled clickable email link ('[redacted]') across all pages during their rebrand from Izzy's Service to Cornerstone Comfort, and (2) fragmented lead intake split across multiple native Wix forms ('Get a Price Quote', 'Let’s Talk Comfort', 'Join the Comfort Club Today'), a 60-second Instant Estimate tool requiring follow-up for in-home evaluation, and external book.housecallpro.com scheduling links. A verified business contact channel ([redacted]) and named owner decision-makers exist, making this a strong candidate for immediate outreach while verifying team headcount during discovery.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

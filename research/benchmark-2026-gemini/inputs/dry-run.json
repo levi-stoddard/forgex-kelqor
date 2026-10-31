@@ -1,0 +1,19 @@
+{
+  "purpose": "Dry run: two Idaho companies outside the 25-company benchmark, to test the pipeline and measure real cost.",
+  "companies": [
+    {
+      "id": "d01",
+      "name": "Hyde Park Plumbing",
+      "town": "Boise",
+      "state": "Idaho",
+      "website": "https://hydepark-plumbing.com/"
+    },
+    {
+      "id": "d02",
+      "name": "Stability Networks",
+      "town": "Meridian",
+      "state": "Idaho",
+      "website": "https://stabilitynetworks.com/"
+    }
+  ]
+}

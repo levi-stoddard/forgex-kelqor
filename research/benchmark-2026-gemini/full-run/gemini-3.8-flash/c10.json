@@ -1,0 +1,164 @@
+{
+  "company": {
+    "id": "c10",
+    "name": "Gem Heating & Air Conditioning",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.gemheating.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "restricted",
+  "startedAt": "2026-10-27T18:23:39.251Z",
+  "finishedAt": "2026-10-27T18:23:55.480Z",
+  "report": {
+    "identity": {
+      "name": "Gem Heating & Air Conditioning",
+      "location": "Boise, Idaho",
+      "claims": [
+        {
+          "statement": "Gem Heating & Air Conditioning is reported to operate in Boise, Idaho.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "HVAC (Heating, Ventilation, and Air Conditioning)",
+      "activities": [
+        "Heating services",
+        "Air conditioning services"
+      ],
+      "claims": [
+        {
+          "statement": "The company likely provides heating and air conditioning services based on its business name.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.gemheating.com/",
+      "claims": [
+        {
+          "statement": "The company's official website address is provided as https://www.gemheating.com/, but site content could not be read due to terms restricting automated collection.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [],
+      "limitations": "No licensing or business registration records could be checked because the company website was not read and external registries were not accessed."
+    },
+    "existingSoftware": [],
+    "opportunityEvidence": [],
+    "problems": [
+      {
+        "problem": "Potential lead leakage or slow response times to customer inquiries.",
+        "label": "hypothesis",
+        "basis": "Common challenge for home-service contractors, but unconfirmed for Gem Heating & Air Conditioning."
+      }
+    ],
+    "existingSolutions": [],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "Cannot assess implementation feasibility without access to the company's website, workflows, or current software stack."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No specific automation solutions have been scoped or recommended due to absence of verified operational data."
+    },
+    "humanReview": [],
+    "risks": [],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "President",
+        "General Manager"
+      ],
+      "people": [],
+      "channels": []
+    },
+    "discovery": {
+      "questions": [
+        "What field-service management platform (e.g., ServiceTitan, Housecall Pro, Jobber) does Gem Heating & Air Conditioning currently use?",
+        "How are after-hours or web inquiries currently captured and routed to dispatchers?",
+        "How many technicians and office staff currently support the Boise service territory?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [],
+      "limitations": [
+        "The official website (https://www.gemheating.com/) was not accessed or read because its terms forbid systematic or automated data collection without written consent.",
+        "No primary web pages were fetched; therefore, no facts or direct quotes could be verified.",
+        "Staff size, software stack, pricing, customer contact channels, and executive identities remain unknown."
+      ]
+    },
+    "qualification": {
+      "category": "insufficient evidence",
+      "rationale": "The website could not be read due to automated access restrictions, leaving no verified evidence regarding staff size, existing software, lead handling processes, or business contact information."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [],
+    "channels": [],
+    "flags": [],
+    "summary": {
+      "facts": 0,
+      "quotesFound": 0,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 0,
+      "hypotheses": 3,
+      "channelsFound": 0,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [],
+  "pagesRequested": [],
+  "turns": 1,
+  "usage": {
+    "input": 1373,
+    "cachedInput": 0,
+    "output": 890,
+    "thinking": 1203,
+    "toolUse": 0,
+    "total": 3466
+  },
+  "costUsd": 0.0088785,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Gem Heating & Air Conditioning\",\n    \"location\": \"Boise, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"Gem Heating & Air Conditioning is reported to operate in Boise, Idaho.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"HVAC (Heating, Ventilation, and Air Conditioning)\",\n    \"activities\": [\n      \"Heating services\",\n      \"Air conditioning services\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company likely provides heating and air conditioning services based on its business name.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.gemheating.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The company's official website address is provided as https://www.gemheating.com/, but site content could not be read due to terms restricting automated collection.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [],\n    \"limitations\": \"No licensing or business registration records could be checked because the company website was not read and external registries were not accessed.\"\n  },\n  \"existingSoftware\": [],\n  \"opportunityEvidence\": [],\n  \"problems\": [\n    {\n      \"problem\": \"Potential lead leakage or slow response times to customer inquiries.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Common challenge for home-service contractors, but unconfirmed for Gem Heating & Air Conditioning.\"\n    }\n  ],\n  \"existingSolutions\": [],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"Cannot assess implementation feasibility without access to the company's website, workflows, or current software stack.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No specific automation solutions have been scoped or recommended due to absence of verified operational data.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"President\",\n      \"General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": []\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What field-service management platform (e.g., ServiceTitan, Housecall Pro, Jobber) does Gem Heating & Air Conditioning currently use?\",\n      \"How are after-hours or web inquiries currently captured and routed to dispatchers?\",\n      \"How many technicians and office staff currently support the Boise service territory?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [],\n    \"limitations\": [\n      \"The official website (https://www.gemheating.com/) was not accessed or read because its terms forbid systematic or automated data collection without written consent.\",\n      \"No primary web pages were fetched; therefore, no facts or direct quotes could be verified.\",\n      \"Staff size, software stack, pricing, customer contact channels, and executive identities remain unknown.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"insufficient evidence\",\n    \"rationale\": \"The website could not be read due to automated access restrictions, leaving no verified evidence regarding staff size, existing software, lead handling processes, or business contact information.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ],
+  "accessNote": "Not fetched: its terms forbid systematic or automated data collection without the company's written consent."
+}

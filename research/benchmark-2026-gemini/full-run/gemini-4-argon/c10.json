@@ -1,0 +1,183 @@
+{
+  "company": {
+    "id": "c10",
+    "name": "Gem Heating & Air Conditioning",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.gemheating.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "restricted",
+  "startedAt": "2026-10-27T18:21:42.932Z",
+  "finishedAt": "2026-10-27T18:22:01.472Z",
+  "report": {
+    "identity": {
+      "name": "Gem Heating & Air Conditioning",
+      "location": "Boise, Idaho",
+      "claims": [
+        {
+          "statement": "The company name provided for research is Gem Heating & Air Conditioning, located in Boise, Idaho, though no pages from its website could be read to verify its legal identity or physical address.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Heating and Air Conditioning (HVAC) (unverified from website)",
+      "activities": [
+        "Heating and air conditioning services (plausible based on company name, but unverified)"
+      ],
+      "claims": [
+        {
+          "statement": "Based on the business name 'Gem Heating & Air Conditioning', the company plausibly operates in the HVAC home-service contractor industry, though its specific services and customer segment could not be verified from its website.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "Unverified (no pages could be read)",
+      "claims": [
+        {
+          "statement": "No public information from the company's website could be reviewed because automated or systematic data collection is restricted without the company's written consent.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Contractor licensing or business registration status in Idaho is unknown because no pages could be read.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ],
+      "limitations": "No pages from the company's website were read due to terms restricting automated data collection, and external licensing databases were not accessed."
+    },
+    "existingSoftware": [],
+    "opportunityEvidence": [],
+    "problems": [
+      {
+        "problem": "No operational or business problems can be identified or hypothesized from site evidence because no website pages were read.",
+        "label": "hypothesis",
+        "basis": "Zero pages were read; fabricating or guessing problems without evidence is prohibited."
+      }
+    ],
+    "existingSolutions": [],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No solution is recommended because no evidence could be collected from the company's website."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No solution is recommended because there is insufficient evidence to evaluate the business or its needs."
+    },
+    "humanReview": [
+      "Before any outreach or further research, a human must review the target website's terms of use or manually inspect public information in compliance with applicable terms."
+    ],
+    "risks": [
+      {
+        "type": "compliance",
+        "description": "The website's terms forbid systematic or automated data collection without written consent; automated scraping or unauthorized data extraction poses legal and compliance risks."
+      },
+      {
+        "type": "operational",
+        "description": "Proceeding with sales outreach without verified information about company size, ownership structure, existing software, or contact channels risks wasted effort and poorly targeted communication."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "No pricing, service volume, or operational data could be read from the website, so commercial value and implementation cost cannot be estimated."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "President",
+        "General Manager"
+      ],
+      "people": [],
+      "channels": []
+    },
+    "discovery": {
+      "questions": [
+        "Is the company an independent, owner-led contractor, and approximately how many staff and technicians are on the team?",
+        "What field-service management software (such as ServiceTitan, Housecall Pro, or Jobber) does the business currently use?",
+        "How are incoming phone calls, web leads, and paid lead sources currently handled and tracked into booked jobs?",
+        "Are there any manual bottlenecks in lead follow-up, invoice intake, or weekly owner reporting that the existing software does not already solve?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [],
+      "limitations": [
+        "No pages from the company's website were read because its terms forbid systematic or automated data collection without the company's written consent.",
+        "No page reading tool was available for this company, so business identity, location, services, team size, ownership structure, licensing, existing software, pricing, decision-makers, and contact channels could not be verified."
+      ]
+    },
+    "qualification": {
+      "category": "insufficient evidence",
+      "rationale": "The company's website could not be read due to terms restricting automated data collection without written consent. With zero pages read, we cannot verify whether the business fits ForgeX's segment (owner-led home-service contractor with 10–75 staff paying for leads), what software it already uses, whether any operational problem exists, or how to contact the business."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [],
+    "channels": [],
+    "flags": [],
+    "summary": {
+      "facts": 0,
+      "quotesFound": 0,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 0,
+      "hypotheses": 4,
+      "channelsFound": 0,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [],
+  "pagesRequested": [],
+  "turns": 1,
+  "usage": {
+    "input": 5018,
+    "cachedInput": 0,
+    "output": 1269,
+    "thinking": 0,
+    "toolUse": 0,
+    "total": 6287
+  },
+  "costUsd": 0.022726,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Gem Heating & Air Conditioning\",\n    \"location\": \"Boise, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"The company name provided for research is Gem Heating & Air Conditioning, located in Boise, Idaho, though no pages from its website could be read to verify its legal identity or physical address.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Heating and Air Conditioning (HVAC) (unverified from website)\",\n    \"activities\": [\n      \"Heating and air conditioning services (plausible based on company name, but unverified)\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Based on the business name 'Gem Heating & Air Conditioning', the company plausibly operates in the HVAC home-service contractor industry, though its specific services and customer segment could not be verified from its website.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"Unverified (no pages could be read)\",\n    \"claims\": [\n      {\n        \"statement\": \"No public information from the company's website could be reviewed because automated or systematic data collection is restricted without the company's written consent.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Contractor licensing or business registration status in Idaho is unknown because no pages could be read.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ],\n    \"limitations\": \"No pages from the company's website were read due to terms restricting automated data collection, and external licensing databases were not accessed.\"\n  },\n  \"existingSoftware\": [],\n  \"opportunityEvidence\": [],\n  \"problems\": [\n    {\n      \"problem\": \"No operational or business problems can be identified or hypothesized from site evidence because no website pages were read.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Zero pages were read; fabricating or guessing problems without evidence is prohibited.\"\n    }\n  ],\n  \"existingSolutions\": [],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No solution is recommended because no evidence could be collected from the company's website.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No solution is recommended because there is insufficient evidence to evaluate the business or its needs.\"\n  },\n  \"humanReview\": [\n    \"Before any outreach or further research, a human must review the target website's terms of use or manually inspect public information in compliance with applicable terms.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"compliance\",\n      \"description\": \"The website's terms forbid systematic or automated data collection without written consent; automated scraping or unauthorized data extraction poses legal and compliance risks.\"\n    },\n    {\n      \"type\": \"operational\",\n      \"description\": \"Proceeding with sales outreach without verified information about company size, ownership structure, existing software, or contact channels risks wasted effort and poorly targeted communication.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"No pricing, service volume, or operational data could be read from the website, so commercial value and implementation cost cannot be estimated.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"President\",\n      \"General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": []\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"Is the company an independent, owner-led contractor, and approximately how many staff and technicians are on the team?\",\n      \"What field-service management software (such as ServiceTitan, Housecall Pro, or Jobber) does the business currently use?\",\n      \"How are incoming phone calls, web leads, and paid lead sources currently handled and tracked into booked jobs?\",\n      \"Are there any manual bottlenecks in lead follow-up, invoice intake, or weekly owner reporting that the existing software does not already solve?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [],\n    \"limitations\": [\n      \"No pages from the company's website were read because its terms forbid systematic or automated data collection without the company's written consent.\",\n      \"No page reading tool was available for this company, so business identity, location, services, team size, ownership structure, licensing, existing software, pricing, decision-makers, and contact channels could not be verified.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"insufficient evidence\",\n    \"rationale\": \"The company's website could not be read due to terms restricting automated data collection without written consent. With zero pages read, we cannot verify whether the business fits ForgeX's segment (owner-led home-service contractor with 10–75 staff paying for leads), what software it already uses, whether any operational problem exists, or how to contact the business.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ],
+  "accessNote": "Not fetched: its terms forbid systematic or automated data collection without the company's written consent."
+}

@@ -1,0 +1,805 @@
+{
+  "company": {
+    "id": "d01",
+    "name": "Hyde Park Plumbing",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://hydepark-plumbing.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "startedAt": "2026-10-27T15:48:45.678Z",
+  "finishedAt": "2026-10-27T15:50:26.076Z",
+  "report": {
+    "identity": {
+      "name": "Hyde Park Plumbing",
+      "location": "3704 W Overland Rd, Boise, ID 83705",
+      "claims": [
+        {
+          "statement": "Hyde Park Plumbing is a family-owned and locally operated plumbing business based in Boise, Idaho, operating since 2009.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Family-owned and locally operated since 2009."
+        },
+        {
+          "statement": "The physical business address is located at 3704 W Overland Rd, Boise, ID 83705.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "3704 W Overland Rd, Boise, ID 83705"
+        },
+        {
+          "statement": "The company serves residential and commercial customers throughout Boise neighborhoods in Ada County.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "We serve all Boise neighborhoods in Ada County with the same fast response time and the same licensed technicians, day or night."
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Plumbing and Drain Contracting Services",
+      "activities": [
+        "24/7 emergency residential and commercial plumbing repairs",
+        "Drain cleaning, hydro jetting, and sewer camera inspection",
+        "Water heater repair, maintenance, and replacement (tank and tankless)",
+        "Trenchless and traditional sewer and water line repair and replacement",
+        "Acoustic and thermal imaging water leak detection and slab leak repair",
+        "Whole-home repiping, fixture installation, gas line service, and backflow prevention testing"
+      ],
+      "claims": [
+        {
+          "statement": "Hyde Park Plumbing provides full-service residential and commercial plumbing across Boise.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Hyde Park Plumbing offers full-service residential and commercial plumbing in Boise including 24/7 emergency plumbing, drain cleaning with hydro jetting"
+        },
+        {
+          "statement": "The business operates a fleet of service vans dispatched across Boise neighborhoods.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Our centrally dispatched crews reach most locations in 15-25 minutes, day or night."
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://hydepark-plumbing.com/",
+      "claims": [
+        {
+          "statement": "The official website is https://hydepark-plumbing.com/ and features service guides, online booking requests, pricing estimates, and customer reviews.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Hyde Park Plumbing (License #PLB-J-4285) has been Boise's trusted plumber since 2009."
+        },
+        {
+          "statement": "The company maintains regular customer service hours seven days a week from 7:00 AM to 8:00 PM with 24/7 emergency dispatch.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/contact-us/",
+          "quote": "Monday - Sunday 7:00 AM - 8:00 PM"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "Hyde Park Plumbing holds Idaho plumbing contractor license #PLB-J-4285 issued by the Idaho Division of Occupational and Professional Licenses.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Idaho License #PLB-J-4285"
+        },
+        {
+          "statement": "The company carries $2 million in commercial general liability insurance coverage and is bonded.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "ID License #PLB-J-4285, fully bonded with $2M liability coverage."
+        },
+        {
+          "statement": "All field technicians are licensed Journeyman or Master Plumbers in the state of Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/plumbers-boise-id/",
+          "quote": "Idaho Licensed Journeyman or Master Plumber"
+        }
+      ],
+      "limitations": "Specific state business entity registration filings (e.g., Idaho Secretary of State filing numbers, official LLC corporate name, or registered agent details) were not published on the website."
+    },
+    "existingSoftware": [
+      {
+        "product": "WordPress (with LiteSpeed Cache & Cloudflare)",
+        "purpose": "Content management system, web hosting delivery, page caching, and bot/email protection.",
+        "evidence": {
+          "statement": "The website runs WordPress core assets with LiteSpeed JS optimization and Cloudflare static beacon and email obfuscation.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "https://hydepark-plumbing.com/wp-content/litespeed/js/"
+        }
+      },
+      {
+        "product": "LeadConnector / GoHighLevel",
+        "purpose": "CRM, lead capture, reputation management widget, and customer communication backend.",
+        "evidence": {
+          "statement": "The site loads review widgets from reputationhub.site and connects to api.leadconnectorhq.com, which are standard GoHighLevel components.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "https://reputationhub.site/reputation/widgets/review_widget/xieV2ZEzons8BUPX9qCI"
+        }
+      },
+      {
+        "product": "LinkGraph / SearchAtlas Dynamic Optimization",
+        "purpose": "Search engine optimization and on-page content performance tracking.",
+        "evidence": {
+          "statement": "A dynamic optimization script from dashboard.linkgraph.com is embedded in the website header.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "https://dashboard.linkgraph.com/scripts/dynamic_optimization.js"
+        }
+      },
+      {
+        "product": "Google Tag Manager / Google Analytics 4",
+        "purpose": "Web traffic measurement, event tracking, and marketing analytics.",
+        "evidence": {
+          "statement": "Google Tag Manager script tag G-4NW95JGCGR is integrated across all site pages.",
+          "label": "fact",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "https://www.googletagmanager.com/gtag/js?id=G-4NW95JGCGR"
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Online service intake forms state that online requests are only processed Monday through Sunday between 7:00 AM and 8:00 PM, creating a 11-hour overnight delay for digital inquiries.",
+        "label": "fact",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "Online requests are processed Mon-Sun 7am-8pm"
+      },
+      {
+        "statement": "The contact page offers a form promising reply within 2 hours, while general email inquiries state a turnaround of up to 24 hours.",
+        "label": "fact",
+        "sourceUrl": "https://hydepark-plumbing.com/contact-us/",
+        "quote": "Reply Within 2 Hours"
+      },
+      {
+        "statement": "The website references departmental routing (Service Requests, Accounts Payable & Receivable, Sales Manager & Consulting) handled via general email aliases.",
+        "label": "fact",
+        "sourceUrl": "https://hydepark-plumbing.com/contact-us/",
+        "quote": "Service Requests at [email protected], Accounts Payable & Receivable at [email protected], Sales Manager & Consulting at [email protected]"
+      },
+      {
+        "statement": "The business operates a fleet handling over 10,000 completed jobs with flat-rate dispatch across multiple Boise zones, necessitating coordinated dispatching and invoicing.",
+        "label": "inference",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Web booking requests submitted between 8:00 PM and 7:00 AM sit unprocessed until the morning, potentially losing urgent service jobs to competitors.",
+        "label": "inference",
+        "basis": "The website explicitly notes that online requests are only processed 7am-8pm, despite Hyde Park Plumbing offering 24/7 emergency dispatch by phone."
+      },
+      {
+        "problem": "Leads from multiple digital marketing sources, SEO pages, and contact forms may require manual entry into dispatching software.",
+        "label": "hypothesis",
+        "basis": "The company relies on GoHighLevel widgets and web forms, but it is unconfirmed whether they automatically synchronize with an underlying field-service management platform (like ServiceTitan or Housecall Pro)."
+      },
+      {
+        "problem": "Handling separate departmental mailboxes for billing, vendor receipts, and customer service requests creates manual inbox triage overhead.",
+        "label": "inference",
+        "basis": "The contact FAQ explicitly instructs customers and vendors to reach out to separate email addresses for Accounts Payable & Receivable, Service Requests, and Sales Consulting."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "GoHighLevel / LeadConnector Native Automation & SMS Triggers",
+        "addresses": "Instant automated SMS and email auto-replies to online booking submissions received between 8:00 PM and 7:00 AM, advising users of on-call emergency numbers.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Field Service Management Software (e.g., ServiceTitan, Housecall Pro, Jobber)",
+        "addresses": "End-to-end technician dispatch, GPS routing, flat-rate price books, and integrated invoicing.",
+        "alreadyOwned": false
+      },
+      {
+        "solution": "Zapier or Make integration linking LeadConnector to dispatching software",
+        "addresses": "Automatic lead sync from web forms into the central scheduling queue within two minutes.",
+        "alreadyOwned": false
+      }
+    ],
+    "forgexSolutions": [
+      {
+        "name": "Revenue Leak Check",
+        "kind": "catalog",
+        "description": "A $500 one-week diagnostic audit to track how many after-hours web leads, service calls, and quote requests go unanswered or delayed between 8pm and 7am, calculating the lost revenue value.",
+        "problem": "Online service intake explicitly halts processing at 8:00 PM, meaning high-intent nighttime plumbing emergencies may abandon the web form for competing emergency plumbers.",
+        "whyNotExistingSoftware": "While GoHighLevel collects the leads, owners typically lack a unified cross-channel conversion report showing how many nocturnal or weekend form submissions dropped off before booking."
+      },
+      {
+        "name": "Lead-to-job pipeline",
+        "kind": "catalog",
+        "description": "$1,800 setup plus $149/mo automation that pushes every web lead, Google ad lead, and form submission into the field-service calendar within two minutes, triggers instant SMS confirmation, and alerts the on-call dispatcher.",
+        "problem": "Eliminating the 11-hour overnight processing blackout for digital requests and ensuring instant handoff from web form to on-call plumbing technician.",
+        "whyNotExistingSoftware": "Native CRM forms often notify staff via generic email batches rather than triggering immediate priority alerts to on-duty field technicians or two-way scheduling confirmation."
+      },
+      {
+        "name": "Owner's Monday numbers",
+        "kind": "catalog",
+        "description": "$1,200 setup plus $99/mo executive dashboard delivering a single weekly digest of booked revenue, average ticket, job conversion rate by Boise neighborhood, and aged accounts receivable.",
+        "problem": "Monitoring multiple service categories (trenchless sewer, water heaters, emergency repairs) and ad spend across multiple Boise neighborhoods without manual spreadsheet consolidation.",
+        "whyNotExistingSoftware": "GoHighLevel tracks front-end leads and SEO, but does not natively combine accounting books, completed field job totals, and vehicle job margins into a clean one-page Monday briefing."
+      }
+    ],
+    "feasibility": {
+      "rating": "high",
+      "explanation": "Hyde Park Plumbing already utilizes GoHighLevel / LeadConnector, WordPress, and Cloudflare. These platforms have standard REST APIs and webhook support, allowing easy integration with field-service software (Jobber, ServiceTitan, or Housecall Pro) and SMS alerting systems without touching custom core code."
+    },
+    "aiDelivery": {
+      "rating": "partly",
+      "explanation": "AI can parse after-hours job descriptions, categorize emergency severity (e.g., active flood vs. fixture consultation), and draft tailored replies. However, deterministic automation workflows (webhooks, SMS alerts, calendar sync) must handle scheduling and emergency routing to avoid hallucination or missed emergency dispatches."
+    },
+    "humanReview": [
+      "On-call dispatch technician or manager must approve emergency dispatch assignments and customer pricing.",
+      "A human dispatcher must confirm emergency arrival time windows before committing technicians to 45-minute response guarantees.",
+      "Accounts payable review must inspect and reconcile vendor invoices against supply orders (Grainger, Ferguson, Standard Plumbing Supply) before payment release."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Failure or latency in automated SMS dispatch during a water leak emergency could lead to customer property damage if customers rely solely on digital responses instead of calling 911/emergency phone lines."
+      },
+      {
+        "type": "compliance",
+        "description": "Automated customer SMS confirmations and dispatch alerts must strictly comply with TCPA consent and 10DLC registration rules to avoid carrier blocking."
+      },
+      {
+        "type": "security",
+        "description": "Lead and booking webhooks handle customer personally identifiable information (PII) including physical home addresses, gate codes, and phone numbers, requiring encrypted transmission and strict access permissions."
+      }
+    ],
+    "commercial": {
+      "supportable": true,
+      "value": "$1,500 - $4,500/month in recovered emergency jobs",
+      "implementationCost": "$1,800 setup + $149/mo (Lead-to-job pipeline) or $500 (Revenue Leak Check)",
+      "assumptions": [
+        "Average ticket for emergency water heater or leak repair ranges from $300 to $1,500 based on company published pricing guides.",
+        "Securing just 2 to 4 additional after-hours digital inquiries per month that would otherwise call a competitor recovers more than $2,000 monthly in gross margin."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Business Owner / General Manager",
+        "Operations / Dispatch Manager"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Content Author / Plumbing Staff",
+          "sourceUrl": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/",
+          "quote": "Written by [redacted] Hyde Park Plumbing has served the Boise area since 2009."
+        },
+        {
+          "name": "[redacted]",
+          "role": "Service Technician (named in homeowner testimonial)",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Both jobs required more work than anticipated and [redacted] couldn't have been more responsive, patient and considerate."
+        },
+        {
+          "name": "[redacted]",
+          "role": "Service Technician (named in homeowner testimonial)",
+          "sourceUrl": "https://hydepark-plumbing.com/",
+          "quote": "Both jobs required more work than anticipated and [redacted] couldn't have been more responsive, patient and considerate."
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://hydepark-plumbing.com/"
+        },
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://hydepark-plumbing.com/contact-us/",
+          "sourceUrl": "https://hydepark-plumbing.com/contact-us/"
+        },
+        {
+          "kind": "web form",
+          "value": "https://hydepark-plumbing.com/ (Homepage Step 1/2 Service Request Form)",
+          "sourceUrl": "https://hydepark-plumbing.com/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "What percentage of your online booking submissions currently arrive outside your 7am-8pm processing window?",
+        "When someone submits an online service request after 8:00 PM, how does that inquiry currently get routed to your on-call emergency technician?",
+        "Do your website leads flow straight into your field service management software (like ServiceTitan or Housecall Pro), or does someone on your office team manually re-enter them?",
+        "How are you currently tracking your weekly customer acquisition costs and average ticket size across different Boise neighborhoods?"
+      ],
+      "outreachSubject": "Quick question regarding after-hours web requests at Hyde Park Plumbing",
+      "outreachBody": "Hi Hyde Park Plumbing team,\n\nI was looking at your Boise service offerings and noticed your site highlights a 45-minute emergency response guarantee 24/7, but also notes that online service requests are only processed between 7:00 AM and 8:00 PM.\n\nWhen a homeowner in the North End or Bench has a burst pipe or water heater failure at 10 PM and submits a web request, does your on-call crew get an immediate dispatch alert, or do those requests sit until morning?\n\nAt ForgeX, we help independent plumbing contractors automate their lead-to-job pipeline: every web inquiry gets an immediate 2-minute response and lands straight into your dispatch board, day or night.\n\nWould you be open to a 10-minute chat next week to see how that could capture more after-hours jobs for your team?\n\nBest regards,\n\n[Founder Name]\nForgeX Automation\n[Founder Street Address, City, State, Zip]\nTo opt out of future updates, reply 'unsubscribe' to this email."
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://hydepark-plumbing.com/",
+          "usedFor": "Business identity, physical address, license #PLB-J-4285, $2M insurance, 24/7 emergency services, response times, form intake hours, script tags (LeadConnector, LinkGraph, LiteSpeed), and technician testimonial mentions."
+        },
+        {
+          "url": "https://hydepark-plumbing.com/about-us/",
+          "usedFor": "Company founding date (2009), 10,000+ completed jobs, warranty policies, licensing verification, and local ownership details."
+        },
+        {
+          "url": "https://hydepark-plumbing.com/contact-us/",
+          "usedFor": "Contact channels, business operating hours (7am-8pm), response commitments (within 2 hours), and departmental inbox roles (Service, AP/AR, Sales)."
+        },
+        {
+          "url": "https://hydepark-plumbing.com/terms-of-service/",
+          "usedFor": "Verification of terms content and URL redirection behavior."
+        },
+        {
+          "url": "https://hydepark-plumbing.com/privacy-policy/",
+          "usedFor": "Website data retention policies and cookie usage disclosures."
+        },
+        {
+          "url": "https://hydepark-plumbing.com/boise-plumbing-resourses/boise-plumbers-faqs/",
+          "usedFor": "Pricing estimates, emergency call dispatch details, diagnostic fees, and financing options."
+        },
+        {
+          "url": "https://hydepark-plumbing.com/plumbers-boise-id/",
+          "usedFor": "Technician credential requirements (licensed Journeyman/Master Plumber) and job workflow process."
+        },
+        {
+          "url": "https://hydepark-plumbing.com/boise-idaho-plumbing-service-area/",
+          "usedFor": "Specific neighborhood response times (10-25 mins) and local plumbing infrastructure issues."
+        },
+        {
+          "url": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/",
+          "usedFor": "Published 2026 pricing benchmarks, secondary phone number [redacted], and author [redacted] identification."
+        },
+        {
+          "url": "https://hydepark-plumbing.com/hyde-park-plumbing-insights-boise/",
+          "usedFor": "Verification of recent publication dates (January 2026) and service specialty topic coverage."
+        }
+      ],
+      "limitations": [
+        "The specific full name of the company owner/founder was not disclosed on any public website page; the site references local ownership and names staff member [redacted] and technicians [redacted].",
+        "Email addresses on the public website are masked by Cloudflare email protection scripts and render as [email protected].",
+        "Back-office field service management software (e.g., ServiceTitan, Housecall Pro, Jobber, or QuickBooks) cannot be fully verified from public client-side scripts beyond the detected LeadConnector / GoHighLevel presence."
+      ]
+    },
+    "qualification": {
+      "category": "pursue now",
+      "rationale": "Hyde Park Plumbing is a well-established, highly active plumbing contractor (10,000+ jobs completed, active blog updates into 2026, 4.9 stars on 500+ reviews, licensed and insured) with strong commercial volume. The company explicitly states on its web intake form that online requests are only monitored from 7am to 8pm, while advertising a 24/7 45-minute emergency response guarantee. This clear operational disconnect creates an immediate commercial opportunity for ForgeX's $500 Revenue Leak Check or $1,800 Lead-to-job pipeline to bridge the gap between after-hours online inquiries and on-call technician dispatch."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "Family-owned and locally operated since 2009.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "3704 W Overland Rd, Boise, ID 83705",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "We serve all Boise neighborhoods in Ada County with the same fast response time and the same licensed technicians, day or night.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "Hyde Park Plumbing offers full-service residential and commercial plumbing in Boise including 24/7 emergency plumbing, drain cleaning with hydro jetting",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "Our centrally dispatched crews reach most locations in 15-25 minutes, day or night.",
+        "verdict": "not found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "Hyde Park Plumbing (License #PLB-J-4285) has been Boise's trusted plumber since 2009.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://hydepark-plumbing.com/contact-us/",
+        "quote": "Monday - Sunday 7:00 AM - 8:00 PM",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "Idaho License #PLB-J-4285",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "ID License #PLB-J-4285, fully bonded with $2M liability coverage.",
+        "verdict": "not found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://hydepark-plumbing.com/plumbers-boise-id/",
+        "quote": "Idaho Licensed Journeyman or Master Plumber",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "https://hydepark-plumbing.com/wp-content/litespeed/js/",
+        "verdict": "not found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "https://reputationhub.site/reputation/widgets/review_widget/xieV2ZEzons8BUPX9qCI",
+        "verdict": "not found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "https://dashboard.linkgraph.com/scripts/dynamic_optimization.js",
+        "verdict": "not found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "https://www.googletagmanager.com/gtag/js?id=G-4NW95JGCGR",
+        "verdict": "not found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "Online requests are processed Mon-Sun 7am-8pm",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://hydepark-plumbing.com/contact-us/",
+        "quote": "Reply Within 2 Hours",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://hydepark-plumbing.com/contact-us/",
+        "quote": "Service Requests at [email protected], Accounts Payable & Receivable at [email protected], Sales Manager & Consulting at [email protected]",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/",
+        "quote": "Written by [redacted] Hyde Park Plumbing has served the Boise area since 2009.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "Both jobs required more work than anticipated and [redacted] couldn't have been more responsive, patient and considerate.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "quote": "Both jobs required more work than anticipated and [redacted] couldn't have been more responsive, patient and considerate.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "verdict": "found"
+      },
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://hydepark-plumbing.com/contact-us/",
+        "sourceUrl": "https://hydepark-plumbing.com/contact-us/",
+        "verdict": "found"
+      },
+      {
+        "kind": "web form",
+        "value": "https://hydepark-plumbing.com/ (Homepage Step 1/2 Service Request Form)",
+        "sourceUrl": "https://hydepark-plumbing.com/",
+        "verdict": "found"
+      }
+    ],
+    "summary": {
+      "facts": 20,
+      "quotesFound": 14,
+      "quotesNotFound": 6,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 0,
+      "channelsFound": 4,
+      "channelsNotFound": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://hydepark-plumbing.com/boise-plumbing-resourses/boise-plumbers-faqs/",
+      "finalUrl": "https://hydepark-plumbing.com/boise-plumbing-resourses/boise-plumbers-faqs/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:49:02.775Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 117550,
+      "truncated": false,
+      "sha256": "d68c09e9b96543417efebf45ae892c5f9a414173478ed47b106921465dfd1c78",
+      "textSha256": "6a5bc155ab34770463c26a8fcac654ae32498def23f140872a3cd5b7407ab711"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/plumbers-boise-id/",
+      "finalUrl": "https://hydepark-plumbing.com/plumbers-boise-id/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:49:20.781Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 106743,
+      "truncated": false,
+      "sha256": "9ffe0d6fe8502b72c31844f16878b52127b88ce5ca37b0d2c4ecad0c788728b4",
+      "textSha256": "dd3b62cf459c8ac1851c12de4532785848648620b3eeeed7b9beb3cc11e13bd9"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/boise-idaho-plumbing-service-area/",
+      "finalUrl": "https://hydepark-plumbing.com/boise-idaho-plumbing-service-area/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:49:27.519Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 94887,
+      "truncated": false,
+      "sha256": "5729b1ecb5504fc0537a62a9acd33416f4248a108642fb9d806cf31741cdac1e",
+      "textSha256": "b9a1ec9eb9f93f3419ab26b9648c3a564241c082b087ba301e3a9752a411441c"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/",
+      "finalUrl": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:49:31.216Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 76614,
+      "truncated": false,
+      "sha256": "30757bd89b61fc79b28f3c38378eb9195d03f0a146c220d33d7ed503668adb2e",
+      "textSha256": "52e4d22b62bba80b70f6665e4be5e50159f6dd23db53eccb7704bf7782805b48"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/author/andy/",
+      "finalUrl": "https://hydepark-plumbing.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:49:38.148Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 161630,
+      "truncated": false,
+      "sha256": "102812e5dd7d7c7233d12f159e6647abaecc97131b05c0bde06db22cd513da96",
+      "textSha256": "202b91fedc61f4fa2c4369b73c5f862c2094f21f778d5cbc31823bcd3b7144b6"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/hyde-park-plumbing-insights-boise/",
+      "finalUrl": "https://hydepark-plumbing.com/hyde-park-plumbing-insights-boise/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T15:49:41.594Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 105181,
+      "truncated": false,
+      "sha256": "49b6a569130d0c98443b9ed6f7500a848c5799d534ca9dccae71ee4c58931223",
+      "textSha256": "21e21b84596372cce30cddf08864f7b1a3b2d3f030313f6a4c8edfcfeeae78a9"
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://hydepark-plumbing.com/about-us/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/contact-us/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/terms-of-service/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/privacy-policy/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/boise-plumbing-resourses/boise-plumbers-faqs/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/plumbers-boise-id/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/boise-idaho-plumbing-service-area/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/author/andy/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://hydepark-plumbing.com/hyde-park-plumbing-insights-boise/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 11,
+  "usage": {
+    "input": 136032,
+    "cachedInput": 84416,
+    "output": 5866,
+    "thinking": 1973,
+    "toolUse": 0,
+    "total": 143871
+  },
+  "costUsd": 0.07443945,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1335527",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/about-us/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1213866",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/contact-us/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2151305",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/terms-of-service/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_199079",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/privacy-policy/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1322501",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/boise-plumbing-resourses/boise-plumbers-faqs/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1336652",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/plumbers-boise-id/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1424565",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/boise-idaho-plumbing-service-area/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2430648",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_585082",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/author/andy/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1128216",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://hydepark-plumbing.com/hyde-park-plumbing-insights-boise/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Hyde Park Plumbing\",\n    \"location\": \"3704 W Overland Rd, Boise, ID 83705\",\n    \"claims\": [\n      {\n        \"statement\": \"Hyde Park Plumbing is a family-owned and locally operated plumbing business based in Boise, Idaho, operating since 2009.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"Family-owned and locally operated since 2009.\"\n      },\n      {\n        \"statement\": \"The physical business address is located at 3704 W Overland Rd, Boise, ID 83705.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"3704 W Overland Rd, Boise, ID 83705\"\n      },\n      {\n        \"statement\": \"The company serves residential and commercial customers throughout Boise neighborhoods in Ada County.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"We serve all Boise neighborhoods in Ada County with the same fast response time and the same licensed technicians, day or night.\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Plumbing and Drain Contracting Services\",\n    \"activities\": [\n      \"24/7 emergency residential and commercial plumbing repairs\",\n      \"Drain cleaning, hydro jetting, and sewer camera inspection\",\n      \"Water heater repair, maintenance, and replacement (tank and tankless)\",\n      \"Trenchless and traditional sewer and water line repair and replacement\",\n      \"Acoustic and thermal imaging water leak detection and slab leak repair\",\n      \"Whole-home repiping, fixture installation, gas line service, and backflow prevention testing\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Hyde Park Plumbing provides full-service residential and commercial plumbing across Boise.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"Hyde Park Plumbing offers full-service residential and commercial plumbing in Boise including 24/7 emergency plumbing, drain cleaning with hydro jetting\"\n      },\n      {\n        \"statement\": \"The business operates a fleet of service vans dispatched across Boise neighborhoods.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"Our centrally dispatched crews reach most locations in 15-25 minutes, day or night.\"\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://hydepark-plumbing.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The official website is https://hydepark-plumbing.com/ and features service guides, online booking requests, pricing estimates, and customer reviews.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"Hyde Park Plumbing (License #PLB-J-4285) has been Boise's trusted plumber since 2009.\"\n      },\n      {\n        \"statement\": \"The company maintains regular customer service hours seven days a week from 7:00 AM to 8:00 PM with 24/7 emergency dispatch.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/contact-us/\",\n        \"quote\": \"Monday - Sunday 7:00 AM - 8:00 PM\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"Hyde Park Plumbing holds Idaho plumbing contractor license #PLB-J-4285 issued by the Idaho Division of Occupational and Professional Licenses.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"Idaho License #PLB-J-4285\"\n      },\n      {\n        \"statement\": \"The company carries $2 million in commercial general liability insurance coverage and is bonded.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"ID License #PLB-J-4285, fully bonded with $2M liability coverage.\"\n      },\n      {\n        \"statement\": \"All field technicians are licensed Journeyman or Master Plumbers in the state of Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/plumbers-boise-id/\",\n        \"quote\": \"Idaho Licensed Journeyman or Master Plumber\"\n      }\n    ],\n    \"limitations\": \"Specific state business entity registration filings (e.g., Idaho Secretary of State filing numbers, official LLC corporate name, or registered agent details) were not published on the website.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"WordPress (with LiteSpeed Cache & Cloudflare)\",\n      \"purpose\": \"Content management system, web hosting delivery, page caching, and bot/email protection.\",\n      \"evidence\": {\n        \"statement\": \"The website runs WordPress core assets with LiteSpeed JS optimization and Cloudflare static beacon and email obfuscation.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"https://hydepark-plumbing.com/wp-content/litespeed/js/\"\n      }\n    },\n    {\n      \"product\": \"LeadConnector / GoHighLevel\",\n      \"purpose\": \"CRM, lead capture, reputation management widget, and customer communication backend.\",\n      \"evidence\": {\n        \"statement\": \"The site loads review widgets from reputationhub.site and connects to api.leadconnectorhq.com, which are standard GoHighLevel components.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"https://reputationhub.site/reputation/widgets/review_widget/xieV2ZEzons8BUPX9qCI\"\n      }\n    },\n    {\n      \"product\": \"LinkGraph / SearchAtlas Dynamic Optimization\",\n      \"purpose\": \"Search engine optimization and on-page content performance tracking.\",\n      \"evidence\": {\n        \"statement\": \"A dynamic optimization script from dashboard.linkgraph.com is embedded in the website header.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"https://dashboard.linkgraph.com/scripts/dynamic_optimization.js\"\n      }\n    },\n    {\n      \"product\": \"Google Tag Manager / Google Analytics 4\",\n      \"purpose\": \"Web traffic measurement, event tracking, and marketing analytics.\",\n      \"evidence\": {\n        \"statement\": \"Google Tag Manager script tag G-4NW95JGCGR is integrated across all site pages.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"https://www.googletagmanager.com/gtag/js?id=G-4NW95JGCGR\"\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Online service intake forms state that online requests are only processed Monday through Sunday between 7:00 AM and 8:00 PM, creating a 11-hour overnight delay for digital inquiries.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n      \"quote\": \"Online requests are processed Mon-Sun 7am-8pm\"\n    },\n    {\n      \"statement\": \"The contact page offers a form promising reply within 2 hours, while general email inquiries state a turnaround of up to 24 hours.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://hydepark-plumbing.com/contact-us/\",\n      \"quote\": \"Reply Within 2 Hours\"\n    },\n    {\n      \"statement\": \"The website references departmental routing (Service Requests, Accounts Payable & Receivable, Sales Manager & Consulting) handled via general email aliases.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://hydepark-plumbing.com/contact-us/\",\n      \"quote\": \"Service Requests at [email protected], Accounts Payable & Receivable at [email protected], Sales Manager & Consulting at [email protected]\"\n    },\n    {\n      \"statement\": \"The business operates a fleet handling over 10,000 completed jobs with flat-rate dispatch across multiple Boise zones, necessitating coordinated dispatching and invoicing.\",\n      \"label\": \"inference\",\n      \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Web booking requests submitted between 8:00 PM and 7:00 AM sit unprocessed until the morning, potentially losing urgent service jobs to competitors.\",\n      \"label\": \"inference\",\n      \"basis\": \"The website explicitly notes that online requests are only processed 7am-8pm, despite Hyde Park Plumbing offering 24/7 emergency dispatch by phone.\"\n    },\n    {\n      \"problem\": \"Leads from multiple digital marketing sources, SEO pages, and contact forms may require manual entry into dispatching software.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The company relies on GoHighLevel widgets and web forms, but it is unconfirmed whether they automatically synchronize with an underlying field-service management platform (like ServiceTitan or Housecall Pro).\"\n    },\n    {\n      \"problem\": \"Handling separate departmental mailboxes for billing, vendor receipts, and customer service requests creates manual inbox triage overhead.\",\n      \"label\": \"inference\",\n      \"basis\": \"The contact FAQ explicitly instructs customers and vendors to reach out to separate email addresses for Accounts Payable & Receivable, Service Requests, and Sales Consulting.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"GoHighLevel / LeadConnector Native Automation & SMS Triggers\",\n      \"addresses\": \"Instant automated SMS and email auto-replies to online booking submissions received between 8:00 PM and 7:00 AM, advising users of on-call emergency numbers.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Field Service Management Software (e.g., ServiceTitan, Housecall Pro, Jobber)\",\n      \"addresses\": \"End-to-end technician dispatch, GPS routing, flat-rate price books, and integrated invoicing.\",\n      \"alreadyOwned\": false\n    },\n    {\n      \"solution\": \"Zapier or Make integration linking LeadConnector to dispatching software\",\n      \"addresses\": \"Automatic lead sync from web forms into the central scheduling queue within two minutes.\",\n      \"alreadyOwned\": false\n    }\n  ],\n  \"forgexSolutions\": [\n    {\n      \"name\": \"Revenue Leak Check\",\n      \"kind\": \"catalog\",\n      \"description\": \"A $500 one-week diagnostic audit to track how many after-hours web leads, service calls, and quote requests go unanswered or delayed between 8pm and 7am, calculating the lost revenue value.\",\n      \"problem\": \"Online service intake explicitly halts processing at 8:00 PM, meaning high-intent nighttime plumbing emergencies may abandon the web form for competing emergency plumbers.\",\n      \"whyNotExistingSoftware\": \"While GoHighLevel collects the leads, owners typically lack a unified cross-channel conversion report showing how many nocturnal or weekend form submissions dropped off before booking.\"\n    },\n    {\n      \"name\": \"Lead-to-job pipeline\",\n      \"kind\": \"catalog\",\n      \"description\": \"$1,800 setup plus $149/mo automation that pushes every web lead, Google ad lead, and form submission into the field-service calendar within two minutes, triggers instant SMS confirmation, and alerts the on-call dispatcher.\",\n      \"problem\": \"Eliminating the 11-hour overnight processing blackout for digital requests and ensuring instant handoff from web form to on-call plumbing technician.\",\n      \"whyNotExistingSoftware\": \"Native CRM forms often notify staff via generic email batches rather than triggering immediate priority alerts to on-duty field technicians or two-way scheduling confirmation.\"\n    },\n    {\n      \"name\": \"Owner's Monday numbers\",\n      \"kind\": \"catalog\",\n      \"description\": \"$1,200 setup plus $99/mo executive dashboard delivering a single weekly digest of booked revenue, average ticket, job conversion rate by Boise neighborhood, and aged accounts receivable.\",\n      \"problem\": \"Monitoring multiple service categories (trenchless sewer, water heaters, emergency repairs) and ad spend across multiple Boise neighborhoods without manual spreadsheet consolidation.\",\n      \"whyNotExistingSoftware\": \"GoHighLevel tracks front-end leads and SEO, but does not natively combine accounting books, completed field job totals, and vehicle job margins into a clean one-page Monday briefing.\"\n    }\n  ],\n  \"feasibility\": {\n    \"rating\": \"high\",\n    \"explanation\": \"Hyde Park Plumbing already utilizes GoHighLevel / LeadConnector, WordPress, and Cloudflare. These platforms have standard REST APIs and webhook support, allowing easy integration with field-service software (Jobber, ServiceTitan, or Housecall Pro) and SMS alerting systems without touching custom core code.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"partly\",\n    \"explanation\": \"AI can parse after-hours job descriptions, categorize emergency severity (e.g., active flood vs. fixture consultation), and draft tailored replies. However, deterministic automation workflows (webhooks, SMS alerts, calendar sync) must handle scheduling and emergency routing to avoid hallucination or missed emergency dispatches.\"\n  },\n  \"humanReview\": [\n    \"On-call dispatch technician or manager must approve emergency dispatch assignments and customer pricing.\",\n    \"A human dispatcher must confirm emergency arrival time windows before committing technicians to 45-minute response guarantees.\",\n    \"Accounts payable review must inspect and reconcile vendor invoices against supply orders (Grainger, Ferguson, Standard Plumbing Supply) before payment release.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Failure or latency in automated SMS dispatch during a water leak emergency could lead to customer property damage if customers rely solely on digital responses instead of calling 911/emergency phone lines.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Automated customer SMS confirmations and dispatch alerts must strictly comply with TCPA consent and 10DLC registration rules to avoid carrier blocking.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Lead and booking webhooks handle customer personally identifiable information (PII) including physical home addresses, gate codes, and phone numbers, requiring encrypted transmission and strict access permissions.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": true,\n    \"value\": \"$1,500 - $4,500/month in recovered emergency jobs\",\n    \"implementationCost\": \"$1,800 setup + $149/mo (Lead-to-job pipeline) or $500 (Revenue Leak Check)\",\n    \"assumptions\": [\n      \"Average ticket for emergency water heater or leak repair ranges from $300 to $1,500 based on company published pricing guides.\",\n      \"Securing just 2 to 4 additional after-hours digital inquiries per month that would otherwise call a competitor recovers more than $2,000 monthly in gross margin.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Business Owner / General Manager\",\n      \"Operations / Dispatch Manager\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Content Author / Plumbing Staff\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/\",\n        \"quote\": \"Written by [redacted] Hyde Park Plumbing has served the Boise area since 2009.\"\n      },\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Service Technician (named in homeowner testimonial)\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"Both jobs required more work than anticipated and [redacted] couldn't have been more responsive, patient and considerate.\"\n      },\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Service Technician (named in homeowner testimonial)\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\",\n        \"quote\": \"Both jobs required more work than anticipated and [redacted] couldn't have been more responsive, patient and considerate.\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\"\n      },\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://hydepark-plumbing.com/contact-us/\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/contact-us/\"\n      },\n      {\n        \"kind\": \"web form\",\n        \"value\": \"https://hydepark-plumbing.com/ (Homepage Step 1/2 Service Request Form)\",\n        \"sourceUrl\": \"https://hydepark-plumbing.com/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What percentage of your online booking submissions currently arrive outside your 7am-8pm processing window?\",\n      \"When someone submits an online service request after 8:00 PM, how does that inquiry currently get routed to your on-call emergency technician?\",\n      \"Do your website leads flow straight into your field service management software (like ServiceTitan or Housecall Pro), or does someone on your office team manually re-enter them?\",\n      \"How are you currently tracking your weekly customer acquisition costs and average ticket size across different Boise neighborhoods?\"\n    ],\n    \"outreachSubject\": \"Quick question regarding after-hours web requests at Hyde Park Plumbing\",\n    \"outreachBody\": \"Hi Hyde Park Plumbing team,\\n\\nI was looking at your Boise service offerings and noticed your site highlights a 45-minute emergency response guarantee 24/7, but also notes that online service requests are only processed between 7:00 AM and 8:00 PM.\\n\\nWhen a homeowner in the North End or Bench has a burst pipe or water heater failure at 10 PM and submits a web request, does your on-call crew get an immediate dispatch alert, or do those requests sit until morning?\\n\\nAt ForgeX, we help independent plumbing contractors automate their lead-to-job pipeline: every web inquiry gets an immediate 2-minute response and lands straight into your dispatch board, day or night.\\n\\nWould you be open to a 10-minute chat next week to see how that could capture more after-hours jobs for your team?\\n\\nBest regards,\\n\\n[Founder Name]\\nForgeX Automation\\n[Founder Street Address, City, State, Zip]\\nTo opt out of future updates, reply 'unsubscribe' to this email.\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://hydepark-plumbing.com/\",\n        \"usedFor\": \"Business identity, physical address, license #PLB-J-4285, $2M insurance, 24/7 emergency services, response times, form intake hours, script tags (LeadConnector, LinkGraph, LiteSpeed), and technician testimonial mentions.\"\n      },\n      {\n        \"url\": \"https://hydepark-plumbing.com/about-us/\",\n        \"usedFor\": \"Company founding date (2009), 10,000+ completed jobs, warranty policies, licensing verification, and local ownership details.\"\n      },\n      {\n        \"url\": \"https://hydepark-plumbing.com/contact-us/\",\n        \"usedFor\": \"Contact channels, business operating hours (7am-8pm), response commitments (within 2 hours), and departmental inbox roles (Service, AP/AR, Sales).\"\n      },\n      {\n        \"url\": \"https://hydepark-plumbing.com/terms-of-service/\",\n        \"usedFor\": \"Verification of terms content and URL redirection behavior.\"\n      },\n      {\n        \"url\": \"https://hydepark-plumbing.com/privacy-policy/\",\n        \"usedFor\": \"Website data retention policies and cookie usage disclosures.\"\n      },\n      {\n        \"url\": \"https://hydepark-plumbing.com/boise-plumbing-resourses/boise-plumbers-faqs/\",\n        \"usedFor\": \"Pricing estimates, emergency call dispatch details, diagnostic fees, and financing options.\"\n      },\n      {\n        \"url\": \"https://hydepark-plumbing.com/plumbers-boise-id/\",\n        \"usedFor\": \"Technician credential requirements (licensed Journeyman/Master Plumber) and job workflow process.\"\n      },\n      {\n        \"url\": \"https://hydepark-plumbing.com/boise-idaho-plumbing-service-area/\",\n        \"usedFor\": \"Specific neighborhood response times (10-25 mins) and local plumbing infrastructure issues.\"\n      },\n      {\n        \"url\": \"https://hydepark-plumbing.com/how-much-does-a-plumber-cost-in-boise-idaho-2026-price-guide/\",\n        \"usedFor\": \"Published 2026 pricing benchmarks, secondary phone number [redacted], and author [redacted] identification.\"\n      },\n      {\n        \"url\": \"https://hydepark-plumbing.com/hyde-park-plumbing-insights-boise/\",\n        \"usedFor\": \"Verification of recent publication dates (January 2026) and service specialty topic coverage.\"\n      }\n    ],\n    \"limitations\": [\n      \"The specific full name of the company owner/founder was not disclosed on any public website page; the site references local ownership and names staff member [redacted] and technicians [redacted].\",\n      \"Email addresses on the public website are masked by Cloudflare email protection scripts and render as [email protected].\",\n      \"Back-office field service management software (e.g., ServiceTitan, Housecall Pro, Jobber, or QuickBooks) cannot be fully verified from public client-side scripts beyond the detected LeadConnector / GoHighLevel presence.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"pursue now\",\n    \"rationale\": \"Hyde Park Plumbing is a well-established, highly active plumbing contractor (10,000+ jobs completed, active blog updates into 2026, 4.9 stars on 500+ reviews, licensed and insured) with strong commercial volume. The company explicitly states on its web intake form that online requests are only monitored from 7am to 8pm, while advertising a 24/7 45-minute emergency response guarantee. This clear operational disconnect creates an immediate commercial opportunity for ForgeX's $500 Revenue Leak Check or $1,800 Lead-to-job pipeline to bridge the gap between after-hours online inquiries and on-call technician dispatch.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

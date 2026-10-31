@@ -1,0 +1,171 @@
+{
+  "company": {
+    "id": "c20",
+    "name": "D & A Heating and Cooling",
+    "town": "Nampa",
+    "state": "Idaho",
+    "website": "https://www.dahvac.com/"
+  },
+  "model": "gemini-3.8-flash",
+  "status": "completed",
+  "access": "restricted",
+  "startedAt": "2026-10-27T19:32:16.932Z",
+  "finishedAt": "2026-10-27T19:32:45.059Z",
+  "report": {
+    "identity": {
+      "name": "D & A Heating and Cooling",
+      "location": "Nampa, Idaho",
+      "claims": [
+        {
+          "statement": "D & A Heating and Cooling is reported to be located in Nampa, Idaho.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "industry": {
+      "industry": "HVAC",
+      "activities": [
+        "Heating",
+        "Cooling"
+      ],
+      "claims": [
+        {
+          "statement": "The company operates in heating and cooling services based on its trading name.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.dahvac.com/",
+      "claims": [
+        {
+          "statement": "The official website refused automated requests with an HTTP 403 error, preventing any page inspection.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [],
+      "limitations": "Licensing and business registration could not be verified because the website was inaccessible."
+    },
+    "existingSoftware": [],
+    "opportunityEvidence": [],
+    "problems": [],
+    "existingSolutions": [],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "Technical feasibility cannot be assessed because the website was inaccessible and no software or operational systems could be reviewed."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "AI delivery potential cannot be evaluated because no workflows, tools, or business requirements could be identified."
+    },
+    "humanReview": [],
+    "risks": [],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": []
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner",
+        "General Manager"
+      ],
+      "people": [],
+      "channels": []
+    },
+    "discovery": {
+      "questions": [
+        "What field service management software does your team currently use to manage job scheduling and dispatches?",
+        "How do incoming customer calls and web inquiries currently get routed and followed up by your office staff?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [],
+      "limitations": [
+        "The website refused automated requests with an HTTP 403 status code.",
+        "No web pages could be retrieved or reviewed.",
+        "Staff headcount, software systems, licensing, pricing, and contact channels could not be verified."
+      ]
+    },
+    "qualification": {
+      "category": "insufficient evidence",
+      "rationale": "The official website refused automated access (HTTP 403). Without readable web pages, there is insufficient evidence to determine company size, software stack, operational bottlenecks, or whether the business qualifies for ForgeX services."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [],
+    "channels": [],
+    "flags": [],
+    "summary": {
+      "facts": 0,
+      "quotesFound": 0,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 0,
+      "hypotheses": 3,
+      "channelsFound": 0,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.dahvac.com/",
+      "finalUrl": "https://www.dahvac.com/",
+      "outcome": "refused",
+      "status": 403,
+      "detail": "The site refused automated access (HTTP 403).",
+      "retrievedAt": "2026-10-27T19:32:16.932Z",
+      "contentType": "",
+      "bytes": 0,
+      "truncated": false,
+      "sha256": null,
+      "textSha256": null,
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [],
+  "turns": 1,
+  "usage": {
+    "input": 1371,
+    "cachedInput": 0,
+    "output": 762,
+    "thinking": 3287,
+    "toolUse": 0,
+    "total": 5420
+  },
+  "costUsd": 0.016212,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"D & A Heating and Cooling\",\n    \"location\": \"Nampa, Idaho\",\n    \"claims\": [\n      {\n        \"statement\": \"D & A Heating and Cooling is reported to be located in Nampa, Idaho.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"HVAC\",\n    \"activities\": [\n      \"Heating\",\n      \"Cooling\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"The company operates in heating and cooling services based on its trading name.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.dahvac.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The official website refused automated requests with an HTTP 403 error, preventing any page inspection.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [],\n    \"limitations\": \"Licensing and business registration could not be verified because the website was inaccessible.\"\n  },\n  \"existingSoftware\": [],\n  \"opportunityEvidence\": [],\n  \"problems\": [],\n  \"existingSolutions\": [],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"Technical feasibility cannot be assessed because the website was inaccessible and no software or operational systems could be reviewed.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"AI delivery potential cannot be evaluated because no workflows, tools, or business requirements could be identified.\"\n  },\n  \"humanReview\": [],\n  \"risks\": [],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": []\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner\",\n      \"General Manager\"\n    ],\n    \"people\": [],\n    \"channels\": []\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"What field service management software does your team currently use to manage job scheduling and dispatches?\",\n      \"How do incoming customer calls and web inquiries currently get routed and followed up by your office staff?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [],\n    \"limitations\": [\n      \"The website refused automated requests with an HTTP 403 status code.\",\n      \"No web pages could be retrieved or reviewed.\",\n      \"Staff headcount, software systems, licensing, pricing, and contact channels could not be verified.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"insufficient evidence\",\n    \"rationale\": \"The official website refused automated access (HTTP 403). Without readable web pages, there is insufficient evidence to determine company size, software stack, operational bottlenecks, or whether the business qualifies for ForgeX services.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ],
+  "accessNote": "Homepage tried again at run time: refused (The site refused automated access (HTTP 403).)."
+}

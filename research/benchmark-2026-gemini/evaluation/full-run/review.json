@@ -1,0 +1,171 @@
+{
+  "dataset": "C, part of the evaluation of dataset B (tag dataset-b-v1, commit 797d836)",
+  "reviewedOn": "2026-10-27",
+  "reviewer": "Claude (Opus 5.5). Claude also produced dataset A, so this review covers dataset B only and never compares the two; the owner's audit of 20 verdicts and blind review of 10 dossier pairs do that.",
+  "method": "Every quote, channel and flag the run-time checks could not confirm was re-checked against the live page with ForgeX's own fetcher (robots.txt honored, 3 s between requests to a host, no copies kept). A seeded sample of 25 facts per model (scripts/sample.js, seed 20261027) was judged statement against quote, and every detail beyond the quote was looked up on the company's site. Every number, phone and email in a fact or inference statement was checked mechanically (specifics.json). The key evidence behind each prospect, each illustrative value, and each disputed category was checked the same way. Pages re-read unchanged since the run unless noted.",
+  "runTimeChecks": {
+    "gemini-4-argon": { "companies": 25, "completed": 25, "quotedFacts": 388, "quotesFound": 385, "quotesOnAnotherPage": 0, "quotesNotFound": 3, "channels": 22, "channelsNotFound": 0, "ruleFlags": 1 },
+    "gemini-3.8-flash": { "companies": 25, "completed": 25, "quotedFacts": 256, "quotesFound": 250, "quotesOnAnotherPage": 1, "quotesNotFound": 5, "channels": 66, "channelsOnAnotherPage": 1, "channelsNotFound": 2, "ruleFlags": 2 }
+  },
+  "unresolvedQuotes": [
+    { "model": "gemini-4-argon", "id": "c18", "page": "https://boiseremodeling.co/subcontractor", "verdict": "supported", "note": "The quote is the page title, which read_page shows the model; the checker does not search titles." },
+    { "model": "gemini-4-argon", "id": "c19", "page": "https://northstarkitchenandbath.com/contact/", "verdict": "supported", "note": "The quote is the page's meta description (leftover 'Soft Wash' template text, which Argon described as such)." },
+    { "model": "gemini-4-argon", "id": "c24", "page": "https://www.keeleybuilders.com/testimonials", "verdict": "supported", "note": "A form address with its method, as read_page shows forms; the checker searches the address without the method." },
+    { "model": "gemini-3.8-flash", "id": "c05", "page": "https://www.croftselectricboise.com/", "verdict": "supported", "note": "The quote is the page title." },
+    { "model": "gemini-3.8-flash", "id": "c11", "page": "https://www.creationsultd.com/", "verdict": "supported", "note": "The quote is the page's meta description." },
+    { "model": "gemini-3.8-flash", "id": "c13", "page": "https://www.cornerstonecomfort.net/", "count": 3, "verdict": "supported in substance, not verbatim", "note": "The page reads 'Conrerstone Comfort is proudly owned and operated by husband-and-wife team [redacted]'; Flash corrected the site's typo inside the quote." },
+    { "model": "gemini-3.8-flash", "id": "c25", "page": "https://www.kingsroofingandcontracting.com/about/", "verdict": "supported, wrong page cited", "note": "The sentence is on /free-roof-quote/." },
+    { "model": "gemini-4-argon", "id": "c02", "run": "repeat-3", "page": "https://ascending-it.com/it-support-boise/", "verdict": "supported, wrong page cited", "note": "The sentence is on the homepage." }
+  ],
+  "channelsNotConfirmed": [
+    { "model": "gemini-3.8-flash", "id": "c05", "value": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate", "verdict": "supported", "note": "A web form whose address is the contact page Flash read; a page's own address is not in its text, so the checker missed it." },
+    { "model": "gemini-3.8-flash", "id": "c16", "value": "https://amp240v.com/contact-us", "verdict": "supported", "note": "Same pattern; Flash read /contact-us." },
+    { "model": "gemini-3.8-flash", "id": "c23", "value": "https://itsecure.tech/schedule-a-meeting/", "verdict": "supported, wrong page cited", "note": "Linked from the homepage." },
+    { "model": "gemini-3.8-flash", "id": "c05", "run": "repeat-2", "value": "https://www.croftselectricboise.com/contact-electrical-repairs-services-free-estimate", "verdict": "supported", "note": "Same gap as the main run." },
+    { "model": "gemini-3.8-flash", "id": "c05", "run": "repeat-3", "value": "Contact form on website", "verdict": "not usable", "note": "A description instead of an address; not invented, but no use for outreach." }
+  ],
+  "ruleFlags": [
+    { "model": "gemini-4-argon", "id": "c04", "rule": "link not on a page read", "verdict": "false alarm", "note": "The tag-script address is on the page (its quote was found); Argon wrote it in backticks and the checker kept the backtick. Same in round 3 for c01 (google.com/recaptcha/api.js)." },
+    { "model": "gemini-3.8-flash", "id": "c05", "rule": "person not presented as owner or manager", "verdict": "label slip", "note": "The about page says [redacted] 'opened Crofts Electric', so the site presents him as founder; Flash gave his trade titles as the role. Repeated in round 3." },
+    { "model": "gemini-3.8-flash", "id": "c18", "rule": "person not presented as owner or manager", "verdict": "breach, minor", "note": "Named from the company's homepage line 'Public representative: [redacted]'; the site does not present him as an owner or manager." }
+  ],
+  "sample": {
+    "script": "scripts/sample.js 25 20261027",
+    "gemini-4-argon": {
+      "result": "25 of 25 true. 18 supported by their own quote; 7 say more than their quote, and every added detail is on the company's site.",
+      "items": [
+        { "n": 1, "id": "c13", "verdict": "supported by quote" },
+        { "n": 2, "id": "c22", "verdict": "supported by quote" },
+        { "n": 3, "id": "c15", "verdict": "supported beyond quote", "note": "'Owner & IT Technician' is on the about page." },
+        { "n": 4, "id": "c22", "verdict": "supported beyond quote", "note": "The header number [redacted] is in the page's links." },
+        { "n": 5, "id": "c09", "verdict": "supported by quote" },
+        { "n": 6, "id": "c21", "verdict": "supported by quote" },
+        { "n": 7, "id": "c07", "verdict": "supported beyond quote", "note": "'24/7 / 365 emergency plumbing services' is on the about page." },
+        { "n": 8, "id": "c19", "verdict": "supported by quote" },
+        { "n": 9, "id": "c16", "verdict": "supported by quote" },
+        { "n": 10, "id": "c15", "verdict": "supported beyond quote", "note": "All four rates are on the pricing page." },
+        { "n": 11, "id": "c08", "verdict": "supported by quote" },
+        { "n": 12, "id": "c25", "verdict": "supported by quote" },
+        { "n": 13, "id": "c21", "verdict": "supported by quote" },
+        { "n": 14, "id": "c21", "verdict": "supported by quote" },
+        { "n": 15, "id": "c24", "verdict": "supported by quote" },
+        { "n": 16, "id": "c15", "verdict": "supported by quote" },
+        { "n": 17, "id": "c04", "verdict": "supported beyond quote", "note": "The homepage sentence continues with the two industries not in the quote." },
+        { "n": 18, "id": "c11", "verdict": "supported by quote" },
+        { "n": 19, "id": "c05", "verdict": "supported by quote" },
+        { "n": 20, "id": "c07", "verdict": "supported by quote" },
+        { "n": 21, "id": "c11", "verdict": "supported beyond quote", "note": "ProShop and FAIR generation are on /key-advantages, not the cited /about page." },
+        { "n": 22, "id": "c17", "verdict": "supported by quote" },
+        { "n": 23, "id": "c05", "verdict": "supported beyond quote", "note": "The founder and the Lexington, KY start are on the about page." },
+        { "n": 24, "id": "c23", "verdict": "supported by quote" },
+        { "n": 25, "id": "c22", "verdict": "supported by quote" }
+      ]
+    },
+    "gemini-3.8-flash": {
+      "result": "24 of 25 true. 21 supported by their own quote; 3 say more than their quote, all true on the site; 1 contradicted.",
+      "items": [
+        { "n": 1, "id": "c16", "verdict": "supported by quote" },
+        { "n": 2, "id": "c02", "verdict": "supported by quote" },
+        { "n": 3, "id": "c04", "verdict": "supported by quote" },
+        { "n": 4, "id": "c17", "verdict": "supported beyond quote", "note": "The Buffalo Bucks plan and what it covers are on the maintenance-plan page." },
+        { "n": 5, "id": "c12", "verdict": "supported by quote" },
+        { "n": 6, "id": "c16", "verdict": "supported by quote" },
+        { "n": 7, "id": "c24", "verdict": "supported by quote" },
+        { "n": 8, "id": "c08", "verdict": "supported by quote" },
+        { "n": 9, "id": "c21", "verdict": "supported by quote" },
+        { "n": 10, "id": "c24", "verdict": "supported by quote" },
+        { "n": 11, "id": "c16", "verdict": "supported by quote" },
+        { "n": 12, "id": "c14", "verdict": "supported by quote" },
+        { "n": 13, "id": "c18", "verdict": "supported by quote" },
+        { "n": 14, "id": "c15", "verdict": "supported by quote" },
+        { "n": 15, "id": "c16", "verdict": "supported by quote" },
+        { "n": 16, "id": "c15", "verdict": "supported beyond quote", "note": "The contact page embeds a Wix service-request form in a frame." },
+        { "n": 17, "id": "c07", "verdict": "contradicted", "note": "Flash called '0+ years experience' an unconfigured placeholder counter. The page's HTML is an Elementor counter with data-to-value=\"10\" that counts up when the page loads; ForgeX's text reader sees only the starting 0." },
+        { "n": 18, "id": "c17", "verdict": "supported by quote" },
+        { "n": 19, "id": "c01", "verdict": "supported by quote" },
+        { "n": 20, "id": "c11", "verdict": "supported by quote", "note": "The quote is the homepage's meta description." },
+        { "n": 21, "id": "c18", "verdict": "supported beyond quote", "note": "The privacy policy's same sentence says form fields are masked." },
+        { "n": 22, "id": "c09", "verdict": "supported by quote" },
+        { "n": 23, "id": "c01", "verdict": "supported by quote" },
+        { "n": 24, "id": "c11", "verdict": "supported by quote" },
+        { "n": 25, "id": "c16", "verdict": "supported by quote" }
+      ]
+    }
+  },
+  "identity": "Both models named all 25 companies and their locations correctly. Argon also gave street addresses where a page shows one (c12, c23), and every digit in them is on a page it read.",
+  "licenseNumbers": "Both models report the same numbers for c06 (RCE-5471), c13 (#051546), c18 (8381215), c22 (PLB-C-12709) and c25 (RCE-66571), and every digit is on a page read. Argon's c05 numbers match the site's pairing of each number to its license type (Idaho and Kentucky). Not checked against Idaho's license search, which the protocol leaves to the owner.",
+  "keyEvidence": [
+    { "id": "c13", "finding": "All 14 pages read link to [redacted] (an address at the domain yzzysservice.com); on the homepage it is the envelope icon beside the footer text, which shows [redacted] (an address at cornerstonecomfort.net). A DNS lookup on 2026-10-27 found no such domain, while the old brand's izzysservice.com has Google mail servers. The page title still says Izzy's Service.", "reportedBy": "Argon as a fact and as the outreach opener; Flash listed yzzysservice.com as the 'legacy domain' in a hypothesis." },
+    { "id": "c22", "finding": "Coupons marked 'expires 5/31/25' and 'expires 7/31/25'; the Schedule Service form offers Air Conditioning and Heating on a plumbing company's site, and no other page read mentions air conditioning; ServiceTitan and Choozle scripts on every page; no page states a headcount." },
+    { "id": "c07", "finding": "/best-plumber-near-me/ says '[redacted] answers, [redacted] shows up, and [redacted] fixes it. That's Crossflow Plumbing. That's the whole pitch.' Flash read that page; Argon did not." },
+    { "id": "c14", "finding": "The homepage says 'One trusted electrician. Every project, big or small.'; the contact form 'opens your email app with the details filled in'; the contact email is tristan@; no page read says 'our team'." },
+    { "id": "c16", "finding": "Lorem ipsum on the financing page; [redacted] site-wide and [redacted] on the services page; LeadConnector scripts; the homepage lists '[redacted], General Manager' and '[redacted], Owner', says 'Our team is dependable' and 'since 1996'; the services page says 'Our team of experienced electricians'." },
+    { "id": "c17", "finding": "The about page says 'We keep our crew small to train each plumber the right way'; the homepage says the founder's wife handles scheduling and bookkeeping; Jobber client hub links; 'all technicians ... are licensed'. No page gives a headcount." }
+  ],
+  "valueBases": [
+    { "model": "gemini-4-argon", "id": "c07", "basis": "$800 tank and $1,500 tankless water heater, on /water-heater-repair-boise/", "verdict": "on the site" },
+    { "model": "gemini-4-argon", "id": "c13", "basis": "$240/year Gold plan and $139 maintenance on /comfort-club; $2450 and $5499 specials on /specials", "verdict": "on the site" },
+    { "model": "gemini-4-argon", "id": "c16", "basis": "$89 onsite consultation", "verdict": "on the site" },
+    { "model": "gemini-4-argon", "id": "c17", "basis": "$199/year Buffalo Bucks plan", "verdict": "on the site" },
+    { "model": "gemini-4-argon", "id": "c22", "basis": "$99 water heater flush coupon", "verdict": "on the site but expired 5/31/25" },
+    { "model": "gemini-3.8-flash", "id": "c13", "basis": "$2450, $5499 and $139", "verdict": "on the site" },
+    { "model": "gemini-3.8-flash", "id": "c22", "basis": "'most standard drain cleaning jobs we do cost between $100 and $300'", "verdict": "on the site" }
+  ],
+  "qualification": {
+    "note": "Claude's assessment for the owner's audit. Staff size (ForgeX's 10 to 75) is not shown on any site, so size calls rest on wording.",
+    "outOfSegment": "c01, c02, c04, c06, c08, c09, c11, c12, c15, c18, c19, c21, c23, c24, c25: both models 'not a fit', correct under the segment definition (not HVAC, plumbing or electrical).",
+    "restricted": "c03, c10, c20: both models 'insufficient evidence' with no facts and no flags, in every run. Pass.",
+    "inSegment": [
+      { "id": "c05", "argon": "pursue later", "flash": "pursue later", "assessment": "both supported" },
+      { "id": "c07", "argon": "pursue later", "flash": "not a fit", "assessment": "Flash better supported (solo-operator statement on a page Argon did not read)" },
+      { "id": "c13", "argon": "pursue now", "flash": "pursue later", "assessment": "Argon supported by the verified broken email link; Flash defensible but missed it" },
+      { "id": "c14", "argon": "pursue later", "flash": "not a fit", "assessment": "Flash better supported ('One trusted electrician', no team); Argon flagged the doubt" },
+      { "id": "c16", "argon": "pursue later", "flash": "not a fit", "assessment": "Argon better supported; Flash's 'well under 10 staff' rests on two named people" },
+      { "id": "c17", "argon": "pursue later", "flash": "not a fit", "assessment": "either defensible; Flash's '2 to 4 individuals' is on no page" },
+      { "id": "c22", "argon": "pursue now", "flash": "pursue later", "assessment": "either defensible; Argon's rests on verified defects; Flash's '10 to 75 staff' has no source" }
+    ]
+  },
+  "errorsTheChecksMissed": {
+    "gemini-4-argon": [
+      "c22: the illustrative value uses a coupon that expired 5/31/25, after reporting the expired coupons itself.",
+      "c07: did not read the page with the decisive solo-operator statement.",
+      "c04, c13: script addresses given as product names (cosmetic).",
+      "Combines facts from two pages under one citation (c11), so 7 of 25 sampled statements say more than their own quote."
+    ],
+    "gemini-3.8-flash": [
+      "c07: read an animated counter's starting value as a site defect, labeled fact.",
+      "c17: made up a team size of 'approximately 2 to 4 individuals'.",
+      "c22: asserted a team size 'within the 10 to 75 staff range' with no source.",
+      "c16: inferred 'well under 10 staff' from two named people.",
+      "c13: called the nonexistent typo domain the 'legacy domain', and corrected the site's typo inside a quote.",
+      "c01: 'complies with commercial and residential building codes' overstates an FAQ that describes code requirements.",
+      "c18: named a 'Public representative' (rule breach)."
+    ]
+  },
+  "consistency": {
+    "companies": "c01-c05, three runs per model (main, repeat-2, repeat-3)",
+    "result": "Categories, proposed offers and outreach decisions were identical in all three runs for both models. Facts per run varied by up to 7 for the same company (Argon c02: 19, 18, 12; Flash c01: 11, 7, 11). Two runs of a company had 37% of their quotes in common on average for Argon and 27% for Flash (intersection over union), though 84% and 79% of their pages were the same. Cost per company varied up to 30% (Argon c05 $0.162-$0.231).",
+    "limitation": "Only c05 needed a real qualification judgment; c01, c02 and c04 are plainly outside the segment and c03 is restricted. The disputed calls (c07, c13, c14, c16, c17, c22) were not repeated.",
+    "script": "scripts/consistency.js"
+  },
+  "costs": {
+    "source": "full-run/ledger.jsonl",
+    "stageTotalUsd": 6.057,
+    "mainRunUsd": { "gemini-4-argon": 3.4937, "gemini-3.8-flash": 1.1352 },
+    "consistencyRoundsUsd": 1.428,
+    "allRunsUsd": { "gemini-4-argon": 4.4701, "gemini-3.8-flash": 1.5869 },
+    "perCompanyResearchedInFullUsd": { "gemini-4-argon": 0.1559, "gemini-3.8-flash": 0.0493 },
+    "perCompanyAfterPromotionsUsd": { "gemini-4-argon": 0.3118, "gemini-3.8-flash": 0.0986, "note": "Argon's promotional price ends 2026-11-30 and Flash's 2026-12-31; both then double." },
+    "perRestrictedCompanyUsd": { "gemini-4-argon": 0.0215, "gemini-3.8-flash": 0.0168 },
+    "mainRunInSegmentVsOutUsd": { "gemini-4-argon": [1.6399, 1.7895], "gemini-3.8-flash": [0.3888, 0.6962], "note": "7 in-segment companies researched in full vs the 15 outside the segment." }
+  },
+  "checkerGaps": {
+    "note": "Four gaps in the run-time checks. They caused 10 false alarms across the 70 runs and hid no fabrication. Fixing them is a later protocol version's job; the run-time results above stand as recorded.",
+    "items": [
+      "Quotes from a page's title or meta description, which read_page shows the model, are not searched (4 quotes).",
+      "Forms are shown to the model as 'address (method)' but searched as the address alone (1 quote).",
+      "A web-form channel whose address is a page the run read is not recognized (3 channels).",
+      "A link written in backticks keeps the backtick and is flagged (2 flags)."
+    ]
+  }
+}

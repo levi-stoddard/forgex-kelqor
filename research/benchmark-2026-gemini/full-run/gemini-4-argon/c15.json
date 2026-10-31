@@ -1,0 +1,627 @@
+{
+  "company": {
+    "id": "c15",
+    "name": "Idaho PC Solutions, LLC",
+    "town": "Boise",
+    "state": "Idaho",
+    "website": "https://www.idahopcsolutions.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:46:33.292Z",
+  "finishedAt": "2026-10-27T18:47:41.764Z",
+  "report": {
+    "identity": {
+      "name": "Idaho PC Solutions, LLC",
+      "location": "280 N 8th St, Boise, ID 83702",
+      "claims": [
+        {
+          "statement": "The company operates under the legal name Idaho PC Solutions, LLC.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/",
+          "quote": "© 2026 Idaho PC Solutions, LLC. In-shop · On-site · Remote"
+        },
+        {
+          "statement": "The business is located at 280 N 8th St, Boise, ID 83702 and operates by appointment.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/",
+          "quote": "Visit by appointment 280 N 8th St Boise, ID 83702"
+        },
+        {
+          "statement": "The business was founded in 2007 and serves Boise and the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/",
+          "quote": "From one broken laptop to an entire office network, get practical solutions and personal service from a local business founded in 2007."
+        },
+        {
+          "statement": "[redacted] is the Owner and IT technician.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+          "quote": "MEET YOUR LOCAL TECH [redacted] Owner & IT technician"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Computer Repair and Information Technology (IT) Support Services",
+      "activities": [
+        "Desktop and laptop computer repair and upgrades",
+        "Small business IT support and managed IT services",
+        "Networking, Wi-Fi, and cabling troubleshooting",
+        "Security and malware removal",
+        "Data backup and recovery",
+        "Cloud and Microsoft 365 configuration and support",
+        "Computer setup and data migration",
+        "Gaming PC repair and security camera support"
+      ],
+      "claims": [
+        {
+          "statement": "Idaho PC Solutions provides computer repair and business IT support for homes and small businesses.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+          "quote": "Idaho PC Solutions helps people and small businesses throughout Boise and the Treasure Valley solve everyday computer and IT problems."
+        },
+        {
+          "statement": "Services include desktop and laptop repairs, upgrades, malware removal, backups, networking, cloud services, and small-business IT.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+          "quote": "Support includes desktop and laptop repairs, upgrades, malware removal, backups, networking, cloud services, and small-business IT."
+        },
+        {
+          "statement": "The company also offers support for gaming PCs and security cameras.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/services.html",
+          "quote": "Gaming & custom PCs Freezing, graphics problems, startup failures, and compatible upgrades."
+        },
+        {
+          "statement": "The company is an IT and computer repair provider rather than an HVAC, plumbing, or electrical home-service contractor.",
+          "label": "inference",
+          "sourceUrl": "https://www.idahopcsolutions.com/services.html",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.idahopcsolutions.com/",
+      "claims": [
+        {
+          "statement": "Regular hours are Monday through Friday from 10 a.m. to 6 p.m., with weekends by appointment.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/",
+          "quote": "Regular hours are Monday–Friday, 10 a.m.–6 p.m.; weekends and after-hours visits are by appointment and may carry additional fees."
+        },
+        {
+          "statement": "Published starting rates include $95 for standard diagnostics, $120 per hour for on-site support, $95 per hour for remote support, and $145 for malware removal.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/computer-repair-it-pricing.html",
+          "quote": "Diagnostics From $95 Hardware, software, startup, freezing, and performance troubleshooting."
+        },
+        {
+          "statement": "On-site support is billed at $120 per hour and remote support at $95 per hour.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/computer-repair-it-pricing.html",
+          "quote": "On-site support $120 / hour Computer, printer, network, and IT help at your home or business."
+        },
+        {
+          "statement": "The company serves multiple communities across the Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, Middleton, Garden City, Idaho City, and Emmett.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/",
+          "quote": "Boise ↗ Meridian ↗ Nampa ↗ Caldwell ↗ Eagle ↗ Kuna ↗ Star ↗ Middleton ↗ Garden City ↗ Idaho City ↗ Emmett ↗"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The website identifies the entity as an LLC (Idaho PC Solutions, LLC).",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/privacy-policy.html",
+          "quote": "This policy explains how Idaho PC Solutions, LLC handles information collected through this website, service requests, customer communications, repair and IT services, and payments."
+        }
+      ],
+      "limitations": "No state business registration numbers, contractor license numbers, or professional certifications are published on the inspected pages of the website."
+    },
+    "existingSoftware": [
+      {
+        "product": "Wix (manage.wix.com / vbzlife1.wixforms.com)",
+        "purpose": "Website services, hosting support, and embedded customer intake forms",
+        "evidence": {
+          "statement": "The privacy policy states that information is shared with service providers supporting website hosting and forms, including Wix, and the contact page embeds a form from vbzlife1.wixforms.com.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/privacy-policy.html",
+          "quote": "Information may be shared with service providers supporting website hosting and forms (including Wix), communications, payment processing, and authorized repair or IT work"
+        }
+      },
+      {
+        "product": "Authorize.net",
+        "purpose": "Payment processing",
+        "evidence": {
+          "statement": "The privacy policy states that payments are processed through Authorize.net.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahopcsolutions.com/privacy-policy.html",
+          "quote": "When a payment is processed through Authorize.net, information needed for that transaction is provided to Authorize.net and the financial institutions or processors involved."
+        }
+      },
+      {
+        "product": "Service Desk application (idaho-pc-solutions-service-desk.floot.app)",
+        "purpose": "Internal staff login / service desk portal",
+        "evidence": {
+          "statement": "All inspected pages reference the host idaho-pc-solutions-service-desk.floot.app alongside a 'Staff Login' footer link.",
+          "label": "inference",
+          "sourceUrl": "https://www.idahopcsolutions.com/",
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "Customers requesting service are asked to call, text, email [redacted], or submit a Wix form describing their device, symptoms, and location, after which the business contacts them to discuss the next step.",
+        "label": "fact",
+        "sourceUrl": "https://www.idahopcsolutions.com/contact-us.html",
+        "quote": "Describe your device, the problem, and your location. We’ll contact you to discuss the next step."
+      },
+      {
+        "statement": "The about page presents a single named technician and owner, [redacted], who helps callers decide whether an in-shop, on-site, or remote appointment is appropriate.",
+        "label": "fact",
+        "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+        "quote": "[redacted] can help you decide whether the next step is an in-shop appointment, an on-site visit, or remote assistance."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "As an owner-operated IT and computer repair shop handling inquiries by phone, text, email, and web form, incoming requests while the technician is performing hands-on or on-site work may wait for manual follow-up.",
+        "label": "hypothesis",
+        "basis": "The site indicates appointments and triage are handled by owner/technician [redacted] across in-shop, on-site, and remote engagements, with manual callback/follow-up after form or phone inquiries."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "Wix Forms and Wix Business automations (manage.wix.com / vbzlife1.wixforms.com)",
+        "addresses": "Automated form confirmation replies and basic inquiry capture",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Existing service desk web application (idaho-pc-solutions-service-desk.floot.app)",
+        "addresses": "Internal ticket and staff service desk management",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because Idaho PC Solutions, LLC is outside ForgeX's target segment of 10-to-75-staff HVAC, plumbing, and electrical contractors, and is itself an IT services provider."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended."
+    },
+    "humanReview": [
+      "No ForgeX automation is recommended; in general, diagnostic quotes and device access authorizations in computer repair require direct human technician review."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Targeting an IT services and computer repair micro-business falls outside ForgeX's home-service contractor segment and risks misallocating sales and implementation resources."
+      },
+      {
+        "type": "security",
+        "description": "Customer inquiries in computer repair can inadvertently include sensitive account or device details despite the website's warning not to send passwords or payment details."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "The company is not a fit for ForgeX's services; therefore, no commercial value or implementation cost estimate is recommended."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner & IT technician"
+      ],
+      "people": [
+        {
+          "name": "[redacted]",
+          "role": "Owner & IT technician",
+          "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+          "quote": "MEET YOUR LOCAL TECH [redacted] Owner & IT technician"
+        }
+      ],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.idahopcsolutions.com/contact-us.html"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How many technicians and support staff currently work at Idaho PC Solutions?",
+        "How are incoming web form, text, and email service requests routed into your service desk system today?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.idahopcsolutions.com/",
+          "usedFor": "Company identity, location, hours, service areas, service overview, and technical host references."
+        },
+        {
+          "url": "https://www.idahopcsolutions.com/about-us.html",
+          "usedFor": "Owner identity ([redacted], Owner & IT technician), company history, and intake process."
+        },
+        {
+          "url": "https://www.idahopcsolutions.com/contact-us.html",
+          "usedFor": "Business contact channels, physical address, and Wix form integration."
+        },
+        {
+          "url": "https://www.idahopcsolutions.com/computer-repair-it-pricing.html",
+          "usedFor": "Published service pricing for diagnostics, repairs, remote support, and on-site support."
+        },
+        {
+          "url": "https://www.idahopcsolutions.com/services.html",
+          "usedFor": "Full list of computer repair and IT support services."
+        },
+        {
+          "url": "https://www.idahopcsolutions.com/blank-page.html",
+          "usedFor": "Terms and conditions and legal entity confirmation."
+        },
+        {
+          "url": "https://www.idahopcsolutions.com/privacy-policy.html",
+          "usedFor": "Confirmation of Wix and Authorize.net usage and data handling policies."
+        }
+      ],
+      "limitations": [
+        "Exact employee headcount is not stated on the website, though the About page only names a single owner/technician ([redacted]).",
+        "No state licensing or registration numbers are published on the website.",
+        "Paid lead generation usage is not observable from the inspected pages."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "ForgeX's segment is owner-led home-service contractors (HVAC, plumbing, and electrical) with roughly 10 to 75 staff who pay for leads. Idaho PC Solutions, LLC is a local computer repair and small-business IT support provider in Boise, Idaho, featuring a single named owner and IT technician ([redacted]) and technical expertise to manage its own IT and service-desk systems."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.idahopcsolutions.com/",
+        "quote": "© 2026 Idaho PC Solutions, LLC. In-shop · On-site · Remote",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.idahopcsolutions.com/",
+        "quote": "Visit by appointment 280 N 8th St Boise, ID 83702",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.idahopcsolutions.com/",
+        "quote": "From one broken laptop to an entire office network, get practical solutions and personal service from a local business founded in 2007.",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+        "quote": "MEET YOUR LOCAL TECH [redacted] Owner & IT technician",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+        "quote": "Idaho PC Solutions helps people and small businesses throughout Boise and the Treasure Valley solve everyday computer and IT problems.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+        "quote": "Support includes desktop and laptop repairs, upgrades, malware removal, backups, networking, cloud services, and small-business IT.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.idahopcsolutions.com/services.html",
+        "quote": "Gaming & custom PCs Freezing, graphics problems, startup failures, and compatible upgrades.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.idahopcsolutions.com/",
+        "quote": "Regular hours are Monday–Friday, 10 a.m.–6 p.m.; weekends and after-hours visits are by appointment and may carry additional fees.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.idahopcsolutions.com/computer-repair-it-pricing.html",
+        "quote": "Diagnostics From $95 Hardware, software, startup, freezing, and performance troubleshooting.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.idahopcsolutions.com/computer-repair-it-pricing.html",
+        "quote": "On-site support $120 / hour Computer, printer, network, and IT help at your home or business.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.idahopcsolutions.com/",
+        "quote": "Boise ↗ Meridian ↗ Nampa ↗ Caldwell ↗ Eagle ↗ Kuna ↗ Star ↗ Middleton ↗ Garden City ↗ Idaho City ↗ Emmett ↗",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.idahopcsolutions.com/privacy-policy.html",
+        "quote": "This policy explains how Idaho PC Solutions, LLC handles information collected through this website, service requests, customer communications, repair and IT services, and payments.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.idahopcsolutions.com/privacy-policy.html",
+        "quote": "Information may be shared with service providers supporting website hosting and forms (including Wix), communications, payment processing, and authorized repair or IT work",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.idahopcsolutions.com/privacy-policy.html",
+        "quote": "When a payment is processed through Authorize.net, information needed for that transaction is provided to Authorize.net and the financial institutions or processors involved.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.idahopcsolutions.com/contact-us.html",
+        "quote": "Describe your device, the problem, and your location. We’ll contact you to discuss the next step.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+        "quote": "[redacted] can help you decide whether the next step is an in-shop appointment, an on-site visit, or remote assistance.",
+        "verdict": "found"
+      },
+      {
+        "section": "contacts.people",
+        "sourceUrl": "https://www.idahopcsolutions.com/about-us.html",
+        "quote": "MEET YOUR LOCAL TECH [redacted] Owner & IT technician",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.idahopcsolutions.com/contact-us.html",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 17,
+      "quotesFound": 17,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 2,
+      "hypotheses": 0,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.idahopcsolutions.com/",
+      "finalUrl": "https://www.idahopcsolutions.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:46:36.517Z",
+      "contentType": "text/html",
+      "bytes": 15043,
+      "truncated": false,
+      "sha256": "faac25df2b76fd7756b37b6e7a2c12e73b1a0321c66cc44a81594ac2afd666e4",
+      "textSha256": "a55bd9d0ad5723deb38e7a32cdad1e2bd7ea03d16d15b65eea1b7c63e5072662",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/about-us.html",
+      "finalUrl": "https://www.idahopcsolutions.com/about-us.html",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:46:43.803Z",
+      "contentType": "text/html",
+      "bytes": 8829,
+      "truncated": false,
+      "sha256": "f443df2b61ed60870c63de88e07cf3340707b4b8a0232549d47cff0eb634952e",
+      "textSha256": "bf5a89cd49916e3cb0691c54fb162114df3c20a66e110a24a894f5de02f02d3d",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/contact-us.html",
+      "finalUrl": "https://www.idahopcsolutions.com/contact-us.html",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:46:46.764Z",
+      "contentType": "text/html",
+      "bytes": 8397,
+      "truncated": false,
+      "sha256": "528945ce1dab72a742d87916ebab8df66eceaeee77e96cbacc58327cb99c86d6",
+      "textSha256": "e86ac446f4c3a554744719feb52c376e4caea012c26314785152b5471e42b7da",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/computer-repair-it-pricing.html",
+      "finalUrl": "https://www.idahopcsolutions.com/computer-repair-it-pricing.html",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:46:49.746Z",
+      "contentType": "text/html",
+      "bytes": 8374,
+      "truncated": false,
+      "sha256": "4f93437dc129fd0d8cef9f1458867494cf8dc4052105b51fb2cbb4010cc308e5",
+      "textSha256": "1b9df5b450eb8a32d464619234671b6c713b6af9bb6228f93cafc6805009d9dd",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/services.html",
+      "finalUrl": "https://www.idahopcsolutions.com/services.html",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:46:52.766Z",
+      "contentType": "text/html",
+      "bytes": 10895,
+      "truncated": false,
+      "sha256": "95d89479d7d92bd0a89ff66412a18189346c14037def9d7fde6c09c618505788",
+      "textSha256": "fcf543cbf9d4d8fc1847af58d4e30081ba9c3c8e0301c49aa4571972b889da33",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/blank-page.html",
+      "finalUrl": "https://www.idahopcsolutions.com/blank-page.html",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:46:55.834Z",
+      "contentType": "text/html",
+      "bytes": 8161,
+      "truncated": false,
+      "sha256": "e430f0ad053c2c638ec140866ba7de87acd846031136c8ec1f6c69173b23a75d",
+      "textSha256": "a0f5b32d873955a46cd023c07719bd67c65aa2fb9dd8e341392769190faacc58",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/privacy-policy.html",
+      "finalUrl": "https://www.idahopcsolutions.com/privacy-policy.html",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:47:00.361Z",
+      "contentType": "text/html",
+      "bytes": 10656,
+      "truncated": false,
+      "sha256": "c6c876c29e494ee96a995e15ee011001a15e910b0e4deaf9be67944b401b8d53",
+      "textSha256": "88cf7a97f2e6a6579c4ec32241d2de5ce59e39ecf73336f1ba2ab10b0916fe59",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.idahopcsolutions.com/about-us.html",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/contact-us.html",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/computer-repair-it-pricing.html",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/services.html",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/blank-page.html",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahopcsolutions.com/privacy-policy.html",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 36452,
+    "cachedInput": 19849,
+    "output": 3677,
+    "thinking": 499,
+    "toolUse": 0,
+    "total": 40628
+  },
+  "costUsd": 0.07695089999999999,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1669376",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahopcsolutions.com/about-us.html"
+      }
+    },
+    {
+      "id": "call_1669377",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahopcsolutions.com/contact-us.html"
+      }
+    },
+    {
+      "id": "call_1669378",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahopcsolutions.com/computer-repair-it-pricing.html"
+      }
+    },
+    {
+      "id": "call_1669379",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahopcsolutions.com/services.html"
+      }
+    },
+    {
+      "id": "call_1669380",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahopcsolutions.com/blank-page.html"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2118062",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahopcsolutions.com/privacy-policy.html"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Idaho PC Solutions, LLC\",\n    \"location\": \"280 N 8th St, Boise, ID 83702\",\n    \"claims\": [\n      {\n        \"statement\": \"The company operates under the legal name Idaho PC Solutions, LLC.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/\",\n        \"quote\": \"© 2026 Idaho PC Solutions, LLC. In-shop · On-site · Remote\"\n      },\n      {\n        \"statement\": \"The business is located at 280 N 8th St, Boise, ID 83702 and operates by appointment.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/\",\n        \"quote\": \"Visit by appointment 280 N 8th St Boise, ID 83702\"\n      },\n      {\n        \"statement\": \"The business was founded in 2007 and serves Boise and the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/\",\n        \"quote\": \"From one broken laptop to an entire office network, get practical solutions and personal service from a local business founded in 2007.\"\n      },\n      {\n        \"statement\": \"[redacted] is the Owner and IT technician.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/about-us.html\",\n        \"quote\": \"MEET YOUR LOCAL TECH [redacted] Owner & IT technician\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Computer Repair and Information Technology (IT) Support Services\",\n    \"activities\": [\n      \"Desktop and laptop computer repair and upgrades\",\n      \"Small business IT support and managed IT services\",\n      \"Networking, Wi-Fi, and cabling troubleshooting\",\n      \"Security and malware removal\",\n      \"Data backup and recovery\",\n      \"Cloud and Microsoft 365 configuration and support\",\n      \"Computer setup and data migration\",\n      \"Gaming PC repair and security camera support\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Idaho PC Solutions provides computer repair and business IT support for homes and small businesses.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/about-us.html\",\n        \"quote\": \"Idaho PC Solutions helps people and small businesses throughout Boise and the Treasure Valley solve everyday computer and IT problems.\"\n      },\n      {\n        \"statement\": \"Services include desktop and laptop repairs, upgrades, malware removal, backups, networking, cloud services, and small-business IT.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/about-us.html\",\n        \"quote\": \"Support includes desktop and laptop repairs, upgrades, malware removal, backups, networking, cloud services, and small-business IT.\"\n      },\n      {\n        \"statement\": \"The company also offers support for gaming PCs and security cameras.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/services.html\",\n        \"quote\": \"Gaming & custom PCs Freezing, graphics problems, startup failures, and compatible upgrades.\"\n      },\n      {\n        \"statement\": \"The company is an IT and computer repair provider rather than an HVAC, plumbing, or electrical home-service contractor.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/services.html\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.idahopcsolutions.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"Regular hours are Monday through Friday from 10 a.m. to 6 p.m., with weekends by appointment.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/\",\n        \"quote\": \"Regular hours are Monday–Friday, 10 a.m.–6 p.m.; weekends and after-hours visits are by appointment and may carry additional fees.\"\n      },\n      {\n        \"statement\": \"Published starting rates include $95 for standard diagnostics, $120 per hour for on-site support, $95 per hour for remote support, and $145 for malware removal.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/computer-repair-it-pricing.html\",\n        \"quote\": \"Diagnostics From $95 Hardware, software, startup, freezing, and performance troubleshooting.\"\n      },\n      {\n        \"statement\": \"On-site support is billed at $120 per hour and remote support at $95 per hour.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/computer-repair-it-pricing.html\",\n        \"quote\": \"On-site support $120 / hour Computer, printer, network, and IT help at your home or business.\"\n      },\n      {\n        \"statement\": \"The company serves multiple communities across the Treasure Valley including Boise, Meridian, Nampa, Caldwell, Eagle, Kuna, Star, Middleton, Garden City, Idaho City, and Emmett.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/\",\n        \"quote\": \"Boise ↗ Meridian ↗ Nampa ↗ Caldwell ↗ Eagle ↗ Kuna ↗ Star ↗ Middleton ↗ Garden City ↗ Idaho City ↗ Emmett ↗\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The website identifies the entity as an LLC (Idaho PC Solutions, LLC).\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/privacy-policy.html\",\n        \"quote\": \"This policy explains how Idaho PC Solutions, LLC handles information collected through this website, service requests, customer communications, repair and IT services, and payments.\"\n      }\n    ],\n    \"limitations\": \"No state business registration numbers, contractor license numbers, or professional certifications are published on the inspected pages of the website.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Wix (manage.wix.com / vbzlife1.wixforms.com)\",\n      \"purpose\": \"Website services, hosting support, and embedded customer intake forms\",\n      \"evidence\": {\n        \"statement\": \"The privacy policy states that information is shared with service providers supporting website hosting and forms, including Wix, and the contact page embeds a form from vbzlife1.wixforms.com.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/privacy-policy.html\",\n        \"quote\": \"Information may be shared with service providers supporting website hosting and forms (including Wix), communications, payment processing, and authorized repair or IT work\"\n      }\n    },\n    {\n      \"product\": \"Authorize.net\",\n      \"purpose\": \"Payment processing\",\n      \"evidence\": {\n        \"statement\": \"The privacy policy states that payments are processed through Authorize.net.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/privacy-policy.html\",\n        \"quote\": \"When a payment is processed through Authorize.net, information needed for that transaction is provided to Authorize.net and the financial institutions or processors involved.\"\n      }\n    },\n    {\n      \"product\": \"Service Desk application (idaho-pc-solutions-service-desk.floot.app)\",\n      \"purpose\": \"Internal staff login / service desk portal\",\n      \"evidence\": {\n        \"statement\": \"All inspected pages reference the host idaho-pc-solutions-service-desk.floot.app alongside a 'Staff Login' footer link.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/\",\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"Customers requesting service are asked to call, text, email [redacted], or submit a Wix form describing their device, symptoms, and location, after which the business contacts them to discuss the next step.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.idahopcsolutions.com/contact-us.html\",\n      \"quote\": \"Describe your device, the problem, and your location. We’ll contact you to discuss the next step.\"\n    },\n    {\n      \"statement\": \"The about page presents a single named technician and owner, [redacted], who helps callers decide whether an in-shop, on-site, or remote appointment is appropriate.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.idahopcsolutions.com/about-us.html\",\n      \"quote\": \"[redacted] can help you decide whether the next step is an in-shop appointment, an on-site visit, or remote assistance.\"\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"As an owner-operated IT and computer repair shop handling inquiries by phone, text, email, and web form, incoming requests while the technician is performing hands-on or on-site work may wait for manual follow-up.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The site indicates appointments and triage are handled by owner/technician [redacted] across in-shop, on-site, and remote engagements, with manual callback/follow-up after form or phone inquiries.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"Wix Forms and Wix Business automations (manage.wix.com / vbzlife1.wixforms.com)\",\n      \"addresses\": \"Automated form confirmation replies and basic inquiry capture\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Existing service desk web application (idaho-pc-solutions-service-desk.floot.app)\",\n      \"addresses\": \"Internal ticket and staff service desk management\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because Idaho PC Solutions, LLC is outside ForgeX's target segment of 10-to-75-staff HVAC, plumbing, and electrical contractors, and is itself an IT services provider.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended.\"\n  },\n  \"humanReview\": [\n    \"No ForgeX automation is recommended; in general, diagnostic quotes and device access authorizations in computer repair require direct human technician review.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Targeting an IT services and computer repair micro-business falls outside ForgeX's home-service contractor segment and risks misallocating sales and implementation resources.\"\n    },\n    {\n      \"type\": \"security\",\n      \"description\": \"Customer inquiries in computer repair can inadvertently include sensitive account or device details despite the website's warning not to send passwords or payment details.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"The company is not a fit for ForgeX's services; therefore, no commercial value or implementation cost estimate is recommended.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner & IT technician\"\n    ],\n    \"people\": [\n      {\n        \"name\": \"[redacted]\",\n        \"role\": \"Owner & IT technician\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/about-us.html\",\n        \"quote\": \"MEET YOUR LOCAL TECH [redacted] Owner & IT technician\"\n      }\n    ],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.idahopcsolutions.com/contact-us.html\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How many technicians and support staff currently work at Idaho PC Solutions?\",\n      \"How are incoming web form, text, and email service requests routed into your service desk system today?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.idahopcsolutions.com/\",\n        \"usedFor\": \"Company identity, location, hours, service areas, service overview, and technical host references.\"\n      },\n      {\n        \"url\": \"https://www.idahopcsolutions.com/about-us.html\",\n        \"usedFor\": \"Owner identity ([redacted], Owner & IT technician), company history, and intake process.\"\n      },\n      {\n        \"url\": \"https://www.idahopcsolutions.com/contact-us.html\",\n        \"usedFor\": \"Business contact channels, physical address, and Wix form integration.\"\n      },\n      {\n        \"url\": \"https://www.idahopcsolutions.com/computer-repair-it-pricing.html\",\n        \"usedFor\": \"Published service pricing for diagnostics, repairs, remote support, and on-site support.\"\n      },\n      {\n        \"url\": \"https://www.idahopcsolutions.com/services.html\",\n        \"usedFor\": \"Full list of computer repair and IT support services.\"\n      },\n      {\n        \"url\": \"https://www.idahopcsolutions.com/blank-page.html\",\n        \"usedFor\": \"Terms and conditions and legal entity confirmation.\"\n      },\n      {\n        \"url\": \"https://www.idahopcsolutions.com/privacy-policy.html\",\n        \"usedFor\": \"Confirmation of Wix and Authorize.net usage and data handling policies.\"\n      }\n    ],\n    \"limitations\": [\n      \"Exact employee headcount is not stated on the website, though the About page only names a single owner/technician ([redacted]).\",\n      \"No state licensing or registration numbers are published on the website.\",\n      \"Paid lead generation usage is not observable from the inspected pages.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"ForgeX's segment is owner-led home-service contractors (HVAC, plumbing, and electrical) with roughly 10 to 75 staff who pay for leads. Idaho PC Solutions, LLC is a local computer repair and small-business IT support provider in Boise, Idaho, featuring a single named owner and IT technician ([redacted]) and technical expertise to manage its own IT and service-desk systems.\"\n  }\n} ",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}

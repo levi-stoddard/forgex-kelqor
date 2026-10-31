@@ -1,0 +1,478 @@
+{
+  "checkedAt": "2026-10-27T14:55:47.274Z",
+  "userAgent": "ForgeXResearch/0.1",
+  "companies": [
+    {
+      "id": "c01",
+      "name": "Boise Metal Works",
+      "website": "https://www.boisemetalworks.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.boisemetalworks.com/",
+        "retrievedAt": "2026-10-27T14:53:47.489Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 20,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c02",
+      "name": "Ascending IT",
+      "website": "https://ascending-it.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://ascending-it.com/",
+        "retrievedAt": "2026-10-27T14:53:50.596Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 12,
+      "termsPages": [
+        {
+          "url": "https://ascending-it.com/terms",
+          "finalUrl": "https://ascending-it.com/terms/",
+          "outcome": "ok",
+          "excerpts": []
+        }
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "c03",
+      "name": "Boss Tool & Manufacturing, Inc.",
+      "website": "https://www.bosstoolmfginc.com/",
+      "homepage": {
+        "outcome": "refused",
+        "status": 200,
+        "detail": "The site answered with a bot check; not worked around.",
+        "finalUrl": "https://www.bosstoolmfginc.com/",
+        "retrievedAt": "2026-10-27T14:53:56.615Z"
+      },
+      "robots": "allow-all",
+      "linksOnHomepage": 0,
+      "termsPages": [],
+      "needsReview": true
+    },
+    {
+      "id": "c04",
+      "name": "Ardent Industries Inc.",
+      "website": "https://ardentindustries.net/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://ardentindustries.net/",
+        "retrievedAt": "2026-10-27T14:54:04.467Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 12,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c05",
+      "name": "Crofts Electric",
+      "website": "https://www.croftselectricboise.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.croftselectricboise.com/",
+        "retrievedAt": "2026-10-27T14:54:07.699Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 24,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c06",
+      "name": "Idaho Roofing Contractors",
+      "website": "https://www.idahoroofingcontractors.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.idahoroofingcontractors.com/",
+        "retrievedAt": "2026-10-27T14:54:11.189Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 38,
+      "termsPages": [
+        {
+          "url": "https://www.idahoroofingcontractors.com/terms/",
+          "finalUrl": "https://www.idahoroofingcontractors.com/terms/",
+          "outcome": "ok",
+          "excerpts": []
+        }
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "c07",
+      "name": "Crossflow Plumbing LLC",
+      "website": "https://crossflowplumbingllc.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://crossflowplumbingllc.com/",
+        "retrievedAt": "2026-10-27T14:54:17.498Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 19,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c08",
+      "name": "Erwin Custom Fabrication",
+      "website": "https://erwinfab.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://erwinfab.com/",
+        "retrievedAt": "2026-10-27T14:54:20.697Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 36,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c09",
+      "name": "MicroTech Systems",
+      "website": "https://www.microtechboise.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.microtechboise.com/",
+        "retrievedAt": "2026-10-27T14:54:23.760Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 21,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c10",
+      "name": "Gem Heating & Air Conditioning",
+      "website": "https://www.gemheating.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.gemheating.com/",
+        "retrievedAt": "2026-10-27T14:54:26.919Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 51,
+      "termsPages": [
+        {
+          "url": "https://www.gemheating.com/terms-conditions/",
+          "finalUrl": "https://www.gemheating.com/terms-conditions/",
+          "outcome": "ok",
+          "excerpts": [
+            "ter software. You must not conduct any systematic or automated data collection activities (including without limitation scraping, data mining, data extraction and data harvesting) on or in relation to this website without our company’s expr"
+          ]
+        }
+      ],
+      "needsReview": true
+    },
+    {
+      "id": "c11",
+      "name": "Creations Unlimited",
+      "website": "https://www.creationsultd.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.creationsultd.com/",
+        "retrievedAt": "2026-10-27T14:54:33.028Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 15,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c12",
+      "name": "Northwest Roof Restoration, LLC",
+      "website": "https://nwroof.net/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://nwroof.net/",
+        "retrievedAt": "2026-10-27T14:54:36.610Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 14,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c13",
+      "name": "Cornerstone Comfort",
+      "website": "https://www.cornerstonecomfort.net/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.cornerstonecomfort.net/",
+        "retrievedAt": "2026-10-27T14:54:39.694Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 25,
+      "termsPages": [
+        {
+          "url": "https://www.cornerstonecomfort.net/terms-conditions",
+          "finalUrl": "https://www.cornerstonecomfort.net/terms-conditions",
+          "outcome": "ok",
+          "excerpts": []
+        }
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "c14",
+      "name": "Walker Electric LLC",
+      "website": "https://walkerelectricidaho.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://walkerelectricidaho.com/",
+        "retrievedAt": "2026-10-27T14:54:48.819Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 16,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c15",
+      "name": "Idaho PC Solutions, LLC",
+      "website": "https://www.idahopcsolutions.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.idahopcsolutions.com/",
+        "retrievedAt": "2026-10-27T14:54:51.884Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 30,
+      "termsPages": [
+        {
+          "url": "https://www.idahopcsolutions.com/blank-page.html",
+          "finalUrl": "https://www.idahopcsolutions.com/blank-page.html",
+          "outcome": "ok",
+          "excerpts": []
+        }
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "c16",
+      "name": "AMP Electric",
+      "website": "https://amp240v.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://amp240v.com/",
+        "retrievedAt": "2026-10-27T14:54:58.043Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 6,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c17",
+      "name": "Running Water Plumbing",
+      "website": "https://runningwaterplumbingidaho.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://runningwaterplumbingidaho.com/",
+        "retrievedAt": "2026-10-27T14:55:01.258Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 63,
+      "termsPages": [
+        {
+          "url": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+          "finalUrl": "https://runningwaterplumbingidaho.com/terms-and-conditions/",
+          "outcome": "ok",
+          "excerpts": []
+        }
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "c18",
+      "name": "Boise Remodeling Co.",
+      "website": "https://boiseremodeling.co/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://boiseremodeling.co/",
+        "retrievedAt": "2026-10-27T14:55:07.331Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 35,
+      "termsPages": [
+        {
+          "url": "https://boiseremodeling.co/terms-of-service",
+          "finalUrl": "https://boiseremodeling.co/terms-of-service",
+          "outcome": "ok",
+          "excerpts": []
+        }
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "c19",
+      "name": "North Star Kitchen and Bath Remodels",
+      "website": "https://northstarkitchenandbath.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://northstarkitchenandbath.com/",
+        "retrievedAt": "2026-10-27T14:55:13.779Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 40,
+      "termsPages": [
+        {
+          "url": "https://northstarkitchenandbath.com/terms-conditions",
+          "finalUrl": "https://northstarkitchenandbath.com/terms-conditions/",
+          "outcome": "ok",
+          "excerpts": []
+        }
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "c20",
+      "name": "D & A Heating and Cooling",
+      "website": "https://www.dahvac.com/",
+      "homepage": {
+        "outcome": "refused",
+        "status": 403,
+        "detail": "The site refused automated access (HTTP 403).",
+        "finalUrl": "https://www.dahvac.com/",
+        "retrievedAt": "2026-10-27T14:55:19.508Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 0,
+      "termsPages": [],
+      "needsReview": true
+    },
+    {
+      "id": "c21",
+      "name": "Treasure Valley IT",
+      "website": "https://www.tvit.net/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.tvit.net/",
+        "retrievedAt": "2026-10-27T14:55:25.968Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 71,
+      "termsPages": [
+        {
+          "url": "https://www.tvit.net/legal-law-firm-it/",
+          "finalUrl": "https://www.tvit.net/legal-law-firm-it/",
+          "outcome": "ok",
+          "excerpts": []
+        }
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "c22",
+      "name": "Plumbing Solutions of Idaho",
+      "website": "https://plumbingsolutionsofidaho.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://plumbingsolutionsofidaho.com/",
+        "retrievedAt": "2026-10-27T14:55:33.003Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 58,
+      "termsPages": [
+        {
+          "url": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+          "finalUrl": "https://plumbingsolutionsofidaho.com/terms-and-conditions/",
+          "outcome": "ok",
+          "excerpts": []
+        }
+      ],
+      "needsReview": false
+    },
+    {
+      "id": "c23",
+      "name": "IT Secure LLC",
+      "website": "https://itsecure.tech/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://itsecure.tech/",
+        "retrievedAt": "2026-10-27T14:55:40.595Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 15,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c24",
+      "name": "Keeley Builders",
+      "website": "https://www.keeleybuilders.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.keeleybuilders.com/",
+        "retrievedAt": "2026-10-27T14:55:44.125Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 15,
+      "termsPages": [],
+      "needsReview": false
+    },
+    {
+      "id": "c25",
+      "name": "Kings Roofing & Contracting LLC",
+      "website": "https://www.kingsroofingandcontracting.com/",
+      "homepage": {
+        "outcome": "ok",
+        "status": 200,
+        "detail": "",
+        "finalUrl": "https://www.kingsroofingandcontracting.com/",
+        "retrievedAt": "2026-10-27T14:55:47.273Z"
+      },
+      "robots": "rules",
+      "linksOnHomepage": 64,
+      "termsPages": [],
+      "needsReview": false
+    }
+  ]
+}

@@ -1,0 +1,667 @@
+{
+  "company": {
+    "id": "c06",
+    "name": "Idaho Roofing Contractors",
+    "town": "Meridian",
+    "state": "Idaho",
+    "website": "https://www.idahoroofingcontractors.com/"
+  },
+  "model": "gemini-4-argon",
+  "status": "completed",
+  "access": "full",
+  "startedAt": "2026-10-27T18:30:21.410Z",
+  "finishedAt": "2026-10-27T18:32:41.514Z",
+  "report": {
+    "identity": {
+      "name": "Idaho Roofing Contractors (Idaho Roofing Contractors LLC)",
+      "location": "1565 Rolling Hills Dr, Meridian, Idaho 83642",
+      "claims": [
+        {
+          "statement": "The business identifies its legal entity name in its Terms and Conditions as Idaho Roofing Contractors LLC.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/terms/",
+          "quote": "Idaho Roofing Contractors LLC"
+        },
+        {
+          "statement": "The company lists its physical address at 1565 Rolling Hills Dr, Meridian, Idaho 83642.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/",
+          "quote": "1565 Rolling Hills Dr Meridian, Idaho 83642"
+        },
+        {
+          "statement": "The company states it has operated as a local family-operated roofing business in Southwest Idaho since 2001.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/",
+          "quote": "Since we first opened our doors in 2001, our local family-operated roof installation experts have been doing everything from repairing existing roofing"
+        }
+      ]
+    },
+    "industry": {
+      "industry": "Residential and Commercial Roofing Contracting",
+      "activities": [
+        "Roof replacement",
+        "Roof repair",
+        "New construction roofing",
+        "Commercial and flat roofing",
+        "Storm damage restoration and inspection reports"
+      ],
+      "claims": [
+        {
+          "statement": "Idaho Roofing Contractors is a residential and commercial roofing company serving Southwest Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/",
+          "quote": "Idaho Roofing Contractors is a professional residential and commercial roofing company serving communities throughout Southwest Idaho for 25+ years."
+        },
+        {
+          "statement": "The company performs roof replacements, new roof installations, and storm damage restorations.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/",
+          "quote": "We can handle roof replacements, new installations, storm damage restorations, and more."
+        },
+        {
+          "statement": "The company performs residential flashing repairs as well as full commercial flat roofing projects.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/services/",
+          "quote": "We work on everything from a single failed flashing joint to a full commercial flat roof"
+        },
+        {
+          "statement": "The business operates exclusively in the roofing trade and does not offer HVAC, plumbing, or electrical contracting services.",
+          "label": "inference",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/services/",
+          "quote": null
+        }
+      ]
+    },
+    "publicInformation": {
+      "officialWebsite": "https://www.idahoroofingcontractors.com/",
+      "claims": [
+        {
+          "statement": "The homepage highlights over 940 customer reviews with a 4.9 average rating.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/",
+          "quote": "Over 940 reviews With A 4.9 Average"
+        },
+        {
+          "statement": "The company states that it holds an A+ rating with the Better Business Bureau and is a member of the Boise Metro Chamber.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/",
+          "quote": "Idaho Roofing Contractors holds an A+ rating with the Better Business Bureau. We’re also a member of the Boise Metro Chamber."
+        },
+        {
+          "statement": "The company states it is an Owens Corning Platinum Preferred Contractor in the Treasure Valley.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/",
+          "quote": "We were the first Owens Corning Platinum Preferred Contractor in Idaho, and we are still the only business with that status in the Treasure Valley."
+        },
+        {
+          "statement": "The FAQ page states that most residential roof replacements in the Boise area cost between $10,000 and $15,000.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/faq/",
+          "quote": "Most residential roof replacements in the Boise area run between $10,000 and $15,000, depending on the size of your home"
+        }
+      ]
+    },
+    "licensing": {
+      "claims": [
+        {
+          "statement": "The company displays Idaho contractor license number RCE-5471 and states it is fully licensed and insured in Idaho.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/faq/",
+          "quote": "Idaho Roofing Contractors is fully licensed and insured in the state of Idaho (License No. RCE-5471)."
+        },
+        {
+          "statement": "The company states that it carries general liability and workers compensation coverage on every job under Idaho license RCE-5471.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/services/",
+          "quote": "Idaho contractor license RCE-5471, with general liability and workers compensation coverage on every job."
+        }
+      ],
+      "limitations": "Active license status, bonding details, and corporate registration standing were not independently verified against external state registries because research is restricted to the company's own public website."
+    },
+    "existingSoftware": [
+      {
+        "product": "Google Ads",
+        "purpose": "Online advertising and remarketing",
+        "evidence": {
+          "statement": "The Privacy Policy states that Google is used as a third-party vendor to serve ads using cookies.",
+          "label": "fact",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/privacy-policy/",
+          "quote": "Google, as a third party vendor, uses cookies to serve ads."
+        }
+      },
+      {
+        "product": "AccuLynx (unconfirmed product name from host leads.acculynx.com)",
+        "purpose": "Roofing CRM and lead capture integration",
+        "evidence": {
+          "statement": "The homepage and contact page reference the host leads.acculynx.com, which likely indicates the use of AccuLynx roofing software for lead intake and field-service management.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Roofle Roof Quote PRO (unconfirmed product name from script app.roofle.com)",
+        "purpose": "Automated online roof quoting and lead capture widget",
+        "evidence": {
+          "statement": "The homepage loads https://app.roofle.com/roof-quote-pro-widget.js?id=undje-n1S331r6UN7AwBi, which likely provides an automated roof quote widget.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Birdeye and Trustindex (unconfirmed product names from script sources)",
+        "purpose": "Customer review aggregation and display widgets",
+        "evidence": {
+          "statement": "The homepage loads https://cdn.trustindex.io/loader.js?8e4f0094742191992616bdb1eb7 and the About Us page loads https://birdeye.com/embed/v7/170734503716585/11/987654321301115183, likely used for reputation management and review widgets.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "Google Tag Manager, Simpli.fi, and TVSquared (unconfirmed product names from script and host references)",
+        "purpose": "Marketing analytics, programmatic ad tracking, and broadcast attribution",
+        "evidence": {
+          "statement": "Site pages load scripts from googletagmanager.com and tag.simpli.fi and reference collector-44216.us.tvsquared.com, suggesting paid digital and broadcast advertising tracking.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      },
+      {
+        "product": "WordPress with Astra and Elementor (unconfirmed product names from asset paths)",
+        "purpose": "Website content management system, theme, and page builder",
+        "evidence": {
+          "statement": "Page script sources under /wp-content/themes/astra/, /wp-content/plugins/elementor/, and /wp-content/plugins/elementor-pro/ indicate a WordPress website built with Astra and Elementor.",
+          "label": "hypothesis",
+          "sourceUrl": null,
+          "quote": null
+        }
+      }
+    ],
+    "opportunityEvidence": [
+      {
+        "statement": "The website uses lead capture forms on the homepage and contact page that obtain SMS marketing consent from prospects.",
+        "label": "fact",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/",
+        "quote": "By submitting, you authorize Idaho Roofing Contractors to send text messages with offers and other information."
+      },
+      {
+        "statement": "The Privacy Policy states that contact form submissions are stored in their system and may be sent to third-party vendors.",
+        "label": "fact",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/privacy-policy/",
+        "quote": "If you submit a contact form on our site, the information related to the submission will be stored in our system"
+      },
+      {
+        "statement": "The Contact Us page states that inbound callers speak directly with a local roofing professional rather than a call center.",
+        "label": "fact",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/contact-us/",
+        "quote": "When you reach out, you’ll speak with a local roofing professional — not a call center."
+      },
+      {
+        "statement": "The presence of ad-tracking hosts (tag.simpli.fi, googletagmanager.com, collector-44216.us.tvsquared.com) alongside leads.acculynx.com and app.roofle.com suggests the company actively pays for leads and already uses roofing-specific software to capture and quote them.",
+        "label": "hypothesis",
+        "sourceUrl": null,
+        "quote": null
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Inbound phone calls outside normal business hours or during peak storm surges could go to voicemail if handled strictly by in-house roofing professionals without a call center.",
+        "label": "hypothesis",
+        "basis": "The Contact Us page states that callers speak with a local roofing professional rather than a call center, though actual call-handling performance and missed-call rates cannot be verified from the public site."
+      },
+      {
+        "problem": "Marketing spend across multiple ad channels (Google Ads, programmatic, and broadcast) may require manual consolidation to track cost per booked job.",
+        "label": "hypothesis",
+        "basis": "Multiple tracking tags appear on the website (googletagmanager.com, tag.simpli.fi, collector-44216.us.tvsquared.com), though internal reporting workflows are not publicly visible."
+      }
+    ],
+    "existingSolutions": [
+      {
+        "solution": "AccuLynx CRM and lead intake (referenced via leads.acculynx.com)",
+        "addresses": "Capturing web leads directly into roofing field-service and job management software and automating follow-up communications.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Roofle Roof Quote PRO (referenced via app.roofle.com/roof-quote-pro-widget.js)",
+        "addresses": "Instant online roof estimation and automated lead capture for homeowners.",
+        "alreadyOwned": true
+      },
+      {
+        "solution": "Birdeye (referenced via birdeye.com script)",
+        "addresses": "Automated customer messaging, review generation, and reputation management.",
+        "alreadyOwned": true
+      }
+    ],
+    "forgexSolutions": [],
+    "feasibility": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended because Idaho Roofing Contractors is a roofing contractor outside ForgeX's target segment (HVAC, plumbing, and electrical contractors) and already shows technical evidence of specialized roofing lead-capture and quoting software."
+    },
+    "aiDelivery": {
+      "rating": "not applicable",
+      "explanation": "No ForgeX solution is recommended for this company."
+    },
+    "humanReview": [
+      "No ForgeX automation is recommended; in general, any contractor-facing estimating or warranty registration workflow would require human inspection verification."
+    ],
+    "risks": [
+      {
+        "type": "operational",
+        "description": "Pursuing a roofing contractor outside ForgeX's core HVAC, plumbing, and electrical segment would require integrating with roofing-specific software (such as AccuLynx and Roofle) rather than standard MEP field-service platforms."
+      },
+      {
+        "type": "compliance",
+        "description": "Any automated SMS follow-up on web forms must comply with TCPA consent and opt-out rules as referenced in the site's form disclaimer."
+      }
+    ],
+    "commercial": {
+      "supportable": false,
+      "value": null,
+      "implementationCost": null,
+      "assumptions": [
+        "Although the FAQ page states an illustrative Boise market range of $10,000 to $15,000 for residential roof replacements, commercial value for a ForgeX engagement is not calculated because the company is outside ForgeX's segment and no ForgeX service is recommended."
+      ]
+    },
+    "contacts": {
+      "decisionMakerRoles": [
+        "Owner / Managing Member",
+        "General Manager",
+        "Sales or Operations Manager"
+      ],
+      "people": [],
+      "channels": [
+        {
+          "kind": "phone",
+          "value": "[redacted]",
+          "sourceUrl": "https://www.idahoroofingcontractors.com/contact-us/"
+        }
+      ]
+    },
+    "discovery": {
+      "questions": [
+        "How are web form submissions and instant roof quotes currently routed into your CRM and assigned to sales estimators?",
+        "Who handles inbound phone inquiries when estimators are on roofs or after normal business hours?",
+        "How do you currently reconcile ad spend from Google, programmatic, and TV campaigns against closed roofing jobs?"
+      ],
+      "outreachSubject": "",
+      "outreachBody": ""
+    },
+    "evidence": {
+      "sourcesUsed": [
+        {
+          "url": "https://www.idahoroofingcontractors.com/",
+          "usedFor": "Company identity, Meridian address, founding year (2001), roofing services, review count, Owens Corning certification, license number RCE-5471, and technical script/host references."
+        },
+        {
+          "url": "https://www.idahoroofingcontractors.com/about-us/",
+          "usedFor": "Company background, family-operated history, team department structure, and Birdeye script reference."
+        },
+        {
+          "url": "https://www.idahoroofingcontractors.com/contact-us/",
+          "usedFor": "Primary business phone number, contact form details, and local non-call-center phone handling statement."
+        },
+        {
+          "url": "https://www.idahoroofingcontractors.com/services/",
+          "usedFor": "Verification of principal business activities (exclusively roofing) and licensing/insurance disclosures."
+        },
+        {
+          "url": "https://www.idahoroofingcontractors.com/faq/",
+          "usedFor": "Published residential roof replacement price range ($10,000 to $15,000), inspection process, and license confirmation."
+        },
+        {
+          "url": "https://www.idahoroofingcontractors.com/privacy-policy/",
+          "usedFor": "Data handling practices for contact forms and confirmation of Google Ads usage."
+        },
+        {
+          "url": "https://www.idahoroofingcontractors.com/terms/",
+          "usedFor": "Verification of legal entity name (Idaho Roofing Contractors LLC) and contract/estimate terms."
+        }
+      ],
+      "limitations": [
+        "Exact employee headcount is not stated on the public website.",
+        "No individual owners, executives, or managers are named in the text of the About Us page or other pages read.",
+        "No business email address is published in the text or mailto links of the pages read.",
+        "Internal software configurations and actual lead-response times cannot be verified from public pages alone."
+      ]
+    },
+    "qualification": {
+      "category": "not a fit",
+      "rationale": "ForgeX's target segment is owner-led HVAC, plumbing, and electrical contractors. Idaho Roofing Contractors LLC is exclusively a residential and commercial roofing contractor and does not provide HVAC, plumbing, or electrical services. Additionally, technical references on the website (leads.acculynx.com, app.roofle.com, birdeye.com) indicate the company already uses specialized roofing CRM, instant quoting, and reputation management tools."
+    }
+  },
+  "reportErrors": [],
+  "checks": {
+    "quotes": [
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/terms/",
+        "quote": "Idaho Roofing Contractors LLC",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/",
+        "quote": "1565 Rolling Hills Dr Meridian, Idaho 83642",
+        "verdict": "found"
+      },
+      {
+        "section": "identity",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/",
+        "quote": "Since we first opened our doors in 2001, our local family-operated roof installation experts have been doing everything from repairing existing roofing",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/",
+        "quote": "Idaho Roofing Contractors is a professional residential and commercial roofing company serving communities throughout Southwest Idaho for 25+ years.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/",
+        "quote": "We can handle roof replacements, new installations, storm damage restorations, and more.",
+        "verdict": "found"
+      },
+      {
+        "section": "industry",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/services/",
+        "quote": "We work on everything from a single failed flashing joint to a full commercial flat roof",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/",
+        "quote": "Over 940 reviews With A 4.9 Average",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/",
+        "quote": "Idaho Roofing Contractors holds an A+ rating with the Better Business Bureau. We’re also a member of the Boise Metro Chamber.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/",
+        "quote": "We were the first Owens Corning Platinum Preferred Contractor in Idaho, and we are still the only business with that status in the Treasure Valley.",
+        "verdict": "found"
+      },
+      {
+        "section": "publicInformation",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/faq/",
+        "quote": "Most residential roof replacements in the Boise area run between $10,000 and $15,000, depending on the size of your home",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/faq/",
+        "quote": "Idaho Roofing Contractors is fully licensed and insured in the state of Idaho (License No. RCE-5471).",
+        "verdict": "found"
+      },
+      {
+        "section": "licensing",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/services/",
+        "quote": "Idaho contractor license RCE-5471, with general liability and workers compensation coverage on every job.",
+        "verdict": "found"
+      },
+      {
+        "section": "existingSoftware",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/privacy-policy/",
+        "quote": "Google, as a third party vendor, uses cookies to serve ads.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/",
+        "quote": "By submitting, you authorize Idaho Roofing Contractors to send text messages with offers and other information.",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/privacy-policy/",
+        "quote": "If you submit a contact form on our site, the information related to the submission will be stored in our system",
+        "verdict": "found"
+      },
+      {
+        "section": "opportunityEvidence",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/contact-us/",
+        "quote": "When you reach out, you’ll speak with a local roofing professional — not a call center.",
+        "verdict": "found"
+      }
+    ],
+    "channels": [
+      {
+        "kind": "phone",
+        "value": "[redacted]",
+        "sourceUrl": "https://www.idahoroofingcontractors.com/contact-us/",
+        "verdict": "found"
+      }
+    ],
+    "flags": [],
+    "summary": {
+      "facts": 16,
+      "quotesFound": 16,
+      "quotesFoundInDetails": 0,
+      "quotesOnAnotherPage": 0,
+      "quotesNotFound": 0,
+      "sourcesNotRead": 0,
+      "factsWithoutQuote": 0,
+      "inferences": 1,
+      "hypotheses": 6,
+      "channelsFound": 1,
+      "channelsOnAnotherPage": 0,
+      "channelsNotFound": 0,
+      "flags": 0
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.idahoroofingcontractors.com/",
+      "finalUrl": "https://www.idahoroofingcontractors.com/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:30:24.649Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 612067,
+      "truncated": false,
+      "sha256": "db21a2355991abe163fcb7aeffd316e2737dcbb216a1e80b638358a258339cb9",
+      "textSha256": "731927f483f34d826478b44b9cd55f74b2da206529d6fa799c093b0fff461d08",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/about-us/",
+      "finalUrl": "https://www.idahoroofingcontractors.com/about-us/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:30:32.472Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 156184,
+      "truncated": false,
+      "sha256": "7ffb9eef97f4d0e637b106ea344a9853ea84a307c333ae4d877b32c698eac532",
+      "textSha256": "4b64818badb1f7d7243fa7faaf14142c6da57de2c05b5961be46d34f5669ee00",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/contact-us/",
+      "finalUrl": "https://www.idahoroofingcontractors.com/contact-us/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:30:35.363Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 149089,
+      "truncated": false,
+      "sha256": "4dae806b9d0a9253d5d532929384b95987bae330b010c3d983c3ad1a219a76b3",
+      "textSha256": "85e69a9f4be6aa0cffdf1e3208e8ff0499f6efbc8004f5ccf4006157fd8c1460",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/services/",
+      "finalUrl": "https://www.idahoroofingcontractors.com/services/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:30:38.360Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 149375,
+      "truncated": false,
+      "sha256": "5211b81985f3726fb437909b49d25306ee0771a91ad20dc664ea865beb7e083c",
+      "textSha256": "f74e83eb7791683bb6da6d8bb8e46dc55c14587bb72278e762c08675fdaa6cf2",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/faq/",
+      "finalUrl": "https://www.idahoroofingcontractors.com/faq/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:30:44.220Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 155703,
+      "truncated": false,
+      "sha256": "7fedf166d33f3c07c8c85ed32fc50c20a61139f0a498104da9f5d9f02294a702",
+      "textSha256": "d7ee5cbeed9ff1a2f05edc4acc7d121402f08b0e07e29e7b116d7a71ee2efa67",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/privacy-policy/",
+      "finalUrl": "https://www.idahoroofingcontractors.com/privacy-policy/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:30:53.465Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 130706,
+      "truncated": false,
+      "sha256": "2d16cdf25cf15a78fad06391b8a3fc3f60b3a4c9137b518f7e892b7febc03ebe",
+      "textSha256": "a25182200418bbd16c8435ef6fc7ef6dec0c2e81f8fb4df0fe9ed4a629e355ab",
+      "fromCache": false
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/terms/",
+      "finalUrl": "https://www.idahoroofingcontractors.com/terms/",
+      "outcome": "ok",
+      "status": 200,
+      "detail": "",
+      "retrievedAt": "2026-10-27T18:30:53.820Z",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 127887,
+      "truncated": false,
+      "sha256": "2df7fdb7d6fac3555b8d23329788143bdf91838863584bfe53a3a0083905ad82",
+      "textSha256": "0ed593e930157b5a0e4202769a4b0287d105b169c19257e0f509e0c520fc12f5",
+      "fromCache": false
+    }
+  ],
+  "pagesRequested": [
+    {
+      "url": "https://www.idahoroofingcontractors.com/about-us/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/contact-us/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/services/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/faq/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/privacy-policy/",
+      "outcome": "ok"
+    },
+    {
+      "url": "https://www.idahoroofingcontractors.com/terms/",
+      "outcome": "ok"
+    }
+  ],
+  "turns": 3,
+  "usage": {
+    "input": 74382,
+    "cachedInput": 27833,
+    "output": 4327,
+    "thinking": 5463,
+    "toolUse": 0,
+    "total": 84172
+  },
+  "costUsd": 0.1937813,
+  "modelTrace": [
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_2216273",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahoroofingcontractors.com/about-us/"
+      }
+    },
+    {
+      "id": "call_2216274",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahoroofingcontractors.com/contact-us/"
+      }
+    },
+    {
+      "id": "call_2216275",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahoroofingcontractors.com/services/"
+      }
+    },
+    {
+      "id": "call_2216276",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahoroofingcontractors.com/faq/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "id": "call_1591813",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahoroofingcontractors.com/privacy-policy/"
+      }
+    },
+    {
+      "id": "call_1591814",
+      "type": "function_call",
+      "name": "read_page",
+      "arguments": {
+        "url": "https://www.idahoroofingcontractors.com/terms/"
+      }
+    },
+    {
+      "type": "thought",
+      "signature": "[omitted]"
+    },
+    {
+      "content": [
+        {
+          "text": "{\n  \"identity\": {\n    \"name\": \"Idaho Roofing Contractors (Idaho Roofing Contractors LLC)\",\n    \"location\": \"1565 Rolling Hills Dr, Meridian, Idaho 83642\",\n    \"claims\": [\n      {\n        \"statement\": \"The business identifies its legal entity name in its Terms and Conditions as Idaho Roofing Contractors LLC.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/terms/\",\n        \"quote\": \"Idaho Roofing Contractors LLC\"\n      },\n      {\n        \"statement\": \"The company lists its physical address at 1565 Rolling Hills Dr, Meridian, Idaho 83642.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/\",\n        \"quote\": \"1565 Rolling Hills Dr Meridian, Idaho 83642\"\n      },\n      {\n        \"statement\": \"The company states it has operated as a local family-operated roofing business in Southwest Idaho since 2001.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/\",\n        \"quote\": \"Since we first opened our doors in 2001, our local family-operated roof installation experts have been doing everything from repairing existing roofing\"\n      }\n    ]\n  },\n  \"industry\": {\n    \"industry\": \"Residential and Commercial Roofing Contracting\",\n    \"activities\": [\n      \"Roof replacement\",\n      \"Roof repair\",\n      \"New construction roofing\",\n      \"Commercial and flat roofing\",\n      \"Storm damage restoration and inspection reports\"\n    ],\n    \"claims\": [\n      {\n        \"statement\": \"Idaho Roofing Contractors is a residential and commercial roofing company serving Southwest Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/\",\n        \"quote\": \"Idaho Roofing Contractors is a professional residential and commercial roofing company serving communities throughout Southwest Idaho for 25+ years.\"\n      },\n      {\n        \"statement\": \"The company performs roof replacements, new roof installations, and storm damage restorations.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/\",\n        \"quote\": \"We can handle roof replacements, new installations, storm damage restorations, and more.\"\n      },\n      {\n        \"statement\": \"The company performs residential flashing repairs as well as full commercial flat roofing projects.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/services/\",\n        \"quote\": \"We work on everything from a single failed flashing joint to a full commercial flat roof\"\n      },\n      {\n        \"statement\": \"The business operates exclusively in the roofing trade and does not offer HVAC, plumbing, or electrical contracting services.\",\n        \"label\": \"inference\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/services/\",\n        \"quote\": null\n      }\n    ]\n  },\n  \"publicInformation\": {\n    \"officialWebsite\": \"https://www.idahoroofingcontractors.com/\",\n    \"claims\": [\n      {\n        \"statement\": \"The homepage highlights over 940 customer reviews with a 4.9 average rating.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/\",\n        \"quote\": \"Over 940 reviews With A 4.9 Average\"\n      },\n      {\n        \"statement\": \"The company states that it holds an A+ rating with the Better Business Bureau and is a member of the Boise Metro Chamber.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/\",\n        \"quote\": \"Idaho Roofing Contractors holds an A+ rating with the Better Business Bureau. We’re also a member of the Boise Metro Chamber.\"\n      },\n      {\n        \"statement\": \"The company states it is an Owens Corning Platinum Preferred Contractor in the Treasure Valley.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/\",\n        \"quote\": \"We were the first Owens Corning Platinum Preferred Contractor in Idaho, and we are still the only business with that status in the Treasure Valley.\"\n      },\n      {\n        \"statement\": \"The FAQ page states that most residential roof replacements in the Boise area cost between $10,000 and $15,000.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/faq/\",\n        \"quote\": \"Most residential roof replacements in the Boise area run between $10,000 and $15,000, depending on the size of your home\"\n      }\n    ]\n  },\n  \"licensing\": {\n    \"claims\": [\n      {\n        \"statement\": \"The company displays Idaho contractor license number RCE-5471 and states it is fully licensed and insured in Idaho.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/faq/\",\n        \"quote\": \"Idaho Roofing Contractors is fully licensed and insured in the state of Idaho (License No. RCE-5471).\"\n      },\n      {\n        \"statement\": \"The company states that it carries general liability and workers compensation coverage on every job under Idaho license RCE-5471.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/services/\",\n        \"quote\": \"Idaho contractor license RCE-5471, with general liability and workers compensation coverage on every job.\"\n      }\n    ],\n    \"limitations\": \"Active license status, bonding details, and corporate registration standing were not independently verified against external state registries because research is restricted to the company's own public website.\"\n  },\n  \"existingSoftware\": [\n    {\n      \"product\": \"Google Ads\",\n      \"purpose\": \"Online advertising and remarketing\",\n      \"evidence\": {\n        \"statement\": \"The Privacy Policy states that Google is used as a third-party vendor to serve ads using cookies.\",\n        \"label\": \"fact\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/privacy-policy/\",\n        \"quote\": \"Google, as a third party vendor, uses cookies to serve ads.\"\n      }\n    },\n    {\n      \"product\": \"AccuLynx (unconfirmed product name from host leads.acculynx.com)\",\n      \"purpose\": \"Roofing CRM and lead capture integration\",\n      \"evidence\": {\n        \"statement\": \"The homepage and contact page reference the host leads.acculynx.com, which likely indicates the use of AccuLynx roofing software for lead intake and field-service management.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Roofle Roof Quote PRO (unconfirmed product name from script app.roofle.com)\",\n      \"purpose\": \"Automated online roof quoting and lead capture widget\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads https://app.roofle.com/roof-quote-pro-widget.js?id=undje-n1S331r6UN7AwBi, which likely provides an automated roof quote widget.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Birdeye and Trustindex (unconfirmed product names from script sources)\",\n      \"purpose\": \"Customer review aggregation and display widgets\",\n      \"evidence\": {\n        \"statement\": \"The homepage loads https://cdn.trustindex.io/loader.js?8e4f0094742191992616bdb1eb7 and the About Us page loads https://birdeye.com/embed/v7/170734503716585/11/987654321301115183, likely used for reputation management and review widgets.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"Google Tag Manager, Simpli.fi, and TVSquared (unconfirmed product names from script and host references)\",\n      \"purpose\": \"Marketing analytics, programmatic ad tracking, and broadcast attribution\",\n      \"evidence\": {\n        \"statement\": \"Site pages load scripts from googletagmanager.com and tag.simpli.fi and reference collector-44216.us.tvsquared.com, suggesting paid digital and broadcast advertising tracking.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    },\n    {\n      \"product\": \"WordPress with Astra and Elementor (unconfirmed product names from asset paths)\",\n      \"purpose\": \"Website content management system, theme, and page builder\",\n      \"evidence\": {\n        \"statement\": \"Page script sources under /wp-content/themes/astra/, /wp-content/plugins/elementor/, and /wp-content/plugins/elementor-pro/ indicate a WordPress website built with Astra and Elementor.\",\n        \"label\": \"hypothesis\",\n        \"sourceUrl\": null,\n        \"quote\": null\n      }\n    }\n  ],\n  \"opportunityEvidence\": [\n    {\n      \"statement\": \"The website uses lead capture forms on the homepage and contact page that obtain SMS marketing consent from prospects.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.idahoroofingcontractors.com/\",\n      \"quote\": \"By submitting, you authorize Idaho Roofing Contractors to send text messages with offers and other information.\"\n    },\n    {\n      \"statement\": \"The Privacy Policy states that contact form submissions are stored in their system and may be sent to third-party vendors.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.idahoroofingcontractors.com/privacy-policy/\",\n      \"quote\": \"If you submit a contact form on our site, the information related to the submission will be stored in our system\"\n    },\n    {\n      \"statement\": \"The Contact Us page states that inbound callers speak directly with a local roofing professional rather than a call center.\",\n      \"label\": \"fact\",\n      \"sourceUrl\": \"https://www.idahoroofingcontractors.com/contact-us/\",\n      \"quote\": \"When you reach out, you’ll speak with a local roofing professional — not a call center.\"\n    },\n    {\n      \"statement\": \"The presence of ad-tracking hosts (tag.simpli.fi, googletagmanager.com, collector-44216.us.tvsquared.com) alongside leads.acculynx.com and app.roofle.com suggests the company actively pays for leads and already uses roofing-specific software to capture and quote them.\",\n      \"label\": \"hypothesis\",\n      \"sourceUrl\": null,\n      \"quote\": null\n    }\n  ],\n  \"problems\": [\n    {\n      \"problem\": \"Inbound phone calls outside normal business hours or during peak storm surges could go to voicemail if handled strictly by in-house roofing professionals without a call center.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"The Contact Us page states that callers speak with a local roofing professional rather than a call center, though actual call-handling performance and missed-call rates cannot be verified from the public site.\"\n    },\n    {\n      \"problem\": \"Marketing spend across multiple ad channels (Google Ads, programmatic, and broadcast) may require manual consolidation to track cost per booked job.\",\n      \"label\": \"hypothesis\",\n      \"basis\": \"Multiple tracking tags appear on the website (googletagmanager.com, tag.simpli.fi, collector-44216.us.tvsquared.com), though internal reporting workflows are not publicly visible.\"\n    }\n  ],\n  \"existingSolutions\": [\n    {\n      \"solution\": \"AccuLynx CRM and lead intake (referenced via leads.acculynx.com)\",\n      \"addresses\": \"Capturing web leads directly into roofing field-service and job management software and automating follow-up communications.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Roofle Roof Quote PRO (referenced via app.roofle.com/roof-quote-pro-widget.js)\",\n      \"addresses\": \"Instant online roof estimation and automated lead capture for homeowners.\",\n      \"alreadyOwned\": true\n    },\n    {\n      \"solution\": \"Birdeye (referenced via birdeye.com script)\",\n      \"addresses\": \"Automated customer messaging, review generation, and reputation management.\",\n      \"alreadyOwned\": true\n    }\n  ],\n  \"forgexSolutions\": [],\n  \"feasibility\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended because Idaho Roofing Contractors is a roofing contractor outside ForgeX's target segment (HVAC, plumbing, and electrical contractors) and already shows technical evidence of specialized roofing lead-capture and quoting software.\"\n  },\n  \"aiDelivery\": {\n    \"rating\": \"not applicable\",\n    \"explanation\": \"No ForgeX solution is recommended for this company.\"\n  },\n  \"humanReview\": [\n    \"No ForgeX automation is recommended; in general, any contractor-facing estimating or warranty registration workflow would require human inspection verification.\"\n  ],\n  \"risks\": [\n    {\n      \"type\": \"operational\",\n      \"description\": \"Pursuing a roofing contractor outside ForgeX's core HVAC, plumbing, and electrical segment would require integrating with roofing-specific software (such as AccuLynx and Roofle) rather than standard MEP field-service platforms.\"\n    },\n    {\n      \"type\": \"compliance\",\n      \"description\": \"Any automated SMS follow-up on web forms must comply with TCPA consent and opt-out rules as referenced in the site's form disclaimer.\"\n    }\n  ],\n  \"commercial\": {\n    \"supportable\": false,\n    \"value\": null,\n    \"implementationCost\": null,\n    \"assumptions\": [\n      \"Although the FAQ page states an illustrative Boise market range of $10,000 to $15,000 for residential roof replacements, commercial value for a ForgeX engagement is not calculated because the company is outside ForgeX's segment and no ForgeX service is recommended.\"\n    ]\n  },\n  \"contacts\": {\n    \"decisionMakerRoles\": [\n      \"Owner / Managing Member\",\n      \"General Manager\",\n      \"Sales or Operations Manager\"\n    ],\n    \"people\": [],\n    \"channels\": [\n      {\n        \"kind\": \"phone\",\n        \"value\": \"[redacted]\",\n        \"sourceUrl\": \"https://www.idahoroofingcontractors.com/contact-us/\"\n      }\n    ]\n  },\n  \"discovery\": {\n    \"questions\": [\n      \"How are web form submissions and instant roof quotes currently routed into your CRM and assigned to sales estimators?\",\n      \"Who handles inbound phone inquiries when estimators are on roofs or after normal business hours?\",\n      \"How do you currently reconcile ad spend from Google, programmatic, and TV campaigns against closed roofing jobs?\"\n    ],\n    \"outreachSubject\": \"\",\n    \"outreachBody\": \"\"\n  },\n  \"evidence\": {\n    \"sourcesUsed\": [\n      {\n        \"url\": \"https://www.idahoroofingcontractors.com/\",\n        \"usedFor\": \"Company identity, Meridian address, founding year (2001), roofing services, review count, Owens Corning certification, license number RCE-5471, and technical script/host references.\"\n      },\n      {\n        \"url\": \"https://www.idahoroofingcontractors.com/about-us/\",\n        \"usedFor\": \"Company background, family-operated history, team department structure, and Birdeye script reference.\"\n      },\n      {\n        \"url\": \"https://www.idahoroofingcontractors.com/contact-us/\",\n        \"usedFor\": \"Primary business phone number, contact form details, and local non-call-center phone handling statement.\"\n      },\n      {\n        \"url\": \"https://www.idahoroofingcontractors.com/services/\",\n        \"usedFor\": \"Verification of principal business activities (exclusively roofing) and licensing/insurance disclosures.\"\n      },\n      {\n        \"url\": \"https://www.idahoroofingcontractors.com/faq/\",\n        \"usedFor\": \"Published residential roof replacement price range ($10,000 to $15,000), inspection process, and license confirmation.\"\n      },\n      {\n        \"url\": \"https://www.idahoroofingcontractors.com/privacy-policy/\",\n        \"usedFor\": \"Data handling practices for contact forms and confirmation of Google Ads usage.\"\n      },\n      {\n        \"url\": \"https://www.idahoroofingcontractors.com/terms/\",\n        \"usedFor\": \"Verification of legal entity name (Idaho Roofing Contractors LLC) and contract/estimate terms.\"\n      }\n    ],\n    \"limitations\": [\n      \"Exact employee headcount is not stated on the public website.\",\n      \"No individual owners, executives, or managers are named in the text of the About Us page or other pages read.\",\n      \"No business email address is published in the text or mailto links of the pages read.\",\n      \"Internal software configurations and actual lead-response times cannot be verified from public pages alone.\"\n    ]\n  },\n  \"qualification\": {\n    \"category\": \"not a fit\",\n    \"rationale\": \"ForgeX's target segment is owner-led HVAC, plumbing, and electrical contractors. Idaho Roofing Contractors LLC is exclusively a residential and commercial roofing contractor and does not provide HVAC, plumbing, or electrical services. Additionally, technical references on the website (leads.acculynx.com, app.roofle.com, birdeye.com) indicate the company already uses specialized roofing CRM, instant quoting, and reputation management tools.\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ]
+}
