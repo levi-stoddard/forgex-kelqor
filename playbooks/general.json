@@ -1,0 +1,16 @@
+{
+  "id": "general",
+  "version": 1,
+  "name": "Any industry",
+  "description": "Questions for every discovery conversation, whatever the industry. The goal is a problem worth solving, in the customer's words, not a fit for a package.",
+  "discoveryQuestions": [
+    { "id": "time", "text": "Which business processes take the most time?" },
+    { "id": "repetitive", "text": "What repetitive work frustrates your employees or managers?" },
+    { "id": "dropped", "text": "Where do tasks get delayed, duplicated or forgotten?" },
+    { "id": "costly", "text": "Which operational problems cost money or hurt customer satisfaction?" },
+    { "id": "software", "text": "What business software do you already use?" },
+    { "id": "tried", "text": "What have you tried to improve this, and what happened?" },
+    { "id": "automate", "text": "What would you most want automated or handled for you?" },
+    { "id": "worth", "text": "What outcome would justify paying for a managed service?" }
+  ]
+}

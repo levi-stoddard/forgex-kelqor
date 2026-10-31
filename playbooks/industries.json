@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "description": "The industries KELQOR works with. Add or change one here, not in code. Each names the discovery playbook it uses (playbooks/<id>.json) on top of the general questions. The match words suggest an industry from a research report's own description; the owner confirms or changes it.",
+  "industries": [
+    {
+      "label": "Home services and trades",
+      "playbook": "home-services",
+      "match": ["hvac", "heating", "air conditioning", "plumb", "electric", "roofing", "remodel", "renovation", "contracting", "contractor", "handyman", "home services", "drain", "water heater", "construction"]
+    },
+    { "label": "Manufacturing", "playbook": "general", "match": ["manufactur", "fabricat", "machining", "machine shop", "welding", "cnc", "metal works"] },
+    {
+      "label": "IT and technology services",
+      "playbook": "general",
+      "match": ["information technology", "managed it", "it services", "it support", "managed service provider", "msp", "cybersecurity", "computer repair"]
+    },
+    { "label": "Accounting and bookkeeping", "playbook": "general", "match": ["accounting", "bookkeeping", "cpa", "tax preparation", "payroll"] },
+    { "label": "Insurance agency", "playbook": "general", "match": ["insurance"] },
+    { "label": "Property management", "playbook": "general", "match": ["property management", "rental management", "hoa management"] },
+    { "label": "Professional services", "playbook": "general", "match": ["consulting", "law firm", "legal services", "marketing agency", "engineering services"] },
+    { "label": "Other", "playbook": "general", "match": [] }
+  ]
+}

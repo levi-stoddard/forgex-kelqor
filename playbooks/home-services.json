@@ -1,0 +1,46 @@
+{
+  "id": "home-services",
+  "version": 1,
+  "name": "Home services and trades",
+  "description": "Owner-led trades: HVAC, plumbing, electrical, roofing, remodeling and other home and building services. The first test market, not a boundary.",
+  "research": {
+    "note": "Benchmark protocol v1.3's segment and category definitions, word for word. The saved benchmark's prompt fingerprint depends on them: changing either needs a new protocol version.",
+    "segment": "owner-led home-service contractors (HVAC, plumbing and electrical) with about 10 to 75 staff who pay for leads",
+    "categories": {
+      "pursue now": "in ForgeX's segment, a fact on a page you read points to a problem a ForgeX offer addresses, nothing on the site shows it is already solved, and a business contact channel exists",
+      "pursue later": "a plausible fit, but the problems are hypotheses only",
+      "not a fit": "outside ForgeX's segment, or the company already owns or sells the solution",
+      "insufficient evidence": "the website couldn't be read, or it says too little to judge"
+    }
+  },
+  "discoveryQuestions": [
+    {
+      "id": "hs-leads",
+      "text": "Where do your leads come from, about how many a month, and what do you spend on them?"
+    },
+    {
+      "id": "hs-after-hours",
+      "text": "Walk me through the last lead that came in after hours. What happened to it?"
+    },
+    {
+      "id": "hs-phones",
+      "text": "Who answers the phone, and what happens when they can't?"
+    },
+    {
+      "id": "hs-response",
+      "text": "How do you know how fast each lead gets a response?"
+    },
+    {
+      "id": "hs-sources",
+      "text": "Which lead source is your best and your worst per booked job? How do you know?"
+    },
+    {
+      "id": "hs-tried",
+      "text": "What have you tried: an answering service, an AI receptionist, your software's add-ons? What happened?"
+    },
+    {
+      "id": "hs-measure",
+      "text": "If this were fixed, which number would tell you?"
+    }
+  ]
+}

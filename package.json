@@ -1,0 +1,69 @@
+{
+  "name": "forgex",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ForgeX: fixed-price, AI-scoped automation work orders delivered by vetted builders.",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "db:seed": "tsx scripts/seed.ts",
+    "setup": "npm run db:migrate && npm run db:seed",
+    "create-operator": "tsx scripts/create-operator.ts",
+    "designate-founder": "tsx scripts/designate-founder.ts",
+    "db:backup": "tsx scripts/backup-db.ts",
+    "db:rollback-m2b": "tsx scripts/rollback-m2b.ts",
+    "db:rollback-m3": "tsx scripts/rollback-m3.ts",
+    "db:rollback-m4": "tsx scripts/rollback-m4.ts",
+    "db:restore": "tsx scripts/restore-db.ts",
+    "customer:export": "tsx scripts/export-customer.ts",
+    "benchmark": "tsx scripts/benchmark-gemini.ts",
+    "benchmark:inputs": "tsx scripts/benchmark-inputs.ts",
+    "desktop:backend": "next dev --hostname 127.0.0.1 --port 3000",
+    "desktop:build": "node desktop/scripts/build.mjs",
+    "desktop:start": "node desktop/scripts/build.mjs && electron desktop",
+    "desktop:package": "node desktop/scripts/package.mjs",
+    "desktop:typecheck": "tsc -p desktop/tsconfig.json",
+    "desktop:acceptance": "node desktop/scripts/acceptance.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.3.0",
+    "@electric-sql/pglite": "0.5.12",
+    "@google/genai": "2.28.0",
+    "drizzle-orm": "0.45.4",
+    "lucide-react": "1.61.0",
+    "next": "16.4.3",
+    "pg": "8.23.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "stripe": "23.0.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^24",
+    "@types/pg": "^8",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "0.31.11",
+    "electron": "44.10.0",
+    "electron-winstaller": "5.4.4",
+    "esbuild": "0.28.2",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.15",
+    "typescript": "^5.9.2",
+    "vitest": "5.0.5"
+  },
+  "overrides": {
+    "esbuild": "$esbuild"
+  }
+}
