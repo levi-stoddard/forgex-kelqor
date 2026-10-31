@@ -1,0 +1,18 @@
+/* The web app's theme and component classes (fx-card, fx-btn, fx-input...), plus the shared components' classes. */
+@import "../../../src/app/globals.css";
+@source "../../../src/components";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.kq-scroll {
+  overflow-y: auto;
+  scrollbar-width: thin;
+}

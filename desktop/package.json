@@ -1,0 +1,10 @@
+{
+  "name": "kelqor",
+  "productName": "KELQOR",
+  "version": "0.4.0",
+  "description": "KELQOR Command Center for Windows (internal development build)",
+  "private": true,
+  "main": "dist/main.cjs",
+  "author": "KELQOR",
+  "license": "UNLICENSED"
+}
